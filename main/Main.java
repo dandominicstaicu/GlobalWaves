@@ -14,6 +14,7 @@ import commands.playlist.*;
 import commands.Command;
 
 import entities.Library;
+import entities.Player;
 import fileio.input.LibraryInput;
 
 import java.io.File;
@@ -28,81 +29,83 @@ import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 
 
-
 /**
  * The entry point to this homework. It runs the checker that tests your implentation.
  */
 public final class Main {
-    static final String LIBRARY_PATH = CheckerConstants.TESTS_PATH + "library/library.json";
+	static final String LIBRARY_PATH = CheckerConstants.TESTS_PATH + "library/library.json";
 
-    /**
-     * for coding style
-     */
-    private Main() {
-    }
+	/**
+	 * for coding style
+	 */
+	private Main() {
+	}
 
-    /**
-     * DO NOT MODIFY MAIN METHOD
-     * Call the checker
-     * @param args from command line
-     * @throws IOException in case of exceptions to reading / writing
-     */
-    public static void main(final String[] args) throws IOException {
-        File directory = new File(CheckerConstants.TESTS_PATH);
-        Path path = Paths.get(CheckerConstants.RESULT_PATH);
+	/**
+	 * DO NOT MODIFY MAIN METHOD
+	 * Call the checker
+	 *
+	 * @param args from command line
+	 * @throws IOException in case of exceptions to reading / writing
+	 */
+	public static void main(final String[] args) throws IOException {
+		File directory = new File(CheckerConstants.TESTS_PATH);
+		Path path = Paths.get(CheckerConstants.RESULT_PATH);
 
-        if (Files.exists(path)) {
-            File resultFile = new File(String.valueOf(path));
-            for (File file : Objects.requireNonNull(resultFile.listFiles())) {
-                file.delete();
-            }
-            resultFile.delete();
-        }
-        Files.createDirectories(path);
+		if (Files.exists(path)) {
+			File resultFile = new File(String.valueOf(path));
+			for (File file : Objects.requireNonNull(resultFile.listFiles())) {
+				file.delete();
+			}
+			resultFile.delete();
+		}
+		Files.createDirectories(path);
 
-        for (File file : Objects.requireNonNull(directory.listFiles())) {
-            if (file.getName().startsWith("library")) {
-                continue;
-            }
+		for (File file : Objects.requireNonNull(directory.listFiles())) {
+			if (file.getName().startsWith("library")) {
+				continue;
+			}
 
-            String filepath = CheckerConstants.OUT_PATH + file.getName();
-            File out = new File(filepath);
-            boolean isCreated = out.createNewFile();
-            if (isCreated) {
-                action(file.getName(), filepath);
-            }
-        }
+			String filepath = CheckerConstants.OUT_PATH + file.getName();
+			File out = new File(filepath);
+			boolean isCreated = out.createNewFile();
+			if (isCreated) {
+				action(file.getName(), filepath);
+			}
+		}
 
-        Checker.calculateScore();
-    }
+		Checker.calculateScore();
+	}
 
-    /**
-     * @param filePathInput for input file
-     * @param filePathOutput for output file
-     * @throws IOException in case of exceptions to reading / writing
-     */
+	/**
+	 * @param filePathInput  for input file
+	 * @param filePathOutput for output file
+	 * @throws IOException in case of exceptions to reading / writing
+	 */
 
 
-    public static void action(final String filePathInput,
-                              final String filePathOutput) throws IOException {
-        ObjectMapper objectMapper = new ObjectMapper();
-        LibraryInput libraryInput = objectMapper.readValue(new File(LIBRARY_PATH), LibraryInput.class);
+	public static void action(final String filePathInput,
+							  final String filePathOutput) throws IOException {
+		ObjectMapper objectMapper = new ObjectMapper();
+		LibraryInput libraryInput = objectMapper.readValue(new File(LIBRARY_PATH), LibraryInput.class);
 
-        ArrayNode outputs = objectMapper.createArrayNode();
+		ArrayNode outputs = objectMapper.createArrayNode();
 
-        // TODO add your implementation
+		// TODO add your implementation
 
-        ObjectMapper mapper = new ObjectMapper();
-        File readJSONFile = new File(CheckerConstants.TESTS_PATH + filePathInput);
-        List<Command> commands = null;
-        try {
-            commands = mapper.readValue(readJSONFile, new TypeReference<List<Command>>() {});
-            // Process the commands as needed
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+		ObjectMapper mapper = new ObjectMapper();
+		File readJSONFile = new File(CheckerConstants.TESTS_PATH + filePathInput);
+		List<Command> commands = null;
+		try {
+			commands = mapper.readValue(readJSONFile, new TypeReference<List<Command>>() {
+			});
+			// Process the commands as needed
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 
-//		assert commands != null;
+		assert commands != null;
+
 //		for (Command command : commands) {
 ////            System.out.println("Command Type: " + command.getCommand());
 //            System.out.println("Timestamp: " + command.getTimestamp());
@@ -117,9 +120,19 @@ public final class Main {
 //            }
 //        }
 
-        ObjectWriter objectWriter = objectMapper.writerWithDefaultPrettyPrinter();
-        objectWriter.writeValue(new File(filePathOutput), outputs);
-    }
+		// copy the library from the input library to a new object (a clone library)
+//		Library library = Library.initializeLibrary(libraryInput);
+
+		Player player = new Player(libraryInput);
+
+		for (Command command : commands) {
+			command.execute(outputs, player);
+		}
+
+
+		ObjectWriter objectWriter = objectMapper.writerWithDefaultPrettyPrinter();
+		objectWriter.writeValue(new File(filePathOutput), outputs);
+	}
 }
 
 

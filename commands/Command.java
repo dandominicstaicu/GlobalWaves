@@ -3,6 +3,7 @@ package commands;
 
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
+import com.fasterxml.jackson.databind.node.ArrayNode;
 import commands.player.*;
 import commands.playlist.CreatePlaylist;
 import commands.playlist.FollowPlaylist;
@@ -13,7 +14,9 @@ import commands.searchbar.Select;
 import commands.stats.GetTop5Playlists;
 import commands.stats.GetTop5Songs;
 import commands.stats.ShowPreferredSongs;
+import entities.Player;
 import lombok.*;
+
 
 @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.PROPERTY, property = "command")
 @JsonSubTypes({
@@ -45,15 +48,20 @@ import lombok.*;
 @AllArgsConstructor
 //@Builder
 public abstract class Command {
-//	private String command;
-	private String username;
 	private Integer timestamp;
 
-//    public abstract void execute(ArrayNode outputs, Library library);
+	@Override
+	public String toString() {
+		return "Command{" +
+				"timestamp=" + timestamp +
+				'}';
+	}
+
+	public abstract void execute(ArrayNode outputs, Player player);
 }
 
 // ChatGPT suggested using Command pattern or Visitor pattern
-// I chose using Command pattern because it's easier to implement for my request
+// I chose using Command pattern because it's easier to implement for this reqirements
 
 //In the Command Pattern, you encapsulate a request as an object, thereby
 //allowing parameterization of clients with different requests. Each command

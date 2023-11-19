@@ -1,17 +1,26 @@
 package entities;
 
 import fileio.input.EpisodeInput;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.util.ArrayList;
 
 @Getter
-public class Podcast {
-    private String name;
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class Podcast extends Playable implements AudioFileCollection {
+//    private String name;
     private String owner;
-    private ArrayList<EpisodeInput> episodes;
+    private ArrayList<Episode> episodes;
 
-    public Podcast() {
+    public Podcast(final String name, final String owner, final ArrayList<Episode> episodes) {
+        this.name = name;
+        this.owner = owner;
+        this.episodes = episodes;
     }
 
     public void setName(final String name) {
@@ -22,7 +31,7 @@ public class Podcast {
         this.owner = owner;
     }
 
-    public void setEpisodes(final ArrayList<EpisodeInput> episodes) {
+    public void setEpisodes(final ArrayList<Episode> episodes) {
         this.episodes = episodes;
     }
 }

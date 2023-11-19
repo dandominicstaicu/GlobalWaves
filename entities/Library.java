@@ -1,19 +1,17 @@
 package entities;
 
-import fileio.input.LibraryInput;
-import fileio.input.PodcastInput;
-import fileio.input.SongInput;
-import fileio.input.UserInput;
+import fileio.input.*;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 
 @Getter
 @Setter
-public class Library {
+public class Library implements AudioFileCollection {
     private List<Song> songs;
     private List<Playlist> playlists;
     private List<Podcast> podcasts;
@@ -63,17 +61,25 @@ public class Library {
 
         // Convert each SongInput to Song and add to library
         for (SongInput songInput : libraryInput.getSongs()) {
-            Song song = new Song(/* parameters based on songInput */);
+            Song song = new Song(songInput.getName(), songInput.getDuration(), songInput.getAlbum(), songInput.getTags(), songInput.getLyrics(),
+                                 songInput.getGenre(), songInput.getReleaseYear(), songInput.getArtist());
             library.addSong(song);
         }
 
         for (PodcastInput podcastInput : libraryInput.getPodcasts()) {
-            Podcast podcast = new Podcast(/* parameters based on podcastInput */);
+            ArrayList<Episode> episodes = new ArrayList<>();
+            for (EpisodeInput episodeInput : podcastInput.getEpisodes()) {
+                Episode episode = new Episode(episodeInput.getName(), episodeInput.getDuration(), episodeInput.getDescription());
+
+				episodes.add(episode);
+            }
+
+            Podcast podcast = new Podcast(podcastInput.getName(), podcastInput.getOwner(), episodes);
             library.addPodcast(podcast);
         }
 
         for (UserInput userInput : libraryInput.getUsers()) {
-            User user = new User(/* parameters based on userInput */);
+            User user = new User(userInput.getUsername(), userInput.getAge(), userInput.getCity());
             library.addUser(user);
         }
 
