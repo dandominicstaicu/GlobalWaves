@@ -76,4 +76,9 @@ public class Song extends AudioFile implements Playable {
         // add only one song to the queue of the userPlayer
         audioQueue.add(this);
     }
+
+    @Override
+    public boolean isSong() {
+        return true;
+    }
 }

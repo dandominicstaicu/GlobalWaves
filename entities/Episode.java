@@ -17,4 +17,9 @@ public class Episode extends AudioFile {
 		super.setDuration(duration);
 		this.description = description;
 	}
+
+	@Override
+	public boolean isSong() {
+		return false;
+	}
 }

@@ -11,7 +11,7 @@ import java.util.Queue;
 @Getter
 @AllArgsConstructor
 public class UserPlayer {
-//	private Song currentSong;
+	//	private Song currentSong;
 //	private Podcast currentPodcast;
 	private Integer startTimestamp;
 //	private Integer elapsedTimePlaying;
@@ -19,7 +19,6 @@ public class UserPlayer {
 	private Integer lastCommandTimestamp = 0;
 	private Integer timeElapsedSinceLastCommand = 0;
 	private Integer timeLeftToPlay = 0;
-
 
 	private SearchBar searchBar;
 

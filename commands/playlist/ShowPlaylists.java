@@ -1,27 +1,23 @@
-package commands.stats;
+package commands.playlist;
 
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
-import entities.Library;
-import entities.MainPlayer;
-import entities.Song;
+import entities.*;
 import lombok.*;
-
-import java.util.List;
 
 @Getter
 @Setter
 //@NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class ShowPreferredSongs extends Command {
+public class ShowPlaylists extends Command {
 //	private String username;
 
 	@Override
 	public String toString() {
 		return super.toString() +
-				"ShowPreferredSongs{" +
+				"ShowPlaylist{" +
 				'}';
 	}
 
@@ -30,17 +26,29 @@ public class ShowPreferredSongs extends Command {
 //		System.out.println(this.toString());
 		ObjectNode out = outputs.addObject();
 
-		out.put("command", "showPreferredSongs");
+		out.put("command", "showPlaylists");
 		out.put("user", getUsername());
 		out.put("timestamp", getTimestamp());
 
 		Library lib = player.getLibrary();
-		List<Song> favoriteSongs = lib.getUserWithUsername(getUsername()).getFavoriteSongs();
 
+		// chatGPT helped me write this part (the output of JSON)
 		ArrayNode resultArray = out.putArray("result");
-		for (Song song : favoriteSongs) {
-			resultArray.add(song.getName());
+		for (Playlist playlist : lib.getPlaylists()) {
+			ObjectNode playlistJson = resultArray.addObject();
+			playlistJson.put("name", playlist.getName());
+
+			ArrayNode songsArray = playlistJson.putArray("songs");
+			for (Song song : playlist.getSongs()) {
+				songsArray.add(song.getName());
+			}
+
+			playlistJson.put("visibility", playlist.getIsPublic() ? "public" : "private");
+			playlistJson.put("followers", playlist.getFollowers());
+
+
 		}
+
 
 	}
 }

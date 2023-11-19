@@ -15,12 +15,13 @@ public class Library implements AudioFileCollection {
 	private List<Song> songs;
 	private List<Podcast> podcasts;
 	private List<User> users;
+	private List<Playlist> playlists;
 
 	public Library() {
 		songs = new ArrayList<>();
 		podcasts = new ArrayList<>();
 		users = new ArrayList<>();
-
+		playlists = new ArrayList<>();
 	}
 
 	public void addSong(Song song) {
@@ -70,22 +71,22 @@ public class Library implements AudioFileCollection {
 		}
 
 		for (UserInput userInput : libraryInput.getUsers()) {
-			User user = new User(userInput.getUsername(), userInput.getAge(), userInput.getCity(), new ArrayList<Playlist>(), new UserPlayer());
+			User user = new User(userInput.getUsername(), userInput.getAge(), userInput.getCity(), new UserPlayer(), new ArrayList<>());
 			library.addUser(user);
 		}
 
 		return library;
 	}
 
-	public List<Playlist> getAllPlaylists() {
-		List<Playlist> allPlaylists = new ArrayList<>();
-
-		for (User user : users) {
-			allPlaylists.addAll(user.getPlaylists());
-		}
-
-		return allPlaylists;
-	}
+//	public List<Playlist> getAllPlaylists() {
+//		List<Playlist> allPlaylists = new ArrayList<>();
+//
+//		for (User user : users) {
+//			allPlaylists.addAll(user.getPlaylists());
+//		}
+//
+//		return allPlaylists;
+//	}
 
 	public User getUserWithUsername(String username) {
 		for (User user : users) {
@@ -97,4 +98,50 @@ public class Library implements AudioFileCollection {
 		return null;
 	}
 
+	public boolean createPlaylist(String playlistName, String username) {
+		if (returnPlaylistWithName(playlistName) != null)
+			return false;
+
+		Playlist playlist = new Playlist(playlistName, username, true, new ArrayList<>(), 0);
+		playlists.add(playlist);
+
+		return true;
+	}
+
+	public Playlist returnPlaylistWithName(String playlistName) {
+		for (Playlist playlist : playlists) {
+			if (playlist.getName().equals(playlistName)) {
+				return playlist;
+			}
+		}
+
+		return null;
+	}
+
+	public Song searchSongInPlaylist(String songName, Playlist playlist) {
+//		Playlist playlist = returnPlaylistWithName(playlistName);
+		if (playlist == null)
+			return null;
+
+		for (Song song : playlist.getSongs()) {
+			if (song.getName().equals(songName)) {
+				return song;
+			}
+		}
+
+		return null;
+	}
+
+	public boolean decideAddRemove(Integer playlistID, Song song) {
+		Playlist playlist = getPlaylists().get(playlistID - 1);
+		Song isSongInPlaylist = searchSongInPlaylist(song.getName(), playlist);
+
+		if (isSongInPlaylist != null) {
+			playlist.getSongs().remove(isSongInPlaylist);
+			return false;
+		} else {
+			playlist.getSongs().add(song);
+			return true;
+		}
+	}
 }

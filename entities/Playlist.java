@@ -16,13 +16,15 @@ public class Playlist implements AudioFileCollection, Playable {
     private String owner;
     private Boolean isPublic;
     private List<Song> songs;
+    private Integer followers;
 
     public Playlist(final String name, final String owner, final Boolean isPublic,
-                    final List<Song> songs) {
+                    final List<Song> songs, final Integer followers) {
         this.name = name;
         this.owner = owner;
         this.isPublic = isPublic;
         this.songs = songs;
+        this.followers = followers;
     }
 
     @Override

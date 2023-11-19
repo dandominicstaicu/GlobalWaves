@@ -7,7 +7,7 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import commands.player.*;
 import commands.playlist.CreatePlaylist;
 import commands.playlist.FollowPlaylist;
-import commands.playlist.ShowPlaylist;
+import commands.playlist.ShowPlaylists;
 import commands.playlist.SwitchVisibility;
 import commands.searchbar.Search;
 import commands.searchbar.Select;
@@ -24,7 +24,7 @@ import lombok.*;
 		@JsonSubTypes.Type(value = Select.class, name = "select"),
 		@JsonSubTypes.Type(value = CreatePlaylist.class, name = "createPlaylist"),
 		@JsonSubTypes.Type(value = FollowPlaylist.class, name = "follow"),
-		@JsonSubTypes.Type(value = ShowPlaylist.class, name = "showPlaylists"),
+		@JsonSubTypes.Type(value = ShowPlaylists.class, name = "showPlaylists"),
 		@JsonSubTypes.Type(value = SwitchVisibility.class, name = "switchVisibility"),
 		@JsonSubTypes.Type(value = Load.class, name = "load"),
 		@JsonSubTypes.Type(value = PlayPause.class, name = "playPause"),

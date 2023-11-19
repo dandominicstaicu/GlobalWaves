@@ -52,7 +52,8 @@ public class SearchBar {
 	}
 
 	private List<Playlist> searchPlaylists(Library library, Map<String, Object> filters, String username) {
-		return library.getAllPlaylists().stream()
+//		return library.getAllPlaylists().stream()
+		return library.getPlaylists().stream()
 				.filter(playlist -> matchesFiltersPlaylist(playlist, filters, username))
 				.collect(Collectors.toList());
 	}

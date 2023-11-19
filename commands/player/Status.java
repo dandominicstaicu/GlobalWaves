@@ -13,19 +13,15 @@ import lombok.*;
 @AllArgsConstructor
 @Builder
 public class Status extends Command {
-//    private String username;
-
-//    @Override
-//    public String toString() {
-//        return super.toString() +
-//                "Status{" +
-//                "username='" + username + '\'' +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        return super.toString() +
+                "Status{" +
+                '}';
+    }
 
     @Override
     public void execute(ArrayNode outputs, MainPlayer player) {
-//        System.out.println(this.toString());
         ObjectNode out = outputs.addObject();
         out.put("command", "status");
         out.put("user", getUsername());
