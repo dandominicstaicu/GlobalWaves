@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 @AllArgsConstructor
 public class SearchBar {
 	private List<Playable> lastSearchResults;
-	private Playable selectedResult;
+	private Playable selectedResult = null;
 
 	// ChatGPT helped me structure this method and wrote some of the code for the actual searching
 	public List<Playable> search(Library library, String type, Map<String, Object> filters, String username) {
@@ -52,7 +52,7 @@ public class SearchBar {
 	}
 
 	private List<Playlist> searchPlaylists(Library library, Map<String, Object> filters, String username) {
-		return library.getPlaylists().stream()
+		return library.getAllPlaylists().stream()
 				.filter(playlist -> matchesFiltersPlaylist(playlist, filters, username))
 				.collect(Collectors.toList());
 	}

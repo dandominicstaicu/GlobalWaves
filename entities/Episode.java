@@ -9,9 +9,12 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Episode implements AudioFile {
-	private String name;
-	private Integer duration;
+public class Episode extends AudioFile {
 	private String description;
 
+	public Episode(String name, Integer duration, String description) {
+		super.setName(name);
+		super.setDuration(duration);
+		this.description = description;
+	}
 }

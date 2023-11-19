@@ -2,28 +2,26 @@ package commands.playlist;
 
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import commands.Command;
-import entities.Library;
-import entities.Player;
+import entities.MainPlayer;
 import lombok.*;
 
 @Getter
 @Setter
-@NoArgsConstructor
+//@NoArgsConstructor
 @AllArgsConstructor
 @Builder
 public class ShowPlaylist extends Command {
-	private String username;
+//	private String username;
 
 	@Override
 	public String toString() {
 		return super.toString() +
 				"ShowPlaylist{" +
-				"username='" + username + '\'' +
 				'}';
 	}
 
 	@Override
-	public void execute(ArrayNode outputs, Player player) {
+	public void execute(ArrayNode outputs, MainPlayer player) {
 		System.out.println(this.toString());
 	}
 }

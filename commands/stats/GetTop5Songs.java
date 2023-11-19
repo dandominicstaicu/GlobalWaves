@@ -2,8 +2,7 @@ package commands.stats;
 
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import commands.Command;
-import entities.Library;
-import entities.Player;
+import entities.MainPlayer;
 import lombok.*;
 
 @Getter
@@ -18,7 +17,7 @@ public class GetTop5Songs extends Command {
 	}
 
 	@Override
-	public void execute(ArrayNode outputs, Player player) {
+	public void execute(ArrayNode outputs, MainPlayer player) {
 		System.out.println(this.toString());
 	}
 }

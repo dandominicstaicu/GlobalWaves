@@ -5,6 +5,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.List;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -13,6 +15,8 @@ public class User {
     private String username;
     private int age;
     private String city;
+    private List<Playlist> playlists;
+    private UserPlayer player;
 
     public void setUsername(final String username) {
         this.username = username;

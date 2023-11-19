@@ -7,14 +7,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 
-import commands.searchbar.*;
-import commands.player.*;
-import commands.stats.*;
-import commands.playlist.*;
 import commands.Command;
 
-import entities.Library;
-import entities.Player;
+import entities.MainPlayer;
+import entities.User;
+import entities.UserPlayer;
 import fileio.input.LibraryInput;
 
 import java.io.File;
@@ -24,9 +21,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 import java.util.Objects;
-
-import com.fasterxml.jackson.annotation.JsonSubTypes;
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
 
 
 /**
@@ -123,9 +117,15 @@ public final class Main {
 		// copy the library from the input library to a new object (a clone library)
 //		Library library = Library.initializeLibrary(libraryInput);
 
-		Player player = new Player(libraryInput);
+		MainPlayer player = new MainPlayer(libraryInput);
 
 		for (Command command : commands) {
+			// if the command has a user, so is diferent from getTop5 commands
+			if (command.getUsername() != null) {
+				UserPlayer userPlayer = player.getLibrary().getUserWithUsername(command.getUsername()).getPlayer();
+				userPlayer.updateTime(command.getTimestamp());
+			}
+
 			command.execute(outputs, player);
 		}
 

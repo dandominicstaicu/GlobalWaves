@@ -14,7 +14,7 @@ import commands.searchbar.Select;
 import commands.stats.GetTop5Playlists;
 import commands.stats.GetTop5Songs;
 import commands.stats.ShowPreferredSongs;
-import entities.Player;
+import entities.MainPlayer;
 import lombok.*;
 
 
@@ -48,16 +48,18 @@ import lombok.*;
 @AllArgsConstructor
 //@Builder
 public abstract class Command {
+	private String username;
 	private Integer timestamp;
 
 	@Override
 	public String toString() {
 		return "Command{" +
-				"timestamp=" + timestamp +
+				"username='" + username + '\'' +
+				", timestamp=" + timestamp +
 				'}';
 	}
 
-	public abstract void execute(ArrayNode outputs, Player player);
+	public abstract void execute(ArrayNode outputs, MainPlayer player);
 }
 
 // ChatGPT suggested using Command pattern or Visitor pattern

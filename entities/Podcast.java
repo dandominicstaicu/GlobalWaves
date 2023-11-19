@@ -7,13 +7,13 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.ArrayList;
+import java.util.Queue;
 
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
-public class Podcast extends Playable implements AudioFileCollection {
-//    private String name;
+public class Podcast implements AudioFileCollection, Playable{
+    private String name;
     private String owner;
     private ArrayList<Episode> episodes;
 
@@ -25,6 +25,24 @@ public class Podcast extends Playable implements AudioFileCollection {
 
     public void setName(final String name) {
         this.name = name;
+    }
+
+    @Override
+    public boolean isEmpty() {
+		return episodes.isEmpty();
+	}
+
+    @Override
+    public Integer getDuration() {
+        return null;
+    }
+
+    @Override
+    public void loadToQueue(Queue<AudioFile> audioQueue) {
+        // maybe clear the queue before adding
+
+        // add all episodes to the queue of the userPlayer
+        audioQueue.addAll(episodes);
     }
 
     public void setOwner(final String owner) {

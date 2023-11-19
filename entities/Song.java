@@ -7,14 +7,12 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.ArrayList;
+import java.util.Queue;
 
 @Getter
 @Setter
-@AllArgsConstructor
 @NoArgsConstructor
-public class Song extends Playable implements AudioFile {
-//    private String name;
-    private Integer duration;
+public class Song extends AudioFile implements Playable {
     private String album;
     private ArrayList<String> tags;
     private String lyrics;
@@ -24,8 +22,8 @@ public class Song extends Playable implements AudioFile {
 
     public Song(String name, Integer duration, String Album, ArrayList<String> tags,
                      String lyrics, String genre, Integer releaseYear, String artist) {
-        this.name = name;
-        this.duration = duration;
+        super.setName(name);
+        super.setDuration(duration);
         this.album = Album;
         this.tags = tags;
         this.lyrics = lyrics;
@@ -35,11 +33,11 @@ public class Song extends Playable implements AudioFile {
     }
 
     public void setName(String name) {
-        this.name = name;
+        super.setName(name);
     }
 
     public void setDuration(Integer duration) {
-        this.duration = duration;
+        super.setDuration(duration);
     }
 
     public void setAlbum(String album) {
@@ -64,5 +62,18 @@ public class Song extends Playable implements AudioFile {
 
     public void setArtist(String artist) {
         this.artist = artist;
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return false;
+    }
+
+    @Override
+    public void loadToQueue(Queue<AudioFile> audioQueue) {
+        // MAYBE clear the queue before loading
+
+        // add only one song to the queue of the userPlayer
+        audioQueue.add(this);
     }
 }

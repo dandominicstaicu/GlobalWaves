@@ -6,13 +6,13 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.List;
+import java.util.Queue;
 
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
-public class Playlist extends Playable implements AudioFileCollection {
-//    private String name;
+public class Playlist implements AudioFileCollection, Playable {
+    private String name;
     private String owner;
     private Boolean isPublic;
     private List<Song> songs;
@@ -23,5 +23,27 @@ public class Playlist extends Playable implements AudioFileCollection {
         this.owner = owner;
         this.isPublic = isPublic;
         this.songs = songs;
+    }
+
+    @Override
+    public boolean isEmpty() {
+        if (songs.isEmpty())
+            return true;
+
+        return false;
+    }
+
+    @Override
+    public Integer getDuration() {
+        // TODO remove
+        return null;
+    }
+
+    @Override
+    public void loadToQueue(Queue<AudioFile> audioQueue) {
+        // maybe clear the queue before adding
+
+        // add all songs to the queue of the userPlayer
+        audioQueue.addAll(songs);
     }
 }
