@@ -86,7 +86,7 @@ public class SearchBar {
 					}
 					break;
 				case "lyrics":
-					if (!song.getLyrics().contains((String) filter.getValue())) {
+					if (!song.getLyrics().toLowerCase().contains(((String) filter.getValue()).toLowerCase())) {
 						return false;
 					}
 					break;

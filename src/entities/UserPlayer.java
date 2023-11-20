@@ -69,7 +69,7 @@ public class UserPlayer {
 		lastCommandTimestamp = currentTimestamp;
 	}
 
-	public boolean loadSource(Playable playable, Integer startTimestamp) {
+	public boolean loadSource(Playable playable, Integer startTimestamp, UserPlayer userPlayer) {
 		if (playable == null) {
 			return false;
 		}
@@ -84,6 +84,8 @@ public class UserPlayer {
 		// Additional logic to load the AudioFiles from the Playable object
 		playable.loadToQueue(this.audioQueue);
 		this.setTimeLeftToPlay(audioQueue.element().getDuration() - audioQueue.element().getPlayedTime());
+
+		userPlayer.getSearchBar().setSelectedResult(null);
 
 		return true;
 	}

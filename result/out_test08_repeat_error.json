@@ -57,17 +57,17 @@
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 3000,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 3100,
   "stats" : {
-    "name" : "The Unforgiven",
-    "remainedTime" : 286,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "createPlaylist",

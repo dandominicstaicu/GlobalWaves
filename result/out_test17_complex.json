@@ -176,12 +176,12 @@
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 385,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
   "timestamp" : 390,
-  "message" : "Successfully added to playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -197,12 +197,12 @@
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 410,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
   "timestamp" : 415,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -281,12 +281,12 @@
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 510,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
   "timestamp" : 515,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -334,12 +334,12 @@
   "user" : "alice22",
   "timestamp" : 575,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 580,
-  "message" : "Successfully selected Maps."
+  "message" : "Successfully selected Sad But True."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -475,7 +475,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
   "timestamp" : 740,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -559,7 +559,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
   "timestamp" : 840,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -596,12 +596,12 @@
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 885,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
   "timestamp" : 890,
-  "message" : "Successfully added to playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -701,12 +701,12 @@
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 1010,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
   "timestamp" : 1015,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -754,12 +754,12 @@
   "user" : "bob35",
   "timestamp" : 1075,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 1080,
-  "message" : "Successfully selected Bohemian Rhapsody."
+  "message" : "Successfully selected Gimme Shelter."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -769,7 +769,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
   "timestamp" : 1090,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -785,12 +785,12 @@
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 1110,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
   "timestamp" : 1115,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -806,12 +806,12 @@
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 1135,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
   "timestamp" : 1140,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -859,12 +859,12 @@
   "user" : "bob35",
   "timestamp" : 1200,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 1205,
-  "message" : "Successfully selected Maps."
+  "message" : "Successfully selected Sad But True."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -901,12 +901,12 @@
   "user" : "bob35",
   "timestamp" : 1250,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 1255,
-  "message" : "Successfully selected Maps."
+  "message" : "Successfully selected Sad But True."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -922,7 +922,7 @@
   "user" : "bob35",
   "timestamp" : 1275,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -964,7 +964,7 @@
   "user" : "carol19",
   "timestamp" : 1325,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -985,12 +985,12 @@
   "user" : "carol19",
   "timestamp" : 1350,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1355,
-  "message" : "Successfully selected Gimme Shelter."
+  "message" : "Successfully selected Maps."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -1000,7 +1000,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "carol19",
   "timestamp" : 1365,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -1016,12 +1016,12 @@
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 1385,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "carol19",
   "timestamp" : 1390,
-  "message" : "Successfully added to playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -1058,12 +1058,12 @@
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 1435,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "carol19",
   "timestamp" : 1440,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -1079,12 +1079,12 @@
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 1460,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "carol19",
   "timestamp" : 1465,
-  "message" : "Successfully added to playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -1100,12 +1100,12 @@
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 1485,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "carol19",
   "timestamp" : 1490,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -1142,12 +1142,12 @@
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 1535,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "carol19",
   "timestamp" : 1540,
-  "message" : "Successfully added to playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -1163,23 +1163,23 @@
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 1560,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "carol19",
   "timestamp" : 1565,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1575,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1580,
-  "message" : "Successfully selected Gimme Shelter."
+  "message" : "Successfully selected Maps."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -1226,12 +1226,12 @@
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 1635,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "carol19",
   "timestamp" : 1640,
-  "message" : "Successfully added to playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -1247,12 +1247,12 @@
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 1660,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "carol19",
   "timestamp" : 1665,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -1268,23 +1268,23 @@
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 1685,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "carol19",
   "timestamp" : 1690,
-  "message" : "Successfully added to playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1700,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1705,
-  "message" : "Successfully selected Sad But True."
+  "message" : "Successfully selected Start Me Up."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -1294,7 +1294,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "carol19",
   "timestamp" : 1715,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -1315,18 +1315,18 @@
   "command" : "addRemoveInPlaylist",
   "user" : "carol19",
   "timestamp" : 1740,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1750,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1755,
-  "message" : "Successfully selected Sad But True."
+  "message" : "Successfully selected Start Me Up."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -1336,7 +1336,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "carol19",
   "timestamp" : 1765,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -1363,12 +1363,12 @@
   "user" : "david27",
   "timestamp" : 1800,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 1805,
-  "message" : "Successfully selected Sad But True."
+  "message" : "Successfully selected Start Me Up."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -1378,7 +1378,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "david27",
   "timestamp" : 1815,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -1489,12 +1489,12 @@
   "user" : "david27",
   "timestamp" : 1950,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 1955,
-  "message" : "Successfully selected Bohemian Rhapsody."
+  "message" : "Successfully selected Gimme Shelter."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -1541,12 +1541,12 @@
   "command" : "load",
   "user" : "david27",
   "timestamp" : 2010,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "david27",
   "timestamp" : 2015,
-  "message" : "Successfully added to playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -1583,12 +1583,12 @@
   "command" : "load",
   "user" : "david27",
   "timestamp" : 2060,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "david27",
   "timestamp" : 2065,
-  "message" : "Successfully added to playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -1625,12 +1625,12 @@
   "command" : "load",
   "user" : "david27",
   "timestamp" : 2110,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "david27",
   "timestamp" : 2115,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -1667,12 +1667,12 @@
   "command" : "load",
   "user" : "david27",
   "timestamp" : 2160,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "david27",
   "timestamp" : 2165,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -1693,7 +1693,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "david27",
   "timestamp" : 2190,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -1882,7 +1882,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "emily30",
   "timestamp" : 2415,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -1898,12 +1898,12 @@
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 2435,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "emily30",
   "timestamp" : 2440,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -1940,12 +1940,12 @@
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 2485,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "emily30",
   "timestamp" : 2490,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -1982,12 +1982,12 @@
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 2535,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "emily30",
   "timestamp" : 2540,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -2003,12 +2003,12 @@
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 2560,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "emily30",
   "timestamp" : 2565,
-  "message" : "Successfully added to playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -2029,7 +2029,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "emily30",
   "timestamp" : 2590,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -2045,12 +2045,12 @@
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 2610,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "emily30",
   "timestamp" : 2615,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -2077,7 +2077,7 @@
   "user" : "emily30",
   "timestamp" : 2650,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -2113,7 +2113,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "emily30",
   "timestamp" : 2690,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -2150,12 +2150,12 @@
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 2735,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "emily30",
   "timestamp" : 2740,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -2197,18 +2197,18 @@
   "command" : "addRemoveInPlaylist",
   "user" : "emily30",
   "timestamp" : 2790,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 2800,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 2805,
-  "message" : "Successfully selected Bohemian Rhapsody."
+  "message" : "Successfully selected Gimme Shelter."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -2218,7 +2218,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "frank21",
   "timestamp" : 2815,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -2239,7 +2239,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "frank21",
   "timestamp" : 2840,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -2260,7 +2260,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "frank21",
   "timestamp" : 2865,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -2281,7 +2281,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "frank21",
   "timestamp" : 2890,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -2323,7 +2323,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "frank21",
   "timestamp" : 2940,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -2344,7 +2344,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "frank21",
   "timestamp" : 2965,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -2365,7 +2365,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "frank21",
   "timestamp" : 2990,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -2386,7 +2386,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "frank21",
   "timestamp" : 3015,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -2407,7 +2407,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "frank21",
   "timestamp" : 3040,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -2428,7 +2428,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "frank21",
   "timestamp" : 3065,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -2465,12 +2465,12 @@
   "command" : "load",
   "user" : "frank21",
   "timestamp" : 3110,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "frank21",
   "timestamp" : 3115,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -2491,7 +2491,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "frank21",
   "timestamp" : 3140,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -2507,12 +2507,12 @@
   "command" : "load",
   "user" : "frank21",
   "timestamp" : 3160,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "frank21",
   "timestamp" : 3165,
-  "message" : "Successfully added to playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -2596,7 +2596,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "frank21",
   "timestamp" : 3265,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -2659,18 +2659,18 @@
   "command" : "addRemoveInPlaylist",
   "user" : "grace25",
   "timestamp" : 3340,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3350,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 3355,
-  "message" : "Successfully selected Maps."
+  "message" : "Successfully selected Sad But True."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -2686,12 +2686,12 @@
   "user" : "grace25",
   "timestamp" : 3375,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 3380,
-  "message" : "Successfully selected Maps."
+  "message" : "Successfully selected Sad But True."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -2743,7 +2743,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "grace25",
   "timestamp" : 3440,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -2806,7 +2806,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "grace25",
   "timestamp" : 3515,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -2827,7 +2827,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "grace25",
   "timestamp" : 3540,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -2843,12 +2843,12 @@
   "command" : "load",
   "user" : "grace25",
   "timestamp" : 3560,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "grace25",
   "timestamp" : 3565,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -2864,12 +2864,12 @@
   "command" : "load",
   "user" : "grace25",
   "timestamp" : 3585,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "grace25",
   "timestamp" : 3590,
-  "message" : "Successfully added to playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -2927,12 +2927,12 @@
   "command" : "load",
   "user" : "grace25",
   "timestamp" : 3660,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "grace25",
   "timestamp" : 3665,
-  "message" : "Successfully added to playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -2974,7 +2974,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "grace25",
   "timestamp" : 3715,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -3032,12 +3032,12 @@
   "command" : "load",
   "user" : "grace25",
   "timestamp" : 3785,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "grace25",
   "timestamp" : 3790,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -3058,18 +3058,18 @@
   "command" : "addRemoveInPlaylist",
   "user" : "henry26",
   "timestamp" : 3815,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 3825,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 3830,
-  "message" : "Successfully selected Sad But True."
+  "message" : "Successfully selected Start Me Up."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -3079,7 +3079,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "henry26",
   "timestamp" : 3840,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -3095,12 +3095,12 @@
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 3860,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "henry26",
   "timestamp" : 3865,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -3163,13 +3163,13 @@
   "command" : "addRemoveInPlaylist",
   "user" : "henry26",
   "timestamp" : 3940,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 3950,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -3205,7 +3205,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "henry26",
   "timestamp" : 3990,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -3221,12 +3221,12 @@
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 4010,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "henry26",
   "timestamp" : 4015,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -3268,7 +3268,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "henry26",
   "timestamp" : 4065,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -3284,12 +3284,12 @@
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 4085,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "henry26",
   "timestamp" : 4090,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -3305,12 +3305,12 @@
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 4110,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "henry26",
   "timestamp" : 4115,
-  "message" : "Successfully added to playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -3352,7 +3352,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "henry26",
   "timestamp" : 4165,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -3415,7 +3415,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "henry26",
   "timestamp" : 4240,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -3431,23 +3431,23 @@
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 4260,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "henry26",
   "timestamp" : 4265,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4275,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 4280,
-  "message" : "Successfully selected Gimme Shelter."
+  "message" : "Successfully selected Maps."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -3515,12 +3515,12 @@
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 4360,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "irene33",
   "timestamp" : 4365,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -3536,12 +3536,12 @@
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 4385,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "irene33",
   "timestamp" : 4390,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -3641,12 +3641,12 @@
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 4510,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "irene33",
   "timestamp" : 4515,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -3673,12 +3673,12 @@
   "user" : "irene33",
   "timestamp" : 4550,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 4555,
-  "message" : "Successfully selected Maps."
+  "message" : "Successfully selected Sad But True."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -3694,7 +3694,7 @@
   "user" : "irene33",
   "timestamp" : 4575,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -3709,7 +3709,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "irene33",
   "timestamp" : 4590,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -3730,7 +3730,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "irene33",
   "timestamp" : 4615,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -3751,7 +3751,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "irene33",
   "timestamp" : 4640,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -3793,7 +3793,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "irene33",
   "timestamp" : 4690,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -3814,7 +3814,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "irene33",
   "timestamp" : 4715,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -3835,7 +3835,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "irene33",
   "timestamp" : 4740,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -3851,12 +3851,12 @@
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 4760,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "irene33",
   "timestamp" : 4765,
-  "message" : "Successfully removed from playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -3872,12 +3872,12 @@
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 4785,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "irene33",
   "timestamp" : 4790,
-  "message" : "Successfully added to playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -3919,7 +3919,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "jack29",
   "timestamp" : 4840,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -3935,12 +3935,12 @@
   "command" : "load",
   "user" : "jack29",
   "timestamp" : 4860,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "jack29",
   "timestamp" : 4865,
-  "message" : "Successfully added to playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -3961,7 +3961,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "jack29",
   "timestamp" : 4890,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -3977,12 +3977,12 @@
   "command" : "load",
   "user" : "jack29",
   "timestamp" : 4910,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "jack29",
   "timestamp" : 4915,
-  "message" : "Successfully added to playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -3998,12 +3998,12 @@
   "command" : "load",
   "user" : "jack29",
   "timestamp" : 4935,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "jack29",
   "timestamp" : 4940,
-  "message" : "Successfully added to playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -4024,18 +4024,18 @@
   "command" : "addRemoveInPlaylist",
   "user" : "jack29",
   "timestamp" : 4965,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 4975,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 4980,
-  "message" : "Successfully selected Gimme Shelter."
+  "message" : "Successfully selected Maps."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -4051,12 +4051,12 @@
   "user" : "jack29",
   "timestamp" : 5000,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 5005,
-  "message" : "Successfully selected Sad But True."
+  "message" : "Successfully selected Start Me Up."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -4066,7 +4066,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "jack29",
   "timestamp" : 5015,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -4087,7 +4087,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "jack29",
   "timestamp" : 5040,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -4150,7 +4150,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "jack29",
   "timestamp" : 5115,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -4166,12 +4166,12 @@
   "command" : "load",
   "user" : "jack29",
   "timestamp" : 5135,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "jack29",
   "timestamp" : 5140,
-  "message" : "Successfully added to playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -4213,7 +4213,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "jack29",
   "timestamp" : 5190,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -4240,12 +4240,12 @@
   "user" : "jack29",
   "timestamp" : 5225,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 5230,
-  "message" : "Successfully selected Gimme Shelter."
+  "message" : "Successfully selected Maps."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -4261,12 +4261,12 @@
   "user" : "jack29",
   "timestamp" : 5250,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 5255,
-  "message" : "Successfully selected Maps."
+  "message" : "Successfully selected Sad But True."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -4292,24 +4292,24 @@
   "command" : "load",
   "user" : "jack29",
   "timestamp" : 5285,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "jack29",
   "timestamp" : 5290,
-  "message" : "Successfully added to playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "showPlaylists",
   "user" : "alice22",
   "timestamp" : 5300,
   "result" : [ {
     "name" : "Classic Harmonies Dream #1",
-    "songs" : [ "Angie", "Start Me Up", "Whatever You Need", "Big Pimpin'", "Dream On", "Under Pressure", "Shape of You", "Happier", "The Unforgiven", "Money Trees", "Delicate", "Blank Space", "The Man", "Maps" ],
+    "songs" : [ "Angie", "Big Pimpin'", "Delicate", "Under Pressure", "Shape of You", "Money Trees", "Begin Again", "Don't", "Start Me Up", "Stairway to Heaven", "Black Dog", "The Man" ],
     "visibility" : "public",
     "followers" : 0
   }, {
     "name" : "Breezy Rhythms Trek #1",
-    "songs" : [ "Big Pimpin'", "Under Pressure", "Stairway to Heaven", "The Man", "Thinking Out Loud", "Shape of You", "Delicate", "Blank Space", "Begin Again", "Maps" ],
+    "songs" : [ "Big Pimpin'", "Maps", "Stairway to Heaven", "Bohemian Rhapsody", "Love Story", "Gimme Shelter", "The Man", "Don't", "Thinking Out Loud", "Black Dog", "Shape of You", "Money Trees", "Delicate", "Begin Again", "Sad But True" ],
     "visibility" : "public",
     "followers" : 0
   }, {
@@ -4409,12 +4409,12 @@
   "timestamp" : 5310,
   "result" : [ {
     "name" : "Classic Harmonies Dream #1",
-    "songs" : [ "Angie", "Start Me Up", "Whatever You Need", "Big Pimpin'", "Dream On", "Under Pressure", "Shape of You", "Happier", "The Unforgiven", "Money Trees", "Delicate", "Blank Space", "The Man", "Maps" ],
+    "songs" : [ "Angie", "Big Pimpin'", "Delicate", "Under Pressure", "Shape of You", "Money Trees", "Begin Again", "Don't", "Start Me Up", "Stairway to Heaven", "Black Dog", "The Man" ],
     "visibility" : "public",
     "followers" : 0
   }, {
     "name" : "Breezy Rhythms Trek #1",
-    "songs" : [ "Big Pimpin'", "Under Pressure", "Stairway to Heaven", "The Man", "Thinking Out Loud", "Shape of You", "Delicate", "Blank Space", "Begin Again", "Maps" ],
+    "songs" : [ "Big Pimpin'", "Maps", "Stairway to Heaven", "Bohemian Rhapsody", "Love Story", "Gimme Shelter", "The Man", "Don't", "Thinking Out Loud", "Black Dog", "Shape of You", "Money Trees", "Delicate", "Begin Again", "Sad But True" ],
     "visibility" : "public",
     "followers" : 0
   }, {
@@ -4514,12 +4514,12 @@
   "timestamp" : 5320,
   "result" : [ {
     "name" : "Classic Harmonies Dream #1",
-    "songs" : [ "Angie", "Start Me Up", "Whatever You Need", "Big Pimpin'", "Dream On", "Under Pressure", "Shape of You", "Happier", "The Unforgiven", "Money Trees", "Delicate", "Blank Space", "The Man", "Maps" ],
+    "songs" : [ "Angie", "Big Pimpin'", "Delicate", "Under Pressure", "Shape of You", "Money Trees", "Begin Again", "Don't", "Start Me Up", "Stairway to Heaven", "Black Dog", "The Man" ],
     "visibility" : "public",
     "followers" : 0
   }, {
     "name" : "Breezy Rhythms Trek #1",
-    "songs" : [ "Big Pimpin'", "Under Pressure", "Stairway to Heaven", "The Man", "Thinking Out Loud", "Shape of You", "Delicate", "Blank Space", "Begin Again", "Maps" ],
+    "songs" : [ "Big Pimpin'", "Maps", "Stairway to Heaven", "Bohemian Rhapsody", "Love Story", "Gimme Shelter", "The Man", "Don't", "Thinking Out Loud", "Black Dog", "Shape of You", "Money Trees", "Delicate", "Begin Again", "Sad But True" ],
     "visibility" : "public",
     "followers" : 0
   }, {
@@ -4619,12 +4619,12 @@
   "timestamp" : 5330,
   "result" : [ {
     "name" : "Classic Harmonies Dream #1",
-    "songs" : [ "Angie", "Start Me Up", "Whatever You Need", "Big Pimpin'", "Dream On", "Under Pressure", "Shape of You", "Happier", "The Unforgiven", "Money Trees", "Delicate", "Blank Space", "The Man", "Maps" ],
+    "songs" : [ "Angie", "Big Pimpin'", "Delicate", "Under Pressure", "Shape of You", "Money Trees", "Begin Again", "Don't", "Start Me Up", "Stairway to Heaven", "Black Dog", "The Man" ],
     "visibility" : "public",
     "followers" : 0
   }, {
     "name" : "Breezy Rhythms Trek #1",
-    "songs" : [ "Big Pimpin'", "Under Pressure", "Stairway to Heaven", "The Man", "Thinking Out Loud", "Shape of You", "Delicate", "Blank Space", "Begin Again", "Maps" ],
+    "songs" : [ "Big Pimpin'", "Maps", "Stairway to Heaven", "Bohemian Rhapsody", "Love Story", "Gimme Shelter", "The Man", "Don't", "Thinking Out Loud", "Black Dog", "Shape of You", "Money Trees", "Delicate", "Begin Again", "Sad But True" ],
     "visibility" : "public",
     "followers" : 0
   }, {
@@ -4724,12 +4724,12 @@
   "timestamp" : 5340,
   "result" : [ {
     "name" : "Classic Harmonies Dream #1",
-    "songs" : [ "Angie", "Start Me Up", "Whatever You Need", "Big Pimpin'", "Dream On", "Under Pressure", "Shape of You", "Happier", "The Unforgiven", "Money Trees", "Delicate", "Blank Space", "The Man", "Maps" ],
+    "songs" : [ "Angie", "Big Pimpin'", "Delicate", "Under Pressure", "Shape of You", "Money Trees", "Begin Again", "Don't", "Start Me Up", "Stairway to Heaven", "Black Dog", "The Man" ],
     "visibility" : "public",
     "followers" : 0
   }, {
     "name" : "Breezy Rhythms Trek #1",
-    "songs" : [ "Big Pimpin'", "Under Pressure", "Stairway to Heaven", "The Man", "Thinking Out Loud", "Shape of You", "Delicate", "Blank Space", "Begin Again", "Maps" ],
+    "songs" : [ "Big Pimpin'", "Maps", "Stairway to Heaven", "Bohemian Rhapsody", "Love Story", "Gimme Shelter", "The Man", "Don't", "Thinking Out Loud", "Black Dog", "Shape of You", "Money Trees", "Delicate", "Begin Again", "Sad But True" ],
     "visibility" : "public",
     "followers" : 0
   }, {
@@ -4829,12 +4829,12 @@
   "timestamp" : 5350,
   "result" : [ {
     "name" : "Classic Harmonies Dream #1",
-    "songs" : [ "Angie", "Start Me Up", "Whatever You Need", "Big Pimpin'", "Dream On", "Under Pressure", "Shape of You", "Happier", "The Unforgiven", "Money Trees", "Delicate", "Blank Space", "The Man", "Maps" ],
+    "songs" : [ "Angie", "Big Pimpin'", "Delicate", "Under Pressure", "Shape of You", "Money Trees", "Begin Again", "Don't", "Start Me Up", "Stairway to Heaven", "Black Dog", "The Man" ],
     "visibility" : "public",
     "followers" : 0
   }, {
     "name" : "Breezy Rhythms Trek #1",
-    "songs" : [ "Big Pimpin'", "Under Pressure", "Stairway to Heaven", "The Man", "Thinking Out Loud", "Shape of You", "Delicate", "Blank Space", "Begin Again", "Maps" ],
+    "songs" : [ "Big Pimpin'", "Maps", "Stairway to Heaven", "Bohemian Rhapsody", "Love Story", "Gimme Shelter", "The Man", "Don't", "Thinking Out Loud", "Black Dog", "Shape of You", "Money Trees", "Delicate", "Begin Again", "Sad But True" ],
     "visibility" : "public",
     "followers" : 0
   }, {
@@ -4934,12 +4934,12 @@
   "timestamp" : 5360,
   "result" : [ {
     "name" : "Classic Harmonies Dream #1",
-    "songs" : [ "Angie", "Start Me Up", "Whatever You Need", "Big Pimpin'", "Dream On", "Under Pressure", "Shape of You", "Happier", "The Unforgiven", "Money Trees", "Delicate", "Blank Space", "The Man", "Maps" ],
+    "songs" : [ "Angie", "Big Pimpin'", "Delicate", "Under Pressure", "Shape of You", "Money Trees", "Begin Again", "Don't", "Start Me Up", "Stairway to Heaven", "Black Dog", "The Man" ],
     "visibility" : "public",
     "followers" : 0
   }, {
     "name" : "Breezy Rhythms Trek #1",
-    "songs" : [ "Big Pimpin'", "Under Pressure", "Stairway to Heaven", "The Man", "Thinking Out Loud", "Shape of You", "Delicate", "Blank Space", "Begin Again", "Maps" ],
+    "songs" : [ "Big Pimpin'", "Maps", "Stairway to Heaven", "Bohemian Rhapsody", "Love Story", "Gimme Shelter", "The Man", "Don't", "Thinking Out Loud", "Black Dog", "Shape of You", "Money Trees", "Delicate", "Begin Again", "Sad But True" ],
     "visibility" : "public",
     "followers" : 0
   }, {
@@ -5039,12 +5039,12 @@
   "timestamp" : 5370,
   "result" : [ {
     "name" : "Classic Harmonies Dream #1",
-    "songs" : [ "Angie", "Start Me Up", "Whatever You Need", "Big Pimpin'", "Dream On", "Under Pressure", "Shape of You", "Happier", "The Unforgiven", "Money Trees", "Delicate", "Blank Space", "The Man", "Maps" ],
+    "songs" : [ "Angie", "Big Pimpin'", "Delicate", "Under Pressure", "Shape of You", "Money Trees", "Begin Again", "Don't", "Start Me Up", "Stairway to Heaven", "Black Dog", "The Man" ],
     "visibility" : "public",
     "followers" : 0
   }, {
     "name" : "Breezy Rhythms Trek #1",
-    "songs" : [ "Big Pimpin'", "Under Pressure", "Stairway to Heaven", "The Man", "Thinking Out Loud", "Shape of You", "Delicate", "Blank Space", "Begin Again", "Maps" ],
+    "songs" : [ "Big Pimpin'", "Maps", "Stairway to Heaven", "Bohemian Rhapsody", "Love Story", "Gimme Shelter", "The Man", "Don't", "Thinking Out Loud", "Black Dog", "Shape of You", "Money Trees", "Delicate", "Begin Again", "Sad But True" ],
     "visibility" : "public",
     "followers" : 0
   }, {
@@ -5144,12 +5144,12 @@
   "timestamp" : 5380,
   "result" : [ {
     "name" : "Classic Harmonies Dream #1",
-    "songs" : [ "Angie", "Start Me Up", "Whatever You Need", "Big Pimpin'", "Dream On", "Under Pressure", "Shape of You", "Happier", "The Unforgiven", "Money Trees", "Delicate", "Blank Space", "The Man", "Maps" ],
+    "songs" : [ "Angie", "Big Pimpin'", "Delicate", "Under Pressure", "Shape of You", "Money Trees", "Begin Again", "Don't", "Start Me Up", "Stairway to Heaven", "Black Dog", "The Man" ],
     "visibility" : "public",
     "followers" : 0
   }, {
     "name" : "Breezy Rhythms Trek #1",
-    "songs" : [ "Big Pimpin'", "Under Pressure", "Stairway to Heaven", "The Man", "Thinking Out Loud", "Shape of You", "Delicate", "Blank Space", "Begin Again", "Maps" ],
+    "songs" : [ "Big Pimpin'", "Maps", "Stairway to Heaven", "Bohemian Rhapsody", "Love Story", "Gimme Shelter", "The Man", "Don't", "Thinking Out Loud", "Black Dog", "Shape of You", "Money Trees", "Delicate", "Begin Again", "Sad But True" ],
     "visibility" : "public",
     "followers" : 0
   }, {
@@ -5249,12 +5249,12 @@
   "timestamp" : 5390,
   "result" : [ {
     "name" : "Classic Harmonies Dream #1",
-    "songs" : [ "Angie", "Start Me Up", "Whatever You Need", "Big Pimpin'", "Dream On", "Under Pressure", "Shape of You", "Happier", "The Unforgiven", "Money Trees", "Delicate", "Blank Space", "The Man", "Maps" ],
+    "songs" : [ "Angie", "Big Pimpin'", "Delicate", "Under Pressure", "Shape of You", "Money Trees", "Begin Again", "Don't", "Start Me Up", "Stairway to Heaven", "Black Dog", "The Man" ],
     "visibility" : "public",
     "followers" : 0
   }, {
     "name" : "Breezy Rhythms Trek #1",
-    "songs" : [ "Big Pimpin'", "Under Pressure", "Stairway to Heaven", "The Man", "Thinking Out Loud", "Shape of You", "Delicate", "Blank Space", "Begin Again", "Maps" ],
+    "songs" : [ "Big Pimpin'", "Maps", "Stairway to Heaven", "Bohemian Rhapsody", "Love Story", "Gimme Shelter", "The Man", "Don't", "Thinking Out Loud", "Black Dog", "Shape of You", "Money Trees", "Delicate", "Begin Again", "Sad But True" ],
     "visibility" : "public",
     "followers" : 0
   }, {
@@ -5824,8 +5824,8 @@
   "user" : "bob35",
   "timestamp" : 5710,
   "stats" : {
-    "name" : "Under Pressure",
-    "remainedTime" : 230,
+    "name" : "Maps",
+    "remainedTime" : 176,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -5960,8 +5960,8 @@
   "user" : "bob35",
   "timestamp" : 5810,
   "stats" : {
-    "name" : "Under Pressure",
-    "remainedTime" : 230,
+    "name" : "Maps",
+    "remainedTime" : 176,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -6091,8 +6091,8 @@
   "user" : "bob35",
   "timestamp" : 5910,
   "stats" : {
-    "name" : "Under Pressure",
-    "remainedTime" : 230,
+    "name" : "Maps",
+    "remainedTime" : 176,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -6228,8 +6228,8 @@
   "user" : "bob35",
   "timestamp" : 6010,
   "stats" : {
-    "name" : "Under Pressure",
-    "remainedTime" : 230,
+    "name" : "Maps",
+    "remainedTime" : 176,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -6385,8 +6385,8 @@
   "user" : "bob35",
   "timestamp" : 6110,
   "stats" : {
-    "name" : "Under Pressure",
-    "remainedTime" : 230,
+    "name" : "Maps",
+    "remainedTime" : 176,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -6515,8 +6515,8 @@
   "user" : "bob35",
   "timestamp" : 6210,
   "stats" : {
-    "name" : "Under Pressure",
-    "remainedTime" : 230,
+    "name" : "Maps",
+    "remainedTime" : 176,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -6635,8 +6635,8 @@
   "user" : "bob35",
   "timestamp" : 6310,
   "stats" : {
-    "name" : "Under Pressure",
-    "remainedTime" : 230,
+    "name" : "Maps",
+    "remainedTime" : 176,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -6777,8 +6777,8 @@
   "user" : "bob35",
   "timestamp" : 6410,
   "stats" : {
-    "name" : "Under Pressure",
-    "remainedTime" : 230,
+    "name" : "Maps",
+    "remainedTime" : 176,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -6907,8 +6907,8 @@
   "user" : "bob35",
   "timestamp" : 6510,
   "stats" : {
-    "name" : "Under Pressure",
-    "remainedTime" : 230,
+    "name" : "Maps",
+    "remainedTime" : 176,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -7038,8 +7038,8 @@
   "user" : "bob35",
   "timestamp" : 6610,
   "stats" : {
-    "name" : "Under Pressure",
-    "remainedTime" : 230,
+    "name" : "Maps",
+    "remainedTime" : 176,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -7174,8 +7174,8 @@
   "user" : "bob35",
   "timestamp" : 6710,
   "stats" : {
-    "name" : "Under Pressure",
-    "remainedTime" : 230,
+    "name" : "Maps",
+    "remainedTime" : 176,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7289,8 +7289,8 @@
   "user" : "bob35",
   "timestamp" : 6810,
   "stats" : {
-    "name" : "Under Pressure",
-    "remainedTime" : 130,
+    "name" : "Maps",
+    "remainedTime" : 76,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7300,8 +7300,8 @@
   "user" : "bob35",
   "timestamp" : 6810,
   "stats" : {
-    "name" : "Under Pressure",
-    "remainedTime" : 130,
+    "name" : "Maps",
+    "remainedTime" : 76,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7431,8 +7431,8 @@
   "user" : "bob35",
   "timestamp" : 6910,
   "stats" : {
-    "name" : "Under Pressure",
-    "remainedTime" : 30,
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 458,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -9213,12 +9213,12 @@
   "timestamp" : 8490,
   "result" : [ {
     "name" : "Classic Harmonies Dream #1",
-    "songs" : [ "Angie", "Start Me Up", "Whatever You Need", "Big Pimpin'", "Dream On", "Under Pressure", "Shape of You", "Happier", "The Unforgiven", "Money Trees", "Delicate", "Blank Space", "The Man", "Maps" ],
+    "songs" : [ "Angie", "Big Pimpin'", "Delicate", "Under Pressure", "Shape of You", "Money Trees", "Begin Again", "Don't", "Start Me Up", "Stairway to Heaven", "Black Dog", "The Man" ],
     "visibility" : "public",
     "followers" : 0
   }, {
     "name" : "Breezy Rhythms Trek #1",
-    "songs" : [ "Big Pimpin'", "Under Pressure", "Stairway to Heaven", "The Man", "Thinking Out Loud", "Shape of You", "Delicate", "Blank Space", "Begin Again", "Maps" ],
+    "songs" : [ "Big Pimpin'", "Maps", "Stairway to Heaven", "Bohemian Rhapsody", "Love Story", "Gimme Shelter", "The Man", "Don't", "Thinking Out Loud", "Black Dog", "Shape of You", "Money Trees", "Delicate", "Begin Again", "Sad But True" ],
     "visibility" : "public",
     "followers" : 0
   }, {
@@ -9323,12 +9323,12 @@
   "timestamp" : 8500,
   "result" : [ {
     "name" : "Classic Harmonies Dream #1",
-    "songs" : [ "Angie", "Start Me Up", "Whatever You Need", "Big Pimpin'", "Dream On", "Under Pressure", "Shape of You", "Happier", "The Unforgiven", "Money Trees", "Delicate", "Blank Space", "The Man", "Maps" ],
+    "songs" : [ "Angie", "Big Pimpin'", "Delicate", "Under Pressure", "Shape of You", "Money Trees", "Begin Again", "Don't", "Start Me Up", "Stairway to Heaven", "Black Dog", "The Man" ],
     "visibility" : "public",
     "followers" : 0
   }, {
     "name" : "Breezy Rhythms Trek #1",
-    "songs" : [ "Big Pimpin'", "Under Pressure", "Stairway to Heaven", "The Man", "Thinking Out Loud", "Shape of You", "Delicate", "Blank Space", "Begin Again", "Maps" ],
+    "songs" : [ "Big Pimpin'", "Maps", "Stairway to Heaven", "Bohemian Rhapsody", "Love Story", "Gimme Shelter", "The Man", "Don't", "Thinking Out Loud", "Black Dog", "Shape of You", "Money Trees", "Delicate", "Begin Again", "Sad But True" ],
     "visibility" : "public",
     "followers" : 0
   }, {
@@ -9433,12 +9433,12 @@
   "timestamp" : 8510,
   "result" : [ {
     "name" : "Classic Harmonies Dream #1",
-    "songs" : [ "Angie", "Start Me Up", "Whatever You Need", "Big Pimpin'", "Dream On", "Under Pressure", "Shape of You", "Happier", "The Unforgiven", "Money Trees", "Delicate", "Blank Space", "The Man", "Maps" ],
+    "songs" : [ "Angie", "Big Pimpin'", "Delicate", "Under Pressure", "Shape of You", "Money Trees", "Begin Again", "Don't", "Start Me Up", "Stairway to Heaven", "Black Dog", "The Man" ],
     "visibility" : "public",
     "followers" : 0
   }, {
     "name" : "Breezy Rhythms Trek #1",
-    "songs" : [ "Big Pimpin'", "Under Pressure", "Stairway to Heaven", "The Man", "Thinking Out Loud", "Shape of You", "Delicate", "Blank Space", "Begin Again", "Maps" ],
+    "songs" : [ "Big Pimpin'", "Maps", "Stairway to Heaven", "Bohemian Rhapsody", "Love Story", "Gimme Shelter", "The Man", "Don't", "Thinking Out Loud", "Black Dog", "Shape of You", "Money Trees", "Delicate", "Begin Again", "Sad But True" ],
     "visibility" : "public",
     "followers" : 0
   }, {
@@ -9543,12 +9543,12 @@
   "timestamp" : 8520,
   "result" : [ {
     "name" : "Classic Harmonies Dream #1",
-    "songs" : [ "Angie", "Start Me Up", "Whatever You Need", "Big Pimpin'", "Dream On", "Under Pressure", "Shape of You", "Happier", "The Unforgiven", "Money Trees", "Delicate", "Blank Space", "The Man", "Maps" ],
+    "songs" : [ "Angie", "Big Pimpin'", "Delicate", "Under Pressure", "Shape of You", "Money Trees", "Begin Again", "Don't", "Start Me Up", "Stairway to Heaven", "Black Dog", "The Man" ],
     "visibility" : "public",
     "followers" : 0
   }, {
     "name" : "Breezy Rhythms Trek #1",
-    "songs" : [ "Big Pimpin'", "Under Pressure", "Stairway to Heaven", "The Man", "Thinking Out Loud", "Shape of You", "Delicate", "Blank Space", "Begin Again", "Maps" ],
+    "songs" : [ "Big Pimpin'", "Maps", "Stairway to Heaven", "Bohemian Rhapsody", "Love Story", "Gimme Shelter", "The Man", "Don't", "Thinking Out Loud", "Black Dog", "Shape of You", "Money Trees", "Delicate", "Begin Again", "Sad But True" ],
     "visibility" : "public",
     "followers" : 0
   }, {
@@ -9653,12 +9653,12 @@
   "timestamp" : 8530,
   "result" : [ {
     "name" : "Classic Harmonies Dream #1",
-    "songs" : [ "Angie", "Start Me Up", "Whatever You Need", "Big Pimpin'", "Dream On", "Under Pressure", "Shape of You", "Happier", "The Unforgiven", "Money Trees", "Delicate", "Blank Space", "The Man", "Maps" ],
+    "songs" : [ "Angie", "Big Pimpin'", "Delicate", "Under Pressure", "Shape of You", "Money Trees", "Begin Again", "Don't", "Start Me Up", "Stairway to Heaven", "Black Dog", "The Man" ],
     "visibility" : "public",
     "followers" : 0
   }, {
     "name" : "Breezy Rhythms Trek #1",
-    "songs" : [ "Big Pimpin'", "Under Pressure", "Stairway to Heaven", "The Man", "Thinking Out Loud", "Shape of You", "Delicate", "Blank Space", "Begin Again", "Maps" ],
+    "songs" : [ "Big Pimpin'", "Maps", "Stairway to Heaven", "Bohemian Rhapsody", "Love Story", "Gimme Shelter", "The Man", "Don't", "Thinking Out Loud", "Black Dog", "Shape of You", "Money Trees", "Delicate", "Begin Again", "Sad But True" ],
     "visibility" : "public",
     "followers" : 0
   }, {
@@ -9763,12 +9763,12 @@
   "timestamp" : 8540,
   "result" : [ {
     "name" : "Classic Harmonies Dream #1",
-    "songs" : [ "Angie", "Start Me Up", "Whatever You Need", "Big Pimpin'", "Dream On", "Under Pressure", "Shape of You", "Happier", "The Unforgiven", "Money Trees", "Delicate", "Blank Space", "The Man", "Maps" ],
+    "songs" : [ "Angie", "Big Pimpin'", "Delicate", "Under Pressure", "Shape of You", "Money Trees", "Begin Again", "Don't", "Start Me Up", "Stairway to Heaven", "Black Dog", "The Man" ],
     "visibility" : "public",
     "followers" : 0
   }, {
     "name" : "Breezy Rhythms Trek #1",
-    "songs" : [ "Big Pimpin'", "Under Pressure", "Stairway to Heaven", "The Man", "Thinking Out Loud", "Shape of You", "Delicate", "Blank Space", "Begin Again", "Maps" ],
+    "songs" : [ "Big Pimpin'", "Maps", "Stairway to Heaven", "Bohemian Rhapsody", "Love Story", "Gimme Shelter", "The Man", "Don't", "Thinking Out Loud", "Black Dog", "Shape of You", "Money Trees", "Delicate", "Begin Again", "Sad But True" ],
     "visibility" : "public",
     "followers" : 0
   }, {
@@ -9873,12 +9873,12 @@
   "timestamp" : 8550,
   "result" : [ {
     "name" : "Classic Harmonies Dream #1",
-    "songs" : [ "Angie", "Start Me Up", "Whatever You Need", "Big Pimpin'", "Dream On", "Under Pressure", "Shape of You", "Happier", "The Unforgiven", "Money Trees", "Delicate", "Blank Space", "The Man", "Maps" ],
+    "songs" : [ "Angie", "Big Pimpin'", "Delicate", "Under Pressure", "Shape of You", "Money Trees", "Begin Again", "Don't", "Start Me Up", "Stairway to Heaven", "Black Dog", "The Man" ],
     "visibility" : "public",
     "followers" : 0
   }, {
     "name" : "Breezy Rhythms Trek #1",
-    "songs" : [ "Big Pimpin'", "Under Pressure", "Stairway to Heaven", "The Man", "Thinking Out Loud", "Shape of You", "Delicate", "Blank Space", "Begin Again", "Maps" ],
+    "songs" : [ "Big Pimpin'", "Maps", "Stairway to Heaven", "Bohemian Rhapsody", "Love Story", "Gimme Shelter", "The Man", "Don't", "Thinking Out Loud", "Black Dog", "Shape of You", "Money Trees", "Delicate", "Begin Again", "Sad But True" ],
     "visibility" : "public",
     "followers" : 0
   }, {
@@ -9983,12 +9983,12 @@
   "timestamp" : 8560,
   "result" : [ {
     "name" : "Classic Harmonies Dream #1",
-    "songs" : [ "Angie", "Start Me Up", "Whatever You Need", "Big Pimpin'", "Dream On", "Under Pressure", "Shape of You", "Happier", "The Unforgiven", "Money Trees", "Delicate", "Blank Space", "The Man", "Maps" ],
+    "songs" : [ "Angie", "Big Pimpin'", "Delicate", "Under Pressure", "Shape of You", "Money Trees", "Begin Again", "Don't", "Start Me Up", "Stairway to Heaven", "Black Dog", "The Man" ],
     "visibility" : "public",
     "followers" : 0
   }, {
     "name" : "Breezy Rhythms Trek #1",
-    "songs" : [ "Big Pimpin'", "Under Pressure", "Stairway to Heaven", "The Man", "Thinking Out Loud", "Shape of You", "Delicate", "Blank Space", "Begin Again", "Maps" ],
+    "songs" : [ "Big Pimpin'", "Maps", "Stairway to Heaven", "Bohemian Rhapsody", "Love Story", "Gimme Shelter", "The Man", "Don't", "Thinking Out Loud", "Black Dog", "Shape of You", "Money Trees", "Delicate", "Begin Again", "Sad But True" ],
     "visibility" : "public",
     "followers" : 0
   }, {
@@ -10093,12 +10093,12 @@
   "timestamp" : 8570,
   "result" : [ {
     "name" : "Classic Harmonies Dream #1",
-    "songs" : [ "Angie", "Start Me Up", "Whatever You Need", "Big Pimpin'", "Dream On", "Under Pressure", "Shape of You", "Happier", "The Unforgiven", "Money Trees", "Delicate", "Blank Space", "The Man", "Maps" ],
+    "songs" : [ "Angie", "Big Pimpin'", "Delicate", "Under Pressure", "Shape of You", "Money Trees", "Begin Again", "Don't", "Start Me Up", "Stairway to Heaven", "Black Dog", "The Man" ],
     "visibility" : "public",
     "followers" : 0
   }, {
     "name" : "Breezy Rhythms Trek #1",
-    "songs" : [ "Big Pimpin'", "Under Pressure", "Stairway to Heaven", "The Man", "Thinking Out Loud", "Shape of You", "Delicate", "Blank Space", "Begin Again", "Maps" ],
+    "songs" : [ "Big Pimpin'", "Maps", "Stairway to Heaven", "Bohemian Rhapsody", "Love Story", "Gimme Shelter", "The Man", "Don't", "Thinking Out Loud", "Black Dog", "Shape of You", "Money Trees", "Delicate", "Begin Again", "Sad But True" ],
     "visibility" : "public",
     "followers" : 0
   }, {
@@ -10203,12 +10203,12 @@
   "timestamp" : 8580,
   "result" : [ {
     "name" : "Classic Harmonies Dream #1",
-    "songs" : [ "Angie", "Start Me Up", "Whatever You Need", "Big Pimpin'", "Dream On", "Under Pressure", "Shape of You", "Happier", "The Unforgiven", "Money Trees", "Delicate", "Blank Space", "The Man", "Maps" ],
+    "songs" : [ "Angie", "Big Pimpin'", "Delicate", "Under Pressure", "Shape of You", "Money Trees", "Begin Again", "Don't", "Start Me Up", "Stairway to Heaven", "Black Dog", "The Man" ],
     "visibility" : "public",
     "followers" : 0
   }, {
     "name" : "Breezy Rhythms Trek #1",
-    "songs" : [ "Big Pimpin'", "Under Pressure", "Stairway to Heaven", "The Man", "Thinking Out Loud", "Shape of You", "Delicate", "Blank Space", "Begin Again", "Maps" ],
+    "songs" : [ "Big Pimpin'", "Maps", "Stairway to Heaven", "Bohemian Rhapsody", "Love Story", "Gimme Shelter", "The Man", "Don't", "Thinking Out Loud", "Black Dog", "Shape of You", "Money Trees", "Delicate", "Begin Again", "Sad But True" ],
     "visibility" : "public",
     "followers" : 0
   }, {

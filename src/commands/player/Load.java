@@ -40,7 +40,7 @@ public class Load extends Command {
 			out.put("message", "Please select a source before attempting to load.");
 		} else {
 			// Assuming you have a method in Player to handle loading
-			boolean loadSuccess = userPlayer.loadSource(selectedResult, this.getTimestamp());
+			boolean loadSuccess = userPlayer.loadSource(selectedResult, this.getTimestamp(), userPlayer);
 
 			if (loadSuccess) {
 				out.put("message", "Playback loaded successfully.");
