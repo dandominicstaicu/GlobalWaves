@@ -12,6 +12,7 @@ import lombok.Setter;
 public abstract class AudioFile {
 	private String name;
 	private Integer duration;
+	private Integer playedTime = 0;
 
 	public abstract boolean isSong();
 }

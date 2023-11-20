@@ -42,9 +42,9 @@ public class AddRemoveInPlaylist extends Command {
 			out.put("message", "The specified playlist does not exist.");
 //			return;
 		} else if (userPlayer.getAudioQueue().isEmpty()) {
-			out.put("message", " Please load a source before adding to or removing from the playlist.");
+			out.put("message", "Please load a source before adding to or removing from the playlist.");
 		} else if (!userPlayer.getAudioQueue().element().isSong()) {
-			out.put("message", " The loaded source is not a song.");
+			out.put("message", "The loaded source is not a song.");
 		} else {
 			boolean ret = lib.decideAddRemove(getPlaylistId(), (Song) userPlayer.getAudioQueue().element());
 			if (ret) {

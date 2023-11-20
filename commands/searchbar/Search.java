@@ -22,15 +22,14 @@ public class Search extends Command {
 	private String type;
 	private Map<String, Object> filters;
 
-//	@Override
-//	public String toString() {
-//		return super.toString() +
-//				"Search{" +
-//				"username='" + username + '\'' +
-//				", type='" + type + '\'' +
-//				", filters=" + filters +
-//				'}';
-//	}
+	@Override
+	public String toString() {
+		return super.toString() +
+				"Search{" +
+				", type='" + type + '\'' +
+				", filters=" + filters +
+				'}';
+	}
 
 	@Override
 	public void execute(ArrayNode outputs, MainPlayer player) {

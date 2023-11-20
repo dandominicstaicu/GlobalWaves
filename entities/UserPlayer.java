@@ -28,7 +28,6 @@ public class UserPlayer {
 
 	private Queue<AudioFile> audioQueue;
 
-
 	public UserPlayer() {
 		this.searchBar = new SearchBar();
 		this.isPlaying = false;
@@ -43,18 +42,23 @@ public class UserPlayer {
 	public void updateTime(Integer currentTimestamp) {
 		if (isPlaying) {
 			timeElapsedSinceLastCommand = currentTimestamp - lastCommandTimestamp;
+			int lastSongLeftToPlay = timeLeftToPlay;
 
 			if (timeLeftToPlay - timeElapsedSinceLastCommand < 0 && !audioQueue.isEmpty()) {
 				timeLeftToPlay = 0;
-
 				audioQueue.remove();
 
 				if (!audioQueue.isEmpty()) {
-//				timeLeftToPlay = audioQueue.element().getDuration();
-					this.setTimeLeftToPlay(audioQueue.element().getDuration());
+					// TODO  watch order of these steps
+					int playedTimeFromThisSong = timeElapsedSinceLastCommand - lastSongLeftToPlay;
+
+//					timeLeftToPlay = audioQueue.element().getDuration();
 
 					int started = Math.abs(timeLeftToPlay - timeElapsedSinceLastCommand);
-					timeLeftToPlay -= started;
+
+					this.setTimeLeftToPlay(audioQueue.element().getDuration() - playedTimeFromThisSong);
+//					timeLeftToPlay -= started;
+//					timeLeftToPlay =
 				} else {
 					this.pause();
 				}
@@ -79,7 +83,7 @@ public class UserPlayer {
 
 		// Additional logic to load the AudioFiles from the Playable object
 		playable.loadToQueue(this.audioQueue);
-		this.setTimeLeftToPlay(audioQueue.element().getDuration());
+		this.setTimeLeftToPlay(audioQueue.element().getDuration() - audioQueue.element().getPlayedTime());
 
 		return true;
 	}
@@ -100,8 +104,18 @@ public class UserPlayer {
 
 	public void stop() {
 		this.isPlaying = false;
-		if (!audioQueue.isEmpty())
+
+		if (audioQueue != null && !audioQueue.isEmpty()) {
+			int currentSecond = audioQueue.element().getDuration() - timeLeftToPlay;
+			if (!audioQueue.element().isSong())
+				audioQueue.element().setPlayedTime(currentSecond);
+
 			audioQueue.clear();
+		}
+
+//		if (!audioQueue.isEmpty())
+
+
 
 //		this.currentPlaying = null;
 //		this.currentSong = null;
@@ -114,9 +128,6 @@ public class UserPlayer {
 			return 0;
 		}
 
-		// TODO add remaining time logic
 		return timeLeftToPlay;
-
-//		return null;
 	}
 }

@@ -14,15 +14,12 @@ import lombok.*;
 @AllArgsConstructor
 @Builder
 public class Load extends Command {
-//	private String username;
-//
-//	@Override
-//	public String toString() {
-//		return super.toString() +
-//				"Load{" +
-//				"username='" + username + '\'' +
-//				'}';
-//	}
+	@Override
+	public String toString() {
+		return super.toString() +
+				"Load{" +
+				'}';
+	}
 
 	@Override
 	public void execute(ArrayNode outputs, MainPlayer player) {
