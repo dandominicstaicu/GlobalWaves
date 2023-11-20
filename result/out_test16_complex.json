@@ -5563,6 +5563,11 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 5540,
+  "message" : "Please load a source before setting the repeat status."
+}, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 5540,
@@ -5655,13 +5660,18 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "alice22",
+  "timestamp" : 5600,
+  "message" : "Repeat mode changed to repeat all."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 5600,
   "stats" : {
     "name" : "Paint It Black",
     "remainedTime" : 4,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -5748,6 +5758,11 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "henry26",
+  "timestamp" : 5670,
+  "message" : "Please load a source before setting the repeat status."
+}, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 5670,
@@ -5808,7 +5823,7 @@
   "stats" : {
     "name" : "Delicate",
     "remainedTime" : 136,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -5944,7 +5959,7 @@
   "stats" : {
     "name" : "Delicate",
     "remainedTime" : 36,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6100,9 +6115,9 @@
   "user" : "alice22",
   "timestamp" : 5900,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 36,
-    "repeat" : "No Repeat",
+    "name" : "Sad But True",
+    "remainedTime" : 260,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6149,6 +6164,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 5940,
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -6242,8 +6262,8 @@
   "timestamp" : 6000,
   "stats" : {
     "name" : "Sad But True",
-    "remainedTime" : 260,
-    "repeat" : "No Repeat",
+    "remainedTime" : 160,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6367,8 +6387,8 @@
   "timestamp" : 6100,
   "stats" : {
     "name" : "Sad But True",
-    "remainedTime" : 160,
-    "repeat" : "No Repeat",
+    "remainedTime" : 60,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6427,6 +6447,11 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "frank21",
+  "timestamp" : 6150,
+  "message" : "Please load a source before setting the repeat status."
+}, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6150,
@@ -6437,6 +6462,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "grace25",
+  "timestamp" : 6160,
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "grace25",
@@ -6482,6 +6512,11 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "jack29",
+  "timestamp" : 6190,
+  "message" : "Please load a source before setting the repeat status."
+}, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6190,
@@ -6502,9 +6537,9 @@
   "user" : "alice22",
   "timestamp" : 6200,
   "stats" : {
-    "name" : "Sad But True",
-    "remainedTime" : 60,
-    "repeat" : "No Repeat",
+    "name" : "Happier",
+    "remainedTime" : 167,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6638,9 +6673,9 @@
   "user" : "alice22",
   "timestamp" : 6300,
   "stats" : {
-    "name" : "Sad But True",
-    "remainedTime" : 60,
-    "repeat" : "No Repeat",
+    "name" : "Happier",
+    "remainedTime" : 167,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6649,9 +6684,9 @@
   "user" : "alice22",
   "timestamp" : 6300,
   "stats" : {
-    "name" : "Sad But True",
-    "remainedTime" : 60,
-    "repeat" : "No Repeat",
+    "name" : "Happier",
+    "remainedTime" : 167,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6789,15 +6824,15 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 6400,
-  "message" : "Unlike registered successfully."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6400,
   "stats" : {
-    "name" : "Sad But True",
-    "remainedTime" : 60,
-    "repeat" : "No Repeat",
+    "name" : "Happier",
+    "remainedTime" : 167,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6931,9 +6966,9 @@
   "user" : "alice22",
   "timestamp" : 6500,
   "stats" : {
-    "name" : "Sad But True",
-    "remainedTime" : 60,
-    "repeat" : "No Repeat",
+    "name" : "Castle on the Hill",
+    "remainedTime" : 128,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -7019,6 +7054,11 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "henry26",
+  "timestamp" : 6570,
+  "message" : "Please load a source before setting the repeat status."
+}, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6570,
@@ -7072,9 +7112,9 @@
   "user" : "alice22",
   "timestamp" : 6600,
   "stats" : {
-    "name" : "Happier",
-    "remainedTime" : 167,
-    "repeat" : "No Repeat",
+    "name" : "Castle on the Hill",
+    "remainedTime" : 28,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -7203,13 +7243,18 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "alice22",
+  "timestamp" : 6700,
+  "message" : "Repeat mode changed to repeat current song."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6700,
   "stats" : {
-    "name" : "Happier",
-    "remainedTime" : 67,
-    "repeat" : "No Repeat",
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 410,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
@@ -7263,6 +7308,11 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 6740,
+  "message" : "Please load a source before setting the repeat status."
+}, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6740,
@@ -7273,6 +7323,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "frank21",
+  "timestamp" : 6750,
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "frank21",
@@ -7323,6 +7378,11 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "jack29",
+  "timestamp" : 6790,
+  "message" : "Please load a source before setting the repeat status."
+}, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6790,
@@ -7338,9 +7398,9 @@
   "user" : "alice22",
   "timestamp" : 6800,
   "stats" : {
-    "name" : "Castle on the Hill",
-    "remainedTime" : 228,
-    "repeat" : "No Repeat",
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 310,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
@@ -7349,9 +7409,9 @@
   "user" : "alice22",
   "timestamp" : 6800,
   "stats" : {
-    "name" : "Castle on the Hill",
-    "remainedTime" : 228,
-    "repeat" : "No Repeat",
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 310,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
@@ -7366,6 +7426,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "carol19",
+  "timestamp" : 6820,
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "carol19",
@@ -7393,6 +7458,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 6840,
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -7490,9 +7560,9 @@
   "user" : "alice22",
   "timestamp" : 6900,
   "stats" : {
-    "name" : "Castle on the Hill",
-    "remainedTime" : 128,
-    "repeat" : "No Repeat",
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 210,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
@@ -7567,6 +7637,11 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "frank21",
+  "timestamp" : 6950,
+  "message" : "Please load a source before setting the repeat status."
+}, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6950,
@@ -7605,6 +7680,11 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "irene33",
+  "timestamp" : 6980,
+  "message" : "Please load a source before setting the repeat status."
+}, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6980,
@@ -7615,6 +7695,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "jack29",
+  "timestamp" : 6990,
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "jack29",
@@ -9385,7 +9470,7 @@
   "command" : "showPreferredSongs",
   "user" : "alice22",
   "timestamp" : 8490,
-  "result" : [ "Paint It Black", "Delicate", "Happier" ]
+  "result" : [ "Paint It Black", "Delicate", "Sad But True", "Happier", "Castle on the Hill" ]
 }, {
   "command" : "showPlaylists",
   "user" : "bob35",

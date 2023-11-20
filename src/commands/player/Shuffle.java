@@ -14,14 +14,13 @@ public class Shuffle extends Command {
 //    private String username;
     private Integer seed;
 
-//    @Override
-//    public String toString() {
-//        return super.toString() +
-//                "Shuffle{" +
-//                "username='" + username + '\'' +
-//                ", seed=" + seed +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        return super.toString() +
+                "Shuffle{" +
+                ", seed=" + seed +
+                '}';
+    }
 
     @Override
     public void execute(ArrayNode outputs, MainPlayer player) {

@@ -5509,6 +5509,11 @@
   "timestamp" : 5492,
   "message" : "You can't load an empty audio collection!"
 }, {
+  "command" : "repeat",
+  "user" : "alice22",
+  "timestamp" : 5500,
+  "message" : "Please load a source before setting the repeat status."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 5500,
@@ -5568,6 +5573,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 5540,
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -5733,6 +5743,11 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "frank21",
+  "timestamp" : 5650,
+  "message" : "Please load a source before setting the repeat status."
+}, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 5650,
@@ -5755,6 +5770,11 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "henry26",
+  "timestamp" : 5670,
+  "message" : "Please load a source before setting the repeat status."
+}, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 5670,
@@ -5765,6 +5785,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "irene33",
+  "timestamp" : 5680,
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "irene33",
@@ -5869,6 +5894,11 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "frank21",
+  "timestamp" : 5750,
+  "message" : "Please load a source before setting the repeat status."
+}, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 5750,
@@ -5928,6 +5958,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "jack29",
+  "timestamp" : 5790,
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "jack29",
@@ -5999,6 +6034,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 5840,
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -6224,13 +6264,18 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "bob35",
+  "timestamp" : 6010,
+  "message" : "Repeat mode changed to repeat all."
+}, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6010,
   "stats" : {
     "name" : "Maps",
     "remainedTime" : 176,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6387,7 +6432,7 @@
   "stats" : {
     "name" : "Maps",
     "remainedTime" : 176,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6402,6 +6447,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "david27",
+  "timestamp" : 6130,
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "david27",
@@ -6517,10 +6567,15 @@
   "stats" : {
     "name" : "Maps",
     "remainedTime" : 176,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "carol19",
+  "timestamp" : 6220,
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "carol19",
@@ -6576,6 +6631,11 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "grace25",
+  "timestamp" : 6260,
+  "message" : "Please load a source before setting the repeat status."
+}, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6260,
@@ -6620,6 +6680,11 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "alice22",
+  "timestamp" : 6300,
+  "message" : "Please load a source before setting the repeat status."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6300,
@@ -6637,7 +6702,7 @@
   "stats" : {
     "name" : "Maps",
     "remainedTime" : 176,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6685,6 +6750,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "frank21",
+  "timestamp" : 6350,
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "frank21",
@@ -6779,7 +6849,7 @@
   "stats" : {
     "name" : "Maps",
     "remainedTime" : 176,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6887,6 +6957,11 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "alice22",
+  "timestamp" : 6500,
+  "message" : "Please load a source before setting the repeat status."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6500,
@@ -6909,7 +6984,7 @@
   "stats" : {
     "name" : "Maps",
     "remainedTime" : 176,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6925,6 +7000,11 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "david27",
+  "timestamp" : 6530,
+  "message" : "Please load a source before setting the repeat status."
+}, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 6530,
@@ -6935,6 +7015,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 6540,
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -6980,6 +7065,11 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "henry26",
+  "timestamp" : 6570,
+  "message" : "Please load a source before setting the repeat status."
+}, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6570,
@@ -6990,6 +7080,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "irene33",
+  "timestamp" : 6580,
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "irene33",
@@ -7040,7 +7135,7 @@
   "stats" : {
     "name" : "Maps",
     "remainedTime" : 176,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -7066,6 +7161,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "david27",
+  "timestamp" : 6630,
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "david27",
@@ -7174,9 +7274,9 @@
   "user" : "bob35",
   "timestamp" : 6710,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 176,
-    "repeat" : "No Repeat",
+    "name" : "Bohemian Rhapsody",
+    "remainedTime" : 13,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -7289,9 +7389,9 @@
   "user" : "bob35",
   "timestamp" : 6810,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 76,
-    "repeat" : "No Repeat",
+    "name" : "Love Story",
+    "remainedTime" : 149,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -7300,9 +7400,9 @@
   "user" : "bob35",
   "timestamp" : 6810,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 76,
-    "repeat" : "No Repeat",
+    "name" : "Love Story",
+    "remainedTime" : 149,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -7339,6 +7439,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "frank21",
+  "timestamp" : 6850,
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "frank21",
@@ -7389,6 +7494,11 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "irene33",
+  "timestamp" : 6880,
+  "message" : "Please load a source before setting the repeat status."
+}, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6880,
@@ -7427,13 +7537,18 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "bob35",
+  "timestamp" : 6910,
+  "message" : "Repeat mode changed to repeat current song."
+}, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6910,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 458,
-    "repeat" : "No Repeat",
+    "name" : "Love Story",
+    "remainedTime" : 49,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }

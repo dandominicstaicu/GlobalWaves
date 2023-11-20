@@ -10,7 +10,5 @@ public interface Playable {
 
 	String getName();
 
-	Integer getDuration(); // TODO remove
-
-	void loadToQueue(Queue<AudioFile> audioQueue);
+	void loadToQueue(UserPlayer userPlayer);
 }

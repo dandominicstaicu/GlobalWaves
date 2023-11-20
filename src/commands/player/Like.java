@@ -14,8 +14,6 @@ import lombok.*;
 @AllArgsConstructor
 @Builder
 public class Like extends Command {
-//    private String username;
-//
     @Override
     public String toString() {
         return super.toString() +

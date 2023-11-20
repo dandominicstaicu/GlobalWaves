@@ -206,7 +206,7 @@
   "timestamp" : 2000,
   "stats" : {
     "name" : "I Don't Wanna Live Forever",
-    "remainedTime" : -87,
+    "remainedTime" : 158,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -217,7 +217,7 @@
   "timestamp" : 2350,
   "stats" : {
     "name" : "Hustle Hard",
-    "remainedTime" : -205,
+    "remainedTime" : 40,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false

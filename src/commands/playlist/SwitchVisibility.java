@@ -14,14 +14,13 @@ public class SwitchVisibility extends Command {
 //    private String username;
     private Integer playlistId;
 
-//    @Override
-//    public String toString() {
-//        return super.toString() +
-//                "SwitchVisibility{" +
-//                "username='" + username + '\'' +
-//                ", playlistId=" + playlistId +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        return super.toString() +
+                "SwitchVisibility{" +
+                ", playlistId=" + playlistId +
+                '}';
+    }
 
     @Override
     public void execute(ArrayNode outputs, MainPlayer player) {

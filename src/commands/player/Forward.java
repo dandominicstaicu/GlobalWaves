@@ -11,15 +11,12 @@ import lombok.*;
 @AllArgsConstructor
 @Builder
 public class Forward extends Command {
-//    private String username;
-//
-//    @Override
-//    public String toString() {
-//        return super.toString() +
-//                "Forward{" +
-//                "username='" + username + '\'' +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        return super.toString() +
+                "Forward{" +
+                '}';
+    }
 
     @Override
     public void execute(ArrayNode outputs, MainPlayer player) {

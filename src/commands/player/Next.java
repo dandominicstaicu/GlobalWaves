@@ -11,15 +11,12 @@ import lombok.*;
 @AllArgsConstructor
 @Builder
 public class Next extends Command {
-//    private String username;
-//
-//    @Override
-//    public String toString() {
-//        return super.toString() +
-//                "Next{" +
-//                "username='" + username + '\'' +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        return super.toString() +
+                "Next{" +
+                '}';
+    }
 
     @Override
     public void execute(ArrayNode outputs, MainPlayer player) {

@@ -1,8 +1,11 @@
 package commands.player;
 
 import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
+import entities.Library;
 import entities.MainPlayer;
+import entities.UserPlayer;
 import lombok.*;
 
 @Getter
@@ -11,18 +14,59 @@ import lombok.*;
 @AllArgsConstructor
 @Builder
 public class Repeat extends Command {
-//    private String username;
-
-//    @Override
-//    public String toString() {
-//        return super.toString() +
-//                "Repeat{" +
-//                "username='" + username + '\'' +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        return super.toString() +
+                "Repeat{" +
+                '}';
+    }
 
     @Override
     public void execute(ArrayNode outputs, MainPlayer player) {
-        System.out.println(this.toString());
+//        System.out.println(this.toString());
+        ObjectNode out = outputs.addObject();
+
+        out.put("command", "repeat");
+        out.put("user", getUsername());
+        out.put("timestamp", getTimestamp());
+
+        Library lib = player.getLibrary();
+        UserPlayer userPlayer = player.getLibrary().getUserWithUsername(getUsername()).getPlayer();
+
+        if (userPlayer.getAudioQueue().isEmpty()) {
+            out.put("message", "Please load a source before setting the repeat status.");
+            return;
+        }
+
+        if (userPlayer.getIsPlayingPlaylist()) {
+            switch (userPlayer.changeRepeatState()) {
+                case 0:
+                    out.put("message", "Repeat mode changed to no repeat.");
+                    break;
+                case 1:
+                    out.put("message", "Repeat mode changed to repeat all.");
+                    break;
+                case 2:
+                    out.put("message", "Repeat mode changed to repeat current song.");
+                    break;
+                default:
+                    break;
+            }
+        } else {
+            switch (userPlayer.changeRepeatState()) {
+                case 0:
+                    out.put("message", "Repeat mode changed to no repeat.");
+                    break;
+                case 1:
+                    out.put("message", "Repeat mode changed to repeat once.");
+                    break;
+                case 2:
+                    out.put("message", "Repeat mode changed to repeat infinite.");
+                    break;
+                default:
+                    break;
+            }
+        }
+
     }
 }

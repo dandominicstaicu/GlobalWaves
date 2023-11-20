@@ -29,23 +29,20 @@ public class Playlist implements AudioFileCollection, Playable {
 
     @Override
     public boolean isEmpty() {
-        if (songs.isEmpty())
-            return true;
+		return songs.isEmpty();
+	}
 
-        return false;
-    }
 
-    @Override
-    public Integer getDuration() {
-        // TODO remove
-        return null;
-    }
 
-    @Override
-    public void loadToQueue(Queue<AudioFile> audioQueue) {
+    @Override//Queue<AudioFile> audioQueue
+    public void loadToQueue(UserPlayer userPlayer) {
+        // set isPlayingPlaylist
+        userPlayer.setIsPlayingPlaylist(true);
+
         // maybe clear the queue before adding
 
+
         // add all songs to the queue of the userPlayer
-        audioQueue.addAll(songs);
+        userPlayer.getAudioQueue().addAll(songs);
     }
 }

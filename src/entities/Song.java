@@ -70,11 +70,11 @@ public class Song extends AudioFile implements Playable {
     }
 
     @Override
-    public void loadToQueue(Queue<AudioFile> audioQueue) {
+    public void loadToQueue(UserPlayer userPlayer) {
         // MAYBE clear the queue before loading
 
         // add only one song to the queue of the userPlayer
-        audioQueue.add(this);
+        userPlayer.getAudioQueue().add(this);
     }
 
     @Override

@@ -11,15 +11,12 @@ import lombok.*;
 @AllArgsConstructor
 @Builder
 public class Prev extends Command {
-//    private String username;
-//
-//    @Override
-//    public String toString() {
-//        return super.toString() +
-//                "Prev{" +
-//                "username='" + username + '\'' +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        return super.toString() +
+                "Prev{" +
+                '}';
+    }
 
     @Override
     public void execute(ArrayNode outputs, MainPlayer player) {

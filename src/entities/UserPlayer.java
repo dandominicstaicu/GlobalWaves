@@ -13,7 +13,7 @@ import java.util.Queue;
 public class UserPlayer {
 	//	private Song currentSong;
 //	private Podcast currentPodcast;
-	private Integer startTimestamp;
+	private Integer loadedTimestamp;
 //	private Integer elapsedTimePlaying;
 
 	private Integer lastCommandTimestamp = 0;
@@ -22,50 +22,66 @@ public class UserPlayer {
 
 	private SearchBar searchBar;
 
+	private Boolean isPlayingPlaylist;
 	private Boolean isPlaying;
 	private Boolean isShuffled;
-	private Boolean isRepeating;
+	private Integer isRepeating;
 
 	private Queue<AudioFile> audioQueue;
 
 	public UserPlayer() {
 		this.searchBar = new SearchBar();
 		this.isPlaying = false;
-		this.startTimestamp = 0;
+		this.loadedTimestamp = 0;
 		this.isShuffled = false;
-		this.isRepeating = false;
+		this.isRepeating = 0;
 //		this.currentPlaying = null;
 //		this.setAudioQueue(new ArrayDeque<>());
 		this.audioQueue = new ArrayDeque<>();
+		this.isPlayingPlaylist = false;
 	}
 
 	public void updateTime(Integer currentTimestamp) {
 		if (isPlaying) {
 			timeElapsedSinceLastCommand = currentTimestamp - lastCommandTimestamp;
-			int lastSongLeftToPlay = timeLeftToPlay;
 
-			if (timeLeftToPlay - timeElapsedSinceLastCommand < 0 && !audioQueue.isEmpty()) {
-				timeLeftToPlay = 0;
-				audioQueue.remove();
+			int currentAudioDuration = audioQueue.element().getDuration() - audioQueue.element().getPlayedTime();
+			if (loadedTimestamp + currentAudioDuration < currentTimestamp && !audioQueue.isEmpty()) {
+				loadedTimestamp = loadedTimestamp + currentAudioDuration;
+
+				if (isPlayingPlaylist && isRepeating.equals(1)) { // repeat all
+					audioQueue.add(audioQueue.element());
+					audioQueue.remove();
+				} else if (!isPlayingPlaylist && isRepeating.equals(1)) { // repeat once
+					isRepeating = 0;
+				} else if (isRepeating.equals(0)) { // no repeat both cases
+					audioQueue.remove();
+				}
+				// repeat infinite for both cases means just not removing the current element in the queue
 
 				if (!audioQueue.isEmpty()) {
-					// TODO  watch order of these steps
-					int playedTimeFromThisSong = timeElapsedSinceLastCommand - lastSongLeftToPlay;
+					currentAudioDuration = audioQueue.element().getDuration();
+					while (loadedTimestamp + currentAudioDuration < currentTimestamp) {
+						loadedTimestamp += currentAudioDuration;
 
-//					timeLeftToPlay = audioQueue.element().getDuration();
+						if (isPlayingPlaylist && isRepeating.equals(1)) {
+//							loadedTimestamp += currentAudioDuration;
+							audioQueue.add(audioQueue.element());
+							audioQueue.remove();
+						}
+						currentAudioDuration = audioQueue.element().getDuration();
+					}
 
-					int started = Math.abs(timeLeftToPlay - timeElapsedSinceLastCommand);
-
-					this.setTimeLeftToPlay(audioQueue.element().getDuration() - playedTimeFromThisSong);
-//					timeLeftToPlay -= started;
-//					timeLeftToPlay =
+					timeLeftToPlay = loadedTimestamp + currentAudioDuration - currentTimestamp;
 				} else {
 					this.pause();
 				}
+
 			} else {
 				timeLeftToPlay -= timeElapsedSinceLastCommand;
 			}
 		}
+
 		lastCommandTimestamp = currentTimestamp;
 	}
 
@@ -79,13 +95,14 @@ public class UserPlayer {
 		}
 
 		this.setIsPlaying(true);
-		this.setStartTimestamp(startTimestamp);
+		this.setLoadedTimestamp(startTimestamp);
 
 		// Additional logic to load the AudioFiles from the Playable object
-		playable.loadToQueue(this.audioQueue);
+		playable.loadToQueue(this);
 		this.setTimeLeftToPlay(audioQueue.element().getDuration() - audioQueue.element().getPlayedTime());
 
 		userPlayer.getSearchBar().setSelectedResult(null);
+		this.isRepeating = 0;
 
 		return true;
 	}
@@ -118,7 +135,6 @@ public class UserPlayer {
 //		if (!audioQueue.isEmpty())
 
 
-
 //		this.currentPlaying = null;
 //		this.currentSong = null;
 //		this.currentPodcast = null;
@@ -132,4 +148,20 @@ public class UserPlayer {
 
 		return timeLeftToPlay;
 	}
+
+	public Integer changeRepeatState() {
+		if (isRepeating == 0)
+			isRepeating = 1;
+		else if (isRepeating == 1)
+			isRepeating = 2;
+		else
+			isRepeating = 0;
+
+		return isRepeating;
+	}
+
+//	public Integer changeRepeatStateAudioFile() {
+//
+//		return -1;
+//	}
 }

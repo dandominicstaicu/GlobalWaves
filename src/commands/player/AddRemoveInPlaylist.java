@@ -15,7 +15,6 @@ import lombok.*;
 @AllArgsConstructor
 @Builder
 public class AddRemoveInPlaylist extends Command {
-	//    private String username;
 	private Integer playlistId;
 
 	@Override

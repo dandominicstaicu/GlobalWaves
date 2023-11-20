@@ -13,13 +13,12 @@ import lombok.*;
 public class FollowPlaylist extends Command {
 //	private String username;
 
-//	@Override
-//	public String toString() {
-//		return super.toString() +
-//				"FollowPlaylist{" +
-//				"username='" + username + '\'' +
-//				'}';
-//	}
+	@Override
+	public String toString() {
+		return super.toString() +
+				"FollowPlaylist{" +
+				'}';
+	}
 
 	@Override
 	public void execute(ArrayNode outputs, MainPlayer player) {
