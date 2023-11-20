@@ -157,6 +157,10 @@
     "paused" : false
   }
 }, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 850
+}, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 900,
@@ -189,6 +193,10 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 1610
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -238,6 +246,10 @@
   "user" : "bob35",
   "timestamp" : 2353,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 2360
 }, {
   "command" : "status",
   "user" : "bob35",

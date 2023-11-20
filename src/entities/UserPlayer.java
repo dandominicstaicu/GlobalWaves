@@ -4,8 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.ArrayDeque;
-import java.util.Queue;
+import java.util.*;
+import java.util.Collections;
 
 @Setter
 @Getter
@@ -28,7 +28,9 @@ public class UserPlayer {
 	private Integer isRepeating;
 
 	private Queue<AudioFile> audioQueue;
-	private Queue<AudioFile> cloneQueue;
+	private Queue<AudioFile> cloneQueueRepeat;
+	private Queue<AudioFile> cloneQueueShuffle;
+	private Queue<Integer> shuffledIndexesArray;
 
 	public UserPlayer() {
 		this.searchBar = new SearchBar();
@@ -39,7 +41,9 @@ public class UserPlayer {
 //		this.currentPlaying = null;
 //		this.setAudioQueue(new ArrayDeque<>());
 		this.audioQueue = new ArrayDeque<>();
-		this.cloneQueue = new ArrayDeque<>();
+		this.cloneQueueRepeat = new ArrayDeque<>();
+		this.cloneQueueShuffle = new ArrayDeque<>();
+//		this.shuffledIndexesArray = new ArrayDeque<>();
 		this.isPlayingPlaylist = false;
 	}
 
@@ -61,8 +65,8 @@ public class UserPlayer {
 				}
 				// repeat infinite for both cases means just not removing the current element in the queue
 
-				if (audioQueue.isEmpty() && isPlayingPlaylist && isRepeating.equals(1) && cloneQueue != null) {
-					audioQueue.addAll(cloneQueue);
+				if (audioQueue.isEmpty() && isPlayingPlaylist && isRepeating.equals(1) && cloneQueueRepeat != null) {
+					audioQueue.addAll(cloneQueueRepeat);
 				}
 
 				if (!audioQueue.isEmpty()) {
@@ -73,7 +77,11 @@ public class UserPlayer {
 							audioQueue.remove();
 						}
 
-						currentAudioDuration = audioQueue.element().getDuration();
+						if (!audioQueue.isEmpty()) {
+							currentAudioDuration = audioQueue.element().getDuration();
+						} else {
+							stop();
+						}
 					}
 
 					timeLeftToPlay = loadedTimestamp + currentAudioDuration - currentTimestamp;
@@ -134,6 +142,8 @@ public class UserPlayer {
 				audioQueue.element().setPlayedTime(currentSecond);
 
 			audioQueue.clear();
+			isRepeating = 0;
+			isShuffled = false;
 		}
 
 //		if (!audioQueue.isEmpty())
@@ -157,8 +167,8 @@ public class UserPlayer {
 		if (isRepeating == 0) {
 			isRepeating = 1;
 			if (isPlayingPlaylist && audioQueue != null) {
-				cloneQueue.clear();
-				cloneQueue.addAll(audioQueue);
+				cloneQueueRepeat.clear();
+				cloneQueueRepeat.addAll(audioQueue);
 			}
 		} else if (isRepeating == 1)
 			isRepeating = 2;
@@ -168,8 +178,76 @@ public class UserPlayer {
 		return isRepeating;
 	}
 
-//	public Integer changeRepeatStateAudioFile() {
-//
-//		return -1;
-//	}
+	public Boolean shufflePlaylist(Integer seed) {
+		if (isShuffled) {
+			isShuffled = false;
+
+			String playingFileName = audioQueue.element().getName();
+			int playingIndex = getIndexOfFile(cloneQueueShuffle, playingFileName);
+
+			// remove the first k elements
+			for (int i = 0; i < playingIndex; ++i) {
+				cloneQueueShuffle.remove();
+			}
+
+			// keep in queue only the songs after k
+			audioQueue.clear();
+			audioQueue.addAll(cloneQueueShuffle);
+
+			return false;
+		}
+
+		isShuffled = true;
+
+		shuffledIndexesArray = generateRandomQueue(audioQueue.size(), seed);
+
+		cloneQueueShuffle.addAll(audioQueue);
+
+		// In the main audioQueue generate the shuffled queue
+		audioQueue.clear();
+		for (int index : shuffledIndexesArray) {
+			audioQueue.add(getNthElement(index, cloneQueueShuffle));
+		}
+
+
+		return true;
+	}
+
+	public static int getIndexOfFile(Queue<AudioFile> queue, String fileName) {
+		int index = 0;
+		for (AudioFile audioFile : queue) {
+			if (audioFile.getName().equals(fileName)) {
+				return index;
+			}
+
+			++index;
+		}
+
+		return -1;
+	}
+
+	public static Queue<Integer> generateRandomQueue(int n, Integer seed) {
+		Random random = new Random(seed);
+		List<Integer> tmpList = new ArrayList<>();
+
+		for (int i = 0; i < n; ++i) {
+			tmpList.add(i);
+		}
+
+		Collections.shuffle(tmpList, random);
+
+		return new ArrayDeque<>(tmpList);
+	}
+
+	// chatGPT helped me write this method
+	public AudioFile getNthElement(int n, Queue<AudioFile> queue) {
+		if (n >= 0 && n < queue.size()) {
+			List<AudioFile> list = new ArrayList<>(queue);
+			return list.get(n);
+		}
+
+		// n is out of bounds
+		return null;
+	}
+
 }

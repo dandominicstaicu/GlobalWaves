@@ -20,6 +20,11 @@
   "timestamp" : 115,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 120,
+  "message" : "The loaded source is not a playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 200,
@@ -77,6 +82,11 @@
   "user" : "bob35",
   "timestamp" : 415,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 420,
+  "message" : "The loaded source is not a playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -137,6 +147,11 @@
   "message" : "Search returned 1 results",
   "results" : [ "Colaj" ]
 }, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 3120,
+  "message" : " Please load a source before using the shuffle function."
+}, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 3130,
@@ -180,6 +195,10 @@
     "paused" : false
   }
 }, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 3260
+}, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 3270,
@@ -212,6 +231,10 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 3680
 }, {
   "command" : "status",
   "user" : "bob35",

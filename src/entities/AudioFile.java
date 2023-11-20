@@ -16,10 +16,3 @@ public abstract class AudioFile {
 
 	public abstract boolean isSong();
 }
-
-
-//if (isPlayingPlaylist && isRepeating.equals(1)) {
-////							loadedTimestamp += currentAudioDuration;
-//		audioQueue.add(audioQueue.element());
-//		audioQueue.remove();
-//		}

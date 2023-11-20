@@ -18,14 +18,13 @@ import java.util.List;
 public class Select extends Command {
 	private Integer itemNumber;
 
-//	@Override
-//	public String toString() {
-//		return super.toString() +
-//				"Select{" +
-//				"username='" + username + '\'' +
-//				", itemNumber=" + itemNumber +
-//				'}';
-//	}
+	@Override
+	public String toString() {
+		return super.toString() +
+				"Select{" +
+				", itemNumber=" + itemNumber +
+				'}';
+	}
 
 
 	@Override

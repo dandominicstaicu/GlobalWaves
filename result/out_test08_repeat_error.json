@@ -95,7 +95,7 @@
   "stats" : {
     "name" : "",
     "remainedTime" : 0,
-    "repeat" : "Repeat Once",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -169,7 +169,7 @@
   "stats" : {
     "name" : "",
     "remainedTime" : 0,
-    "repeat" : "Repeat Once",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -185,7 +185,7 @@
   "stats" : {
     "name" : "",
     "remainedTime" : 0,
-    "repeat" : "Repeat Once",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -206,7 +206,7 @@
   "stats" : {
     "name" : "",
     "remainedTime" : 0,
-    "repeat" : "Repeat Once",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }

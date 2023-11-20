@@ -42,6 +42,8 @@ public class SearchBar {
 		List<Playable> searchResults = results.size() > 5 ? results.subList(0, 5) : results;
 		this.setLastSearchResults(searchResults);
 
+
+
 		return searchResults;
 	}
 
