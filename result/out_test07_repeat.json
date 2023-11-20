@@ -285,10 +285,10 @@
   "user" : "alice22",
   "timestamp" : 3600,
   "stats" : {
-    "name" : "Hustle Hard",
-    "remainedTime" : 118,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 } ]

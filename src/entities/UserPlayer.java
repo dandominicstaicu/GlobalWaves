@@ -28,6 +28,7 @@ public class UserPlayer {
 	private Integer isRepeating;
 
 	private Queue<AudioFile> audioQueue;
+	private Queue<AudioFile> cloneQueue;
 
 	public UserPlayer() {
 		this.searchBar = new SearchBar();
@@ -38,6 +39,7 @@ public class UserPlayer {
 //		this.currentPlaying = null;
 //		this.setAudioQueue(new ArrayDeque<>());
 		this.audioQueue = new ArrayDeque<>();
+		this.cloneQueue = new ArrayDeque<>();
 		this.isPlayingPlaylist = false;
 	}
 
@@ -46,7 +48,7 @@ public class UserPlayer {
 			timeElapsedSinceLastCommand = currentTimestamp - lastCommandTimestamp;
 
 			int currentAudioDuration = audioQueue.element().getDuration() - audioQueue.element().getPlayedTime();
-			if (loadedTimestamp + currentAudioDuration < currentTimestamp && !audioQueue.isEmpty()) {
+			if (loadedTimestamp + currentAudioDuration < currentTimestamp) {
 				loadedTimestamp = loadedTimestamp + currentAudioDuration;
 
 				if (isPlayingPlaylist && isRepeating.equals(1)) { // repeat all
@@ -59,16 +61,18 @@ public class UserPlayer {
 				}
 				// repeat infinite for both cases means just not removing the current element in the queue
 
+				if (audioQueue.isEmpty() && isPlayingPlaylist && isRepeating.equals(1) && cloneQueue != null) {
+					audioQueue.addAll(cloneQueue);
+				}
+
 				if (!audioQueue.isEmpty()) {
 					currentAudioDuration = audioQueue.element().getDuration();
 					while (loadedTimestamp + currentAudioDuration < currentTimestamp) {
 						loadedTimestamp += currentAudioDuration;
-
 						if (isPlayingPlaylist && isRepeating.equals(1)) {
-//							loadedTimestamp += currentAudioDuration;
-							audioQueue.add(audioQueue.element());
 							audioQueue.remove();
 						}
+
 						currentAudioDuration = audioQueue.element().getDuration();
 					}
 
@@ -150,9 +154,13 @@ public class UserPlayer {
 	}
 
 	public Integer changeRepeatState() {
-		if (isRepeating == 0)
+		if (isRepeating == 0) {
 			isRepeating = 1;
-		else if (isRepeating == 1)
+			if (isPlayingPlaylist && audioQueue != null) {
+				cloneQueue.clear();
+				cloneQueue.addAll(audioQueue);
+			}
+		} else if (isRepeating == 1)
 			isRepeating = 2;
 		else
 			isRepeating = 0;
