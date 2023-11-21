@@ -5528,7 +5528,7 @@
   "command" : "shuffle",
   "user" : "bob35",
   "timestamp" : 5510,
-  "message" : " Please load a source before using the shuffle function."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -5544,7 +5544,7 @@
   "command" : "shuffle",
   "user" : "carol19",
   "timestamp" : 5520,
-  "message" : " Please load a source before using the shuffle function."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "carol19",
@@ -5760,7 +5760,7 @@
   "command" : "shuffle",
   "user" : "grace25",
   "timestamp" : 5660,
-  "message" : " Please load a source before using the shuffle function."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "grace25",
@@ -5857,7 +5857,7 @@
   "command" : "shuffle",
   "user" : "carol19",
   "timestamp" : 5720,
-  "message" : " Please load a source before using the shuffle function."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "carol19",
@@ -6118,7 +6118,7 @@
   "command" : "shuffle",
   "user" : "jack29",
   "timestamp" : 5890,
-  "message" : " Please load a source before using the shuffle function."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "jack29",
@@ -6182,7 +6182,7 @@
   "command" : "shuffle",
   "user" : "david27",
   "timestamp" : 5930,
-  "message" : " Please load a source before using the shuffle function."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "david27",
@@ -6225,7 +6225,7 @@
   "command" : "shuffle",
   "user" : "grace25",
   "timestamp" : 5960,
-  "message" : " Please load a source before using the shuffle function."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "grace25",
@@ -6306,7 +6306,7 @@
   "command" : "shuffle",
   "user" : "bob35",
   "timestamp" : 6010,
-  "message" : " Please load a source before using the shuffle function."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -6360,7 +6360,7 @@
   "command" : "shuffle",
   "user" : "frank21",
   "timestamp" : 6050,
-  "message" : " Please load a source before using the shuffle function."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "frank21",
@@ -6403,7 +6403,7 @@
   "command" : "shuffle",
   "user" : "irene33",
   "timestamp" : 6080,
-  "message" : " Please load a source before using the shuffle function."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "irene33",
@@ -6446,7 +6446,7 @@
   "command" : "shuffle",
   "user" : "bob35",
   "timestamp" : 6110,
-  "message" : " Please load a source before using the shuffle function."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -6494,7 +6494,7 @@
   "command" : "shuffle",
   "user" : "emily30",
   "timestamp" : 6140,
-  "message" : " Please load a source before using the shuffle function."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -6639,7 +6639,7 @@
   "command" : "shuffle",
   "user" : "david27",
   "timestamp" : 6230,
-  "message" : " Please load a source before using the shuffle function."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "david27",
@@ -6666,7 +6666,7 @@
   "command" : "shuffle",
   "user" : "frank21",
   "timestamp" : 6250,
-  "message" : " Please load a source before using the shuffle function."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "frank21",
@@ -6693,7 +6693,7 @@
   "command" : "shuffle",
   "user" : "henry26",
   "timestamp" : 6270,
-  "message" : " Please load a source before using the shuffle function."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "henry26",
@@ -6986,7 +6986,7 @@
   "command" : "shuffle",
   "user" : "grace25",
   "timestamp" : 6460,
-  "message" : " Please load a source before using the shuffle function."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "grace25",
@@ -7013,7 +7013,7 @@
   "command" : "shuffle",
   "user" : "irene33",
   "timestamp" : 6480,
-  "message" : " Please load a source before using the shuffle function."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "irene33",
@@ -7245,7 +7245,7 @@
   "command" : "shuffle",
   "user" : "emily30",
   "timestamp" : 6640,
-  "message" : " Please load a source before using the shuffle function."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "emily30",

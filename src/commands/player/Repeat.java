@@ -32,7 +32,7 @@ public class Repeat extends Command {
 
         UserPlayer userPlayer = player.getLibrary().getUserWithUsername(getUsername()).getPlayer();
 
-        if (userPlayer.getAudioQueue().isEmpty()) {
+        if (!userPlayer.playingIndexIsValid()) {
             out.put("message", "Please load a source before setting the repeat status.");
         } else {
 

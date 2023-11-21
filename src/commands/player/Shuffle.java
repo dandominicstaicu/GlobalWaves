@@ -34,8 +34,8 @@ public class Shuffle extends Command {
 
 		UserPlayer userPlayer = player.getLibrary().getUserWithUsername(getUsername()).getPlayer();
 
-		if (userPlayer.getAudioQueue().isEmpty()) {
-			out.put("message", " Please load a source before using the shuffle function.");
+		if (!userPlayer.playingIndexIsValid()) {
+			out.put("message", "Please load a source before using the shuffle function.");
 		} else if (!userPlayer.getIsPlayingPlaylist()) {
 			out.put("message", "The loaded source is not a playlist.");
 		} else {

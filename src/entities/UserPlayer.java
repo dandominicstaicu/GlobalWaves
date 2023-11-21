@@ -60,7 +60,7 @@ public class UserPlayer {
 //
 					if (playingIndex + 1 < audioQueue.size())
 //						playingIndex++; // get to the next index in the queue
-						 next();
+						next();
 
 					else
 						playingIndex = 0;
@@ -68,7 +68,7 @@ public class UserPlayer {
 					isRepeating = 0;
 				} else if (isRepeating.equals(0)) { // no repeat both cases
 //					playingIndex++;
-					 next();
+					next();
 				}
 				// repeat infinite for both cases means just not removing the current element in the queue
 
@@ -93,9 +93,9 @@ public class UserPlayer {
 							}
 						} else if (playingIndex < audioQueue.size() && !isRepeating.equals(2))
 //							playingIndex++;
-						 	next();
+							next();
 
-						if (playingIndex < audioQueue.size()) {
+						if (playingIndex < audioQueue.size() ) {
 							currentAudioDuration = audioQueue.get(playingIndex).getDuration();
 						} else {
 							stop();
@@ -128,6 +128,9 @@ public class UserPlayer {
 		if (isShuffled && realIndex + 1 < shuffledIndexes.size()) {
 			realIndex++;
 			playingIndex = shuffledIndexes.get(realIndex);
+		} else if (isShuffled && realIndex + 1 >= shuffledIndexes.size()) {
+			realIndex++;
+			playingIndex = realIndex;
 		} else {
 			playingIndex++;
 			realIndex = playingIndex;
@@ -194,6 +197,7 @@ public class UserPlayer {
 
 	public void stop() {
 		this.isPlaying = false;
+		isShuffled = false;
 
 		if (audioQueue != null && playingIndexIsValid()) {
 			int currentSecond = audioQueue.get(playingIndex).getDuration() - timeLeftToPlay;
@@ -202,8 +206,9 @@ public class UserPlayer {
 
 			audioQueue.clear();
 			playingIndex = -1;
+			realIndex = -1;
 			isRepeating = 0;
-			isShuffled = false;
+
 		}
 
 //		if (!audioQueue.isEmpty())
