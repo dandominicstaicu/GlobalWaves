@@ -159,7 +159,8 @@
 }, {
   "command" : "shuffle",
   "user" : "bob35",
-  "timestamp" : 850
+  "timestamp" : 850,
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -168,7 +169,7 @@
     "name" : "Nothing Else Matters",
     "remainedTime" : 229,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -176,10 +177,10 @@
   "user" : "bob35",
   "timestamp" : 1250,
   "stats" : {
-    "name" : "Crazy",
-    "remainedTime" : 193,
+    "name" : "Hustle Hard",
+    "remainedTime" : 111,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -187,23 +188,24 @@
   "user" : "bob35",
   "timestamp" : 1600,
   "stats" : {
-    "name" : "Elevate",
-    "remainedTime" : 68,
+    "name" : "I Don't Wanna Live Forever",
+    "remainedTime" : 231,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
   "command" : "shuffle",
   "user" : "bob35",
-  "timestamp" : 1610
+  "timestamp" : 1610,
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 1660,
   "stats" : {
-    "name" : "Elevate",
-    "remainedTime" : 8,
+    "name" : "I Don't Wanna Live Forever",
+    "remainedTime" : 171,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -213,8 +215,8 @@
   "user" : "bob35",
   "timestamp" : 2000,
   "stats" : {
-    "name" : "I Don't Wanna Live Forever",
-    "remainedTime" : 158,
+    "name" : "Hustle Hard",
+    "remainedTime" : 63,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -224,11 +226,11 @@
   "user" : "bob35",
   "timestamp" : 2350,
   "stats" : {
-    "name" : "Hustle Hard",
-    "remainedTime" : 40,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "search",
@@ -249,7 +251,8 @@
 }, {
   "command" : "shuffle",
   "user" : "bob35",
-  "timestamp" : 2360
+  "timestamp" : 2360,
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -258,7 +261,7 @@
     "name" : "Nothing Else Matters",
     "remainedTime" : 332,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -266,10 +269,10 @@
   "user" : "bob35",
   "timestamp" : 2750,
   "stats" : {
-    "name" : "Crazy",
-    "remainedTime" : 306,
+    "name" : "Elevate",
+    "remainedTime" : 217,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -277,10 +280,10 @@
   "user" : "bob35",
   "timestamp" : 3100,
   "stats" : {
-    "name" : "Elevate",
-    "remainedTime" : 181,
+    "name" : "Begin Again",
+    "remainedTime" : 105,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 } ]

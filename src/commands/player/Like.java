@@ -35,10 +35,10 @@ public class Like extends Command {
 
         if (userPlayer.getAudioQueue().isEmpty()) {
             out.put("message", "Please load a source before liking or unliking.");
-        } else if (!userPlayer.getAudioQueue().element().isSong()) {
+        } else if (!userPlayer.getAudioQueue().get(userPlayer.getPlayingIndex()).isSong()) {
             out.put("message", "The loaded source is not a song.");
         } else {
-            if (lib.getUserWithUsername(getUsername()).likeUnlikeSong((entities.Song) userPlayer.getAudioQueue().element())) {
+            if (lib.getUserWithUsername(getUsername()).likeUnlikeSong((entities.Song) userPlayer.getAudioQueue().get(userPlayer.getPlayingIndex()))) {
                 out.put("message", "Like registered successfully.");
             } else {
                 out.put("message", "Unlike registered successfully.");

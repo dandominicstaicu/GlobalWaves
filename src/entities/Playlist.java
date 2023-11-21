@@ -40,6 +40,7 @@ public class Playlist implements AudioFileCollection, Playable {
         userPlayer.setIsPlayingPlaylist(true);
 
         // maybe clear the queue before adding
+        userPlayer.getAudioQueue().clear();
 
 
         // add all songs to the queue of the userPlayer

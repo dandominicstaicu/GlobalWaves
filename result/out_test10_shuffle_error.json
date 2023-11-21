@@ -150,7 +150,7 @@
   "command" : "shuffle",
   "user" : "bob35",
   "timestamp" : 3120,
-  "message" : " Please load a source before using the shuffle function."
+  "message" : "The loaded source is not a playlist."
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -197,7 +197,8 @@
 }, {
   "command" : "shuffle",
   "user" : "bob35",
-  "timestamp" : 3260
+  "timestamp" : 3260,
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -206,7 +207,7 @@
     "name" : "Blank Space",
     "remainedTime" : 101,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -217,7 +218,7 @@
     "name" : "Blank Space",
     "remainedTime" : 51,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -228,13 +229,14 @@
     "name" : "Blank Space",
     "remainedTime" : 1,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
   "command" : "shuffle",
   "user" : "bob35",
-  "timestamp" : 3680
+  "timestamp" : 3680,
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "bob35",

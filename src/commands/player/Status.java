@@ -30,9 +30,9 @@ public class Status extends Command {
         UserPlayer userPlayer = player.getLibrary().getUserWithUsername(getUsername()).getPlayer();
         ObjectNode stats = out.putObject("stats");
 
-        if (userPlayer.getAudioQueue() != null && !userPlayer.getAudioQueue().isEmpty()) {
+        if (userPlayer.getAudioQueue() != null && userPlayer.playingIndexIsValid()) {
             //if (!userPlayer.getAudioQueue().isEmpty())
-            stats.put("name", userPlayer.getAudioQueue().element().getName()); // element is peek() but doesn not return null
+            stats.put("name", userPlayer.getAudioQueue().get(userPlayer.getPlayingIndex()).getName()); // element is peek() but doesn not return null
             stats.put("remainedTime", userPlayer.getRemainedTime());
         } else {
             stats.put("name", "");

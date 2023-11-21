@@ -42,10 +42,10 @@ public class AddRemoveInPlaylist extends Command {
 //			return;
 		} else if (userPlayer.getAudioQueue().isEmpty()) {
 			out.put("message", "Please load a source before adding to or removing from the playlist.");
-		} else if (!userPlayer.getAudioQueue().element().isSong()) {
+		} else if (!userPlayer.getAudioQueue().get(userPlayer.getPlayingIndex()).isSong()) {
 			out.put("message", "The loaded source is not a song.");
 		} else {
-			boolean ret = lib.decideAddRemove(getPlaylistId(), (Song) userPlayer.getAudioQueue().element());
+			boolean ret = lib.decideAddRemove(getPlaylistId(), (Song) userPlayer.getAudioQueue().get(userPlayer.getPlayingIndex()));
 			if (ret) {
 				out.put("message", "Successfully added to playlist.");
 			} else {

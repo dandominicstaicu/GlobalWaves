@@ -27,10 +27,11 @@ public class UserPlayer {
 	private Boolean isShuffled;
 	private Integer isRepeating;
 
-	private Queue<AudioFile> audioQueue;
-	private Queue<AudioFile> cloneQueueRepeat;
-	private Queue<AudioFile> cloneQueueShuffle;
-	private Queue<Integer> shuffledIndexesArray;
+	private int playingIndex = -1;
+	private int realIndex = -1;
+
+	private List<AudioFile> audioQueue;
+	private List<Integer> shuffledIndexes;
 
 	public UserPlayer() {
 		this.searchBar = new SearchBar();
@@ -40,45 +41,62 @@ public class UserPlayer {
 		this.isRepeating = 0;
 //		this.currentPlaying = null;
 //		this.setAudioQueue(new ArrayDeque<>());
-		this.audioQueue = new ArrayDeque<>();
-		this.cloneQueueRepeat = new ArrayDeque<>();
-		this.cloneQueueShuffle = new ArrayDeque<>();
+		this.audioQueue = new ArrayList<>();
 //		this.shuffledIndexesArray = new ArrayDeque<>();
 		this.isPlayingPlaylist = false;
 	}
 
 	public void updateTime(Integer currentTimestamp) {
-		if (isPlaying) {
+		if (isPlaying && !audioQueue.isEmpty()) {
 			timeElapsedSinceLastCommand = currentTimestamp - lastCommandTimestamp;
 
-			int currentAudioDuration = audioQueue.element().getDuration() - audioQueue.element().getPlayedTime();
+//			System.out.println("timestamp: " + currentTimestamp);
+			int currentAudioDuration = audioQueue.get(playingIndex).getDuration() - audioQueue.get(playingIndex).getPlayedTime();
 			if (loadedTimestamp + currentAudioDuration < currentTimestamp) {
 				loadedTimestamp = loadedTimestamp + currentAudioDuration;
 
 				if (isPlayingPlaylist && isRepeating.equals(1)) { // repeat all
-					audioQueue.add(audioQueue.element());
-					audioQueue.remove();
+//					audioQueue.add(audioQueue.get(playingIndex));
+//
+					if (playingIndex + 1 < audioQueue.size())
+//						playingIndex++; // get to the next index in the queue
+						 next();
+
+					else
+						playingIndex = 0;
 				} else if (!isPlayingPlaylist && isRepeating.equals(1)) { // repeat once
 					isRepeating = 0;
 				} else if (isRepeating.equals(0)) { // no repeat both cases
-					audioQueue.remove();
+//					playingIndex++;
+					 next();
 				}
 				// repeat infinite for both cases means just not removing the current element in the queue
 
-				if (audioQueue.isEmpty() && isPlayingPlaylist && isRepeating.equals(1) && cloneQueueRepeat != null) {
-					audioQueue.addAll(cloneQueueRepeat);
+				if (playingIndex >= audioQueue.size() && isPlayingPlaylist && isRepeating.equals(1)) {
+					playingIndex = 0;
+					realIndex = 0;
+				} else if (playingIndex >= audioQueue.size()) {
+					stop();
 				}
 
-				if (!audioQueue.isEmpty()) {
-					currentAudioDuration = audioQueue.element().getDuration();
+				if (playingIndex < audioQueue.size()) {
+					currentAudioDuration = audioQueue.get(playingIndex).getDuration();
 					while (loadedTimestamp + currentAudioDuration < currentTimestamp) {
 						loadedTimestamp += currentAudioDuration;
 						if (isPlayingPlaylist && isRepeating.equals(1)) {
-							audioQueue.remove();
-						}
+							if (playingIndex + 1 < audioQueue.size()) {
+//								playingIndex++;
+								next();
+							} else {
+								playingIndex = 0;
+								realIndex = 0;
+							}
+						} else if (playingIndex < audioQueue.size() && !isRepeating.equals(2))
+//							playingIndex++;
+						 	next();
 
-						if (!audioQueue.isEmpty()) {
-							currentAudioDuration = audioQueue.element().getDuration();
+						if (playingIndex < audioQueue.size()) {
+							currentAudioDuration = audioQueue.get(playingIndex).getDuration();
 						} else {
 							stop();
 						}
@@ -97,24 +115,65 @@ public class UserPlayer {
 		lastCommandTimestamp = currentTimestamp;
 	}
 
+	public void next() {
+//		if (isShuffled && realIndex + 1 < shuffledIndexes.size()) {
+//			// Move to next index in shuffled list
+//			realIndex++;
+//			playingIndex = shuffledIndexes.get(realIndex);
+//		} else if (!isShuffled && playingIndex + 1 < audioQueue.size()) {
+//			// Move to next index in regular order
+//			playingIndex++;
+//			realIndex = playingIndex;
+//		}
+		if (isShuffled && realIndex + 1 < shuffledIndexes.size()) {
+			realIndex++;
+			playingIndex = shuffledIndexes.get(realIndex);
+		} else {
+			playingIndex++;
+			realIndex = playingIndex;
+		}
+	}
+
+	public Boolean shufflePlaylist(Integer seed) {
+		if (isShuffled) {
+			isShuffled = false;
+			realIndex = playingIndex;
+		} else {
+			isShuffled = true;
+			shuffledIndexes = randomiseIndexes(audioQueue.size(), seed);
+			realIndex = shuffledIndexes.indexOf(playingIndex);
+		}
+
+		return isShuffled;
+	}
+
 	public boolean loadSource(Playable playable, Integer startTimestamp, UserPlayer userPlayer) {
 		if (playable == null) {
 			return false;
 		}
 
-		if (playable.isEmpty()) {
-			return false;
-		}
+//		if (playable.isEmpty()) {
+//			return false;
+//		}
 
 		this.setIsPlaying(true);
 		this.setLoadedTimestamp(startTimestamp);
 
 		// Additional logic to load the AudioFiles from the Playable object
+		userPlayer.setPlayingIndex(0);
+
 		playable.loadToQueue(this);
-		this.setTimeLeftToPlay(audioQueue.element().getDuration() - audioQueue.element().getPlayedTime());
+
+		// in case it was an empty collection added
+		if (playable.isEmpty())
+			return false;
+
+		this.setTimeLeftToPlay(audioQueue.get(playingIndex).getDuration() - audioQueue.get(playingIndex).getPlayedTime());
 
 		userPlayer.getSearchBar().setSelectedResult(null);
+
 		this.isRepeating = 0;
+		this.isShuffled = false;
 
 		return true;
 	}
@@ -136,18 +195,18 @@ public class UserPlayer {
 	public void stop() {
 		this.isPlaying = false;
 
-		if (audioQueue != null && !audioQueue.isEmpty()) {
-			int currentSecond = audioQueue.element().getDuration() - timeLeftToPlay;
-			if (!audioQueue.element().isSong())
-				audioQueue.element().setPlayedTime(currentSecond);
+		if (audioQueue != null && playingIndexIsValid()) {
+			int currentSecond = audioQueue.get(playingIndex).getDuration() - timeLeftToPlay;
+			if (!audioQueue.get(playingIndex).isSong())
+				audioQueue.get(playingIndex).setPlayedTime(currentSecond);
 
 			audioQueue.clear();
+			playingIndex = -1;
 			isRepeating = 0;
 			isShuffled = false;
 		}
 
 //		if (!audioQueue.isEmpty())
-
 
 //		this.currentPlaying = null;
 //		this.currentSong = null;
@@ -166,10 +225,6 @@ public class UserPlayer {
 	public Integer changeRepeatState() {
 		if (isRepeating == 0) {
 			isRepeating = 1;
-			if (isPlayingPlaylist && audioQueue != null) {
-				cloneQueueRepeat.clear();
-				cloneQueueRepeat.addAll(audioQueue);
-			}
 		} else if (isRepeating == 1)
 			isRepeating = 2;
 		else
@@ -178,55 +233,11 @@ public class UserPlayer {
 		return isRepeating;
 	}
 
-	public Boolean shufflePlaylist(Integer seed) {
-		if (isShuffled) {
-			isShuffled = false;
-
-			String playingFileName = audioQueue.element().getName();
-			int playingIndex = getIndexOfFile(cloneQueueShuffle, playingFileName);
-
-			// remove the first k elements
-			for (int i = 0; i < playingIndex; ++i) {
-				cloneQueueShuffle.remove();
-			}
-
-			// keep in queue only the songs after k
-			audioQueue.clear();
-			audioQueue.addAll(cloneQueueShuffle);
-
-			return false;
-		}
-
-		isShuffled = true;
-
-		shuffledIndexesArray = generateRandomQueue(audioQueue.size(), seed);
-
-		cloneQueueShuffle.addAll(audioQueue);
-
-		// In the main audioQueue generate the shuffled queue
-		audioQueue.clear();
-		for (int index : shuffledIndexesArray) {
-			audioQueue.add(getNthElement(index, cloneQueueShuffle));
-		}
-
-
-		return true;
+	public boolean playingIndexIsValid() {
+		return playingIndex >= 0 && playingIndex < audioQueue.size();
 	}
 
-	public static int getIndexOfFile(Queue<AudioFile> queue, String fileName) {
-		int index = 0;
-		for (AudioFile audioFile : queue) {
-			if (audioFile.getName().equals(fileName)) {
-				return index;
-			}
-
-			++index;
-		}
-
-		return -1;
-	}
-
-	public static Queue<Integer> generateRandomQueue(int n, Integer seed) {
+	public static List<Integer> randomiseIndexes(int n, Integer seed) {
 		Random random = new Random(seed);
 		List<Integer> tmpList = new ArrayList<>();
 
@@ -236,18 +247,8 @@ public class UserPlayer {
 
 		Collections.shuffle(tmpList, random);
 
-		return new ArrayDeque<>(tmpList);
+		return new ArrayList<>(tmpList);
 	}
 
-	// chatGPT helped me write this method
-	public AudioFile getNthElement(int n, Queue<AudioFile> queue) {
-		if (n >= 0 && n < queue.size()) {
-			List<AudioFile> list = new ArrayList<>(queue);
-			return list.get(n);
-		}
-
-		// n is out of bounds
-		return null;
-	}
 
 }

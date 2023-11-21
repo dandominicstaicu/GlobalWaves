@@ -35,6 +35,7 @@ public class Podcast implements AudioFileCollection, Playable {
 	@Override
 	public void loadToQueue(UserPlayer userPlayer) {
 		// maybe clear the queue before adding
+		userPlayer.getAudioQueue().clear();
 
 		// add all episodes to the queue of the userPlayer
 		userPlayer.getAudioQueue().addAll(episodes);

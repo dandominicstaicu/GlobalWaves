@@ -39,11 +39,11 @@ public class Shuffle extends Command {
 		} else if (!userPlayer.getIsPlayingPlaylist()) {
 			out.put("message", "The loaded source is not a playlist.");
 		} else {
-//			if (userPlayer.shufflePlaylist(this.getSeed())) {
-//				out.put("message", "Shuffle function activated successfully.");
-//			} else {
-//				out.put("message", "Shuffle function deactivated successfully.");
-//			}
+			if (userPlayer.shufflePlaylist(this.getSeed())) {
+				out.put("message", "Shuffle function activated successfully.");
+			} else {
+				out.put("message", "Shuffle function deactivated successfully.");
+			}
 		}
 
 	}
