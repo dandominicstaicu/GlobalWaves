@@ -71,7 +71,7 @@ public class Library implements AudioFileCollection {
 		}
 
 		for (UserInput userInput : libraryInput.getUsers()) {
-			User user = new User(userInput.getUsername(), userInput.getAge(), userInput.getCity(), new UserPlayer(), new ArrayList<>());
+			User user = new User(userInput.getUsername(), userInput.getAge(), userInput.getCity(), new UserPlayer(), new ArrayList<>(), new ArrayList<>());
 			library.addUser(user);
 		}
 
@@ -132,8 +132,11 @@ public class Library implements AudioFileCollection {
 		return null;
 	}
 
-	public boolean decideAddRemove(Integer playlistID, Song song) {
-		Playlist playlist = getPlaylists().get(playlistID - 1);
+	public boolean decideAddRemove(Integer playlistID, Song song, String username) {
+//		Playlist playlist = getPlaylists().get(playlistID - 1);
+		List<Playlist> playlistsSeenByUser = getUserWithUsername(username).getPlaylistsOwnedByUser(playlists);
+//
+		Playlist playlist = playlistsSeenByUser.get(playlistID - 1);
 		Song isSongInPlaylist = searchSongInPlaylist(song.getName(), playlist);
 
 		if (isSongInPlaylist != null) {

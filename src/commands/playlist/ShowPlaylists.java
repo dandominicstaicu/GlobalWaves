@@ -6,6 +6,8 @@ import commands.Command;
 import entities.*;
 import lombok.*;
 
+import java.util.List;
+
 @Getter
 @Setter
 //@NoArgsConstructor
@@ -34,7 +36,10 @@ public class ShowPlaylists extends Command {
 
 		// chatGPT helped me write this part (the output of JSON)
 		ArrayNode resultArray = out.putArray("result");
-		for (Playlist playlist : lib.getPlaylists()) {
+
+		List<Playlist> userOwnedPlaylists = lib.getUserWithUsername(getUsername()).getPlaylistsOwnedByUser(lib.getPlaylists());
+
+		for (Playlist playlist : userOwnedPlaylists) {
 			ObjectNode playlistJson = resultArray.addObject();
 			playlistJson.put("name", playlist.getName());
 
@@ -42,6 +47,8 @@ public class ShowPlaylists extends Command {
 			for (Song song : playlist.getSongs()) {
 				songsArray.add(song.getName());
 			}
+
+
 
 			playlistJson.put("visibility", playlist.getIsPublic() ? "public" : "private");
 			playlistJson.put("followers", playlist.getFollowers());

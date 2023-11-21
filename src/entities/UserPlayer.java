@@ -11,10 +11,7 @@ import java.util.Collections;
 @Getter
 @AllArgsConstructor
 public class UserPlayer {
-    //	private Song currentSong;
-//	private Podcast currentPodcast;
     private Integer loadedTimestamp;
-//	private Integer elapsedTimePlaying;
 
     private Integer lastCommandTimestamp = 0;
     private Integer timeElapsedSinceLastCommand = 0;
@@ -47,7 +44,7 @@ public class UserPlayer {
     }
 
     public void updateTime(Integer currentTimestamp) {
-        if (isPlaying && !audioQueue.isEmpty()) {
+        if (isPlaying && !audioQueue.isEmpty() && playingIndexIsValid()) {
             timeElapsedSinceLastCommand = currentTimestamp - lastCommandTimestamp;
 
 //			System.out.println("timestamp: " + currentTimestamp);
@@ -136,8 +133,9 @@ public class UserPlayer {
             realIndex = playingIndex;
         }
 
-        if (isCommand)
+        if (isCommand && playingIndex < audioQueue.size()) {
             timeLeftToPlay = audioQueue.get(playingIndex).getDuration();
+        }
     }
 
 //	public AudioFile prev() {

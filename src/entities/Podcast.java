@@ -41,6 +41,11 @@ public class Podcast implements AudioFileCollection, Playable {
 		userPlayer.getAudioQueue().addAll(episodes);
 	}
 
+	@Override
+	public boolean isPlaylist() {
+		return false;
+	}
+
 	public void setOwner(final String owner) {
 		this.owner = owner;
 	}

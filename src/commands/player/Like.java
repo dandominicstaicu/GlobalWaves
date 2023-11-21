@@ -33,7 +33,7 @@ public class Like extends Command {
         Library lib = player.getLibrary();
         UserPlayer userPlayer = player.getLibrary().getUserWithUsername(getUsername()).getPlayer();
 
-        if (userPlayer.getAudioQueue().isEmpty()) {
+        if (!userPlayer.playingIndexIsValid()) { // TODO outdated; change to check if in range
             out.put("message", "Please load a source before liking or unliking.");
         } else if (!userPlayer.getAudioQueue().get(userPlayer.getPlayingIndex()).isSong()) {
             out.put("message", "The loaded source is not a song.");

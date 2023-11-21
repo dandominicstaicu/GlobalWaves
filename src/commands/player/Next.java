@@ -35,7 +35,8 @@ public class Next extends Command {
             out.put("message", "Please load a source before skipping to the next track.");
         } else {
             userPlayer.next(true);
-            out.put("message", "Skipped to next track successfully. The current track is " + userPlayer.getAudioQueue().get(userPlayer.getPlayingIndex()).getName() + ".");
+            if (userPlayer.playingIndexIsValid())    //todo delete this line and investigate why the if is necessary
+                out.put("message", "Skipped to next track successfully. The current track is " + userPlayer.getAudioQueue().get(userPlayer.getPlayingIndex()).getName() + ".");
         }
 
 

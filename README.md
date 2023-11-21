@@ -1,5 +1,7 @@
 https://youtu.be/5X0f4tF9Sl8?si=7F939ljX8TOdXuPE
 
+Daca am folosit chat GPT ca sa descifreze ce am scris ieri in tema, atunci ce ar trebui scris in rdm?
+
 CHAT GPT:
 
 *explain the code of the skel

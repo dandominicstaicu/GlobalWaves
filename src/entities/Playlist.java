@@ -46,4 +46,15 @@ public class Playlist implements AudioFileCollection, Playable {
         // add all songs to the queue of the userPlayer
         userPlayer.getAudioQueue().addAll(songs);
     }
+
+    @Override
+    public boolean isPlaylist() {
+        return true;
+    }
+
+    public boolean switchVisibility() {
+        isPublic = !isPublic;
+        return isPublic;
+    }
+
 }

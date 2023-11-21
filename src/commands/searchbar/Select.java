@@ -45,7 +45,7 @@ public class Select extends Command {
         } else {
             Playable selectedResult = lastSearchResults.get(itemNumber - 1); // Adjust for zero-based index
             out.put("message", "Successfully selected " + selectedResult.getName() + ".");
-            userPlayer.getSearchBar().setSelectedResult(selectedResult);
+            userPlayer.getSearchBar().setSelectedResultAndClear(selectedResult);
         }
     }
 }

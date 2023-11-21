@@ -11,4 +11,6 @@ public interface Playable {
 	String getName();
 
 	void loadToQueue(UserPlayer userPlayer);
+
+	boolean isPlaylist();
 }

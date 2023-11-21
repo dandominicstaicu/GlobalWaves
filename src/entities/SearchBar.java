@@ -47,6 +47,11 @@ public class SearchBar {
 		return searchResults;
 	}
 
+	public void setSelectedResultAndClear(Playable selectedResult) {
+		this.selectedResult = selectedResult;
+		this.lastSearchResults = null;
+	}
+
 	private List<Song> searchSongs(Library library, Map<String, Object> filters) {
 		return library.getSongs().stream()
 				.filter(song -> matchesFiltersSong(song, filters))
