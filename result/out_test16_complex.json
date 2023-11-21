@@ -5637,6 +5637,11 @@
     "paused" : false
   }
 }, {
+  "command" : "next",
+  "user" : "irene33",
+  "timestamp" : 5580,
+  "message" : "Please load a source before skipping to the next track."
+}, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 5580,
@@ -5685,6 +5690,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "bob35",
+  "timestamp" : 5610,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -5735,6 +5745,16 @@
     "paused" : false
   }
 }, {
+  "command" : "prev",
+  "user" : "emily30",
+  "timestamp" : 5640,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "prev",
+  "user" : "emily30",
+  "timestamp" : 5640,
+  "message" : "Please load a source before returning to the previous track."
+}, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 5640,
@@ -5745,6 +5765,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "frank21",
+  "timestamp" : 5650,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "frank21",
@@ -5843,6 +5868,11 @@
     "paused" : false
   }
 }, {
+  "command" : "next",
+  "user" : "bob35",
+  "timestamp" : 5710,
+  "message" : "Please load a source before skipping to the next track."
+}, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 5710,
@@ -5869,6 +5899,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "david27",
+  "timestamp" : 5730,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "david27",
@@ -5919,6 +5954,16 @@
     "paused" : false
   }
 }, {
+  "command" : "prev",
+  "user" : "grace25",
+  "timestamp" : 5760,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "prev",
+  "user" : "grace25",
+  "timestamp" : 5760,
+  "message" : "Please load a source before returning to the previous track."
+}, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 5760,
@@ -5930,6 +5975,11 @@
     "paused" : false
   }
 }, {
+  "command" : "prev",
+  "user" : "henry26",
+  "timestamp" : 5770,
+  "message" : "Please load a source before returning to the previous track."
+}, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 5770,
@@ -5940,6 +5990,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "prev",
+  "user" : "irene33",
+  "timestamp" : 5780,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "irene33",
@@ -5984,6 +6039,11 @@
     "paused" : true
   }
 }, {
+  "command" : "prev",
+  "user" : "bob35",
+  "timestamp" : 5810,
+  "message" : "Please load a source before returning to the previous track."
+}, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 5810,
@@ -6010,6 +6070,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "david27",
+  "timestamp" : 5830,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "david27",
@@ -6103,6 +6168,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "irene33",
+  "timestamp" : 5880,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "irene33",
@@ -6211,6 +6281,11 @@
     "paused" : false
   }
 }, {
+  "command" : "prev",
+  "user" : "frank21",
+  "timestamp" : 5950,
+  "message" : "Please load a source before returning to the previous track."
+}, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 5950,
@@ -6292,12 +6367,17 @@
     "paused" : false
   }
 }, {
+  "command" : "next",
+  "user" : "alice22",
+  "timestamp" : 6000,
+  "message" : "Skipped to next track successfully. The current track is Happier."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6000,
   "stats" : {
-    "name" : "Sad But True",
-    "remainedTime" : 160,
+    "name" : "Happier",
+    "remainedTime" : 207,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -6335,6 +6415,11 @@
     "paused" : false
   }
 }, {
+  "command" : "next",
+  "user" : "david27",
+  "timestamp" : 6030,
+  "message" : "Please load a source before skipping to the next track."
+}, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 6030,
@@ -6345,6 +6430,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "prev",
+  "user" : "emily30",
+  "timestamp" : 6040,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -6372,6 +6462,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "grace25",
+  "timestamp" : 6060,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "grace25",
@@ -6416,6 +6511,11 @@
     "paused" : false
   }
 }, {
+  "command" : "next",
+  "user" : "jack29",
+  "timestamp" : 6090,
+  "message" : "Please load a source before skipping to the next track."
+}, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6090,
@@ -6436,8 +6536,8 @@
   "user" : "alice22",
   "timestamp" : 6100,
   "stats" : {
-    "name" : "Sad But True",
-    "remainedTime" : 60,
+    "name" : "Castle on the Hill",
+    "remainedTime" : 204,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -6538,6 +6638,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "prev",
+  "user" : "henry26",
+  "timestamp" : 6170,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "henry26",
@@ -6597,8 +6702,8 @@
   "user" : "alice22",
   "timestamp" : 6200,
   "stats" : {
-    "name" : "Happier",
-    "remainedTime" : 167,
+    "name" : "Castle on the Hill",
+    "remainedTime" : 104,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
@@ -6652,6 +6757,11 @@
     "paused" : false
   }
 }, {
+  "command" : "next",
+  "user" : "emily30",
+  "timestamp" : 6240,
+  "message" : "Please load a source before skipping to the next track."
+}, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6240,
@@ -6678,6 +6788,16 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "prev",
+  "user" : "grace25",
+  "timestamp" : 6260,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "prev",
+  "user" : "grace25",
+  "timestamp" : 6260,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "grace25",
@@ -6748,8 +6868,8 @@
   "user" : "alice22",
   "timestamp" : 6300,
   "stats" : {
-    "name" : "Happier",
-    "remainedTime" : 167,
+    "name" : "Castle on the Hill",
+    "remainedTime" : 104,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
@@ -6759,8 +6879,8 @@
   "user" : "alice22",
   "timestamp" : 6300,
   "stats" : {
-    "name" : "Happier",
-    "remainedTime" : 167,
+    "name" : "Castle on the Hill",
+    "remainedTime" : 104,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
@@ -6814,6 +6934,11 @@
     "paused" : false
   }
 }, {
+  "command" : "prev",
+  "user" : "emily30",
+  "timestamp" : 6340,
+  "message" : "Please load a source before returning to the previous track."
+}, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6340,
@@ -6825,6 +6950,11 @@
     "paused" : false
   }
 }, {
+  "command" : "next",
+  "user" : "frank21",
+  "timestamp" : 6350,
+  "message" : "Please load a source before skipping to the next track."
+}, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6350,
@@ -6835,6 +6965,16 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "prev",
+  "user" : "grace25",
+  "timestamp" : 6360,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "prev",
+  "user" : "grace25",
+  "timestamp" : 6360,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "grace25",
@@ -6885,6 +7025,11 @@
     "paused" : false
   }
 }, {
+  "command" : "prev",
+  "user" : "jack29",
+  "timestamp" : 6390,
+  "message" : "Please load a source before returning to the previous track."
+}, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6390,
@@ -6899,14 +7044,14 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 6400,
-  "message" : "Like registered successfully."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6400,
   "stats" : {
-    "name" : "Happier",
-    "remainedTime" : 167,
+    "name" : "Castle on the Hill",
+    "remainedTime" : 104,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
@@ -6934,6 +7079,11 @@
     "paused" : false
   }
 }, {
+  "command" : "next",
+  "user" : "carol19",
+  "timestamp" : 6420,
+  "message" : "Please load a source before skipping to the next track."
+}, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6420,
@@ -6945,6 +7095,11 @@
     "paused" : false
   }
 }, {
+  "command" : "prev",
+  "user" : "david27",
+  "timestamp" : 6430,
+  "message" : "Please load a source before returning to the previous track."
+}, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 6430,
@@ -6955,6 +7110,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "emily30",
+  "timestamp" : 6440,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -6998,6 +7158,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "henry26",
+  "timestamp" : 6470,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "henry26",
@@ -7051,12 +7216,17 @@
   "user" : "alice22",
   "timestamp" : 6500,
   "stats" : {
-    "name" : "Castle on the Hill",
-    "remainedTime" : 128,
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 286,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "bob35",
+  "timestamp" : 6510,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -7101,6 +7271,11 @@
     "paused" : false
   }
 }, {
+  "command" : "prev",
+  "user" : "emily30",
+  "timestamp" : 6540,
+  "message" : "Please load a source before returning to the previous track."
+}, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6540,
@@ -7128,6 +7303,16 @@
     "paused" : false
   }
 }, {
+  "command" : "prev",
+  "user" : "grace25",
+  "timestamp" : 6560,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "prev",
+  "user" : "grace25",
+  "timestamp" : 6560,
+  "message" : "Please load a source before returning to the previous track."
+}, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6560,
@@ -7154,6 +7339,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "prev",
+  "user" : "irene33",
+  "timestamp" : 6580,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "irene33",
@@ -7197,12 +7387,17 @@
   "user" : "alice22",
   "timestamp" : 6600,
   "stats" : {
-    "name" : "Castle on the Hill",
-    "remainedTime" : 28,
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 186,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "bob35",
+  "timestamp" : 6610,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -7214,6 +7409,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "carol19",
+  "timestamp" : 6620,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "carol19",
@@ -7306,6 +7506,11 @@
     "paused" : false
   }
 }, {
+  "command" : "prev",
+  "user" : "irene33",
+  "timestamp" : 6680,
+  "message" : "Please load a source before returning to the previous track."
+}, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6680,
@@ -7343,7 +7548,7 @@
   "timestamp" : 6700,
   "stats" : {
     "name" : "Stairway to Heaven",
-    "remainedTime" : 410,
+    "remainedTime" : 86,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -7364,6 +7569,16 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "prev",
+  "user" : "carol19",
+  "timestamp" : 6720,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "prev",
+  "user" : "carol19",
+  "timestamp" : 6720,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "carol19",
@@ -7430,6 +7645,11 @@
     "paused" : false
   }
 }, {
+  "command" : "next",
+  "user" : "grace25",
+  "timestamp" : 6760,
+  "message" : "Please load a source before skipping to the next track."
+}, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6760,
@@ -7440,6 +7660,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "prev",
+  "user" : "henry26",
+  "timestamp" : 6770,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "henry26",
@@ -7489,7 +7714,7 @@
   "timestamp" : 6800,
   "stats" : {
     "name" : "Stairway to Heaven",
-    "remainedTime" : 310,
+    "remainedTime" : 468,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -7500,11 +7725,21 @@
   "timestamp" : 6800,
   "stats" : {
     "name" : "Stairway to Heaven",
-    "remainedTime" : 310,
+    "remainedTime" : 468,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "prev",
+  "user" : "bob35",
+  "timestamp" : 6810,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "prev",
+  "user" : "bob35",
+  "timestamp" : 6810,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -7587,6 +7822,11 @@
     "paused" : false
   }
 }, {
+  "command" : "next",
+  "user" : "grace25",
+  "timestamp" : 6860,
+  "message" : "Please load a source before skipping to the next track."
+}, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6860,
@@ -7646,12 +7886,17 @@
     "paused" : false
   }
 }, {
+  "command" : "next",
+  "user" : "alice22",
+  "timestamp" : 6900,
+  "message" : "Skipped to next track successfully. The current track is Bohemian Rhapsody."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6900,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 210,
+    "name" : "Bohemian Rhapsody",
+    "remainedTime" : 355,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -7742,6 +7987,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "grace25",
+  "timestamp" : 6960,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "grace25",
@@ -9560,7 +9810,7 @@
   "command" : "showPreferredSongs",
   "user" : "alice22",
   "timestamp" : 8490,
-  "result" : [ "Paint It Black", "Delicate", "Sad But True", "Happier", "Castle on the Hill" ]
+  "result" : [ "Paint It Black", "Delicate", "Stairway to Heaven" ]
 }, {
   "command" : "showPlaylists",
   "user" : "bob35",

@@ -5633,6 +5633,11 @@
     "paused" : false
   }
 }, {
+  "command" : "next",
+  "user" : "henry26",
+  "timestamp" : 5570,
+  "message" : "Please load a source before skipping to the next track."
+}, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 5570,
@@ -5688,6 +5693,11 @@
     "paused" : false
   }
 }, {
+  "command" : "next",
+  "user" : "alice22",
+  "timestamp" : 5600,
+  "message" : "Please load a source before skipping to the next track."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 5600,
@@ -5699,12 +5709,22 @@
     "paused" : false
   }
 }, {
+  "command" : "prev",
+  "user" : "bob35",
+  "timestamp" : 5610,
+  "message" : "Returned to previous track successfully. The current track is Big Pimpin'."
+}, {
+  "command" : "prev",
+  "user" : "bob35",
+  "timestamp" : 5610,
+  "message" : "Returned to previous track successfully. The current track is Gimme Shelter."
+}, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 5610,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 86,
+    "name" : "Gimme Shelter",
+    "remainedTime" : 271,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -5726,6 +5746,11 @@
     "paused" : false
   }
 }, {
+  "command" : "prev",
+  "user" : "david27",
+  "timestamp" : 5630,
+  "message" : "Please load a source before returning to the previous track."
+}, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 5630,
@@ -5736,6 +5761,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "emily30",
+  "timestamp" : 5640,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -5763,6 +5793,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "prev",
+  "user" : "grace25",
+  "timestamp" : 5660,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "grace25",
@@ -5854,12 +5889,17 @@
   "user" : "bob35",
   "timestamp" : 5710,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 222,
+    "name" : "Big Pimpin'",
+    "remainedTime" : 257,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : true
   }
+}, {
+  "command" : "prev",
+  "user" : "carol19",
+  "timestamp" : 5720,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "carol19",
@@ -5887,6 +5927,16 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "prev",
+  "user" : "emily30",
+  "timestamp" : 5740,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "prev",
+  "user" : "emily30",
+  "timestamp" : 5740,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -5937,6 +5987,11 @@
     "paused" : false
   }
 }, {
+  "command" : "next",
+  "user" : "henry26",
+  "timestamp" : 5770,
+  "message" : "Please load a source before skipping to the next track."
+}, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 5770,
@@ -5980,6 +6035,11 @@
     "paused" : false
   }
 }, {
+  "command" : "next",
+  "user" : "alice22",
+  "timestamp" : 5800,
+  "message" : "Please load a source before skipping to the next track."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 5800,
@@ -6000,12 +6060,17 @@
   "user" : "bob35",
   "timestamp" : 5810,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 222,
+    "name" : "Big Pimpin'",
+    "remainedTime" : 257,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : true
   }
+}, {
+  "command" : "next",
+  "user" : "carol19",
+  "timestamp" : 5820,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "carol19",
@@ -6072,6 +6137,11 @@
     "paused" : false
   }
 }, {
+  "command" : "next",
+  "user" : "grace25",
+  "timestamp" : 5860,
+  "message" : "Please load a source before skipping to the next track."
+}, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 5860,
@@ -6115,6 +6185,11 @@
     "paused" : false
   }
 }, {
+  "command" : "prev",
+  "user" : "jack29",
+  "timestamp" : 5890,
+  "message" : "Please load a source before returning to the previous track."
+}, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 5890,
@@ -6142,12 +6217,17 @@
     "paused" : false
   }
 }, {
+  "command" : "prev",
+  "user" : "bob35",
+  "timestamp" : 5910,
+  "message" : "Returned to previous track successfully. The current track is Big Pimpin'."
+}, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 5910,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 222,
+    "name" : "Big Pimpin'",
+    "remainedTime" : 284,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : true
@@ -6175,6 +6255,16 @@
     "paused" : false
   }
 }, {
+  "command" : "prev",
+  "user" : "david27",
+  "timestamp" : 5930,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "prev",
+  "user" : "david27",
+  "timestamp" : 5930,
+  "message" : "Please load a source before returning to the previous track."
+}, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 5930,
@@ -6185,6 +6275,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "emily30",
+  "timestamp" : 5940,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -6308,8 +6403,8 @@
   "user" : "bob35",
   "timestamp" : 6010,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 222,
+    "name" : "Big Pimpin'",
+    "remainedTime" : 284,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : true
@@ -6330,6 +6425,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "prev",
+  "user" : "david27",
+  "timestamp" : 6030,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "david27",
@@ -6475,8 +6575,8 @@
   "user" : "bob35",
   "timestamp" : 6110,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 222,
+    "name" : "Big Pimpin'",
+    "remainedTime" : 284,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
@@ -6513,6 +6613,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "prev",
+  "user" : "emily30",
+  "timestamp" : 6140,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -6557,6 +6662,11 @@
     "paused" : false
   }
 }, {
+  "command" : "prev",
+  "user" : "henry26",
+  "timestamp" : 6170,
+  "message" : "Please load a source before returning to the previous track."
+}, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6170,
@@ -6567,6 +6677,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "irene33",
+  "timestamp" : 6180,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "irene33",
@@ -6595,6 +6710,11 @@
     "paused" : false
   }
 }, {
+  "command" : "next",
+  "user" : "alice22",
+  "timestamp" : 6200,
+  "message" : "Please load a source before skipping to the next track."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6200,
@@ -6615,8 +6735,8 @@
   "user" : "bob35",
   "timestamp" : 6210,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 222,
+    "name" : "Big Pimpin'",
+    "remainedTime" : 284,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
@@ -6653,6 +6773,16 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "prev",
+  "user" : "emily30",
+  "timestamp" : 6240,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "prev",
+  "user" : "emily30",
+  "timestamp" : 6240,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -6697,6 +6827,11 @@
     "paused" : false
   }
 }, {
+  "command" : "next",
+  "user" : "henry26",
+  "timestamp" : 6270,
+  "message" : "Please load a source before skipping to the next track."
+}, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6270,
@@ -6708,6 +6843,16 @@
     "paused" : false
   }
 }, {
+  "command" : "prev",
+  "user" : "irene33",
+  "timestamp" : 6280,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "prev",
+  "user" : "irene33",
+  "timestamp" : 6280,
+  "message" : "Please load a source before returning to the previous track."
+}, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6280,
@@ -6718,6 +6863,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "jack29",
+  "timestamp" : 6290,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "jack29",
@@ -6746,12 +6896,17 @@
     "paused" : false
   }
 }, {
+  "command" : "next",
+  "user" : "bob35",
+  "timestamp" : 6310,
+  "message" : "Skipped to next track successfully. The current track is Maps."
+}, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6310,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 222,
+    "name" : "Maps",
+    "remainedTime" : 190,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
@@ -6794,6 +6949,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "emily30",
+  "timestamp" : 6340,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -6876,6 +7036,16 @@
     "paused" : false
   }
 }, {
+  "command" : "prev",
+  "user" : "jack29",
+  "timestamp" : 6390,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "prev",
+  "user" : "jack29",
+  "timestamp" : 6390,
+  "message" : "Please load a source before returning to the previous track."
+}, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6390,
@@ -6903,12 +7073,17 @@
     "paused" : false
   }
 }, {
+  "command" : "prev",
+  "user" : "bob35",
+  "timestamp" : 6410,
+  "message" : "Returned to previous track successfully. The current track is Big Pimpin'."
+}, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6410,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 222,
+    "name" : "Big Pimpin'",
+    "remainedTime" : 284,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
@@ -6946,6 +7121,11 @@
     "paused" : false
   }
 }, {
+  "command" : "next",
+  "user" : "emily30",
+  "timestamp" : 6440,
+  "message" : "Please load a source before skipping to the next track."
+}, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6440,
@@ -6973,6 +7153,11 @@
     "paused" : false
   }
 }, {
+  "command" : "prev",
+  "user" : "grace25",
+  "timestamp" : 6460,
+  "message" : "Please load a source before returning to the previous track."
+}, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6460,
@@ -6999,6 +7184,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "irene33",
+  "timestamp" : 6480,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "irene33",
@@ -7052,12 +7242,22 @@
   "user" : "bob35",
   "timestamp" : 6510,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 222,
+    "name" : "Big Pimpin'",
+    "remainedTime" : 284,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "prev",
+  "user" : "carol19",
+  "timestamp" : 6520,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "prev",
+  "user" : "carol19",
+  "timestamp" : 6520,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "carol19",
@@ -7101,6 +7301,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "frank21",
+  "timestamp" : 6550,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "frank21",
@@ -7167,6 +7372,11 @@
     "paused" : false
   }
 }, {
+  "command" : "next",
+  "user" : "jack29",
+  "timestamp" : 6590,
+  "message" : "Please load a source before skipping to the next track."
+}, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6590,
@@ -7203,8 +7413,8 @@
   "user" : "bob35",
   "timestamp" : 6610,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 222,
+    "name" : "Big Pimpin'",
+    "remainedTime" : 284,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
@@ -7369,12 +7579,22 @@
   "user" : "bob35",
   "timestamp" : 6710,
   "stats" : {
-    "name" : "Thinking Out Loud",
-    "remainedTime" : 183,
+    "name" : "Bohemian Rhapsody",
+    "remainedTime" : 284,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "prev",
+  "user" : "carol19",
+  "timestamp" : 6720,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "prev",
+  "user" : "carol19",
+  "timestamp" : 6720,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "carol19",
@@ -7403,6 +7623,11 @@
     "paused" : false
   }
 }, {
+  "command" : "next",
+  "user" : "emily30",
+  "timestamp" : 6740,
+  "message" : "Please load a source before skipping to the next track."
+}, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6740,
@@ -7413,6 +7638,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "prev",
+  "user" : "frank21",
+  "timestamp" : 6750,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "frank21",
@@ -7425,6 +7655,11 @@
     "paused" : false
   }
 }, {
+  "command" : "prev",
+  "user" : "grace25",
+  "timestamp" : 6760,
+  "message" : "Please load a source before returning to the previous track."
+}, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6760,
@@ -7435,6 +7670,16 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "prev",
+  "user" : "henry26",
+  "timestamp" : 6770,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "prev",
+  "user" : "henry26",
+  "timestamp" : 6770,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "henry26",
@@ -7447,6 +7692,11 @@
     "paused" : false
   }
 }, {
+  "command" : "next",
+  "user" : "irene33",
+  "timestamp" : 6780,
+  "message" : "Please load a source before skipping to the next track."
+}, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6780,
@@ -7458,6 +7708,16 @@
     "paused" : false
   }
 }, {
+  "command" : "prev",
+  "user" : "jack29",
+  "timestamp" : 6790,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "prev",
+  "user" : "jack29",
+  "timestamp" : 6790,
+  "message" : "Please load a source before returning to the previous track."
+}, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6790,
@@ -7468,6 +7728,16 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "prev",
+  "user" : "alice22",
+  "timestamp" : 6800,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "prev",
+  "user" : "alice22",
+  "timestamp" : 6800,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "alice22",
@@ -7484,8 +7754,8 @@
   "user" : "bob35",
   "timestamp" : 6810,
   "stats" : {
-    "name" : "Thinking Out Loud",
-    "remainedTime" : 83,
+    "name" : "Bohemian Rhapsody",
+    "remainedTime" : 184,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -7495,8 +7765,8 @@
   "user" : "bob35",
   "timestamp" : 6810,
   "stats" : {
-    "name" : "Thinking Out Loud",
-    "remainedTime" : 83,
+    "name" : "Bohemian Rhapsody",
+    "remainedTime" : 184,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -7518,6 +7788,16 @@
     "paused" : false
   }
 }, {
+  "command" : "prev",
+  "user" : "david27",
+  "timestamp" : 6830,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "prev",
+  "user" : "david27",
+  "timestamp" : 6830,
+  "message" : "Please load a source before returning to the previous track."
+}, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 6830,
@@ -7528,6 +7808,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "emily30",
+  "timestamp" : 6840,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -7626,6 +7911,11 @@
     "paused" : false
   }
 }, {
+  "command" : "next",
+  "user" : "alice22",
+  "timestamp" : 6900,
+  "message" : "Please load a source before skipping to the next track."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6900,
@@ -7646,8 +7936,8 @@
   "user" : "bob35",
   "timestamp" : 6910,
   "stats" : {
-    "name" : "Black Dog",
-    "remainedTime" : 277,
+    "name" : "Bohemian Rhapsody",
+    "remainedTime" : 84,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -7674,6 +7964,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "david27",
+  "timestamp" : 6930,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "david27",

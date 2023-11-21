@@ -1,173 +1,244 @@
 [ {
   "command" : "createPlaylist",
   "user" : "bob35",
-  "timestamp" : 50,
+  "timestamp" : 150,
   "message" : "Playlist created successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
-  "timestamp" : 100,
-  "message" : "Search returned 1 results",
-  "results" : [ "TED Talks Daily" ]
+  "timestamp" : 170,
+  "message" : "Search returned 5 results",
+  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ]
 }, {
   "command" : "select",
   "user" : "bob35",
-  "timestamp" : 110,
-  "message" : "Successfully selected TED Talks Daily."
+  "timestamp" : 190,
+  "message" : "Successfully selected Start Me Up."
 }, {
   "command" : "load",
   "user" : "bob35",
-  "timestamp" : 115,
-  "message" : "Playback loaded successfully."
-}, {
-  "command" : "shuffle",
-  "user" : "bob35",
-  "timestamp" : 120,
-  "message" : "The loaded source is not a playlist."
-}, {
-  "command" : "search",
-  "user" : "bob35",
-  "timestamp" : 200,
-  "message" : "Search returned 1 results",
-  "results" : [ "Blank Space" ]
-}, {
-  "command" : "select",
-  "user" : "bob35",
-  "timestamp" : 210,
-  "message" : "Successfully selected Blank Space."
-}, {
-  "command" : "load",
-  "user" : "bob35",
-  "timestamp" : 213,
+  "timestamp" : 195,
   "message" : "Playback loaded successfully."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
-  "timestamp" : 215,
+  "timestamp" : 240,
   "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
-  "timestamp" : 250,
-  "message" : "Search returned 1 results",
-  "results" : [ "Whole Lotta Love" ]
+  "timestamp" : 270,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "Don't", "Maps", "The Man", "Freedom" ]
 }, {
   "command" : "select",
   "user" : "bob35",
-  "timestamp" : 260,
-  "message" : "Successfully selected Whole Lotta Love."
+  "timestamp" : 290,
+  "message" : "Successfully selected Shape of You."
 }, {
   "command" : "load",
   "user" : "bob35",
-  "timestamp" : 263,
+  "timestamp" : 295,
   "message" : "Playback loaded successfully."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
-  "timestamp" : 265,
+  "timestamp" : 320,
   "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
-  "timestamp" : 400,
-  "message" : "Search returned 1 results",
-  "results" : [ "I Don't Wanna Live Forever" ]
+  "timestamp" : 370,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Big Pimpin'", "The Unforgiven" ]
 }, {
   "command" : "select",
   "user" : "bob35",
-  "timestamp" : 410,
-  "message" : "Successfully selected I Don't Wanna Live Forever."
+  "timestamp" : 390,
+  "message" : "Successfully selected Stairway to Heaven."
 }, {
   "command" : "load",
-  "user" : "bob35",
-  "timestamp" : 415,
-  "message" : "Playback loaded successfully."
-}, {
-  "command" : "shuffle",
   "user" : "bob35",
   "timestamp" : 420,
-  "message" : "The loaded source is not a playlist."
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 430,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 440,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Big Pimpin'", "The Unforgiven" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 445,
+  "message" : "Successfully selected Under Pressure."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 446,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 450,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 480,
+  "stats" : {
+    "name" : "Under Pressure",
+    "remainedTime" : 210,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 500,
   "message" : "Search returned 1 results",
-  "results" : [ "Kings Dead" ]
+  "results" : [ "My favourite songs" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 510,
-  "message" : "Successfully selected Kings Dead."
+  "message" : "Successfully selected My favourite songs."
 }, {
   "command" : "load",
   "user" : "bob35",
-  "timestamp" : 513,
+  "timestamp" : 650,
   "message" : "Playback loaded successfully."
 }, {
-  "command" : "addRemoveInPlaylist",
+  "command" : "status",
   "user" : "bob35",
-  "timestamp" : 515,
-  "message" : "Successfully added to playlist."
+  "timestamp" : 655,
+  "stats" : {
+    "name" : "Start Me Up",
+    "remainedTime" : 207,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "next",
+  "user" : "bob35",
+  "timestamp" : 670,
+  "message" : "Skipped to next track successfully. The current track is Shape of You."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 690,
+  "stats" : {
+    "name" : "Shape of You",
+    "remainedTime" : 213,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "prev",
+  "user" : "bob35",
+  "timestamp" : 710,
+  "message" : "Returned to previous track successfully. The current track is Shape of You."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 711,
+  "stats" : {
+    "name" : "Shape of You",
+    "remainedTime" : 232,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "prev",
+  "user" : "bob35",
+  "timestamp" : 712,
+  "message" : "Returned to previous track successfully. The current track is Shape of You."
+}, {
+  "command" : "prev",
+  "user" : "bob35",
+  "timestamp" : 712,
+  "message" : "Returned to previous track successfully. The current track is Start Me Up."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 713,
+  "stats" : {
+    "name" : "Start Me Up",
+    "remainedTime" : 211,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
   "command" : "search",
   "user" : "bob35",
-  "timestamp" : 550,
+  "timestamp" : 800,
   "message" : "Search returned 1 results",
-  "results" : [ "Thinking Out Loud" ]
+  "results" : [ "How I Built This" ]
 }, {
   "command" : "select",
   "user" : "bob35",
-  "timestamp" : 560,
-  "message" : "Successfully selected Thinking Out Loud."
+  "timestamp" : 890,
+  "message" : "Successfully selected How I Built This."
 }, {
   "command" : "load",
   "user" : "bob35",
-  "timestamp" : 563,
+  "timestamp" : 900,
   "message" : "Playback loaded successfully."
-}, {
-  "command" : "addRemoveInPlaylist",
-  "user" : "bob35",
-  "timestamp" : 565,
-  "message" : "Successfully added to playlist."
 }, {
   "command" : "status",
   "user" : "bob35",
-  "timestamp" : 3100,
+  "timestamp" : 1049,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Airbnb: Joe Gebbia",
+    "remainedTime" : 2817,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 1051,
+  "stats" : {
+    "name" : "Airbnb: Joe Gebbia",
+    "remainedTime" : 2815,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
   }
 }, {
   "command" : "search",
   "user" : "bob35",
-  "timestamp" : 3110,
+  "timestamp" : 1198,
   "message" : "Search returned 1 results",
-  "results" : [ "Colaj" ]
-}, {
-  "command" : "shuffle",
-  "user" : "bob35",
-  "timestamp" : 3120,
-  "message" : "The loaded source is not a playlist."
+  "results" : [ "How I Built This" ]
 }, {
   "command" : "select",
   "user" : "bob35",
-  "timestamp" : 3130,
-  "message" : "Successfully selected Colaj."
+  "timestamp" : 1199,
+  "message" : "Successfully selected How I Built This."
 }, {
   "command" : "load",
   "user" : "bob35",
-  "timestamp" : 3140,
+  "timestamp" : 1200,
   "message" : "Playback loaded successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
-  "timestamp" : 3150,
+  "timestamp" : 1389,
   "stats" : {
-    "name" : "Blank Space",
-    "remainedTime" : 221,
+    "name" : "Airbnb: Joe Gebbia",
+    "remainedTime" : 2479,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -175,86 +246,10 @@
 }, {
   "command" : "status",
   "user" : "bob35",
-  "timestamp" : 3200,
+  "timestamp" : 1391,
   "stats" : {
-    "name" : "Blank Space",
-    "remainedTime" : 171,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 3250,
-  "stats" : {
-    "name" : "Blank Space",
-    "remainedTime" : 121,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "shuffle",
-  "user" : "bob35",
-  "timestamp" : 3260,
-  "message" : "Shuffle function activated successfully."
-}, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 3270,
-  "stats" : {
-    "name" : "Blank Space",
-    "remainedTime" : 101,
-    "repeat" : "No Repeat",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 3320,
-  "stats" : {
-    "name" : "Blank Space",
-    "remainedTime" : 51,
-    "repeat" : "No Repeat",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 3370,
-  "stats" : {
-    "name" : "Blank Space",
-    "remainedTime" : 1,
-    "repeat" : "No Repeat",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "shuffle",
-  "user" : "bob35",
-  "timestamp" : 3680,
-  "message" : "Shuffle function deactivated successfully."
-}, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 3690,
-  "stats" : {
-    "name" : "Whole Lotta Love",
-    "remainedTime" : 15,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 3740,
-  "stats" : {
-    "name" : "Kings Dead",
-    "remainedTime" : 195,
+    "name" : "Airbnb: Joe Gebbia",
+    "remainedTime" : 2477,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
