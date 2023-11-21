@@ -38,7 +38,7 @@ public class Select extends Command {
         out.put("user", getUsername());
         out.put("timestamp", getTimestamp());
 
-        if (lastSearchResults == null || lastSearchResults.isEmpty()) {
+        if (lastSearchResults == null) {
             out.put("message", "Please conduct a search before making a selection.");
         } else if (itemNumber < 1 || itemNumber > lastSearchResults.size()) {
             out.put("message", "The selected ID is too high.");

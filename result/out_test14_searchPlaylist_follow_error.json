@@ -205,7 +205,7 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 1710,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "follow",
   "user" : "david27",
