@@ -5054,7 +5054,7 @@
     "remainedTime" : 236,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchVisibility",
@@ -5400,7 +5400,7 @@
     "remainedTime" : 271,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchVisibility",
@@ -5594,10 +5594,10 @@
   "timestamp" : 6010,
   "stats" : {
     "name" : "Gimme Shelter",
-    "remainedTime" : 271,
+    "remainedTime" : 171,
     "repeat" : "Repeat All",
     "shuffle" : true,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
@@ -5609,8 +5609,8 @@
   "user" : "carol19",
   "timestamp" : 6020,
   "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 19,
+    "name" : "Money Trees",
+    "remainedTime" : 306,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -5771,10 +5771,10 @@
   "timestamp" : 6110,
   "stats" : {
     "name" : "Gimme Shelter",
-    "remainedTime" : 271,
+    "remainedTime" : 71,
     "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchVisibility",
@@ -5791,8 +5791,8 @@
   "user" : "carol19",
   "timestamp" : 6120,
   "stats" : {
-    "name" : "Don't",
-    "remainedTime" : -81,
+    "name" : "Money Trees",
+    "remainedTime" : 206,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -5929,17 +5929,17 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 6210,
-  "message" : "Unlike registered successfully."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6210,
   "stats" : {
-    "name" : "Gimme Shelter",
-    "remainedTime" : 271,
+    "name" : "Money Trees",
+    "remainedTime" : 358,
     "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "repeat",
@@ -5951,8 +5951,8 @@
   "user" : "carol19",
   "timestamp" : 6220,
   "stats" : {
-    "name" : "Don't",
-    "remainedTime" : -181,
+    "name" : "Money Trees",
+    "remainedTime" : 106,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -6114,14 +6114,14 @@
   "command" : "next",
   "user" : "bob35",
   "timestamp" : 6310,
-  "message" : "Skipped to next track successfully. The current track is Money Trees."
+  "message" : "Skipped to next track successfully. The current track is Sad But True."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6310,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 387,
+    "name" : "Sad But True",
+    "remainedTime" : 324,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -6136,8 +6136,8 @@
   "user" : "carol19",
   "timestamp" : 6320,
   "stats" : {
-    "name" : "Don't",
-    "remainedTime" : -281,
+    "name" : "Money Trees",
+    "remainedTime" : 6,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -6296,14 +6296,14 @@
   "command" : "prev",
   "user" : "bob35",
   "timestamp" : 6410,
-  "message" : "Returned to previous track successfully. The current track is Money Trees."
+  "message" : "Returned to previous track successfully. The current track is Sad But True."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6410,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 387,
+    "name" : "Sad But True",
+    "remainedTime" : 324,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -6318,8 +6318,8 @@
   "user" : "carol19",
   "timestamp" : 6420,
   "stats" : {
-    "name" : "Don't",
-    "remainedTime" : -381,
+    "name" : "Maps",
+    "remainedTime" : 96,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
@@ -6467,8 +6467,8 @@
   "user" : "bob35",
   "timestamp" : 6510,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 287,
+    "name" : "Sad But True",
+    "remainedTime" : 224,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -6477,19 +6477,19 @@
   "command" : "prev",
   "user" : "carol19",
   "timestamp" : 6520,
-  "message" : "Returned to previous track successfully. The current track is Don't."
+  "message" : "Returned to previous track successfully. The current track is Maps."
 }, {
   "command" : "prev",
   "user" : "carol19",
   "timestamp" : 6520,
-  "message" : "Returned to previous track successfully. The current track is Love Story."
+  "message" : "Returned to previous track successfully. The current track is Money Trees."
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6520,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 236,
+    "name" : "Money Trees",
+    "remainedTime" : 387,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -6638,8 +6638,19 @@
   "user" : "bob35",
   "timestamp" : 6610,
   "stats" : {
+    "name" : "Sad But True",
+    "remainedTime" : 124,
+    "repeat" : "Repeat All",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "carol19",
+  "timestamp" : 6620,
+  "stats" : {
     "name" : "Money Trees",
-    "remainedTime" : 187,
+    "remainedTime" : 287,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -6649,19 +6660,8 @@
   "user" : "carol19",
   "timestamp" : 6620,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 136,
-    "repeat" : "Repeat All",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "carol19",
-  "timestamp" : 6620,
-  "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 136,
+    "name" : "Money Trees",
+    "remainedTime" : 287,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -6809,8 +6809,8 @@
   "user" : "bob35",
   "timestamp" : 6710,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 87,
+    "name" : "Sad But True",
+    "remainedTime" : 24,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
@@ -6819,19 +6819,19 @@
   "command" : "prev",
   "user" : "carol19",
   "timestamp" : 6720,
-  "message" : "Returned to previous track successfully. The current track is Love Story."
+  "message" : "Returned to previous track successfully. The current track is Money Trees."
 }, {
   "command" : "prev",
   "user" : "carol19",
   "timestamp" : 6720,
-  "message" : "Returned to previous track successfully. The current track is Love Story."
+  "message" : "Returned to previous track successfully. The current track is Don't."
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6720,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 236,
+    "name" : "Don't",
+    "remainedTime" : 219,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -6989,8 +6989,8 @@
   "user" : "bob35",
   "timestamp" : 6810,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 87,
+    "name" : "Sad But True",
+    "remainedTime" : 24,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
@@ -7000,8 +7000,8 @@
   "user" : "bob35",
   "timestamp" : 6810,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 87,
+    "name" : "Sad But True",
+    "remainedTime" : 24,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
@@ -7016,8 +7016,8 @@
   "user" : "carol19",
   "timestamp" : 6820,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 136,
+    "name" : "Don't",
+    "remainedTime" : 119,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -7181,8 +7181,8 @@
   "user" : "bob35",
   "timestamp" : 6910,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 87,
+    "name" : "Sad But True",
+    "remainedTime" : 24,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
@@ -7192,8 +7192,8 @@
   "user" : "carol19",
   "timestamp" : 6920,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 36,
+    "name" : "Don't",
+    "remainedTime" : 19,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -7203,8 +7203,8 @@
   "user" : "carol19",
   "timestamp" : 6920,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 36,
+    "name" : "Don't",
+    "remainedTime" : 19,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -9771,7 +9771,7 @@
   "command" : "showPreferredSongs",
   "user" : "bob35",
   "timestamp" : 8500,
-  "result" : [ ]
+  "result" : [ "Gimme Shelter", "Money Trees" ]
 }, {
   "command" : "showPlaylists",
   "user" : "carol19",
@@ -9791,7 +9791,7 @@
   "command" : "showPreferredSongs",
   "user" : "carol19",
   "timestamp" : 8510,
-  "result" : [ "Love Story", "Don't" ]
+  "result" : [ "Love Story", "Money Trees" ]
 }, {
   "command" : "showPlaylists",
   "user" : "david27",
@@ -9939,5 +9939,5 @@
 }, {
   "command" : "getTop5Songs",
   "timestamp" : 8580,
-  "result" : [ "Don't", "Dream On", "Start Me Up", "Black Dog", "The Man" ]
+  "result" : [ "Money Trees", "Dream On", "Start Me Up", "Black Dog", "The Man" ]
 } ]

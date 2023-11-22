@@ -175,6 +175,12 @@ public class UserPlayer {
 
 		if (currentSecond > 1) {
 			timeLeftToPlay = audioQueue.get(playingIndex).getDuration();
+
+			if (!isPlaying) {
+				isPlaying = true;
+				loadedTimestamp = currentTimestamp;
+			}
+
 			loadedTimestamp = currentTimestamp;
 			return audioQueue.get(playingIndex);
 		} else {
@@ -205,6 +211,7 @@ public class UserPlayer {
 			}
 
 			loadedTimestamp = currentTimestamp;
+
 			timeLeftToPlay = audioQueue.get(playingIndex).getDuration();
 			return audioQueue.get(playingIndex);
 		}
