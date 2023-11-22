@@ -36,9 +36,11 @@ public class User {
     public boolean likeUnlikeSong(final Song song) {
         if (favoriteSongs.contains(song)) {
             favoriteSongs.remove(song);
+            song.setLikes(song.getLikes() - 1);
             return false;
         } else {
             favoriteSongs.add(song);
+            song.setLikes(song.getLikes() + 1);
             return true;
         }
     }

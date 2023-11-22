@@ -9928,4 +9928,12 @@
   "user" : "jack29",
   "timestamp" : 8580,
   "result" : [ ]
+}, {
+  "command" : "getTop5Playlists",
+  "timestamp" : 8580,
+  "result" : [ "Chill Melodies Voyage #1", "Stellar Tunes Quest #2", "Breezy Rhythms Trek #1", "Chill Sounds Journey #1", "Dynamic Tracks Adventure #2" ]
+}, {
+  "command" : "getTop5Songs",
+  "timestamp" : 8580,
+  "result" : [ "Don't", "Dream On", "Money Trees", "Black Dog", "Love Story" ]
 } ]

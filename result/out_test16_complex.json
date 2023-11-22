@@ -9923,4 +9923,12 @@
   "user" : "jack29",
   "timestamp" : 8580,
   "result" : [ "The Man" ]
+}, {
+  "command" : "getTop5Playlists",
+  "timestamp" : 8580,
+  "result" : [ "Classic Tunes Dream #1", "Dynamic Tracks Trek #2", "Electric Bangers Dream #1", "Breezy Bangers Quest #2", "Epic Tracks Safari #1" ]
+}, {
+  "command" : "getTop5Songs",
+  "timestamp" : 8580,
+  "result" : [ "The Man", "Don't", "Whatever You Need", "Start Me Up", "Maps" ]
 } ]

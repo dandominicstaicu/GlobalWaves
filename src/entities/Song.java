@@ -16,6 +16,7 @@ public class Song extends AudioFile implements Playable {
     private String genre;
     private Integer releaseYear;
     private String artist;
+    private Integer likes;
 
     public Song(String name, Integer duration, String Album, ArrayList<String> tags,
                 String lyrics, String genre, Integer releaseYear, String artist) {
@@ -27,6 +28,8 @@ public class Song extends AudioFile implements Playable {
         this.genre = genre;
         this.releaseYear = releaseYear;
         this.artist = artist;
+
+        this.likes = 0;
     }
 
     public void setName(String name) {
