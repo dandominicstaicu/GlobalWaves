@@ -166,7 +166,7 @@ public class UserPlayer {
 
 	}
 
-	public AudioFile prev() {
+	public AudioFile prev(int currentTimestamp) {
 		if (audioQueue.isEmpty() || playingIndex < 0) {
 			return null;
 		}
@@ -175,31 +175,36 @@ public class UserPlayer {
 
 		if (currentSecond > 1) {
 			timeLeftToPlay = audioQueue.get(playingIndex).getDuration();
+			loadedTimestamp = currentTimestamp;
 			return audioQueue.get(playingIndex);
 		} else {
 			if (isShuffled && realIndex > 0) {
 				realIndex--;
 				playingIndex = shuffledIndexes.get(realIndex);
 
-				if (!isPlaying)
+				if (!isPlaying) {
 					isPlaying = true;
-
+					loadedTimestamp = currentTimestamp;
+				}
 			} else if (!isShuffled && playingIndex > 0) {
 				playingIndex--;
 				realIndex = playingIndex;
 
-				if (!isPlaying)
+				if (!isPlaying) {
 					isPlaying = true;
-
+					loadedTimestamp = currentTimestamp;
+				}
 			} else {
 				timeLeftToPlay = audioQueue.get(playingIndex).getDuration();
 
-				if (!isPlaying)
+				if (!isPlaying) {
 					isPlaying = true;
-
+					loadedTimestamp = currentTimestamp;
+				}
 				return audioQueue.get(playingIndex);
 			}
 
+			loadedTimestamp = currentTimestamp;
 			timeLeftToPlay = audioQueue.get(playingIndex).getDuration();
 			return audioQueue.get(playingIndex);
 		}

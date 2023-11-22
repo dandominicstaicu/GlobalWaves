@@ -5065,8 +5065,8 @@
   "user" : "emily30",
   "timestamp" : 5740,
   "stats" : {
-    "name" : "The Man",
-    "remainedTime" : 111,
+    "name" : "Don't",
+    "remainedTime" : 119,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
@@ -5251,8 +5251,8 @@
   "user" : "emily30",
   "timestamp" : 5840,
   "stats" : {
-    "name" : "The Man",
-    "remainedTime" : 111,
+    "name" : "Don't",
+    "remainedTime" : 119,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
@@ -5444,8 +5444,8 @@
   "user" : "emily30",
   "timestamp" : 5940,
   "stats" : {
-    "name" : "The Man",
-    "remainedTime" : 111,
+    "name" : "Don't",
+    "remainedTime" : 119,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
@@ -5604,14 +5604,14 @@
   "command" : "prev",
   "user" : "emily30",
   "timestamp" : 6040,
-  "message" : "Returned to previous track successfully. The current track is The Man."
+  "message" : "Returned to previous track successfully. The current track is Don't."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6040,
   "stats" : {
-    "name" : "The Man",
-    "remainedTime" : 190,
+    "name" : "Don't",
+    "remainedTime" : 219,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
@@ -5641,14 +5641,14 @@
   "command" : "next",
   "user" : "grace25",
   "timestamp" : 6060,
-  "message" : "Skipped to next track successfully. The current track is Start Me Up."
+  "message" : "Skipped to next track successfully. The current track is Stairway to Heaven."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6060,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 212,
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 482,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -5775,8 +5775,8 @@
   "user" : "emily30",
   "timestamp" : 6140,
   "stats" : {
-    "name" : "The Man",
-    "remainedTime" : 190,
+    "name" : "Don't",
+    "remainedTime" : 219,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : true
@@ -5796,8 +5796,8 @@
   "user" : "frank21",
   "timestamp" : 6150,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 207,
+    "name" : "Blank Space",
+    "remainedTime" : 31,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -5812,8 +5812,8 @@
   "user" : "grace25",
   "timestamp" : 6160,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 112,
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 382,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -5960,14 +5960,14 @@
   "command" : "next",
   "user" : "emily30",
   "timestamp" : 6240,
-  "message" : "Skipped to next track successfully. The current track is Blank Space."
+  "message" : "Skipped to next track successfully. The current track is Whatever You Need."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6240,
   "stats" : {
-    "name" : "Blank Space",
-    "remainedTime" : 231,
+    "name" : "Whatever You Need",
+    "remainedTime" : 210,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
@@ -5983,7 +5983,7 @@
   "timestamp" : 6250,
   "stats" : {
     "name" : "Big Pimpin'",
-    "remainedTime" : 107,
+    "remainedTime" : 215,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -5992,19 +5992,19 @@
   "command" : "prev",
   "user" : "grace25",
   "timestamp" : 6260,
-  "message" : "Returned to previous track successfully. The current track is Start Me Up."
+  "message" : "Returned to previous track successfully. The current track is Stairway to Heaven."
 }, {
   "command" : "prev",
   "user" : "grace25",
   "timestamp" : 6260,
-  "message" : "Returned to previous track successfully. The current track is Dream On."
+  "message" : "Returned to previous track successfully. The current track is Start Me Up."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6260,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 267,
+    "name" : "Start Me Up",
+    "remainedTime" : 212,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -6142,14 +6142,14 @@
   "command" : "prev",
   "user" : "emily30",
   "timestamp" : 6340,
-  "message" : "Returned to previous track successfully. The current track is Blank Space."
+  "message" : "Returned to previous track successfully. The current track is Whatever You Need."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6340,
   "stats" : {
-    "name" : "Blank Space",
-    "remainedTime" : 231,
+    "name" : "Whatever You Need",
+    "remainedTime" : 210,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
@@ -6324,14 +6324,14 @@
   "command" : "next",
   "user" : "emily30",
   "timestamp" : 6440,
-  "message" : "Skipped to next track successfully. The current track is Castle on the Hill."
+  "message" : "Skipped to next track successfully. The current track is Black Dog."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6440,
   "stats" : {
-    "name" : "Castle on the Hill",
-    "remainedTime" : 261,
+    "name" : "Black Dog",
+    "remainedTime" : 294,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
@@ -6494,14 +6494,14 @@
   "command" : "prev",
   "user" : "emily30",
   "timestamp" : 6540,
-  "message" : "Returned to previous track successfully. The current track is Castle on the Hill."
+  "message" : "Returned to previous track successfully. The current track is Black Dog."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6540,
   "stats" : {
-    "name" : "Castle on the Hill",
-    "remainedTime" : 261,
+    "name" : "Black Dog",
+    "remainedTime" : 294,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
@@ -6676,8 +6676,8 @@
   "user" : "emily30",
   "timestamp" : 6640,
   "stats" : {
-    "name" : "Castle on the Hill",
-    "remainedTime" : 161,
+    "name" : "Black Dog",
+    "remainedTime" : 194,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -6857,8 +6857,8 @@
   "user" : "emily30",
   "timestamp" : 6740,
   "stats" : {
-    "name" : "Castle on the Hill",
-    "remainedTime" : 61,
+    "name" : "Black Dog",
+    "remainedTime" : 94,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7043,8 +7043,8 @@
   "user" : "emily30",
   "timestamp" : 6840,
   "stats" : {
-    "name" : "Castle on the Hill",
-    "remainedTime" : -39,
+    "name" : "Whatever You Need",
+    "remainedTime" : 204,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -7230,8 +7230,8 @@
   "user" : "emily30",
   "timestamp" : 6940,
   "stats" : {
-    "name" : "Castle on the Hill",
-    "remainedTime" : -139,
+    "name" : "Whatever You Need",
+    "remainedTime" : 104,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
@@ -7256,14 +7256,14 @@
   "command" : "next",
   "user" : "grace25",
   "timestamp" : 6960,
-  "message" : "Skipped to next track successfully. The current track is The Unforgiven."
+  "message" : "Skipped to next track successfully. The current track is The Man."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6960,
   "stats" : {
-    "name" : "The Unforgiven",
-    "remainedTime" : 386,
+    "name" : "The Man",
+    "remainedTime" : 190,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -7299,8 +7299,8 @@
   "user" : "irene33",
   "timestamp" : 6980,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : -33,
+    "name" : "Don't",
+    "remainedTime" : 186,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -9825,7 +9825,7 @@
   "command" : "showPreferredSongs",
   "user" : "emily30",
   "timestamp" : 8530,
-  "result" : [ "The Man" ]
+  "result" : [ "Don't" ]
 }, {
   "command" : "showPlaylists",
   "user" : "frank21",
@@ -9933,5 +9933,5 @@
 }, {
   "command" : "getTop5Songs",
   "timestamp" : 8580,
-  "result" : [ "The Man", "Happier", "Gimme Shelter", "Bohemian Rhapsody", "Shape of You" ]
+  "result" : [ "The Man", "Don't", "Happier", "Gimme Shelter", "Bohemian Rhapsody" ]
 } ]

@@ -34,7 +34,7 @@ public class Prev extends Command {
         if (!userPlayer.playingIndexIsValid()) {
             out.put("message", "Please load a source before returning to the previous track.");
         } else {
-            AudioFile previous = userPlayer.prev();
+            AudioFile previous = userPlayer.prev(getTimestamp());
             out.put("message", "Returned to previous track successfully. The current track is " + previous.getName() + ".");
         }
     }

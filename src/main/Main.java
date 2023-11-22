@@ -111,6 +111,10 @@ public final class Main {
             // if the command has a user, so is diferent from getTop5 commands
             if (command.getUsername() != null) {
                 UserPlayer userPlayer = player.getLibrary().getUserWithUsername(command.getUsername()).getPlayer();
+
+                if (command.getTimestamp() == 5740)
+                    System.out.println("!!!!");
+
                 userPlayer.updateTime(command.getTimestamp());
             }
 
