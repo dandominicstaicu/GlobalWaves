@@ -6233,14 +6233,14 @@
   "command" : "prev",
   "user" : "jack29",
   "timestamp" : 6390,
-  "message" : "Returned to previous track successfully. The current track is Maps."
+  "message" : "Returned to previous track successfully. The current track is Money Trees."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6390,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 190,
+    "name" : "Money Trees",
+    "remainedTime" : 387,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -6415,8 +6415,8 @@
   "user" : "jack29",
   "timestamp" : 6490,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 90,
+    "name" : "Money Trees",
+    "remainedTime" : 287,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -6580,8 +6580,8 @@
   "user" : "jack29",
   "timestamp" : 6590,
   "stats" : {
-    "name" : "The Unforgiven",
-    "remainedTime" : 376,
+    "name" : "Money Trees",
+    "remainedTime" : 187,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -6591,8 +6591,8 @@
   "user" : "jack29",
   "timestamp" : 6590,
   "stats" : {
-    "name" : "The Unforgiven",
-    "remainedTime" : 376,
+    "name" : "Money Trees",
+    "remainedTime" : 187,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -6761,8 +6761,8 @@
   "user" : "jack29",
   "timestamp" : 6690,
   "stats" : {
-    "name" : "The Unforgiven",
-    "remainedTime" : 276,
+    "name" : "Money Trees",
+    "remainedTime" : 87,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : true
@@ -6947,8 +6947,8 @@
   "user" : "jack29",
   "timestamp" : 6790,
   "stats" : {
-    "name" : "The Unforgiven",
-    "remainedTime" : 276,
+    "name" : "Money Trees",
+    "remainedTime" : 87,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : true
@@ -7128,14 +7128,14 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 6890,
-  "message" : "Like registered successfully."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6890,
   "stats" : {
-    "name" : "The Unforgiven",
-    "remainedTime" : 276,
+    "name" : "Money Trees",
+    "remainedTime" : 87,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : true
@@ -7320,8 +7320,8 @@
   "user" : "jack29",
   "timestamp" : 6990,
   "stats" : {
-    "name" : "The Unforgiven",
-    "remainedTime" : 276,
+    "name" : "Money Trees",
+    "remainedTime" : 87,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : true
@@ -9925,7 +9925,7 @@
   "command" : "showPreferredSongs",
   "user" : "jack29",
   "timestamp" : 8580,
-  "result" : [ "The Man", "Maps", "The Unforgiven" ]
+  "result" : [ "The Man" ]
 }, {
   "command" : "getTop5Playlists",
   "timestamp" : 8580,
@@ -9933,5 +9933,5 @@
 }, {
   "command" : "getTop5Songs",
   "timestamp" : 8580,
-  "result" : [ "Don't", "Maps", "The Unforgiven", "Whatever You Need", "Start Me Up" ]
+  "result" : [ "Don't", "Whatever You Need", "Start Me Up", "Maps", "The Man" ]
 } ]

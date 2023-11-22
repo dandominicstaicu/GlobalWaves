@@ -183,6 +183,9 @@ public class UserPlayer {
 		if (isShuffled && realIndex + 1 < shuffledIndexes.size()) {
 			realIndex++;
 			playingIndex = shuffledIndexes.get(realIndex);
+		} else if (isShuffled && realIndex + 1 >= shuffledIndexes.size() && isRepeating == 1 && isPlayingPlaylist) {
+			realIndex = 0;
+			playingIndex = shuffledIndexes.get(realIndex);
 		} else if (isShuffled && realIndex + 1 >= shuffledIndexes.size()) {
 			realIndex++;
 			playingIndex = realIndex;
