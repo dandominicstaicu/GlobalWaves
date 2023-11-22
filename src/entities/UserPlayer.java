@@ -32,6 +32,8 @@ public class UserPlayer {
 
 	private boolean nextWasLastCommand = false;
 
+	private int pauseStartTimeStamp = 0;
+
 	public UserPlayer() {
 		this.searchBar = new SearchBar();
 		this.isPlaying = false;
@@ -46,75 +48,76 @@ public class UserPlayer {
 	}
 
 	public void updateTime(Integer currentTimestamp) {
-		if (playingIndexIsValid()) {
-			if (isPlaying && !audioQueue.isEmpty()) {
-				timeElapsedSinceLastCommand = currentTimestamp - lastCommandTimestamp;
+		if (!playingIndexIsValid()) {
+			lastCommandTimestamp = currentTimestamp;
+			stop();
+			return;
+		}
 
-//			System.out.println("timestamp: " + currentTimestamp);
-				int currentAudioDuration = audioQueue.get(playingIndex).getDuration() - audioQueue.get(playingIndex).getPlayedTime();
-				if (loadedTimestamp + currentAudioDuration < currentTimestamp) {
-					loadedTimestamp = loadedTimestamp + currentAudioDuration;
+		if (!isPlaying) {
+//			lastCommandTimestamp = currentTimestamp;
+//			return;
+			if (nextWasLastCommand)
+				isPlaying = true;
+		} else {
 
-					if (isPlayingPlaylist && isRepeating.equals(1)) { // repeat all
-//					audioQueue.add(audioQueue.get(playingIndex));
-//
-						if (playingIndex + 1 < audioQueue.size())
-//						playingIndex++; // get to the next index in the queue
-							next(false);
 
-						else
-							playingIndex = 0;
-					} else if (!isPlayingPlaylist && isRepeating.equals(1)) { // repeat once
-						isRepeating = 0;
-					} else if (isRepeating.equals(0)) { // no repeat both cases
-//					playingIndex++;
-						next(false);
-					}
-					// repeat infinite for both cases means just not removing the current element in the queue
+			timeElapsedSinceLastCommand = currentTimestamp - lastCommandTimestamp;
+			int currentAudioDuration = audioQueue.get(playingIndex).getDuration() - audioQueue.get(playingIndex).getPlayedTime();
 
-					if (playingIndex >= audioQueue.size() && isPlayingPlaylist && isRepeating.equals(1)) {
+			if (loadedTimestamp + currentAudioDuration < currentTimestamp) {
+				loadedTimestamp = loadedTimestamp + currentAudioDuration;
+
+				handleRepeatCase();
+
+				if (playingIndex >= audioQueue.size()) {
+					if (isPlayingPlaylist && isRepeating.equals(1)) {
 						playingIndex = 0;
 						realIndex = 0;
-					} else if (playingIndex >= audioQueue.size()) {
+					} else {
 						stop();
 					}
+				}
 
-					if (playingIndex < audioQueue.size()) {
-						currentAudioDuration = audioQueue.get(playingIndex).getDuration();
-						while (loadedTimestamp + currentAudioDuration < currentTimestamp) {
-							loadedTimestamp += currentAudioDuration;
+				if (playingIndex < audioQueue.size()) {
+					currentAudioDuration = audioQueue.get(playingIndex).getDuration();
+					while (loadedTimestamp + currentAudioDuration < currentTimestamp) {
+						// repeat logic
+						// Update the loaded timestamp to account for the duration of the current track
+						loadedTimestamp += currentAudioDuration;
+
+						// Handle the repeat and playlist logic for the next track
+						handleRepeatCase();
+
+						// Check if the playlist has ended
+						if (playingIndex >= audioQueue.size()) {
 							if (isPlayingPlaylist && isRepeating.equals(1)) {
-								if (playingIndex + 1 < audioQueue.size()) {
-//								playingIndex++;
-									next(false);
-								} else {
-									playingIndex = 0;
-									realIndex = 0;
-								}
-							} else if (playingIndex < audioQueue.size() && !isRepeating.equals(2))
-//							playingIndex++;
-								next(false);
-
-							if (playingIndex < audioQueue.size()) {
-								currentAudioDuration = audioQueue.get(playingIndex).getDuration();
+								playingIndex = 0; // Start from the beginning if repeating is enabled
+								realIndex = 0;
 							} else {
-								stop();
+								stop(); // Stop playing if the end of the playlist is reached
+								break; // Exit the while loop
 							}
 						}
 
-						timeLeftToPlay = loadedTimestamp + currentAudioDuration - currentTimestamp;
-					} else {
-						this.pause();
+						// Update the duration for the new current track
+						if (playingIndex < audioQueue.size()) {
+							currentAudioDuration = audioQueue.get(playingIndex).getDuration();
+						} else {
+							break; // Exit the while loop if there are no more tracks
+						}
+
 					}
 
+					timeLeftToPlay = loadedTimestamp + currentAudioDuration - currentTimestamp;
 				} else {
-					timeLeftToPlay -= timeElapsedSinceLastCommand;
+					pause();
 				}
-			} else if (!isPlaying && nextWasLastCommand) {
-				isPlaying = true;
+
+			} else {
+//			if (isPlaying)
+				timeLeftToPlay -= timeElapsedSinceLastCommand;
 			}
-		} else {
-			stop(); // timestamp 5610 bob35 // in case the index is invalid stop the player
 		}
 
 		if (nextWasLastCommand)
@@ -122,25 +125,20 @@ public class UserPlayer {
 		lastCommandTimestamp = currentTimestamp;
 	}
 
-//	public void next(boolean isCommand) {
-//		if (isShuffled && realIndex + 1 < shuffledIndexes.size()) {
-//			realIndex++;
-//			playingIndex = shuffledIndexes.get(realIndex);
-//		} else if (isShuffled && realIndex + 1 >= shuffledIndexes.size()) {
-//			realIndex++;
-//			playingIndex = realIndex;
-//		} else {
-//			playingIndex++;
-//			realIndex = playingIndex;
-//		}
-//
-//		if (!isPlaying)
-//			resume();
-//
-//		if (isCommand && playingIndex < audioQueue.size()) {
-//			timeLeftToPlay = audioQueue.get(playingIndex).getDuration();
-//		}
-//	}
+	private void handleRepeatCase() {
+		if (isPlayingPlaylist && isRepeating.equals(1)) {
+			if (playingIndex + 1 < audioQueue.size()) {
+				next(false);
+			} else {
+				playingIndex = 0;
+				realIndex = 0;
+			}
+		} else if (!isPlayingPlaylist && isRepeating.equals(1)) {
+			isRepeating = 0;
+		} else if (isRepeating.equals(0)) {
+			next(false);
+		}
+	}
 
 	public void next(boolean isCommand) {
 		if (isShuffled && realIndex + 1 < shuffledIndexes.size()) {
@@ -166,49 +164,6 @@ public class UserPlayer {
 
 	}
 
-//	public void next(boolean isCommand) {
-//		// Check if we are shuffling and still have songs left in the shuffled index
-//		if (isShuffled && realIndex + 1 < shuffledIndexes.size()) {
-//			realIndex++;
-//			playingIndex = shuffledIndexes.get(realIndex);
-//		}
-//		// If we have reached the end of the shuffled indexes, we start from the beginning or stop based on repeat settings
-//		else if (isShuffled && realIndex + 1 >= shuffledIndexes.size() && isRepeating == 1) {
-//			realIndex = 0;
-//			playingIndex = shuffledIndexes.get(realIndex);
-//		}
-//		// If we are not shuffling, we just advance to the next track
-//		else if (!isShuffled && playingIndex + 1 < audioQueue.size()) {
-//			playingIndex++;
-//		}
-//		// If we have reached the end of the queue, we start from the beginning or stop based on repeat settings
-//		else if (!isShuffled && playingIndex + 1 >= audioQueue.size() && isRepeating == 1) {
-//			playingIndex = 0; // Start again from the first song
-//		} else {
-//			// If repeat is off and we've reached the end, stop the player.
-//			if (isRepeating == 0) {
-//				stop();
-//				return; // We must return here to ensure we don't access an invalid index
-//			}
-//			// If repeat is set to repeat all, start from the beginning
-//			if (isRepeating == 2) {
-//				playingIndex = 0;
-//			}
-//		}
-//
-//		// If this method was called as part of a command (and not just an automatic advance to the next track)
-//		// and the new playing index is valid, reset the timer and played time
-//		if (isCommand && playingIndexIsValid()) {
-//			timeLeftToPlay = audioQueue.get(playingIndex).getDuration(); // Reset the time left to play to full duration
-//			audioQueue.get(playingIndex).setPlayedTime(0); // Start the track from the beginning
-//			// If the player was paused when the next command was issued, resume playing
-//			if (!isPlaying) {
-//				resume();
-//			}
-//		}
-//	}
-
-
 	public AudioFile prev() {
 		if (audioQueue.isEmpty() || playingIndex < 0) {
 			return null;
@@ -223,11 +178,23 @@ public class UserPlayer {
 			if (isShuffled && realIndex > 0) {
 				realIndex--;
 				playingIndex = shuffledIndexes.get(realIndex);
+
+				if (!isPlaying)
+					isPlaying = true;
+
 			} else if (!isShuffled && playingIndex > 0) {
 				playingIndex--;
 				realIndex = playingIndex;
+
+				if (!isPlaying)
+					isPlaying = true;
+
 			} else {
 				timeLeftToPlay = audioQueue.get(playingIndex).getDuration();
+
+				if (!isPlaying)
+					isPlaying = true;
+
 				return audioQueue.get(playingIndex);
 			}
 
@@ -263,6 +230,7 @@ public class UserPlayer {
 
 		// Additional logic to load the AudioFiles from the Playable object
 		userPlayer.setPlayingIndex(0);
+		userPlayer.setRealIndex(0);
 
 		playable.loadToQueue(this);
 
@@ -310,14 +278,9 @@ public class UserPlayer {
 
 		}
 
-//		if (!audioQueue.isEmpty())
-
-//		this.currentPlaying = null;
-//		this.currentSong = null;
-//		this.currentPodcast = null;
-		// Additional logic to stop and reset the player
 	}
 
+	// SealedClasses
 	public Integer getRemainedTime() {
 		if (audioQueue.isEmpty()) {
 			return 0;
@@ -408,5 +371,4 @@ public class UserPlayer {
 			}
 		}
 	}
-
 }

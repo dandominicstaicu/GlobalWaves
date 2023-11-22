@@ -37,7 +37,6 @@ public class PlayPause extends Command {
                 userPlayer.resume();
                 out.put("message", "Playback resumed successfully.");
             }
-
         } else {
             out.put("message", "Please load a source before attempting to pause or resume playback.");
         }

@@ -7037,11 +7037,11 @@
   "user" : "david27",
   "timestamp" : 6830,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 267,
+    "name" : "Gimme Shelter",
+    "remainedTime" : 159,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "next",
@@ -7218,14 +7218,14 @@
   "command" : "next",
   "user" : "david27",
   "timestamp" : 6930,
-  "message" : "Skipped to next track successfully. The current track is Angie."
+  "message" : "Skipped to next track successfully. The current track is Begin Again."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 6930,
   "stats" : {
-    "name" : "Angie",
-    "remainedTime" : 273,
+    "name" : "Begin Again",
+    "remainedTime" : 238,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false

@@ -5108,11 +5108,11 @@
   "user" : "grace25",
   "timestamp" : 5760,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 267,
+    "name" : "The Unforgiven",
+    "remainedTime" : 355,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "prev",
@@ -5284,22 +5284,22 @@
   "user" : "grace25",
   "timestamp" : 5860,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 267,
+    "name" : "The Unforgiven",
+    "remainedTime" : 255,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 5860,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 267,
+    "name" : "The Unforgiven",
+    "remainedTime" : 255,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
@@ -5476,11 +5476,11 @@
   "user" : "grace25",
   "timestamp" : 5960,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 267,
+    "name" : "The Unforgiven",
+    "remainedTime" : 155,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "playPause",
@@ -5641,17 +5641,17 @@
   "command" : "next",
   "user" : "grace25",
   "timestamp" : 6060,
-  "message" : "Skipped to next track successfully. The current track is Start Me Up."
+  "message" : "Skipped to next track successfully. The current track is The Man."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6060,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 212,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "playPause",
@@ -5806,17 +5806,17 @@
   "command" : "repeat",
   "user" : "grace25",
   "timestamp" : 6160,
-  "message" : "Repeat mode changed to repeat all."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6160,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 232,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "prev",
@@ -5832,7 +5832,7 @@
     "remainedTime" : 387,
     "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchVisibility",
@@ -5992,22 +5992,22 @@
   "command" : "prev",
   "user" : "grace25",
   "timestamp" : 6260,
-  "message" : "Returned to previous track successfully. The current track is Love Story."
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "prev",
   "user" : "grace25",
   "timestamp" : 6260,
-  "message" : "Returned to previous track successfully. The current track is Stairway to Heaven."
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6260,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 482,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "shuffle",
@@ -6020,10 +6020,10 @@
   "timestamp" : 6270,
   "stats" : {
     "name" : "Money Trees",
-    "remainedTime" : 387,
+    "remainedTime" : 287,
     "repeat" : "Repeat All",
     "shuffle" : true,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchVisibility",
@@ -6174,21 +6174,32 @@
   "command" : "prev",
   "user" : "grace25",
   "timestamp" : 6360,
-  "message" : "Returned to previous track successfully. The current track is Stairway to Heaven."
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "prev",
   "user" : "grace25",
   "timestamp" : 6360,
-  "message" : "Returned to previous track successfully. The current track is Start Me Up."
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6360,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 212,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "status",
+  "user" : "henry26",
+  "timestamp" : 6370,
+  "stats" : {
+    "name" : "Money Trees",
+    "remainedTime" : 187,
+    "repeat" : "Repeat All",
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6197,21 +6208,10 @@
   "timestamp" : 6370,
   "stats" : {
     "name" : "Money Trees",
-    "remainedTime" : 387,
+    "remainedTime" : 187,
     "repeat" : "Repeat All",
     "shuffle" : true,
-    "paused" : true
-  }
-}, {
-  "command" : "status",
-  "user" : "henry26",
-  "timestamp" : 6370,
-  "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 387,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
@@ -6356,17 +6356,17 @@
   "command" : "shuffle",
   "user" : "grace25",
   "timestamp" : 6460,
-  "message" : "Shuffle function activated successfully."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6460,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 390,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "switchVisibility",
@@ -6377,14 +6377,14 @@
   "command" : "next",
   "user" : "henry26",
   "timestamp" : 6470,
-  "message" : "Skipped to next track successfully. The current track is Whatever You Need."
+  "message" : "Skipped to next track successfully. The current track is The Man."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6470,
   "stats" : {
-    "name" : "Whatever You Need",
-    "remainedTime" : 210,
+    "name" : "The Man",
+    "remainedTime" : 190,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -6526,22 +6526,22 @@
   "command" : "prev",
   "user" : "grace25",
   "timestamp" : 6560,
-  "message" : "Returned to previous track successfully. The current track is Stairway to Heaven."
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "prev",
   "user" : "grace25",
   "timestamp" : 6560,
-  "message" : "Returned to previous track successfully. The current track is Stairway to Heaven."
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6560,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 482,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "repeat",
@@ -6553,8 +6553,8 @@
   "user" : "henry26",
   "timestamp" : 6570,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 111,
+    "name" : "The Man",
+    "remainedTime" : 90,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
@@ -6707,16 +6707,16 @@
   "command" : "playPause",
   "user" : "grace25",
   "timestamp" : 6660,
-  "message" : "Playback paused successfully."
+  "message" : "Playback resumed successfully."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6660,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 382,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
 }, {
@@ -6729,8 +6729,8 @@
   "user" : "henry26",
   "timestamp" : 6670,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 11,
+    "name" : "The Man",
+    "remainedTime" : 166,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : true
@@ -6888,30 +6888,30 @@
   "command" : "next",
   "user" : "grace25",
   "timestamp" : 6760,
-  "message" : "Skipped to next track successfully. The current track is Dream On."
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6760,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 267,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "prev",
   "user" : "henry26",
   "timestamp" : 6770,
-  "message" : "Returned to previous track successfully. The current track is Start Me Up."
+  "message" : "Returned to previous track successfully. The current track is The Man."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6770,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 212,
+    "name" : "The Man",
+    "remainedTime" : 190,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : true
@@ -7080,17 +7080,17 @@
   "command" : "next",
   "user" : "grace25",
   "timestamp" : 6860,
-  "message" : "Skipped to next track successfully. The current track is The Man."
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6860,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 232,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "like",
@@ -7102,8 +7102,8 @@
   "user" : "henry26",
   "timestamp" : 6870,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 212,
+    "name" : "The Man",
+    "remainedTime" : 190,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : true
@@ -7256,17 +7256,17 @@
   "command" : "next",
   "user" : "grace25",
   "timestamp" : 6960,
-  "message" : "Skipped to next track successfully. The current track is The Unforgiven."
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6960,
   "stats" : {
-    "name" : "The Unforgiven",
-    "remainedTime" : 386,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "switchVisibility",
@@ -7283,8 +7283,8 @@
   "user" : "henry26",
   "timestamp" : 6970,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 135,
+    "name" : "The Man",
+    "remainedTime" : 56,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
@@ -9885,7 +9885,7 @@
   "command" : "showPreferredSongs",
   "user" : "henry26",
   "timestamp" : 8560,
-  "result" : [ "Start Me Up" ]
+  "result" : [ "The Man" ]
 }, {
   "command" : "showPlaylists",
   "user" : "irene33",
@@ -9933,5 +9933,5 @@
 }, {
   "command" : "getTop5Songs",
   "timestamp" : 8580,
-  "result" : [ "Start Me Up", "The Man", "Happier", "Bohemian Rhapsody", "Blank Space" ]
+  "result" : [ "The Man", "Start Me Up", "Happier", "Bohemian Rhapsody", "Blank Space" ]
 } ]

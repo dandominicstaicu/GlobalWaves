@@ -99,25 +99,14 @@ public final class Main {
 
         assert commands != null;
 
-//		for (Command command : commands) {
-////            System.out.println("Command Type: " + command.getCommand());
-//            System.out.println("Timestamp: " + command.getTimestamp());
-//
-//            // Since Command is an abstract class, you need to check the actual type of each command
-//            // and cast it to the appropriate subclass to access specific fields
-//            if (command instanceof Search) {
-//                Search searchCommand = (Search) command;
-//                System.out.println("Username: " + searchCommand.getUsername());
-//                System.out.println("Search Type: " + searchCommand.getType());
-//                System.out.println("Filters: " + searchCommand.getFilters());
-//            }
-//        }
-
         // copy the library from the input library to a new object (a clone library)
 //		Library library = Library.initializeLibrary(libraryInput);
 
         MainPlayer player = new MainPlayer(libraryInput);
-
+//5730 timestamp error david27
+        // found bug with playPause. after rewriting the time logic in commit 9
+        // the play/pause command doesn't stop the time anymore
+        // lodedTimestamp + currentAduioDuration - pausedTime < currentTime
         for (Command command : commands) {
             // if the command has a user, so is diferent from getTop5 commands
             if (command.getUsername() != null) {
