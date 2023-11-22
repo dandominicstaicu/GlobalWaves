@@ -5224,17 +5224,17 @@
   "command" : "next",
   "user" : "david27",
   "timestamp" : 5830,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Under Pressure."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 5830,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Under Pressure",
+    "remainedTime" : 244,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchVisibility",
@@ -5262,8 +5262,8 @@
   "user" : "frank21",
   "timestamp" : 5850,
   "stats" : {
-    "name" : "Blank Space",
-    "remainedTime" : 223,
+    "name" : "Maps",
+    "remainedTime" : -10,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -5273,8 +5273,8 @@
   "user" : "frank21",
   "timestamp" : 5850,
   "stats" : {
-    "name" : "Blank Space",
-    "remainedTime" : 223,
+    "name" : "Maps",
+    "remainedTime" : -10,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -5422,17 +5422,17 @@
   "command" : "shuffle",
   "user" : "david27",
   "timestamp" : 5930,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 5930,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Under Pressure",
+    "remainedTime" : 144,
     "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "repeat",
@@ -5679,8 +5679,8 @@
   "user" : "irene33",
   "timestamp" : 6080,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 131,
+    "name" : "Don't",
+    "remainedTime" : 19,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -5705,14 +5705,14 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 6100,
-  "message" : "Unlike registered successfully."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6100,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 128,
+    "name" : "Paint It Black",
+    "remainedTime" : 102,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -5844,8 +5844,8 @@
   "user" : "irene33",
   "timestamp" : 6180,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 31,
+    "name" : "Blank Space",
+    "remainedTime" : 150,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -5855,8 +5855,8 @@
   "user" : "irene33",
   "timestamp" : 6180,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 31,
+    "name" : "Blank Space",
+    "remainedTime" : 150,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -5870,17 +5870,17 @@
   "command" : "repeat",
   "user" : "jack29",
   "timestamp" : 6190,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat all."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6190,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "name" : "Big Pimpin'",
+    "remainedTime" : 184,
+    "repeat" : "Repeat All",
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "switchVisibility",
@@ -5897,8 +5897,8 @@
   "user" : "alice22",
   "timestamp" : 6200,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 28,
+    "name" : "Paint It Black",
+    "remainedTime" : 2,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
@@ -6040,8 +6040,8 @@
   "user" : "irene33",
   "timestamp" : 6280,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 198,
+    "name" : "Blank Space",
+    "remainedTime" : 50,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : true
@@ -6051,30 +6051,30 @@
   "user" : "jack29",
   "timestamp" : 6290,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "name" : "Big Pimpin'",
+    "remainedTime" : 84,
+    "repeat" : "Repeat All",
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6290,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "name" : "Big Pimpin'",
+    "remainedTime" : 84,
+    "repeat" : "Repeat All",
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6300,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 28,
+    "name" : "Paint It Black",
+    "remainedTime" : 2,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
@@ -6084,8 +6084,8 @@
   "user" : "alice22",
   "timestamp" : 6300,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 28,
+    "name" : "Paint It Black",
+    "remainedTime" : 2,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
@@ -6223,8 +6223,8 @@
   "user" : "irene33",
   "timestamp" : 6380,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 198,
+    "name" : "Blank Space",
+    "remainedTime" : 50,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : true
@@ -6233,30 +6233,30 @@
   "command" : "prev",
   "user" : "jack29",
   "timestamp" : 6390,
-  "message" : "Please load a source before returning to the previous track."
+  "message" : "Returned to previous track successfully. The current track is Maps."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6390,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "name" : "Maps",
+    "remainedTime" : 190,
+    "repeat" : "Repeat All",
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 6400,
-  "message" : "Like registered successfully."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6400,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 28,
+    "name" : "Paint It Black",
+    "remainedTime" : 2,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
@@ -6383,8 +6383,8 @@
   "user" : "henry26",
   "timestamp" : 6470,
   "stats" : {
-    "name" : "The Man",
-    "remainedTime" : 100,
+    "name" : "Whatever You Need",
+    "remainedTime" : 210,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -6399,8 +6399,8 @@
   "user" : "irene33",
   "timestamp" : 6480,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 198,
+    "name" : "Blank Space",
+    "remainedTime" : 50,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -6409,17 +6409,17 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 6490,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6490,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "name" : "Maps",
+    "remainedTime" : 90,
+    "repeat" : "Repeat All",
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "playPause",
@@ -6431,8 +6431,8 @@
   "user" : "alice22",
   "timestamp" : 6500,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 28,
+    "name" : "Paint It Black",
+    "remainedTime" : 2,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -6553,8 +6553,8 @@
   "user" : "henry26",
   "timestamp" : 6570,
   "stats" : {
-    "name" : "The Man",
-    "remainedTime" : 0,
+    "name" : "Whatever You Need",
+    "remainedTime" : 110,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
@@ -6563,14 +6563,14 @@
   "command" : "prev",
   "user" : "irene33",
   "timestamp" : 6580,
-  "message" : "Returned to previous track successfully. The current track is Dream On."
+  "message" : "Returned to previous track successfully. The current track is Blank Space."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6580,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 267,
+    "name" : "Blank Space",
+    "remainedTime" : 231,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6580,35 +6580,35 @@
   "user" : "jack29",
   "timestamp" : 6590,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "name" : "The Unforgiven",
+    "remainedTime" : 376,
+    "repeat" : "Repeat All",
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6590,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "name" : "The Unforgiven",
+    "remainedTime" : 376,
+    "repeat" : "Repeat All",
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 6600,
-  "message" : "Unlike registered successfully."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6600,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : -72,
+    "name" : "Paint It Black",
+    "remainedTime" : -98,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -6729,8 +6729,8 @@
   "user" : "henry26",
   "timestamp" : 6670,
   "stats" : {
-    "name" : "The Man",
-    "remainedTime" : 90,
+    "name" : "Whatever You Need",
+    "remainedTime" : 10,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : true
@@ -6739,14 +6739,14 @@
   "command" : "prev",
   "user" : "irene33",
   "timestamp" : 6680,
-  "message" : "Returned to previous track successfully. The current track is Dream On."
+  "message" : "Returned to previous track successfully. The current track is Blank Space."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6680,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 267,
+    "name" : "Blank Space",
+    "remainedTime" : 231,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6755,16 +6755,16 @@
   "command" : "playPause",
   "user" : "jack29",
   "timestamp" : 6690,
-  "message" : "Playback resumed successfully."
+  "message" : "Playback paused successfully."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6690,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
+    "name" : "The Unforgiven",
+    "remainedTime" : 276,
+    "repeat" : "Repeat All",
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -6777,8 +6777,8 @@
   "user" : "alice22",
   "timestamp" : 6700,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : -172,
+    "name" : "Paint It Black",
+    "remainedTime" : -198,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -6904,14 +6904,14 @@
   "command" : "prev",
   "user" : "henry26",
   "timestamp" : 6770,
-  "message" : "Returned to previous track successfully. The current track is The Man."
+  "message" : "Returned to previous track successfully. The current track is Whatever You Need."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6770,
   "stats" : {
-    "name" : "The Man",
-    "remainedTime" : 190,
+    "name" : "Whatever You Need",
+    "remainedTime" : 210,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
@@ -6931,8 +6931,8 @@
   "user" : "irene33",
   "timestamp" : 6780,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 167,
+    "name" : "Blank Space",
+    "remainedTime" : 131,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6941,16 +6941,16 @@
   "command" : "repeat",
   "user" : "jack29",
   "timestamp" : 6790,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat current song."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6790,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
+    "name" : "The Unforgiven",
+    "remainedTime" : 276,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -6958,8 +6958,8 @@
   "user" : "alice22",
   "timestamp" : 6800,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : -272,
+    "name" : "Paint It Black",
+    "remainedTime" : -298,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -6969,8 +6969,8 @@
   "user" : "alice22",
   "timestamp" : 6800,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : -272,
+    "name" : "Paint It Black",
+    "remainedTime" : -298,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -7102,8 +7102,8 @@
   "user" : "henry26",
   "timestamp" : 6870,
   "stats" : {
-    "name" : "The Man",
-    "remainedTime" : 90,
+    "name" : "Whatever You Need",
+    "remainedTime" : 110,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
@@ -7118,8 +7118,8 @@
   "user" : "irene33",
   "timestamp" : 6880,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 67,
+    "name" : "Blank Space",
+    "remainedTime" : 31,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7128,33 +7128,33 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 6890,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6890,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
+    "name" : "The Unforgiven",
+    "remainedTime" : 276,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
     "paused" : true
   }
 }, {
   "command" : "next",
   "user" : "alice22",
   "timestamp" : 6900,
-  "message" : "Skipped to next track successfully. The current track is Bohemian Rhapsody."
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6900,
   "stats" : {
-    "name" : "Bohemian Rhapsody",
-    "remainedTime" : 355,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "switchVisibility",
@@ -7283,8 +7283,8 @@
   "user" : "henry26",
   "timestamp" : 6970,
   "stats" : {
-    "name" : "The Man",
-    "remainedTime" : 180,
+    "name" : "Whatever You Need",
+    "remainedTime" : 10,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : true
@@ -7299,8 +7299,8 @@
   "user" : "irene33",
   "timestamp" : 6980,
   "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 186,
+    "name" : "Dream On",
+    "remainedTime" : 198,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -7314,16 +7314,16 @@
   "command" : "repeat",
   "user" : "jack29",
   "timestamp" : 6990,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to no repeat."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6990,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "The Unforgiven",
+    "remainedTime" : 276,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -9745,7 +9745,7 @@
   "command" : "showPreferredSongs",
   "user" : "alice22",
   "timestamp" : 8490,
-  "result" : [ "Bohemian Rhapsody" ]
+  "result" : [ "Start Me Up", "Bohemian Rhapsody", "Paint It Black" ]
 }, {
   "command" : "showPlaylists",
   "user" : "bob35",
@@ -9885,7 +9885,7 @@
   "command" : "showPreferredSongs",
   "user" : "henry26",
   "timestamp" : 8560,
-  "result" : [ "The Man" ]
+  "result" : [ "Whatever You Need" ]
 }, {
   "command" : "showPlaylists",
   "user" : "irene33",
@@ -9905,7 +9905,7 @@
   "command" : "showPreferredSongs",
   "user" : "irene33",
   "timestamp" : 8570,
-  "result" : [ "Don't", "Dream On" ]
+  "result" : [ "Don't", "Blank Space" ]
 }, {
   "command" : "showPlaylists",
   "user" : "jack29",
@@ -9925,7 +9925,7 @@
   "command" : "showPreferredSongs",
   "user" : "jack29",
   "timestamp" : 8580,
-  "result" : [ "The Man" ]
+  "result" : [ "The Man", "Maps", "The Unforgiven" ]
 }, {
   "command" : "getTop5Playlists",
   "timestamp" : 8580,
@@ -9933,5 +9933,5 @@
 }, {
   "command" : "getTop5Songs",
   "timestamp" : 8580,
-  "result" : [ "Don't", "The Man", "Dream On", "Happier", "Gimme Shelter" ]
+  "result" : [ "Don't", "The Unforgiven", "Whatever You Need", "Start Me Up", "Maps" ]
 } ]

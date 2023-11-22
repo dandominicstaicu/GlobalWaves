@@ -70,7 +70,7 @@ public class UserPlayer {
 			if (loadedTimestamp + currentAudioDuration < currentTimestamp) {
 				loadedTimestamp = loadedTimestamp + currentAudioDuration;
 
-				handleRepeatCase();
+				handleRepeatCase(currentTimestamp);
 
 				if (playingIndex >= audioQueue.size()) {
 					if (isPlayingPlaylist && isRepeating.equals(1)) {
@@ -89,7 +89,7 @@ public class UserPlayer {
 						loadedTimestamp += currentAudioDuration;
 
 						// Handle the repeat and playlist logic for the next track
-						handleRepeatCase();
+						handleRepeatCase(currentTimestamp);
 
 						// Check if the playlist has ended
 						if (playingIndex >= audioQueue.size()) {
@@ -127,10 +127,10 @@ public class UserPlayer {
 		lastCommandTimestamp = currentTimestamp;
 	}
 
-	private void handleRepeatCase() {
+	private void handleRepeatCase(int currentTimestamp){
 		if (isPlayingPlaylist && isRepeating.equals(1)) {
 			if (playingIndex + 1 < audioQueue.size()) {
-				next(false);
+				next(false, currentTimestamp);
 			} else {
 				playingIndex = 0;
 				realIndex = 0;
@@ -138,11 +138,11 @@ public class UserPlayer {
 		} else if (!isPlayingPlaylist && isRepeating.equals(1)) {
 			isRepeating = 0;
 		} else if (isRepeating.equals(0)) {
-			next(false);
+			next(false, currentTimestamp);
 		}
 	}
 
-	public void next(boolean isCommand) {
+	public void next(boolean isCommand, int currentTimestamp) {
 		if (isShuffled && realIndex + 1 < shuffledIndexes.size()) {
 			realIndex++;
 			playingIndex = shuffledIndexes.get(realIndex);
@@ -157,6 +157,7 @@ public class UserPlayer {
 		if (isCommand && playingIndex < audioQueue.size()) {
 			timeLeftToPlay = audioQueue.get(playingIndex).getDuration();
 			// Reset played time of the new track
+			loadedTimestamp = currentTimestamp;
 			audioQueue.get(playingIndex).setPlayedTime(0);
 		}
 

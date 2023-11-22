@@ -40,7 +40,7 @@ public class Next extends Command {
 
         // timestamp 5610 error
         if (userPlayer.playingIndexIsValid()) {
-            userPlayer.next(true);
+            userPlayer.next(true, getTimestamp());
         }
 
         if (!userPlayer.playingIndexIsValid()) {
