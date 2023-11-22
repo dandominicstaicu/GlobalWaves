@@ -49,7 +49,6 @@ public class ShowPlaylists extends Command {
 			}
 
 
-
 			playlistJson.put("visibility", playlist.getIsPublic() ? "public" : "private");
 			playlistJson.put("followers", playlist.getFollowers());
 
