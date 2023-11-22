@@ -6452,7 +6452,7 @@
   "timestamp" : 6500,
   "stats" : {
     "name" : "Love Story",
-    "remainedTime" : -64,
+    "remainedTime" : 172,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -6622,8 +6622,8 @@
   "user" : "alice22",
   "timestamp" : 6600,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 323,
+    "name" : "Love Story",
+    "remainedTime" : 72,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -6789,7 +6789,7 @@
   "timestamp" : 6700,
   "stats" : {
     "name" : "Money Trees",
-    "remainedTime" : 223,
+    "remainedTime" : 359,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -9751,7 +9751,7 @@
   "command" : "showPreferredSongs",
   "user" : "alice22",
   "timestamp" : 8490,
-  "result" : [ "Money Trees" ]
+  "result" : [ "Love Story" ]
 }, {
   "command" : "showPlaylists",
   "user" : "bob35",
@@ -9939,5 +9939,5 @@
 }, {
   "command" : "getTop5Songs",
   "timestamp" : 8580,
-  "result" : [ "Money Trees", "Gimme Shelter", "Shape of You", "Don't", "Dream On" ]
+  "result" : [ "Love Story", "Gimme Shelter", "Shape of You", "Don't", "Money Trees" ]
 } ]

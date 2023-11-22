@@ -156,8 +156,11 @@ public class UserPlayer {
 
 		if (isCommand && playingIndex < audioQueue.size()) {
 			timeLeftToPlay = audioQueue.get(playingIndex).getDuration();
+
 			// Reset played time of the new track
 			loadedTimestamp = currentTimestamp;
+			if (!isPlaying)
+				isPlaying = true;
 			audioQueue.get(playingIndex).setPlayedTime(0);
 		}
 

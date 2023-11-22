@@ -5262,8 +5262,8 @@
   "user" : "frank21",
   "timestamp" : 5850,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : -10,
+    "name" : "Blank Space",
+    "remainedTime" : 221,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -5273,8 +5273,8 @@
   "user" : "frank21",
   "timestamp" : 5850,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : -10,
+    "name" : "Blank Space",
+    "remainedTime" : 221,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -5753,7 +5753,7 @@
   "command" : "playPause",
   "user" : "david27",
   "timestamp" : 6130,
-  "message" : "Playback resumed successfully."
+  "message" : "Please load a source before attempting to pause or resume playback."
 }, {
   "command" : "status",
   "user" : "david27",
@@ -6126,7 +6126,7 @@
   "command" : "playPause",
   "user" : "david27",
   "timestamp" : 6330,
-  "message" : "Playback resumed successfully."
+  "message" : "Please load a source before attempting to pause or resume playback."
 }, {
   "command" : "status",
   "user" : "david27",
@@ -6478,7 +6478,7 @@
   "command" : "playPause",
   "user" : "david27",
   "timestamp" : 6530,
-  "message" : "Playback resumed successfully."
+  "message" : "Please load a source before attempting to pause or resume playback."
 }, {
   "command" : "status",
   "user" : "david27",
@@ -7165,7 +7165,7 @@
   "command" : "playPause",
   "user" : "bob35",
   "timestamp" : 6910,
-  "message" : "Playback resumed successfully."
+  "message" : "Please load a source before attempting to pause or resume playback."
 }, {
   "command" : "status",
   "user" : "bob35",

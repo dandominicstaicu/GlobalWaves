@@ -29,7 +29,7 @@ public class PlayPause extends Command {
 
         UserPlayer userPlayer = player.getLibrary().getUserWithUsername(getUsername()).getPlayer();
 
-        if (userPlayer.getAudioQueue() != null && !userPlayer.getAudioQueue().isEmpty()) {
+        if (userPlayer.getAudioQueue() != null && userPlayer.playingIndexIsValid()) {
             if (userPlayer.getIsPlaying()) {
                 userPlayer.pause(getTimestamp());
                 out.put("message", "Playback paused successfully.");
