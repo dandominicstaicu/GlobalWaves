@@ -127,7 +127,7 @@ public class UserPlayer {
 		lastCommandTimestamp = currentTimestamp;
 	}
 
-	private void handleRepeatCase(int currentTimestamp){
+	private void handleRepeatCase(int currentTimestamp) {
 		if (isPlayingPlaylist && isRepeating.equals(1)) {
 			if (playingIndex + 1 < audioQueue.size()) {
 				next(false, currentTimestamp);
@@ -143,6 +143,43 @@ public class UserPlayer {
 	}
 
 	public void next(boolean isCommand, int currentTimestamp) {
+		if (!isShuffled || !(isRepeating == 2))
+			handleShuffle();
+
+
+		if (isCommand && playingIndex < audioQueue.size()) {
+			timeLeftToPlay = audioQueue.get(playingIndex).getDuration();
+
+
+			// Reset played time of the new track
+			loadedTimestamp = currentTimestamp;
+			if (!isPlaying)
+				isPlaying = true;
+
+
+			audioQueue.get(playingIndex).setPlayedTime(0);
+		} else if (isCommand && playingIndex >= audioQueue.size()) {
+			if (isPlayingPlaylist && isRepeating == 1) {
+				playingIndex = 0;
+				realIndex = 0;
+
+				timeLeftToPlay = audioQueue.get(playingIndex).getDuration();
+
+				loadedTimestamp = currentTimestamp;
+				if (!isPlaying)
+					isPlaying = true;
+
+				audioQueue.get(playingIndex).setPlayedTime(0);
+			}
+		}
+
+		if (isCommand) {
+			nextWasLastCommand = true;
+		}
+
+	}
+
+	void handleShuffle() {
 		if (isShuffled && realIndex + 1 < shuffledIndexes.size()) {
 			realIndex++;
 			playingIndex = shuffledIndexes.get(realIndex);
@@ -153,21 +190,6 @@ public class UserPlayer {
 			playingIndex++;
 			realIndex = playingIndex;
 		}
-
-		if (isCommand && playingIndex < audioQueue.size()) {
-			timeLeftToPlay = audioQueue.get(playingIndex).getDuration();
-
-			// Reset played time of the new track
-			loadedTimestamp = currentTimestamp;
-			if (!isPlaying)
-				isPlaying = true;
-			audioQueue.get(playingIndex).setPlayedTime(0);
-		}
-
-		if (isCommand) {
-			nextWasLastCommand = true;
-		}
-
 	}
 
 	public AudioFile prev(int currentTimestamp) {

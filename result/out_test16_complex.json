@@ -5960,14 +5960,14 @@
   "command" : "next",
   "user" : "emily30",
   "timestamp" : 6240,
-  "message" : "Skipped to next track successfully. The current track is Whatever You Need."
+  "message" : "Skipped to next track successfully. The current track is Don't."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6240,
   "stats" : {
-    "name" : "Whatever You Need",
-    "remainedTime" : 210,
+    "name" : "Don't",
+    "remainedTime" : 219,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
@@ -6142,14 +6142,14 @@
   "command" : "prev",
   "user" : "emily30",
   "timestamp" : 6340,
-  "message" : "Returned to previous track successfully. The current track is Whatever You Need."
+  "message" : "Returned to previous track successfully. The current track is Don't."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6340,
   "stats" : {
-    "name" : "Whatever You Need",
-    "remainedTime" : 210,
+    "name" : "Don't",
+    "remainedTime" : 219,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
@@ -6158,17 +6158,17 @@
   "command" : "next",
   "user" : "frank21",
   "timestamp" : 6350,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Castle on the Hill."
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6350,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Castle on the Hill",
+    "remainedTime" : 261,
     "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "prev",
@@ -6324,14 +6324,14 @@
   "command" : "next",
   "user" : "emily30",
   "timestamp" : 6440,
-  "message" : "Skipped to next track successfully. The current track is Black Dog."
+  "message" : "Skipped to next track successfully. The current track is Don't."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6440,
   "stats" : {
-    "name" : "Black Dog",
-    "remainedTime" : 294,
+    "name" : "Don't",
+    "remainedTime" : 219,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
@@ -6340,17 +6340,17 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 6450,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6450,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Castle on the Hill",
+    "remainedTime" : 161,
     "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "shuffle",
@@ -6494,14 +6494,14 @@
   "command" : "prev",
   "user" : "emily30",
   "timestamp" : 6540,
-  "message" : "Returned to previous track successfully. The current track is Black Dog."
+  "message" : "Returned to previous track successfully. The current track is Don't."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6540,
   "stats" : {
-    "name" : "Black Dog",
-    "remainedTime" : 294,
+    "name" : "Don't",
+    "remainedTime" : 219,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
@@ -6510,17 +6510,17 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 6550,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6550,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Castle on the Hill",
+    "remainedTime" : 61,
     "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "prev",
@@ -6676,8 +6676,8 @@
   "user" : "emily30",
   "timestamp" : 6640,
   "stats" : {
-    "name" : "Black Dog",
-    "remainedTime" : 194,
+    "name" : "Don't",
+    "remainedTime" : 119,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -6691,17 +6691,17 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 6650,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6650,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Maps",
+    "remainedTime" : 151,
     "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "playPause",
@@ -6857,8 +6857,8 @@
   "user" : "emily30",
   "timestamp" : 6740,
   "stats" : {
-    "name" : "Black Dog",
-    "remainedTime" : 94,
+    "name" : "Don't",
+    "remainedTime" : 19,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6867,17 +6867,17 @@
   "command" : "repeat",
   "user" : "frank21",
   "timestamp" : 6750,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat current song."
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6750,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "Repeat All",
+    "name" : "Maps",
+    "remainedTime" : 51,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchVisibility",
@@ -7043,8 +7043,8 @@
   "user" : "emily30",
   "timestamp" : 6840,
   "stats" : {
-    "name" : "Whatever You Need",
-    "remainedTime" : 204,
+    "name" : "The Man",
+    "remainedTime" : 109,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -7059,22 +7059,22 @@
   "user" : "frank21",
   "timestamp" : 6850,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "Repeat All",
+    "name" : "Maps",
+    "remainedTime" : 141,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6850,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "Repeat All",
+    "name" : "Maps",
+    "remainedTime" : 141,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "next",
@@ -7230,8 +7230,8 @@
   "user" : "emily30",
   "timestamp" : 6940,
   "stats" : {
-    "name" : "Whatever You Need",
-    "remainedTime" : 104,
+    "name" : "The Man",
+    "remainedTime" : 9,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
@@ -7240,17 +7240,17 @@
   "command" : "repeat",
   "user" : "frank21",
   "timestamp" : 6950,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to no repeat."
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6950,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "Repeat All",
+    "name" : "Maps",
+    "remainedTime" : 41,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "next",
@@ -9845,7 +9845,7 @@
   "command" : "showPreferredSongs",
   "user" : "frank21",
   "timestamp" : 8540,
-  "result" : [ ]
+  "result" : [ "Maps" ]
 }, {
   "command" : "showPlaylists",
   "user" : "grace25",
@@ -9933,5 +9933,5 @@
 }, {
   "command" : "getTop5Songs",
   "timestamp" : 8580,
-  "result" : [ "Don't", "The Unforgiven", "Whatever You Need", "Start Me Up", "Maps" ]
+  "result" : [ "Don't", "Maps", "The Unforgiven", "Whatever You Need", "Start Me Up" ]
 } ]
