@@ -30,6 +30,8 @@ public class UserPlayer {
 	private List<AudioFile> audioQueue;
 	private List<Integer> shuffledIndexes;
 
+	private boolean nextWasLastCommand = false;
+
 	public UserPlayer() {
 		this.searchBar = new SearchBar();
 		this.isPlaying = false;
@@ -108,11 +110,15 @@ public class UserPlayer {
 				} else {
 					timeLeftToPlay -= timeElapsedSinceLastCommand;
 				}
+			} else if (!isPlaying && nextWasLastCommand) {
+				isPlaying = true;
 			}
 		} else {
 			stop(); // timestamp 5610 bob35 // in case the index is invalid stop the player
 		}
 
+		if (nextWasLastCommand)
+			nextWasLastCommand = false;
 		lastCommandTimestamp = currentTimestamp;
 	}
 
@@ -153,7 +159,54 @@ public class UserPlayer {
 			// Reset played time of the new track
 			audioQueue.get(playingIndex).setPlayedTime(0);
 		}
+
+		if (isCommand) {
+			nextWasLastCommand = true;
+		}
+
 	}
+
+//	public void next(boolean isCommand) {
+//		// Check if we are shuffling and still have songs left in the shuffled index
+//		if (isShuffled && realIndex + 1 < shuffledIndexes.size()) {
+//			realIndex++;
+//			playingIndex = shuffledIndexes.get(realIndex);
+//		}
+//		// If we have reached the end of the shuffled indexes, we start from the beginning or stop based on repeat settings
+//		else if (isShuffled && realIndex + 1 >= shuffledIndexes.size() && isRepeating == 1) {
+//			realIndex = 0;
+//			playingIndex = shuffledIndexes.get(realIndex);
+//		}
+//		// If we are not shuffling, we just advance to the next track
+//		else if (!isShuffled && playingIndex + 1 < audioQueue.size()) {
+//			playingIndex++;
+//		}
+//		// If we have reached the end of the queue, we start from the beginning or stop based on repeat settings
+//		else if (!isShuffled && playingIndex + 1 >= audioQueue.size() && isRepeating == 1) {
+//			playingIndex = 0; // Start again from the first song
+//		} else {
+//			// If repeat is off and we've reached the end, stop the player.
+//			if (isRepeating == 0) {
+//				stop();
+//				return; // We must return here to ensure we don't access an invalid index
+//			}
+//			// If repeat is set to repeat all, start from the beginning
+//			if (isRepeating == 2) {
+//				playingIndex = 0;
+//			}
+//		}
+//
+//		// If this method was called as part of a command (and not just an automatic advance to the next track)
+//		// and the new playing index is valid, reset the timer and played time
+//		if (isCommand && playingIndexIsValid()) {
+//			timeLeftToPlay = audioQueue.get(playingIndex).getDuration(); // Reset the time left to play to full duration
+//			audioQueue.get(playingIndex).setPlayedTime(0); // Start the track from the beginning
+//			// If the player was paused when the next command was issued, resume playing
+//			if (!isPlaying) {
+//				resume();
+//			}
+//		}
+//	}
 
 
 	public AudioFile prev() {

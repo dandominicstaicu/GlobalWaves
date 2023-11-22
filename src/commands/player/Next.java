@@ -31,17 +31,17 @@ public class Next extends Command {
 
 //		System.out.println("before first check: " + userPlayer.getPlayingIndex());
 
-		if (userPlayer.playingIndexIsValid()) {
-			userPlayer.next(true);
-			if (!userPlayer.getIsPlaying()) {
-				userPlayer.resume();
-			}
-		}
-
-		// timestamp 5610 error
 //		if (userPlayer.playingIndexIsValid()) {
 //			userPlayer.next(true);
+//			if (!userPlayer.getIsPlaying()) {
+//				userPlayer.resume();
+//			}
 //		}
+
+		// timestamp 5610 error
+		if (userPlayer.playingIndexIsValid()) {
+			userPlayer.next(true);
+		}
 
 		if (!userPlayer.playingIndexIsValid()) {
 			out.put("message", "Please load a source before skipping to the next track.");
