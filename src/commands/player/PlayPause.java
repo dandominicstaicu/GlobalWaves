@@ -31,7 +31,7 @@ public class PlayPause extends Command {
 
         if (userPlayer.getAudioQueue() != null && !userPlayer.getAudioQueue().isEmpty()) {
             if (userPlayer.getIsPlaying()) {
-                userPlayer.pause();
+                userPlayer.pause(getTimestamp());
                 out.put("message", "Playback paused successfully.");
             } else {
                 userPlayer.resume();

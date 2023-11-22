@@ -57,6 +57,8 @@ public class UserPlayer {
 		if (!isPlaying) {
 //			lastCommandTimestamp = currentTimestamp;
 //			return;
+			if (playingIndexIsValid())
+				loadedTimestamp += (currentTimestamp - pauseStartTimeStamp);
 			if (nextWasLastCommand)
 				isPlaying = true;
 		} else {
@@ -111,7 +113,7 @@ public class UserPlayer {
 
 					timeLeftToPlay = loadedTimestamp + currentAudioDuration - currentTimestamp;
 				} else {
-					pause();
+					pause(currentTimestamp);
 				}
 
 			} else {
@@ -248,10 +250,12 @@ public class UserPlayer {
 		return true;
 	}
 
-	public void pause() {
+	public void pause(int currentTimeStamp) {
 		if (isPlaying) {
 			this.isPlaying = false;
 			// Additional logic to pause the current track or podcast
+
+			pauseStartTimeStamp = currentTimeStamp;
 		}
 	}
 
@@ -259,6 +263,7 @@ public class UserPlayer {
 		if (!isPlaying) {
 			this.isPlaying = true;
 			// Additional logic to resume the current track or podcast
+			pauseStartTimeStamp = 0;
 		}
 	}
 
