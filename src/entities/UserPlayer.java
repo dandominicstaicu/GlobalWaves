@@ -1,5 +1,7 @@
 package entities;
 
+import entities.playable.Playable;
+import entities.playable.audio_files.AudioFile;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
@@ -22,7 +24,7 @@ public class UserPlayer {
 	private Boolean isPlayingPlaylist;
 	private Boolean isPlaying;
 	private Boolean isShuffled;
-	private Integer isRepeating;
+	private Integer isRepeating; // todo to use an enum here
 
 	private int playingIndex = -1;
 	private int realIndex = -1;
@@ -41,10 +43,7 @@ public class UserPlayer {
 		this.loadedTimestamp = 0;
 		this.isShuffled = false;
 		this.isRepeating = 0;
-//		this.currentPlaying = null;
-//		this.setAudioQueue(new ArrayDeque<>());
 		this.audioQueue = new ArrayList<>();
-//		this.shuffledIndexesArray = new ArrayDeque<>();
 		this.isPlayingPlaylist = false;
 	}
 
@@ -56,8 +55,6 @@ public class UserPlayer {
 		}
 
 		if (!isPlaying) {
-//			lastCommandTimestamp = currentTimestamp;
-//			return;
 			if (playingIndexIsValid())
 				loadedTimestamp = initialStartTimestamp + (currentTimestamp - pauseStartTimeStamp);
 			if (nextWasLastCommand)
@@ -120,7 +117,6 @@ public class UserPlayer {
 				}
 
 			} else {
-//			if (isPlaying)
 				timeLeftToPlay -= timeElapsedSinceLastCommand;
 			}
 		}
@@ -154,8 +150,7 @@ public class UserPlayer {
 			return;
 		}
 
-		if (!isShuffled || !(isRepeating == 2))
-			handleShuffle();
+		handleShuffle();
 
 
 		if (isCommand && playingIndex < audioQueue.size()) {
@@ -170,7 +165,7 @@ public class UserPlayer {
 
 
 			audioQueue.get(playingIndex).setPlayedTime(0);
-		} else if (isCommand && playingIndex >= audioQueue.size()) {
+		} else if (isCommand) { //  && playingIndex >= audioQueue.size() which is always true
 			if (isPlayingPlaylist && isRepeating == 1) {
 				playingIndex = 0;
 				realIndex = 0;
@@ -220,8 +215,6 @@ public class UserPlayer {
 
 			if (!isPlaying) {
 				isPlaying = true;
-				loadedTimestamp = currentTimestamp;
-				initialStartTimestamp = loadedTimestamp;
 			}
 
 			loadedTimestamp = currentTimestamp;
@@ -234,8 +227,6 @@ public class UserPlayer {
 
 				if (!isPlaying) {
 					isPlaying = true;
-					loadedTimestamp = currentTimestamp;
-					initialStartTimestamp = loadedTimestamp;
 				}
 			} else if (!isShuffled && playingIndex > 0) {
 				playingIndex--;
@@ -243,8 +234,6 @@ public class UserPlayer {
 
 				if (!isPlaying) {
 					isPlaying = true;
-					loadedTimestamp = currentTimestamp;
-					initialStartTimestamp = loadedTimestamp;
 				}
 			} else {
 				timeLeftToPlay = audioQueue.get(playingIndex).getDuration();
@@ -283,10 +272,6 @@ public class UserPlayer {
 			return false;
 		}
 
-//		if (playable.isEmpty()) {
-//			return false;
-//		}
-
 		this.setIsPlaying(true);
 		this.setLoadedTimestamp(startTimestamp);
 		this.setInitialStartTimestamp(startTimestamp);
@@ -314,8 +299,8 @@ public class UserPlayer {
 	public void pause(int currentTimeStamp) {
 		if (isPlaying) {
 			this.isPlaying = false;
-			// Additional logic to pause the current track or podcast
 
+			// Additional logic to pause the current track or podcast
 			pauseStartTimeStamp = currentTimeStamp;
 		}
 	}
@@ -323,6 +308,7 @@ public class UserPlayer {
 	public void resume() {
 		if (!isPlaying) {
 			this.isPlaying = true;
+
 			// Additional logic to resume the current track or podcast
 			pauseStartTimeStamp = 0;
 		}
@@ -346,7 +332,6 @@ public class UserPlayer {
 
 	}
 
-	// SealedClasses
 	public Integer getRemainedTime() {
 		if (audioQueue.isEmpty()) {
 			return 0;
@@ -368,10 +353,6 @@ public class UserPlayer {
 
 	public boolean playingIndexIsValid() {
 		return playingIndex >= 0 && playingIndex < audioQueue.size();
-	}
-
-	public boolean nextPlayingIndexIsValid() {
-		return playingIndex + 1 >= 0 && playingIndex + 1 < audioQueue.size();
 	}
 
 	public static List<Integer> randomiseIndexes(int n, Integer seed) {

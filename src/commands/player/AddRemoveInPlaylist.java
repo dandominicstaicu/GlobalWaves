@@ -4,6 +4,8 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
 import entities.*;
+import entities.playable.Playlist;
+import entities.playable.audio_files.Song;
 import lombok.*;
 
 import java.util.List;
@@ -25,23 +27,20 @@ public class AddRemoveInPlaylist extends Command {
 	}
 
 	@Override
-	public void execute(ArrayNode outputs, MainPlayer player) {
-//		System.out.println(this.toString());
+	public void execute(ArrayNode outputs, Library lib) {
 		ObjectNode out = outputs.addObject();
 
 		out.put("command", "addRemoveInPlaylist");
 		out.put("user", getUsername());
 		out.put("timestamp", getTimestamp());
 
-		Library lib = player.getLibrary();
-		UserPlayer userPlayer = player.getLibrary().getUserWithUsername(getUsername()).getPlayer();
+		UserPlayer userPlayer = lib.getUserWithUsername(getUsername()).getPlayer();
 		List<Playlist> playlistsSeenByUser = lib.getUserWithUsername(getUsername()).getPlaylistsOwnedByUser(lib.getPlaylists());
 
 
 		if (getPlaylistId() > playlistsSeenByUser.size() || getPlaylistId() <= 0) {
 			out.put("message", "The specified playlist does not exist.");
-//			return;
-		} else if (!userPlayer.playingIndexIsValid()) { // TODO outdated; change to check if in range
+		} else if (!userPlayer.playingIndexIsValid()) {
 			out.put("message", "Please load a source before adding to or removing from the playlist.");
 		} else if (!userPlayer.getAudioQueue().get(userPlayer.getPlayingIndex()).isSong()) {
 			out.put("message", "The loaded source is not a song.");

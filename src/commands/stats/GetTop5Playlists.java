@@ -4,8 +4,7 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
 import entities.Library;
-import entities.MainPlayer;
-import entities.Playlist;
+import entities.playable.Playlist;
 import lombok.*;
 
 import java.util.Comparator;
@@ -24,14 +23,10 @@ public class GetTop5Playlists extends Command {
 	}
 
 	@Override
-	public void execute(ArrayNode outputs, MainPlayer player) {
-//		System.out.println(this.toString());
+	public void execute(ArrayNode outputs, Library lib) {
 		ObjectNode out = outputs.addObject();
 		out.put("command", "getTop5Playlists");
-//		out.put("user", getUsername());
 		out.put("timestamp", getTimestamp());
-
-		Library lib = player.getLibrary();
 
 		// chatGPT helped me optimise this part (getting the top5 playlists)
 		List<Playlist> sortedPlaylists = lib.getPlaylists().stream()

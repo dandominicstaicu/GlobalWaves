@@ -4,7 +4,6 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
 import entities.Library;
-import entities.MainPlayer;
 import entities.UserPlayer;
 import lombok.*;
 
@@ -22,15 +21,14 @@ public class Repeat extends Command {
     }
 
     @Override
-    public void execute(ArrayNode outputs, MainPlayer player) {
-//        System.out.println(this.toString());
+    public void execute(ArrayNode outputs, Library lib) {
         ObjectNode out = outputs.addObject();
 
         out.put("command", "repeat");
         out.put("user", getUsername());
         out.put("timestamp", getTimestamp());
 
-        UserPlayer userPlayer = player.getLibrary().getUserWithUsername(getUsername()).getPlayer();
+        UserPlayer userPlayer = lib.getUserWithUsername(getUsername()).getPlayer();
 
         if (!userPlayer.playingIndexIsValid()) {
             out.put("message", "Please load a source before setting the repeat status.");

@@ -3,7 +3,7 @@ package commands.player;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
-import entities.MainPlayer;
+import entities.Library;
 import entities.UserPlayer;
 import lombok.*;
 
@@ -24,15 +24,13 @@ public class Shuffle extends Command {
 	}
 
 	@Override
-	public void execute(ArrayNode outputs, MainPlayer player) {
-//		System.out.println(this.toString());
+	public void execute(ArrayNode outputs, Library lib) {
 		ObjectNode out = outputs.addObject();
-
 		out.put("command", "shuffle");
 		out.put("user", getUsername());
 		out.put("timestamp", getTimestamp());
 
-		UserPlayer userPlayer = player.getLibrary().getUserWithUsername(getUsername()).getPlayer();
+		UserPlayer userPlayer = lib.getUserWithUsername(getUsername()).getPlayer();
 
 		if (!userPlayer.playingIndexIsValid()) {
 			out.put("message", "Please load a source before using the shuffle function.");

@@ -3,7 +3,7 @@ package commands.playlist;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
-import entities.MainPlayer;
+import entities.Library;
 import lombok.*;
 
 @Setter
@@ -12,7 +12,6 @@ import lombok.*;
 @AllArgsConstructor
 @Builder
 public class CreatePlaylist extends Command {
-	//    private String username;
 	private String playlistName;
 
 	@Override
@@ -24,15 +23,13 @@ public class CreatePlaylist extends Command {
 	}
 
 	@Override
-	public void execute(ArrayNode outputs, MainPlayer player) {
-//        System.out.println(this.toString());
-
+	public void execute(ArrayNode outputs, Library lib) {
 		ObjectNode out = outputs.addObject();
 		out.put("command", "createPlaylist");
 		out.put("user", getUsername());
 		out.put("timestamp", getTimestamp());
 
-		boolean ret = player.getLibrary().createPlaylist(this.getPlaylistName(), this.getUsername());
+		boolean ret = lib.createPlaylist(this.getPlaylistName(), this.getUsername());
 		if (ret) {
 			out.put("message", "Playlist created successfully.");
 		} else {

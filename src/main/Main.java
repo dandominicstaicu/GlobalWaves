@@ -9,7 +9,8 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 
 import commands.Command;
 
-import entities.MainPlayer;
+import entities.Library;
+import entities.User;
 import entities.UserPlayer;
 import fileio.input.LibraryInput;
 
@@ -80,11 +81,11 @@ public final class Main {
     public static void action(final String filePathInput,
                               final String filePathOutput) throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
-        LibraryInput libraryInput = objectMapper.readValue(new File(LIBRARY_PATH), LibraryInput.class);
+
+        File libraryInpFile = new File(LIBRARY_PATH);
+        LibraryInput libraryInput = objectMapper.readValue(libraryInpFile, LibraryInput.class);
 
         ArrayNode outputs = objectMapper.createArrayNode();
-
-        // TODO add your implementation
 
         ObjectMapper mapper = new ObjectMapper();
         File readJSONFile = new File(CheckerConstants.TESTS_PATH + filePathInput);
@@ -92,7 +93,6 @@ public final class Main {
         try {
             commands = mapper.readValue(readJSONFile, new TypeReference<List<Command>>() {
             });
-            // Process the commands as needed
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -100,25 +100,18 @@ public final class Main {
         assert commands != null;
 
         // copy the library from the input library to a new object (a clone library)
-//		Library library = Library.initializeLibrary(libraryInput);
+        Library library = Library.initializeLibrary(libraryInput);
 
-        MainPlayer player = new MainPlayer(libraryInput);
-//5730 timestamp error david27
-        // found bug with playPause. after rewriting the time logic in commit 9
-        // the play/pause command doesn't stop the time anymore
-        // lodedTimestamp + currentAduioDuration - pausedTime < currentTime
         for (Command command : commands) {
-            // if the command has a user, so is diferent from getTop5 commands
+            // if the command has a user, it is different from getTop5 commands
             if (command.getUsername() != null) {
-                UserPlayer userPlayer = player.getLibrary().getUserWithUsername(command.getUsername()).getPlayer();
-
-                if (command.getTimestamp() == 6040)
-                    System.out.println("!!!!");
+                User user = library.getUserWithUsername(command.getUsername());
+                UserPlayer userPlayer = user.getPlayer();
 
                 userPlayer.updateTime(command.getTimestamp());
             }
 
-            command.execute(outputs, player);
+            command.execute(outputs, library);
         }
 
 

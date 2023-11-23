@@ -4,6 +4,8 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
 import entities.*;
+import entities.playable.Playlist;
+import entities.playable.audio_files.Song;
 import lombok.*;
 
 import java.util.List;
@@ -18,21 +20,15 @@ public class ShowPlaylists extends Command {
 
 	@Override
 	public String toString() {
-		return super.toString() +
-				"ShowPlaylist{" +
-				'}';
+		return super.toString() + "ShowPlaylist{" + '}';
 	}
 
 	@Override
-	public void execute(ArrayNode outputs, MainPlayer player) {
-//		System.out.println(this.toString());
+	public void execute(ArrayNode outputs, Library lib) {
 		ObjectNode out = outputs.addObject();
-
 		out.put("command", "showPlaylists");
 		out.put("user", getUsername());
 		out.put("timestamp", getTimestamp());
-
-		Library lib = player.getLibrary();
 
 		// chatGPT helped me write this part (the output of JSON)
 		ArrayNode resultArray = out.putArray("result");
@@ -48,13 +44,8 @@ public class ShowPlaylists extends Command {
 				songsArray.add(song.getName());
 			}
 
-
 			playlistJson.put("visibility", playlist.getIsPublic() ? "public" : "private");
 			playlistJson.put("followers", playlist.getFollowers());
-
-
 		}
-
-
 	}
 }

@@ -3,14 +3,13 @@ package commands.player;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
-import entities.Playable;
-import entities.MainPlayer;
+import entities.Library;
+import entities.playable.Playable;
 import entities.UserPlayer;
 import lombok.*;
 
 @Getter
 @Setter
-//@NoArgsConstructor
 @AllArgsConstructor
 @Builder
 public class Load extends Command {
@@ -22,16 +21,14 @@ public class Load extends Command {
 	}
 
 	@Override
-	public void execute(ArrayNode outputs, MainPlayer player) {
-//		System.out.println(this.toString());
+	public void execute(ArrayNode outputs, Library lib) {
 		ObjectNode out = outputs.addObject();
 		out.put("command", "load");
 		out.put("user", getUsername());
 		out.put("timestamp", getTimestamp());
 
-		UserPlayer userPlayer = player.getLibrary().getUserWithUsername(getUsername()).getPlayer();
+		UserPlayer userPlayer = lib.getUserWithUsername(getUsername()).getPlayer();
 		Playable selectedResult = userPlayer.getSearchBar().getSelectedResult();
-//		System.out.println(selectedResult.getName());
 
 
 

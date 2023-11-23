@@ -3,8 +3,8 @@ package commands.player;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
-import entities.AudioFile;
-import entities.MainPlayer;
+import entities.playable.audio_files.AudioFile;
+import entities.Library;
 import entities.UserPlayer;
 import lombok.*;
 
@@ -21,16 +21,14 @@ public class Prev extends Command {
     }
 
     @Override
-    public void execute(ArrayNode outputs, MainPlayer player) {
-//        System.out.println(this.toString());
+    public void execute(ArrayNode outputs, Library lib) {
         ObjectNode out = outputs.addObject();
         out.put("command", "prev");
         out.put("user", getUsername());
         out.put("timestamp", getTimestamp());
 
-        UserPlayer userPlayer = player.getLibrary().getUserWithUsername(getUsername()).getPlayer();
+        UserPlayer userPlayer = lib.getUserWithUsername(getUsername()).getPlayer();
 
-//        System.out.println(getTimestamp());
         if (!userPlayer.playingIndexIsValid()) {
             out.put("message", "Please load a source before returning to the previous track.");
         } else {
