@@ -5642,7 +5642,7 @@
   "timestamp" : 6040,
   "stats" : {
     "name" : "Start Me Up",
-    "remainedTime" : 124,
+    "remainedTime" : 112,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -6521,7 +6521,7 @@
   "timestamp" : 6540,
   "stats" : {
     "name" : "Start Me Up",
-    "remainedTime" : 124,
+    "remainedTime" : 112,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6693,7 +6693,7 @@
   "timestamp" : 6640,
   "stats" : {
     "name" : "Start Me Up",
-    "remainedTime" : 24,
+    "remainedTime" : 12,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false

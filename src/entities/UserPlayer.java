@@ -148,6 +148,8 @@ public class UserPlayer {
 	public void next(boolean isCommand, int currentTimestamp) {
 		if (isRepeating == 2) {
 			audioQueue.get(playingIndex).setPlayedTime(0);
+			loadedTimestamp = currentTimestamp;
+			initialStartTimestamp = loadedTimestamp;
 			timeLeftToPlay = audioQueue.get(playingIndex).getDuration();
 			return;
 		}
