@@ -33,6 +33,7 @@ public class UserPlayer {
 	private boolean nextWasLastCommand = false;
 
 	private int pauseStartTimeStamp = 0;
+	private int initialStartTimestamp = 0;
 
 	public UserPlayer() {
 		this.searchBar = new SearchBar();
@@ -58,7 +59,7 @@ public class UserPlayer {
 //			lastCommandTimestamp = currentTimestamp;
 //			return;
 			if (playingIndexIsValid())
-				loadedTimestamp += (currentTimestamp - pauseStartTimeStamp);
+				loadedTimestamp = initialStartTimestamp + (currentTimestamp - pauseStartTimeStamp);
 			if (nextWasLastCommand)
 				isPlaying = true;
 		} else {
@@ -69,6 +70,7 @@ public class UserPlayer {
 
 			if (loadedTimestamp + currentAudioDuration < currentTimestamp) {
 				loadedTimestamp = loadedTimestamp + currentAudioDuration;
+				initialStartTimestamp = loadedTimestamp;
 
 				handleRepeatCase(currentTimestamp);
 
@@ -87,6 +89,7 @@ public class UserPlayer {
 						// repeat logic
 						// Update the loaded timestamp to account for the duration of the current track
 						loadedTimestamp += currentAudioDuration;
+						initialStartTimestamp = loadedTimestamp;
 
 						// Handle the repeat and playlist logic for the next track
 						handleRepeatCase(currentTimestamp);
@@ -153,6 +156,7 @@ public class UserPlayer {
 
 			// Reset played time of the new track
 			loadedTimestamp = currentTimestamp;
+			initialStartTimestamp = loadedTimestamp;
 			if (!isPlaying)
 				isPlaying = true;
 
@@ -166,6 +170,7 @@ public class UserPlayer {
 				timeLeftToPlay = audioQueue.get(playingIndex).getDuration();
 
 				loadedTimestamp = currentTimestamp;
+				initialStartTimestamp = loadedTimestamp;
 				if (!isPlaying)
 					isPlaying = true;
 
@@ -208,9 +213,11 @@ public class UserPlayer {
 			if (!isPlaying) {
 				isPlaying = true;
 				loadedTimestamp = currentTimestamp;
+				initialStartTimestamp = loadedTimestamp;
 			}
 
 			loadedTimestamp = currentTimestamp;
+			initialStartTimestamp = loadedTimestamp;
 			return audioQueue.get(playingIndex);
 		} else {
 			if (isShuffled && realIndex > 0) {
@@ -220,6 +227,7 @@ public class UserPlayer {
 				if (!isPlaying) {
 					isPlaying = true;
 					loadedTimestamp = currentTimestamp;
+					initialStartTimestamp = loadedTimestamp;
 				}
 			} else if (!isShuffled && playingIndex > 0) {
 				playingIndex--;
@@ -228,6 +236,7 @@ public class UserPlayer {
 				if (!isPlaying) {
 					isPlaying = true;
 					loadedTimestamp = currentTimestamp;
+					initialStartTimestamp = loadedTimestamp;
 				}
 			} else {
 				timeLeftToPlay = audioQueue.get(playingIndex).getDuration();
@@ -235,11 +244,13 @@ public class UserPlayer {
 				if (!isPlaying) {
 					isPlaying = true;
 					loadedTimestamp = currentTimestamp;
+					initialStartTimestamp = loadedTimestamp;
 				}
 				return audioQueue.get(playingIndex);
 			}
 
 			loadedTimestamp = currentTimestamp;
+			initialStartTimestamp = loadedTimestamp;
 
 			timeLeftToPlay = audioQueue.get(playingIndex).getDuration();
 			return audioQueue.get(playingIndex);
@@ -270,6 +281,7 @@ public class UserPlayer {
 
 		this.setIsPlaying(true);
 		this.setLoadedTimestamp(startTimestamp);
+		this.setInitialStartTimestamp(startTimestamp);
 
 		// Additional logic to load the AudioFiles from the Playable object
 		userPlayer.setPlayingIndex(0);

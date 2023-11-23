@@ -6601,14 +6601,14 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 6600,
-  "message" : "Like registered successfully."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6600,
   "stats" : {
-    "name" : "Paint It Black",
-    "remainedTime" : -98,
+    "name" : "Start Me Up",
+    "remainedTime" : 114,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -6777,8 +6777,8 @@
   "user" : "alice22",
   "timestamp" : 6700,
   "stats" : {
-    "name" : "Paint It Black",
-    "remainedTime" : -198,
+    "name" : "Start Me Up",
+    "remainedTime" : 14,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -6958,8 +6958,8 @@
   "user" : "alice22",
   "timestamp" : 6800,
   "stats" : {
-    "name" : "Paint It Black",
-    "remainedTime" : -298,
+    "name" : "Start Me Up",
+    "remainedTime" : 126,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -6969,8 +6969,8 @@
   "user" : "alice22",
   "timestamp" : 6800,
   "stats" : {
-    "name" : "Paint It Black",
-    "remainedTime" : -298,
+    "name" : "Start Me Up",
+    "remainedTime" : 126,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -7144,17 +7144,17 @@
   "command" : "next",
   "user" : "alice22",
   "timestamp" : 6900,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Bohemian Rhapsody."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6900,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Bohemian Rhapsody",
+    "remainedTime" : 355,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchVisibility",
@@ -9745,7 +9745,7 @@
   "command" : "showPreferredSongs",
   "user" : "alice22",
   "timestamp" : 8490,
-  "result" : [ "Start Me Up", "Bohemian Rhapsody", "Paint It Black" ]
+  "result" : [ "Bohemian Rhapsody" ]
 }, {
   "command" : "showPlaylists",
   "user" : "bob35",
@@ -9933,5 +9933,5 @@
 }, {
   "command" : "getTop5Songs",
   "timestamp" : 8580,
-  "result" : [ "Don't", "Whatever You Need", "Start Me Up", "Maps", "The Man" ]
+  "result" : [ "Don't", "Whatever You Need", "Maps", "The Man", "Happier" ]
 } ]

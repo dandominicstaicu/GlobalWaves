@@ -112,7 +112,7 @@ public final class Main {
             if (command.getUsername() != null) {
                 UserPlayer userPlayer = player.getLibrary().getUserWithUsername(command.getUsername()).getPlayer();
 
-                if (command.getTimestamp() == 6290)
+                if (command.getTimestamp() == 6600)
                     System.out.println("!!!!");
 
                 userPlayer.updateTime(command.getTimestamp());
