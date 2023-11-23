@@ -3,54 +3,79 @@ package commands.player;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
-import entities.*;
+import common.Output;
+import entities.Library;
+import entities.User;
+import entities.UserPlayer;
 import entities.playable.Playlist;
 import entities.playable.audio_files.Song;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Builder;
+import lombok.Setter;
+import lombok.NoArgsConstructor;
 
 import java.util.List;
 
+/**
+ * Represents a user command to skip to the next track.
+ * Extends the Command class.
+ */
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
 public class AddRemoveInPlaylist extends Command {
-	private Integer playlistId;
+    private Integer playlistId;
 
-	@Override
-	public String toString() {
-		return super.toString() +
-				"AddRemoveInPlaylist{" +
-				", playlistId=" + playlistId +
-				'}';
-	}
+    /**
+     * Returns a string representation of the command.
+     *
+     * @return A string representation of the command.
+     */
+    @Override
+    public String toString() {
+        return super.toString()
+                + "AddRemoveInPlaylist{"
+                + ", playlistId=" + playlistId
+                + '}';
+    }
 
-	@Override
-	public void execute(ArrayNode outputs, Library lib) {
-		ObjectNode out = outputs.addObject();
+    /**
+     * Executes the command to skip to the next track and adds the results to
+     * the outputs.
+     *
+     * @param outputs The ArrayNode to which command outputs are added.
+     * @param lib     The library on which the command operates.
+     */
+    @Override
+    public void execute(final ArrayNode outputs, final Library lib) {
+        ObjectNode out = outputs.addObject();
 
-		out.put("command", "addRemoveInPlaylist");
-		out.put("user", getUsername());
-		out.put("timestamp", getTimestamp());
+        out.put(Output.COMMAND, Output.ADD_REMOVE_IN_PLAYLIST);
+        out.put(Output.USER, getUsername());
+        out.put(Output.TIMESTAMP, getTimestamp());
 
-		UserPlayer userPlayer = lib.getUserWithUsername(getUsername()).getPlayer();
-		List<Playlist> playlistsSeenByUser = lib.getUserWithUsername(getUsername()).getPlaylistsOwnedByUser(lib.getPlaylists());
+        UserPlayer userPlayer = lib.getUserWithUsername(getUsername()).getPlayer();
+        User user = lib.getUserWithUsername(getUsername());
+        List<Playlist> playlistsSeenByUser = user.getPlaylistsOwnedByUser(lib.getPlaylists());
 
 
-		if (getPlaylistId() > playlistsSeenByUser.size() || getPlaylistId() <= 0) {
-			out.put("message", "The specified playlist does not exist.");
-		} else if (!userPlayer.playingIndexIsValid()) {
-			out.put("message", "Please load a source before adding to or removing from the playlist.");
-		} else if (!userPlayer.getAudioQueue().get(userPlayer.getPlayingIndex()).isSong()) {
-			out.put("message", "The loaded source is not a song.");
-		} else {
-			boolean ret = lib.decideAddRemove(getPlaylistId(), (Song) userPlayer.getAudioQueue().get(userPlayer.getPlayingIndex()), getUsername());
-			if (ret) {
-				out.put("message", "Successfully added to playlist.");
-			} else {
-				out.put("message", "Successfully removed from playlist.");
-			}
-		}
-	}
+        if (getPlaylistId() > playlistsSeenByUser.size() || getPlaylistId() <= 0) {
+            out.put(Output.MESSAGE, Output.PLAYLIST_NOT_EXIST);
+        } else if (!userPlayer.playingIndexIsValid()) {
+            out.put(Output.MESSAGE, Output.LOAD_ADD_RMV_ERR);
+        } else if (!userPlayer.getAudioQueue().get(userPlayer.getPlayingIndex()).isSong()) {
+            out.put(Output.MESSAGE, Output.LOAD_NOT_SONG_ERR);
+        } else {
+            Song song = (Song) userPlayer.getAudioQueue().get(userPlayer.getPlayingIndex());
+            boolean ret = lib.decideAddRemove(getPlaylistId(), song, getUsername());
+            if (ret) {
+                out.put(Output.MESSAGE, Output.ADDED_TO_PLAYLIST);
+            } else {
+                out.put(Output.MESSAGE, Output.REMOVED_FROM_PLAYLIST);
+            }
+        }
+    }
 }

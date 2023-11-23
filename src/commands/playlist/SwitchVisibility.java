@@ -3,9 +3,16 @@ package commands.playlist;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
+import common.Constants;
+import common.Output;
 import entities.Library;
+import entities.User;
 import entities.playable.Playlist;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.util.List;
 
@@ -15,31 +22,46 @@ import java.util.List;
 @AllArgsConstructor
 @Builder
 public class SwitchVisibility extends Command {
-	private Integer playlistId;
+    private Integer playlistId;
 
-	@Override
-	public String toString() {
-		return super.toString() +
-				"SwitchVisibility{" +
-				", playlistId=" + playlistId +
-				'}';
-	}
+    /**
+     * Returns a string representation of the command.
+     *
+     * @return A string representation of the command.
+     */
+    @Override
+    public String toString() {
+        return super.toString()
+                + "SwitchVisibility{"
+                + ", playlistId=" + playlistId
+                + '}';
+    }
 
-	@Override
-	public void execute(ArrayNode outputs, Library lib) {
-		ObjectNode out = outputs.addObject();
-		out.put("command", "switchVisibility");
-		out.put("user", getUsername());
-		out.put("timestamp", getTimestamp());
+    /**
+     * Executes the command to switch the visibility of a playlist and adds the results to the
+     * outputs.
+     *
+     * @param outputs The ArrayNode to which command outputs are added.
+     * @param lib     The library on which the command operates.
+     */
+    @Override
+    public void execute(final ArrayNode outputs, final Library lib) {
+        ObjectNode out = outputs.addObject();
+        out.put(Output.COMMAND, Output.SWITCH_VISIBILITY);
+        out.put(Output.USER, getUsername());
+        out.put(Output.TIMESTAMP, getTimestamp());
 
-		List<Playlist> userSeenPlaylists = lib.getUserWithUsername(getUsername()).getPlaylistsOwnedByUser(lib.getPlaylists());
+        User user = lib.getUserWithUsername(getUsername());
+        List<Playlist> userSeenPlaylists = user.getPlaylistsOwnedByUser(lib.getPlaylists());
 
-		if (getPlaylistId() > userSeenPlaylists.size() || getPlaylistId() <= 0) {
-			out.put("message", "The specified playlist ID is too high.");
-		} else {
-			Playlist playlist = userSeenPlaylists.get(getPlaylistId() - 1); // Adjust for zero-based index
-			boolean visibility = playlist.switchVisibility();
-			out.put("message", "Visibility status updated successfully to " + (visibility ? "public" : "private") + ".");
-		}
-	}
+        if (getPlaylistId() > userSeenPlaylists.size()
+                || getPlaylistId() <= Constants.LOWER_BOUND) {
+            out.put(Output.MESSAGE, Output.PLAYLIST_ID_IS_TOO_HIGH);
+        } else {
+            Playlist playlist = userSeenPlaylists.get(getPlaylistId() - 1); // adjust to 1 idx
+            boolean visibility = playlist.switchVisibility();
+            out.put(Output.MESSAGE, Output.VISIBILITY_CHANGED
+                    + (visibility ? Output.PUBLIC : Output.PRIVATE) + ".");
+        }
+    }
 }

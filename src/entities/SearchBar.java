@@ -16,7 +16,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-import static common.Constants.MAX_SEARCH_LIST_RETURN;
+import static common.Constants.MAX_LIST_RETURN;
 
 
 @Getter
@@ -58,8 +58,8 @@ public final class SearchBar {
                 break;
         }
 
-        List<Playable> searchResults = results.size() > MAX_SEARCH_LIST_RETURN
-                ? results.subList(0, MAX_SEARCH_LIST_RETURN) : results;
+        List<Playable> searchResults = results.size() > MAX_LIST_RETURN
+                ? results.subList(0, MAX_LIST_RETURN) : results;
         this.setLastSearchResults(searchResults);
 
         return searchResults;

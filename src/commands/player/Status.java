@@ -3,51 +3,74 @@ package commands.player;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
+import common.Constants;
+import common.Output;
 import entities.Library;
 import entities.UserPlayer;
-import lombok.*;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 
+/**
+ * Represents a user command to load a selected source for playback. Extends the Command class.
+ */
 @Getter
 @Setter
-//@NoArgsConstructor
 @AllArgsConstructor
 @Builder
 public class Status extends Command {
-	@Override
-	public String toString() {
-		return super.toString() +
-				"Status{" +
-				'}';
-	}
+    /**
+     * Returns a string representation of the command.
+     *
+     * @return A string representation of the command.
+     */
+    @Override
+    public String toString() {
+        return super.toString()
+                + "Status{"
+                + '}';
+    }
 
-	@Override
-	public void execute(ArrayNode outputs, Library lib) {
-		ObjectNode out = outputs.addObject();
-		out.put("command", "status");
-		out.put("user", getUsername());
-		out.put("timestamp", getTimestamp());
+    /**
+     * Executes the command to load a selected source for playback and adds the results to the
+     * outputs.
+     *
+     * @param outputs The ArrayNode to which command outputs are added.
+     * @param lib     The library on which the command operates.
+     */
+    @Override
+    public void execute(final ArrayNode outputs, final Library lib) {
+        ObjectNode out = outputs.addObject();
+        out.put(Output.COMMAND, Output.STATUS);
+        out.put(Output.USER, getUsername());
+        out.put(Output.TIMESTAMP, getTimestamp());
 
-		UserPlayer userPlayer = lib.getUserWithUsername(getUsername()).getPlayer();
-		ObjectNode stats = out.putObject("stats");
+        UserPlayer userPlayer = lib.getUserWithUsername(getUsername()).getPlayer();
+        ObjectNode stats = out.putObject("stats");
 
-		if (userPlayer.getAudioQueue() != null && userPlayer.playingIndexIsValid()) {
-			stats.put("name", userPlayer.getAudioQueue().get(userPlayer.getPlayingIndex()).getName()); // element is peek() but doesn not return null
-			stats.put("remainedTime", userPlayer.getRemainedTime());
-		} else {
-			stats.put("name", "");
-			stats.put("remainedTime", 0);
-		}
+        if (userPlayer.getAudioQueue() != null && userPlayer.playingIndexIsValid()) {
+            int playingIndex = userPlayer.getPlayingIndex();
+            String songName = userPlayer.getAudioQueue().get(playingIndex).getName();
 
-		switch (userPlayer.getIsRepeating()) {
-			case NO_REPEAT -> stats.put("repeat", "No Repeat");
-			case REPEAT_ONCE -> stats.put("repeat", "Repeat Once");
-			case REPEAT_ALL -> stats.put("repeat", "Repeat All");
-			case REPEAT_CURRENT_SONG -> stats.put("repeat", "Repeat Current Song");
-			case REPEAT_INFINITE -> stats.put("repeat", "Repeat Infinite");
-		}
+            stats.put(Output.NAME, songName);
+            stats.put(Output.REMAINED_TIME, userPlayer.getRemainedTime());
+        } else {
+            stats.put(Output.NAME, "");
+            stats.put(Output.REMAINED_TIME, Constants.START_OF_SONG);
+        }
 
-		stats.put("shuffle", userPlayer.getIsShuffled());
-		stats.put("paused", !userPlayer.getIsPlaying());
-	}
+        switch (userPlayer.getIsRepeating()) {
+            case NO_REPEAT -> stats.put(Output.REPEAT, Output.NO_REPEAT);
+            case REPEAT_ONCE -> stats.put(Output.REPEAT, Output.REPEAT_ONCE);
+            case REPEAT_ALL -> stats.put(Output.REPEAT, Output.REPEAT_ALL);
+            case REPEAT_CURRENT_SONG -> stats.put(Output.REPEAT, Output.REPEAT_CURRENT_SONG);
+            case REPEAT_INFINITE -> stats.put(Output.REPEAT, Output.REPEAT_INFINITE);
+            default -> {
+            }
+        }
 
+        stats.put(Output.SHUFFLE, userPlayer.getIsShuffled());
+        stats.put(Output.PAUSED, !userPlayer.getIsPlaying());
+    }
 }

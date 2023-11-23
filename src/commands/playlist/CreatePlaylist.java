@@ -3,37 +3,56 @@ package commands.playlist;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
+import common.Output;
 import entities.Library;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
+/**
+ * The command class in charge of creating a playlist.
+ */
 @Setter
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
 public class CreatePlaylist extends Command {
-	private String playlistName;
+    private String playlistName;
 
-	@Override
-	public String toString() {
-		return super.toString() +
-				"CreatePlaylist{" +
-				", playlistName='" + playlistName + '\'' +
-				'}';
-	}
+    /**
+     * Returns a string representation of the command.
+     *
+     * @return A string representation of the command.
+     */
+    @Override
+    public String toString() {
+        return super.toString()
+                + "CreatePlaylist{"
+                + ", playlistName='" + playlistName + '\''
+                + '}';
+    }
 
-	@Override
-	public void execute(ArrayNode outputs, Library lib) {
-		ObjectNode out = outputs.addObject();
-		out.put("command", "createPlaylist");
-		out.put("user", getUsername());
-		out.put("timestamp", getTimestamp());
+    /**
+     * Executes the command to create a playlist and adds the results to the outputs.
+     *
+     * @param outputs The ArrayNode to which command outputs are added.
+     * @param lib     The library on which the command operates.
+     */
+    @Override
+    public void execute(final ArrayNode outputs, final Library lib) {
+        ObjectNode out = outputs.addObject();
+        out.put(Output.COMMAND, Output.CREATE_PLAYLIST);
+        out.put(Output.USER, getUsername());
+        out.put(Output.TIMESTAMP, getTimestamp());
 
-		boolean ret = lib.createPlaylist(this.getPlaylistName(), this.getUsername());
-		if (ret) {
-			out.put("message", "Playlist created successfully.");
-		} else {
-			out.put("message", "A playlist with the same name already exists.");
-		}
-	}
+        boolean ret = lib.createPlaylist(this.getPlaylistName(), this.getUsername());
+        if (ret) {
+            out.put(Output.MESSAGE, Output.PLAYLIST_CREATED);
+        } else {
+            out.put(Output.MESSAGE, Output.PLAYLIST_EXISTS);
+        }
+    }
 }

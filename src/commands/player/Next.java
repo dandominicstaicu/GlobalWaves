@@ -3,28 +3,47 @@ package commands.player;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
+import common.Output;
 import entities.Library;
 import entities.UserPlayer;
-import lombok.*;
-
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Builder;
+import lombok.Setter;
+/**
+ * Represents a user command to skip to the next track.
+ * Extends the Command class.
+ */
 @Getter
 @Setter
 @AllArgsConstructor
 @Builder
 public class Next extends Command {
+    /**
+     * Returns a string representation of the command.
+     *
+     * @return A string representation of the command.
+     */
     @Override
     public String toString() {
-        return super.toString() +
-                "Next{" +
-                '}';
+        return super.toString()
+                + "Next{"
+                + '}';
     }
 
+    /**
+     * Executes the command to skip to the next track and adds the results to
+     * the outputs.
+     *
+     * @param outputs The ArrayNode to which command outputs are added.
+     * @param lib     The library on which the command operates.
+     */
     @Override
-    public void execute(ArrayNode outputs, Library lib) {
+    public void execute(final ArrayNode outputs, final Library lib) {
         ObjectNode out = outputs.addObject();
-        out.put("command", "next");
-        out.put("user", getUsername());
-        out.put("timestamp", getTimestamp());
+        out.put(Output.COMMAND, Output.NEXT);
+        out.put(Output.USER, getUsername());
+        out.put(Output.TIMESTAMP, getTimestamp());
 
         UserPlayer userPlayer = lib.getUserWithUsername(getUsername()).getPlayer();
 
@@ -33,9 +52,11 @@ public class Next extends Command {
         }
 
         if (!userPlayer.playingIndexIsValid()) {
-            out.put("message", "Please load a source before skipping to the next track.");
+            out.put(Output.MESSAGE, Output.LOAD_NEXT_ERR);
         } else {
-            out.put("message", "Skipped to next track successfully. The current track is " + userPlayer.getAudioQueue().get(userPlayer.getPlayingIndex()).getName() + ".");
+            final int index = userPlayer.getPlayingIndex();
+            final String name = userPlayer.getAudioQueue().get(index).getName();
+            out.put(Output.MESSAGE, Output.NEXT_SUCCESS + name + ".");
         }
 
 

@@ -3,42 +3,57 @@ package commands.player;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
+import common.Output;
 import entities.Library;
 import entities.UserPlayer;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
 
 @Getter
 @Setter
 @AllArgsConstructor
 @Builder
 public class PlayPause extends Command {
+    /**
+     * Returns a string representation of the command.
+     *
+     * @return A string representation of the command.
+     */
     @Override
     public String toString() {
-        return super.toString() +
-                "PlayPause{" +
-                '}';
+        return super.toString()
+                + "PlayPause{"
+                + '}';
     }
 
+    /**
+     * Executes the command to load a selected source for playback and adds the results to the
+     * outputs.
+     *
+     * @param outputs The ArrayNode to which command outputs are added.
+     * @param lib     The library on which the command operates.
+     */
     @Override
-    public void execute(ArrayNode outputs, Library lib) {
-//        System.out.println(this.toString());
+    public void execute(final ArrayNode outputs, final Library lib) {
         ObjectNode out = outputs.addObject();
-        out.put("command", "playPause");
-        out.put("user", getUsername());
-        out.put("timestamp", getTimestamp());
+        out.put(Output.COMMAND, Output.PLAY_PAUSE);
+        out.put(Output.USER, getUsername());
+        out.put(Output.TIMESTAMP, getTimestamp());
 
         UserPlayer userPlayer = lib.getUserWithUsername(getUsername()).getPlayer();
 
         if (userPlayer.getAudioQueue() != null && userPlayer.playingIndexIsValid()) {
             if (userPlayer.getIsPlaying()) {
                 userPlayer.pause(getTimestamp());
-                out.put("message", "Playback paused successfully.");
+                out.put(Output.MESSAGE, Output.PAUSE);
             } else {
                 userPlayer.resume();
-                out.put("message", "Playback resumed successfully.");
+                out.put(Output.MESSAGE, Output.RESUME);
             }
         } else {
-            out.put("message", "Please load a source before attempting to pause or resume playback.");
+            out.put(Output.MESSAGE, Output.LOAD_PLAY_PAUSE_ERR);
         }
 
     }
