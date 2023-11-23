@@ -41,6 +41,8 @@ public class Select extends Command {
         if (lastSearchResults == null) {
             out.put("message", "Please conduct a search before making a selection.");
         } else if (itemNumber < 1 || itemNumber > lastSearchResults.size()) {
+            userPlayer.getSearchBar().setLastSearchResults(null);
+            userPlayer.getSearchBar().setSelectedResult(null);
             out.put("message", "The selected ID is too high.");
         } else {
             Playable selectedResult = lastSearchResults.get(itemNumber - 1); // Adjust for zero-based index

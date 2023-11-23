@@ -146,6 +146,12 @@ public class UserPlayer {
 	}
 
 	public void next(boolean isCommand, int currentTimestamp) {
+		if (isRepeating == 2) {
+			audioQueue.get(playingIndex).setPlayedTime(0);
+			timeLeftToPlay = audioQueue.get(playingIndex).getDuration();
+			return;
+		}
+
 		if (!isShuffled || !(isRepeating == 2))
 			handleShuffle();
 

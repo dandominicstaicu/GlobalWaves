@@ -5459,14 +5459,14 @@
   "command" : "next",
   "user" : "emily30",
   "timestamp" : 5940,
-  "message" : "Skipped to next track successfully. The current track is Shape of You."
+  "message" : "Skipped to next track successfully. The current track is Start Me Up."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 5940,
   "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : 233,
+    "name" : "Start Me Up",
+    "remainedTime" : 212,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -5641,8 +5641,8 @@
   "user" : "emily30",
   "timestamp" : 6040,
   "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : 133,
+    "name" : "Start Me Up",
+    "remainedTime" : 124,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -5817,14 +5817,14 @@
   "command" : "prev",
   "user" : "emily30",
   "timestamp" : 6140,
-  "message" : "Returned to previous track successfully. The current track is Shape of You."
+  "message" : "Returned to previous track successfully. The current track is Start Me Up."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6140,
   "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : 233,
+    "name" : "Start Me Up",
+    "remainedTime" : 212,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -5982,7 +5982,7 @@
   "command" : "prev",
   "user" : "emily30",
   "timestamp" : 6240,
-  "message" : "Returned to previous track successfully. The current track is Shape of You."
+  "message" : "Returned to previous track successfully. The current track is Start Me Up."
 }, {
   "command" : "prev",
   "user" : "emily30",
@@ -6168,14 +6168,14 @@
   "command" : "next",
   "user" : "emily30",
   "timestamp" : 6340,
-  "message" : "Skipped to next track successfully. The current track is Shape of You."
+  "message" : "Skipped to next track successfully. The current track is Start Me Up."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6340,
   "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : 233,
+    "name" : "Start Me Up",
+    "remainedTime" : 212,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -6344,14 +6344,14 @@
   "command" : "next",
   "user" : "emily30",
   "timestamp" : 6440,
-  "message" : "Skipped to next track successfully. The current track is Black Dog."
+  "message" : "Skipped to next track successfully. The current track is Start Me Up."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6440,
   "stats" : {
-    "name" : "Black Dog",
-    "remainedTime" : 294,
+    "name" : "Start Me Up",
+    "remainedTime" : 212,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -6520,8 +6520,8 @@
   "user" : "emily30",
   "timestamp" : 6540,
   "stats" : {
-    "name" : "Black Dog",
-    "remainedTime" : 194,
+    "name" : "Start Me Up",
+    "remainedTime" : 124,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6692,8 +6692,8 @@
   "user" : "emily30",
   "timestamp" : 6640,
   "stats" : {
-    "name" : "Black Dog",
-    "remainedTime" : 94,
+    "name" : "Start Me Up",
+    "remainedTime" : 24,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -6856,14 +6856,14 @@
   "command" : "next",
   "user" : "emily30",
   "timestamp" : 6740,
-  "message" : "Skipped to next track successfully. The current track is Don't."
+  "message" : "Skipped to next track successfully. The current track is Shape of You."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6740,
   "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 219,
+    "name" : "Shape of You",
+    "remainedTime" : 233,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -6925,17 +6925,17 @@
   "command" : "next",
   "user" : "irene33",
   "timestamp" : 6780,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Black Dog."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6780,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Black Dog",
+    "remainedTime" : 294,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "prev",
@@ -7047,14 +7047,14 @@
   "command" : "next",
   "user" : "emily30",
   "timestamp" : 6840,
-  "message" : "Skipped to next track successfully. The current track is Happier."
+  "message" : "Skipped to next track successfully. The current track is Black Dog."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6840,
   "stats" : {
-    "name" : "Happier",
-    "remainedTime" : 207,
+    "name" : "Black Dog",
+    "remainedTime" : 294,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -7127,17 +7127,17 @@
   "command" : "repeat",
   "user" : "irene33",
   "timestamp" : 6880,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to no repeat."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6880,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "Repeat Current Song",
+    "name" : "Black Dog",
+    "remainedTime" : 194,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "playPause",
@@ -7240,8 +7240,8 @@
   "user" : "emily30",
   "timestamp" : 6940,
   "stats" : {
-    "name" : "Happier",
-    "remainedTime" : 107,
+    "name" : "Black Dog",
+    "remainedTime" : 194,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -7304,17 +7304,17 @@
   "command" : "shuffle",
   "user" : "irene33",
   "timestamp" : 6980,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6980,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : false,
-    "paused" : true
+    "name" : "Black Dog",
+    "remainedTime" : 94,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "shuffle",
@@ -7587,7 +7587,7 @@
   "command" : "follow",
   "user" : "frank21",
   "timestamp" : 7140,
-  "message" : "You cannot follow or unfollow your own playlist."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -7603,7 +7603,7 @@
   "command" : "follow",
   "user" : "grace25",
   "timestamp" : 7150,
-  "message" : "You cannot follow or unfollow your own playlist."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -7619,7 +7619,7 @@
   "command" : "follow",
   "user" : "henry26",
   "timestamp" : 7160,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -7683,7 +7683,7 @@
   "command" : "follow",
   "user" : "bob35",
   "timestamp" : 7200,
-  "message" : "You cannot follow or unfollow your own playlist."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -7715,7 +7715,7 @@
   "command" : "follow",
   "user" : "david27",
   "timestamp" : 7220,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -7747,7 +7747,7 @@
   "command" : "follow",
   "user" : "frank21",
   "timestamp" : 7240,
-  "message" : "You cannot follow or unfollow your own playlist."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -7763,7 +7763,7 @@
   "command" : "follow",
   "user" : "grace25",
   "timestamp" : 7250,
-  "message" : "You cannot follow or unfollow your own playlist."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -7779,7 +7779,7 @@
   "command" : "follow",
   "user" : "henry26",
   "timestamp" : 7260,
-  "message" : "Playlist followed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -7795,7 +7795,7 @@
   "command" : "follow",
   "user" : "irene33",
   "timestamp" : 7270,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -7843,7 +7843,7 @@
   "command" : "follow",
   "user" : "bob35",
   "timestamp" : 7300,
-  "message" : "You cannot follow or unfollow your own playlist."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -7859,7 +7859,7 @@
   "command" : "follow",
   "user" : "carol19",
   "timestamp" : 7310,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -7875,7 +7875,7 @@
   "command" : "follow",
   "user" : "david27",
   "timestamp" : 7320,
-  "message" : "Playlist followed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -7907,7 +7907,7 @@
   "command" : "follow",
   "user" : "frank21",
   "timestamp" : 7340,
-  "message" : "You cannot follow or unfollow your own playlist."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -7923,7 +7923,7 @@
   "command" : "follow",
   "user" : "grace25",
   "timestamp" : 7350,
-  "message" : "You cannot follow or unfollow your own playlist."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -7955,7 +7955,7 @@
   "command" : "follow",
   "user" : "irene33",
   "timestamp" : 7370,
-  "message" : "Playlist followed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -7987,7 +7987,7 @@
   "command" : "follow",
   "user" : "alice22",
   "timestamp" : 7390,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -8051,7 +8051,7 @@
   "command" : "follow",
   "user" : "emily30",
   "timestamp" : 7430,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -8163,7 +8163,7 @@
   "command" : "follow",
   "user" : "bob35",
   "timestamp" : 7500,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -8211,7 +8211,7 @@
   "command" : "follow",
   "user" : "emily30",
   "timestamp" : 7530,
-  "message" : "Playlist followed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -8243,7 +8243,7 @@
   "command" : "follow",
   "user" : "grace25",
   "timestamp" : 7550,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -8291,7 +8291,7 @@
   "command" : "follow",
   "user" : "jack29",
   "timestamp" : 7580,
-  "message" : "You cannot follow or unfollow your own playlist."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -8307,7 +8307,7 @@
   "command" : "follow",
   "user" : "alice22",
   "timestamp" : 7590,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -8323,7 +8323,7 @@
   "command" : "follow",
   "user" : "bob35",
   "timestamp" : 7600,
-  "message" : "Playlist followed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -8339,7 +8339,7 @@
   "command" : "follow",
   "user" : "carol19",
   "timestamp" : 7610,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -8371,7 +8371,7 @@
   "command" : "follow",
   "user" : "emily30",
   "timestamp" : 7630,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -8403,7 +8403,7 @@
   "command" : "follow",
   "user" : "grace25",
   "timestamp" : 7650,
-  "message" : "Playlist followed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -8435,7 +8435,7 @@
   "command" : "follow",
   "user" : "irene33",
   "timestamp" : 7670,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -8467,7 +8467,7 @@
   "command" : "follow",
   "user" : "alice22",
   "timestamp" : 7690,
-  "message" : "Playlist followed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -8499,7 +8499,7 @@
   "command" : "follow",
   "user" : "carol19",
   "timestamp" : 7710,
-  "message" : "Playlist followed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -8547,7 +8547,7 @@
   "command" : "follow",
   "user" : "frank21",
   "timestamp" : 7740,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -8595,7 +8595,7 @@
   "command" : "follow",
   "user" : "irene33",
   "timestamp" : 7770,
-  "message" : "Playlist followed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -8627,7 +8627,7 @@
   "command" : "follow",
   "user" : "alice22",
   "timestamp" : 7790,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -8643,7 +8643,7 @@
   "command" : "follow",
   "user" : "bob35",
   "timestamp" : 7800,
-  "message" : "You cannot follow or unfollow your own playlist."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -8659,7 +8659,7 @@
   "command" : "follow",
   "user" : "carol19",
   "timestamp" : 7810,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -8675,7 +8675,7 @@
   "command" : "follow",
   "user" : "david27",
   "timestamp" : 7820,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -8691,7 +8691,7 @@
   "command" : "follow",
   "user" : "emily30",
   "timestamp" : 7830,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -8707,7 +8707,7 @@
   "command" : "follow",
   "user" : "frank21",
   "timestamp" : 7840,
-  "message" : "Playlist followed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -8723,7 +8723,7 @@
   "command" : "follow",
   "user" : "grace25",
   "timestamp" : 7850,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -8739,7 +8739,7 @@
   "command" : "follow",
   "user" : "henry26",
   "timestamp" : 7860,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -8771,7 +8771,7 @@
   "command" : "follow",
   "user" : "jack29",
   "timestamp" : 7880,
-  "message" : "Playlist followed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -8851,7 +8851,7 @@
   "command" : "follow",
   "user" : "emily30",
   "timestamp" : 7930,
-  "message" : "Playlist followed successfully."
+  "message" : "Playlist unfollowed successfully."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -8867,7 +8867,7 @@
   "command" : "follow",
   "user" : "frank21",
   "timestamp" : 7940,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -8883,7 +8883,7 @@
   "command" : "follow",
   "user" : "grace25",
   "timestamp" : 7950,
-  "message" : "Playlist followed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -8931,7 +8931,7 @@
   "command" : "follow",
   "user" : "jack29",
   "timestamp" : 7980,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -8995,7 +8995,7 @@
   "command" : "follow",
   "user" : "david27",
   "timestamp" : 8020,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -9011,7 +9011,7 @@
   "command" : "follow",
   "user" : "emily30",
   "timestamp" : 8030,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -9043,7 +9043,7 @@
   "command" : "follow",
   "user" : "grace25",
   "timestamp" : 8050,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -9059,7 +9059,7 @@
   "command" : "follow",
   "user" : "henry26",
   "timestamp" : 8060,
-  "message" : "Playlist followed successfully."
+  "message" : "Playlist unfollowed successfully."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -9075,7 +9075,7 @@
   "command" : "follow",
   "user" : "irene33",
   "timestamp" : 8070,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -9091,7 +9091,7 @@
   "command" : "follow",
   "user" : "jack29",
   "timestamp" : 8080,
-  "message" : "Playlist followed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -9203,7 +9203,7 @@
   "command" : "follow",
   "user" : "grace25",
   "timestamp" : 8150,
-  "message" : "Playlist followed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -9219,7 +9219,7 @@
   "command" : "follow",
   "user" : "henry26",
   "timestamp" : 8160,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -9267,7 +9267,7 @@
   "command" : "follow",
   "user" : "alice22",
   "timestamp" : 8190,
-  "message" : "Playlist followed successfully."
+  "message" : "Playlist unfollowed successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -9299,7 +9299,7 @@
   "command" : "follow",
   "user" : "carol19",
   "timestamp" : 8210,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -9315,7 +9315,7 @@
   "command" : "follow",
   "user" : "david27",
   "timestamp" : 8220,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -9347,7 +9347,7 @@
   "command" : "follow",
   "user" : "frank21",
   "timestamp" : 8240,
-  "message" : "Playlist followed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -9427,7 +9427,7 @@
   "command" : "follow",
   "user" : "alice22",
   "timestamp" : 8290,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -9459,7 +9459,7 @@
   "command" : "follow",
   "user" : "carol19",
   "timestamp" : 8310,
-  "message" : "Playlist followed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -9475,7 +9475,7 @@
   "command" : "follow",
   "user" : "david27",
   "timestamp" : 8320,
-  "message" : "Playlist followed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -9491,7 +9491,7 @@
   "command" : "follow",
   "user" : "emily30",
   "timestamp" : 8330,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -9539,7 +9539,7 @@
   "command" : "follow",
   "user" : "henry26",
   "timestamp" : 8360,
-  "message" : "Playlist followed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -9555,7 +9555,7 @@
   "command" : "follow",
   "user" : "irene33",
   "timestamp" : 8370,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -9571,7 +9571,7 @@
   "command" : "follow",
   "user" : "jack29",
   "timestamp" : 8380,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -9587,7 +9587,7 @@
   "command" : "follow",
   "user" : "alice22",
   "timestamp" : 8390,
-  "message" : "Playlist followed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -9667,7 +9667,7 @@
   "command" : "follow",
   "user" : "frank21",
   "timestamp" : 8440,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -9683,7 +9683,7 @@
   "command" : "follow",
   "user" : "grace25",
   "timestamp" : 8450,
-  "message" : "Playlist followed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -9699,7 +9699,7 @@
   "command" : "follow",
   "user" : "henry26",
   "timestamp" : 8460,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -9731,7 +9731,7 @@
   "command" : "follow",
   "user" : "jack29",
   "timestamp" : 8480,
-  "message" : "Playlist followed successfully."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "showPlaylists",
   "user" : "alice22",
@@ -9745,7 +9745,7 @@
     "name" : "Classic Sounds Expedition #2",
     "songs" : [ "Angie", "Shape of You", "Sad But True", "Love Story", "Bohemian Rhapsody", "The Man", "Money Trees", "Thinking Out Loud" ],
     "visibility" : "public",
-    "followers" : 1
+    "followers" : 0
   } ]
 }, {
   "command" : "showPreferredSongs",
@@ -9800,7 +9800,7 @@
     "name" : "Breezy Bangers Quest #1",
     "songs" : [ "Blank Space", "Big Pimpin'", "Begin Again", "Paint It Black", "Love Story" ],
     "visibility" : "public",
-    "followers" : 2
+    "followers" : 3
   }, {
     "name" : "Stellar Tunes Quest #2",
     "songs" : [ "Start Me Up", "Dream On", "Angie", "Gimme Shelter", "Begin Again", "Black Dog", "Stairway to Heaven" ],
@@ -9831,7 +9831,7 @@
   "command" : "showPreferredSongs",
   "user" : "emily30",
   "timestamp" : 8530,
-  "result" : [ "Shape of You", "Happier" ]
+  "result" : [ "Start Me Up", "Black Dog" ]
 }, {
   "command" : "showPlaylists",
   "user" : "frank21",
@@ -9840,7 +9840,7 @@
     "name" : "Chill Melodies Voyage #1",
     "songs" : [ "Start Me Up", "Whatever You Need", "Dream On", "Begin Again", "Black Dog", "Shape of You", "Delicate" ],
     "visibility" : "public",
-    "followers" : 5
+    "followers" : 6
   }, {
     "name" : "Classic Grooves Trek #2",
     "songs" : [ "Gimme Shelter", "Bohemian Rhapsody", "Love Story", "Black Dog", "Thinking Out Loud" ],
@@ -9860,12 +9860,12 @@
     "name" : "Groovy Vibes Odyssey #1",
     "songs" : [ "Delicate", "Under Pressure", "Money Trees", "Love Story", "The Man", "Shape of You" ],
     "visibility" : "public",
-    "followers" : 3
+    "followers" : 4
   }, {
     "name" : "Dynamic Tracks Adventure #2",
     "songs" : [ "Begin Again", "Gimme Shelter", "Start Me Up" ],
     "visibility" : "public",
-    "followers" : 4
+    "followers" : 6
   } ]
 }, {
   "command" : "showPreferredSongs",
@@ -9880,12 +9880,12 @@
     "name" : "Dynamic Grooves Expedition #1",
     "songs" : [ "Dream On", "Stairway to Heaven", "Begin Again", "Under Pressure", "Thinking Out Loud", "Maps" ],
     "visibility" : "public",
-    "followers" : 2
+    "followers" : 4
   }, {
     "name" : "Breezy Tunes Odyssey #2",
     "songs" : [ "Dream On" ],
     "visibility" : "public",
-    "followers" : 0
+    "followers" : 1
   } ]
 }, {
   "command" : "showPreferredSongs",
@@ -9935,9 +9935,9 @@
 }, {
   "command" : "getTop5Playlists",
   "timestamp" : 8580,
-  "result" : [ "Chill Melodies Voyage #1", "Stellar Tunes Quest #2", "Breezy Rhythms Trek #1", "Chill Sounds Journey #1", "Dynamic Tracks Adventure #2" ]
+  "result" : [ "Chill Melodies Voyage #1", "Dynamic Tracks Adventure #2", "Stellar Tunes Quest #2", "Breezy Rhythms Trek #1", "Chill Sounds Journey #1" ]
 }, {
   "command" : "getTop5Songs",
   "timestamp" : 8580,
-  "result" : [ "Love Story", "Gimme Shelter", "Shape of You", "Don't", "Money Trees" ]
+  "result" : [ "Start Me Up", "Love Story", "Gimme Shelter", "Don't", "Money Trees" ]
 } ]
