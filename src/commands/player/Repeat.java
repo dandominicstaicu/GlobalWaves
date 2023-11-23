@@ -33,35 +33,16 @@ public class Repeat extends Command {
         if (!userPlayer.playingIndexIsValid()) {
             out.put("message", "Please load a source before setting the repeat status.");
         } else {
-
-            if (userPlayer.getIsPlayingPlaylist()) {
-                switch (userPlayer.changeRepeatState()) {
-                    case 0:
-                        out.put("message", "Repeat mode changed to no repeat.");
-                        break;
-                    case 1:
+            switch (userPlayer.changeRepeatState()) {
+                case NO_REPEAT ->
+                    out.put("message", "Repeat mode changed to no repeat.");
+                case REPEAT_ONCE ->
+                    out.put("message", "Repeat mode changed to repeat once.");
+                case REPEAT_ALL ->
                         out.put("message", "Repeat mode changed to repeat all.");
-                        break;
-                    case 2:
+                case REPEAT_CURRENT_SONG ->
                         out.put("message", "Repeat mode changed to repeat current song.");
-                        break;
-                    default:
-                        break;
-                }
-            } else {
-                switch (userPlayer.changeRepeatState()) {
-                    case 0:
-                        out.put("message", "Repeat mode changed to no repeat.");
-                        break;
-                    case 1:
-                        out.put("message", "Repeat mode changed to repeat once.");
-                        break;
-                    case 2:
-                        out.put("message", "Repeat mode changed to repeat infinite.");
-                        break;
-                    default:
-                        break;
-                }
+                case REPEAT_INFINITE -> out.put("message", "Repeat mode changed to repeat infinite.");
             }
         }
     }

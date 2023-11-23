@@ -38,34 +38,12 @@ public class Status extends Command {
 			stats.put("remainedTime", 0);
 		}
 
-		if (userPlayer.getIsPlayingPlaylist()) {
-			switch (userPlayer.getIsRepeating()) {
-				case 0:
-					stats.put("repeat", "No Repeat");
-					break;
-				case 1:
-					stats.put("repeat", "Repeat All");
-					break;
-				case 2:
-					stats.put("repeat", "Repeat Current Song");
-					break;
-				default:
-					break;
-			}
-		} else {
-			switch (userPlayer.getIsRepeating()) {
-				case 0:
-					stats.put("repeat", "No Repeat");
-					break;
-				case 1:
-					stats.put("repeat", "Repeat Once");
-					break;
-				case 2:
-					stats.put("repeat", "Repeat Infinite");
-					break;
-				default:
-					break;
-			}
+		switch (userPlayer.getIsRepeating()) {
+			case NO_REPEAT -> stats.put("repeat", "No Repeat");
+			case REPEAT_ONCE -> stats.put("repeat", "Repeat Once");
+			case REPEAT_ALL -> stats.put("repeat", "Repeat All");
+			case REPEAT_CURRENT_SONG -> stats.put("repeat", "Repeat Current Song");
+			case REPEAT_INFINITE -> stats.put("repeat", "Repeat Infinite");
 		}
 
 		stats.put("shuffle", userPlayer.getIsShuffled());
