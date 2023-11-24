@@ -1,2 +1,5 @@
 Starting audit...
+[ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/Library.java:19:1: Class Library should be declared as final. [FinalClass]
+[ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/Library.java:22:28: Name 'library_instance' must match pattern '^[a-z][a-zA-Z0-9]*$'. [StaticVariableName]
 Audit done.
+Checkstyle ends with 2 errors.

@@ -1,4 +1,4 @@
-package entities;
+package entities.user_side;
 
 import entities.playable.Playlist;
 import entities.playable.audio_files.Song;

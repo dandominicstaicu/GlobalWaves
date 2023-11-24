@@ -4,6 +4,8 @@ import entities.playable.audio_files.Episode;
 import entities.playable.Playlist;
 import entities.playable.Podcast;
 import entities.playable.audio_files.Song;
+import entities.user_side.User;
+import entities.user_side.UserPlayer;
 import fileio.input.PodcastInput;
 import fileio.input.EpisodeInput;
 import fileio.input.LibraryInput;
@@ -19,12 +21,15 @@ import java.util.List;
 @Getter
 @Setter
 public class Library {
+    // Singleton instance for the Library
+    private static Library library_instance = null;
+
     private List<Song> songs;
     private List<Podcast> podcasts;
     private List<User> users;
     private List<Playlist> playlists;
 
-    public Library() {
+    private Library() {
         songs = new ArrayList<>();
         podcasts = new ArrayList<>();
         users = new ArrayList<>();
@@ -93,14 +98,14 @@ public class Library {
      * based on the provided LibraryInput.
      */
     public static Library initializeLibrary(final LibraryInput libraryInput) {
-        Library library = new Library();
+        library_instance = new Library();
 
         // Convert each SongInput to Song and add to library
         for (SongInput songInput : libraryInput.getSongs()) {
             Song song = new Song(songInput.getName(), songInput.getDuration(), songInput.getAlbum(),
                     songInput.getTags(), songInput.getLyrics(), songInput.getGenre(),
                     songInput.getReleaseYear(), songInput.getArtist());
-            library.addSong(song);
+            library_instance.addSong(song);
         }
 
         // Convert each PodcastInput to Podcast and add to library
@@ -117,17 +122,17 @@ public class Library {
                     podcastInput.getOwner(),
                     episodes);
 
-            library.addPodcast(podcast);
+            library_instance.addPodcast(podcast);
         }
 
         // Convert each UserInput to User and add to library
         for (UserInput userInput : libraryInput.getUsers()) {
             User user = new User(userInput.getUsername(), userInput.getAge(), userInput.getCity(),
                     new UserPlayer(), new ArrayList<>(), new ArrayList<>());
-            library.addUser(user);
+            library_instance.addUser(user);
         }
 
-        return library;
+        return library_instance;
     }
 
     /**

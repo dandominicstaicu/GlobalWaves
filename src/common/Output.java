@@ -93,4 +93,8 @@ public final class Output {
     public static final String REPEAT_ALL = "Repeat All";
     public static final String REPEAT_CURRENT_SONG = "Repeat Current Song";
     public static final String REPEAT_INFINITE = "Repeat Infinite";
+    public static final String LOAD = "load";
+    public static final String LOAD_SUCCESS = "Playback loaded successfully.";
+    public static final String EMPTY_COLLECTION = "You can't load an empty audio collection!";
+    public static final String NO_SELECT = "Please select a source before attempting to load.";
 }

@@ -1,6 +1,6 @@
 package entities.playable;
 
-import entities.UserPlayer;
+import entities.user_side.UserPlayer;
 import entities.playable.audio_files.Episode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

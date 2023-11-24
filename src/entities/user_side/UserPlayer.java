@@ -1,4 +1,4 @@
-package entities;
+package entities.user_side;
 
 import common.Constants;
 import common.RepeatStates;
@@ -21,10 +21,13 @@ import java.util.Random;
 @AllArgsConstructor
 public class UserPlayer {
     private int loadedTimestamp;
-
     private int lastCommandTimestamp = 0;
     private int timeElapsedSinceLastCommand = 0;
     private int timeLeftToPlay = 0;
+    private int pauseStartTimeStamp = 0;
+    private int initialStartTimestamp = 0;
+
+    private boolean nextWasLastCommand = false;
 
     private SearchBar searchBar;
 
@@ -38,11 +41,6 @@ public class UserPlayer {
 
     private List<AudioFile> audioQueue;
     private List<Integer> shuffledIndexes;
-
-    private boolean nextWasLastCommand = false;
-
-    private int pauseStartTimeStamp = 0;
-    private int initialStartTimestamp = 0;
 
     /**
      * Constructs a UserPlayer instance.

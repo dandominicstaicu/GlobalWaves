@@ -5,7 +5,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
 import common.Output;
 import entities.Library;
-import entities.UserPlayer;
+import entities.user_side.UserPlayer;
 import entities.playable.audio_files.Song;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

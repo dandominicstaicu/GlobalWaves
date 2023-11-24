@@ -3,9 +3,10 @@ package commands.player;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
+import common.Output;
 import entities.Library;
 import entities.playable.Playable;
-import entities.UserPlayer;
+import entities.user_side.UserPlayer;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.AllArgsConstructor;
@@ -42,24 +43,24 @@ public class Load extends Command {
     @Override
     public void execute(final ArrayNode outputs, final Library lib) {
         ObjectNode out = outputs.addObject();
-        out.put("command", "load");
-        out.put("user", getUsername());
-        out.put("timestamp", getTimestamp());
+        out.put(Output.COMMAND, Output.LOAD);
+        out.put(Output.USER, getUsername());
+        out.put(Output.TIMESTAMP, getTimestamp());
 
         UserPlayer userPlayer = lib.getUserWithUsername(getUsername()).getPlayer();
         Playable selectedResult = userPlayer.getSearchBar().getSelectedResult();
 
         if (selectedResult == null) {
-            out.put("message", "Please select a source before attempting to load.");
+            out.put(Output.MESSAGE, Output.NO_SELECT);
         } else {
             // Assuming you have a method in Player to handle loading
             int timestamp = getTimestamp();
             boolean loadSuccess = userPlayer.loadSource(selectedResult, timestamp, userPlayer);
 
             if (loadSuccess) {
-                out.put("message", "Playback loaded successfully.");
+                out.put(Output.MESSAGE, Output.LOAD_SUCCESS);
             } else {
-                out.put("message", "You can't load an empty audio collection!");
+                out.put(Output.MESSAGE, Output.EMPTY_COLLECTION);
             }
         }
     }

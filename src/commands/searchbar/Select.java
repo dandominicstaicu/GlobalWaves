@@ -6,7 +6,7 @@ import commands.Command;
 import common.Output;
 import entities.Library;
 import entities.playable.Playable;
-import entities.UserPlayer;
+import entities.user_side.UserPlayer;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

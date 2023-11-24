@@ -1,5 +1,6 @@
-package entities;
+package entities.user_side;
 
+import entities.Library;
 import entities.playable.Playable;
 import entities.playable.Playlist;
 import entities.playable.Podcast;
@@ -113,6 +114,7 @@ public final class SearchBar {
                     }
                     break;
                 case "tags":
+                    @SuppressWarnings("unchecked") // I know that the value is a List<String>
                     List<String> tags = (List<String>) filter.getValue();
                     if (!song.getTags().containsAll(tags)) {
                         return false;

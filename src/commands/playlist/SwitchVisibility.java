@@ -6,7 +6,7 @@ import commands.Command;
 import common.Constants;
 import common.Output;
 import entities.Library;
-import entities.User;
+import entities.user_side.User;
 import entities.playable.Playlist;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
