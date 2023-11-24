@@ -117,6 +117,10 @@ public final class Main {
 
         ObjectWriter objectWriter = objectMapper.writerWithDefaultPrettyPrinter();
         objectWriter.writeValue(new File(filePathOutput), outputs);
+
+        // this has to be done because the there are multiple tests are called from main
+        // that call the Main.action method
+        Library.resetInstance();
     }
 }
 

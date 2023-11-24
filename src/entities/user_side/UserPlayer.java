@@ -12,6 +12,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 /**
  * Represents the Music Player for each individual user
@@ -438,15 +440,15 @@ public class UserPlayer {
      */
     public static List<Integer> randomiseIndexes(final int size, final Integer seed) {
         Random random = new Random(seed);
-        List<Integer> tmpList = new ArrayList<>();
+        // Use a lambda expression with Streams API to generate the list of indexes
+        List<Integer> tmpList = IntStream.range(0, size)  // Create a stream of int from 0 to size-1
+                .boxed()         // Box each int to an Integer object
+                .collect(Collectors.toList()); // Collect into a list
 
-        for (int i = 0; i < size; ++i) {
-            tmpList.add(i);
-        }
-
+        // Shuffle the list using Collections.shuffle
         Collections.shuffle(tmpList, random);
 
-        return new ArrayList<>(tmpList);
+        return tmpList;
     }
 
     /**

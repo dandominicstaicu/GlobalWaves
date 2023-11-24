@@ -13,16 +13,14 @@ import fileio.input.SongInput;
 import fileio.input.UserInput;
 import lombok.Getter;
 import lombok.Setter;
-
 import java.util.ArrayList;
 import java.util.List;
 
-
 @Getter
 @Setter
-public class Library {
+public final class Library {
     // Singleton instance for the Library
-    private static Library library_instance = null;
+    private static Library libraryInstance = null;
 
     private List<Song> songs;
     private List<Podcast> podcasts;
@@ -98,14 +96,16 @@ public class Library {
      * based on the provided LibraryInput.
      */
     public static Library initializeLibrary(final LibraryInput libraryInput) {
-        library_instance = new Library();
+        if (libraryInstance == null) {
+            libraryInstance = new Library();
+        }
 
         // Convert each SongInput to Song and add to library
         for (SongInput songInput : libraryInput.getSongs()) {
             Song song = new Song(songInput.getName(), songInput.getDuration(), songInput.getAlbum(),
                     songInput.getTags(), songInput.getLyrics(), songInput.getGenre(),
                     songInput.getReleaseYear(), songInput.getArtist());
-            library_instance.addSong(song);
+            libraryInstance.addSong(song);
         }
 
         // Convert each PodcastInput to Podcast and add to library
@@ -122,17 +122,17 @@ public class Library {
                     podcastInput.getOwner(),
                     episodes);
 
-            library_instance.addPodcast(podcast);
+            libraryInstance.addPodcast(podcast);
         }
 
         // Convert each UserInput to User and add to library
         for (UserInput userInput : libraryInput.getUsers()) {
             User user = new User(userInput.getUsername(), userInput.getAge(), userInput.getCity(),
                     new UserPlayer(), new ArrayList<>(), new ArrayList<>());
-            library_instance.addUser(user);
+            libraryInstance.addUser(user);
         }
 
-        return library_instance;
+        return libraryInstance;
     }
 
     /**
@@ -232,6 +232,22 @@ public class Library {
         } else {
             playlist.getSongs().add(song);
             return true;
+        }
+    }
+
+    /**
+     * Resets the singleton instance of the Library class, allowing for the creation of a new instance.
+     * This method is typically used for cleanup and resetting the library instance between tests or when needed.
+     */
+    public static void resetInstance() {
+        if (libraryInstance != null) {
+            // Perform any cleanup if necessary
+            // For example, closing file streams or clearing collections
+            // this has to be done because the there are multiple tests are called from main
+            // that call the Main.action method
+
+            // Set the singleton instance to null
+            libraryInstance = null;
         }
     }
 }

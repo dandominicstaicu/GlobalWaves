@@ -25,6 +25,7 @@ I want to mention the Enum of RepeatStates used in this class that helps me keep
 It keeps track of the last search results and the last selected result from the search.
 7. The User class is a clone of the UserInput class that also contains new fields such as the UserPlayer, a list of favouriteSongs and a list of followedPlaylists. (also an example of **composition**).
 
+8. The classes in the common package are final and contain only static variables. They are constants used in the project.
 
 ## OOP CONCEPTS USED:
 1. Constructors
@@ -50,3 +51,10 @@ It keeps track of the last search results and the last selected result from the 
 ## ChatGPT contribution
 - Suggested the use of some basic concepts of functional programming in order to shorten the code and make it easier to be understood, such as map(), filter(), stream() and lambda expressions. It really made a huge difference in improving code's quality.
 - Helped me use the Jackson library for reading the input of commands and writing the output.
+- Helped me use the Command Pattern for the commands.
+
+
+## GitCopilot contribution
+- Suggested the use of the Singleton Pattern for the Library class.
+- Written some of the java doc (after giving some examples of how to write it).
+- Suggested the use of enhanced switch statements.
