@@ -111,6 +111,7 @@ public final class Main {
                 userPlayer.updateTime(command.getTimestamp());
             }
 
+
             command.execute(outputs, library);
         }
 

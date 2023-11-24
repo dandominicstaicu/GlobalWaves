@@ -1,5 +1,2 @@
 Starting audit...
-[ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/Library.java:239: Line is longer than 100 characters (found 103). [LineLength]
-[ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/Library.java:240: Line is longer than 100 characters (found 113). [LineLength]
 Audit done.
-Checkstyle ends with 2 errors.

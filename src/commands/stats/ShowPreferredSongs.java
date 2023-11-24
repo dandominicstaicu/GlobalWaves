@@ -6,12 +6,14 @@ import commands.Command;
 import common.Output;
 import entities.Library;
 import entities.playable.audio_files.Song;
+import entities.user_side.User;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 
 import java.util.List;
+import java.util.Objects;
 
 @Getter
 @Setter
@@ -43,7 +45,8 @@ public class ShowPreferredSongs extends Command {
         out.put(Output.USER, getUsername());
         out.put(Output.TIMESTAMP, getTimestamp());
 
-        List<Song> favoriteSongs = lib.getUserWithUsername(getUsername()).getFavoriteSongs();
+        User user = lib.getUserWithUsername(getUsername());
+        List<Song> favoriteSongs = Objects.requireNonNull(user).getFavoriteSongs();
 
         ArrayNode resultArray = out.putArray(Output.RESULT);
         for (Song song : favoriteSongs) {

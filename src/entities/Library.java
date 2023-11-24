@@ -236,8 +236,10 @@ public final class Library {
     }
 
     /**
-     * Resets the singleton instance of the Library class, allowing for the creation of a new instance.
-     * This method is typically used for cleanup and resetting the library instance between tests or when needed.
+     * Resets the singleton instance of the Library class, allowing for the creation
+     * of a new instance.
+     * This method is typically used for cleanup and resetting the library instance
+     * between tests or when needed.
      */
     public static void resetInstance() {
         if (libraryInstance != null) {
