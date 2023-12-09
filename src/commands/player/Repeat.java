@@ -5,7 +5,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
 import common.Output;
 import entities.Library;
-import entities.user_side.UserPlayer;
+import entities.user.side.UserPlayer;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.AllArgsConstructor;

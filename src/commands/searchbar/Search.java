@@ -6,10 +6,10 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
 import common.Output;
 import entities.Library;
-import entities.user_side.SearchBar;
+import entities.user.side.SearchBar;
 import entities.playable.Playable;
 
-import entities.user_side.UserPlayer;
+import entities.user.side.UserPlayer;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

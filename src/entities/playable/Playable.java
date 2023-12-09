@@ -1,6 +1,6 @@
 package entities.playable;
 
-import entities.user_side.UserPlayer;
+import entities.user.side.UserPlayer;
 
 /**
  * An interface representing a playable entity, such as a Song or a Playlist.

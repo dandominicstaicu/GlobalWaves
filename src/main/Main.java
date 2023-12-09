@@ -10,8 +10,8 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import commands.Command;
 
 import entities.Library;
-import entities.user_side.User;
-import entities.user_side.UserPlayer;
+import entities.user.side.User;
+import entities.user.side.UserPlayer;
 import fileio.input.LibraryInput;
 
 import java.io.File;
