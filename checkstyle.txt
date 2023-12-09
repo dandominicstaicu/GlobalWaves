@@ -1,2 +1,6 @@
 Starting audit...
+[ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/commands/stats/ShowPreferredSongs.java:41:25: Parameter outputs should be final. [FinalParameters]
 Audit done.
+Checkstyle ends with 1 errors.
+
+1
