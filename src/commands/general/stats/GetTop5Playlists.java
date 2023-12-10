@@ -6,6 +6,7 @@ import commands.Command;
 import common.Constants;
 import common.Output;
 import entities.Library;
+import entities.Stats;
 import entities.playable.Playlist;
 import lombok.Getter;
 import lombok.Setter;
@@ -38,17 +39,12 @@ public class GetTop5Playlists extends Command {
      * @param lib     The library on which the command operates.
      */
     @Override
-    public void execute(final ArrayNode outputs, final Library lib) {
+    public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
         ObjectNode out = outputs.addObject();
         out.put(Output.COMMAND, Output.TOP_5_PLAYLISTS);
         out.put(Output.TIMESTAMP, getTimestamp());
 
-        // chatGPT helped me optimise this part (getting the top5 playlists)
-        List<Playlist> sortedPlaylists = lib.getPlaylists().stream()
-                .filter(Playlist::getIsPublic) // filter only public playlists
-                .sorted(Comparator.comparingInt(Playlist::getFollowers).reversed()) // descending
-                .limit(Constants.MAX_LIST_RETURN) // get the top 5
-                .toList(); // convert to list
+        List<Playlist> sortedPlaylists = Stats.top5Playlists(lib);
 
         ArrayNode resultArray = out.putArray(Output.RESULT);
         for (Playlist playlist : sortedPlaylists) {

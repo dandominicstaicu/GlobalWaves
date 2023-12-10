@@ -43,7 +43,12 @@ public class Select extends Command {
      * @param lib     The library on which the command operates.
      */
     @Override
-    public void execute(final ArrayNode outputs, final Library lib) {
+    public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
+        if (offline) {
+            userIsOffline(outputs);
+            return;
+        }
+
         UserPlayer userPlayer = lib.getUserWithUsername(getUsername()).getPlayer();
         List<Playable> lastSearchResults = userPlayer.getSearchBar().getLastSearchResults();
 

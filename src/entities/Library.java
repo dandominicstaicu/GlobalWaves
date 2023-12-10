@@ -4,7 +4,7 @@ import entities.playable.audio_files.Episode;
 import entities.playable.Playlist;
 import entities.playable.Podcast;
 import entities.playable.audio_files.Song;
-import entities.user.side.User;
+import entities.user.side.NormalUser;
 import entities.user.side.UserPlayer;
 import fileio.input.PodcastInput;
 import fileio.input.EpisodeInput;
@@ -24,13 +24,13 @@ public final class Library {
 
     private List<Song> songs;
     private List<Podcast> podcasts;
-    private List<User> users;
+    private List<NormalUser> normalUsers;
     private List<Playlist> playlists;
 
     private Library() {
         songs = new ArrayList<>();
         podcasts = new ArrayList<>();
-        users = new ArrayList<>();
+        normalUsers = new ArrayList<>();
         playlists = new ArrayList<>();
     }
 
@@ -73,19 +73,19 @@ public final class Library {
     /**
      * Adds a user to the collection.
      *
-     * @param user The user to be added.
+     * @param normalUser The user to be added.
      */
-    public void addUser(final User user) {
-        users.add(user);
+    public void addUser(final NormalUser normalUser) {
+        normalUsers.add(normalUser);
     }
 
     /**
      * Removes a user from the collection.
      *
-     * @param user The user to be removed.
+     * @param normalUser The user to be removed.
      */
-    public void removeUser(final User user) {
-        users.remove(user);
+    public void removeUser(final NormalUser normalUser) {
+        normalUsers.remove(normalUser);
     }
 
     /**
@@ -127,9 +127,8 @@ public final class Library {
 
         // Convert each UserInput to User and add to library
         for (UserInput userInput : libraryInput.getUsers()) {
-            User user = new User(userInput.getUsername(), userInput.getAge(), userInput.getCity(),
-                    new UserPlayer(), new ArrayList<>(), new ArrayList<>());
-            libraryInstance.addUser(user);
+            NormalUser normalUser = new NormalUser(userInput.getUsername(), userInput.getAge(), userInput.getCity());
+            libraryInstance.addUser(normalUser);
         }
 
         return libraryInstance;
@@ -141,10 +140,10 @@ public final class Library {
      * @param username The username of the user to retrieve.
      * @return The User object with the specified username, or null if not found.
      */
-    public User getUserWithUsername(final String username) {
-        for (User user : users) {
-            if (user.getUsername().equals(username)) {
-                return user;
+    public NormalUser getUserWithUsername(final String username) {
+        for (NormalUser normalUser : normalUsers) {
+            if (normalUser.getUsername().equals(username)) {
+                return normalUser;
             }
         }
 
@@ -220,8 +219,8 @@ public final class Library {
      */
     public boolean decideAddRemove(final Integer playlistID, final Song song,
                                    final String username) {
-        User user = getUserWithUsername(username);
-        List<Playlist> playlistsSeenByUser = user.getPlaylistsOwnedByUser(playlists);
+        NormalUser normalUser = getUserWithUsername(username);
+        List<Playlist> playlistsSeenByUser = normalUser.getPlaylistsOwnedByUser(playlists);
 
         Playlist playlist = playlistsSeenByUser.get(playlistID - 1);
         Song isSongInPlaylist = searchSongInPlaylist(song.getName(), playlist);

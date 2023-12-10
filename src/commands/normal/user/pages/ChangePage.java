@@ -21,7 +21,12 @@ public class ChangePage extends Command {
     }
 
     @Override
-    public void execute(final ArrayNode outputs, final Library lib) {
+    public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
+        if (offline) {
+            userIsOffline(outputs);
+            return;
+        }
+
         System.out.println(this.toString());
     }
 }

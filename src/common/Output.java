@@ -97,4 +97,9 @@ public final class Output {
     public static final String LOAD_SUCCESS = "Playback loaded successfully.";
     public static final String EMPTY_COLLECTION = "You can't load an empty audio collection!";
     public static final String NO_SELECT = "Please select a source before attempting to load.";
+    public static final String SWITCH_CONNECTION_STATUS = "switchConnectionStatus";
+    public static final String NOT_NORMAL_USER_ERR = " is not a normal user.";
+    public static final String ONLINE_USERS = "getOnlineUsers";
+    public static final String CONNECTION_STATUS_CHANGED = " has changed status successfully.";
+    public static final String IS_OFFLINE = " is offline.";
 }

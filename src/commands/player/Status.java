@@ -6,6 +6,8 @@ import commands.Command;
 import common.Constants;
 import common.Output;
 import entities.Library;
+import entities.user.side.NormalUser;
+import entities.user.side.User;
 import entities.user.side.UserPlayer;
 import lombok.Getter;
 import lombok.Setter;
@@ -40,14 +42,24 @@ public class Status extends Command {
      * @param lib     The library on which the command operates.
      */
     @Override
-    public void execute(final ArrayNode outputs, final Library lib) {
+    public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
         ObjectNode out = outputs.addObject();
         out.put(Output.COMMAND, Output.STATUS);
         out.put(Output.USER, getUsername());
         out.put(Output.TIMESTAMP, getTimestamp());
 
-        UserPlayer userPlayer = lib.getUserWithUsername(getUsername()).getPlayer();
+        NormalUser normalUser = lib.getUserWithUsername(getUsername());
+        UserPlayer userPlayer = normalUser.getPlayer();
         ObjectNode stats = out.putObject("stats");
+
+//        if (!normalUser.getOnline()) {
+//            stats.put(Output.NAME, "");
+//            stats.put(Output.REMAINED_TIME, Constants.START_OF_SONG);
+//            stats.put(Output.PAUSED, false);
+//            stats.put(Output.REPEAT, Output.NO_REPEAT);
+//            stats.put(Output.SHUFFLE, false);
+//            return;
+//        }
 
         if (userPlayer.getAudioQueue() != null && userPlayer.playingIndexIsValid()) {
             int playingIndex = userPlayer.getPlayingIndex();

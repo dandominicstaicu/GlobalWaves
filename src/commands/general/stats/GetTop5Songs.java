@@ -6,6 +6,7 @@ import commands.Command;
 import common.Constants;
 import common.Output;
 import entities.Library;
+import entities.Stats;
 import entities.playable.audio_files.Song;
 import lombok.Getter;
 import lombok.Setter;
@@ -42,17 +43,12 @@ public class GetTop5Songs extends Command {
      * @param lib     The library on which the command operates.
      */
     @Override
-    public void execute(final ArrayNode outputs, final Library lib) {
+    public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
         ObjectNode out = outputs.addObject();
         out.put(Output.COMMAND, Output.TOP_5_SONGS);
         out.put(Output.TIMESTAMP, getTimestamp());
 
-
-        // chatGPT helped me optimise this part (getting the top5 songs)
-        List<Song> sortedSongs = lib.getSongs().stream()
-                .sorted(Comparator.comparingInt(Song::getLikes).reversed()) // descending
-                .limit(Constants.MAX_LIST_RETURN)
-                .toList(); // convert to list
+        List<Song> sortedSongs = Stats.top5Songs(lib);
 
         ArrayNode resultArray = out.putArray(Output.RESULT);
         for (Song song : sortedSongs) {

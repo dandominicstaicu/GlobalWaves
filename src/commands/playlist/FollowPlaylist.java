@@ -5,7 +5,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
 import common.Output;
 import entities.Library;
-import entities.user.side.User;
+import entities.user.side.NormalUser;
 import entities.user.side.UserPlayer;
 import entities.playable.Playable;
 import entities.playable.Playlist;
@@ -41,7 +41,12 @@ public class FollowPlaylist extends Command {
      * @param lib  The library on which the command operates.
      */
     @Override
-    public void execute(final ArrayNode outputs, final Library lib) {
+    public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
+        if (offline) {
+            userIsOffline(outputs);
+            return;
+        }
+
         ObjectNode out = outputs.addObject();
         out.put(Output.COMMAND, Output.FOLLOW);
         out.put(Output.USER, getUsername());
@@ -57,8 +62,8 @@ public class FollowPlaylist extends Command {
         } else if (((Playlist) selected).getOwner().equals(getUsername())) {
             out.put(Output.MESSAGE, Output.OWN_PLAYLIST_ERR);
         } else {
-            User user = lib.getUserWithUsername(getUsername());
-            if (user.followUnfollowPlaylist((Playlist) selected)) {
+            NormalUser normalUser = lib.getUserWithUsername(getUsername());
+            if (normalUser.followUnfollowPlaylist((Playlist) selected)) {
                 out.put(Output.MESSAGE, Output.FOLLOW_SUCCESS);
             } else {
                 out.put(Output.MESSAGE, Output.UNFOLLOW_SUCCESS);

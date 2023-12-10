@@ -3,6 +3,7 @@ package commands;
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.admin.AddUser;
 import commands.admin.DeleteUser;
 import commands.admin.ShowAlbums;
@@ -33,6 +34,8 @@ import commands.playlist.ShowPlaylists;
 import commands.playlist.SwitchVisibility;
 import commands.searchbar.Search;
 import commands.searchbar.Select;
+import common.Constants;
+import common.Output;
 import entities.Library;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -110,6 +113,14 @@ public abstract class Command {
      * @param outputs  The ArrayNode to which command outputs are added.
      * @param library  The library on which the command operates.
      */
-    public abstract void execute(ArrayNode outputs, Library library);
+    public abstract void execute(ArrayNode outputs, Library library, boolean offline);
+
+    public void userIsOffline(final ArrayNode outputs) {
+        ObjectNode out = outputs.addObject();
+        out.put(Output.COMMAND, Output.SEARCH);
+        out.put(Output.USER, getUsername());
+        out.put(Output.TIMESTAMP, Constants.START_OF_SONG);
+        out.put(Output.MESSAGE, getUsername() + Output.IS_OFFLINE);
+    }
 }
 

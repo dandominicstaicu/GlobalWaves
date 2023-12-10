@@ -17,7 +17,12 @@ public class PrintCurrentPage extends Command {
     }
 
     @Override
-    public void execute(ArrayNode outputs, Library library) {
+    public void execute(ArrayNode outputs, Library library, boolean offline) {
+        if (offline) {
+            userIsOffline(outputs);
+            return;
+        }
+
         System.out.println(this.toString());
     }
 }

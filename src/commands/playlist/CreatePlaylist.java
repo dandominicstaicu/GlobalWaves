@@ -42,7 +42,12 @@ public class CreatePlaylist extends Command {
      * @param lib     The library on which the command operates.
      */
     @Override
-    public void execute(final ArrayNode outputs, final Library lib) {
+    public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
+        if (offline) {
+            userIsOffline(outputs);
+            return;
+        }
+
         ObjectNode out = outputs.addObject();
         out.put(Output.COMMAND, Output.CREATE_PLAYLIST);
         out.put(Output.USER, getUsername());

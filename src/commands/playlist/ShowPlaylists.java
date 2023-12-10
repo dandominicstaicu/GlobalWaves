@@ -5,7 +5,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
 import common.Output;
 import entities.Library;
-import entities.user.side.User;
+import entities.user.side.NormalUser;
 import entities.playable.Playlist;
 import entities.playable.audio_files.Song;
 import lombok.AllArgsConstructor;
@@ -37,7 +37,7 @@ public class ShowPlaylists extends Command {
      * @param lib     The library on which the command operates.
      */
     @Override
-    public void execute(final ArrayNode outputs, final Library lib) {
+    public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
         ObjectNode out = outputs.addObject();
         out.put(Output.COMMAND, Output.SHOW_PLAYLISTS);
         out.put(Output.USER, getUsername());
@@ -46,8 +46,8 @@ public class ShowPlaylists extends Command {
         // chatGPT helped me write this part (the output of JSON)
         ArrayNode resultArray = out.putArray(Output.RESULT);
 
-        User user = lib.getUserWithUsername(getUsername());
-        List<Playlist> userOwnedPlaylists = user.getPlaylistsOwnedByUser(lib.getPlaylists());
+        NormalUser normalUser = lib.getUserWithUsername(getUsername());
+        List<Playlist> userOwnedPlaylists = normalUser.getPlaylistsOwnedByUser(lib.getPlaylists());
 
         for (Playlist playlist : userOwnedPlaylists) {
             ObjectNode playlistJson = resultArray.addObject();

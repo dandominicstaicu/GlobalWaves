@@ -6,7 +6,7 @@ import commands.Command;
 import common.Output;
 import entities.Library;
 import entities.playable.audio_files.Song;
-import entities.user.side.User;
+import entities.user.side.NormalUser;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.AllArgsConstructor;
@@ -38,15 +38,15 @@ public class ShowPreferredSongs extends Command {
      * @param lib     The library on which the command operates.
      */
     @Override
-    public void execute(final ArrayNode outputs, final Library lib) {
+    public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
         ObjectNode out = outputs.addObject();
 
         out.put(Output.COMMAND, Output.PREFERRED_SONGS);
         out.put(Output.USER, getUsername());
         out.put(Output.TIMESTAMP, getTimestamp());
 
-        User user = lib.getUserWithUsername(getUsername());
-        List<Song> favoriteSongs = Objects.requireNonNull(user).getFavoriteSongs();
+        NormalUser normalUser = lib.getUserWithUsername(getUsername());
+        List<Song> favoriteSongs = Objects.requireNonNull(normalUser).getFavoriteSongs();
 
         ArrayNode resultArray = out.putArray(Output.RESULT);
         for (Song song : favoriteSongs) {

@@ -10,7 +10,7 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import commands.Command;
 
 import entities.Library;
-import entities.user.side.User;
+import entities.user.side.NormalUser;
 import entities.user.side.UserPlayer;
 import fileio.input.LibraryInput;
 
@@ -103,16 +103,25 @@ public final class Main {
         Library library = Library.initializeLibrary(libraryInput);
 
         for (Command command : commands) {
+            boolean offline = false;
+
             // if the command has a user, it is different from getTop5 commands
             if (command.getUsername() != null) {
-                User user = library.getUserWithUsername(command.getUsername());
-                UserPlayer userPlayer = user.getPlayer();
+                NormalUser normalUser = library.getUserWithUsername(command.getUsername());
+//                System.out.println("timestamp: " + command.getTimestamp());
+                if (normalUser != null) {
+                    if (!normalUser.getOnline()) {
+                        offline = true;
+                    } else {
+                        UserPlayer userPlayer = normalUser.getPlayer();
 
-                userPlayer.updateTime(command.getTimestamp());
+                        userPlayer.updateTime(command.getTimestamp());
+                    }
+                }
             }
 
 
-            command.execute(outputs, library);
+            command.execute(outputs, library, offline);
         }
 
 

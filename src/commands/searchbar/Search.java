@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 import commands.Command;
+import common.Constants;
 import common.Output;
 import entities.Library;
 import entities.user.side.SearchBar;
@@ -52,7 +53,19 @@ public class Search extends Command {
      * @param lib     The library on which the command operates.
      */
     @Override
-    public void execute(final ArrayNode outputs, final Library lib) {
+    public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
+        if (offline) {
+            ObjectNode out = outputs.addObject();
+            out.put(Output.COMMAND, Output.SEARCH);
+            out.put(Output.USER, getUsername());
+            out.put(Output.TIMESTAMP, getTimestamp());
+            out.put(Output.MESSAGE, getUsername() + Output.IS_OFFLINE);
+            ArrayNode resultsNode = out.putArray(Output.RESULTS);
+
+            System.out.println("aici");
+            return;
+        }
+
         UserPlayer userPlayer = lib.getUserWithUsername(getUsername()).getPlayer();
         SearchBar bar = userPlayer.getSearchBar();
         List<Playable> searchResult = bar.search(lib, this.type, this.filters, getUsername());

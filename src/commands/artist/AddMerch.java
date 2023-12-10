@@ -25,7 +25,7 @@ public class AddMerch extends Command {
     }
 
     @Override
-    public void execute(ArrayNode outputs, Library library) {
+    public void execute(ArrayNode outputs, Library library, boolean offline) {
         System.out.println(this.toString());
     }
 }

@@ -6,7 +6,7 @@ import commands.Command;
 import common.Constants;
 import common.Output;
 import entities.Library;
-import entities.user.side.User;
+import entities.user.side.NormalUser;
 import entities.playable.Playlist;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -45,14 +45,19 @@ public class SwitchVisibility extends Command {
      * @param lib     The library on which the command operates.
      */
     @Override
-    public void execute(final ArrayNode outputs, final Library lib) {
+    public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
+        if (offline) {
+            userIsOffline(outputs);
+            return;
+        }
+
         ObjectNode out = outputs.addObject();
         out.put(Output.COMMAND, Output.SWITCH_VISIBILITY);
         out.put(Output.USER, getUsername());
         out.put(Output.TIMESTAMP, getTimestamp());
 
-        User user = lib.getUserWithUsername(getUsername());
-        List<Playlist> userSeenPlaylists = user.getPlaylistsOwnedByUser(lib.getPlaylists());
+        NormalUser normalUser = lib.getUserWithUsername(getUsername());
+        List<Playlist> userSeenPlaylists = normalUser.getPlaylistsOwnedByUser(lib.getPlaylists());
 
         if (getPlaylistId() > userSeenPlaylists.size()
                 || getPlaylistId() <= Constants.LOWER_BOUND) {
