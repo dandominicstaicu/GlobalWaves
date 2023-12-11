@@ -14,8 +14,9 @@ public class Album implements Playable {
     private int releaseYear;
     private String description;
     private ArrayList<Song> songs;
+    private String owner;
 
-    public Album(String name, int releaseYear, String description, ArrayList<Song> newSongs) {
+    public Album(String name, int releaseYear, String description, ArrayList<Song> newSongs, final String owner) {
         this.name = name;
         this.releaseYear = releaseYear;
         this.description = description;
@@ -27,6 +28,7 @@ public class Album implements Playable {
 
             this.songs.add(newSong);
         }
+        this.owner = owner;
     }
 
     @Override

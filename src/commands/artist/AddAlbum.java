@@ -38,7 +38,7 @@ public class AddAlbum extends Command {
                 '}';
     }
 
-    public boolean hasDuplicateSongNames() {
+    private boolean hasDuplicateSongNames() {
         Set<String> songNames = new HashSet<>();
         for (Song song : songs) {
             if (!songNames.add(song.getName())) {
@@ -51,41 +51,41 @@ public class AddAlbum extends Command {
 
     @Override
     public void execute(ArrayNode outputs, Library library, boolean offline) {
-        System.out.println(this.toString());
-//
-//        ObjectNode out = outputs.addObject();
-//
-//        out.put(Output.COMMAND, Output.ADD_ALBUM);
-//        out.put(Output.USER, getUsername());
-//        out.put(Output.TIMESTAMP, getTimestamp());
-//
-//        User user = library.getFromAllUsers(getUsername());
-//        if (user == null) {
-//            out.put(Output.MESSAGE, Output.THE_USERNAME + getUsername() + Output.DOESNT_EXIST);
-//        } else {
-//            if (user.getUserType() != UserTypes.ARTIST) {
-//                out.put(Output.MESSAGE, getUsername() + Output.NOT_ARTIST);
-//                return;
-//            }
-//
-//            Artist artist = (Artist) user;
-//
-//            if (artist.getAlbums().stream().anyMatch(album -> album.getName().equals(getName()))) {
-//                out.put(Output.MESSAGE, getUsername() + Output.SAME_NAME_ALBUM);
-//            } else {
-//                if (hasDuplicateSongNames()) {
-//                    out.put(Output.MESSAGE, getUsername() + Output.DUPLICATE_SONG_NAMES);
-//                    return;
-//                }
-//
-//                Album newAlbum = new Album(getName(), getReleaseYear(), getDescription(), getSongs());
-//                artist.addAlbum(newAlbum);
-//
-//                library.addSongsFromAlbum(newAlbum);
-//
-//                out.put(Output.MESSAGE, getUsername() + Output.NEW_ALBUM_ADD);
-//            }
-//        }
+//        System.out.println(this.toString());
+
+        ObjectNode out = outputs.addObject();
+
+        out.put(Output.COMMAND, Output.ADD_ALBUM);
+        out.put(Output.USER, getUsername());
+        out.put(Output.TIMESTAMP, getTimestamp());
+
+        User user = library.searchAllUsersForUsername(getUsername());
+        if (user == null) {
+            out.put(Output.MESSAGE, Output.THE_USERNAME + getUsername() + Output.DOESNT_EXIST);
+            return;
+        }
+
+        if (user.getUserType() != UserTypes.ARTIST) {
+            out.put(Output.MESSAGE, getUsername() + Output.NOT_ARTIST);
+            return;
+        }
+
+        if (library.getAlbums().stream().anyMatch(album -> album.getName().equals(getName()))) {
+            out.put(Output.MESSAGE, getUsername() + Output.SAME_NAME_ALBUM);
+            return;
+        }
+
+        if (hasDuplicateSongNames()) {
+            out.put(Output.MESSAGE, getUsername() + Output.DUPLICATE_SONG_NAMES);
+            return;
+        }
+
+
+        Album newAlbum = new Album(getName(), getReleaseYear(), getDescription(), getSongs(), getUsername());
+        library.addAlbum(newAlbum);
+
+        library.addSongsFromAlbum(newAlbum);
+        out.put(Output.MESSAGE, getUsername() + Output.NEW_ALBUM_ADD);
     }
 }
 

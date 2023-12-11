@@ -8,7 +8,6 @@ import entities.playable.Podcast;
 import entities.playable.audio_files.Song;
 import entities.user.side.*;
 import entities.user.side.pages.ArtistPage;
-import entities.user.side.pages.HomePage;
 import entities.user.side.pages.HostPage;
 import fileio.input.PodcastInput;
 import fileio.input.EpisodeInput;
@@ -18,7 +17,6 @@ import fileio.input.UserInput;
 import lombok.Getter;
 import lombok.Setter;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 @Getter
@@ -27,13 +25,14 @@ public final class Library {
     // Singleton instance for the Library
     private static Library libraryInstance = null;
 
+    // playable arrays
     private List<Song> songs;
     private List<Podcast> podcasts;
-//    private List<NormalUser> normalUsers;
-//    private List<PrivilegedUser> privilegedUsers;
-    private List<NormalUser> users;
     private List<Playlist> playlists;
+    private List<Album> albums;
 
+    // user arrays
+    private List<NormalUser> users;
     private List<ArtistPage> artists;
     private List<HostPage> hosts;
 
@@ -44,6 +43,7 @@ public final class Library {
         this.playlists = new ArrayList<>();
         this.artists = new ArrayList<>();
         this.hosts = new ArrayList<>();
+        this.albums = new ArrayList<>();
     }
 
     /**
@@ -296,4 +296,40 @@ public final class Library {
         songs.addAll(album.getSongs());
     }
 
+    public User searchAllUsersForUsername(final String username) {
+        for (NormalUser user : users) {
+            if (user.getUsername().equals(username)) {
+                return user;
+            }
+        }
+
+        for (ArtistPage artist : artists) {
+            if (artist.getUsername().equals(username)) {
+                return artist;
+            }
+        }
+
+        for (HostPage host : hosts) {
+            if (host.getUsername().equals(username)) {
+                return host;
+            }
+        }
+
+        return null;
+    }
+
+    public void addAlbum(final Album album) {
+        albums.add(album);
+    }
+
+    public ArrayList<Album> getArtistsAlbums(final String artistsName) {
+        ArrayList<Album> result = new ArrayList<>();
+        for (Album album : albums) {
+            if (album.getOwner().equals(artistsName)) {
+                result.add(album);
+            }
+        }
+
+        return result;
+    }
 }

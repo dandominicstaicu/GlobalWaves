@@ -124,6 +124,412 @@
   "timestamp" : 124,
   "message" : "The username matthewfernandez has been added successfully."
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 125,
+  "message" : "jacobdean has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "charlesgarcia",
+  "timestamp" : 126,
+  "message" : "charlesgarcia is not an artist."
+}, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 127,
+  "message" : "cbutler has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 128,
+  "message" : "jacobdean has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 129,
+  "message" : "amanda16 has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "jenningsbeth",
+  "timestamp" : 130,
+  "message" : "jenningsbeth has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 131,
+  "message" : "conniealvarez is not an artist."
+}, {
+  "command" : "addAlbum",
+  "user" : "leslie27",
+  "timestamp" : 132,
+  "message" : "leslie27 has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 133,
+  "message" : "conniealvarez is not an artist."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 134,
+  "message" : "matthewfernandez has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "jenningsbeth",
+  "timestamp" : 135,
+  "message" : "jenningsbeth has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 136,
+  "message" : "conniealvarez is not an artist."
+}, {
+  "command" : "addAlbum",
+  "user" : "nancymontgomery",
+  "timestamp" : 137,
+  "message" : "nancymontgomery has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 138,
+  "message" : "matthewfernandez has another album with the same name."
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 139,
+  "message" : "jacobdean has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 140,
+  "message" : "jacobdean has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "leslie27",
+  "timestamp" : 141,
+  "message" : "leslie27 has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 142,
+  "message" : "conniealvarez is not an artist."
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 143,
+  "message" : "barmstrong has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 144,
+  "message" : "jacobdean has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 145,
+  "message" : "jacobdean has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 146,
+  "message" : "amanda16 has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 147,
+  "message" : "conniealvarez is not an artist."
+}, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 148,
+  "message" : "cbutler has another album with the same name."
+}, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 149,
+  "message" : "conniealvarez is not an artist."
+}, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 150,
+  "message" : "conniealvarez is not an artist."
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 151,
+  "message" : "barmstrong has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 152,
+  "message" : "conniealvarez is not an artist."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 153,
+  "message" : "matthewfernandez has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 154,
+  "message" : "matthewfernandez has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 155,
+  "message" : "jacobdean has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 156,
+  "message" : "amanda16 has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 157,
+  "message" : "amanda16 has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 158,
+  "message" : "conniealvarez is not an artist."
+}, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 159,
+  "message" : "cbutler has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 160,
+  "message" : "barmstrong has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "jenningsbeth",
+  "timestamp" : 161,
+  "message" : "jenningsbeth has another album with the same name."
+}, {
+  "command" : "addAlbum",
+  "user" : "leslie27",
+  "timestamp" : 162,
+  "message" : "leslie27 has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 163,
+  "message" : "barmstrong has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 164,
+  "message" : "conniealvarez is not an artist."
+}, {
+  "command" : "addAlbum",
+  "user" : "leslie27",
+  "timestamp" : 165,
+  "message" : "leslie27 has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 166,
+  "message" : "conniealvarez is not an artist."
+}, {
+  "command" : "addAlbum",
+  "user" : "jenningsbeth",
+  "timestamp" : 167,
+  "message" : "jenningsbeth has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 168,
+  "message" : "conniealvarez is not an artist."
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 169,
+  "message" : "jacobdean has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 170,
+  "message" : "matthewfernandez has another album with the same name."
+}, {
+  "command" : "addAlbum",
+  "user" : "jenningsbeth",
+  "timestamp" : 171,
+  "message" : "jenningsbeth has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 172,
+  "message" : "cbutler has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 173,
+  "message" : "amanda16 has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 174,
+  "message" : "barmstrong has added new album successfully."
+}, {
+  "command" : "showAlbums",
+  "user" : "barmstrong",
+  "timestamp" : 175,
+  "result" : [ {
+    "name" : "Teen Technology",
+    "songs" : [ "Paradox Aurora", "Heart Ethereal", "Colors Bliss", "Euphoria Eclipse", "Cascade Solitude", "Cascade Sunset", "Odyssey Pinnacle", "Dance Infinity", "Euphoria Aurora", "Whisper Echo", "Celestial Crescendo" ]
+  }, {
+    "name" : "Chill Hood",
+    "songs" : [ "Enigma Glow", "Euphoria Twilight", "Colors Echo", "Infinity Soul", "Twilight Lullaby", "Luminescence Zephyr", "Dream Whisper", "Odyssey Rapture", "Serenade Infinity", "Tranquility Odyssey", "Harmony Rapture", "Lullaby Melody", "Rapture Euphoria" ]
+  }, {
+    "name" : "Blue Dirt",
+    "songs" : [ "Love Love", "Soul Love", "Mystique Bliss", "Melody Colors", "Infinity Paradox", "Harmony Bliss", "Euphoria Celestial", "Serendipity Enigma", "Essence Colors", "Twilight Serenade" ]
+  }, {
+    "name" : "Groovy Revolution",
+    "songs" : [ "Mystique Harmonize", "Harmony Mystique", "Whisper Pandora", "Pulse Solitude", "Harmony Glow", "Pinnacle Celestial", "Paradox Echo", "Heart Tranquility", "Serendipity Twilight" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "matthewporter",
+  "timestamp" : 176,
+  "result" : [ ]
+}, {
+  "command" : "showAlbums",
+  "user" : "amanda16",
+  "timestamp" : 178,
+  "result" : [ {
+    "name" : "Heroic Hood",
+    "songs" : [ "Ethereal Rapture", "Whirlwind Whirlwind", "Echo Odyssey", "Eclipse Luminescence", "Adventure Essence", "Essence Rhythm", "Sunset Pinnacle", "Crescendo Ethereal", "Rapture Harmonize", "Melody Whisper", "Dance Harmony" ]
+  }, {
+    "name" : "Bad Harmonies",
+    "songs" : [ "Odyssey Serendipity", "Sunset Essence", "Soul Celestial", "Ethereal Starlight", "Sunset Infinity", "Rapture Twilight", "Infinity Euphoria", "Voyage Pulse" ]
+  }, {
+    "name" : "Teen Dreams",
+    "songs" : [ "Luminescence Crescendo", "Bliss Rhythm", "Echo Pinnacle", "Zephyr Eclipse", "Voyage Solitude", "Sunset Melody", "Colors Rapture" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "cbutler",
+  "timestamp" : 179,
+  "result" : [ {
+    "name" : "Heroic Harmonies",
+    "songs" : [ "Heart Bliss", "Pinnacle Euphoria", "Whirlwind Solitude", "Sunset Night", "Whirlwind Serenade", "Enigma Euphoria", "Essence Voyage", "Adventure Cascade", "Aurora Voyage", "Zephyr Twilight" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "jacobdean",
+  "timestamp" : 180,
+  "result" : [ {
+    "name" : "Chill Funeral ",
+    "songs" : [ "Serendipity Serendipity", "Melody Sunset", "Rapture Odyssey", "Mystique Radiance", "Cascade Mystique", "Dance Pinnacle", "Essence Cascade", "Radiance Starlight" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Celestial Soul", "Utopia Harmony", "Dream Infinity", "Ethereal Velvet", "Soul Mystique", "Love Colors", "Celestial Dream", "Tranquility Zephyr" ]
+  }, {
+    "name" : "Breezy Autumn",
+    "songs" : [ "Whisper Paradox", "Radiance Voyage", "Euphoria Eclipse", "Pandora Mystique", "Cascade Serendipity", "Pulse Whisper", "Paradox Pulse", "Whirlwind Pulse", "Dance Harmonize", "Reflection Night", "Voyage Velvet", "Colors Serendipity" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "jacobdean",
+  "timestamp" : 181,
+  "result" : [ {
+    "name" : "Chill Funeral ",
+    "songs" : [ "Serendipity Serendipity", "Melody Sunset", "Rapture Odyssey", "Mystique Radiance", "Cascade Mystique", "Dance Pinnacle", "Essence Cascade", "Radiance Starlight" ]
+  }, {
+    "name" : "Bad Guide",
+    "songs" : [ "Celestial Soul", "Utopia Harmony", "Dream Infinity", "Ethereal Velvet", "Soul Mystique", "Love Colors", "Celestial Dream", "Tranquility Zephyr" ]
+  }, {
+    "name" : "Breezy Autumn",
+    "songs" : [ "Whisper Paradox", "Radiance Voyage", "Euphoria Eclipse", "Pandora Mystique", "Cascade Serendipity", "Pulse Whisper", "Paradox Pulse", "Whirlwind Pulse", "Dance Harmonize", "Reflection Night", "Voyage Velvet", "Colors Serendipity" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "matthewfernandez",
+  "timestamp" : 183,
+  "result" : [ {
+    "name" : "Bad Funeral ",
+    "songs" : [ "Radiance Velvet", "Mystique Euphoria", "Crescendo Night", "Glow Glow", "Cascade Melody", "Celestial Dance", "Bliss Sunset", "Love Serendipity", "Velvet Utopia", "Tranquility Paradox", "Twilight Ethereal", "Mystique Pinnacle", "Aurora Dream" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "leslie27",
+  "timestamp" : 184,
+  "result" : [ {
+    "name" : "Electric Harmonies",
+    "songs" : [ "Celestial Lullaby", "Harmonize Eclipse", "Euphoria Sunset", "Dream Love", "Glow Whisper", "Celestial Heart", "Love Echo", "Zephyr Reflection", "Rapture Dream", "Rapture Infinity" ]
+  }, {
+    "name" : "Bad Hood",
+    "songs" : [ "Night Utopia", "Celestial Harmony", "Harmonize Enigma", "Melody Melody", "Melody Paradox", "Cascade Reflection", "Essence Mystique", "Serendipity Melody", "Heart Utopia", "Pulse Infinity" ]
+  }, {
+    "name" : "Groovy View",
+    "songs" : [ "Whisper Pulse", "Radiance Euphoria", "Odyssey Rapture", "Dream Rhythm", "Euphoria Luminescence", "Voyage Cascade", "Dance Harmonize", "Ethereal Solitude", "Aurora Velvet" ]
+  }, {
+    "name" : "Teen Funeral ",
+    "songs" : [ "Melody Echo", "Paradox Echo", "Luminescence Rhythm", "Zephyr Velvet", "Serendipity Love", "Night Cascade", "Mystique Voyage", "Soul Soul", "Sunset Whisper" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "amanda16",
+  "timestamp" : 185,
+  "result" : [ {
+    "name" : "Heroic Hood",
+    "songs" : [ "Ethereal Rapture", "Whirlwind Whirlwind", "Echo Odyssey", "Eclipse Luminescence", "Adventure Essence", "Essence Rhythm", "Sunset Pinnacle", "Crescendo Ethereal", "Rapture Harmonize", "Melody Whisper", "Dance Harmony" ]
+  }, {
+    "name" : "Bad Harmonies",
+    "songs" : [ "Odyssey Serendipity", "Sunset Essence", "Soul Celestial", "Ethereal Starlight", "Sunset Infinity", "Rapture Twilight", "Infinity Euphoria", "Voyage Pulse" ]
+  }, {
+    "name" : "Teen Dreams",
+    "songs" : [ "Luminescence Crescendo", "Bliss Rhythm", "Echo Pinnacle", "Zephyr Eclipse", "Voyage Solitude", "Sunset Melody", "Colors Rapture" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "leslie27",
+  "timestamp" : 186,
+  "result" : [ {
+    "name" : "Electric Harmonies",
+    "songs" : [ "Celestial Lullaby", "Harmonize Eclipse", "Euphoria Sunset", "Dream Love", "Glow Whisper", "Celestial Heart", "Love Echo", "Zephyr Reflection", "Rapture Dream", "Rapture Infinity" ]
+  }, {
+    "name" : "Bad Hood",
+    "songs" : [ "Night Utopia", "Celestial Harmony", "Harmonize Enigma", "Melody Melody", "Melody Paradox", "Cascade Reflection", "Essence Mystique", "Serendipity Melody", "Heart Utopia", "Pulse Infinity" ]
+  }, {
+    "name" : "Groovy View",
+    "songs" : [ "Whisper Pulse", "Radiance Euphoria", "Odyssey Rapture", "Dream Rhythm", "Euphoria Luminescence", "Voyage Cascade", "Dance Harmonize", "Ethereal Solitude", "Aurora Velvet" ]
+  }, {
+    "name" : "Teen Funeral ",
+    "songs" : [ "Melody Echo", "Paradox Echo", "Luminescence Rhythm", "Zephyr Velvet", "Serendipity Love", "Night Cascade", "Mystique Voyage", "Soul Soul", "Sunset Whisper" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "amanda16",
+  "timestamp" : 187,
+  "result" : [ {
+    "name" : "Heroic Hood",
+    "songs" : [ "Ethereal Rapture", "Whirlwind Whirlwind", "Echo Odyssey", "Eclipse Luminescence", "Adventure Essence", "Essence Rhythm", "Sunset Pinnacle", "Crescendo Ethereal", "Rapture Harmonize", "Melody Whisper", "Dance Harmony" ]
+  }, {
+    "name" : "Bad Harmonies",
+    "songs" : [ "Odyssey Serendipity", "Sunset Essence", "Soul Celestial", "Ethereal Starlight", "Sunset Infinity", "Rapture Twilight", "Infinity Euphoria", "Voyage Pulse" ]
+  }, {
+    "name" : "Teen Dreams",
+    "songs" : [ "Luminescence Crescendo", "Bliss Rhythm", "Echo Pinnacle", "Zephyr Eclipse", "Voyage Solitude", "Sunset Melody", "Colors Rapture" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "amanda16",
+  "timestamp" : 188,
+  "result" : [ {
+    "name" : "Heroic Hood",
+    "songs" : [ "Ethereal Rapture", "Whirlwind Whirlwind", "Echo Odyssey", "Eclipse Luminescence", "Adventure Essence", "Essence Rhythm", "Sunset Pinnacle", "Crescendo Ethereal", "Rapture Harmonize", "Melody Whisper", "Dance Harmony" ]
+  }, {
+    "name" : "Bad Harmonies",
+    "songs" : [ "Odyssey Serendipity", "Sunset Essence", "Soul Celestial", "Ethereal Starlight", "Sunset Infinity", "Rapture Twilight", "Infinity Euphoria", "Voyage Pulse" ]
+  }, {
+    "name" : "Teen Dreams",
+    "songs" : [ "Luminescence Crescendo", "Bliss Rhythm", "Echo Pinnacle", "Zephyr Eclipse", "Voyage Solitude", "Sunset Melody", "Colors Rapture" ]
+  } ]
+}, {
   "command" : "switchVisibility",
   "user" : "alice22",
   "timestamp" : 189,
@@ -16088,6 +16494,11 @@
   "timestamp" : 11769,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 11769,
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11769,
@@ -16114,6 +16525,11 @@
   "timestamp" : 11779,
   "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 11779,
+  "message" : "amanda16 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11779,
@@ -16140,6 +16556,11 @@
   "timestamp" : 11789,
   "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 11789,
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11789,
@@ -16166,6 +16587,11 @@
   "timestamp" : 11799,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 11799,
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11799,
@@ -16192,6 +16618,11 @@
   "timestamp" : 11809,
   "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 11809,
+  "message" : "cbutler has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11809,
@@ -16218,6 +16649,11 @@
   "timestamp" : 11819,
   "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 11819,
+  "message" : "conniealvarez is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11819,
@@ -16244,6 +16680,11 @@
   "timestamp" : 11829,
   "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 11829,
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11829,
@@ -16270,6 +16711,11 @@
   "timestamp" : 11839,
   "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 11839,
+  "message" : "barmstrong has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11839,
@@ -16296,6 +16742,11 @@
   "timestamp" : 11849,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 11849,
+  "message" : "barmstrong has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11849,
@@ -16322,6 +16773,11 @@
   "timestamp" : 11859,
   "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 11859,
+  "message" : "amanda16 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 11859,
@@ -16348,6 +16804,11 @@
   "timestamp" : 11869,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 11869,
+  "message" : "conniealvarez is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11869,
@@ -16374,6 +16835,11 @@
   "timestamp" : 11879,
   "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 11879,
+  "message" : "amanda16 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11879,
@@ -16400,6 +16866,11 @@
   "timestamp" : 11889,
   "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 11889,
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11889,
@@ -16426,6 +16897,11 @@
   "timestamp" : 11899,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 11899,
+  "message" : "matthewfernandez has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11899,
@@ -16452,6 +16928,11 @@
   "timestamp" : 11909,
   "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "leslie27",
+  "timestamp" : 11909,
+  "message" : "leslie27 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11909,
@@ -16478,6 +16959,11 @@
   "timestamp" : 11919,
   "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "leslie27",
+  "timestamp" : 11919,
+  "message" : "leslie27 has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11919,
@@ -16504,6 +16990,11 @@
   "timestamp" : 11929,
   "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 11929,
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11929,
@@ -16530,6 +17021,11 @@
   "timestamp" : 11939,
   "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 11939,
+  "message" : "matthewfernandez has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11939,
@@ -16556,6 +17052,11 @@
   "timestamp" : 11949,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 11949,
+  "message" : "conniealvarez is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11949,
@@ -16582,6 +17083,11 @@
   "timestamp" : 11959,
   "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 11959,
+  "message" : "matthewfernandez has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 11959,
@@ -16608,6 +17114,11 @@
   "timestamp" : 11969,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 11969,
+  "message" : "amanda16 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11969,
@@ -16634,6 +17145,11 @@
   "timestamp" : 11979,
   "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 11979,
+  "message" : "barmstrong has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11979,
@@ -16660,6 +17176,11 @@
   "timestamp" : 11989,
   "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 11989,
+  "message" : "amanda16 has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11989,
@@ -16686,6 +17207,11 @@
   "timestamp" : 11999,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 11999,
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11999,
@@ -16712,6 +17238,11 @@
   "timestamp" : 12009,
   "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12009,
+  "message" : "barmstrong has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12009,
@@ -16738,6 +17269,11 @@
   "timestamp" : 12019,
   "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "leslie27",
+  "timestamp" : 12019,
+  "message" : "leslie27 has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12019,
@@ -16764,6 +17300,11 @@
   "timestamp" : 12029,
   "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12029,
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12029,
@@ -16790,6 +17331,11 @@
   "timestamp" : 12039,
   "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 12039,
+  "message" : "conniealvarez is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12039,
@@ -16816,6 +17362,11 @@
   "timestamp" : 12049,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12049,
+  "message" : "barmstrong has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12049,
@@ -16842,6 +17393,11 @@
   "timestamp" : 12059,
   "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "leslie27",
+  "timestamp" : 12059,
+  "message" : "leslie27 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12059,
@@ -16868,6 +17424,11 @@
   "timestamp" : 12069,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12069,
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12069,
@@ -16894,6 +17455,11 @@
   "timestamp" : 12079,
   "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12079,
+  "message" : "cbutler has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12079,
@@ -16920,6 +17486,11 @@
   "timestamp" : 12089,
   "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 12089,
+  "message" : "conniealvarez is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12089,
@@ -16946,6 +17517,11 @@
   "timestamp" : 12099,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12099,
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12099,
@@ -16972,6 +17548,11 @@
   "timestamp" : 12109,
   "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 12109,
+  "message" : "amanda16 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12109,
@@ -16998,6 +17579,11 @@
   "timestamp" : 12119,
   "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 12119,
+  "message" : "conniealvarez is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12119,
@@ -17024,6 +17610,11 @@
   "timestamp" : 12129,
   "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12129,
+  "message" : "barmstrong has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12129,
@@ -17050,6 +17641,11 @@
   "timestamp" : 12139,
   "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 12139,
+  "message" : "conniealvarez is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12139,
@@ -17076,6 +17672,11 @@
   "timestamp" : 12149,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12149,
+  "message" : "jacobdean has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12149,
@@ -17102,6 +17703,11 @@
   "timestamp" : 12159,
   "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 12159,
+  "message" : "conniealvarez is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12159,
@@ -17128,6 +17734,11 @@
   "timestamp" : 12169,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 12169,
+  "message" : "amanda16 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12169,
@@ -17154,6 +17765,11 @@
   "timestamp" : 12179,
   "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 12179,
+  "message" : "matthewfernandez has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12179,
@@ -17180,6 +17796,11 @@
   "timestamp" : 12189,
   "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 12189,
+  "message" : "amanda16 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12189,
@@ -17206,6 +17827,11 @@
   "timestamp" : 12199,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 12199,
+  "message" : "amanda16 has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12199,
@@ -17232,6 +17858,11 @@
   "timestamp" : 12209,
   "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 12209,
+  "message" : "amanda16 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12209,
@@ -17258,6 +17889,11 @@
   "timestamp" : 12219,
   "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "leslie27",
+  "timestamp" : 12219,
+  "message" : "leslie27 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12219,
@@ -17284,6 +17920,11 @@
   "timestamp" : 12229,
   "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12229,
+  "message" : "barmstrong has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12229,
@@ -17310,6 +17951,11 @@
   "timestamp" : 12239,
   "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12239,
+  "message" : "barmstrong has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12239,
@@ -17336,6 +17982,11 @@
   "timestamp" : 12249,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 12249,
+  "message" : "amanda16 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12249,
@@ -17362,6 +18013,11 @@
   "timestamp" : 12259,
   "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 12259,
+  "message" : "conniealvarez is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12259,
@@ -17388,6 +18044,11 @@
   "timestamp" : 12269,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 12269,
+  "message" : "matthewfernandez has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12269,
@@ -17414,6 +18075,11 @@
   "timestamp" : 12279,
   "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "leslie27",
+  "timestamp" : 12279,
+  "message" : "leslie27 has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12279,
@@ -17440,6 +18106,11 @@
   "timestamp" : 12289,
   "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 12289,
+  "message" : "conniealvarez is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12289,
@@ -17466,6 +18137,11 @@
   "timestamp" : 12299,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jenningsbeth",
+  "timestamp" : 12299,
+  "message" : "jenningsbeth has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12299,
@@ -17492,6 +18168,11 @@
   "timestamp" : 12309,
   "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 12309,
+  "message" : "matthewfernandez has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12309,
@@ -17518,6 +18199,11 @@
   "timestamp" : 12319,
   "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12319,
+  "message" : "cbutler has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12319,
@@ -17544,6 +18230,11 @@
   "timestamp" : 12329,
   "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12329,
+  "message" : "barmstrong has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12329,
@@ -17570,6 +18261,11 @@
   "timestamp" : 12339,
   "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 12339,
+  "message" : "conniealvarez is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12339,
@@ -17596,6 +18292,11 @@
   "timestamp" : 12349,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12349,
+  "message" : "jacobdean has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12349,
@@ -17622,6 +18323,11 @@
   "timestamp" : 12359,
   "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 12359,
+  "message" : "matthewfernandez has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12359,
@@ -17648,6 +18354,11 @@
   "timestamp" : 12369,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 12369,
+  "message" : "amanda16 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12369,
@@ -17674,6 +18385,11 @@
   "timestamp" : 12379,
   "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 12379,
+  "message" : "conniealvarez is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12379,
@@ -17700,6 +18416,11 @@
   "timestamp" : 12389,
   "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 12389,
+  "message" : "matthewfernandez has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12389,
@@ -17726,6 +18447,11 @@
   "timestamp" : 12399,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 12399,
+  "message" : "matthewfernandez has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12399,
@@ -17752,6 +18478,11 @@
   "timestamp" : 12409,
   "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12409,
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12409,
@@ -17778,6 +18509,11 @@
   "timestamp" : 12419,
   "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12419,
+  "message" : "cbutler has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12419,
@@ -17804,6 +18540,11 @@
   "timestamp" : 12429,
   "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12429,
+  "message" : "barmstrong has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12429,
@@ -17830,6 +18571,11 @@
   "timestamp" : 12439,
   "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12439,
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12439,
@@ -17856,6 +18602,11 @@
   "timestamp" : 12449,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12449,
+  "message" : "cbutler has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12449,
@@ -17882,6 +18633,11 @@
   "timestamp" : 12459,
   "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 12459,
+  "message" : "matthewfernandez has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12459,
@@ -17908,6 +18664,11 @@
   "timestamp" : 12469,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 12469,
+  "message" : "conniealvarez is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12469,
@@ -17934,6 +18695,11 @@
   "timestamp" : 12479,
   "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 12479,
+  "message" : "matthewfernandez has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12479,
@@ -17960,6 +18726,11 @@
   "timestamp" : 12489,
   "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 12489,
+  "message" : "amanda16 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12489,
@@ -17986,6 +18757,11 @@
   "timestamp" : 12499,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 12499,
+  "message" : "conniealvarez is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12499,
@@ -18012,6 +18788,11 @@
   "timestamp" : 12509,
   "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 12509,
+  "message" : "conniealvarez is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12509,
@@ -18038,6 +18819,11 @@
   "timestamp" : 12519,
   "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 12519,
+  "message" : "amanda16 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12519,
@@ -18064,6 +18850,11 @@
   "timestamp" : 12529,
   "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12529,
+  "message" : "barmstrong has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12529,
@@ -18090,6 +18881,11 @@
   "timestamp" : 12539,
   "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 12539,
+  "message" : "conniealvarez is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12539,
@@ -18116,6 +18912,11 @@
   "timestamp" : 12549,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 12549,
+  "message" : "conniealvarez is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12549,
@@ -18142,6 +18943,11 @@
   "timestamp" : 12559,
   "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12559,
+  "message" : "cbutler has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12559,
@@ -18168,6 +18974,11 @@
   "timestamp" : 12569,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12569,
+  "message" : "barmstrong has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12569,
@@ -18194,6 +19005,11 @@
   "timestamp" : 12579,
   "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 12579,
+  "message" : "amanda16 has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12579,
@@ -18220,6 +19036,11 @@
   "timestamp" : 12589,
   "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12589,
+  "message" : "barmstrong has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12589,
@@ -18246,6 +19067,11 @@
   "timestamp" : 12599,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12599,
+  "message" : "barmstrong has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12599,
@@ -18272,6 +19098,11 @@
   "timestamp" : 12609,
   "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12609,
+  "message" : "barmstrong has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12609,
@@ -18298,6 +19129,11 @@
   "timestamp" : 12619,
   "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 12619,
+  "message" : "matthewfernandez has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12619,
@@ -18324,6 +19160,11 @@
   "timestamp" : 12629,
   "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 12629,
+  "message" : "matthewfernandez has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12629,
@@ -18350,6 +19191,11 @@
   "timestamp" : 12639,
   "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 12639,
+  "message" : "conniealvarez is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12639,
@@ -18376,6 +19222,11 @@
   "timestamp" : 12649,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12649,
+  "message" : "barmstrong has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12649,
@@ -18402,6 +19253,11 @@
   "timestamp" : 12659,
   "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12659,
+  "message" : "cbutler has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12659,
@@ -18428,6 +19284,11 @@
   "timestamp" : 12669,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12669,
+  "message" : "barmstrong has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12669,
@@ -18454,6 +19315,11 @@
   "timestamp" : 12679,
   "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 12679,
+  "message" : "amanda16 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12679,
@@ -18480,6 +19346,11 @@
   "timestamp" : 12689,
   "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12689,
+  "message" : "barmstrong has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12689,
@@ -18506,6 +19377,11 @@
   "timestamp" : 12699,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 12699,
+  "message" : "amanda16 has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12699,
@@ -18532,6 +19408,11 @@
   "timestamp" : 12709,
   "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12709,
+  "message" : "barmstrong has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12709,
@@ -18558,6 +19439,11 @@
   "timestamp" : 12719,
   "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12719,
+  "message" : "jacobdean has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12719,
@@ -18584,6 +19470,11 @@
   "timestamp" : 12729,
   "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 12729,
+  "message" : "conniealvarez is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12729,
@@ -18610,6 +19501,11 @@
   "timestamp" : 12739,
   "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12739,
+  "message" : "barmstrong has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12739,
@@ -18636,6 +19532,11 @@
   "timestamp" : 12749,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "leslie27",
+  "timestamp" : 12749,
+  "message" : "leslie27 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12749,
@@ -18662,6 +19563,11 @@
   "timestamp" : 12759,
   "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12759,
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12759,
@@ -18688,6 +19594,11 @@
   "timestamp" : 12769,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12769,
+  "message" : "cbutler has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12769,
@@ -18714,6 +19625,11 @@
   "timestamp" : 12779,
   "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 12779,
+  "message" : "matthewfernandez has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12779,
@@ -18740,6 +19656,11 @@
   "timestamp" : 12789,
   "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 12789,
+  "message" : "matthewfernandez has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12789,
@@ -18766,6 +19687,11 @@
   "timestamp" : 12799,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12799,
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12799,
@@ -18792,6 +19718,11 @@
   "timestamp" : 12809,
   "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12809,
+  "message" : "jacobdean has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12809,
@@ -18818,6 +19749,11 @@
   "timestamp" : 12819,
   "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 12819,
+  "message" : "matthewfernandez has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12819,
@@ -18844,6 +19780,11 @@
   "timestamp" : 12829,
   "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12829,
+  "message" : "jacobdean has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12829,
@@ -18870,6 +19811,11 @@
   "timestamp" : 12839,
   "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 12839,
+  "message" : "matthewfernandez has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12839,
@@ -18896,6 +19842,11 @@
   "timestamp" : 12849,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 12849,
+  "message" : "matthewfernandez has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12849,
@@ -18922,6 +19873,11 @@
   "timestamp" : 12859,
   "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12859,
+  "message" : "jacobdean has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12859,
@@ -18948,6 +19904,11 @@
   "timestamp" : 12869,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 12869,
+  "message" : "conniealvarez is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12869,
@@ -18974,6 +19935,11 @@
   "timestamp" : 12879,
   "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 12879,
+  "message" : "matthewfernandez has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12879,
@@ -19000,6 +19966,11 @@
   "timestamp" : 12889,
   "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 12889,
+  "message" : "matthewfernandez has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12889,
@@ -19026,6 +19997,11 @@
   "timestamp" : 12899,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12899,
+  "message" : "jacobdean has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12899,
@@ -19052,6 +20028,11 @@
   "timestamp" : 12909,
   "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12909,
+  "message" : "barmstrong has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12909,
@@ -19078,6 +20059,11 @@
   "timestamp" : 12919,
   "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 12919,
+  "message" : "matthewfernandez has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12919,
@@ -19104,6 +20090,11 @@
   "timestamp" : 12929,
   "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12929,
+  "message" : "barmstrong has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12929,
@@ -19130,6 +20121,11 @@
   "timestamp" : 12939,
   "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "leslie27",
+  "timestamp" : 12939,
+  "message" : "leslie27 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12939,
@@ -19156,6 +20152,11 @@
   "timestamp" : 12949,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 12949,
+  "message" : "matthewfernandez has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12949,
@@ -19182,6 +20183,11 @@
   "timestamp" : 12959,
   "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12959,
+  "message" : "jacobdean has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12959,
@@ -19208,6 +20214,11 @@
   "timestamp" : 12969,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 12969,
+  "message" : "conniealvarez is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12969,
@@ -19234,6 +20245,11 @@
   "timestamp" : 12979,
   "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12979,
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12979,
@@ -19260,6 +20276,11 @@
   "timestamp" : 12989,
   "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 12989,
+  "message" : "matthewfernandez has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12989,
@@ -19286,6 +20307,11 @@
   "timestamp" : 12999,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 12999,
+  "message" : "conniealvarez is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12999,
@@ -19312,6 +20338,11 @@
   "timestamp" : 13009,
   "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 13009,
+  "message" : "cbutler has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13009,
@@ -19338,6 +20369,11 @@
   "timestamp" : 13019,
   "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 13019,
+  "message" : "barmstrong has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13019,
@@ -19364,6 +20400,11 @@
   "timestamp" : 13029,
   "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 13029,
+  "message" : "amanda16 has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13029,
@@ -19390,6 +20431,11 @@
   "timestamp" : 13039,
   "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 13039,
+  "message" : "jacobdean has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 13039,
@@ -19416,6 +20462,11 @@
   "timestamp" : 13049,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 13049,
+  "message" : "jacobdean has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13049,
@@ -19442,6 +20493,11 @@
   "timestamp" : 13059,
   "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 13059,
+  "message" : "jacobdean has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 13059,
@@ -19468,6 +20524,11 @@
   "timestamp" : 13069,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 13069,
+  "message" : "cbutler has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 13069,
@@ -19494,6 +20555,11 @@
   "timestamp" : 13079,
   "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 13079,
+  "message" : "amanda16 has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 13079,
@@ -19520,6 +20586,11 @@
   "timestamp" : 13089,
   "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 13089,
+  "message" : "barmstrong has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 13089,
@@ -19546,6 +20617,11 @@
   "timestamp" : 13099,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 13099,
+  "message" : "barmstrong has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 13099,
@@ -19572,6 +20648,11 @@
   "timestamp" : 13109,
   "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 13109,
+  "message" : "jacobdean has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13109,
@@ -19598,6 +20679,11 @@
   "timestamp" : 13119,
   "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "conniealvarez",
+  "timestamp" : 13119,
+  "message" : "conniealvarez is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13119,
@@ -19624,6 +20710,11 @@
   "timestamp" : 13129,
   "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jenningsbeth",
+  "timestamp" : 13129,
+  "message" : "jenningsbeth has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13129,
@@ -19650,6 +20741,11 @@
   "timestamp" : 13139,
   "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "leslie27",
+  "timestamp" : 13139,
+  "message" : "leslie27 has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 13139,
@@ -19676,6 +20772,11 @@
   "timestamp" : 13149,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 13149,
+  "message" : "amanda16 has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13149,
@@ -19702,6 +20803,11 @@
   "timestamp" : 13159,
   "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "leslie27",
+  "timestamp" : 13159,
+  "message" : "leslie27 has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 13159,
@@ -19728,6 +20834,11 @@
   "timestamp" : 13169,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 13169,
+  "message" : "jacobdean has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 13169,
@@ -19754,6 +20865,11 @@
   "timestamp" : 13179,
   "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 13179,
+  "message" : "barmstrong has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 13179,
@@ -19780,6 +20896,11 @@
   "timestamp" : 13189,
   "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "leslie27",
+  "timestamp" : 13189,
+  "message" : "leslie27 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 13189,
@@ -19806,6 +20927,11 @@
   "timestamp" : 13199,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 13199,
+  "message" : "jacobdean has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 13199,
@@ -19832,6 +20958,11 @@
   "timestamp" : 13209,
   "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "leslie27",
+  "timestamp" : 13209,
+  "message" : "leslie27 has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13209,
@@ -19857,6 +20988,11 @@
   "user" : "frank21",
   "timestamp" : 13219,
   "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 13219,
+  "message" : "jacobdean has another album with the same name."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -19883,6 +21019,11 @@
   "user" : "grace25",
   "timestamp" : 13229,
   "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 13229,
+  "message" : "barmstrong has another album with the same name."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -19909,6 +21050,11 @@
   "user" : "henry26",
   "timestamp" : 13239,
   "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 13239,
+  "message" : "matthewfernandez has another album with the same name."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -19935,6 +21081,11 @@
   "user" : "irene33",
   "timestamp" : 13249,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 13249,
+  "message" : "matthewfernandez has another album with the same name."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -19961,6 +21112,11 @@
   "user" : "jack29",
   "timestamp" : 13259,
   "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewfernandez",
+  "timestamp" : 13259,
+  "message" : "matthewfernandez has another album with the same name."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",

@@ -79,7 +79,7 @@ public final class SearchBar {
                 ? results.subList(0, MAX_LIST_RETURN) : results;
         this.setLastSearchResults(searchResults);
 
-        System.out.println(searchResults);
+//        System.out.println(searchResults);
 
         return searchResults;
     }

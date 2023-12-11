@@ -124,6 +124,374 @@
   "timestamp" : 124,
   "message" : "The username glester has been added successfully."
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 125,
+  "message" : "john99 has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 126,
+  "message" : "john99 has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 127,
+  "message" : "jacobdean has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 128,
+  "message" : "cbutler has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 129,
+  "message" : "amanda16 has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 130,
+  "message" : "barmstrong has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 131,
+  "message" : "jacobdean has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "anthony22",
+  "timestamp" : 132,
+  "message" : "anthony22 has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 133,
+  "message" : "mccarthyluis has another album with the same name."
+}, {
+  "command" : "addAlbum",
+  "user" : "anthony22",
+  "timestamp" : 134,
+  "message" : "anthony22 has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 135,
+  "message" : "mccarthyluis has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 136,
+  "message" : "barmstrong has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 137,
+  "message" : "john99 has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "charlesgarcia",
+  "timestamp" : 138,
+  "message" : "charlesgarcia is not an artist."
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 139,
+  "message" : "john99 has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 140,
+  "message" : "barmstrong has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "fwebb",
+  "timestamp" : 141,
+  "message" : "fwebb has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 142,
+  "message" : "barmstrong has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 143,
+  "message" : "barmstrong has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 144,
+  "message" : "john99 has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 145,
+  "message" : "mccarthyluis has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 146,
+  "message" : "amanda16 has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 147,
+  "message" : "barmstrong has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 148,
+  "message" : "john99 has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 149,
+  "message" : "glester has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 150,
+  "message" : "jacobdean has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 151,
+  "message" : "glester has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "jsimpson",
+  "timestamp" : 152,
+  "message" : "jsimpson has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 153,
+  "message" : "jacobdean has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 154,
+  "message" : "glester has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 155,
+  "message" : "barmstrong has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "anthony22",
+  "timestamp" : 156,
+  "message" : "anthony22 has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 157,
+  "message" : "jacobdean has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 158,
+  "message" : "jacobdean has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "anthony22",
+  "timestamp" : 159,
+  "message" : "anthony22 has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 160,
+  "message" : "barmstrong has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 161,
+  "message" : "matthewporter is not an artist."
+}, {
+  "command" : "addAlbum",
+  "user" : "jsimpson",
+  "timestamp" : 162,
+  "message" : "jsimpson has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "jsimpson",
+  "timestamp" : 163,
+  "message" : "jsimpson has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 164,
+  "message" : "matthewporter is not an artist."
+}, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 165,
+  "message" : "mccarthyluis has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 166,
+  "message" : "glester has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 167,
+  "message" : "mccarthyluis has another album with the same name."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 168,
+  "message" : "matthewporter is not an artist."
+}, {
+  "command" : "addAlbum",
+  "user" : "jsimpson",
+  "timestamp" : 169,
+  "message" : "jsimpson has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 170,
+  "message" : "matthewporter is not an artist."
+}, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 171,
+  "message" : "amanda16 has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 172,
+  "message" : "jacobdean has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 173,
+  "message" : "barmstrong has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 174,
+  "message" : "matthewporter is not an artist."
+}, {
+  "command" : "showAlbums",
+  "user" : "jsimpson",
+  "timestamp" : 175,
+  "result" : [ {
+    "name" : "Teen Technology",
+    "songs" : [ "Harmony Love", "Harmony Pandora", "Enigma Heart", "Harmony Crescendo", "Infinity Velvet", "Aurora Lullaby", "Reflection Utopia", "Infinity Rhythm", "Infinity Dream", "Aurora Cascade" ]
+  }, {
+    "name" : "Electric View",
+    "songs" : [ "Whisper Rapture", "Heart Dance", "Solitude Enigma", "Zephyr Bliss", "Serendipity Pinnacle", "Euphoria Night", "Starlight Luminescence", "Mystique Ethereal", "Night Soul", "Bliss Melody", "Infinity Infinity" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "mccarthyluis",
+  "timestamp" : 176,
+  "result" : [ {
+    "name" : "Groovy Harmonies",
+    "songs" : [ "Night Aurora", "Sunset Celestial", "Pinnacle Bliss", "Dream Radiance", "Odyssey Cascade", "Cascade Harmony", "Solitude Dance", "Eclipse Heart", "Soul Pulse", "Reflection Lullaby", "Radiance Paradox", "Colors Enigma", "Glow Whisper" ]
+  }, {
+    "name" : "Teen Harmonies",
+    "songs" : [ "Mystique Echo", "Pandora Odyssey", "Paradox Dance", "Cascade Glow", "Dance Twilight", "Pulse Crescendo", "Melody Soul", "Mystique Euphoria", "Solitude Harmonize", "Pinnacle Odyssey" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "mccarthyluis",
+  "timestamp" : 177,
+  "result" : [ {
+    "name" : "Groovy Harmonies",
+    "songs" : [ "Night Aurora", "Sunset Celestial", "Pinnacle Bliss", "Dream Radiance", "Odyssey Cascade", "Cascade Harmony", "Solitude Dance", "Eclipse Heart", "Soul Pulse", "Reflection Lullaby", "Radiance Paradox", "Colors Enigma", "Glow Whisper" ]
+  }, {
+    "name" : "Teen Harmonies",
+    "songs" : [ "Mystique Echo", "Pandora Odyssey", "Paradox Dance", "Cascade Glow", "Dance Twilight", "Pulse Crescendo", "Melody Soul", "Mystique Euphoria", "Solitude Harmonize", "Pinnacle Odyssey" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "glester",
+  "timestamp" : 178,
+  "result" : [ {
+    "name" : "Alone Hood",
+    "songs" : [ "Heart Mystique", "Essence Rapture", "Paradox Harmony", "Rapture Dance", "Echo Melody", "Sunset Utopia", "Colors Harmony", "Starlight Twilight" ]
+  }, {
+    "name" : "Teen Revolution",
+    "songs" : [ "Starlight Rapture", "Pinnacle Cascade", "Reflection Dream", "Echo Pandora", "Tranquility Whisper", "Harmonize Mystique", "Mystique Adventure", "Heart Reflection", "Pinnacle Odyssey", "Rhythm Echo", "Enigma Sunset", "Bliss Starlight", "Love Pulse" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "mccarthyluis",
+  "timestamp" : 179,
+  "result" : [ {
+    "name" : "Groovy Harmonies",
+    "songs" : [ "Night Aurora", "Sunset Celestial", "Pinnacle Bliss", "Dream Radiance", "Odyssey Cascade", "Cascade Harmony", "Solitude Dance", "Eclipse Heart", "Soul Pulse", "Reflection Lullaby", "Radiance Paradox", "Colors Enigma", "Glow Whisper" ]
+  }, {
+    "name" : "Teen Harmonies",
+    "songs" : [ "Mystique Echo", "Pandora Odyssey", "Paradox Dance", "Cascade Glow", "Dance Twilight", "Pulse Crescendo", "Melody Soul", "Mystique Euphoria", "Solitude Harmonize", "Pinnacle Odyssey" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "jsimpson",
+  "timestamp" : 181,
+  "result" : [ {
+    "name" : "Teen Technology",
+    "songs" : [ "Harmony Love", "Harmony Pandora", "Enigma Heart", "Harmony Crescendo", "Infinity Velvet", "Aurora Lullaby", "Reflection Utopia", "Infinity Rhythm", "Infinity Dream", "Aurora Cascade" ]
+  }, {
+    "name" : "Electric View",
+    "songs" : [ "Whisper Rapture", "Heart Dance", "Solitude Enigma", "Zephyr Bliss", "Serendipity Pinnacle", "Euphoria Night", "Starlight Luminescence", "Mystique Ethereal", "Night Soul", "Bliss Melody", "Infinity Infinity" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "anthony22",
+  "timestamp" : 184,
+  "result" : [ {
+    "name" : "Blue Technology",
+    "songs" : [ "Twilight Velvet", "Velvet Pulse", "Whisper Cascade", "Luminescence Reflection", "Harmony Ethereal", "Ethereal Radiance", "Radiance Celestial" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "jacobdean",
+  "timestamp" : 185,
+  "result" : [ {
+    "name" : "Electric Funeral ",
+    "songs" : [ "Voyage Paradox", "Night Harmony", "Colors Melody", "Ethereal Heart", "Serenade Dance", "Tranquility Serenade", "Essence Pandora", "Odyssey Love", "Pinnacle Colors", "Night Velvet", "Whirlwind Aurora" ]
+  }, {
+    "name" : "Bad Dirt",
+    "songs" : [ "Soul Pandora", "Adventure Infinity", "Night Ethereal", "Heart Adventure", "Paradox Pulse", "Velvet Dance", "Soul Paradox", "Harmony Rapture", "Cascade Pulse", "Harmony Velvet", "Rhythm Bliss", "Eclipse Glow" ]
+  }, {
+    "name" : "Bad Dreams",
+    "songs" : [ "Crescendo Twilight", "Odyssey Reflection", "Euphoria Harmonize", "Adventure Reflection", "Lullaby Starlight", "Zephyr Enigma", "Pandora Adventure", "Radiance Mystique", "Pinnacle Soul", "Voyage Reflection", "Starlight Pinnacle", "Love Aurora" ]
+  }, {
+    "name" : "Dynamic Dirt",
+    "songs" : [ "Adventure Rhythm", "Pandora Utopia", "Adventure Serendipity", "Whisper Infinity", "Serendipity Pulse", "Celestial Serenade", "Velvet Zephyr", "Luminescence Enigma", "Eclipse Bliss", "Radiance Dream", "Aurora Voyage", "Mystique Whisper", "Infinity Solitude" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "anthony22",
+  "timestamp" : 186,
+  "result" : [ {
+    "name" : "Blue Technology",
+    "songs" : [ "Twilight Velvet", "Velvet Pulse", "Whisper Cascade", "Luminescence Reflection", "Harmony Ethereal", "Ethereal Radiance", "Radiance Celestial" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "amanda16",
+  "timestamp" : 187,
+  "result" : [ {
+    "name" : "Groovy Hood",
+    "songs" : [ "Dream Bliss", "Bliss Sunset", "Cascade Soul", "Colors Velvet", "Velvet Odyssey", "Enigma Cascade", "Whisper Aurora", "Zephyr Paradox" ]
+  }, {
+    "name" : "Teen Guide",
+    "songs" : [ "Utopia Twilight", "Melody Reflection", "Twilight Night", "Sunset Glow", "Cascade Enigma", "Solitude Rapture", "Solitude Rhythm" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "user" : "cbutler",
+  "timestamp" : 189,
+  "result" : [ {
+    "name" : "Breezy View",
+    "songs" : [ "Heart Utopia", "Solitude Reflection", "Mystique Colors", "Rhythm Whisper", "Twilight Sunset", "Eclipse Radiance", "Zephyr Whisper", "Cascade Serendipity", "Soul Serendipity", "Love Reflection", "Adventure Velvet", "Bliss Solitude", "Harmony Pandora" ]
+  } ]
+}, {
   "command" : "switchVisibility",
   "user" : "alice22",
   "timestamp" : 190,
@@ -16041,6 +16409,11 @@
   "timestamp" : 11770,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "fwebb",
+  "timestamp" : 11770,
+  "message" : "fwebb has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11770,
@@ -16067,6 +16440,11 @@
   "timestamp" : 11780,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 11780,
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11780,
@@ -16093,6 +16471,11 @@
   "timestamp" : 11790,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 11790,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11790,
@@ -16119,6 +16502,11 @@
   "timestamp" : 11800,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 11800,
+  "message" : "john99 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11800,
@@ -16145,6 +16533,11 @@
   "timestamp" : 11810,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 11810,
+  "message" : "mccarthyluis has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11810,
@@ -16171,6 +16564,11 @@
   "timestamp" : 11820,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "fwebb",
+  "timestamp" : 11820,
+  "message" : "fwebb has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11820,
@@ -16197,6 +16595,11 @@
   "timestamp" : 11830,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 11830,
+  "message" : "john99 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11830,
@@ -16223,6 +16626,11 @@
   "timestamp" : 11840,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jsimpson",
+  "timestamp" : 11840,
+  "message" : "jsimpson has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11840,
@@ -16249,6 +16657,11 @@
   "timestamp" : 11850,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 11850,
+  "message" : "mccarthyluis has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11850,
@@ -16275,6 +16688,11 @@
   "timestamp" : 11860,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "fwebb",
+  "timestamp" : 11860,
+  "message" : "fwebb has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 11860,
@@ -16301,6 +16719,11 @@
   "timestamp" : 11870,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 11870,
+  "message" : "glester has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11870,
@@ -16327,6 +16750,11 @@
   "timestamp" : 11880,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 11880,
+  "message" : "john99 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11880,
@@ -16353,6 +16781,11 @@
   "timestamp" : 11890,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "charlesgarcia",
+  "timestamp" : 11890,
+  "message" : "charlesgarcia is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11890,
@@ -16379,6 +16812,11 @@
   "timestamp" : 11900,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 11900,
+  "message" : "john99 has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11900,
@@ -16405,6 +16843,11 @@
   "timestamp" : 11910,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 11910,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11910,
@@ -16431,6 +16874,11 @@
   "timestamp" : 11920,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 11920,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11920,
@@ -16457,6 +16905,11 @@
   "timestamp" : 11930,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 11930,
+  "message" : "cbutler has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11930,
@@ -16483,6 +16936,11 @@
   "timestamp" : 11940,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "anthony22",
+  "timestamp" : 11940,
+  "message" : "anthony22 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11940,
@@ -16509,6 +16967,11 @@
   "timestamp" : 11950,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 11950,
+  "message" : "mccarthyluis has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11950,
@@ -16535,6 +16998,11 @@
   "timestamp" : 11960,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "charlesgarcia",
+  "timestamp" : 11960,
+  "message" : "charlesgarcia is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 11960,
@@ -16561,6 +17029,11 @@
   "timestamp" : 11970,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 11970,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11970,
@@ -16587,6 +17060,11 @@
   "timestamp" : 11980,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 11980,
+  "message" : "jacobdean has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11980,
@@ -16613,6 +17091,11 @@
   "timestamp" : 11990,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 11990,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11990,
@@ -16639,6 +17122,11 @@
   "timestamp" : 12000,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 12000,
+  "message" : "mccarthyluis has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12000,
@@ -16665,6 +17153,11 @@
   "timestamp" : 12010,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 12010,
+  "message" : "mccarthyluis has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12010,
@@ -16691,6 +17184,11 @@
   "timestamp" : 12020,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 12020,
+  "message" : "glester has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12020,
@@ -16717,6 +17215,11 @@
   "timestamp" : 12030,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12030,
+  "message" : "john99 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12030,
@@ -16743,6 +17246,11 @@
   "timestamp" : 12040,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 12040,
+  "message" : "glester has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12040,
@@ -16769,6 +17277,11 @@
   "timestamp" : 12050,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12050,
+  "message" : "john99 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12050,
@@ -16795,6 +17308,11 @@
   "timestamp" : 12060,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12060,
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12060,
@@ -16821,6 +17339,11 @@
   "timestamp" : 12070,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12070,
+  "message" : "john99 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12070,
@@ -16847,6 +17370,11 @@
   "timestamp" : 12080,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12080,
+  "message" : "jacobdean has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12080,
@@ -16873,6 +17401,11 @@
   "timestamp" : 12090,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jsimpson",
+  "timestamp" : 12090,
+  "message" : "jsimpson has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12090,
@@ -16899,6 +17432,11 @@
   "timestamp" : 12100,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12100,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12100,
@@ -16925,6 +17463,11 @@
   "timestamp" : 12110,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 12110,
+  "message" : "glester has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12110,
@@ -16951,6 +17494,11 @@
   "timestamp" : 12120,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "fwebb",
+  "timestamp" : 12120,
+  "message" : "fwebb has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12120,
@@ -16977,6 +17525,11 @@
   "timestamp" : 12130,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12130,
+  "message" : "cbutler has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12130,
@@ -17003,6 +17556,11 @@
   "timestamp" : 12140,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12140,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12140,
@@ -17029,6 +17587,11 @@
   "timestamp" : 12150,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12150,
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12150,
@@ -17055,6 +17618,11 @@
   "timestamp" : 12160,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 12160,
+  "message" : "glester has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12160,
@@ -17081,6 +17649,11 @@
   "timestamp" : 12170,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12170,
+  "message" : "john99 has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12170,
@@ -17107,6 +17680,11 @@
   "timestamp" : 12180,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12180,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12180,
@@ -17133,6 +17711,11 @@
   "timestamp" : 12190,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 12190,
+  "message" : "mccarthyluis has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12190,
@@ -17159,6 +17742,11 @@
   "timestamp" : 12200,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12200,
+  "message" : "john99 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12200,
@@ -17185,6 +17773,11 @@
   "timestamp" : 12210,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12210,
+  "message" : "cbutler has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12210,
@@ -17211,6 +17804,11 @@
   "timestamp" : 12220,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12220,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12220,
@@ -17237,6 +17835,11 @@
   "timestamp" : 12230,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12230,
+  "message" : "barmstrong has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12230,
@@ -17263,6 +17866,11 @@
   "timestamp" : 12240,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12240,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12240,
@@ -17289,6 +17897,11 @@
   "timestamp" : 12250,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12250,
+  "message" : "cbutler has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12250,
@@ -17315,6 +17928,11 @@
   "timestamp" : 12260,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "anthony22",
+  "timestamp" : 12260,
+  "message" : "anthony22 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12260,
@@ -17341,6 +17959,11 @@
   "timestamp" : 12270,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "charlesgarcia",
+  "timestamp" : 12270,
+  "message" : "charlesgarcia is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12270,
@@ -17367,6 +17990,11 @@
   "timestamp" : 12280,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12280,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12280,
@@ -17393,6 +18021,11 @@
   "timestamp" : 12290,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12290,
+  "message" : "cbutler has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12290,
@@ -17419,6 +18052,11 @@
   "timestamp" : 12300,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12300,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12300,
@@ -17445,6 +18083,11 @@
   "timestamp" : 12310,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12310,
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12310,
@@ -17471,6 +18114,11 @@
   "timestamp" : 12320,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "fwebb",
+  "timestamp" : 12320,
+  "message" : "fwebb has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12320,
@@ -17497,6 +18145,11 @@
   "timestamp" : 12330,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12330,
+  "message" : "john99 has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12330,
@@ -17523,6 +18176,11 @@
   "timestamp" : 12340,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 12340,
+  "message" : "mccarthyluis has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12340,
@@ -17549,6 +18207,11 @@
   "timestamp" : 12350,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12350,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12350,
@@ -17575,6 +18238,11 @@
   "timestamp" : 12360,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12360,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12360,
@@ -17601,6 +18269,11 @@
   "timestamp" : 12370,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 12370,
+  "message" : "mccarthyluis has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12370,
@@ -17627,6 +18300,11 @@
   "timestamp" : 12380,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 12380,
+  "message" : "glester has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12380,
@@ -17653,6 +18331,11 @@
   "timestamp" : 12390,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12390,
+  "message" : "barmstrong has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12390,
@@ -17679,6 +18362,11 @@
   "timestamp" : 12400,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12400,
+  "message" : "john99 has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12400,
@@ -17705,6 +18393,11 @@
   "timestamp" : 12410,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12410,
+  "message" : "jacobdean has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12410,
@@ -17731,6 +18424,11 @@
   "timestamp" : 12420,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12420,
+  "message" : "john99 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12420,
@@ -17757,6 +18455,11 @@
   "timestamp" : 12430,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12430,
+  "message" : "barmstrong has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12430,
@@ -17783,6 +18486,11 @@
   "timestamp" : 12440,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 12440,
+  "message" : "mccarthyluis has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12440,
@@ -17809,6 +18517,11 @@
   "timestamp" : 12450,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12450,
+  "message" : "barmstrong has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12450,
@@ -17835,6 +18548,11 @@
   "timestamp" : 12460,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12460,
+  "message" : "john99 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12460,
@@ -17861,6 +18579,11 @@
   "timestamp" : 12470,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12470,
+  "message" : "jacobdean has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12470,
@@ -17887,6 +18610,11 @@
   "timestamp" : 12480,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12480,
+  "message" : "john99 has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12480,
@@ -17913,6 +18641,11 @@
   "timestamp" : 12490,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12490,
+  "message" : "cbutler has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12490,
@@ -17939,6 +18672,11 @@
   "timestamp" : 12500,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12500,
+  "message" : "cbutler has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12500,
@@ -17965,6 +18703,11 @@
   "timestamp" : 12510,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 12510,
+  "message" : "glester has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12510,
@@ -17991,6 +18734,11 @@
   "timestamp" : 12520,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "charlesgarcia",
+  "timestamp" : 12520,
+  "message" : "charlesgarcia is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12520,
@@ -18017,6 +18765,11 @@
   "timestamp" : 12530,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12530,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12530,
@@ -18043,6 +18796,11 @@
   "timestamp" : 12540,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12540,
+  "message" : "john99 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12540,
@@ -18069,6 +18827,11 @@
   "timestamp" : 12550,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 12550,
+  "message" : "glester has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12550,
@@ -18095,6 +18858,11 @@
   "timestamp" : 12560,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12560,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12560,
@@ -18121,6 +18889,11 @@
   "timestamp" : 12570,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 12570,
+  "message" : "glester has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12570,
@@ -18147,6 +18920,11 @@
   "timestamp" : 12580,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12580,
+  "message" : "cbutler has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12580,
@@ -18173,6 +18951,11 @@
   "timestamp" : 12590,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12590,
+  "message" : "jacobdean has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12590,
@@ -18199,6 +18982,11 @@
   "timestamp" : 12600,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 12600,
+  "message" : "mccarthyluis has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12600,
@@ -18225,6 +19013,11 @@
   "timestamp" : 12610,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12610,
+  "message" : "barmstrong has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12610,
@@ -18251,6 +19044,11 @@
   "timestamp" : 12620,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 12620,
+  "message" : "glester has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12620,
@@ -18277,6 +19075,11 @@
   "timestamp" : 12630,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 12630,
+  "message" : "barmstrong has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12630,
@@ -18303,6 +19106,11 @@
   "timestamp" : 12640,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "fwebb",
+  "timestamp" : 12640,
+  "message" : "fwebb has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12640,
@@ -18329,6 +19137,11 @@
   "timestamp" : 12650,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12650,
+  "message" : "john99 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12650,
@@ -18355,6 +19168,11 @@
   "timestamp" : 12660,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12660,
+  "message" : "john99 has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12660,
@@ -18381,6 +19199,11 @@
   "timestamp" : 12670,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12670,
+  "message" : "cbutler has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12670,
@@ -18407,6 +19230,11 @@
   "timestamp" : 12680,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12680,
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12680,
@@ -18433,6 +19261,11 @@
   "timestamp" : 12690,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12690,
+  "message" : "jacobdean has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12690,
@@ -18459,6 +19292,11 @@
   "timestamp" : 12700,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12700,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12700,
@@ -18485,6 +19323,11 @@
   "timestamp" : 12710,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12710,
+  "message" : "john99 has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12710,
@@ -18511,6 +19354,11 @@
   "timestamp" : 12720,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "charlesgarcia",
+  "timestamp" : 12720,
+  "message" : "charlesgarcia is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12720,
@@ -18537,6 +19385,11 @@
   "timestamp" : 12730,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12730,
+  "message" : "cbutler has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12730,
@@ -18563,6 +19416,11 @@
   "timestamp" : 12740,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "charlesgarcia",
+  "timestamp" : 12740,
+  "message" : "charlesgarcia is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12740,
@@ -18589,6 +19447,11 @@
   "timestamp" : 12750,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12750,
+  "message" : "john99 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12750,
@@ -18615,6 +19478,11 @@
   "timestamp" : 12760,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "fwebb",
+  "timestamp" : 12760,
+  "message" : "fwebb has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12760,
@@ -18641,6 +19509,11 @@
   "timestamp" : 12770,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 12770,
+  "message" : "mccarthyluis has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12770,
@@ -18667,6 +19540,11 @@
   "timestamp" : 12780,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "anthony22",
+  "timestamp" : 12780,
+  "message" : "anthony22 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12780,
@@ -18693,6 +19571,11 @@
   "timestamp" : 12790,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12790,
+  "message" : "john99 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12790,
@@ -18719,6 +19602,11 @@
   "timestamp" : 12800,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 12800,
+  "message" : "mccarthyluis has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12800,
@@ -18745,6 +19633,11 @@
   "timestamp" : 12810,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12810,
+  "message" : "jacobdean has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12810,
@@ -18771,6 +19664,11 @@
   "timestamp" : 12820,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12820,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12820,
@@ -18797,6 +19695,11 @@
   "timestamp" : 12830,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 12830,
+  "message" : "mccarthyluis has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12830,
@@ -18823,6 +19726,11 @@
   "timestamp" : 12840,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 12840,
+  "message" : "mccarthyluis has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12840,
@@ -18849,6 +19757,11 @@
   "timestamp" : 12850,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 12850,
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12850,
@@ -18875,6 +19788,11 @@
   "timestamp" : 12860,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12860,
+  "message" : "john99 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12860,
@@ -18901,6 +19819,11 @@
   "timestamp" : 12870,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 12870,
+  "message" : "cbutler has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12870,
@@ -18927,6 +19850,11 @@
   "timestamp" : 12880,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12880,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12880,
@@ -18953,6 +19881,11 @@
   "timestamp" : 12890,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 12890,
+  "message" : "glester has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12890,
@@ -18979,6 +19912,11 @@
   "timestamp" : 12900,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12900,
+  "message" : "john99 has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12900,
@@ -19005,6 +19943,11 @@
   "timestamp" : 12910,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 12910,
+  "message" : "mccarthyluis has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12910,
@@ -19031,6 +19974,11 @@
   "timestamp" : 12920,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12920,
+  "message" : "john99 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12920,
@@ -19057,6 +20005,11 @@
   "timestamp" : 12930,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12930,
+  "message" : "john99 has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12930,
@@ -19083,6 +20036,11 @@
   "timestamp" : 12940,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 12940,
+  "message" : "john99 has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12940,
@@ -19109,6 +20067,11 @@
   "timestamp" : 12950,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12950,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12950,
@@ -19135,6 +20098,11 @@
   "timestamp" : 12960,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jsimpson",
+  "timestamp" : 12960,
+  "message" : "jsimpson has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12960,
@@ -19161,6 +20129,11 @@
   "timestamp" : 12970,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "fwebb",
+  "timestamp" : 12970,
+  "message" : "fwebb has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12970,
@@ -19187,6 +20160,11 @@
   "timestamp" : 12980,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 12980,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12980,
@@ -19213,6 +20191,11 @@
   "timestamp" : 12990,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 12990,
+  "message" : "glester has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12990,
@@ -19239,6 +20222,11 @@
   "timestamp" : 13000,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 13000,
+  "message" : "cbutler has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 13000,
@@ -19265,6 +20253,11 @@
   "timestamp" : 13010,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "charlesgarcia",
+  "timestamp" : 13010,
+  "message" : "charlesgarcia is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13010,
@@ -19291,6 +20284,11 @@
   "timestamp" : 13020,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 13020,
+  "message" : "cbutler has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13020,
@@ -19317,6 +20315,11 @@
   "timestamp" : 13030,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "fwebb",
+  "timestamp" : 13030,
+  "message" : "fwebb has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13030,
@@ -19343,6 +20346,11 @@
   "timestamp" : 13040,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 13040,
+  "message" : "jacobdean has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 13040,
@@ -19369,6 +20377,11 @@
   "timestamp" : 13050,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 13050,
+  "message" : "mccarthyluis has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13050,
@@ -19395,6 +20408,11 @@
   "timestamp" : 13060,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 13060,
+  "message" : "jacobdean has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 13060,
@@ -19421,6 +20439,11 @@
   "timestamp" : 13070,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 13070,
+  "message" : "cbutler has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 13070,
@@ -19447,6 +20470,11 @@
   "timestamp" : 13080,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 13080,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 13080,
@@ -19473,6 +20501,11 @@
   "timestamp" : 13090,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 13090,
+  "message" : "mccarthyluis has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 13090,
@@ -19499,6 +20532,11 @@
   "timestamp" : 13100,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 13100,
+  "message" : "john99 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 13100,
@@ -19525,6 +20563,11 @@
   "timestamp" : 13110,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 13110,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13110,
@@ -19551,6 +20594,11 @@
   "timestamp" : 13120,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 13120,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13120,
@@ -19577,6 +20625,11 @@
   "timestamp" : 13130,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 13130,
+  "message" : "john99 has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13130,
@@ -19603,6 +20656,11 @@
   "timestamp" : 13140,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 13140,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 13140,
@@ -19629,6 +20687,11 @@
   "timestamp" : 13150,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 13150,
+  "message" : "mccarthyluis has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13150,
@@ -19655,6 +20718,11 @@
   "timestamp" : 13160,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "glester",
+  "timestamp" : 13160,
+  "message" : "glester has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 13160,
@@ -19681,6 +20749,11 @@
   "timestamp" : 13170,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "matthewporter",
+  "timestamp" : 13170,
+  "message" : "matthewporter is not an artist."
+}, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 13170,
@@ -19707,6 +20780,11 @@
   "timestamp" : 13180,
   "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "cbutler",
+  "timestamp" : 13180,
+  "message" : "cbutler has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 13180,
@@ -19733,6 +20811,11 @@
   "timestamp" : 13190,
   "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "john99",
+  "timestamp" : 13190,
+  "message" : "john99 has added new album successfully."
+}, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 13190,
@@ -19759,6 +20842,11 @@
   "timestamp" : 13200,
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "mccarthyluis",
+  "timestamp" : 13200,
+  "message" : "mccarthyluis has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 13200,
@@ -19785,6 +20873,11 @@
   "timestamp" : 13210,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 13210,
+  "message" : "barmstrong has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13210,
@@ -19811,6 +20904,11 @@
   "timestamp" : 13220,
   "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
+  "command" : "addAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 13220,
+  "message" : "jacobdean has another album with the same name."
+}, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13220,
@@ -19836,6 +20934,11 @@
   "user" : "grace25",
   "timestamp" : 13230,
   "message" : "Liked songs:\n\tNo liked songs\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 13230,
+  "message" : "barmstrong has another album with the same name."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -19862,6 +20965,11 @@
   "user" : "henry26",
   "timestamp" : 13240,
   "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "addAlbum",
+  "user" : "amanda16",
+  "timestamp" : 13240,
+  "message" : "amanda16 has another album with the same name."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -19888,6 +20996,11 @@
   "user" : "irene33",
   "timestamp" : 13250,
   "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "addAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 13250,
+  "message" : "barmstrong has another album with the same name."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -19914,6 +21027,11 @@
   "user" : "jack29",
   "timestamp" : 13260,
   "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "addAlbum",
+  "user" : "fwebb",
+  "timestamp" : 13260,
+  "message" : "fwebb has added new album successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
