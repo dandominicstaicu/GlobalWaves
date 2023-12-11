@@ -27,13 +27,9 @@
 //        albums.add(album);
 //    }
 //
-//    public void addEvent(Event event) {
-//        events.add(event);
-//    }
+
 //
-//    public void addMerch(Merch merch) {
-//        merches.add(merch);
-//    }
+
 //
 //
 //}

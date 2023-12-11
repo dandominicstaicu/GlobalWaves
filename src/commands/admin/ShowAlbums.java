@@ -33,16 +33,14 @@ public class ShowAlbums extends Command {
 //        Artist artist = library.getArtistWithUsername(getUsername());
         ArrayList<Album> artistsAlbums = library.getArtistsAlbums(getUsername());
 
-        System.out.println("before the fucking loop and print artistsAlbums");
-
+//        System.out.println("before the fucking loop and print artistsAlbums");
 
         ArrayNode resultArray = out.putArray(Output.RESULT);
         for (Album album : artistsAlbums) {
             ObjectNode albumNode = resultArray.addObject();
             albumNode.put(Output.NAME, album.getName());
 
-            System.out.println("showAlbumes in the first fucking loop");
-
+//            System.out.println("showAlbums in the first fucking loop");
 
             ArrayNode songsArray = albumNode.putArray(Output.SONGS);
             for (Song song : album.getSongs()) {

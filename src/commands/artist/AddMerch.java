@@ -8,6 +8,7 @@ import common.UserTypes;
 import entities.Library;
 import entities.user.side.Merch;
 import entities.user.side.User;
+import entities.user.side.pages.ArtistPage;
 import lombok.*;
 
 @Setter
@@ -29,39 +30,41 @@ public class AddMerch extends Command {
                 '}';
     }
 
+
+    //TODO code here alike to addEvent. REFACTOR
     @Override
     public void execute(ArrayNode outputs, Library library, boolean offline) {
-        System.out.println(this.toString());
-//        ObjectNode out = outputs.addObject();
-//
-//        out.put(Output.COMMAND, Output.ADD_MERCH);
-//        out.put(Output.USER, getUsername());
-//        out.put(Output.TIMESTAMP, getTimestamp());
-//
-//        User user = library.getFromAllUsers(getUsername());
-//        if (user == null) {
-//            out.put(Output.MESSAGE, Output.THE_USERNAME + getUsername() + Output.DOESNT_EXIST);
-//            return;
-//        }
-//
-//        if (user.getUserType() != UserTypes.ARTIST) {
-//            out.put(Output.MESSAGE, getUsername() + Output.NOT_ARTIST);
-//            return;
-//        }
-//
-//        Artist artist = (Artist) user;
-//
-//        if (artist.getMerches().stream().anyMatch(merch -> merch.getName().equals(getName()))) {
-//            out.put(Output.MESSAGE, Output.THE_USERNAME + getUsername() + Output.MERCH_ALREADY_EXISTS);
-//            return;
-//        }
-//
-//        if (getPrice() < 0) {
-//            out.put(Output.MESSAGE, Output.NEGATIVE_PRICE_MERCH);
-//            return;
-//        }
-//
-//        Merch newMerch = new Merch(getName(), getDescription(), getPrice());
-//        artist.addMerch(newMerch);
+//        System.out.println(this.toString());
+        ObjectNode out = outputs.addObject();
+
+        out.put(Output.COMMAND, Output.ADD_MERCH);
+        out.put(Output.USER, getUsername());
+        out.put(Output.TIMESTAMP, getTimestamp());
+
+        User user = library.searchAllUsersForUsername(getUsername());
+        if (user == null) {
+            out.put(Output.MESSAGE, Output.THE_USERNAME + getUsername() + Output.DOESNT_EXIST);
+            return;
+        }
+
+        if (user.getUserType() != UserTypes.ARTIST) {
+            out.put(Output.MESSAGE, getUsername() + Output.NOT_ARTIST);
+            return;
+        }
+
+        ArtistPage artist = (ArtistPage) user;
+
+        if (artist.getMerchList().stream().anyMatch(merch -> merch.getName().equals(getName()))) {
+            out.put(Output.MESSAGE, Output.THE_USERNAME + getUsername() + Output.MERCH_ALREADY_EXISTS);
+            return;
+        }
+
+        if (getPrice() < 0) {
+            out.put(Output.MESSAGE, Output.NEGATIVE_PRICE_MERCH);
+            return;
+        }
+
+        Merch newMerch = new Merch(getName(), getDescription(), getPrice());
+        artist.addMerch(newMerch);
     }
 }

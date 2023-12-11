@@ -17,16 +17,26 @@ import java.util.List;
 public class ArtistPage extends User implements Page, Playable {
     //    ArrayList<Album> albums;
     ArrayList<Event> events;
-    ArrayList<Merch> merch;
+    ArrayList<Merch> merchList;
 
     public ArtistPage(final String username, final int age, final String city) {
         super(username, age, city, UserTypes.ARTIST);
         this.events = new ArrayList<>();
-        this.merch = new ArrayList<>();
+        this.merchList = new ArrayList<>();
+    }
+
+    public void addEvent(final Event event) {
+        events.add(event);
+//        System.out.println("events");
+//        System.out.println(this.events);
+    }
+
+    public void addMerch(final Merch merch) {
+        merchList.add(merch);
     }
 
     @Override
-    public String printPage(NormalUser user) {
+    public String printPage(final NormalUser user) {
         return null;
     }
 
