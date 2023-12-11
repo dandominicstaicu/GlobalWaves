@@ -4,53 +4,48 @@
   "timestamp" : 1,
   "message" : "The username melodymaster has been added successfully."
 }, {
-  "command" : "addAlbum",
-  "user" : "melodymaster",
-  "timestamp" : 2,
-  "message" : "melodymaster has added new album successfully."
-}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 6,
-  "message" : "Search returned 1 results",
-  "results" : [ "Retro Rhythms" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10,
-  "message" : "Search returned 1 results",
-  "results" : [ "Night Pulse" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 15,
-  "message" : "Successfully selected Night Pulse."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 20,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 25,
-  "message" : "Successfully selected Retro Rhythms."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 30,
   "stats" : {
-    "name" : "Night Pulse",
-    "remainedTime" : 230,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "repeat",
   "user" : "alice22",
   "timestamp" : 31,
-  "message" : "Repeat mode changed to repeat once."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "createPlaylist",
   "user" : "bob35",
@@ -61,33 +56,33 @@
   "user" : "alice22",
   "timestamp" : 32,
   "stats" : {
-    "name" : "Night Pulse",
-    "remainedTime" : 228,
-    "repeat" : "Repeat Once",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 257,
   "stats" : {
-    "name" : "Night Pulse",
-    "remainedTime" : 3,
-    "repeat" : "Repeat Once",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "repeat",
   "user" : "alice22",
   "timestamp" : 258,
-  "message" : "Repeat mode changed to repeat infinite."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "repeat",
   "user" : "alice22",
   "timestamp" : 258,
-  "message" : "Repeat mode changed to no repeat."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "alice22",
@@ -103,7 +98,7 @@
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 1000,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "createPlaylist",
   "user" : "alice22",
@@ -150,7 +145,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
   "timestamp" : 1012,
-  "message" : "Successfully added to playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",

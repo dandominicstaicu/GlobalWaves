@@ -63,7 +63,7 @@ public class Search extends Command {
             out.put(Output.MESSAGE, getUsername() + Output.IS_OFFLINE);
             ArrayNode resultsNode = out.putArray(Output.RESULTS);
 
-            System.out.println("aici");
+            System.out.println("in is offline in search");
             return;
         }
 

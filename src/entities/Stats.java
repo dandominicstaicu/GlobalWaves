@@ -28,7 +28,7 @@ public class Stats {
 
     public static List<NormalUser> getOnlineUsers(final Library lib) {
         // chatGPT helped me optimise this part (getting the online users)
-        return lib.getNormalUsers().stream()
+        return lib.getUsers().stream()
                 .filter(NormalUser::getOnline) // filter only online users
                 .sorted(Comparator.comparing(NormalUser::getUsername)) // sort by username
                 .toList(); // convert to list

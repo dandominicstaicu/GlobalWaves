@@ -1,6 +1,7 @@
 package entities.user.side;
 
 import common.UserTypes;
+import entities.Library;
 import entities.playable.Playlist;
 import entities.playable.audio_files.Song;
 import entities.user.side.pages.HomePage;
@@ -15,20 +16,21 @@ import java.util.List;
 
 @Getter
 @Setter
-//@NoArgsConstructor
-//@AllArgsConstructor
 public class NormalUser extends User {
     private UserPlayer player;
     private ArrayList<Song> favoriteSongs;
     private ArrayList<Playlist> followedPlaylists;
     private boolean online;
+    private Page currentPage;
 
-    public NormalUser(final String username, final int age, final String city, final Page homePage) {
-        super(username, age, city, UserTypes.NORMAL_USER, homePage);
+
+    public NormalUser(final String username, final int age, final String city) {
+        super(username, age, city, UserTypes.NORMAL_USER);
         this.player = new UserPlayer();
         this.favoriteSongs = new ArrayList<>();
         this.followedPlaylists = new ArrayList<>();
         this.online = true;
+        this.currentPage = new HomePage();
     }
 
     /**
@@ -107,6 +109,11 @@ public class NormalUser extends User {
     public boolean switchOnline() {
         this.online = !this.online;
         return this.online;
+    }
+
+    @Override
+    public void addUser(Library library) {
+        library.getUsers().add(this);
     }
 
 //    @Override

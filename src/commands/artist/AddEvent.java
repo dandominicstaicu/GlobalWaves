@@ -1,8 +1,14 @@
 package commands.artist;
 
 import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
+import common.DateValidator;
+import common.Output;
+import common.UserTypes;
 import entities.Library;
+import entities.user.side.Event;
+import entities.user.side.User;
 import lombok.*;
 
 @Setter
@@ -27,5 +33,37 @@ public class AddEvent extends Command {
     @Override
     public void execute(ArrayNode outputs, Library library, boolean offline) {
         System.out.println(this.toString());
+//        ObjectNode out = outputs.addObject();
+//
+//        out.put(Output.COMMAND, Output.ADD_EVENT);
+//        out.put(Output.USER, getUsername());
+//        out.put(Output.TIMESTAMP, getTimestamp());
+//
+//        User user = library.getFromAllUsers(getUsername());
+//        if (user == null) {
+//            out.put(Output.MESSAGE, Output.THE_USERNAME + getUsername() + Output.DOESNT_EXIST);
+//        } else {
+//            if (user.getUserType() != UserTypes.ARTIST) {
+//                out.put(Output.MESSAGE, getUsername() + Output.NOT_ARTIST);
+//                return;
+//            }
+//
+//            Artist artist = (Artist) user;
+//
+//            if (artist.getEvents().stream().anyMatch(event -> event.getName().equals(getName()))) {
+//                out.put(Output.MESSAGE, Output.THE_USERNAME + getUsername() + Output.EVENT_ALREADY_EXISTS);
+//                return;
+//            }
+//
+//            if (!DateValidator.isValidDate(getDate())) {
+//                out.put(Output.MESSAGE, "Event for " + getUsername() + Output.INVALID_DATE);
+//                return;
+//            }
+//
+//            Event newEvent = new Event(getName(), getDescription(), getDate());
+//            artist.addEvent(newEvent);
+//
+//            out.put(Output.MESSAGE, getUsername() + Output.EVENT_ADD_SUCCESS);
+//        }
     }
 }

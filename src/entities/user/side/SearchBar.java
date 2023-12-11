@@ -1,10 +1,12 @@
 package entities.user.side;
 
+import common.UserTypes;
 import entities.Library;
 import entities.playable.Playable;
 import entities.playable.Playlist;
 import entities.playable.Podcast;
 import entities.playable.audio_files.Song;
+import entities.user.side.pages.ArtistPage;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -55,6 +57,20 @@ public final class SearchBar {
             case "podcast":
                 results.addAll(searchPodcasts(library, filters));
                 break;
+            case "artist":
+//                List<User> artistsList = searchArtist(library, filters);
+//                List<ArtistPage> artistPagesList = new ArrayList<>();
+//
+//                for (User artist : artistsList) {
+//                    artistPagesList.add(artist.getCurrentPage());
+//                }
+//
+//                results.addAll(searchArtist(library, filters));
+                break;
+            case "host":
+                break;
+            case "album":
+                break;
             default:
                 break;
         }
@@ -62,6 +78,8 @@ public final class SearchBar {
         List<Playable> searchResults = results.size() > MAX_LIST_RETURN
                 ? results.subList(0, MAX_LIST_RETURN) : results;
         this.setLastSearchResults(searchResults);
+
+        System.out.println(searchResults);
 
         return searchResults;
     }
@@ -77,6 +95,12 @@ public final class SearchBar {
     public void setSelectedResultAndClear(final Playable newSelectedResult) {
         this.selectedResult = newSelectedResult;
         this.lastSearchResults = null;
+    }
+
+    private List<User> searchArtist(final Library library, final Map<String, Object> filters) {
+        return library.getUsers().stream()
+                .filter(artist -> matchesFiltersArtist(artist, filters))
+                .collect(Collectors.toList());
     }
 
     private List<Song> searchSongs(final Library library, final Map<String, Object> filters) {
@@ -96,6 +120,24 @@ public final class SearchBar {
         return library.getPodcasts().stream()
                 .filter(podcast -> matchesFiltersPodcast(podcast, filters))
                 .collect(Collectors.toList());
+    }
+
+    private boolean matchesFiltersArtist(final User artist, final Map<String, Object> filters) {
+        if (artist.getUserType() != UserTypes.ARTIST) {
+            return false;
+        }
+
+        for (Map.Entry<String, Object> filter : filters.entrySet()) {
+            switch (filter.getKey().toLowerCase()) {
+                case "name":
+                    if (!artist.getUsername().startsWith((String) filter.getValue())) {
+                        return false;
+                    }
+                    break;
+            }
+        }
+
+        return true;
     }
 
     // chatGPT helped me write this function, so I can parse Strings easily

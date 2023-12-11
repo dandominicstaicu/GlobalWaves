@@ -7,7 +7,9 @@ import entities.playable.Playlist;
 import entities.playable.Podcast;
 import entities.playable.audio_files.Song;
 import entities.user.side.*;
+import entities.user.side.pages.ArtistPage;
 import entities.user.side.pages.HomePage;
+import entities.user.side.pages.HostPage;
 import fileio.input.PodcastInput;
 import fileio.input.EpisodeInput;
 import fileio.input.LibraryInput;
@@ -29,14 +31,19 @@ public final class Library {
     private List<Podcast> podcasts;
 //    private List<NormalUser> normalUsers;
 //    private List<PrivilegedUser> privilegedUsers;
-    private List<User> users;
+    private List<NormalUser> users;
     private List<Playlist> playlists;
 
+    private List<ArtistPage> artists;
+    private List<HostPage> hosts;
+
     private Library() {
-        songs = new ArrayList<>();
-        podcasts = new ArrayList<>();
-        users = new ArrayList<>();
-        playlists = new ArrayList<>();
+        this.songs = new ArrayList<>();
+        this.podcasts = new ArrayList<>();
+        this.users = new ArrayList<>();
+        this.playlists = new ArrayList<>();
+        this.artists = new ArrayList<>();
+        this.hosts = new ArrayList<>();
     }
 
     /**
@@ -80,7 +87,7 @@ public final class Library {
      *
      * @param user The user to be added.
      */
-    public void addUser(final User user) {
+    public void addUser(final NormalUser user) {
         users.add(user);
     }
 
@@ -132,8 +139,7 @@ public final class Library {
 
         // Convert each UserInput to User and add to library
         for (UserInput userInput : libraryInput.getUsers()) {
-            HomePage homePage = new HomePage();
-            NormalUser normalUser = new NormalUser(userInput.getUsername(), userInput.getAge(), userInput.getCity(), homePage);
+            NormalUser normalUser = new NormalUser(userInput.getUsername(), userInput.getAge(), userInput.getCity());
             libraryInstance.addUser(normalUser);
         }
 
@@ -158,18 +164,6 @@ public final class Library {
 
         return null;
     }
-
-    public Artist getArtistWithUsername(final String username) {
-        for (User artist : users) {
-            if (artist.getUserType() == UserTypes.ARTIST
-                    && artist.getUsername().equals(username)) {
-                return (Artist) artist;
-            }
-        }
-
-        return null;
-    }
-
 
     public User getFromAllUsers(final String username) {
         for (User user : users) {
@@ -288,15 +282,15 @@ public final class Library {
     }
 
 
-    public ArrayList<NormalUser> getNormalUsers() {
-        ArrayList<NormalUser> normalUsers = new ArrayList<>();
-        for (User user : users) {
-            if (user.getUserType() == UserTypes.NORMAL_USER) {
-                normalUsers.add((NormalUser) user);
-            }
-        }
-        return normalUsers;
-    }
+//    public ArrayList<NormalUser> getNormalUsers() {
+//        ArrayList<NormalUser> normalUsers = new ArrayList<>();
+//        for (User user : users) {
+//            if (user.getUserType() == UserTypes.NORMAL_USER) {
+//                normalUsers.add((NormalUser) user);
+//            }
+//        }
+//        return normalUsers;
+//    }
 
     public void addSongsFromAlbum(Album album) {
         songs.addAll(album.getSongs());

@@ -3,6 +3,7 @@ package commands.normal.user.pages;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
+import common.Constants;
 import common.Output;
 import entities.Library;
 import entities.user.side.NormalUser;
@@ -21,18 +22,22 @@ public class PrintCurrentPage extends Command {
     }
 
     @Override
-    public void execute(ArrayNode outputs, Library library, boolean offline) {
-        if (offline) {
-            userIsOffline(outputs);
-            return;
-        }
-
-//        System.out.println(this.toString());
+    public void execute(final ArrayNode outputs, final Library library, final boolean offline) {
         ObjectNode out = outputs.addObject();
 
         out.put(Output.COMMAND, Output.PRINT_CURRENT_PAGE);
         out.put(Output.USER, getUsername());
         out.put(Output.TIMESTAMP, getTimestamp());
+
+        if (offline) {
+//            out.put(Output.COMMAND, Output.PRINT_CURRENT_PAGE);
+//            out.put(Output.USER, getUsername());
+//            out.put(Output.TIMESTAMP, getTimestamp());
+            out.put(Output.MESSAGE, getUsername() + Output.IS_OFFLINE);
+            return;
+        }
+
+//        System.out.println(this.toString());
 
         NormalUser user = library.getUserWithUsername(getUsername());
         Page currentPage = user.getCurrentPage();

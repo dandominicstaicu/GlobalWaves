@@ -49,7 +49,8 @@ public class AddUser extends Command {
         } else {
 //            User newUser = new User(getUsername(), getAge(), getCity(), UserTypes.fromString(getType()));
             User newUser = UserFactory.createUser(getUsername(), getAge(), getCity(), getType());
-            library.addUser(newUser);
+
+            newUser.addUser(library);
 
             out.put(Output.MESSAGE, Output.THE_USERNAME + getUsername() + Output.USER_ADDED);
         }

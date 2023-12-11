@@ -113,4 +113,12 @@ public final class Output {
     public static final String SHOW_ALBUMS = "showAlbums";
     public static final String PRINT_CURRENT_PAGE = "printCurrentPage";
     public static final String THE_USERNAME = "The username ";
+    public static final String ADD_EVENT = "addEvent";
+    public static final String DOESNT_EXIST = " doesn't exist.";
+    public static final String EVENT_ALREADY_EXISTS = " has another event with the same name";
+    public static final String INVALID_DATE = " does not have a valid date.";
+    public static final String ADD_MERCH = "addMerch";
+    public static final String MERCH_ALREADY_EXISTS = " has merchandise with the same name.";
+    public static final String NEGATIVE_PRICE_MERCH = "Price for merchandise can not be negative.";
+    public static final String EVENT_ADD_SUCCESS = " has added new event successfully.";
 }
