@@ -88,4 +88,12 @@ public class Playlist implements Playable {
         isPublic = !isPublic;
         return isPublic;
     }
+
+    public int getTotalLikes() {
+        int totalLikes = 0;
+        for (Song song : songs) {
+            totalLikes += song.getLikes();
+        }
+        return totalLikes;
+    }
 }

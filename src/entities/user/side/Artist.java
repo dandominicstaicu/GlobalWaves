@@ -2,6 +2,8 @@ package entities.user.side;
 
 import common.UserTypes;
 import entities.playable.Album;
+import entities.user.side.pages.ArtistPage;
+import entities.user.side.pages.Page;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -14,9 +16,8 @@ public class Artist extends PrivilegedUser {
     ArrayList<Event> events;
     ArrayList<Merch> merches;
 
-
-    public Artist(String username, int age, String city) {
-        super(username, age, city, UserTypes.ARTIST);
+    public Artist(String username, int age, String city, Page artistPage) {
+        super(username, age, city, UserTypes.ARTIST, artistPage);
         this.albums = new ArrayList<>();
         this.events = new ArrayList<>();
         this.merches = new ArrayList<>();

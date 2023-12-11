@@ -1,8 +1,12 @@
 package commands.normal.user.pages;
 
 import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
+import common.Output;
 import entities.Library;
+import entities.user.side.NormalUser;
+import entities.user.side.pages.Page;
 import lombok.*;
 
 @Setter
@@ -23,6 +27,16 @@ public class PrintCurrentPage extends Command {
             return;
         }
 
-        System.out.println(this.toString());
+//        System.out.println(this.toString());
+        ObjectNode out = outputs.addObject();
+
+        out.put(Output.COMMAND, Output.PRINT_CURRENT_PAGE);
+        out.put(Output.USER, getUsername());
+        out.put(Output.TIMESTAMP, getTimestamp());
+
+        NormalUser user = library.getUserWithUsername(getUsername());
+        Page currentPage = user.getCurrentPage();
+
+        out.put(Output.MESSAGE, currentPage.printPage(user));
     }
 }

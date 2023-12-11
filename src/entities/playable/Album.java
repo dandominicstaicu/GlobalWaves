@@ -15,11 +15,18 @@ public class Album implements Playable {
     private String description;
     private ArrayList<Song> songs;
 
-    public Album(String name, int releaseYear, String description, ArrayList<Song> songs) {
+    public Album(String name, int releaseYear, String description, ArrayList<Song> newSongs) {
         this.name = name;
         this.releaseYear = releaseYear;
         this.description = description;
-        this.songs = songs;
+//        this.songs = songs;
+        this.songs = new ArrayList<>();
+        for (Song song : newSongs) {
+            Song newSong = new Song(song.getName(), song.getDuration(), song.getAlbum(), song.getTags(),
+                    song.getLyrics(), song.getGenre(), song.getReleaseYear(), song.getArtist());
+
+            this.songs.add(newSong);
+        }
     }
 
     @Override

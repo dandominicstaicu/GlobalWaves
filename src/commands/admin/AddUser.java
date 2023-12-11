@@ -4,10 +4,14 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
 import common.Output;
-import common.UserTypes;
 import entities.Library;
-import entities.user.side.*;
-import lombok.*;
+import entities.user.side.User;
+import entities.user.side.UserFactory;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Setter
 @Getter
@@ -33,24 +37,21 @@ public class AddUser extends Command {
 //        System.out.println(this.toString());
         ObjectNode out = outputs.addObject();
 
+//        System.out.println("in add user");
+
         out.put(Output.COMMAND, Output.ADD_USER);
         out.put(Output.USER, getUsername());
         out.put(Output.TIMESTAMP, getTimestamp());
 
         User user = library.getFromAllUsers(getUsername());
         if (user != null) {
-            out.put(Output.MESSAGE, getUsername() + Output.USER_ALREADY_TAKEN);
+            out.put(Output.MESSAGE, Output.THE_USERNAME + getUsername() + Output.USER_ALREADY_TAKEN);
         } else {
 //            User newUser = new User(getUsername(), getAge(), getCity(), UserTypes.fromString(getType()));
-            User newUser = switch (getType().toLowerCase()) {
-                case "normal" -> new NormalUser(getUsername(), getAge(), getCity());
-                case "artist" -> new Artist(getUsername(), getAge(), getCity());
-                case "host" -> new Host(getUsername(), getAge(), getCity());
-                default -> null;
-            };
+            User newUser = UserFactory.createUser(getUsername(), getAge(), getCity(), getType());
             library.addUser(newUser);
 
-            out.put(Output.MESSAGE, getUsername() + Output.USER_ADDED);
+            out.put(Output.MESSAGE, Output.THE_USERNAME + getUsername() + Output.USER_ADDED);
         }
     }
 }

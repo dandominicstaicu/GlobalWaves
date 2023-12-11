@@ -3,6 +3,8 @@ package entities.user.side;
 import common.UserTypes;
 import entities.playable.Playlist;
 import entities.playable.audio_files.Song;
+import entities.user.side.pages.HomePage;
+import entities.user.side.pages.Page;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -17,12 +19,12 @@ import java.util.List;
 //@AllArgsConstructor
 public class NormalUser extends User {
     private UserPlayer player;
-    private List<Song> favoriteSongs;
-    private List<Playlist> followedPlaylists;
+    private ArrayList<Song> favoriteSongs;
+    private ArrayList<Playlist> followedPlaylists;
     private boolean online;
 
-    public NormalUser(final String username, final int age, final String city) {
-        super(username, age, city, UserTypes.NORMAL_USER);
+    public NormalUser(final String username, final int age, final String city, final Page homePage) {
+        super(username, age, city, UserTypes.NORMAL_USER, homePage);
         this.player = new UserPlayer();
         this.favoriteSongs = new ArrayList<>();
         this.followedPlaylists = new ArrayList<>();

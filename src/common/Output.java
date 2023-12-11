@@ -111,4 +111,6 @@ public final class Output {
     public static final String DUPLICATE_SONG_NAMES = " has the same song at least twice in this album.";
     public static final String NEW_ALBUM_ADD = " has added new album successfully.";
     public static final String SHOW_ALBUMS = "showAlbums";
+    public static final String PRINT_CURRENT_PAGE = "printCurrentPage";
+    public static final String THE_USERNAME = "The username ";
 }

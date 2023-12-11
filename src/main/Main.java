@@ -107,8 +107,8 @@ public final class Main {
 
             // if the command has a user, it is different from getTop5 commands
             if (command.getUsername() != null) {
-                NormalUser normalUser = library.getUserWithUsername(command.getUsername());
 //                System.out.println("timestamp: " + command.getTimestamp());
+                NormalUser normalUser = library.getUserWithUsername(command.getUsername());
                 if (normalUser != null) {
                     if (!normalUser.getOnline()) {
                         offline = true;

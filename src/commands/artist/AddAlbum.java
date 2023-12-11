@@ -81,6 +81,9 @@ public class AddAlbum extends Command {
 
                 Album newAlbum = new Album(getName(), getReleaseYear(), getDescription(), getSongs());
                 artist.addAlbum(newAlbum);
+
+                library.addSongsFromAlbum(newAlbum);
+
                 out.put(Output.MESSAGE, getUsername() + Output.NEW_ALBUM_ADD);
             }
         }

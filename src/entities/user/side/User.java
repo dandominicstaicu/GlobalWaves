@@ -1,6 +1,7 @@
 package entities.user.side;
 
 import common.UserTypes;
+import entities.user.side.pages.Page;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
@@ -13,6 +14,7 @@ public abstract class User {
     private int age;
     private String city;
     private UserTypes userType;
+    private Page currentPage;
 
 //    public abstract boolean isNormalUser();
 

@@ -1,11 +1,13 @@
 package entities;
 
 import common.UserTypes;
+import entities.playable.Album;
 import entities.playable.audio_files.Episode;
 import entities.playable.Playlist;
 import entities.playable.Podcast;
 import entities.playable.audio_files.Song;
 import entities.user.side.*;
+import entities.user.side.pages.HomePage;
 import fileio.input.PodcastInput;
 import fileio.input.EpisodeInput;
 import fileio.input.LibraryInput;
@@ -130,7 +132,8 @@ public final class Library {
 
         // Convert each UserInput to User and add to library
         for (UserInput userInput : libraryInput.getUsers()) {
-            NormalUser normalUser = new NormalUser(userInput.getUsername(), userInput.getAge(), userInput.getCity());
+            HomePage homePage = new HomePage();
+            NormalUser normalUser = new NormalUser(userInput.getUsername(), userInput.getAge(), userInput.getCity(), homePage);
             libraryInstance.addUser(normalUser);
         }
 
@@ -145,10 +148,11 @@ public final class Library {
      * @return The User object with the specified username, or null if not found.
      */
     public NormalUser getUserWithUsername(final String username) {
-        for (User normalUser : users) {
-            if (normalUser.getUserType() == UserTypes.NORMAL_USER
-                && normalUser.getUsername().equals(username)) {
-                return (NormalUser) normalUser;
+        for (User user : users) {
+//            System.out.println("pula");
+            if (user.getUserType() == UserTypes.NORMAL_USER
+                && user.getUsername().equals(username)) {
+                return (NormalUser) user;
             }
         }
 
@@ -293,4 +297,9 @@ public final class Library {
         }
         return normalUsers;
     }
+
+    public void addSongsFromAlbum(Album album) {
+        songs.addAll(album.getSongs());
+    }
+
 }
