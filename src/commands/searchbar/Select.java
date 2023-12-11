@@ -6,6 +6,7 @@ import commands.Command;
 import common.Output;
 import entities.Library;
 import entities.playable.Playable;
+import entities.user.side.NormalUser;
 import entities.user.side.UserPlayer;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -49,7 +50,15 @@ public class Select extends Command {
             return;
         }
 
-        UserPlayer userPlayer = lib.getUserWithUsername(getUsername()).getPlayer();
+        NormalUser normalUser = lib.getUserWithUsername(getUsername());
+
+        if (normalUser == null) {
+            System.out.println("User not found. is null in select");
+            return;
+        }
+
+        UserPlayer userPlayer = normalUser.getPlayer();
+
         List<Playable> lastSearchResults = userPlayer.getSearchBar().getLastSearchResults();
 
         ObjectNode out = outputs.addObject();

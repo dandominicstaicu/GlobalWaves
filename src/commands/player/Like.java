@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
 import common.Output;
 import entities.Library;
+import entities.user.side.NormalUser;
 import entities.user.side.UserPlayer;
 import entities.playable.audio_files.Song;
 import lombok.AllArgsConstructor;
@@ -49,7 +50,14 @@ public class Like extends Command {
         out.put(Output.USER, getUsername());
         out.put(Output.TIMESTAMP, getTimestamp());
 
-        UserPlayer userPlayer = lib.getUserWithUsername(getUsername()).getPlayer();
+        NormalUser normalUser = lib.getUserWithUsername(getUsername());
+
+        if (normalUser == null) {
+            System.out.println("User not found. is null in like");
+            return;
+        }
+
+        UserPlayer userPlayer = normalUser.getPlayer();
 
         if (!userPlayer.playingIndexIsValid()) {
             out.put(Output.MESSAGE, Output.LOAD_LIKE_ERR);

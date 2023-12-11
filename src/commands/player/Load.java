@@ -6,6 +6,8 @@ import commands.Command;
 import common.Output;
 import entities.Library;
 import entities.playable.Playable;
+import entities.user.side.NormalUser;
+import entities.user.side.User;
 import entities.user.side.UserPlayer;
 import lombok.Getter;
 import lombok.Setter;
@@ -47,7 +49,15 @@ public class Load extends Command {
         out.put(Output.USER, getUsername());
         out.put(Output.TIMESTAMP, getTimestamp());
 
-        UserPlayer userPlayer = lib.getUserWithUsername(getUsername()).getPlayer();
+        NormalUser normalUser = lib.getUserWithUsername(getUsername());
+
+        if (normalUser == null) {
+            System.out.println("User not found. is null in load");
+            return;
+        }
+
+        UserPlayer userPlayer = normalUser.getPlayer();
+
         Playable selectedResult = userPlayer.getSearchBar().getSelectedResult();
 
         if (selectedResult == null) {

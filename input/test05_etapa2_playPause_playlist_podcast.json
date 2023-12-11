@@ -305,8 +305,7 @@
   {
     "command": "showPodcasts",
     "username": "soundseeker",
-    "timestamp": 3250,
-    "playlistId": 1
+    "timestamp": 3250
   },
   {
     "command": "addRemoveInPlaylist",

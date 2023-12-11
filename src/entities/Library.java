@@ -1,11 +1,11 @@
 package entities;
 
+import common.UserTypes;
 import entities.playable.audio_files.Episode;
 import entities.playable.Playlist;
 import entities.playable.Podcast;
 import entities.playable.audio_files.Song;
-import entities.user.side.NormalUser;
-import entities.user.side.UserPlayer;
+import entities.user.side.*;
 import fileio.input.PodcastInput;
 import fileio.input.EpisodeInput;
 import fileio.input.LibraryInput;
@@ -14,6 +14,7 @@ import fileio.input.UserInput;
 import lombok.Getter;
 import lombok.Setter;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 @Getter
@@ -24,13 +25,15 @@ public final class Library {
 
     private List<Song> songs;
     private List<Podcast> podcasts;
-    private List<NormalUser> normalUsers;
+//    private List<NormalUser> normalUsers;
+//    private List<PrivilegedUser> privilegedUsers;
+    private List<User> users;
     private List<Playlist> playlists;
 
     private Library() {
         songs = new ArrayList<>();
         podcasts = new ArrayList<>();
-        normalUsers = new ArrayList<>();
+        users = new ArrayList<>();
         playlists = new ArrayList<>();
     }
 
@@ -73,19 +76,19 @@ public final class Library {
     /**
      * Adds a user to the collection.
      *
-     * @param normalUser The user to be added.
+     * @param user The user to be added.
      */
-    public void addUser(final NormalUser normalUser) {
-        normalUsers.add(normalUser);
+    public void addUser(final User user) {
+        users.add(user);
     }
 
     /**
      * Removes a user from the collection.
      *
-     * @param normalUser The user to be removed.
+     * @param user The user to be removed.
      */
-    public void removeUser(final NormalUser normalUser) {
-        normalUsers.remove(normalUser);
+    public void removeUser(final User user) {
+        users.remove(user);
     }
 
     /**
@@ -135,15 +138,39 @@ public final class Library {
     }
 
     /**
-     * Retrieves a User object with the specified username from the library's collection of users.
+     * Retrieves a NormalUser object with the specified username from the library's collection
+     * of users.
      *
      * @param username The username of the user to retrieve.
      * @return The User object with the specified username, or null if not found.
      */
     public NormalUser getUserWithUsername(final String username) {
-        for (NormalUser normalUser : normalUsers) {
-            if (normalUser.getUsername().equals(username)) {
-                return normalUser;
+        for (User normalUser : users) {
+            if (normalUser.getUserType() == UserTypes.NORMAL_USER
+                && normalUser.getUsername().equals(username)) {
+                return (NormalUser) normalUser;
+            }
+        }
+
+        return null;
+    }
+
+    public Artist getArtistWithUsername(final String username) {
+        for (User artist : users) {
+            if (artist.getUserType() == UserTypes.ARTIST
+                    && artist.getUsername().equals(username)) {
+                return (Artist) artist;
+            }
+        }
+
+        return null;
+    }
+
+
+    public User getFromAllUsers(final String username) {
+        for (User user : users) {
+            if (user.getUsername().equals(username)) {
+                return user;
             }
         }
 
@@ -250,5 +277,20 @@ public final class Library {
             // Set the singleton instance to null
             libraryInstance = null;
         }
+    }
+
+    public void decideAddUser (final User user) {
+
+    }
+
+
+    public ArrayList<NormalUser> getNormalUsers() {
+        ArrayList<NormalUser> normalUsers = new ArrayList<>();
+        for (User user : users) {
+            if (user.getUserType() == UserTypes.NORMAL_USER) {
+                normalUsers.add((NormalUser) user);
+            }
+        }
+        return normalUsers;
     }
 }

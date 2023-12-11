@@ -49,6 +49,12 @@ public class Status extends Command {
         out.put(Output.TIMESTAMP, getTimestamp());
 
         NormalUser normalUser = lib.getUserWithUsername(getUsername());
+
+        if (normalUser == null) {
+            System.out.println("User not found. is null in status");
+            return;
+        }
+
         UserPlayer userPlayer = normalUser.getPlayer();
         ObjectNode stats = out.putObject("stats");
 

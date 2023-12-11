@@ -50,6 +50,19 @@ public class Song extends AudioFile implements Playable {
         this.likes = 0;
     }
 
+    @Override
+    public String toString() {
+        return "Song{" +
+                "album='" + album + '\'' +
+                ", tags=" + tags +
+                ", lyrics='" + lyrics + '\'' +
+                ", genre='" + genre + '\'' +
+                ", releaseYear=" + releaseYear +
+                ", artist='" + artist + '\'' +
+                ", likes=" + likes +
+                '}';
+    }
+
     /**
      * Indicates that a song is not empty.
      *

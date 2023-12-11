@@ -102,4 +102,13 @@ public final class Output {
     public static final String ONLINE_USERS = "getOnlineUsers";
     public static final String CONNECTION_STATUS_CHANGED = " has changed status successfully.";
     public static final String IS_OFFLINE = " is offline.";
+    public static final String ADD_USER = "addUser";
+    public static final String USER_ALREADY_TAKEN = " is already taken.";
+    public static final String USER_ADDED = " has been added successfully.";
+    public static final String ADD_ALBUM = "addAlbum";
+    public static final String NOT_ARTIST = " is not an artist.";
+    public static final String SAME_NAME_ALBUM = " has another album with the same name.";
+    public static final String DUPLICATE_SONG_NAMES = " has the same song at least twice in this album.";
+    public static final String NEW_ALBUM_ADD = " has added new album successfully.";
+    public static final String SHOW_ALBUMS = "showAlbums";
 }

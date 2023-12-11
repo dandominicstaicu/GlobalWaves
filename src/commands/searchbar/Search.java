@@ -7,6 +7,7 @@ import commands.Command;
 import common.Constants;
 import common.Output;
 import entities.Library;
+import entities.user.side.NormalUser;
 import entities.user.side.SearchBar;
 import entities.playable.Playable;
 
@@ -66,7 +67,14 @@ public class Search extends Command {
             return;
         }
 
-        UserPlayer userPlayer = lib.getUserWithUsername(getUsername()).getPlayer();
+        NormalUser normalUser = lib.getUserWithUsername(getUsername());
+        if (normalUser == null) {
+            System.out.println("null in search");
+            return;
+        }
+
+        UserPlayer userPlayer = normalUser.getPlayer();
+
         SearchBar bar = userPlayer.getSearchBar();
         List<Playable> searchResult = bar.search(lib, this.type, this.filters, getUsername());
 

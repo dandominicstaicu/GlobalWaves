@@ -1,4 +1,9 @@
 package entities.user.side;
 
-public class Host {
+import common.UserTypes;
+
+public class Host extends PrivilegedUser {
+    public Host(String username, int age, String city) {
+        super(username, age, city, UserTypes.ARTIST);
+    }
 }
