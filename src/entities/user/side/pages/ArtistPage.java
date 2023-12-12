@@ -166,6 +166,14 @@ public class ArtistPage extends User implements Page, Playable {
 
         for (Album album : artistsAlbums) {
             removeSongs.addAll(album.getSongs());
+
+            for (Song song : library.getSongs()) {
+                for (NormalUser user : library.getUsers()) {
+                    if (user.getFavoriteSongs().contains(song)) {
+                        user.likeUnlikeSong(song);
+                    }
+                }
+            }
         }
 
         library.getSongs().removeAll(removeSongs);
