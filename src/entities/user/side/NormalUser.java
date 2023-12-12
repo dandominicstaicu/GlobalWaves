@@ -6,11 +6,8 @@ import entities.playable.Playlist;
 import entities.playable.audio_files.Song;
 import entities.user.side.pages.HomePage;
 import entities.user.side.pages.Page;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -121,10 +118,4 @@ public class NormalUser extends User {
         library.removeUser(this);
         return true;
     }
-
-//    @Override
-//    public boolean isNormalUser() {
-//        return true;
-//    }
-
 }

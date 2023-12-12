@@ -57,7 +57,7 @@ public class HomePage implements Page {
                     .collect(Collectors.joining(", "));
             pageContent.append("[").append(songNames).append("]");
         } else {
-            pageContent.append("No liked songs");
+            pageContent.append("[]");
         }
 
         pageContent.append("\n\n");

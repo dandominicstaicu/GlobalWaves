@@ -139,4 +139,10 @@ public final class Output {
     public static final String ADD_ANNOUNCE = "addAnnouncement";
     public static final String ANNOUNCE_ADD_SUCCESS = " has successfully added new announcement.";
     public static final String REMOVE_ANNOUNCE_SUCCESS = " has successfully deleted the announcement.";
+    public static final String REMOVE_ALBUM = "removeAlbum";
+    public static final String NO_ALBUM_WITH_NAME = " doesn't have an album with the given name.";
+    public static final String DELETE_ALBUM_SUCCESS = " deleted the album successfully.";
+    public static final String DELETE_ALBUM_FAIL = " can't delete this album.";
+    public static final String CHANGE_PAGE = "changePage";
+
 }

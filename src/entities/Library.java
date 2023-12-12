@@ -290,21 +290,6 @@ public final class Library {
         }
     }
 
-    public void decideAddUser(final User user) {
-
-    }
-
-
-//    public ArrayList<NormalUser> getNormalUsers() {
-//        ArrayList<NormalUser> normalUsers = new ArrayList<>();
-//        for (User user : users) {
-//            if (user.getUserType() == UserTypes.NORMAL_USER) {
-//                normalUsers.add((NormalUser) user);
-//            }
-//        }
-//        return normalUsers;
-//    }
-
     public void addSongsFromAlbum(Album album) {
         songs.addAll(album.getSongs());
     }
@@ -333,6 +318,10 @@ public final class Library {
 
     public void addAlbum(final Album album) {
         albums.add(album);
+    }
+
+    public void removeAlbum(final Album album) {
+        albums.remove(album);
     }
 
     public ArrayList<Album> getArtistsAlbums(final String artistsName) {
@@ -367,4 +356,50 @@ public final class Library {
 
         return result;
     }
+
+    public boolean hasAlbumWithGivenName(final String username, final String albumName) {
+        for (Album album : albums) {
+            if (album.getOwner().equals(username)) {
+                if (album.getName().equals(albumName)) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
+    public Album getAlbumOfUserWithName(final String artistsName, final String albumName) {
+        ArrayList<Album> artistsAlbums = getArtistsAlbums(artistsName);
+
+        for (Album album : artistsAlbums) {
+            if (album.getName().equals(albumName)) {
+                return album;
+            }
+        }
+
+        return null;
+    }
+
+    public boolean decideDeleteAlbum(final Album album) {
+        for (NormalUser user : users) {
+            UserPlayer player = user.getPlayer();
+            if (player.getLoadedContentReference() != null) {
+                if (player.getLoadedContentReference().containsAlbum(album)) {
+                    return true;
+                }
+            }
+        }
+
+        for (Playlist playlist : playlists) {
+            for (Song albumSong : album.getSongs()) {
+                if (playlist.getSongs().contains(albumSong)) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
 }

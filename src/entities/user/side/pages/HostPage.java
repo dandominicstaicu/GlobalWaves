@@ -39,19 +39,6 @@ public class HostPage extends User implements Page, Playable {
         pageContent.append("\n\n");
 
         // Formatting the announcements list
-//        pageContent.append("Announcements:\n\t");
-//        if (!announcements.isEmpty()) {
-//            String announcementInfo = announcements.stream()
-//                    .map(announcement -> announcement.getName() + ":\n\t" + announcement.getDescription())
-//                    .collect(Collectors.joining("\n, "));
-//            pageContent.append("[").append(announcementInfo).append("]");
-//        } else {
-//            pageContent.append("[]");
-//        }
-//
-//
-//        return pageContent.toString();
-
         pageContent.append("Announcements:\n\t");
         if (!announcements.isEmpty()) {
             String announcementInfo = announcements.stream()
@@ -154,22 +141,3 @@ public class HostPage extends User implements Page, Playable {
         user.setCurrentPage(this);
     }
 }
-
-
-//        pageContent.append("Announcements:\n\t");
-//        if (!announcements.isEmpty()) {
-//            String announcementInfo = announcements.stream()
-//                    .map(announcement -> announcement.getName() + "\n\t" + announcement.getDescription())
-//                    .collect(Collectors.joining("\n, "));
-//            pageContent.append("[").append(announcementInfo).append("]");
-//        } else {
-//            pageContent.append("[]");
-//        }
-
-
-// private String getEpisodeInfo(Podcast podcast) {
-//     return podcast.getEpisodes().stream()
-//            .map(episode -> episode.getName() + " - " + episode.getDescription())
-//            .collect(Collectors.joining(", "));
-// }
-

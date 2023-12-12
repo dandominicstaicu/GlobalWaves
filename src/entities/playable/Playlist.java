@@ -99,4 +99,15 @@ public class Playlist implements Playable {
         }
         return totalLikes;
     }
+
+    @Override
+    public boolean containsAlbum(Album album) {
+        for (Song albumSong : album.getSongs()) {
+            if (this.songs.contains(albumSong)) {
+                return true;
+            }
+        }
+
+        return false;
+    }
 }

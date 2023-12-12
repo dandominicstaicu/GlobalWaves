@@ -63,4 +63,9 @@ public class Album implements Playable {
     public boolean isLoadedInPlayer(String username) {
         return getOwner().equals(username);
     }
+
+    @Override
+    public boolean containsAlbum(Album album) {
+        return album.equals(this);
+    }
 }

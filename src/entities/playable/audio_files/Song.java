@@ -1,5 +1,6 @@
 package entities.playable.audio_files;
 
+import entities.playable.Album;
 import entities.playable.Playable;
 import entities.user.side.UserPlayer;
 import lombok.Getter;
@@ -113,5 +114,16 @@ public class Song extends AudioFile implements Playable {
     @Override
     public boolean isLoadedInPlayer(String username) {
         return getArtist().equals(username);
+    }
+
+    @Override
+    public boolean containsAlbum(Album album) {
+        for (Song albumSong : album.getSongs()) {
+            if (albumSong.equals(this)) {
+                return true;
+            }
+        }
+
+        return false;
     }
 }

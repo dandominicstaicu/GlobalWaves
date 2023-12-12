@@ -51,4 +51,9 @@ public interface Playable {
         searchBar.setSelectedResult(this);
         searchBar.setLastSearchResults(null);
     }
+
+    default boolean containsAlbum(Album album) {
+        return false;
+    }
+
 }
