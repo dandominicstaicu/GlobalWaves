@@ -115,7 +115,45 @@ public class NormalUser extends User {
 
     @Override
     public boolean handleDeletion(Library library) {
+        for (NormalUser user : library.getUsers()) {
+            if (user.getPlayer().getLoadedContentReference() != null) {
+
+                if (user.getPlayer().getLoadedContentReference().isLoadedInPlayer(this.getUsername())) {
+                    if (user.getPlayer().getIsPlaying()) {
+                        return false;
+                    }
+                }
+            }
+        }
+
+
+        List<Playlist> libPlaytlists = library.getPlaylists();
+        List<Playlist> rmvPlaylists = new ArrayList<>();
+        for (Playlist playlist : libPlaytlists) {
+            if (playlist.getOwner().equals(this.getUsername())) {
+                rmvPlaylists.add(playlist);
+            }
+        }
+
+        library.getPlaylists().removeAll(rmvPlaylists);
+
+        List<NormalUser> libUsers = library.getUsers();
+
+        for (NormalUser user : libUsers) {
+            List<Playlist> followedPlaylistsByUser = user.getFollowedPlaylists();
+            rmvPlaylists = new ArrayList<>();
+            for (Playlist playlist : followedPlaylistsByUser) {
+                if (playlist.getOwner().equals(this.getUsername())) {
+                    rmvPlaylists.add(playlist);
+                }
+            }
+
+            user.getFollowedPlaylists().removeAll(rmvPlaylists);
+        }
+
         library.removeUser(this);
+
+
         return true;
     }
 }

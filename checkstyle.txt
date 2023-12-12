@@ -66,6 +66,7 @@ Starting audit...
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/user/side/pages/LikedContentPage.java:25:5: Missing a Javadoc comment. [MissingJavadocMethod]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/user/side/pages/LikedContentPage.java:25:43: Parameter user should be final. [FinalParameters]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/user/side/pages/LikedContentPage.java:30:5: Class 'LikedContentPage' looks like designed for extension (can be subclassed), but the method 'printPage' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LikedContentPage' final or making the method 'printPage' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/user/side/pages/LikedContentPage.java:41: Line is longer than 100 characters (found 116). [LineLength]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/user/side/pages/LikedContentPage.java:54: Line is longer than 100 characters (found 145). [LineLength]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/user/side/pages/HostPage.java:9:26: Using the '.*' form of import should be avoided - entities.user.side.*. [AvoidStarImport]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/user/side/pages/HostPage.java:20:29: Variable 'announcements' must be private and have accessor methods. [VisibilityModifier]
@@ -120,6 +121,7 @@ Starting audit...
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/user/side/NormalUser.java:112:25: Parameter library should be final. [FinalParameters]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/user/side/NormalUser.java:116:5: Class 'NormalUser' looks like designed for extension (can be subclassed), but the method 'handleDeletion' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'NormalUser' final or making the method 'handleDeletion' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/user/side/NormalUser.java:117:35: Parameter library should be final. [FinalParameters]
+[ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/user/side/NormalUser.java:121: Line is longer than 100 characters (found 104). [LineLength]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/playable/Playable.java:42:5: Missing a Javadoc comment. [MissingJavadocMethod]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/playable/Playable.java:46:5: Missing a Javadoc comment. [MissingJavadocMethod]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/playable/Playable.java:55:5: Missing a Javadoc comment. [MissingJavadocMethod]
@@ -338,4 +340,4 @@ Starting audit...
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/commands/searchbar/Search.java:57:69: Parameter offline should be final. [FinalParameters]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/commands/searchbar/Select.java:47:69: Parameter offline should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 338 errors.
+Checkstyle ends with 340 errors.

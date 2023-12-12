@@ -146,7 +146,7 @@ public class ArtistPage extends User implements Page, Playable {
 
             if (user.getPlayer().getLoadedContentReference() != null) {
 //                System.out.println("loaded content is not null");
-                System.out.println(user.getPlayer().getLoadedContentReference().getName());
+//                System.out.println(user.getPlayer().getLoadedContentReference().getName());
 
                 if (user.getPlayer().getLoadedContentReference().isLoadedInPlayer(this.getUsername())) {
 //                    System.out.println("the album is loaded in a player");

@@ -8871,7 +8871,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 10290,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -8912,7 +8912,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 10290,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -8932,7 +8932,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 10300,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -8973,7 +8973,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 10300,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -8993,7 +8993,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 10310,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -9034,7 +9034,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 10310,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -9054,7 +9054,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10320,
-  "message" : "Liked songs:\n\t[Night Ethereal]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -9095,7 +9095,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10320,
-  "message" : "Liked songs:\n\t[Night Ethereal, Night Aurora, Sunset Celestial]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -9115,7 +9115,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10330,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -9156,7 +9156,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10330,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Mystique, Essence Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -9176,7 +9176,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10340,
-  "message" : "Liked songs:\n\t[Harmony Pandora]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Pandora - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -9217,7 +9217,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10340,
-  "message" : "Liked songs:\n\t[Harmony Pandora, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Pandora - jsimpson, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -9237,7 +9237,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 10350,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -9278,7 +9278,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 10350,
-  "message" : "Liked songs:\n\t[Happier, Crescendo Twilight, Odyssey Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -9298,7 +9298,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10360,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -9339,7 +9339,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10360,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -9359,7 +9359,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 10370,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -9400,7 +9400,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 10370,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -9481,7 +9481,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 10390,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -9522,7 +9522,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 10390,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -9542,7 +9542,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 10400,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -9583,7 +9583,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 10400,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -9603,7 +9603,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 10410,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -9644,7 +9644,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 10410,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -9664,7 +9664,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10420,
-  "message" : "Liked songs:\n\t[Night Ethereal, Night Aurora, Sunset Celestial]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -9705,7 +9705,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10420,
-  "message" : "Liked songs:\n\t[Night Ethereal, Night Aurora, Sunset Celestial]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -9725,7 +9725,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10430,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Mystique, Essence Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -9766,7 +9766,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10430,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Mystique, Essence Rapture, Heart Utopia, Solitude Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Heart Utopia - cbutler, Solitude Reflection - cbutler]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -9786,7 +9786,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10440,
-  "message" : "Liked songs:\n\t[Harmony Pandora, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Pandora - jsimpson, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -9827,7 +9827,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10440,
-  "message" : "Liked songs:\n\t[Harmony Pandora, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Pandora - jsimpson, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -9847,7 +9847,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 10450,
-  "message" : "Liked songs:\n\t[Happier, Crescendo Twilight, Odyssey Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -9888,7 +9888,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 10450,
-  "message" : "Liked songs:\n\t[Happier, Crescendo Twilight, Odyssey Reflection, Rapture Echo, Essence Crescendo]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Rapture Echo - mccarthyluis, Essence Crescendo - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -9908,7 +9908,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10460,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -9949,7 +9949,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10460,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -9969,7 +9969,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 10470,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -10010,7 +10010,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 10470,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -10091,7 +10091,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 10490,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -10132,7 +10132,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 10490,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -10152,7 +10152,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 10500,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -10193,7 +10193,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 10500,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -10213,7 +10213,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 10510,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -10254,7 +10254,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 10510,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -10274,7 +10274,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10520,
-  "message" : "Liked songs:\n\t[Night Ethereal, Night Aurora, Sunset Celestial]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -10315,7 +10315,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10520,
-  "message" : "Liked songs:\n\t[Night Ethereal, Night Aurora, Sunset Celestial, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -10335,7 +10335,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10530,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Mystique, Essence Rapture, Heart Utopia, Solitude Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Heart Utopia - cbutler, Solitude Reflection - cbutler]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -10376,7 +10376,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10530,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Mystique, Essence Rapture, Heart Utopia, Solitude Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Heart Utopia - cbutler, Solitude Reflection - cbutler]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -10396,7 +10396,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10540,
-  "message" : "Liked songs:\n\t[Harmony Pandora, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Pandora - jsimpson, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -10437,7 +10437,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10540,
-  "message" : "Liked songs:\n\t[Harmony Pandora, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Pandora - jsimpson, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -10457,7 +10457,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 10550,
-  "message" : "Liked songs:\n\t[Happier, Crescendo Twilight, Odyssey Reflection, Rapture Echo, Essence Crescendo]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Rapture Echo - mccarthyluis, Essence Crescendo - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -10498,7 +10498,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 10550,
-  "message" : "Liked songs:\n\t[Happier, Crescendo Twilight, Odyssey Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -10518,7 +10518,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10560,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -10559,7 +10559,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10560,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man, Heart Mystique, Essence Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -10579,7 +10579,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 10570,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -10620,7 +10620,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 10570,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -10681,7 +10681,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 10580,
-  "message" : "Liked songs:\n\t[Voyage Paradox, Night Harmony]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Voyage Paradox - jacobdean, Night Harmony - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -10701,7 +10701,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 10590,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -10742,7 +10742,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 10590,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -10762,7 +10762,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 10600,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -10803,7 +10803,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 10600,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -10823,7 +10823,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 10610,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -10864,7 +10864,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 10610,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -10884,7 +10884,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10620,
-  "message" : "Liked songs:\n\t[Night Ethereal, Night Aurora, Sunset Celestial, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -10925,7 +10925,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10620,
-  "message" : "Liked songs:\n\t[Night Ethereal, Night Aurora, Sunset Celestial, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -10945,7 +10945,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10630,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Mystique, Essence Rapture, Heart Utopia, Solitude Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Heart Utopia - cbutler, Solitude Reflection - cbutler]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -10986,7 +10986,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10630,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Mystique, Essence Rapture, Heart Utopia, Solitude Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Heart Utopia - cbutler, Solitude Reflection - cbutler]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -11006,7 +11006,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10640,
-  "message" : "Liked songs:\n\t[Harmony Pandora, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Pandora - jsimpson, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -11047,7 +11047,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10640,
-  "message" : "Liked songs:\n\t[Harmony Pandora]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Pandora - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -11067,7 +11067,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 10650,
-  "message" : "Liked songs:\n\t[Happier, Crescendo Twilight, Odyssey Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -11108,7 +11108,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 10650,
-  "message" : "Liked songs:\n\t[Happier, Crescendo Twilight, Odyssey Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -11128,7 +11128,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10660,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man, Heart Mystique, Essence Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -11169,7 +11169,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10660,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man, Heart Mystique, Essence Rapture, Voyage Paradox, Night Harmony]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Voyage Paradox - jacobdean, Night Harmony - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -11189,7 +11189,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 10670,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -11230,7 +11230,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 10670,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Whisper Rapture, Heart Dance]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -11250,7 +11250,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 10680,
-  "message" : "Liked songs:\n\t[Voyage Paradox, Night Harmony]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Voyage Paradox - jacobdean, Night Harmony - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -11291,7 +11291,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 10680,
-  "message" : "Liked songs:\n\t[Voyage Paradox, Night Harmony, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Voyage Paradox - jacobdean, Night Harmony - jacobdean, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -11311,7 +11311,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 10690,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -11352,7 +11352,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 10690,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -11372,7 +11372,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 10700,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -11413,7 +11413,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 10700,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -11433,7 +11433,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 10710,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -11474,7 +11474,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 10710,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -11494,7 +11494,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10720,
-  "message" : "Liked songs:\n\t[Night Ethereal, Night Aurora, Sunset Celestial, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -11535,7 +11535,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10720,
-  "message" : "Liked songs:\n\t[Night Ethereal, Night Aurora, Sunset Celestial, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -11555,7 +11555,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10730,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Mystique, Essence Rapture, Heart Utopia, Solitude Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Heart Utopia - cbutler, Solitude Reflection - cbutler]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -11596,7 +11596,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10730,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Mystique, Essence Rapture, Heart Utopia, Solitude Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Heart Utopia - cbutler, Solitude Reflection - cbutler]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -11616,7 +11616,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10740,
-  "message" : "Liked songs:\n\t[Harmony Pandora]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Pandora - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -11657,7 +11657,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10740,
-  "message" : "Liked songs:\n\t[Harmony Pandora, Starlight Rapture, Pinnacle Cascade]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Pandora - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -11677,7 +11677,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 10750,
-  "message" : "Liked songs:\n\t[Happier, Crescendo Twilight, Odyssey Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -11718,7 +11718,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 10750,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -11738,7 +11738,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10760,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man, Heart Mystique, Essence Rapture, Voyage Paradox, Night Harmony]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Voyage Paradox - jacobdean, Night Harmony - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -11779,7 +11779,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10760,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man, Heart Mystique, Essence Rapture, Voyage Paradox, Night Harmony]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Voyage Paradox - jacobdean, Night Harmony - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -11799,7 +11799,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 10770,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Whisper Rapture, Heart Dance]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -11840,7 +11840,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 10770,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Whisper Rapture, Heart Dance, Starlight Rapture, Pinnacle Cascade]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -11860,7 +11860,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 10780,
-  "message" : "Liked songs:\n\t[Voyage Paradox, Night Harmony, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Voyage Paradox - jacobdean, Night Harmony - jacobdean, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -11901,7 +11901,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 10780,
-  "message" : "Liked songs:\n\t[Voyage Paradox, Night Harmony, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Voyage Paradox - jacobdean, Night Harmony - jacobdean, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -11921,7 +11921,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 10790,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -11962,7 +11962,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 10790,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity, Dream Bliss, Bliss Sunset, Utopia Twilight, Melody Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Dream Bliss - amanda16, Bliss Sunset - amanda16, Utopia Twilight - amanda16, Melody Reflection - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -11982,7 +11982,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 10800,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -12023,7 +12023,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 10800,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -12043,7 +12043,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 10810,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -12084,7 +12084,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 10810,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey, Soul Pandora, Adventure Infinity, Twilight Velvet, Velvet Pulse]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Twilight Velvet - anthony22, Velvet Pulse - anthony22]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -12104,7 +12104,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10820,
-  "message" : "Liked songs:\n\t[Night Ethereal, Night Aurora, Sunset Celestial, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -12145,7 +12145,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10820,
-  "message" : "Liked songs:\n\t[Night Ethereal, Night Aurora, Sunset Celestial, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Starlight Rapture, Pinnacle Cascade]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Starlight Rapture - glester, Pinnacle Cascade - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -12165,7 +12165,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10830,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Mystique, Essence Rapture, Heart Utopia, Solitude Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Heart Utopia - cbutler, Solitude Reflection - cbutler]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -12206,7 +12206,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10830,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Mystique, Essence Rapture, Heart Utopia, Solitude Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Heart Utopia - cbutler, Solitude Reflection - cbutler]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -12226,7 +12226,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10840,
-  "message" : "Liked songs:\n\t[Harmony Pandora, Starlight Rapture, Pinnacle Cascade]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Pandora - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -12267,7 +12267,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10840,
-  "message" : "Liked songs:\n\t[Harmony Pandora, Starlight Rapture, Pinnacle Cascade, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Pandora - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -12287,7 +12287,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 10850,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -12328,7 +12328,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 10850,
-  "message" : "Liked songs:\n\t[Happier, Heart Mystique, Essence Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Heart Mystique - glester, Essence Rapture - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -12348,7 +12348,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10860,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man, Heart Mystique, Essence Rapture, Voyage Paradox, Night Harmony]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Voyage Paradox - jacobdean, Night Harmony - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -12389,7 +12389,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10860,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man, Heart Mystique, Essence Rapture, Voyage Paradox, Night Harmony]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Voyage Paradox - jacobdean, Night Harmony - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -12409,7 +12409,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 10870,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Whisper Rapture, Heart Dance, Starlight Rapture, Pinnacle Cascade]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -12450,7 +12450,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 10870,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Whisper Rapture, Heart Dance, Starlight Rapture, Pinnacle Cascade, Mystique Echo, Pandora Odyssey]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -12470,7 +12470,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 10880,
-  "message" : "Liked songs:\n\t[Voyage Paradox, Night Harmony, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Voyage Paradox - jacobdean, Night Harmony - jacobdean, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -12511,7 +12511,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 10880,
-  "message" : "Liked songs:\n\t[Voyage Paradox, Night Harmony, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Night Aurora, Sunset Celestial]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Voyage Paradox - jacobdean, Night Harmony - jacobdean, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -12531,7 +12531,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 10890,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity, Dream Bliss, Bliss Sunset, Utopia Twilight, Melody Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Dream Bliss - amanda16, Bliss Sunset - amanda16, Utopia Twilight - amanda16, Melody Reflection - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -12572,7 +12572,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 10890,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity, Dream Bliss, Bliss Sunset, Utopia Twilight, Melody Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Dream Bliss - amanda16, Bliss Sunset - amanda16, Utopia Twilight - amanda16, Melody Reflection - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -12592,7 +12592,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 10900,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -12633,7 +12633,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 10900,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Heart Utopia, Solitude Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Heart Utopia - cbutler, Solitude Reflection - cbutler]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -12653,7 +12653,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 10910,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey, Soul Pandora, Adventure Infinity, Twilight Velvet, Velvet Pulse]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Twilight Velvet - anthony22, Velvet Pulse - anthony22]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -12694,7 +12694,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 10910,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey, Soul Pandora, Adventure Infinity, Twilight Velvet, Velvet Pulse, Crescendo Twilight, Odyssey Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -12714,7 +12714,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10920,
-  "message" : "Liked songs:\n\t[Night Ethereal, Night Aurora, Sunset Celestial, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Starlight Rapture, Pinnacle Cascade]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Starlight Rapture - glester, Pinnacle Cascade - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -12755,7 +12755,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10920,
-  "message" : "Liked songs:\n\t[Night Ethereal, Night Aurora, Sunset Celestial, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Starlight Rapture, Pinnacle Cascade, Whisper Rapture, Heart Dance]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Starlight Rapture - glester, Pinnacle Cascade - glester, Whisper Rapture - jsimpson, Heart Dance - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -12775,7 +12775,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10930,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Mystique, Essence Rapture, Heart Utopia, Solitude Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Heart Utopia - cbutler, Solitude Reflection - cbutler]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -12816,7 +12816,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10930,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Mystique, Essence Rapture, Heart Utopia, Solitude Reflection, Starlight Rapture, Pinnacle Cascade]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Heart Utopia - cbutler, Solitude Reflection - cbutler, Starlight Rapture - glester, Pinnacle Cascade - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -12836,7 +12836,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10940,
-  "message" : "Liked songs:\n\t[Harmony Pandora, Starlight Rapture, Pinnacle Cascade, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Pandora - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -12877,7 +12877,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10940,
-  "message" : "Liked songs:\n\t[Harmony Pandora, Starlight Rapture, Pinnacle Cascade, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Pandora - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -12897,7 +12897,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 10950,
-  "message" : "Liked songs:\n\t[Happier, Heart Mystique, Essence Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Heart Mystique - glester, Essence Rapture - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -12938,7 +12938,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 10950,
-  "message" : "Liked songs:\n\t[Happier, Heart Mystique, Essence Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Heart Mystique - glester, Essence Rapture - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -12958,7 +12958,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10960,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man, Heart Mystique, Essence Rapture, Voyage Paradox, Night Harmony]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Voyage Paradox - jacobdean, Night Harmony - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -12999,7 +12999,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10960,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man, Heart Mystique, Essence Rapture, Voyage Paradox, Night Harmony, Crescendo Twilight, Odyssey Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -13019,7 +13019,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 10970,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Whisper Rapture, Heart Dance, Starlight Rapture, Pinnacle Cascade, Mystique Echo, Pandora Odyssey]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -13060,7 +13060,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 10970,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Whisper Rapture, Heart Dance, Starlight Rapture, Pinnacle Cascade, Mystique Echo, Pandora Odyssey, Voyage Paradox, Night Harmony]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Voyage Paradox - jacobdean, Night Harmony - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -13080,7 +13080,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 10980,
-  "message" : "Liked songs:\n\t[Voyage Paradox, Night Harmony, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Night Aurora, Sunset Celestial]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Voyage Paradox - jacobdean, Night Harmony - jacobdean, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -13121,7 +13121,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 10980,
-  "message" : "Liked songs:\n\t[Voyage Paradox, Night Harmony, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Night Aurora, Sunset Celestial]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Voyage Paradox - jacobdean, Night Harmony - jacobdean, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -13141,7 +13141,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 10990,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity, Dream Bliss, Bliss Sunset, Utopia Twilight, Melody Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Dream Bliss - amanda16, Bliss Sunset - amanda16, Utopia Twilight - amanda16, Melody Reflection - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -13182,7 +13182,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 10990,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity, Dream Bliss, Bliss Sunset, Utopia Twilight, Melody Reflection, Starlight Rapture, Pinnacle Cascade]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Dream Bliss - amanda16, Bliss Sunset - amanda16, Utopia Twilight - amanda16, Melody Reflection - amanda16, Starlight Rapture - glester, Pinnacle Cascade - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -13202,7 +13202,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11000,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Heart Utopia, Solitude Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Heart Utopia - cbutler, Solitude Reflection - cbutler]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -13243,7 +13243,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11000,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Heart Utopia, Solitude Reflection, Night Aurora, Sunset Celestial]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Heart Utopia - cbutler, Solitude Reflection - cbutler, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -13263,7 +13263,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11010,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey, Soul Pandora, Adventure Infinity, Twilight Velvet, Velvet Pulse, Crescendo Twilight, Odyssey Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -13304,7 +13304,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11010,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey, Soul Pandora, Adventure Infinity, Twilight Velvet, Velvet Pulse, Crescendo Twilight, Odyssey Reflection, Heart Utopia, Solitude Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Heart Utopia - cbutler, Solitude Reflection - cbutler]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -13324,7 +13324,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11020,
-  "message" : "Liked songs:\n\t[Night Ethereal, Night Aurora, Sunset Celestial, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Starlight Rapture, Pinnacle Cascade, Whisper Rapture, Heart Dance]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Starlight Rapture - glester, Pinnacle Cascade - glester, Whisper Rapture - jsimpson, Heart Dance - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -13365,7 +13365,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11020,
-  "message" : "Liked songs:\n\t[Night Ethereal, Night Aurora, Sunset Celestial, Crescendo Twilight, Odyssey Reflection, Starlight Rapture, Pinnacle Cascade, Whisper Rapture, Heart Dance]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Starlight Rapture - glester, Pinnacle Cascade - glester, Whisper Rapture - jsimpson, Heart Dance - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -13385,7 +13385,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11030,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Mystique, Essence Rapture, Heart Utopia, Solitude Reflection, Starlight Rapture, Pinnacle Cascade]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Heart Utopia - cbutler, Solitude Reflection - cbutler, Starlight Rapture - glester, Pinnacle Cascade - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -13426,7 +13426,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11030,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Utopia, Solitude Reflection, Starlight Rapture, Pinnacle Cascade]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Utopia - cbutler, Solitude Reflection - cbutler, Starlight Rapture - glester, Pinnacle Cascade - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -13446,7 +13446,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11040,
-  "message" : "Liked songs:\n\t[Harmony Pandora, Starlight Rapture, Pinnacle Cascade, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Pandora - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -13487,7 +13487,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11040,
-  "message" : "Liked songs:\n\t[Harmony Pandora, Starlight Rapture, Pinnacle Cascade, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Pandora - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -13507,7 +13507,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11050,
-  "message" : "Liked songs:\n\t[Happier, Heart Mystique, Essence Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Heart Mystique - glester, Essence Rapture - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -13548,7 +13548,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11050,
-  "message" : "Liked songs:\n\t[Happier, Heart Mystique, Essence Rapture, Harmony Love, Harmony Pandora]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Heart Mystique - glester, Essence Rapture - glester, Harmony Love - jsimpson, Harmony Pandora - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -13568,7 +13568,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11060,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man, Heart Mystique, Essence Rapture, Voyage Paradox, Night Harmony, Crescendo Twilight, Odyssey Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -13609,7 +13609,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11060,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man, Heart Mystique, Essence Rapture, Voyage Paradox, Night Harmony, Crescendo Twilight, Odyssey Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -13629,7 +13629,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 11070,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Whisper Rapture, Heart Dance, Starlight Rapture, Pinnacle Cascade, Mystique Echo, Pandora Odyssey, Voyage Paradox, Night Harmony]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Voyage Paradox - jacobdean, Night Harmony - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -13670,7 +13670,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 11070,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Whisper Rapture, Heart Dance, Starlight Rapture, Pinnacle Cascade, Mystique Echo, Pandora Odyssey, Voyage Paradox, Night Harmony, Night Aurora, Sunset Celestial]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -13690,7 +13690,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11080,
-  "message" : "Liked songs:\n\t[Voyage Paradox, Night Harmony, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Night Aurora, Sunset Celestial]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Voyage Paradox - jacobdean, Night Harmony - jacobdean, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -13731,7 +13731,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11080,
-  "message" : "Liked songs:\n\t[Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Night Aurora, Sunset Celestial]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -13751,7 +13751,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11090,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity, Dream Bliss, Bliss Sunset, Utopia Twilight, Melody Reflection, Starlight Rapture, Pinnacle Cascade]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Dream Bliss - amanda16, Bliss Sunset - amanda16, Utopia Twilight - amanda16, Melody Reflection - amanda16, Starlight Rapture - glester, Pinnacle Cascade - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -13792,7 +13792,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11090,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity, Utopia Twilight, Melody Reflection, Starlight Rapture, Pinnacle Cascade]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Utopia Twilight - amanda16, Melody Reflection - amanda16, Starlight Rapture - glester, Pinnacle Cascade - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -13812,7 +13812,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11100,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Heart Utopia, Solitude Reflection, Night Aurora, Sunset Celestial]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Heart Utopia - cbutler, Solitude Reflection - cbutler, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -13853,7 +13853,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11100,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Heart Utopia, Solitude Reflection, Night Aurora, Sunset Celestial]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Heart Utopia - cbutler, Solitude Reflection - cbutler, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -13873,7 +13873,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11110,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey, Soul Pandora, Adventure Infinity, Twilight Velvet, Velvet Pulse, Crescendo Twilight, Odyssey Reflection, Heart Utopia, Solitude Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Heart Utopia - cbutler, Solitude Reflection - cbutler]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -13914,7 +13914,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11110,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey, Soul Pandora, Adventure Infinity, Twilight Velvet, Velvet Pulse, Crescendo Twilight, Odyssey Reflection, Heart Utopia, Solitude Reflection, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Heart Utopia - cbutler, Solitude Reflection - cbutler, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -13934,7 +13934,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11120,
-  "message" : "Liked songs:\n\t[Night Ethereal, Night Aurora, Sunset Celestial, Crescendo Twilight, Odyssey Reflection, Starlight Rapture, Pinnacle Cascade, Whisper Rapture, Heart Dance]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Starlight Rapture - glester, Pinnacle Cascade - glester, Whisper Rapture - jsimpson, Heart Dance - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -13975,7 +13975,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11120,
-  "message" : "Liked songs:\n\t[Night Ethereal, Night Aurora, Sunset Celestial, Crescendo Twilight, Odyssey Reflection, Starlight Rapture, Pinnacle Cascade, Whisper Rapture, Heart Dance, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Starlight Rapture - glester, Pinnacle Cascade - glester, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -13995,7 +13995,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11130,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Utopia, Solitude Reflection, Starlight Rapture, Pinnacle Cascade]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Utopia - cbutler, Solitude Reflection - cbutler, Starlight Rapture - glester, Pinnacle Cascade - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -14036,7 +14036,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11130,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Utopia, Solitude Reflection, Starlight Rapture, Pinnacle Cascade, Twilight Velvet, Velvet Pulse]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Utopia - cbutler, Solitude Reflection - cbutler, Starlight Rapture - glester, Pinnacle Cascade - glester, Twilight Velvet - anthony22, Velvet Pulse - anthony22]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -14056,7 +14056,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11140,
-  "message" : "Liked songs:\n\t[Harmony Pandora, Starlight Rapture, Pinnacle Cascade, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Pandora - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14097,7 +14097,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11140,
-  "message" : "Liked songs:\n\t[Harmony Pandora, Starlight Rapture, Pinnacle Cascade, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Pandora - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -14117,7 +14117,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11150,
-  "message" : "Liked songs:\n\t[Happier, Heart Mystique, Essence Rapture, Harmony Love, Harmony Pandora]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Heart Mystique - glester, Essence Rapture - glester, Harmony Love - jsimpson, Harmony Pandora - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -14158,7 +14158,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11150,
-  "message" : "Liked songs:\n\t[Happier, Heart Mystique, Essence Rapture, Harmony Love, Harmony Pandora, Utopia Twilight, Melody Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Heart Mystique - glester, Essence Rapture - glester, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Utopia Twilight - amanda16, Melody Reflection - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -14178,7 +14178,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11160,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man, Heart Mystique, Essence Rapture, Voyage Paradox, Night Harmony, Crescendo Twilight, Odyssey Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14219,7 +14219,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11160,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man, Heart Mystique, Essence Rapture, Voyage Paradox, Night Harmony, Crescendo Twilight, Odyssey Reflection, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -14239,7 +14239,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 11170,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Whisper Rapture, Heart Dance, Starlight Rapture, Pinnacle Cascade, Mystique Echo, Pandora Odyssey, Voyage Paradox, Night Harmony, Night Aurora, Sunset Celestial]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -14280,7 +14280,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 11170,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Whisper Rapture, Heart Dance, Starlight Rapture, Pinnacle Cascade, Mystique Echo, Pandora Odyssey, Voyage Paradox, Night Harmony, Night Aurora, Sunset Celestial, Heart Utopia, Solitude Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Heart Utopia - cbutler, Solitude Reflection - cbutler]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -14300,7 +14300,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11180,
-  "message" : "Liked songs:\n\t[Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Night Aurora, Sunset Celestial]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -14341,7 +14341,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11180,
-  "message" : "Liked songs:\n\t[Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Night Aurora, Sunset Celestial]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -14361,7 +14361,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11190,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity, Utopia Twilight, Melody Reflection, Starlight Rapture, Pinnacle Cascade]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Utopia Twilight - amanda16, Melody Reflection - amanda16, Starlight Rapture - glester, Pinnacle Cascade - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -14402,7 +14402,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11190,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity, Utopia Twilight, Melody Reflection, Starlight Rapture, Pinnacle Cascade, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Utopia Twilight - amanda16, Melody Reflection - amanda16, Starlight Rapture - glester, Pinnacle Cascade - glester, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -14422,7 +14422,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11200,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Heart Utopia, Solitude Reflection, Night Aurora, Sunset Celestial]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Heart Utopia - cbutler, Solitude Reflection - cbutler, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14463,7 +14463,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11200,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Heart Utopia, Solitude Reflection, Night Aurora, Sunset Celestial]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Heart Utopia - cbutler, Solitude Reflection - cbutler, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -14483,7 +14483,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11210,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey, Soul Pandora, Adventure Infinity, Twilight Velvet, Velvet Pulse, Crescendo Twilight, Odyssey Reflection, Heart Utopia, Solitude Reflection, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Heart Utopia - cbutler, Solitude Reflection - cbutler, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -14524,7 +14524,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11210,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey, Soul Pandora, Adventure Infinity, Twilight Velvet, Velvet Pulse, Crescendo Twilight, Odyssey Reflection, Heart Utopia, Solitude Reflection, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Heart Utopia - cbutler, Solitude Reflection - cbutler, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -14544,7 +14544,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11220,
-  "message" : "Liked songs:\n\t[Night Ethereal, Night Aurora, Sunset Celestial, Crescendo Twilight, Odyssey Reflection, Starlight Rapture, Pinnacle Cascade, Whisper Rapture, Heart Dance, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Starlight Rapture - glester, Pinnacle Cascade - glester, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14585,7 +14585,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11220,
-  "message" : "Liked songs:\n\t[Night Ethereal, Night Aurora, Sunset Celestial, Crescendo Twilight, Odyssey Reflection, Starlight Rapture, Pinnacle Cascade, Whisper Rapture, Heart Dance, Dream Bliss, Bliss Sunset, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Starlight Rapture - glester, Pinnacle Cascade - glester, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Dream Bliss - amanda16, Bliss Sunset - amanda16, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -14605,7 +14605,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11230,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Utopia, Solitude Reflection, Starlight Rapture, Pinnacle Cascade, Twilight Velvet, Velvet Pulse]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Utopia - cbutler, Solitude Reflection - cbutler, Starlight Rapture - glester, Pinnacle Cascade - glester, Twilight Velvet - anthony22, Velvet Pulse - anthony22]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -14646,7 +14646,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11230,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Utopia, Solitude Reflection, Starlight Rapture, Pinnacle Cascade, Twilight Velvet, Velvet Pulse]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Utopia - cbutler, Solitude Reflection - cbutler, Starlight Rapture - glester, Pinnacle Cascade - glester, Twilight Velvet - anthony22, Velvet Pulse - anthony22]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -14666,7 +14666,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11240,
-  "message" : "Liked songs:\n\t[Harmony Pandora, Starlight Rapture, Pinnacle Cascade, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Pandora - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14707,7 +14707,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11240,
-  "message" : "Liked songs:\n\t[Harmony Pandora, Starlight Rapture, Pinnacle Cascade, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Pandora - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -14727,7 +14727,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11250,
-  "message" : "Liked songs:\n\t[Happier, Heart Mystique, Essence Rapture, Harmony Love, Harmony Pandora, Utopia Twilight, Melody Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Heart Mystique - glester, Essence Rapture - glester, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Utopia Twilight - amanda16, Melody Reflection - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -14768,7 +14768,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11250,
-  "message" : "Liked songs:\n\t[Happier, Heart Mystique, Essence Rapture, Harmony Love, Harmony Pandora, Utopia Twilight, Melody Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Heart Mystique - glester, Essence Rapture - glester, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Utopia Twilight - amanda16, Melody Reflection - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -14788,7 +14788,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11260,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man, Heart Mystique, Essence Rapture, Voyage Paradox, Night Harmony, Crescendo Twilight, Odyssey Reflection, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14829,7 +14829,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11260,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man, Heart Mystique, Essence Rapture, Voyage Paradox, Night Harmony, Crescendo Twilight, Odyssey Reflection, Soul Pandora, Adventure Infinity, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -14849,7 +14849,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 11270,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Whisper Rapture, Heart Dance, Starlight Rapture, Pinnacle Cascade, Mystique Echo, Pandora Odyssey, Voyage Paradox, Night Harmony, Night Aurora, Sunset Celestial, Heart Utopia, Solitude Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Heart Utopia - cbutler, Solitude Reflection - cbutler]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -14890,7 +14890,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 11270,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Starlight Rapture, Pinnacle Cascade, Mystique Echo, Pandora Odyssey, Voyage Paradox, Night Harmony, Night Aurora, Sunset Celestial, Heart Utopia, Solitude Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Heart Utopia - cbutler, Solitude Reflection - cbutler]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -14910,7 +14910,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11280,
-  "message" : "Liked songs:\n\t[Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Night Aurora, Sunset Celestial]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -14951,7 +14951,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11280,
-  "message" : "Liked songs:\n\t[Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Night Aurora, Sunset Celestial, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -14971,7 +14971,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11290,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity, Utopia Twilight, Melody Reflection, Starlight Rapture, Pinnacle Cascade, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Utopia Twilight - amanda16, Melody Reflection - amanda16, Starlight Rapture - glester, Pinnacle Cascade - glester, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -15012,7 +15012,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11290,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity, Utopia Twilight, Melody Reflection, Starlight Rapture, Pinnacle Cascade]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Utopia Twilight - amanda16, Melody Reflection - amanda16, Starlight Rapture - glester, Pinnacle Cascade - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -15032,7 +15032,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11300,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Heart Utopia, Solitude Reflection, Night Aurora, Sunset Celestial]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Heart Utopia - cbutler, Solitude Reflection - cbutler, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -15073,7 +15073,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11300,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Heart Utopia, Solitude Reflection, Night Aurora, Sunset Celestial, Harmony Love, Harmony Pandora]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Heart Utopia - cbutler, Solitude Reflection - cbutler, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Harmony Love - jsimpson, Harmony Pandora - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -15093,7 +15093,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11310,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey, Soul Pandora, Adventure Infinity, Twilight Velvet, Velvet Pulse, Crescendo Twilight, Odyssey Reflection, Heart Utopia, Solitude Reflection, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Heart Utopia - cbutler, Solitude Reflection - cbutler, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -15134,7 +15134,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11310,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey, Soul Pandora, Adventure Infinity, Twilight Velvet, Velvet Pulse, Crescendo Twilight, Odyssey Reflection, Heart Utopia, Solitude Reflection, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia, Heart Mystique, Essence Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Heart Utopia - cbutler, Solitude Reflection - cbutler, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Heart Mystique - glester, Essence Rapture - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -15154,7 +15154,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11320,
-  "message" : "Liked songs:\n\t[Night Ethereal, Night Aurora, Sunset Celestial, Crescendo Twilight, Odyssey Reflection, Starlight Rapture, Pinnacle Cascade, Whisper Rapture, Heart Dance, Dream Bliss, Bliss Sunset, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Starlight Rapture - glester, Pinnacle Cascade - glester, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Dream Bliss - amanda16, Bliss Sunset - amanda16, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -15195,7 +15195,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11320,
-  "message" : "Liked songs:\n\t[Night Ethereal, Crescendo Twilight, Odyssey Reflection, Starlight Rapture, Pinnacle Cascade, Whisper Rapture, Heart Dance, Dream Bliss, Bliss Sunset, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Starlight Rapture - glester, Pinnacle Cascade - glester, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Dream Bliss - amanda16, Bliss Sunset - amanda16, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -15215,7 +15215,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11330,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Utopia, Solitude Reflection, Starlight Rapture, Pinnacle Cascade, Twilight Velvet, Velvet Pulse]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Utopia - cbutler, Solitude Reflection - cbutler, Starlight Rapture - glester, Pinnacle Cascade - glester, Twilight Velvet - anthony22, Velvet Pulse - anthony22]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -15256,7 +15256,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11330,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Utopia, Solitude Reflection, Starlight Rapture, Pinnacle Cascade, Twilight Velvet, Velvet Pulse, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Utopia - cbutler, Solitude Reflection - cbutler, Starlight Rapture - glester, Pinnacle Cascade - glester, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -15276,7 +15276,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11340,
-  "message" : "Liked songs:\n\t[Harmony Pandora, Starlight Rapture, Pinnacle Cascade, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Pandora - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -15317,7 +15317,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11340,
-  "message" : "Liked songs:\n\t[Harmony Pandora, Starlight Rapture, Pinnacle Cascade, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia, Soul Pandora, Adventure Infinity, Night Aurora, Sunset Celestial]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Pandora - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -15337,7 +15337,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11350,
-  "message" : "Liked songs:\n\t[Happier, Heart Mystique, Essence Rapture, Harmony Love, Harmony Pandora, Utopia Twilight, Melody Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Heart Mystique - glester, Essence Rapture - glester, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Utopia Twilight - amanda16, Melody Reflection - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -15378,7 +15378,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11350,
-  "message" : "Liked songs:\n\t[Happier, Heart Mystique, Essence Rapture, Harmony Love, Harmony Pandora, Utopia Twilight, Melody Reflection, Whisper Rapture, Heart Dance]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Heart Mystique - glester, Essence Rapture - glester, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Utopia Twilight - amanda16, Melody Reflection - amanda16, Whisper Rapture - jsimpson, Heart Dance - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -15398,7 +15398,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11360,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man, Heart Mystique, Essence Rapture, Voyage Paradox, Night Harmony, Crescendo Twilight, Odyssey Reflection, Soul Pandora, Adventure Infinity, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -15439,7 +15439,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11360,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man, Heart Mystique, Essence Rapture, Voyage Paradox, Night Harmony, Crescendo Twilight, Odyssey Reflection, Soul Pandora, Adventure Infinity, Dream Bliss, Bliss Sunset, Harmony Love, Harmony Pandora]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Dream Bliss - amanda16, Bliss Sunset - amanda16, Harmony Love - jsimpson, Harmony Pandora - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -15459,7 +15459,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 11370,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Starlight Rapture, Pinnacle Cascade, Mystique Echo, Pandora Odyssey, Voyage Paradox, Night Harmony, Night Aurora, Sunset Celestial, Heart Utopia, Solitude Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Heart Utopia - cbutler, Solitude Reflection - cbutler]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -15500,7 +15500,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 11370,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Starlight Rapture, Pinnacle Cascade, Mystique Echo, Pandora Odyssey, Voyage Paradox, Night Harmony, Night Aurora, Sunset Celestial, Heart Utopia, Solitude Reflection, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Heart Utopia - cbutler, Solitude Reflection - cbutler, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -15520,7 +15520,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11380,
-  "message" : "Liked songs:\n\t[Adventure Rhythm, Pandora Utopia, Crescendo Twilight, Odyssey Reflection, Night Aurora, Sunset Celestial, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -15561,7 +15561,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11380,
-  "message" : "Liked songs:\n\t[Crescendo Twilight, Odyssey Reflection, Night Aurora, Sunset Celestial, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -15581,7 +15581,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11390,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity, Utopia Twilight, Melody Reflection, Starlight Rapture, Pinnacle Cascade]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Utopia Twilight - amanda16, Melody Reflection - amanda16, Starlight Rapture - glester, Pinnacle Cascade - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -15622,7 +15622,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11390,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity, Utopia Twilight, Melody Reflection, Starlight Rapture, Pinnacle Cascade, Heart Mystique, Essence Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Utopia Twilight - amanda16, Melody Reflection - amanda16, Starlight Rapture - glester, Pinnacle Cascade - glester, Heart Mystique - glester, Essence Rapture - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -15642,7 +15642,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11400,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Heart Utopia, Solitude Reflection, Night Aurora, Sunset Celestial, Harmony Love, Harmony Pandora]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Heart Utopia - cbutler, Solitude Reflection - cbutler, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Harmony Love - jsimpson, Harmony Pandora - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -15683,7 +15683,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11400,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Heart Utopia, Solitude Reflection, Night Aurora, Sunset Celestial, Harmony Love, Harmony Pandora, Starlight Rapture, Pinnacle Cascade]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Heart Utopia - cbutler, Solitude Reflection - cbutler, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -15703,7 +15703,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11410,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey, Soul Pandora, Adventure Infinity, Twilight Velvet, Velvet Pulse, Crescendo Twilight, Odyssey Reflection, Heart Utopia, Solitude Reflection, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia, Heart Mystique, Essence Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Heart Utopia - cbutler, Solitude Reflection - cbutler, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Heart Mystique - glester, Essence Rapture - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -15744,7 +15744,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11410,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey, Soul Pandora, Adventure Infinity, Twilight Velvet, Velvet Pulse, Crescendo Twilight, Odyssey Reflection, Heart Utopia, Solitude Reflection, Adventure Rhythm, Pandora Utopia, Heart Mystique, Essence Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Heart Utopia - cbutler, Solitude Reflection - cbutler, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Heart Mystique - glester, Essence Rapture - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -15764,7 +15764,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11420,
-  "message" : "Liked songs:\n\t[Night Ethereal, Crescendo Twilight, Odyssey Reflection, Starlight Rapture, Pinnacle Cascade, Whisper Rapture, Heart Dance, Dream Bliss, Bliss Sunset, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Starlight Rapture - glester, Pinnacle Cascade - glester, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Dream Bliss - amanda16, Bliss Sunset - amanda16, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -15805,7 +15805,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11420,
-  "message" : "Liked songs:\n\t[Night Ethereal, Crescendo Twilight, Odyssey Reflection, Starlight Rapture, Pinnacle Cascade, Whisper Rapture, Heart Dance, Dream Bliss, Bliss Sunset, Soul Pandora, Adventure Infinity, Harmony Love, Harmony Pandora]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Starlight Rapture - glester, Pinnacle Cascade - glester, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Dream Bliss - amanda16, Bliss Sunset - amanda16, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Harmony Love - jsimpson, Harmony Pandora - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -15825,7 +15825,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11430,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Utopia, Solitude Reflection, Starlight Rapture, Pinnacle Cascade, Twilight Velvet, Velvet Pulse, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Utopia - cbutler, Solitude Reflection - cbutler, Starlight Rapture - glester, Pinnacle Cascade - glester, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -15866,7 +15866,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11430,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Utopia, Solitude Reflection, Starlight Rapture, Pinnacle Cascade, Twilight Velvet, Velvet Pulse, Soul Pandora, Adventure Infinity, Utopia Twilight, Melody Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Utopia - cbutler, Solitude Reflection - cbutler, Starlight Rapture - glester, Pinnacle Cascade - glester, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Utopia Twilight - amanda16, Melody Reflection - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -15886,7 +15886,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11440,
-  "message" : "Liked songs:\n\t[Harmony Pandora, Starlight Rapture, Pinnacle Cascade, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia, Soul Pandora, Adventure Infinity, Night Aurora, Sunset Celestial]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Pandora - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -15927,7 +15927,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11440,
-  "message" : "Liked songs:\n\t[Harmony Pandora, Starlight Rapture, Pinnacle Cascade, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia, Soul Pandora, Adventure Infinity, Night Aurora, Sunset Celestial, Utopia Twilight, Melody Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Pandora - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Utopia Twilight - amanda16, Melody Reflection - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -15947,7 +15947,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11450,
-  "message" : "Liked songs:\n\t[Happier, Heart Mystique, Essence Rapture, Harmony Love, Harmony Pandora, Utopia Twilight, Melody Reflection, Whisper Rapture, Heart Dance]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Heart Mystique - glester, Essence Rapture - glester, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Utopia Twilight - amanda16, Melody Reflection - amanda16, Whisper Rapture - jsimpson, Heart Dance - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -15988,7 +15988,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11450,
-  "message" : "Liked songs:\n\t[Happier, Heart Mystique, Essence Rapture, Harmony Love, Harmony Pandora, Utopia Twilight, Melody Reflection, Whisper Rapture, Heart Dance, Heart Utopia, Solitude Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Heart Mystique - glester, Essence Rapture - glester, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Utopia Twilight - amanda16, Melody Reflection - amanda16, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Heart Utopia - cbutler, Solitude Reflection - cbutler]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -16008,7 +16008,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11460,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man, Heart Mystique, Essence Rapture, Voyage Paradox, Night Harmony, Crescendo Twilight, Odyssey Reflection, Soul Pandora, Adventure Infinity, Dream Bliss, Bliss Sunset, Harmony Love, Harmony Pandora]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Dream Bliss - amanda16, Bliss Sunset - amanda16, Harmony Love - jsimpson, Harmony Pandora - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -16049,7 +16049,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11460,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man, Heart Mystique, Essence Rapture, Voyage Paradox, Night Harmony, Crescendo Twilight, Odyssey Reflection, Soul Pandora, Adventure Infinity, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -16069,7 +16069,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 11470,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Starlight Rapture, Pinnacle Cascade, Mystique Echo, Pandora Odyssey, Voyage Paradox, Night Harmony, Night Aurora, Sunset Celestial, Heart Utopia, Solitude Reflection, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Heart Utopia - cbutler, Solitude Reflection - cbutler, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -16110,7 +16110,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 11470,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Starlight Rapture, Pinnacle Cascade, Mystique Echo, Pandora Odyssey, Voyage Paradox, Night Harmony, Night Aurora, Sunset Celestial, Heart Utopia, Solitude Reflection, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Heart Utopia - cbutler, Solitude Reflection - cbutler, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -16130,7 +16130,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11480,
-  "message" : "Liked songs:\n\t[Crescendo Twilight, Odyssey Reflection, Night Aurora, Sunset Celestial, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -16171,7 +16171,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11480,
-  "message" : "Liked songs:\n\t[Crescendo Twilight, Odyssey Reflection, Night Aurora, Sunset Celestial, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -16191,7 +16191,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11490,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity, Utopia Twilight, Melody Reflection, Starlight Rapture, Pinnacle Cascade, Heart Mystique, Essence Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Utopia Twilight - amanda16, Melody Reflection - amanda16, Starlight Rapture - glester, Pinnacle Cascade - glester, Heart Mystique - glester, Essence Rapture - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -16232,7 +16232,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11490,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity, Utopia Twilight, Melody Reflection, Starlight Rapture, Pinnacle Cascade, Heart Mystique, Essence Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Utopia Twilight - amanda16, Melody Reflection - amanda16, Starlight Rapture - glester, Pinnacle Cascade - glester, Heart Mystique - glester, Essence Rapture - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -16252,7 +16252,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11500,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Heart Utopia, Solitude Reflection, Night Aurora, Sunset Celestial, Harmony Love, Harmony Pandora, Starlight Rapture, Pinnacle Cascade]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Heart Utopia - cbutler, Solitude Reflection - cbutler, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -16293,7 +16293,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11500,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Heart Utopia, Solitude Reflection, Night Aurora, Sunset Celestial, Harmony Love, Harmony Pandora, Starlight Rapture, Pinnacle Cascade, Rapture Echo, Essence Crescendo]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Heart Utopia - cbutler, Solitude Reflection - cbutler, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Rapture Echo - mccarthyluis, Essence Crescendo - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -16313,7 +16313,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11510,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey, Soul Pandora, Adventure Infinity, Twilight Velvet, Velvet Pulse, Crescendo Twilight, Odyssey Reflection, Heart Utopia, Solitude Reflection, Adventure Rhythm, Pandora Utopia, Heart Mystique, Essence Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Heart Utopia - cbutler, Solitude Reflection - cbutler, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Heart Mystique - glester, Essence Rapture - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -16354,7 +16354,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11510,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey, Soul Pandora, Adventure Infinity, Twilight Velvet, Velvet Pulse, Heart Utopia, Solitude Reflection, Adventure Rhythm, Pandora Utopia, Heart Mystique, Essence Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Heart Utopia - cbutler, Solitude Reflection - cbutler, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Heart Mystique - glester, Essence Rapture - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -16374,7 +16374,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11520,
-  "message" : "Liked songs:\n\t[Night Ethereal, Crescendo Twilight, Odyssey Reflection, Starlight Rapture, Pinnacle Cascade, Whisper Rapture, Heart Dance, Dream Bliss, Bliss Sunset, Soul Pandora, Adventure Infinity, Harmony Love, Harmony Pandora]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Starlight Rapture - glester, Pinnacle Cascade - glester, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Dream Bliss - amanda16, Bliss Sunset - amanda16, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Harmony Love - jsimpson, Harmony Pandora - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -16415,7 +16415,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11520,
-  "message" : "Liked songs:\n\t[Night Ethereal, Crescendo Twilight, Odyssey Reflection, Starlight Rapture, Pinnacle Cascade, Whisper Rapture, Heart Dance, Dream Bliss, Bliss Sunset, Soul Pandora, Adventure Infinity, Harmony Love, Harmony Pandora]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Starlight Rapture - glester, Pinnacle Cascade - glester, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Dream Bliss - amanda16, Bliss Sunset - amanda16, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Harmony Love - jsimpson, Harmony Pandora - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -16435,7 +16435,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11530,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Utopia, Solitude Reflection, Starlight Rapture, Pinnacle Cascade, Twilight Velvet, Velvet Pulse, Soul Pandora, Adventure Infinity, Utopia Twilight, Melody Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Utopia - cbutler, Solitude Reflection - cbutler, Starlight Rapture - glester, Pinnacle Cascade - glester, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Utopia Twilight - amanda16, Melody Reflection - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -16476,7 +16476,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11530,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Utopia, Solitude Reflection, Starlight Rapture, Pinnacle Cascade, Twilight Velvet, Velvet Pulse, Soul Pandora, Adventure Infinity, Utopia Twilight, Melody Reflection, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Utopia - cbutler, Solitude Reflection - cbutler, Starlight Rapture - glester, Pinnacle Cascade - glester, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Utopia Twilight - amanda16, Melody Reflection - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -16496,7 +16496,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11540,
-  "message" : "Liked songs:\n\t[Harmony Pandora, Starlight Rapture, Pinnacle Cascade, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia, Soul Pandora, Adventure Infinity, Night Aurora, Sunset Celestial, Utopia Twilight, Melody Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Pandora - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Utopia Twilight - amanda16, Melody Reflection - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -16537,7 +16537,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11540,
-  "message" : "Liked songs:\n\t[Starlight Rapture, Pinnacle Cascade, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia, Soul Pandora, Adventure Infinity, Night Aurora, Sunset Celestial, Utopia Twilight, Melody Reflection, Harmony Love]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Starlight Rapture - glester, Pinnacle Cascade - glester, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Utopia Twilight - amanda16, Melody Reflection - amanda16, Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -16557,7 +16557,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11550,
-  "message" : "Liked songs:\n\t[Happier, Heart Mystique, Essence Rapture, Harmony Love, Harmony Pandora, Utopia Twilight, Melody Reflection, Whisper Rapture, Heart Dance, Heart Utopia, Solitude Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Heart Mystique - glester, Essence Rapture - glester, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Utopia Twilight - amanda16, Melody Reflection - amanda16, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Heart Utopia - cbutler, Solitude Reflection - cbutler]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -16598,7 +16598,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11550,
-  "message" : "Liked songs:\n\t[Happier, Heart Mystique, Essence Rapture, Harmony Love, Harmony Pandora, Utopia Twilight, Melody Reflection, Whisper Rapture, Heart Dance, Heart Utopia, Solitude Reflection, Twilight Velvet, Velvet Pulse]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Heart Mystique - glester, Essence Rapture - glester, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Utopia Twilight - amanda16, Melody Reflection - amanda16, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Heart Utopia - cbutler, Solitude Reflection - cbutler, Twilight Velvet - anthony22, Velvet Pulse - anthony22]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -16618,7 +16618,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11560,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man, Heart Mystique, Essence Rapture, Voyage Paradox, Night Harmony, Crescendo Twilight, Odyssey Reflection, Soul Pandora, Adventure Infinity, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -16659,7 +16659,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11560,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man, Heart Mystique, Essence Rapture, Voyage Paradox, Night Harmony, Crescendo Twilight, Odyssey Reflection, Soul Pandora, Adventure Infinity, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -16679,7 +16679,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 11570,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Starlight Rapture, Pinnacle Cascade, Mystique Echo, Pandora Odyssey, Voyage Paradox, Night Harmony, Night Aurora, Sunset Celestial, Heart Utopia, Solitude Reflection, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Heart Utopia - cbutler, Solitude Reflection - cbutler, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -16720,7 +16720,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 11570,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Starlight Rapture, Pinnacle Cascade, Mystique Echo, Pandora Odyssey, Voyage Paradox, Night Harmony, Night Aurora, Sunset Celestial, Heart Utopia, Solitude Reflection, Soul Pandora, Adventure Infinity, Rapture Echo, Essence Crescendo]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Heart Utopia - cbutler, Solitude Reflection - cbutler, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Rapture Echo - mccarthyluis, Essence Crescendo - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -16740,7 +16740,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11580,
-  "message" : "Liked songs:\n\t[Crescendo Twilight, Odyssey Reflection, Night Aurora, Sunset Celestial, Soul Pandora, Adventure Infinity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -16781,7 +16781,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11580,
-  "message" : "Liked songs:\n\t[Crescendo Twilight, Odyssey Reflection, Night Aurora, Sunset Celestial, Soul Pandora, Adventure Infinity, Heart Utopia, Solitude Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Heart Utopia - cbutler, Solitude Reflection - cbutler]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -16801,7 +16801,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11590,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity, Utopia Twilight, Melody Reflection, Starlight Rapture, Pinnacle Cascade, Heart Mystique, Essence Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Utopia Twilight - amanda16, Melody Reflection - amanda16, Starlight Rapture - glester, Pinnacle Cascade - glester, Heart Mystique - glester, Essence Rapture - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -16842,7 +16842,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11590,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity, Utopia Twilight, Melody Reflection, Starlight Rapture, Pinnacle Cascade, Heart Mystique, Essence Rapture, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Utopia Twilight - amanda16, Melody Reflection - amanda16, Starlight Rapture - glester, Pinnacle Cascade - glester, Heart Mystique - glester, Essence Rapture - glester, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -16862,7 +16862,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11600,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Heart Utopia, Solitude Reflection, Night Aurora, Sunset Celestial, Harmony Love, Harmony Pandora, Starlight Rapture, Pinnacle Cascade, Rapture Echo, Essence Crescendo]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Heart Utopia - cbutler, Solitude Reflection - cbutler, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Rapture Echo - mccarthyluis, Essence Crescendo - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -16903,7 +16903,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11600,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Heart Utopia, Solitude Reflection, Night Aurora, Sunset Celestial, Harmony Love, Harmony Pandora, Starlight Rapture, Pinnacle Cascade]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Heart Utopia - cbutler, Solitude Reflection - cbutler, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -16923,7 +16923,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11610,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey, Soul Pandora, Adventure Infinity, Twilight Velvet, Velvet Pulse, Heart Utopia, Solitude Reflection, Adventure Rhythm, Pandora Utopia, Heart Mystique, Essence Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Heart Utopia - cbutler, Solitude Reflection - cbutler, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Heart Mystique - glester, Essence Rapture - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -16964,7 +16964,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11610,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey, Soul Pandora, Adventure Infinity, Heart Utopia, Solitude Reflection, Adventure Rhythm, Pandora Utopia, Heart Mystique, Essence Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Heart Utopia - cbutler, Solitude Reflection - cbutler, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Heart Mystique - glester, Essence Rapture - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -16984,7 +16984,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11620,
-  "message" : "Liked songs:\n\t[Night Ethereal, Crescendo Twilight, Odyssey Reflection, Starlight Rapture, Pinnacle Cascade, Whisper Rapture, Heart Dance, Dream Bliss, Bliss Sunset, Soul Pandora, Adventure Infinity, Harmony Love, Harmony Pandora]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Starlight Rapture - glester, Pinnacle Cascade - glester, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Dream Bliss - amanda16, Bliss Sunset - amanda16, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Harmony Love - jsimpson, Harmony Pandora - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -17025,7 +17025,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11620,
-  "message" : "Liked songs:\n\t[Night Ethereal, Crescendo Twilight, Odyssey Reflection, Starlight Rapture, Pinnacle Cascade, Whisper Rapture, Heart Dance, Dream Bliss, Bliss Sunset, Soul Pandora, Adventure Infinity, Harmony Love, Harmony Pandora]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Starlight Rapture - glester, Pinnacle Cascade - glester, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Dream Bliss - amanda16, Bliss Sunset - amanda16, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Harmony Love - jsimpson, Harmony Pandora - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -17045,7 +17045,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11630,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Utopia, Solitude Reflection, Starlight Rapture, Pinnacle Cascade, Twilight Velvet, Velvet Pulse, Soul Pandora, Adventure Infinity, Utopia Twilight, Melody Reflection, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Utopia - cbutler, Solitude Reflection - cbutler, Starlight Rapture - glester, Pinnacle Cascade - glester, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Utopia Twilight - amanda16, Melody Reflection - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -17086,7 +17086,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11630,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Utopia, Solitude Reflection, Starlight Rapture, Pinnacle Cascade, Twilight Velvet, Velvet Pulse, Soul Pandora, Adventure Infinity, Utopia Twilight, Melody Reflection, Adventure Rhythm, Pandora Utopia, Heart Mystique, Essence Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Utopia - cbutler, Solitude Reflection - cbutler, Starlight Rapture - glester, Pinnacle Cascade - glester, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Utopia Twilight - amanda16, Melody Reflection - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Heart Mystique - glester, Essence Rapture - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -17106,7 +17106,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11640,
-  "message" : "Liked songs:\n\t[Starlight Rapture, Pinnacle Cascade, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia, Soul Pandora, Adventure Infinity, Night Aurora, Sunset Celestial, Utopia Twilight, Melody Reflection, Harmony Love]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Starlight Rapture - glester, Pinnacle Cascade - glester, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Utopia Twilight - amanda16, Melody Reflection - amanda16, Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -17147,7 +17147,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11640,
-  "message" : "Liked songs:\n\t[Starlight Rapture, Pinnacle Cascade, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia, Soul Pandora, Adventure Infinity, Night Aurora, Sunset Celestial, Utopia Twilight, Melody Reflection, Harmony Love, Mystique Echo, Pandora Odyssey]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Starlight Rapture - glester, Pinnacle Cascade - glester, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Utopia Twilight - amanda16, Melody Reflection - amanda16, Harmony Love - jsimpson, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -17167,7 +17167,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11650,
-  "message" : "Liked songs:\n\t[Happier, Heart Mystique, Essence Rapture, Harmony Love, Harmony Pandora, Utopia Twilight, Melody Reflection, Whisper Rapture, Heart Dance, Heart Utopia, Solitude Reflection, Twilight Velvet, Velvet Pulse]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Heart Mystique - glester, Essence Rapture - glester, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Utopia Twilight - amanda16, Melody Reflection - amanda16, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Heart Utopia - cbutler, Solitude Reflection - cbutler, Twilight Velvet - anthony22, Velvet Pulse - anthony22]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -17208,7 +17208,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11650,
-  "message" : "Liked songs:\n\t[Happier, Heart Mystique, Essence Rapture, Harmony Love, Harmony Pandora, Utopia Twilight, Melody Reflection, Whisper Rapture, Heart Dance, Heart Utopia, Solitude Reflection, Twilight Velvet, Velvet Pulse, Night Aurora, Sunset Celestial]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Heart Mystique - glester, Essence Rapture - glester, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Utopia Twilight - amanda16, Melody Reflection - amanda16, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Heart Utopia - cbutler, Solitude Reflection - cbutler, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -17228,7 +17228,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11660,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man, Heart Mystique, Essence Rapture, Voyage Paradox, Night Harmony, Crescendo Twilight, Odyssey Reflection, Soul Pandora, Adventure Infinity, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -17269,7 +17269,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11660,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man, Heart Mystique, Essence Rapture, Voyage Paradox, Night Harmony, Crescendo Twilight, Odyssey Reflection, Soul Pandora, Adventure Infinity, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -17289,7 +17289,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 11670,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Starlight Rapture, Pinnacle Cascade, Mystique Echo, Pandora Odyssey, Voyage Paradox, Night Harmony, Night Aurora, Sunset Celestial, Heart Utopia, Solitude Reflection, Soul Pandora, Adventure Infinity, Rapture Echo, Essence Crescendo]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Heart Utopia - cbutler, Solitude Reflection - cbutler, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Rapture Echo - mccarthyluis, Essence Crescendo - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -17330,7 +17330,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 11670,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Starlight Rapture, Pinnacle Cascade, Mystique Echo, Pandora Odyssey, Voyage Paradox, Night Harmony, Night Aurora, Sunset Celestial, Heart Utopia, Solitude Reflection, Soul Pandora, Adventure Infinity, Rapture Echo, Essence Crescendo, Twilight Velvet, Velvet Pulse]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Heart Utopia - cbutler, Solitude Reflection - cbutler, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Rapture Echo - mccarthyluis, Essence Crescendo - mccarthyluis, Twilight Velvet - anthony22, Velvet Pulse - anthony22]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -17350,7 +17350,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11680,
-  "message" : "Liked songs:\n\t[Crescendo Twilight, Odyssey Reflection, Night Aurora, Sunset Celestial, Soul Pandora, Adventure Infinity, Heart Utopia, Solitude Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Heart Utopia - cbutler, Solitude Reflection - cbutler]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -17391,7 +17391,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11680,
-  "message" : "Liked songs:\n\t[Crescendo Twilight, Odyssey Reflection, Night Aurora, Sunset Celestial, Soul Pandora, Adventure Infinity, Heart Utopia, Solitude Reflection]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Heart Utopia - cbutler, Solitude Reflection - cbutler]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -17411,7 +17411,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11690,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity, Utopia Twilight, Melody Reflection, Starlight Rapture, Pinnacle Cascade, Heart Mystique, Essence Rapture, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Utopia Twilight - amanda16, Melody Reflection - amanda16, Starlight Rapture - glester, Pinnacle Cascade - glester, Heart Mystique - glester, Essence Rapture - glester, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -17452,7 +17452,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11690,
-  "message" : "Liked songs:\n\t[Paint It Black, Soul Pandora, Adventure Infinity, Utopia Twilight, Melody Reflection, Starlight Rapture, Pinnacle Cascade, Heart Mystique, Essence Rapture, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Utopia Twilight - amanda16, Melody Reflection - amanda16, Starlight Rapture - glester, Pinnacle Cascade - glester, Heart Mystique - glester, Essence Rapture - glester, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -17472,7 +17472,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11700,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Heart Utopia, Solitude Reflection, Night Aurora, Sunset Celestial, Harmony Love, Harmony Pandora, Starlight Rapture, Pinnacle Cascade]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Heart Utopia - cbutler, Solitude Reflection - cbutler, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -17513,7 +17513,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11700,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Heart Utopia, Solitude Reflection, Night Aurora, Sunset Celestial, Harmony Love, Harmony Pandora, Starlight Rapture, Pinnacle Cascade, Dream Bliss, Bliss Sunset]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Heart Utopia - cbutler, Solitude Reflection - cbutler, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Dream Bliss - amanda16, Bliss Sunset - amanda16]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -17533,7 +17533,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11710,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey, Soul Pandora, Adventure Infinity, Heart Utopia, Solitude Reflection, Adventure Rhythm, Pandora Utopia, Heart Mystique, Essence Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Heart Utopia - cbutler, Solitude Reflection - cbutler, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Heart Mystique - glester, Essence Rapture - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -17574,7 +17574,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11710,
-  "message" : "Liked songs:\n\t[Don't, Voyage Paradox, Night Harmony, Mystique Echo, Pandora Odyssey, Soul Pandora, Adventure Infinity, Heart Utopia, Solitude Reflection, Adventure Rhythm, Pandora Utopia, Heart Mystique, Essence Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't - Ed Sheeran, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Heart Utopia - cbutler, Solitude Reflection - cbutler, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Heart Mystique - glester, Essence Rapture - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -17594,7 +17594,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11720,
-  "message" : "Liked songs:\n\t[Night Ethereal, Crescendo Twilight, Odyssey Reflection, Starlight Rapture, Pinnacle Cascade, Whisper Rapture, Heart Dance, Dream Bliss, Bliss Sunset, Soul Pandora, Adventure Infinity, Harmony Love, Harmony Pandora]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Starlight Rapture - glester, Pinnacle Cascade - glester, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Dream Bliss - amanda16, Bliss Sunset - amanda16, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Harmony Love - jsimpson, Harmony Pandora - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -17635,7 +17635,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11720,
-  "message" : "Liked songs:\n\t[Night Ethereal, Crescendo Twilight, Odyssey Reflection, Starlight Rapture, Pinnacle Cascade, Whisper Rapture, Heart Dance, Dream Bliss, Bliss Sunset, Soul Pandora, Adventure Infinity, Harmony Love, Harmony Pandora]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Ethereal - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Starlight Rapture - glester, Pinnacle Cascade - glester, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Dream Bliss - amanda16, Bliss Sunset - amanda16, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Harmony Love - jsimpson, Harmony Pandora - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -17655,7 +17655,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11730,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Utopia, Solitude Reflection, Starlight Rapture, Pinnacle Cascade, Twilight Velvet, Velvet Pulse, Soul Pandora, Adventure Infinity, Utopia Twilight, Melody Reflection, Adventure Rhythm, Pandora Utopia, Heart Mystique, Essence Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Utopia - cbutler, Solitude Reflection - cbutler, Starlight Rapture - glester, Pinnacle Cascade - glester, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Utopia Twilight - amanda16, Melody Reflection - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Heart Mystique - glester, Essence Rapture - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -17696,7 +17696,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11730,
-  "message" : "Liked songs:\n\t[Odyssey Reflection, Love Story, Heart Utopia, Solitude Reflection, Starlight Rapture, Pinnacle Cascade, Twilight Velvet, Velvet Pulse, Soul Pandora, Adventure Infinity, Utopia Twilight, Melody Reflection, Heart Mystique, Essence Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Odyssey Reflection - jacobdean, Love Story - Taylor Swift, Heart Utopia - cbutler, Solitude Reflection - cbutler, Starlight Rapture - glester, Pinnacle Cascade - glester, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Utopia Twilight - amanda16, Melody Reflection - amanda16, Heart Mystique - glester, Essence Rapture - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -17716,7 +17716,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11740,
-  "message" : "Liked songs:\n\t[Starlight Rapture, Pinnacle Cascade, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia, Soul Pandora, Adventure Infinity, Night Aurora, Sunset Celestial, Utopia Twilight, Melody Reflection, Harmony Love, Mystique Echo, Pandora Odyssey]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Starlight Rapture - glester, Pinnacle Cascade - glester, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Utopia Twilight - amanda16, Melody Reflection - amanda16, Harmony Love - jsimpson, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -17757,7 +17757,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11740,
-  "message" : "Liked songs:\n\t[Starlight Rapture, Pinnacle Cascade, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia, Soul Pandora, Adventure Infinity, Night Aurora, Sunset Celestial, Harmony Love, Mystique Echo, Pandora Odyssey]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Starlight Rapture - glester, Pinnacle Cascade - glester, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Harmony Love - jsimpson, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -17777,7 +17777,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11750,
-  "message" : "Liked songs:\n\t[Happier, Heart Mystique, Essence Rapture, Harmony Love, Harmony Pandora, Utopia Twilight, Melody Reflection, Whisper Rapture, Heart Dance, Heart Utopia, Solitude Reflection, Twilight Velvet, Velvet Pulse, Night Aurora, Sunset Celestial]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Heart Mystique - glester, Essence Rapture - glester, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Utopia Twilight - amanda16, Melody Reflection - amanda16, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Heart Utopia - cbutler, Solitude Reflection - cbutler, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -17818,7 +17818,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11750,
-  "message" : "Liked songs:\n\t[Happier, Heart Mystique, Essence Rapture, Harmony Love, Harmony Pandora, Utopia Twilight, Melody Reflection, Whisper Rapture, Heart Dance, Heart Utopia, Solitude Reflection, Twilight Velvet, Velvet Pulse, Night Aurora, Sunset Celestial, Starlight Rapture, Pinnacle Cascade]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier - Ed Sheeran, Heart Mystique - glester, Essence Rapture - glester, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Utopia Twilight - amanda16, Melody Reflection - amanda16, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Heart Utopia - cbutler, Solitude Reflection - cbutler, Twilight Velvet - anthony22, Velvet Pulse - anthony22, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Starlight Rapture - glester, Pinnacle Cascade - glester]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -17838,7 +17838,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11760,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man, Heart Mystique, Essence Rapture, Voyage Paradox, Night Harmony, Crescendo Twilight, Odyssey Reflection, Soul Pandora, Adventure Infinity, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -17879,7 +17879,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11760,
-  "message" : "Liked songs:\n\t[Sunset Celestial, The Man, Heart Mystique, Essence Rapture, Voyage Paradox, Night Harmony, Crescendo Twilight, Odyssey Reflection, Soul Pandora, Adventure Infinity, Dream Bliss, Bliss Sunset, Adventure Rhythm, Pandora Utopia]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Sunset Celestial - mccarthyluis, The Man - Taylor Swift, Heart Mystique - glester, Essence Rapture - glester, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Crescendo Twilight - jacobdean, Odyssey Reflection - jacobdean, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Dream Bliss - amanda16, Bliss Sunset - amanda16, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -17899,7 +17899,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 11770,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Starlight Rapture, Pinnacle Cascade, Mystique Echo, Pandora Odyssey, Voyage Paradox, Night Harmony, Night Aurora, Sunset Celestial, Heart Utopia, Solitude Reflection, Soul Pandora, Adventure Infinity, Rapture Echo, Essence Crescendo, Twilight Velvet, Velvet Pulse]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Heart Utopia - cbutler, Solitude Reflection - cbutler, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Rapture Echo - mccarthyluis, Essence Crescendo - mccarthyluis, Twilight Velvet - anthony22, Velvet Pulse - anthony22]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -17940,7 +17940,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 11770,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up, Harmony Love, Harmony Pandora, Adventure Rhythm, Pandora Utopia, Whisper Rapture, Heart Dance, Starlight Rapture, Pinnacle Cascade, Mystique Echo, Pandora Odyssey, Voyage Paradox, Night Harmony, Night Aurora, Sunset Celestial, Heart Utopia, Solitude Reflection, Soul Pandora, Adventure Infinity, Rapture Echo, Essence Crescendo, Twilight Velvet, Velvet Pulse]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones, Harmony Love - jsimpson, Harmony Pandora - jsimpson, Adventure Rhythm - jacobdean, Pandora Utopia - jacobdean, Whisper Rapture - jsimpson, Heart Dance - jsimpson, Starlight Rapture - glester, Pinnacle Cascade - glester, Mystique Echo - mccarthyluis, Pandora Odyssey - mccarthyluis, Voyage Paradox - jacobdean, Night Harmony - jacobdean, Night Aurora - mccarthyluis, Sunset Celestial - mccarthyluis, Heart Utopia - cbutler, Solitude Reflection - cbutler, Soul Pandora - jacobdean, Adventure Infinity - jacobdean, Rapture Echo - mccarthyluis, Essence Crescendo - mccarthyluis, Twilight Velvet - anthony22, Velvet Pulse - anthony22]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",

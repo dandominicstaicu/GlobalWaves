@@ -38,7 +38,7 @@ public class LikedContentPage implements Page {
         pageContent.append("Liked songs:\n\t");
         if (!likedSongs.isEmpty()) {
             String songNames = likedSongs.stream()
-                    .map(Song::getName)  // Assuming Song has a getName() method
+                    .map(song -> song.getName() + " - " + song.getArtist())  // Assuming Song has a getName() method
                     .collect(Collectors.joining(", "));
             pageContent.append("[").append(songNames).append("]");
         } else {
