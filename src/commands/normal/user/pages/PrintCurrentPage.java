@@ -42,6 +42,6 @@ public class PrintCurrentPage extends Command {
         NormalUser user = library.getUserWithUsername(getUsername());
         Page currentPage = user.getCurrentPage();
 
-        out.put(Output.MESSAGE, currentPage.printPage(user));
+        out.put(Output.MESSAGE, currentPage.printPage(library, user));
     }
 }

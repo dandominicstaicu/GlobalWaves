@@ -121,4 +121,5 @@ public final class Output {
     public static final String MERCH_ALREADY_EXISTS = " has merchandise with the same name.";
     public static final String NEGATIVE_PRICE_MERCH = "Price for merchandise can not be negative.";
     public static final String EVENT_ADD_SUCCESS = " has added new event successfully.";
+    public static final String MERCH_ADD_SUCCESS = " has added new merchandise successfully.";
 }

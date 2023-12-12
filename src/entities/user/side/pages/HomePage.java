@@ -1,5 +1,6 @@
 package entities.user.side.pages;
 
+import entities.Library;
 import entities.playable.Playlist;
 import entities.playable.audio_files.Song;
 import entities.user.side.NormalUser;
@@ -42,7 +43,7 @@ public class HomePage implements Page {
     }
 
     @Override
-    public String printPage(NormalUser user) {
+    public String printPage(final Library lib, final NormalUser user) {
         constructTopPlaylists(user);
         constructTopSongs(user);
 

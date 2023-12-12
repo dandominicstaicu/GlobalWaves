@@ -33,7 +33,7 @@ public class AddMerch extends Command {
 
     //TODO code here alike to addEvent. REFACTOR
     @Override
-    public void execute(ArrayNode outputs, Library library, boolean offline) {
+    public void execute(final ArrayNode outputs, final Library library, final boolean offline) {
 //        System.out.println(this.toString());
         ObjectNode out = outputs.addObject();
 
@@ -55,7 +55,7 @@ public class AddMerch extends Command {
         ArtistPage artist = (ArtistPage) user;
 
         if (artist.getMerchList().stream().anyMatch(merch -> merch.getName().equals(getName()))) {
-            out.put(Output.MESSAGE, Output.THE_USERNAME + getUsername() + Output.MERCH_ALREADY_EXISTS);
+            out.put(Output.MESSAGE, getUsername() + Output.MERCH_ALREADY_EXISTS);
             return;
         }
 
@@ -66,5 +66,7 @@ public class AddMerch extends Command {
 
         Merch newMerch = new Merch(getName(), getDescription(), getPrice());
         artist.addMerch(newMerch);
+
+        out.put(Output.MESSAGE, getUsername() + Output.MERCH_ADD_SUCCESS);
     }
 }

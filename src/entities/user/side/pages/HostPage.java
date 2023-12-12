@@ -24,7 +24,7 @@ public class HostPage extends User implements Page, Playable {
     }
 
     @Override
-    public String printPage(NormalUser user) {
+    public String printPage(final Library lib, final NormalUser user) {
         return "empty HostPage";
     }
 

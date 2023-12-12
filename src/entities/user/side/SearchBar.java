@@ -1,5 +1,6 @@
 package entities.user.side;
 
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import common.UserTypes;
 import entities.Library;
 import entities.playable.Playable;
@@ -58,14 +59,7 @@ public final class SearchBar {
                 results.addAll(searchPodcasts(library, filters));
                 break;
             case "artist":
-//                List<User> artistsList = searchArtist(library, filters);
-//                List<ArtistPage> artistPagesList = new ArrayList<>();
-//
-//                for (User artist : artistsList) {
-//                    artistPagesList.add(artist.getCurrentPage());
-//                }
-//
-//                results.addAll(searchArtist(library, filters));
+                results.addAll(searchArtists(library, filters));
                 break;
             case "host":
                 break;
@@ -79,6 +73,7 @@ public final class SearchBar {
                 ? results.subList(0, MAX_LIST_RETURN) : results;
         this.setLastSearchResults(searchResults);
 
+//        System.out.println("buba in search");
 //        System.out.println(searchResults);
 
         return searchResults;
@@ -92,15 +87,11 @@ public final class SearchBar {
      *
      * @param newSelectedResult The new Playable item to be set as the selected result.
      */
-    public void setSelectedResultAndClear(final Playable newSelectedResult) {
-        this.selectedResult = newSelectedResult;
-        this.lastSearchResults = null;
-    }
+    public void setSelectedResultAndClear(final Playable newSelectedResult, NormalUser user, ObjectNode out) {
+//        this.selectedResult = newSelectedResult;
+//        this.lastSearchResults = null;
+        newSelectedResult.handleSelect(this, user, out);
 
-    private List<User> searchArtist(final Library library, final Map<String, Object> filters) {
-        return library.getUsers().stream()
-                .filter(artist -> matchesFiltersArtist(artist, filters))
-                .collect(Collectors.toList());
     }
 
     private List<Song> searchSongs(final Library library, final Map<String, Object> filters) {
@@ -122,18 +113,18 @@ public final class SearchBar {
                 .collect(Collectors.toList());
     }
 
-    private boolean matchesFiltersArtist(final User artist, final Map<String, Object> filters) {
-        if (artist.getUserType() != UserTypes.ARTIST) {
-            return false;
-        }
+    private List<ArtistPage> searchArtists(final Library library, final Map<String, Object> filters) {
+        return library.getArtists().stream()
+                .filter(artist -> matchesFiltersArtist(artist, filters))
+                .collect(Collectors.toList());
+    }
 
+    private boolean matchesFiltersArtist(final ArtistPage artist, final Map<String, Object> filters) {
         for (Map.Entry<String, Object> filter : filters.entrySet()) {
-            switch (filter.getKey().toLowerCase()) {
-                case "name":
-                    if (!artist.getUsername().startsWith((String) filter.getValue())) {
-                        return false;
-                    }
-                    break;
+            if (filter.getKey().equalsIgnoreCase("name")) {
+                if (!artist.getUsername().startsWith((String) filter.getValue())) {
+                    return false;
+                }
             }
         }
 

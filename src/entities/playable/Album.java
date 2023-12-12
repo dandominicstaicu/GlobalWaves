@@ -20,7 +20,6 @@ public class Album implements Playable {
         this.name = name;
         this.releaseYear = releaseYear;
         this.description = description;
-//        this.songs = songs;
         this.songs = new ArrayList<>();
         for (Song song : newSongs) {
             Song newSong = new Song(song.getName(), song.getDuration(), song.getAlbum(), song.getTags(),
