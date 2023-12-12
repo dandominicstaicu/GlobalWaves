@@ -138,4 +138,5 @@ public final class Output {
     public static final String EPISODES = "episodes";
     public static final String ADD_ANNOUNCE = "addAnnouncement";
     public static final String ANNOUNCE_ADD_SUCCESS = " has successfully added new announcement.";
+    public static final String REMOVE_ANNOUNCE_SUCCESS = " has successfully deleted the announcement.";
 }

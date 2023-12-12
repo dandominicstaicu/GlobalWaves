@@ -176,7 +176,7 @@
   "command" : "select",
   "user" : "soundseeker21",
   "timestamp" : 630,
-  "message" : "Successfully selected audiosage."
+  "message" : "Successfully selected audiosage's page."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -213,7 +213,7 @@
   "command" : "deleteUser",
   "user" : "audiosage",
   "timestamp" : 930,
-  "message" : "audiosage was successfully deleted."
+  "message" : "audiosage can't be deleted."
 }, {
   "command" : "deleteUser",
   "user" : "melodicwanderer",
@@ -233,7 +233,7 @@
   "command" : "deleteUser",
   "user" : "audiosage",
   "timestamp" : 1100,
-  "message" : "The username audiosage doesn't exist."
+  "message" : "audiosage can't be deleted."
 }, {
   "command" : "select",
   "user" : "david27",

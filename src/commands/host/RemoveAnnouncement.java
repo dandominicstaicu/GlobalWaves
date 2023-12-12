@@ -26,8 +26,6 @@ public class RemoveAnnouncement extends Command {
                 '}';
     }
 
-
-
     @Override
     public void execute(ArrayNode outputs, Library library, boolean offline) {
 //        System.out.println(this.toString());
@@ -51,12 +49,13 @@ public class RemoveAnnouncement extends Command {
 
         HostPage host = (HostPage) user;
 
-        if (host.hasAnnouncementWithName(getName())) {
+        if (!host.hasAnnouncementWithName(getName())) {
             out.put(Output.MESSAGE, getUsername() + Output.ANNOUNCE_NAME_ERR);
             return;
         }
 
         Announcement announcement = host.getAnnounceWithName(getName());
         host.removeAnnounce(announcement);
+        out.put(Output.MESSAGE, getUsername() + Output.REMOVE_ANNOUNCE_SUCCESS);
     }
 }

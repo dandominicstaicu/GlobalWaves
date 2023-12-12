@@ -1,17 +1,17 @@
 package entities.user.side.pages;
 
+import com.fasterxml.jackson.databind.node.ObjectNode;
+import common.Output;
 import common.UserTypes;
 import entities.Library;
 import entities.playable.Playable;
 import entities.playable.Podcast;
-import entities.user.side.Announcement;
-import entities.user.side.NormalUser;
-import entities.user.side.User;
-import entities.user.side.UserPlayer;
+import entities.user.side.*;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.util.ArrayList;
+import java.util.stream.Collectors;
 
 @Setter
 @Getter
@@ -26,8 +26,61 @@ public class HostPage extends User implements Page, Playable {
 
     @Override
     public String printPage(final Library lib, final NormalUser user) {
-        return "empty HostPage";
+        StringBuilder pageContent = new StringBuilder();
+
+        // Formatting the podcast list
+        pageContent.append("Podcasts:\n\t");
+        String podcastInfo = getPodcastInfo(lib);
+        if (!podcastInfo.isEmpty()) {
+            pageContent.append("[").append(podcastInfo).append("]");
+        } else {
+            pageContent.append("[]");
+        }
+        pageContent.append("\n\n");
+
+        // Formatting the announcements list
+//        pageContent.append("Announcements:\n\t");
+//        if (!announcements.isEmpty()) {
+//            String announcementInfo = announcements.stream()
+//                    .map(announcement -> announcement.getName() + ":\n\t" + announcement.getDescription())
+//                    .collect(Collectors.joining("\n, "));
+//            pageContent.append("[").append(announcementInfo).append("]");
+//        } else {
+//            pageContent.append("[]");
+//        }
+//
+//
+//        return pageContent.toString();
+
+        pageContent.append("Announcements:\n\t");
+        if (!announcements.isEmpty()) {
+            String announcementInfo = announcements.stream()
+                    .map(announcement -> announcement.getName() + ":\n\t" + announcement.getDescription() + "\n")
+                    .collect(Collectors.joining(", "));
+            pageContent.append("[").append(announcementInfo.trim()).append("\n]");
+        } else {
+            pageContent.append("[]");
+        }
+
+        return pageContent.toString();
     }
+
+    private String getPodcastInfo(final Library lib) {
+        return lib.getHostsPodcasts(this.getName()).stream()
+                .map(podcast -> podcast.getName() + ":\n\t" + getEpisodeInfo(podcast) + "\n")
+                .collect(Collectors.joining(", "));
+    }
+
+
+    // method for getting episode info of a podcast
+    private String getEpisodeInfo(Podcast podcast) {
+        String episodeDescriptions = podcast.getEpisodes().stream()
+                .map(episode -> episode.getName() + " - " + episode.getDescription())
+                .collect(Collectors.joining(", "));
+
+        return episodeDescriptions.isEmpty() ? "[]" : "[" + episodeDescriptions + "]";
+    }
+
 
     @Override
     public boolean isEmpty() {
@@ -94,4 +147,29 @@ public class HostPage extends User implements Page, Playable {
         return announcements.stream()
                 .anyMatch(announcement -> announcement.getName().equals(announcementName));
     }
+
+    @Override
+    public void handleSelect(final SearchBar searchBar, final NormalUser user, final ObjectNode out) {
+        out.put(Output.MESSAGE, "Successfully selected " + getUsername() + "'s page.");
+        user.setCurrentPage(this);
+    }
 }
+
+
+//        pageContent.append("Announcements:\n\t");
+//        if (!announcements.isEmpty()) {
+//            String announcementInfo = announcements.stream()
+//                    .map(announcement -> announcement.getName() + "\n\t" + announcement.getDescription())
+//                    .collect(Collectors.joining("\n, "));
+//            pageContent.append("[").append(announcementInfo).append("]");
+//        } else {
+//            pageContent.append("[]");
+//        }
+
+
+// private String getEpisodeInfo(Podcast podcast) {
+//     return podcast.getEpisodes().stream()
+//            .map(episode -> episode.getName() + " - " + episode.getDescription())
+//            .collect(Collectors.joining(", "));
+// }
+
