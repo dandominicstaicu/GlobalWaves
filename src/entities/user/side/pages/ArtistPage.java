@@ -6,11 +6,14 @@ import common.UserTypes;
 import entities.Library;
 import entities.playable.Album;
 import entities.playable.Playable;
+import entities.playable.audio_files.Song;
 import entities.user.side.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
+
 import java.util.ArrayList;
+import java.util.List;
 import java.util.stream.Collectors;
 
 
@@ -131,6 +134,48 @@ public class ArtistPage extends User implements Page, Playable {
 
 //        System.out.println("artists after each add:");
 //        System.out.println(library.getArtists());
+    }
+
+    @Override
+    public boolean handleDeletion(Library library) {
+        for (NormalUser user : library.getUsers()) {
+            // if this page is used by a user at deletion time, it has to fail
+            if (user.getCurrentPage().equals(this)) {
+                return false;
+            }
+
+            if (user.getPlayer().getLoadedContentReference() != null) {
+                System.out.println("loaded content is not null");
+                System.out.println(user.getPlayer().getLoadedContentReference().getName());
+
+                if (user.getPlayer().getLoadedContentReference().isLoadedInPlayer(this.getUsername())) {
+                    System.out.println("the album is loaded in a player");
+                    if (user.getPlayer().getIsPlaying()) {
+                        return false;
+                    }
+                }
+
+            }
+        }
+
+        library.getArtists().remove(this);
+
+        List<Album> artistsAlbums = library.getArtistsAlbums(this.getUsername());
+
+        List<Song> removeSongs = new ArrayList<>();
+
+        for (Album album : artistsAlbums) {
+            removeSongs.addAll(album.getSongs());
+        }
+
+        library.getSongs().removeAll(removeSongs);
+
+//        System.out.println("in ArtistPage in delete print artistsAlbums");
+//        System.out.println(artistsAlbums);
+
+        library.getAlbums().removeAll(artistsAlbums);
+
+        return true;
     }
 
     @Override

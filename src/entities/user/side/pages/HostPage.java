@@ -52,4 +52,17 @@ public class HostPage extends User implements Page, Playable {
     public void addUser(Library library) {
         library.getHosts().add(this);
     }
+
+    @Override
+    public boolean handleDeletion(Library library) {
+        for (NormalUser user : library.getUsers()) {
+            // if this page is used by a user at deletion time, it has to fail
+            if (user.getCurrentPage().equals(this)) {
+                return false;
+            }
+        }
+
+        library.getHosts().remove(this);
+        return true;
+    }
 }

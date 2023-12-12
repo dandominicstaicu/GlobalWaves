@@ -6,7 +6,6 @@ import entities.user.side.NormalUser;
 import entities.user.side.SearchBar;
 import entities.user.side.UserPlayer;
 
-import java.util.List;
 
 /**
  * An interface representing a playable entity, such as a Song or a Playlist.
@@ -39,6 +38,10 @@ public interface Playable {
      * @return True if the entity is a playlist, false otherwise.
      */
     boolean isPlaylist();
+
+    default boolean isLoadedInPlayer(String username) {
+        return false;
+    }
 
     default void handleSelect(final SearchBar searchBar, final NormalUser user, ObjectNode out) {
 //        List<Playable> lastSearchResults = user.getPlayer().getSearchBar().getLastSearchResults();

@@ -44,6 +44,8 @@ public class UserPlayer {
     private List<AudioFile> audioQueue;
     private List<Integer> shuffledIndexes;
 
+    private Playable loadedContentReference;
+
     /**
      * Constructs a UserPlayer instance.
      */
@@ -55,6 +57,7 @@ public class UserPlayer {
         this.isRepeating = RepeatStates.NO_REPEAT;
         this.audioQueue = new ArrayList<>();
         this.isPlayingPlaylist = false;
+        this.loadedContentReference = null;
     }
 
     /**
@@ -369,6 +372,7 @@ public class UserPlayer {
     public void stop() {
         this.isPlaying = false;
         isShuffled = false;
+        this.loadedContentReference = null;
 
         if (audioQueue != null && playingIndexIsValid()) {
             int currentSecond = audioQueue.get(playingIndex).getDuration() - timeLeftToPlay;

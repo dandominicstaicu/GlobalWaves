@@ -37,11 +37,30 @@ public class Album implements Playable {
 
     @Override
     public void loadToQueue(UserPlayer userPlayer) {
-        System.out.println("TODO implement load for album");
+        // clear the queue before adding
+        userPlayer.getAudioQueue().clear();
+
+        // add all songs to the queue of the userPlayer
+        userPlayer.getAudioQueue().addAll(songs);
+
+        // set in the player a reference to what is loaded
+        userPlayer.setLoadedContentReference(this);
+    }
+
+    @Override
+    public String toString() {
+        return "Album{" +
+                "name='" + name + '\'' +
+                '}';
     }
 
     @Override
     public boolean isPlaylist() {
         return false;
+    }
+
+    @Override
+    public boolean isLoadedInPlayer(String username) {
+        return getOwner().equals(username);
     }
 }

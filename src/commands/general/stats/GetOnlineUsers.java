@@ -22,7 +22,7 @@ public class GetOnlineUsers extends Command {
     }
 
     @Override
-    public void execute(ArrayNode outputs, Library library, boolean offline) {
+    public void execute(final ArrayNode outputs, final Library library, final boolean offline) {
 //        System.out.println(this.toString());
         ObjectNode out = outputs.addObject();
         out.put(Output.COMMAND, Output.ONLINE_USERS);

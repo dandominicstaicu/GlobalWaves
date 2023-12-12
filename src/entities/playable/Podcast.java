@@ -54,6 +54,9 @@ public class Podcast implements Playable {
 
         // add all episodes to the queue of the userPlayer
         userPlayer.getAudioQueue().addAll(episodes);
+
+        // set in the player a reference to what is loaded
+        userPlayer.setLoadedContentReference(this);
     }
 
     /**
@@ -64,5 +67,10 @@ public class Podcast implements Playable {
     @Override
     public boolean isPlaylist() {
         return false;
+    }
+
+    @Override
+    public boolean isLoadedInPlayer(String username) {
+        return getOwner().equals(username);
     }
 }

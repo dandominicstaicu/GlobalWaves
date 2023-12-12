@@ -3,6 +3,7 @@ package entities.user.side;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import common.UserTypes;
 import entities.Library;
+import entities.playable.Album;
 import entities.playable.Playable;
 import entities.playable.Playlist;
 import entities.playable.Podcast;
@@ -62,8 +63,10 @@ public final class SearchBar {
                 results.addAll(searchArtists(library, filters));
                 break;
             case "host":
+                //TODO implement
                 break;
             case "album":
+                results.addAll(searchAlbum(library, filters));
                 break;
             default:
                 break;
@@ -119,12 +122,32 @@ public final class SearchBar {
                 .collect(Collectors.toList());
     }
 
-    private boolean matchesFiltersArtist(final ArtistPage artist, final Map<String, Object> filters) {
+    private List<Album> searchAlbum(final Library library, final Map<String, Object> filters) {
+        return library.getAlbums().stream()
+                .filter(album -> matchesFiltersAlbum(album, filters))
+                .collect(Collectors.toList());
+    }
+
+    private boolean matchesFiltersAlbum(final Album album, final Map<String, Object> filters) {
         for (Map.Entry<String, Object> filter : filters.entrySet()) {
-            if (filter.getKey().equalsIgnoreCase("name")) {
-                if (!artist.getUsername().startsWith((String) filter.getValue())) {
-                    return false;
-                }
+            switch (filter.getKey().toLowerCase()) {
+                case "name":
+                    if (!album.getName().startsWith((String) filter.getValue())) {
+                        return false;
+                    }
+                    break;
+                case "owner":
+                    if (!album.getOwner().startsWith((String) filter.getValue())) {
+                        return false;
+                    }
+                    break;
+                case "description":
+                    if (!album.getDescription().startsWith((String) filter.getValue())) {
+                        return false;
+                    }
+                    break;
+                default:
+                    break;
             }
         }
 
@@ -265,5 +288,17 @@ public final class SearchBar {
             };
         }
         return false;
+    }
+
+    private boolean matchesFiltersArtist(final ArtistPage artist, final Map<String, Object> filters) {
+        for (Map.Entry<String, Object> filter : filters.entrySet()) {
+            if (filter.getKey().equalsIgnoreCase("name")) {
+                if (!artist.getUsername().startsWith((String) filter.getValue())) {
+                    return false;
+                }
+            }
+        }
+
+        return true;
     }
 }

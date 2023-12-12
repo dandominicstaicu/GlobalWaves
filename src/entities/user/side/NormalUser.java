@@ -116,6 +116,12 @@ public class NormalUser extends User {
         library.getUsers().add(this);
     }
 
+    @Override
+    public boolean handleDeletion(Library library) {
+        library.removeUser(this);
+        return true;
+    }
+
 //    @Override
 //    public boolean isNormalUser() {
 //        return true;

@@ -122,4 +122,8 @@ public final class Output {
     public static final String NEGATIVE_PRICE_MERCH = "Price for merchandise can not be negative.";
     public static final String EVENT_ADD_SUCCESS = " has added new event successfully.";
     public static final String MERCH_ADD_SUCCESS = " has added new merchandise successfully.";
+    public static final String GET_ALL_USERS = "getAllUsers";
+    public static final String DELETE_USER = "deleteUser";
+    public static final String DELETE_USER_SUCCESS = " was successfully deleted.";
+    public static final String DELETE_USER_FAIL = " can't be deleted.";
 }

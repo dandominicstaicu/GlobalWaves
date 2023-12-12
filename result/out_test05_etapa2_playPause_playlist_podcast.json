@@ -167,7 +167,7 @@
   "command" : "addUser",
   "user" : "magichost",
   "timestamp" : 3247,
-  "message" : "The username magichost has been added successfully."
+  "message" : "The username magichost is already taken."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",

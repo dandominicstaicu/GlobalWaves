@@ -106,19 +106,30 @@ public final class Main {
             boolean offline = false;
 
             // if the command has a user, it is different from getTop5 commands
-            if (command.getUsername() != null) {
-//                System.out.println("timestamp: " + command.getTimestamp());
-                NormalUser normalUser = library.getUserWithUsername(command.getUsername());
-                if (normalUser != null) {
-                    if (!normalUser.getOnline()) {
-                        offline = true;
-                    } else {
-                        UserPlayer userPlayer = normalUser.getPlayer();
+//            if (command.getUsername() != null) {
+////                System.out.println("timestamp: " + command.getTimestamp());
+//                NormalUser normalUser = library.getUserWithUsername(command.getUsername());
+//                if (normalUser != null) {
+//                    if (!normalUser.getOnline()) {
+//                        offline = true;
+//                    } else {
+//                        UserPlayer userPlayer = normalUser.getPlayer();
+//
+//                        userPlayer.updateTime(command.getTimestamp());
+//                    }
+//                }
+//            }
 
-                        userPlayer.updateTime(command.getTimestamp());
-                    }
+            for (NormalUser normalUser : library.getUsers()) {
+                if (normalUser.getOnline()) {
+                    UserPlayer userPlayer = normalUser.getPlayer();
+                    userPlayer.updateTime(command.getTimestamp());
                 }
             }
+
+            NormalUser normalUser = library.getUserWithUsername(command.getUsername());
+            if (normalUser != null)
+                offline = !normalUser.getOnline();
 
 
             command.execute(outputs, library, offline);

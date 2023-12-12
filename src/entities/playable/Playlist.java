@@ -67,6 +67,9 @@ public class Playlist implements Playable {
 
         // add all songs to the queue of the userPlayer
         userPlayer.getAudioQueue().addAll(songs);
+
+        // set in the player a reference to what is loaded
+        userPlayer.setLoadedContentReference(this);
     }
 
     /**

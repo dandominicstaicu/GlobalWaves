@@ -85,6 +85,9 @@ public class Song extends AudioFile implements Playable {
 
         // add only one song to the queue of the userPlayer
         userPlayer.getAudioQueue().add(this);
+
+        // set in the player a reference to what is loaded
+        userPlayer.setLoadedContentReference(this);
     }
 
     /**
@@ -105,5 +108,10 @@ public class Song extends AudioFile implements Playable {
     @Override
     public boolean isSong() {
         return true;
+    }
+
+    @Override
+    public boolean isLoadedInPlayer(String username) {
+        return getArtist().equals(username);
     }
 }

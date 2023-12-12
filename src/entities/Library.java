@@ -16,6 +16,7 @@ import fileio.input.SongInput;
 import fileio.input.UserInput;
 import lombok.Getter;
 import lombok.Setter;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -157,7 +158,7 @@ public final class Library {
         for (User user : users) {
 //            System.out.println("pula");
             if (user.getUserType() == UserTypes.NORMAL_USER
-                && user.getUsername().equals(username)) {
+                    && user.getUsername().equals(username)) {
                 return (NormalUser) user;
             }
         }
@@ -169,6 +170,18 @@ public final class Library {
         for (User user : users) {
             if (user.getUsername().equals(username)) {
                 return user;
+            }
+        }
+
+        for (ArtistPage artist : artists) {
+            if (artist.getUsername().equals(username)) {
+                return artist;
+            }
+        }
+
+        for (HostPage host : hosts) {
+            if (host.getUsername().equals(username)) {
+                return host;
             }
         }
 
@@ -214,10 +227,10 @@ public final class Library {
     /**
      * Searches for a song with the specified name within a given playlist.
      *
-     * @param songName  The name of the song to search for.
-     * @param playlist  The playlist in which to search for the song.
+     * @param songName The name of the song to search for.
+     * @param playlist The playlist in which to search for the song.
      * @return The Song object with the specified name if found in the playlist, or null if not
-     *         found or if the provided playlist is null.
+     * found or if the provided playlist is null.
      */
     public Song searchSongInPlaylist(final String songName, final Playlist playlist) {
         if (playlist == null) {
@@ -240,7 +253,7 @@ public final class Library {
      * @param song       The song to add or remove from the playlist.
      * @param username   The username of the user who owns the playlist.
      * @return True if the song was added to the playlist, false if the song was removed from the
-     *          playlist.
+     * playlist.
      */
     public boolean decideAddRemove(final Integer playlistID, final Song song,
                                    final String username) {
@@ -277,7 +290,7 @@ public final class Library {
         }
     }
 
-    public void decideAddUser (final User user) {
+    public void decideAddUser(final User user) {
 
     }
 
@@ -329,6 +342,16 @@ public final class Library {
                 result.add(album);
             }
         }
+
+        return result;
+    }
+
+    public List<User> getAllUsers() {
+        ArrayList<User> result = new ArrayList<>();
+
+        result.addAll(users);
+        result.addAll(artists);
+        result.addAll(hosts);
 
         return result;
     }

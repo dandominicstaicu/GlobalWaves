@@ -20,4 +20,5 @@ public abstract class User {
 
 //    public abstract boolean isNormalUser();
     public abstract void addUser(Library library);
+    public abstract boolean handleDeletion(Library library);
 }
