@@ -40,7 +40,7 @@ public class Like extends Command {
      */
     @Override
     public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
-        System.out.println("in like " + getTimestamp());
+//        System.out.println("in like " + getTimestamp());
         if (offline) {
             ObjectNode out = outputs.addObject();
             out.put(Output.COMMAND, Output.LIKE);
@@ -59,7 +59,7 @@ public class Like extends Command {
         NormalUser normalUser = lib.getUserWithUsername(getUsername());
 
         if (normalUser == null) {
-            System.out.println("User not found. is null in like");
+//            System.out.println("User not found. is null in like");
             return;
         }
 

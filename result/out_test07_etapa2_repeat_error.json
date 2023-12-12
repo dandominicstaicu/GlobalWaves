@@ -259,8 +259,8 @@
   "command" : "search",
   "user" : "rhythmicrider58",
   "timestamp" : 3380,
-  "message" : "Search returned 1 results",
-  "results" : [ "Vibrant Echoes" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "search",
   "user" : "rhythmicrider58",
@@ -322,5 +322,5 @@
   "command" : "printCurrentPage",
   "user" : "rhythmicrider58",
   "timestamp" : 7000,
-  "message" : "Liked songs:\n\t[Synth Symphony, Shape of You]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Shape of You]\n\nFollowed playlists:\n\t[]"
 } ]

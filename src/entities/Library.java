@@ -346,6 +346,18 @@ public final class Library {
         return result;
     }
 
+    public ArrayList<Podcast> getHostsPodcasts(final String hostsName) {
+        ArrayList<Podcast> result = new ArrayList<>();
+
+        for (Podcast podcast : podcasts) {
+            if (podcast.getOwner().equals(hostsName)) {
+                result.add(podcast);
+            }
+        }
+
+        return result;
+    }
+
     public List<User> getAllUsers() {
         ArrayList<User> result = new ArrayList<>();
 

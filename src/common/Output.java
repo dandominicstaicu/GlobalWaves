@@ -65,7 +65,7 @@ public final class Output {
     public static final String UNFOLLOW_SUCCESS = "Playlist unfollowed successfully.";
     public static final String SELECTED_NOT_PLAYLIST = "The selected source is not a playlist.";
     public static final String OWN_PLAYLIST_ERR = "You cannot follow or unfollow your own "
-             + "playlist.";
+            + "playlist.";
     public static final String LOAD_FOLLOW_ERR = "Please select a source before following or "
             + "unfollowing.";
     public static final String CREATE_PLAYLIST = "createPlaylist";
@@ -126,4 +126,16 @@ public final class Output {
     public static final String DELETE_USER = "deleteUser";
     public static final String DELETE_USER_SUCCESS = " was successfully deleted.";
     public static final String DELETE_USER_FAIL = " can't be deleted.";
+    public static final String ADD_PODCAST = "addPodcast";
+    public static final String NOT_HOST = " is not a host.";
+    public static final String SAME_NAME_PODCAST = " has another podcast with the same name.";
+    public static final String DUPLICATE_EPISODE = " has the same episode in this podcast.";
+    public static final String NEW_PODCAST_ADD = " has added new podcast successfully.";
+    public static final String SAME_NAME_ANNOUNCE = " has already added an announcement with this name.";
+    public static final String REMOVE_ANNOUNCE = "removeAnnouncement";
+    public static final String ANNOUNCE_NAME_ERR = " has no announcement with the given name.";
+    public static final String SHOW_PODCASTS = "showPodcasts";
+    public static final String EPISODES = "episodes";
+    public static final String ADD_ANNOUNCE = "addAnnouncement";
+    public static final String ANNOUNCE_ADD_SUCCESS = " has successfully added new announcement.";
 }

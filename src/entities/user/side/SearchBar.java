@@ -9,6 +9,7 @@ import entities.playable.Playlist;
 import entities.playable.Podcast;
 import entities.playable.audio_files.Song;
 import entities.user.side.pages.ArtistPage;
+import entities.user.side.pages.HostPage;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -63,7 +64,7 @@ public final class SearchBar {
                 results.addAll(searchArtists(library, filters));
                 break;
             case "host":
-                //TODO implement
+                results.addAll(searchHosts(library, filters));
                 break;
             case "album":
                 results.addAll(searchAlbum(library, filters));
@@ -122,36 +123,16 @@ public final class SearchBar {
                 .collect(Collectors.toList());
     }
 
+    private List<HostPage> searchHosts(final Library library, final Map<String, Object> filters) {
+        return library.getHosts().stream()
+                .filter(host -> matchesFiltersHost(host, filters))
+                .collect(Collectors.toList());
+    }
+
     private List<Album> searchAlbum(final Library library, final Map<String, Object> filters) {
         return library.getAlbums().stream()
                 .filter(album -> matchesFiltersAlbum(album, filters))
                 .collect(Collectors.toList());
-    }
-
-    private boolean matchesFiltersAlbum(final Album album, final Map<String, Object> filters) {
-        for (Map.Entry<String, Object> filter : filters.entrySet()) {
-            switch (filter.getKey().toLowerCase()) {
-                case "name":
-                    if (!album.getName().startsWith((String) filter.getValue())) {
-                        return false;
-                    }
-                    break;
-                case "owner":
-                    if (!album.getOwner().startsWith((String) filter.getValue())) {
-                        return false;
-                    }
-                    break;
-                case "description":
-                    if (!album.getDescription().startsWith((String) filter.getValue())) {
-                        return false;
-                    }
-                    break;
-                default:
-                    break;
-            }
-        }
-
-        return true;
     }
 
     // chatGPT helped me write this function, so I can parse Strings easily
@@ -296,6 +277,45 @@ public final class SearchBar {
                 if (!artist.getUsername().startsWith((String) filter.getValue())) {
                     return false;
                 }
+            }
+        }
+
+        return true;
+    }
+
+
+    private boolean matchesFiltersHost(final HostPage host, final Map<String, Object> filters) {
+        for (Map.Entry<String, Object> filter : filters.entrySet()) {
+            if (filter.getKey().equalsIgnoreCase("name")) {
+                if (!host.getUsername().startsWith((String) filter.getValue())) {
+                    return false;
+                }
+            }
+        }
+
+        return true;
+    }
+
+    private boolean matchesFiltersAlbum(final Album album, final Map<String, Object> filters) {
+        for (Map.Entry<String, Object> filter : filters.entrySet()) {
+            switch (filter.getKey().toLowerCase()) {
+                case "name":
+                    if (!album.getName().startsWith((String) filter.getValue())) {
+                        return false;
+                    }
+                    break;
+                case "owner":
+                    if (!album.getOwner().startsWith((String) filter.getValue())) {
+                        return false;
+                    }
+                    break;
+                case "description":
+                    if (!album.getDescription().startsWith((String) filter.getValue())) {
+                        return false;
+                    }
+                    break;
+                default:
+                    break;
             }
         }
 

@@ -15,6 +15,15 @@ import lombok.Setter;
 public class Episode extends AudioFile {
     private String description;
 
+    @Override
+    public String toString() {
+        return "Episode{"
+                + "name=" + super.getName()
+                + " description='" + description + '\''
+                +
+                '}';
+    }
+
     /**
      * Constructs a new Episode with the given attributes.
      *
