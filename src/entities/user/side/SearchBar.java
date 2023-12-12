@@ -205,7 +205,7 @@ public final class SearchBar {
                     }
                     break;
                 case "name":
-                    if (!playlist.getName().equalsIgnoreCase((String) filter.getValue())) {
+                    if (!playlist.getName().startsWith((String) filter.getValue())) {
                         return false;
                     }
                     break;

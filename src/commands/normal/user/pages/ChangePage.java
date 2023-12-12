@@ -44,12 +44,12 @@ public class ChangePage extends Command {
             case "Home":
                 HomePage homePage = new HomePage();
                 user.setCurrentPage(homePage);
-                out.put(Output.MESSAGE, getUsername() + " accessed Home successfully");
+                out.put(Output.MESSAGE, getUsername() + " accessed Home successfully.");
                 break;
             case "LikedContent":
                 LikedContentPage likedContentPage = new LikedContentPage();
                 user.setCurrentPage(likedContentPage);
-                out.put(Output.MESSAGE, getUsername() + " accessed LikedContent successfully");
+                out.put(Output.MESSAGE, getUsername() + " accessed LikedContent successfully.");
                 break;
             default:
                 out.put(Output.MESSAGE, getUsername() + " is trying to access a non-existent page.");

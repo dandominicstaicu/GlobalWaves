@@ -207,8 +207,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1021,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "My favourite songs" ]
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -234,7 +234,7 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1025,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected My favourite songs."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -250,7 +250,7 @@
   "command" : "follow",
   "user" : "carol19",
   "timestamp" : 1027,
-  "message" : "Please select a source before following or unfollowing."
+  "message" : "Playlist followed successfully."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -298,7 +298,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 1040,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[My favourite songs]"
 }, {
   "command" : "status",
   "user" : "alice22",
@@ -335,7 +335,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 2102,
-  "message" : "carol19 accessed LikedContent successfully"
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "command" : "status",
   "user" : "alice22",
@@ -372,7 +372,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 2338,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[My favourite songs - alice22]"
 }, {
   "command" : "status",
   "user" : "alice22",

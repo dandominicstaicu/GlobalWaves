@@ -133,7 +133,7 @@
   "command" : "changePage",
   "user" : "rhythmicrider58",
   "timestamp" : 2755,
-  "message" : "rhythmicrider58 accessed LikedContent successfully"
+  "message" : "rhythmicrider58 accessed LikedContent successfully."
 }, {
   "command" : "deleteUser",
   "user" : "melodymaster",
@@ -175,8 +175,8 @@
   "command" : "search",
   "user" : "rhythmicrider58",
   "timestamp" : 3190,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "My favourite songs" ]
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -202,7 +202,7 @@
   "command" : "select",
   "user" : "rhythmicrider58",
   "timestamp" : 3225,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected My favourite songs."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "emily30",
@@ -223,7 +223,7 @@
   "command" : "follow",
   "user" : "rhythmicrider58",
   "timestamp" : 3285,
-  "message" : "Please select a source before following or unfollowing."
+  "message" : "Playlist followed successfully."
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -238,7 +238,7 @@
   "command" : "printCurrentPage",
   "user" : "rhythmicrider58",
   "timestamp" : 3300,
-  "message" : "Liked songs:\n\t[Synth Symphony]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Synth Symphony]\n\nFollowed playlists:\n\t[My favourite songs - emily30]"
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -254,7 +254,7 @@
   "command" : "changePage",
   "user" : "rhythmicrider58",
   "timestamp" : 3320,
-  "message" : "rhythmicrider58 accessed Home successfully"
+  "message" : "rhythmicrider58 accessed Home successfully."
 }, {
   "command" : "repeat",
   "user" : "emily30",
@@ -311,7 +311,7 @@
     "name" : "My favourite songs",
     "songs" : [ "99 Problems" ],
     "visibility" : "public",
-    "followers" : 0
+    "followers" : 1
   } ]
 }, {
   "command" : "load",
@@ -332,5 +332,5 @@
   "command" : "printCurrentPage",
   "user" : "rhythmicrider58",
   "timestamp" : 7000,
-  "message" : "Liked songs:\n\t[Shape of You]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Shape of You]\n\nFollowed playlists:\n\t[My favourite songs]"
 } ]

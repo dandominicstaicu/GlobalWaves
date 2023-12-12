@@ -160,7 +160,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 525,
-  "message" : "Liked songs:\n\t[Aurora Harmony]\n\nFollowed playlists:\n\t[Playlist bengos - melodicwanderer]"
+  "message" : "Liked songs:\n\t[Aurora Harmony]\n\nFollowed playlists:\n\t[Playlist bengos]"
 }, {
   "command" : "deleteUser",
   "user" : "sonicpainter",
@@ -218,7 +218,7 @@
   "command" : "changePage",
   "user" : "soundseeker21",
   "timestamp" : 955,
-  "message" : "soundseeker21 accessed Home successfully"
+  "message" : "soundseeker21 accessed Home successfully."
 }, {
   "command" : "deleteUser",
   "user" : "melodicwanderer",
@@ -283,7 +283,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 7885,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "deleteUser",
   "user" : "sonicpainter",
@@ -293,5 +293,5 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 7900,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[Playlist bengos - melodicwanderer]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[Playlist bengos]"
 } ]

@@ -100,7 +100,7 @@ Starting audit...
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/user/side/pages/HomePage.java:35:38: Parameter user should be final. [FinalParameters]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/user/side/pages/HomePage.java:39:24: '5' is a magic number. [MagicNumber]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/user/side/pages/HomePage.java:45:5: Class 'HomePage' looks like designed for extension (can be subclassed), but the method 'printPage' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'HomePage' final or making the method 'printPage' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/user/side/pages/HomePage.java:69: Line is longer than 100 characters (found 145). [LineLength]
+[ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/user/side/pages/HomePage.java:69: Line is longer than 100 characters (found 102). [LineLength]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/user/side/SearchBar.java:4:8: Unused import - common.UserTypes. [UnusedImports]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/user/side/SearchBar.java:94: Line is longer than 100 characters (found 110). [LineLength]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/entities/user/side/SearchBar.java:94:77: Parameter user should be final. [FinalParameters]

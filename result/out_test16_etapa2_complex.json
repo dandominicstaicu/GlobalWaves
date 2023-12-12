@@ -8805,7 +8805,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10280,
-  "message" : "alice22 accessed LikedContent successfully"
+  "message" : "alice22 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -8856,7 +8856,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10280,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -8866,7 +8866,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10290,
-  "message" : "bob35 accessed LikedContent successfully"
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -8917,7 +8917,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10290,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -8927,7 +8927,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10300,
-  "message" : "carol19 accessed LikedContent successfully"
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -8978,7 +8978,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10300,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -8988,7 +8988,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10310,
-  "message" : "david27 accessed LikedContent successfully"
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -9039,7 +9039,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10310,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -9049,7 +9049,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10320,
-  "message" : "emily30 accessed LikedContent successfully"
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -9100,7 +9100,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10320,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -9110,7 +9110,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10330,
-  "message" : "frank21 accessed LikedContent successfully"
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -9161,7 +9161,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10330,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -9171,7 +9171,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10340,
-  "message" : "grace25 accessed LikedContent successfully"
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -9222,7 +9222,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10340,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -9232,7 +9232,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10350,
-  "message" : "henry26 accessed LikedContent successfully"
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -9283,7 +9283,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10350,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -9293,7 +9293,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10360,
-  "message" : "irene33 accessed LikedContent successfully"
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -9344,7 +9344,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10360,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -9354,7 +9354,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10370,
-  "message" : "jack29 accessed LikedContent successfully"
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -9405,7 +9405,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10370,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -9415,7 +9415,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10380,
-  "message" : "alice22 accessed LikedContent successfully"
+  "message" : "alice22 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -9466,7 +9466,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10380,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -9476,7 +9476,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10390,
-  "message" : "bob35 accessed LikedContent successfully"
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -9527,7 +9527,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10390,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -9537,7 +9537,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10400,
-  "message" : "carol19 accessed LikedContent successfully"
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -9588,7 +9588,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10400,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -9598,7 +9598,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10410,
-  "message" : "david27 accessed LikedContent successfully"
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -9649,7 +9649,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10410,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -9659,7 +9659,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10420,
-  "message" : "emily30 accessed LikedContent successfully"
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -9710,7 +9710,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10420,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -9720,7 +9720,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10430,
-  "message" : "frank21 accessed LikedContent successfully"
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -9771,7 +9771,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10430,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -9781,7 +9781,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10440,
-  "message" : "grace25 accessed LikedContent successfully"
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -9832,7 +9832,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10440,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -9842,7 +9842,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10450,
-  "message" : "henry26 accessed LikedContent successfully"
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -9893,7 +9893,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10450,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -9903,7 +9903,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10460,
-  "message" : "irene33 accessed LikedContent successfully"
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -9954,7 +9954,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10460,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -9964,7 +9964,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10470,
-  "message" : "jack29 accessed LikedContent successfully"
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -10015,7 +10015,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10470,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -10025,7 +10025,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10480,
-  "message" : "alice22 accessed LikedContent successfully"
+  "message" : "alice22 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -10076,7 +10076,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10480,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -10086,7 +10086,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10490,
-  "message" : "bob35 accessed LikedContent successfully"
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -10137,7 +10137,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10490,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -10147,7 +10147,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10500,
-  "message" : "carol19 accessed LikedContent successfully"
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -10198,7 +10198,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10500,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -10208,7 +10208,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10510,
-  "message" : "david27 accessed LikedContent successfully"
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -10259,7 +10259,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10510,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -10269,7 +10269,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10520,
-  "message" : "emily30 accessed LikedContent successfully"
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -10320,7 +10320,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10520,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -10330,7 +10330,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10530,
-  "message" : "frank21 accessed LikedContent successfully"
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -10381,7 +10381,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10530,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -10391,7 +10391,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10540,
-  "message" : "grace25 accessed LikedContent successfully"
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -10442,7 +10442,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10540,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -10452,7 +10452,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10550,
-  "message" : "henry26 accessed LikedContent successfully"
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -10503,7 +10503,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10550,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -10513,7 +10513,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10560,
-  "message" : "irene33 accessed LikedContent successfully"
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -10564,7 +10564,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10560,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -10574,7 +10574,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10570,
-  "message" : "jack29 accessed LikedContent successfully"
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -10625,7 +10625,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10570,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -10635,7 +10635,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10580,
-  "message" : "alice22 accessed LikedContent successfully"
+  "message" : "alice22 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -10686,7 +10686,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10580,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -10696,7 +10696,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10590,
-  "message" : "bob35 accessed LikedContent successfully"
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -10747,7 +10747,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10590,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -10757,7 +10757,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10600,
-  "message" : "carol19 accessed LikedContent successfully"
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -10808,7 +10808,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10600,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -10818,7 +10818,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10610,
-  "message" : "david27 accessed LikedContent successfully"
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -10869,7 +10869,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10610,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -10879,7 +10879,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10620,
-  "message" : "emily30 accessed LikedContent successfully"
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -10930,7 +10930,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10620,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -10940,7 +10940,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10630,
-  "message" : "frank21 accessed LikedContent successfully"
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -10991,7 +10991,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10630,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -11001,7 +11001,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10640,
-  "message" : "grace25 accessed LikedContent successfully"
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -11052,7 +11052,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10640,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -11062,7 +11062,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10650,
-  "message" : "henry26 accessed LikedContent successfully"
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -11113,7 +11113,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10650,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -11123,7 +11123,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10660,
-  "message" : "irene33 accessed LikedContent successfully"
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -11174,7 +11174,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10660,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -11184,7 +11184,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10670,
-  "message" : "jack29 accessed LikedContent successfully"
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -11235,7 +11235,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10670,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -11245,7 +11245,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10680,
-  "message" : "alice22 accessed LikedContent successfully"
+  "message" : "alice22 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -11296,7 +11296,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10680,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -11306,7 +11306,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10690,
-  "message" : "bob35 accessed LikedContent successfully"
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -11357,7 +11357,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10690,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -11367,7 +11367,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10700,
-  "message" : "carol19 accessed LikedContent successfully"
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -11418,7 +11418,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10700,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -11428,7 +11428,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10710,
-  "message" : "david27 accessed LikedContent successfully"
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -11479,7 +11479,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10710,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -11489,7 +11489,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10720,
-  "message" : "emily30 accessed LikedContent successfully"
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -11540,7 +11540,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10720,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -11550,7 +11550,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10730,
-  "message" : "frank21 accessed LikedContent successfully"
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -11601,7 +11601,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10730,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -11611,7 +11611,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10740,
-  "message" : "grace25 accessed LikedContent successfully"
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -11662,7 +11662,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10740,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -11672,7 +11672,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10750,
-  "message" : "henry26 accessed LikedContent successfully"
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -11723,7 +11723,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10750,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -11733,7 +11733,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10760,
-  "message" : "irene33 accessed LikedContent successfully"
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -11784,7 +11784,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10760,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -11794,7 +11794,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10770,
-  "message" : "jack29 accessed LikedContent successfully"
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -11845,7 +11845,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10770,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -11855,7 +11855,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10780,
-  "message" : "alice22 accessed LikedContent successfully"
+  "message" : "alice22 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -11906,7 +11906,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10780,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -11916,7 +11916,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10790,
-  "message" : "bob35 accessed LikedContent successfully"
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -11967,7 +11967,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10790,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -11977,7 +11977,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10800,
-  "message" : "carol19 accessed LikedContent successfully"
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -12028,7 +12028,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10800,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -12038,7 +12038,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10810,
-  "message" : "david27 accessed LikedContent successfully"
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -12089,7 +12089,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10810,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -12099,7 +12099,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10820,
-  "message" : "emily30 accessed LikedContent successfully"
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -12150,7 +12150,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10820,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -12160,7 +12160,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10830,
-  "message" : "frank21 accessed LikedContent successfully"
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -12211,7 +12211,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10830,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -12221,7 +12221,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10840,
-  "message" : "grace25 accessed LikedContent successfully"
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -12272,7 +12272,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10840,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -12282,7 +12282,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10850,
-  "message" : "henry26 accessed LikedContent successfully"
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -12333,7 +12333,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10850,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -12343,7 +12343,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10860,
-  "message" : "irene33 accessed LikedContent successfully"
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -12394,7 +12394,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10860,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -12404,7 +12404,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10870,
-  "message" : "jack29 accessed LikedContent successfully"
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -12455,7 +12455,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10870,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -12465,7 +12465,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10880,
-  "message" : "alice22 accessed LikedContent successfully"
+  "message" : "alice22 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -12516,7 +12516,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10880,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -12526,7 +12526,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10890,
-  "message" : "bob35 accessed LikedContent successfully"
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -12577,7 +12577,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10890,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -12587,7 +12587,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10900,
-  "message" : "carol19 accessed LikedContent successfully"
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -12638,7 +12638,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 10900,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -12648,7 +12648,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10910,
-  "message" : "david27 accessed LikedContent successfully"
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -12699,7 +12699,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 10910,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -12709,7 +12709,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10920,
-  "message" : "emily30 accessed LikedContent successfully"
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -12760,7 +12760,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 10920,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -12770,7 +12770,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10930,
-  "message" : "frank21 accessed LikedContent successfully"
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -12821,7 +12821,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 10930,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -12831,7 +12831,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10940,
-  "message" : "grace25 accessed LikedContent successfully"
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -12882,7 +12882,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 10940,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -12892,7 +12892,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10950,
-  "message" : "henry26 accessed LikedContent successfully"
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -12943,7 +12943,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 10950,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -12953,7 +12953,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10960,
-  "message" : "irene33 accessed LikedContent successfully"
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -13004,7 +13004,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 10960,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -13014,7 +13014,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10970,
-  "message" : "jack29 accessed LikedContent successfully"
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -13065,7 +13065,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 10970,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -13075,7 +13075,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10980,
-  "message" : "alice22 accessed LikedContent successfully"
+  "message" : "alice22 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -13126,7 +13126,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 10980,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -13136,7 +13136,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10990,
-  "message" : "bob35 accessed LikedContent successfully"
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -13187,7 +13187,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 10990,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -13197,7 +13197,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11000,
-  "message" : "carol19 accessed LikedContent successfully"
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -13248,7 +13248,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11000,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -13258,7 +13258,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11010,
-  "message" : "david27 accessed LikedContent successfully"
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -13309,7 +13309,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11010,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -13319,7 +13319,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11020,
-  "message" : "emily30 accessed LikedContent successfully"
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -13370,7 +13370,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11020,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -13380,7 +13380,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11030,
-  "message" : "frank21 accessed LikedContent successfully"
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -13431,7 +13431,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11030,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -13441,7 +13441,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11040,
-  "message" : "grace25 accessed LikedContent successfully"
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -13492,7 +13492,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11040,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -13502,7 +13502,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11050,
-  "message" : "henry26 accessed LikedContent successfully"
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -13553,7 +13553,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11050,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -13563,7 +13563,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11060,
-  "message" : "irene33 accessed LikedContent successfully"
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -13614,7 +13614,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11060,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -13624,7 +13624,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11070,
-  "message" : "jack29 accessed LikedContent successfully"
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -13675,7 +13675,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11070,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -13685,7 +13685,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11080,
-  "message" : "alice22 accessed LikedContent successfully"
+  "message" : "alice22 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -13736,7 +13736,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11080,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -13746,7 +13746,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11090,
-  "message" : "bob35 accessed LikedContent successfully"
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -13797,7 +13797,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11090,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -13807,7 +13807,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11100,
-  "message" : "carol19 accessed LikedContent successfully"
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -13858,7 +13858,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11100,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -13868,7 +13868,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11110,
-  "message" : "david27 accessed LikedContent successfully"
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -13919,7 +13919,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11110,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -13929,7 +13929,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11120,
-  "message" : "emily30 accessed LikedContent successfully"
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -13980,7 +13980,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11120,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -13990,7 +13990,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11130,
-  "message" : "frank21 accessed LikedContent successfully"
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -14041,7 +14041,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11130,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -14051,7 +14051,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11140,
-  "message" : "grace25 accessed LikedContent successfully"
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -14102,7 +14102,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11140,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -14112,7 +14112,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11150,
-  "message" : "henry26 accessed LikedContent successfully"
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -14163,7 +14163,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11150,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -14173,7 +14173,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11160,
-  "message" : "irene33 accessed LikedContent successfully"
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -14224,7 +14224,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11160,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -14234,7 +14234,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11170,
-  "message" : "jack29 accessed LikedContent successfully"
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -14285,7 +14285,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11170,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -14295,7 +14295,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11180,
-  "message" : "alice22 accessed LikedContent successfully"
+  "message" : "alice22 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -14346,7 +14346,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11180,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -14356,7 +14356,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11190,
-  "message" : "bob35 accessed LikedContent successfully"
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -14407,7 +14407,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11190,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -14417,7 +14417,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11200,
-  "message" : "carol19 accessed LikedContent successfully"
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -14468,7 +14468,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11200,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -14478,7 +14478,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11210,
-  "message" : "david27 accessed LikedContent successfully"
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -14529,7 +14529,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11210,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -14539,7 +14539,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11220,
-  "message" : "emily30 accessed LikedContent successfully"
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -14590,7 +14590,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11220,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -14600,7 +14600,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11230,
-  "message" : "frank21 accessed LikedContent successfully"
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -14651,7 +14651,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11230,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -14661,7 +14661,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11240,
-  "message" : "grace25 accessed LikedContent successfully"
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -14712,7 +14712,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11240,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -14722,7 +14722,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11250,
-  "message" : "henry26 accessed LikedContent successfully"
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -14773,7 +14773,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11250,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -14783,7 +14783,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11260,
-  "message" : "irene33 accessed LikedContent successfully"
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -14834,7 +14834,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11260,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -14844,7 +14844,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11270,
-  "message" : "jack29 accessed LikedContent successfully"
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -14895,7 +14895,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11270,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -14905,7 +14905,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11280,
-  "message" : "alice22 accessed LikedContent successfully"
+  "message" : "alice22 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -14956,7 +14956,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11280,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -14966,7 +14966,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11290,
-  "message" : "bob35 accessed LikedContent successfully"
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -15017,7 +15017,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11290,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -15027,7 +15027,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11300,
-  "message" : "carol19 accessed LikedContent successfully"
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -15078,7 +15078,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11300,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -15088,7 +15088,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11310,
-  "message" : "david27 accessed LikedContent successfully"
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -15139,7 +15139,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11310,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -15149,7 +15149,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11320,
-  "message" : "emily30 accessed LikedContent successfully"
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -15200,7 +15200,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11320,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -15210,7 +15210,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11330,
-  "message" : "frank21 accessed LikedContent successfully"
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -15261,7 +15261,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11330,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -15271,7 +15271,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11340,
-  "message" : "grace25 accessed LikedContent successfully"
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -15322,7 +15322,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11340,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -15332,7 +15332,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11350,
-  "message" : "henry26 accessed LikedContent successfully"
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -15383,7 +15383,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11350,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -15393,7 +15393,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11360,
-  "message" : "irene33 accessed LikedContent successfully"
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -15444,7 +15444,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11360,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -15454,7 +15454,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11370,
-  "message" : "jack29 accessed LikedContent successfully"
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -15505,7 +15505,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11370,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -15515,7 +15515,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11380,
-  "message" : "alice22 accessed LikedContent successfully"
+  "message" : "alice22 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -15566,7 +15566,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11380,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -15576,7 +15576,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11390,
-  "message" : "bob35 accessed LikedContent successfully"
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -15627,7 +15627,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11390,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -15637,7 +15637,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11400,
-  "message" : "carol19 accessed LikedContent successfully"
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -15688,7 +15688,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11400,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -15698,7 +15698,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11410,
-  "message" : "david27 accessed LikedContent successfully"
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -15749,7 +15749,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11410,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -15759,7 +15759,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11420,
-  "message" : "emily30 accessed LikedContent successfully"
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -15810,7 +15810,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11420,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -15820,7 +15820,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11430,
-  "message" : "frank21 accessed LikedContent successfully"
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -15871,7 +15871,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11430,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -15881,7 +15881,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11440,
-  "message" : "grace25 accessed LikedContent successfully"
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -15932,7 +15932,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11440,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -15942,7 +15942,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11450,
-  "message" : "henry26 accessed LikedContent successfully"
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -15993,7 +15993,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11450,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -16003,7 +16003,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11460,
-  "message" : "irene33 accessed LikedContent successfully"
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -16054,7 +16054,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11460,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -16064,7 +16064,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11470,
-  "message" : "jack29 accessed LikedContent successfully"
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -16115,7 +16115,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11470,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -16125,7 +16125,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11480,
-  "message" : "alice22 accessed LikedContent successfully"
+  "message" : "alice22 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -16176,7 +16176,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11480,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -16186,7 +16186,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11490,
-  "message" : "bob35 accessed LikedContent successfully"
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -16237,7 +16237,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11490,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -16247,7 +16247,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11500,
-  "message" : "carol19 accessed LikedContent successfully"
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -16298,7 +16298,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11500,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -16308,7 +16308,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11510,
-  "message" : "david27 accessed LikedContent successfully"
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -16359,7 +16359,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11510,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -16369,7 +16369,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11520,
-  "message" : "emily30 accessed LikedContent successfully"
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -16420,7 +16420,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11520,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -16430,7 +16430,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11530,
-  "message" : "frank21 accessed LikedContent successfully"
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -16481,7 +16481,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11530,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -16491,7 +16491,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11540,
-  "message" : "grace25 accessed LikedContent successfully"
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -16542,7 +16542,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11540,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -16552,7 +16552,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11550,
-  "message" : "henry26 accessed LikedContent successfully"
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -16603,7 +16603,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11550,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -16613,7 +16613,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11560,
-  "message" : "irene33 accessed LikedContent successfully"
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -16664,7 +16664,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11560,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -16674,7 +16674,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11570,
-  "message" : "jack29 accessed LikedContent successfully"
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -16725,7 +16725,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11570,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -16735,7 +16735,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11580,
-  "message" : "alice22 accessed LikedContent successfully"
+  "message" : "alice22 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -16786,7 +16786,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11580,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -16796,7 +16796,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11590,
-  "message" : "bob35 accessed LikedContent successfully"
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -16847,7 +16847,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11590,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -16857,7 +16857,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11600,
-  "message" : "carol19 accessed LikedContent successfully"
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -16908,7 +16908,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11600,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -16918,7 +16918,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11610,
-  "message" : "david27 accessed LikedContent successfully"
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -16969,7 +16969,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11610,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -16979,7 +16979,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11620,
-  "message" : "emily30 accessed LikedContent successfully"
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -17030,7 +17030,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11620,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -17040,7 +17040,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11630,
-  "message" : "frank21 accessed LikedContent successfully"
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -17091,7 +17091,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11630,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -17101,7 +17101,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11640,
-  "message" : "grace25 accessed LikedContent successfully"
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -17152,7 +17152,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11640,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -17162,7 +17162,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11650,
-  "message" : "henry26 accessed LikedContent successfully"
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -17213,7 +17213,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11650,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -17223,7 +17223,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11660,
-  "message" : "irene33 accessed LikedContent successfully"
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -17274,7 +17274,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11660,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -17284,7 +17284,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11670,
-  "message" : "jack29 accessed LikedContent successfully"
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -17335,7 +17335,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11670,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -17345,7 +17345,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11680,
-  "message" : "alice22 accessed LikedContent successfully"
+  "message" : "alice22 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -17396,7 +17396,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11680,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -17406,7 +17406,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11690,
-  "message" : "bob35 accessed LikedContent successfully"
+  "message" : "bob35 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -17457,7 +17457,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11690,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -17467,7 +17467,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11700,
-  "message" : "carol19 accessed LikedContent successfully"
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -17518,7 +17518,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11700,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -17528,7 +17528,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11710,
-  "message" : "david27 accessed LikedContent successfully"
+  "message" : "david27 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -17579,7 +17579,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11710,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -17589,7 +17589,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11720,
-  "message" : "emily30 accessed LikedContent successfully"
+  "message" : "emily30 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -17640,7 +17640,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11720,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -17650,7 +17650,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11730,
-  "message" : "frank21 accessed LikedContent successfully"
+  "message" : "frank21 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -17701,7 +17701,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11730,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -17711,7 +17711,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11740,
-  "message" : "grace25 accessed LikedContent successfully"
+  "message" : "grace25 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -17762,7 +17762,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11740,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -17772,7 +17772,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11750,
-  "message" : "henry26 accessed LikedContent successfully"
+  "message" : "henry26 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -17823,7 +17823,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11750,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -17833,7 +17833,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11760,
-  "message" : "irene33 accessed LikedContent successfully"
+  "message" : "irene33 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -17884,7 +17884,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11760,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -17894,7 +17894,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11770,
-  "message" : "jack29 accessed LikedContent successfully"
+  "message" : "jack29 accessed LikedContent successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -17945,7 +17945,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11770,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -17981,7 +17981,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11770,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -18017,7 +18017,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11780,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -18053,7 +18053,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11790,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -18089,7 +18089,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11800,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -18125,7 +18125,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11810,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -18161,7 +18161,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11820,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -18197,7 +18197,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11830,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -18233,7 +18233,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11840,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -18269,7 +18269,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11850,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -18305,7 +18305,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11860,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -18341,7 +18341,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11870,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -18377,7 +18377,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11880,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -18413,7 +18413,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11890,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -18449,7 +18449,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 11900,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -18485,7 +18485,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 11910,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -18521,7 +18521,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 11920,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -18557,7 +18557,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 11930,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -18593,7 +18593,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 11940,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -18629,7 +18629,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 11950,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -18665,7 +18665,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 11960,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -18701,7 +18701,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 11970,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -18737,7 +18737,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 11980,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -18773,7 +18773,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 11990,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -18809,7 +18809,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12000,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -18845,7 +18845,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12010,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -18881,7 +18881,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12020,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -18917,7 +18917,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12030,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -18953,7 +18953,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12040,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -18989,7 +18989,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12050,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -19025,7 +19025,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12060,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -19061,7 +19061,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12070,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -19097,7 +19097,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12080,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -19133,7 +19133,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12090,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -19169,7 +19169,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12100,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -19205,7 +19205,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12110,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -19241,7 +19241,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12120,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -19277,7 +19277,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12130,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -19313,7 +19313,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12140,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -19349,7 +19349,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12150,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -19385,7 +19385,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12160,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -19421,7 +19421,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12170,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -19457,7 +19457,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12180,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -19493,7 +19493,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12190,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -19529,7 +19529,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12200,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -19565,7 +19565,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12210,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -19601,7 +19601,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12220,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -19637,7 +19637,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12230,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -19673,7 +19673,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12240,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -19709,7 +19709,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12250,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -19745,7 +19745,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12260,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -19781,7 +19781,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12270,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -19817,7 +19817,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12280,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -19853,7 +19853,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12290,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -19889,7 +19889,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12300,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -19925,7 +19925,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12310,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -19961,7 +19961,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12320,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -19997,7 +19997,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12330,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -20033,7 +20033,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12340,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -20069,7 +20069,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12350,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -20105,7 +20105,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12360,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -20141,7 +20141,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12370,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -20177,7 +20177,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12380,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -20213,7 +20213,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12390,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -20249,7 +20249,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12400,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -20285,7 +20285,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12410,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -20321,7 +20321,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12420,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -20357,7 +20357,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12430,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -20393,7 +20393,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12440,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -20429,7 +20429,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12450,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -20465,7 +20465,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12460,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -20501,7 +20501,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12470,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -20537,7 +20537,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12480,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -20573,7 +20573,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12490,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -20609,7 +20609,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12500,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -20645,7 +20645,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12510,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -20681,7 +20681,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12520,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -20717,7 +20717,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12530,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -20753,7 +20753,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12540,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -20789,7 +20789,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12550,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -20825,7 +20825,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12560,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -20861,7 +20861,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12570,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -20897,7 +20897,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12580,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -20933,7 +20933,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12590,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -20969,7 +20969,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12600,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -21005,7 +21005,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12610,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -21041,7 +21041,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12620,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -21077,7 +21077,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12630,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -21113,7 +21113,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12640,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -21149,7 +21149,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12650,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -21185,7 +21185,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12660,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -21221,7 +21221,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12670,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -21257,7 +21257,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12680,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -21293,7 +21293,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12690,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -21329,7 +21329,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12700,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -21365,7 +21365,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12710,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -21401,7 +21401,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12720,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -21437,7 +21437,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12730,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -21473,7 +21473,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12740,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -21509,7 +21509,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12750,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -21545,7 +21545,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12760,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -21581,7 +21581,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12770,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -21617,7 +21617,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12780,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -21653,7 +21653,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12790,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -21689,7 +21689,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12800,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -21725,7 +21725,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12810,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -21761,7 +21761,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12820,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -21797,7 +21797,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12830,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -21833,7 +21833,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12840,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -21869,7 +21869,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12850,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -21905,7 +21905,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12860,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -21941,7 +21941,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12870,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -21977,7 +21977,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12880,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -22013,7 +22013,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12890,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -22049,7 +22049,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 12900,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -22085,7 +22085,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 12910,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -22121,7 +22121,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 12920,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -22157,7 +22157,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 12930,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -22193,7 +22193,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 12940,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -22229,7 +22229,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 12950,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -22265,7 +22265,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 12960,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -22301,7 +22301,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 12970,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -22337,7 +22337,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 12980,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -22373,7 +22373,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 12990,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -22409,7 +22409,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 13000,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -22445,7 +22445,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 13010,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -22481,7 +22481,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 13020,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -22517,7 +22517,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 13030,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -22553,7 +22553,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 13040,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -22589,7 +22589,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 13050,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -22625,7 +22625,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 13060,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -22661,7 +22661,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 13070,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -22697,7 +22697,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 13080,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -22733,7 +22733,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 13090,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -22769,7 +22769,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 13100,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -22805,7 +22805,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 13110,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -22841,7 +22841,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 13120,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -22877,7 +22877,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 13130,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -22913,7 +22913,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 13140,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -22949,7 +22949,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 13150,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -22985,7 +22985,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 13160,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -23021,7 +23021,7 @@
   "command" : "changePage",
   "user" : "alice22",
   "timestamp" : 13170,
-  "message" : "alice22 accessed Home successfully"
+  "message" : "alice22 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -23057,7 +23057,7 @@
   "command" : "changePage",
   "user" : "bob35",
   "timestamp" : 13180,
-  "message" : "bob35 accessed Home successfully"
+  "message" : "bob35 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -23093,7 +23093,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 13190,
-  "message" : "carol19 accessed Home successfully"
+  "message" : "carol19 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -23129,7 +23129,7 @@
   "command" : "changePage",
   "user" : "david27",
   "timestamp" : 13200,
-  "message" : "david27 accessed Home successfully"
+  "message" : "david27 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -23165,7 +23165,7 @@
   "command" : "changePage",
   "user" : "emily30",
   "timestamp" : 13210,
-  "message" : "emily30 accessed Home successfully"
+  "message" : "emily30 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -23201,7 +23201,7 @@
   "command" : "changePage",
   "user" : "frank21",
   "timestamp" : 13220,
-  "message" : "frank21 accessed Home successfully"
+  "message" : "frank21 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -23237,7 +23237,7 @@
   "command" : "changePage",
   "user" : "grace25",
   "timestamp" : 13230,
-  "message" : "grace25 accessed Home successfully"
+  "message" : "grace25 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -23273,7 +23273,7 @@
   "command" : "changePage",
   "user" : "henry26",
   "timestamp" : 13240,
-  "message" : "henry26 accessed Home successfully"
+  "message" : "henry26 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -23309,7 +23309,7 @@
   "command" : "changePage",
   "user" : "irene33",
   "timestamp" : 13250,
-  "message" : "irene33 accessed Home successfully"
+  "message" : "irene33 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -23345,7 +23345,7 @@
   "command" : "changePage",
   "user" : "jack29",
   "timestamp" : 13260,
-  "message" : "jack29 accessed Home successfully"
+  "message" : "jack29 accessed Home successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",

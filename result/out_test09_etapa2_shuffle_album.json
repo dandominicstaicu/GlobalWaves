@@ -231,8 +231,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1500,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "My playlist" ]
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -248,7 +248,7 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 2435,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected My playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -290,7 +290,7 @@
   "command" : "follow",
   "user" : "carol19",
   "timestamp" : 2515,
-  "message" : "Please select a source before following or unfollowing."
+  "message" : "Playlist followed successfully."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -385,7 +385,7 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 3251,
-  "message" : "carol19 accessed LikedContent successfully"
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -492,7 +492,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 5000,
-  "message" : "Liked songs:\n\t[Digital Dreams]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Digital Dreams]\n\nFollowed playlists:\n\t[My playlist - bob35]"
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -512,6 +512,6 @@
     "name" : "My playlist",
     "songs" : [ "Retro Rhythms", "Elevate", "I Don't Wanna Live Forever", "Hustle Hard", "Begin Again" ],
     "visibility" : "public",
-    "followers" : 0
+    "followers" : 1
   } ]
 } ]

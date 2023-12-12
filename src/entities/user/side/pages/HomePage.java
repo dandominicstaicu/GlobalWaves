@@ -66,7 +66,7 @@ public class HomePage implements Page {
         pageContent.append("Followed playlists:\n\t");
         if (!top5Playlists.isEmpty()) {
             String playlistInfo = top5Playlists.stream()
-                    .map(playlist -> playlist.getName() + " - " + playlist.getOwner())  // Assuming Playlist has getName() and getOwner() methods
+                    .map(Playlist::getName)  // Assuming Playlist has getName() and getOwner() methods
                     .collect(Collectors.joining(", "));
             pageContent.append("[").append(playlistInfo).append("]");
         } else {
