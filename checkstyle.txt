@@ -242,6 +242,9 @@ Starting audit...
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/commands/artist/AddAlbum.java:51:25: Parameter outputs should be final. [FinalParameters]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/commands/artist/AddAlbum.java:51:44: Parameter library should be final. [FinalParameters]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/commands/artist/AddAlbum.java:51:61: Parameter offline should be final. [FinalParameters]
+[ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/commands/artist/AddAlbum.java:76: Line is longer than 100 characters (found 138). [LineLength]
+[ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/commands/artist/AddAlbum.java:76:50: '(' is followed by whitespace. [ParenPad]
+[ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/commands/artist/AddAlbum.java:76:58: '->' is not followed by whitespace. [WhitespaceAround]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/commands/artist/AddAlbum.java:81: Line is longer than 100 characters (found 109). [LineLength]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/commands/artist/RemoveAlbum.java:11:8: Unused import - entities.user.side.pages.ArtistPage. [UnusedImports]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/commands/artist/RemoveAlbum.java:12:14: Using the '.*' form of import should be avoided - lombok.*. [AvoidStarImport]
@@ -371,4 +374,4 @@ Starting audit...
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/commands/searchbar/Search.java:57:69: Parameter offline should be final. [FinalParameters]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/commands/searchbar/Select.java:47:69: Parameter offline should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 371 errors.
+Checkstyle ends with 374 errors.

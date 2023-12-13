@@ -73,7 +73,7 @@ public class AddAlbum extends Command {
             return;
         }
 
-        if (library.getAlbums().stream().anyMatch(album -> album.getName().equals(getName()))) {
+        if (library.getAlbums().stream().anyMatch( album ->album.getName().equals(getName()) && album.getOwner().equals(getUsername()))) {
             out.put(Output.MESSAGE, getUsername() + Output.SAME_NAME_ALBUM);
             return;
         }
