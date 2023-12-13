@@ -191,4 +191,24 @@ public class ArtistPage extends User implements Page, Playable {
         out.put(Output.MESSAGE, "Successfully selected " + getUsername() + "'s page.");
         user.setCurrentPage(this);
     }
+
+    public boolean hasEventWithName(final String eventName) {
+        return events.stream()
+                .anyMatch(event -> event.getName().equals(eventName));
+    }
+
+    public Event getEventWithName(final String name) {
+        for (Event event : events) {
+            if (event.getName().equals(name)) {
+                return event;
+            }
+        }
+
+        return null;
+    }
+
+    public void removeEvent(final Event event) {
+        events.remove(event);
+    }
+
 }

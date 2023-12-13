@@ -55,7 +55,7 @@ public class RemovePodcast extends Command {
         Podcast podcast = library.getPodcastOfHostWithName(getUsername(), getName());
 
         if (library.decideDeletePodcast(podcast)) {
-            out.put(Output.MESSAGE, getUsername() + Output.DELETE_ALBUM_FAIL);
+            out.put(Output.MESSAGE, getUsername() + Output.PODCAST_DELETE_FAIL);
             return;
         }
 

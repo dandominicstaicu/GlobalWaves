@@ -1,330 +1,431 @@
 [ {
+  "command" : "createPlaylist",
+  "user" : "bob35",
+  "timestamp" : 150,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 10,
+  "user" : "bob35",
+  "timestamp" : 170,
   "message" : "Search returned 1 results",
-  "results" : [ "TED Radio Hour" ]
-}, {
-  "command" : "select",
-  "user" : "alice22",
-  "timestamp" : 15,
-  "message" : "Successfully selected TED Radio Hour."
-}, {
-  "command" : "load",
-  "user" : "alice22",
-  "timestamp" : 20,
-  "message" : "Playback loaded successfully."
-}, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 49,
-  "stats" : {
-    "name" : "The Power of Design",
-    "remainedTime" : 3075,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
+  "results" : [ "Nothing Else Matters" ]
 }, {
   "command" : "addUser",
-  "user" : "soundseeker",
-  "timestamp" : 50,
-  "message" : "The username soundseeker has been added successfully."
+  "user" : "melodymaster",
+  "timestamp" : 171,
+  "message" : "The username melodymaster has been added successfully."
 }, {
-  "command" : "search",
-  "user" : "jack29",
-  "timestamp" : 50,
-  "message" : "Search returned 1 results",
-  "results" : [ "soundseeker" ]
+  "command" : "addAlbum",
+  "user" : "melodymaster",
+  "timestamp" : 172,
+  "message" : "melodymaster has added new album successfully."
 }, {
-  "command" : "addPodcast",
-  "user" : "soundseeker",
-  "timestamp" : 51,
-  "message" : "soundseeker has added new podcast successfully."
-}, {
-  "command" : "addPodcast",
-  "user" : "alice22",
-  "timestamp" : 52,
-  "message" : "alice22 is not a host."
-}, {
-  "command" : "addPodcast",
-  "user" : "soundseeker",
-  "timestamp" : 53,
-  "message" : "soundseeker has added new podcast successfully."
-}, {
-  "command" : "showPodcasts",
-  "user" : "soundseeker",
-  "timestamp" : 53,
-  "result" : [ {
-    "name" : "Auditory Adventures",
-    "episodes" : [ "Exploring Sonic Landscapes", "The Future of Music Technology", "Cultural Beats" ]
-  }, {
-    "name" : "Harmony & History",
-    "episodes" : [ "The Roots of Blues", "Classical Music's Modern Impact", "Jazz Journeys", "The Folk Revival" ]
-  } ]
-}, {
-  "command" : "printCurrentPage",
-  "user" : "jack29",
-  "timestamp" : 53,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
-}, {
-  "command" : "addPodcast",
-  "user" : "soundseeker",
-  "timestamp" : 53,
-  "message" : "soundseeker has another podcast with the same name."
+  "command" : "addEvent",
+  "user" : "melodymaster",
+  "timestamp" : 185,
+  "message" : "melodymaster has added new event successfully."
 }, {
   "command" : "select",
-  "user" : "jack29",
-  "timestamp" : 57,
-  "message" : "Successfully selected soundseeker's page."
-}, {
-  "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 60,
-  "message" : "Search returned 1 results",
-  "results" : [ "TED Radio Hour" ]
-}, {
-  "command" : "select",
-  "user" : "alice22",
-  "timestamp" : 65,
-  "message" : "Successfully selected TED Radio Hour."
-}, {
-  "command" : "addAnnouncement",
-  "user" : "alice22",
-  "timestamp" : 67,
-  "message" : "alice22 is not a host."
+  "user" : "bob35",
+  "timestamp" : 190,
+  "message" : "Successfully selected Nothing Else Matters."
 }, {
   "command" : "load",
-  "user" : "alice22",
-  "timestamp" : 70,
+  "user" : "bob35",
+  "timestamp" : 195,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 240,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 270,
+  "message" : "Search returned 3 results",
+  "results" : [ "Don't", "Delicate", "Digital Dreams" ]
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 270,
+  "message" : "Search returned 1 results",
+  "results" : [ "melodymaster" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 290,
+  "message" : "Please conduct a search before making a selection."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 320,
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 320,
+  "message" : "Successfully selected melodymaster's page."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 340,
+  "message" : "Successfully removed from playlist."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 340,
+  "message" : "Search returned 2 results",
+  "results" : [ "Radio Ga Ga", "Retro Rhythms" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 340,
+  "message" : "Successfully selected Retro Rhythms."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 340,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 340,
+  "message" : "Successfully selected Digital Dreams."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 340,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 370,
+  "message" : "Search returned 1 results",
+  "results" : [ "Elevate" ]
+}, {
+  "command" : "removeAlbum",
+  "user" : "Ed Sheeran",
+  "timestamp" : 375,
+  "message" : "The username Ed Sheeran doesn't exist."
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 390,
+  "message" : "Successfully selected Elevate."
+}, {
+  "command" : "addEvent",
+  "user" : "melodymaster",
+  "timestamp" : 395,
+  "message" : "Event for melodymaster does not have a valid date."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 400,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 430,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "printCurrentPage",
+  "user" : "david27",
+  "timestamp" : 430,
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[Event1 - 01-01-2022:\n\tPrimul Event adaugat!]"
+}, {
+  "command" : "removeAlbum",
+  "user" : "melodymaster",
+  "timestamp" : 430,
+  "message" : "melodymaster doesn't have an album with the given name."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 431,
+  "message" : "Search returned 1 results",
+  "results" : [ "Harmonic Horizons" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 432,
+  "message" : "Successfully selected Harmonic Horizons."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 433,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addMerch",
+  "user" : "melodymaster",
+  "timestamp" : 433,
+  "message" : "melodymaster has added new merchandise successfully."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 434,
   "message" : "Playback loaded successfully."
 }, {
   "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 73,
+  "user" : "bob35",
+  "timestamp" : 434,
   "stats" : {
-    "name" : "The Power of Design",
-    "remainedTime" : 3061,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 249,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
 }, {
-  "command" : "addAnnouncement",
-  "user" : "soundseeker",
-  "timestamp" : 74,
-  "message" : "soundseeker has successfully added new announcement."
-}, {
-  "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 75,
-  "message" : "Search returned 1 results",
-  "results" : [ "Auditory Adventures" ]
-}, {
-  "command" : "select",
-  "user" : "alice22",
-  "timestamp" : 80,
-  "message" : "Successfully selected Auditory Adventures."
-}, {
-  "command" : "load",
-  "user" : "alice22",
-  "timestamp" : 85,
-  "message" : "Playback loaded successfully."
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 440,
+  "message" : "The loaded source is not a playlist."
 }, {
   "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 86,
+  "user" : "bob35",
+  "timestamp" : 446,
   "stats" : {
-    "name" : "Exploring Sonic Landscapes",
-    "remainedTime" : 2699,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 237,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
 }, {
-  "command" : "printCurrentPage",
-  "user" : "jack29",
-  "timestamp" : 90,
-  "message" : "Podcasts:\n\t[Auditory Adventures:\n\t[Exploring Sonic Landscapes - Journey through the world's most unique auditory experiences., The Future of Music Technology - A look into the innovations shaping the future of music production and listening., Cultural Beats - An exploration of how different cultures influence music genres.]\n, Harmony & History:\n\t[The Roots of Blues - Tracing the origins and evolution of blues music., Classical Music's Modern Impact - Discussing how classical music continues to influence contemporary artists., Jazz Journeys - Exploring the rich history and vibrant present of jazz music., The Folk Revival - Examining the resurgence of folk music in modern times.]\n]\n\nAnnouncements:\n\t[Announcement1:\n\tPrimul anunt adaugat!\n]"
+  "command" : "repeat",
+  "user" : "carol19",
+  "timestamp" : 690,
+  "message" : "Repeat mode changed to repeat once."
 }, {
-  "command" : "playPause",
-  "user" : "alice22",
-  "timestamp" : 3200,
-  "message" : "Playback paused successfully."
+  "command" : "addEvent",
+  "user" : "melodymaster",
+  "timestamp" : 785,
+  "message" : "melodymaster has added new event successfully."
+}, {
+  "command" : "repeat",
+  "user" : "carol19",
+  "timestamp" : 950,
+  "message" : "Repeat mode changed to repeat once."
 }, {
   "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 3201,
+  "user" : "bob35",
+  "timestamp" : 1000,
   "stats" : {
-    "name" : "The Future of Music Technology",
-    "remainedTime" : 2785,
+    "name" : "Retro Rhythms",
+    "remainedTime" : 203,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "like",
+  "user" : "carol19",
+  "timestamp" : 1115,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "removeAlbum",
+  "user" : "melodymaster",
+  "timestamp" : 1200,
+  "message" : "melodymaster can't delete this album."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1500,
+  "message" : "Search returned 1 results",
+  "results" : [ "My playlist" ]
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 2400,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
 }, {
-  "command" : "createPlaylist",
-  "user" : "alice22",
-  "timestamp" : 3210,
-  "message" : "Playlist created successfully."
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 2435,
+  "message" : "Successfully selected My playlist."
+}, {
+  "command" : "removeEvent",
+  "user" : "melodymaster",
+  "timestamp" : 2440,
+  "message" : "melodymaster deleted the event successfully."
 }, {
   "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 3215,
-  "message" : "Search returned 2 results",
-  "results" : [ "Freedom", "Freedom" ]
+  "user" : "bob35",
+  "timestamp" : 2445,
+  "message" : "Search returned 1 results",
+  "results" : [ "I Don't Wanna Live Forever" ]
 }, {
   "command" : "select",
-  "user" : "alice22",
-  "timestamp" : 3220,
-  "message" : "Successfully selected Freedom."
+  "user" : "bob35",
+  "timestamp" : 2450,
+  "message" : "Successfully selected I Don't Wanna Live Forever."
+}, {
+  "command" : "printCurrentPage",
+  "user" : "carol19",
+  "timestamp" : 2455,
+  "message" : "Liked songs:\n\t[Digital Dreams]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "load",
-  "user" : "alice22",
-  "timestamp" : 3225,
+  "user" : "bob35",
+  "timestamp" : 2460,
   "message" : "Playback loaded successfully."
-}, {
-  "command" : "search",
-  "user" : "david27",
-  "timestamp" : 3225,
-  "message" : "Search returned 1 results",
-  "results" : [ "2010 hits" ]
 }, {
   "command" : "addRemoveInPlaylist",
-  "user" : "alice22",
-  "timestamp" : 3230,
+  "user" : "bob35",
+  "timestamp" : 2480,
   "message" : "Successfully added to playlist."
 }, {
-  "command" : "removePodcast",
-  "user" : "soundseeker",
-  "timestamp" : 3233,
-  "message" : "soundseeker doesn't have a podcast with the given name."
-}, {
   "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 3235,
+  "user" : "bob35",
+  "timestamp" : 2500,
   "message" : "Search returned 1 results",
-  "results" : [ "Happier" ]
+  "results" : [ "Hustle Hard" ]
 }, {
   "command" : "select",
-  "user" : "alice22",
-  "timestamp" : 3240,
-  "message" : "Successfully selected Happier."
-}, {
-  "command" : "removePodcast",
-  "user" : "soundseeker",
-  "timestamp" : 3243,
-  "message" : "soundseeker deleted the podcast successfully."
-}, {
-  "command" : "load",
-  "user" : "alice22",
-  "timestamp" : 3245,
-  "message" : "Playback loaded successfully."
-}, {
-  "command" : "addUser",
-  "user" : "magichost",
-  "timestamp" : 3247,
-  "message" : "The username magichost has been added successfully."
-}, {
-  "command" : "select",
-  "user" : "david27",
-  "timestamp" : 3247,
-  "message" : "Successfully selected 2010 hits."
-}, {
-  "command" : "addUser",
-  "user" : "magichost",
-  "timestamp" : 3247,
-  "message" : "The username magichost is already taken."
-}, {
-  "command" : "showPodcasts",
-  "user" : "soundseeker",
-  "timestamp" : 3250,
-  "result" : [ {
-    "name" : "Auditory Adventures",
-    "episodes" : [ "Exploring Sonic Landscapes", "The Future of Music Technology", "Cultural Beats" ]
-  } ]
+  "user" : "bob35",
+  "timestamp" : 2510,
+  "message" : "Successfully selected Hustle Hard."
 }, {
   "command" : "follow",
-  "user" : "david27",
-  "timestamp" : 3250,
+  "user" : "carol19",
+  "timestamp" : 2515,
   "message" : "Playlist followed successfully."
 }, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 2520,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "addRemoveInPlaylist",
-  "user" : "alice22",
-  "timestamp" : 3250,
+  "user" : "bob35",
+  "timestamp" : 2540,
   "message" : "Successfully added to playlist."
 }, {
-  "command" : "showPlaylists",
-  "user" : "alice22",
-  "timestamp" : 3252,
-  "result" : [ {
-    "name" : "2010 hits",
-    "songs" : [ "Freedom", "Happier" ],
-    "visibility" : "public",
-    "followers" : 1
-  } ]
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 2590,
+  "message" : "Search returned 1 results",
+  "results" : [ "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 2650,
+  "message" : "Successfully selected Begin Again."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 2660,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 2690,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 3255,
+  "user" : "bob35",
+  "timestamp" : 2700,
   "message" : "Search returned 1 results",
-  "results" : [ "2010 hits" ]
+  "results" : [ "My playlist" ]
 }, {
-  "command" : "deleteUser",
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 2710,
+  "message" : "Successfully selected My playlist."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 2740,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 2800,
+  "stats" : {
+    "name" : "Retro Rhythms",
+    "remainedTime" : 160,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 2850,
+  "message" : "Shuffle function activated successfully."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 2900,
+  "stats" : {
+    "name" : "Retro Rhythms",
+    "remainedTime" : 60,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "removeAlbum",
+  "user" : "melodymaster",
+  "timestamp" : 3000,
+  "message" : "melodymaster can't delete this album."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3250,
+  "stats" : {
+    "name" : "Hustle Hard",
+    "remainedTime" : 167,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 3251,
+  "message" : "carol19 accessed LikedContent successfully."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3600,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 3610,
+  "message" : "Please load a source before using the shuffle function."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3660,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "printCurrentPage",
   "user" : "david27",
-  "timestamp" : 3257,
-  "message" : "david27 was successfully deleted."
-}, {
-  "command" : "select",
-  "user" : "alice22",
-  "timestamp" : 3260,
-  "message" : "Successfully selected 2010 hits."
-}, {
-  "command" : "load",
-  "user" : "alice22",
-  "timestamp" : 3265,
-  "message" : "Playback loaded successfully."
-}, {
-  "command" : "search",
-  "user" : "carol19",
-  "timestamp" : 3267,
-  "message" : "Search returned 1 results",
-  "results" : [ "Auditory Adventures" ]
+  "timestamp" : 3900,
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]"
 }, {
   "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 3270,
-  "stats" : {
-    "name" : "Freedom",
-    "remainedTime" : 173,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "select",
-  "user" : "carol19",
-  "timestamp" : 3300,
-  "message" : "Successfully selected Auditory Adventures."
-}, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 3448,
-  "stats" : {
-    "name" : "Happier",
-    "remainedTime" : 202,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "load",
-  "user" : "carol19",
-  "timestamp" : 3450,
-  "message" : "Playback loaded successfully."
-}, {
-  "command" : "status",
-  "user" : "alice22",
+  "user" : "bob35",
   "timestamp" : 4000,
   "stats" : {
     "name" : "",
@@ -334,34 +435,88 @@
     "paused" : true
   }
 }, {
-  "command" : "showPlaylists",
-  "user" : "alice22",
-  "timestamp" : 4005,
-  "result" : [ {
-    "name" : "2010 hits",
-    "songs" : [ "Freedom", "Happier" ],
-    "visibility" : "public",
-    "followers" : 0
-  } ]
-}, {
-  "command" : "deleteUser",
-  "user" : "soundseeker",
-  "timestamp" : 4010,
-  "message" : "soundseeker can't be deleted."
-}, {
   "command" : "status",
-  "user" : "carol19",
-  "timestamp" : 4500,
+  "user" : "bob35",
+  "timestamp" : 4350,
   "stats" : {
-    "name" : "Exploring Sonic Landscapes",
-    "remainedTime" : 1650,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 4351,
+  "message" : "Search returned 1 results",
+  "results" : [ "My playlist" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 4352,
+  "message" : "Successfully selected My playlist."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 4353,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 4360,
+  "message" : "Shuffle function activated successfully."
+}, {
+  "command" : "printCurrentPage",
+  "user" : "david27",
+  "timestamp" : 4400,
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]"
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 4410,
+  "stats" : {
+    "name" : "Retro Rhythms",
+    "remainedTime" : 163,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
     "paused" : false
   }
 }, {
-  "command" : "deleteUser",
-  "user" : "soundseeker",
-  "timestamp" : 100000,
-  "message" : "soundseeker can't be deleted."
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 4750,
+  "stats" : {
+    "name" : "Hustle Hard",
+    "remainedTime" : 55,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "printCurrentPage",
+  "user" : "carol19",
+  "timestamp" : 5000,
+  "message" : "Liked songs:\n\t[Digital Dreams - melodymaster]\n\nFollowed playlists:\n\t[My playlist - bob35]"
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 5100,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "showPlaylists",
+  "user" : "bob35",
+  "timestamp" : 6000,
+  "result" : [ {
+    "name" : "My playlist",
+    "songs" : [ "Retro Rhythms", "Elevate", "I Don't Wanna Live Forever", "Hustle Hard", "Begin Again" ],
+    "visibility" : "public",
+    "followers" : 1
+  } ]
 } ]

@@ -148,4 +148,8 @@ public final class Output {
     public static final String NO_PODCAST_WITH_NAME = " doesn't have a podcast with the given name.";
     public static final String PODCAST_DELETE_FAIL = " can't delete this podcast.";
     public static final String DELETE_PODCAST_SUCCESS = " deleted the podcast successfully.";
+    public static final String REMOVE_EVENT = "removeEvent";
+    public static final String EVENT_NAME_ERR = " doesn't have an event with the given name.";
+    public static final String REMOVE_EVENT_SUCCESS = " deleted the event successfully.";
+
 }
