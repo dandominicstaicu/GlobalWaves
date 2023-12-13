@@ -146,6 +146,9 @@ public class HostPage extends User implements Page, Playable {
 
     @Override
     public void handleSelect(final SearchBar searchBar, final NormalUser user, final ObjectNode out) {
+        searchBar.setSelectedResult(null);
+        searchBar.setLastSearchResults(null);
+
         out.put(Output.MESSAGE, "Successfully selected " + getUsername() + "'s page.");
         user.setCurrentPage(this);
     }

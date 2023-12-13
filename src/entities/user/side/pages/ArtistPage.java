@@ -142,6 +142,7 @@ public class ArtistPage extends User implements Page, Playable {
         for (NormalUser user : library.getUsers()) {
             // if this page is used by a user at deletion time, it has to fail
             if (user.getCurrentPage().equals(this)) {
+                System.out.println("delete failed because user:  " + this.getUsername() + " is on artist page");
                 return false;
             }
 
@@ -152,6 +153,7 @@ public class ArtistPage extends User implements Page, Playable {
                 if (user.getPlayer().getLoadedContentReference().isLoadedInPlayer(this.getUsername())) {
 //                    System.out.println("the album is loaded in a player");
                     if (user.getPlayer().getIsPlaying()) {
+                        System.out.println("delete failed because is loaded and playing " + this.getUsername());
                         return false;
                     }
                 }
@@ -160,25 +162,10 @@ public class ArtistPage extends User implements Page, Playable {
             List<Playable> lastSearchResults = user.getPlayer().getSearchBar().getLastSearchResults();
             if (lastSearchResults != null) {
                 for (Playable playable : lastSearchResults) {
-//                    System.out.println();
-//                    if (playable instanceof Song)
-//                        System.out.println("instanceof song artist name: " + this.getUsername());
-//
-//                    if (playable instanceof Album) {
-//                        System.out.println("instanceof album artist name: " + this.getUsername());
-//                    }
-//
-//                    if (playable instanceof Playlist) {
-//                        System.out.println("instanceof Playlist artist name: " + this.getUsername());
-//                    }
-//
-//                    if (playable instanceof ArtistPage) {
-//                        System.out.println("instanceof ArtistPage artist name: " + this.getUsername());
-//
-//                    }
-
-                    if (playable.ownedByUser(this.getUsername()))
+                    if (playable.ownedByUser(this.getUsername())) {
+                        System.out.println("delete failed because is in last search results " + this.getUsername());
                         return false;
+                    }
                 }
             }
         }
@@ -212,6 +199,9 @@ public class ArtistPage extends User implements Page, Playable {
 
     @Override
     public void handleSelect(final SearchBar searchBar, final NormalUser user, final ObjectNode out) {
+        searchBar.setSelectedResult(null);
+        searchBar.setLastSearchResults(null);
+
         out.put(Output.MESSAGE, "Successfully selected " + getUsername() + "'s page.");
         user.setCurrentPage(this);
     }
