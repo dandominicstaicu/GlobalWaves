@@ -21223,7 +21223,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 12649,
-  "message" : "barmstrong has the same song at least twice in this album."
+  "message" : "barmstrong has another album with the same name."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",

@@ -68,13 +68,13 @@ public class AddAlbum extends Command {
             return;
         }
 
-        if (hasDuplicateSongNames()) {
-            out.put(Output.MESSAGE, getUsername() + Output.DUPLICATE_SONG_NAMES);
+        if (library.getAlbums().stream().anyMatch( album ->album.getName().equals(getName()) && album.getOwner().equals(getUsername()))) {
+            out.put(Output.MESSAGE, getUsername() + Output.SAME_NAME_ALBUM);
             return;
         }
 
-        if (library.getAlbums().stream().anyMatch( album ->album.getName().equals(getName()) && album.getOwner().equals(getUsername()))) {
-            out.put(Output.MESSAGE, getUsername() + Output.SAME_NAME_ALBUM);
+        if (hasDuplicateSongNames()) {
+            out.put(Output.MESSAGE, getUsername() + Output.DUPLICATE_SONG_NAMES);
             return;
         }
 
