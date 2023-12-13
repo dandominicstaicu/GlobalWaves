@@ -192,7 +192,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 138,
-  "message" : "matthewfernandez has another album with the same name."
+  "message" : "matthewfernandez has the same song at least twice in this album."
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -242,7 +242,7 @@
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 148,
-  "message" : "cbutler has another album with the same name."
+  "message" : "cbutler has the same song at least twice in this album."
 }, {
   "command" : "addAlbum",
   "user" : "conniealvarez",
@@ -19852,7 +19852,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12269,
-  "message" : "matthewfernandez has another album with the same name."
+  "message" : "matthewfernandez has the same song at least twice in this album."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -21220,7 +21220,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 12649,
-  "message" : "barmstrong has another album with the same name."
+  "message" : "barmstrong has the same song at least twice in this album."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -26048,4 +26048,8 @@
   "command" : "getTop5Albums",
   "timestamp" : 14849,
   "result" : [ "Bad Guide", "Teen Dreams", "Bad Hood", "Heroic Hood", "Groovy View" ]
+}, {
+  "command" : "getTop5Albums",
+  "timestamp" : 14849,
+  "result" : [ "leslie27", "amanda16", "jacobdean", "barmstrong", "cbutler" ]
 } ]

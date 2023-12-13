@@ -5,9 +5,12 @@ import entities.playable.Album;
 import entities.playable.Playlist;
 import entities.playable.audio_files.Song;
 import entities.user.side.NormalUser;
+import entities.user.side.pages.ArtistPage;
 
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Stats {
     public static List<Song> top5Songs(final Library lib) {
@@ -22,6 +25,23 @@ public class Stats {
         return lib.getAlbums().stream()
                 .sorted(Comparator.comparingInt((Album a) -> a.getSongs().stream().mapToInt(Song::getLikes).sum()).reversed()
                         .thenComparing(Album::getName))
+                .limit(Constants.MAX_LIST_RETURN)
+                .toList();
+    }
+
+    public static List<ArtistPage> top5Artists(final Library lib) {
+        Map<String, Integer> artistLikes = new HashMap<>();
+
+        // Calculate total likes for each artist
+        for (Album album : lib.getAlbums()) {
+            String artistName = album.getOwner();
+            int albumLikes = album.getSongs().stream().mapToInt(Song::getLikes).sum();
+            artistLikes.put(artistName, artistLikes.getOrDefault(artistName, 0) + albumLikes);
+        }
+
+        // Sort artists by total likes and get the top 5
+        return lib.getArtists().stream()
+                .sorted(Comparator.comparing((ArtistPage artist) -> artistLikes.getOrDefault(artist.getName(), 0)).reversed())
                 .limit(Constants.MAX_LIST_RETURN)
                 .toList();
     }
