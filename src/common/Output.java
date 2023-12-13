@@ -152,4 +152,5 @@ public final class Output {
     public static final String EVENT_NAME_ERR = " doesn't have an event with the given name.";
     public static final String REMOVE_EVENT_SUCCESS = " deleted the event successfully.";
     public static final String TOP_5_ALBUMS = "getTop5Albums";
+    public static final String TOP_5_ARTISTS = "getTop5Artists";
 }

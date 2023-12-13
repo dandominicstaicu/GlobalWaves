@@ -7,6 +7,7 @@ import common.Output;
 import common.UserTypes;
 import entities.Library;
 import entities.user.side.NormalUser;
+import entities.user.side.User;
 import entities.user.side.UserPlayer;
 import lombok.*;
 
@@ -28,27 +29,27 @@ public class SwitchConnectionStatus extends Command {
         out.put(Output.USER, getUsername());
         out.put(Output.TIMESTAMP, getTimestamp());
 
-        NormalUser normalUser = library.getUserWithUsername(getUsername());
+        User user = library.getFromAllUsers(getUsername());
 
         try {
-            assert normalUser != null;
+            assert user != null;
 
-            if (normalUser.getUserType() != UserTypes.NORMAL_USER) {
+            if (user.getUserType() != UserTypes.NORMAL_USER) {
                 out.put(Output.MESSAGE, getUsername() + Output.NOT_NORMAL_USER_ERR);
                 return;
             }
 
-//            UserPlayer player = normalUser.getPlayer();
+//            UserPlayer player = user.getPlayer();
         } catch (NullPointerException e) {
-            System.out.println("null pointer exception at switch connection status");
+//            System.out.println("null pointer exception at switch connection status");
             out.put(Output.MESSAGE,  "The username " + getUsername() + " doesn't exist.");
             return;
         }
 
+        NormalUser normalUser = (NormalUser) user;
+
         normalUser.switchConnectionStatus();
         out.put(Output.MESSAGE, getUsername() + Output.CONNECTION_STATUS_CHANGED);
-
-
     }
 
 }

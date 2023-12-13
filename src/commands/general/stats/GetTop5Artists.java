@@ -26,7 +26,7 @@ public class GetTop5Artists extends Command {
     public void execute(ArrayNode outputs, Library library, boolean offline) {
 //        System.out.println(this.toString());
         ObjectNode out = outputs.addObject();
-        out.put(Output.COMMAND, Output.TOP_5_ALBUMS);
+        out.put(Output.COMMAND, Output.TOP_5_ARTISTS);
         out.put(Output.TIMESTAMP, getTimestamp());
 
         List<ArtistPage> sortedArtists = Stats.top5Artists(library);

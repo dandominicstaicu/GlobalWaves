@@ -4882,7 +4882,7 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 5420,
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 5420,
@@ -4981,7 +4981,7 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 5731,
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 5731,
@@ -5080,7 +5080,7 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 6042,
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 6042,
@@ -5179,7 +5179,7 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 6353,
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 6353,
@@ -5278,7 +5278,7 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 6664,
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 6664,
@@ -5377,7 +5377,7 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 6975,
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 6975,
@@ -5476,7 +5476,7 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 7286,
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 7286,
@@ -5575,7 +5575,7 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 7597,
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 7597,
@@ -5674,7 +5674,7 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 7908,
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 7908,
@@ -5773,7 +5773,7 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 8219,
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 8219,
