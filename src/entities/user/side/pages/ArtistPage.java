@@ -155,9 +155,7 @@ public class ArtistPage extends User implements Page, Playable {
                         return false;
                     }
                 }
-
             }
-
 
             List<Playable> lastSearchResults = user.getPlayer().getSearchBar().getLastSearchResults();
             if (lastSearchResults != null) {

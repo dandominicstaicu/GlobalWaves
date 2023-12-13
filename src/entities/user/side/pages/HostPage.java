@@ -101,6 +101,15 @@ public class HostPage extends User implements Page, Playable {
             if (user.getCurrentPage().equals(this)) {
                 return false;
             }
+
+            if (user.getPlayer().getLoadedContentReference() != null) {
+                if (user.getPlayer().getLoadedContentReference().isLoadedInPlayer(this.getUsername())) {
+                    if (user.getPlayer().getIsPlaying()) {
+                        return false;
+                    }
+                }
+            }
+
         }
 
         library.getHosts().remove(this);
