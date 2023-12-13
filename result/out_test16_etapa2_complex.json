@@ -5299,7 +5299,7 @@
   "timestamp" : 6679,
   "stats" : {
     "name" : "Soul Pandora",
-    "remainedTime" : 162,
+    "remainedTime" : 172,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -5398,7 +5398,7 @@
   "timestamp" : 6990,
   "stats" : {
     "name" : "Crescendo Twilight",
-    "remainedTime" : 195,
+    "remainedTime" : 205,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -5497,7 +5497,7 @@
   "timestamp" : 7301,
   "stats" : {
     "name" : "Harmony Love",
-    "remainedTime" : 262,
+    "remainedTime" : 272,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -5695,7 +5695,7 @@
   "timestamp" : 7923,
   "stats" : {
     "name" : "Night Aurora",
-    "remainedTime" : 240,
+    "remainedTime" : 250,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -8591,7 +8591,7 @@
     "remainedTime" : 271,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchVisibility",
@@ -8777,7 +8777,7 @@
     "remainedTime" : 271,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
@@ -25968,7 +25968,7 @@
   "timestamp" : 14850,
   "result" : [ "Bad Dirt", "Teen Revolution", "Breezy View", "Groovy Harmonies", "Alone Hood" ]
 }, {
-  "command" : "getTop5Albums",
+  "command" : "getTop5Artists",
   "timestamp" : 14850,
   "result" : [ "jacobdean", "glester", "mccarthyluis", "jsimpson", "amanda16" ]
 } ]

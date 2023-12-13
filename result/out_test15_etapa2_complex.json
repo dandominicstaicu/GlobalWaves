@@ -4935,7 +4935,7 @@
   "timestamp" : 5434,
   "stats" : {
     "name" : "Serendipity Serendipity",
-    "remainedTime" : 229,
+    "remainedTime" : 239,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -5034,7 +5034,7 @@
   "timestamp" : 5745,
   "stats" : {
     "name" : "Whisper Pulse",
-    "remainedTime" : 244,
+    "remainedTime" : 254,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -5138,7 +5138,7 @@
   "timestamp" : 6056,
   "stats" : {
     "name" : "Heart Bliss",
-    "remainedTime" : 147,
+    "remainedTime" : 157,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -5336,7 +5336,7 @@
   "timestamp" : 6678,
   "stats" : {
     "name" : "Serendipity Serendipity",
-    "remainedTime" : 229,
+    "remainedTime" : 239,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -5435,7 +5435,7 @@
   "timestamp" : 6989,
   "stats" : {
     "name" : "Luminescence Crescendo",
-    "remainedTime" : 214,
+    "remainedTime" : 224,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -5534,7 +5534,7 @@
   "timestamp" : 7300,
   "stats" : {
     "name" : "Love Love",
-    "remainedTime" : 221,
+    "remainedTime" : 231,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -5633,7 +5633,7 @@
   "timestamp" : 7611,
   "stats" : {
     "name" : "Luminescence Crescendo",
-    "remainedTime" : 214,
+    "remainedTime" : 224,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -5732,7 +5732,7 @@
   "timestamp" : 7922,
   "stats" : {
     "name" : "Celestial Soul",
-    "remainedTime" : 203,
+    "remainedTime" : 213,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -5831,7 +5831,7 @@
   "timestamp" : 8233,
   "stats" : {
     "name" : "Heart Bliss",
-    "remainedTime" : 147,
+    "remainedTime" : 157,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -8361,7 +8361,7 @@
     "remainedTime" : 355,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "shuffle",
@@ -8539,10 +8539,10 @@
   "timestamp" : 10089,
   "stats" : {
     "name" : "Bohemian Rhapsody",
-    "remainedTime" : 355,
+    "remainedTime" : 255,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchVisibility",
@@ -8718,14 +8718,14 @@
   "command" : "prev",
   "user" : "alice22",
   "timestamp" : 10189,
-  "message" : "Returned to previous track successfully. The current track is Castle on the Hill."
+  "message" : "Returned to previous track successfully. The current track is Bohemian Rhapsody."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 10189,
   "stats" : {
-    "name" : "Castle on the Hill",
-    "remainedTime" : 261,
+    "name" : "Bohemian Rhapsody",
+    "remainedTime" : 355,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -26052,7 +26052,7 @@
   "timestamp" : 14849,
   "result" : [ "Bad Guide", "Teen Dreams", "Bad Hood", "Heroic Hood", "Groovy View" ]
 }, {
-  "command" : "getTop5Albums",
+  "command" : "getTop5Artists",
   "timestamp" : 14849,
   "result" : [ "leslie27", "amanda16", "jacobdean", "barmstrong", "cbutler" ]
 } ]

@@ -96,7 +96,20 @@ public class NormalUser extends User {
         return userSeenPlaylists;
     }
 
-    public void switchConnectionStatus() {
+    public void switchConnectionStatus(final int currentTimestamp) {
+//        this.online = !this.online;
+//        Boolean offlineStatus = this.getPlayer().getIsOffline();
+//        this.getPlayer().setIsOffline(!offlineStatus);
+        UserPlayer player = this.getPlayer();
+        if (this.online) {
+            player.setPauseStartTimeStamp(currentTimestamp);
+            player.setIsOffline(true);
+        } else {
+            player.setPauseStartTimeStamp(0);
+            player.setIsOffline(false);
+
+        }
+
         this.online = !this.online;
     }
 

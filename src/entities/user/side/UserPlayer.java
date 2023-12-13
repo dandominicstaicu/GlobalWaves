@@ -46,6 +46,8 @@ public class UserPlayer {
 
     private Playable loadedContentReference;
 
+    private Boolean isOffline;
+
     /**
      * Constructs a UserPlayer instance.
      */
@@ -58,6 +60,7 @@ public class UserPlayer {
         this.audioQueue = new ArrayList<>();
         this.isPlayingPlaylist = false;
         this.loadedContentReference = null;
+        this.isOffline = false;
     }
 
     /**
@@ -72,7 +75,21 @@ public class UserPlayer {
             return;
         }
 
-        if (!isPlaying) {
+        if (isOffline) {
+            System.out.println("pause time stamp " + pauseStartTimeStamp);
+            if (playingIndexIsValid()) {
+                loadedTimestamp = initialStartTimestamp + (currentTimestamp - pauseStartTimeStamp);
+            }
+
+            if (nextWasLastCommand) {
+                nextWasLastCommand = false;
+            }
+            lastCommandTimestamp = currentTimestamp;
+
+            return;
+        }
+
+        if (!isPlaying) { // || isOffline
             if (playingIndexIsValid()) {
                 loadedTimestamp = initialStartTimestamp + (currentTimestamp - pauseStartTimeStamp);
             }
@@ -164,6 +181,11 @@ public class UserPlayer {
             loadedTimestamp = currentTimestamp;
             initialStartTimestamp = loadedTimestamp;
             timeLeftToPlay = audioQueue.get(playingIndex).getDuration();
+
+            if (!isPlaying) {
+                isPlaying = true;
+            }
+
             return;
         }
 

@@ -48,7 +48,7 @@ public class SwitchConnectionStatus extends Command {
 
         NormalUser normalUser = (NormalUser) user;
 
-        normalUser.switchConnectionStatus();
+        normalUser.switchConnectionStatus(this.getTimestamp());
         out.put(Output.MESSAGE, getUsername() + Output.CONNECTION_STATUS_CHANGED);
     }
 
