@@ -53,7 +53,6 @@ public class RemoveAlbum extends Command {
         }
 
         // handle case cant delete
-        // if pula mea
 
         /*
         Un artist poate șterge unul din albumurile sale. În cazul în care există un album cu acel nume,
@@ -68,7 +67,6 @@ public class RemoveAlbum extends Command {
             out.put(Output.MESSAGE, getUsername() + Output.DELETE_ALBUM_FAIL);
             return;
         }
-
 
         library.removeAlbum(album);
 

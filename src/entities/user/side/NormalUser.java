@@ -132,7 +132,12 @@ public class NormalUser extends User {
         for (Playlist playlist : libPlaytlists) {
             if (playlist.getOwner().equals(this.getUsername())) {
                 rmvPlaylists.add(playlist);
+//                playlist.setFollowers(playlist.getFollowers() - 1);
             }
+        }
+
+        for (Playlist followedPlaylist : followedPlaylists) {
+            followedPlaylist.setFollowers(followedPlaylist.getFollowers() - 1);
         }
 
         library.getPlaylists().removeAll(rmvPlaylists);

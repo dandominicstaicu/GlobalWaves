@@ -144,5 +144,8 @@ public final class Output {
     public static final String DELETE_ALBUM_SUCCESS = " deleted the album successfully.";
     public static final String DELETE_ALBUM_FAIL = " can't delete this album.";
     public static final String CHANGE_PAGE = "changePage";
-
+    public static final String REMOVE_PODCAST = "removePodcast";
+    public static final String NO_PODCAST_WITH_NAME = " doesn't have a podcast with the given name.";
+    public static final String PODCAST_DELETE_FAIL = " can't delete this podcast.";
+    public static final String DELETE_PODCAST_SUCCESS = " deleted the podcast successfully.";
 }

@@ -369,12 +369,36 @@ public final class Library {
         return false;
     }
 
+    public boolean hasPodcastWithGivenName(final String username, final String podcastName) {
+        for (Podcast podcast : podcasts) {
+            if (podcast.getOwner().equals(username)) {
+                if (podcast.getName().equals(podcastName)) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
     public Album getAlbumOfUserWithName(final String artistsName, final String albumName) {
         ArrayList<Album> artistsAlbums = getArtistsAlbums(artistsName);
 
         for (Album album : artistsAlbums) {
             if (album.getName().equals(albumName)) {
                 return album;
+            }
+        }
+
+        return null;
+    }
+
+    public Podcast getPodcastOfHostWithName(final String hostName, final String podcastName) {
+        ArrayList<Podcast> hostsPodcasts = getHostsPodcasts(hostName);
+
+        for (Podcast podcast : hostsPodcasts) {
+            if (podcast.getName().equals(podcastName)) {
+                return podcast;
             }
         }
 
@@ -394,6 +418,19 @@ public final class Library {
         for (Playlist playlist : playlists) {
             for (Song albumSong : album.getSongs()) {
                 if (playlist.getSongs().contains(albumSong)) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
+    public boolean decideDeletePodcast(final Podcast podcast) {
+        for (NormalUser user : users) {
+            UserPlayer player = user.getPlayer();
+            if (player.getLoadedContentReference() != null) {
+                if (player.getLoadedContentReference().equals(podcast)) {
                     return true;
                 }
             }
