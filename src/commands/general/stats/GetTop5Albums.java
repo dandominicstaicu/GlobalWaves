@@ -1,9 +1,15 @@
 package commands.general.stats;
 
 import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
+import common.Output;
 import entities.Library;
+import entities.Stats;
+import entities.playable.Album;
 import lombok.*;
+
+import java.util.List;
 
 @Setter
 @Getter
@@ -17,6 +23,17 @@ public class GetTop5Albums extends Command {
 
     @Override
     public void execute(ArrayNode outputs, Library library, boolean offline) {
-        System.out.println(this.toString());
+//        System.out.println(this.toString());
+        ObjectNode out = outputs.addObject();
+        out.put(Output.COMMAND, Output.TOP_5_ALBUMS);
+        out.put(Output.TIMESTAMP, getTimestamp());
+
+        List<Album> sortedAlbums = Stats.top5Albums(library);
+
+        ArrayNode resultArray = out.putArray(Output.RESULT);
+        for (Album album : sortedAlbums) {
+            resultArray.add(album.getName());
+        }
+
     }
 }

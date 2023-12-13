@@ -1,5 +1,30 @@
 [ {
   "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 130,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "addUser",
+  "user" : "melodymaster",
+  "timestamp" : 140,
+  "message" : "The username melodymaster has been added successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "melodymaster",
+  "timestamp" : 142,
+  "message" : "melodymaster has added new album successfully."
+}, {
+  "command" : "addUser",
+  "user" : "melodymaster 2",
+  "timestamp" : 143,
+  "message" : "The username melodymaster 2 has been added successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "melodymaster 2",
+  "timestamp" : 144,
+  "message" : "melodymaster 2 has added new album successfully."
+}, {
+  "command" : "createPlaylist",
   "user" : "bob35",
   "timestamp" : 150,
   "message" : "Playlist created successfully."
@@ -7,516 +32,267 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 170,
-  "message" : "Search returned 1 results",
-  "results" : [ "Nothing Else Matters" ]
-}, {
-  "command" : "addUser",
-  "user" : "melodymaster",
-  "timestamp" : 171,
-  "message" : "The username melodymaster has been added successfully."
-}, {
-  "command" : "addAlbum",
-  "user" : "melodymaster",
-  "timestamp" : 172,
-  "message" : "melodymaster has added new album successfully."
-}, {
-  "command" : "addEvent",
-  "user" : "melodymaster",
-  "timestamp" : 185,
-  "message" : "melodymaster has added new event successfully."
+  "message" : "Search returned 5 results",
+  "results" : [ "Vibrant Echoes", "Synth Symphony", "Retro Rhythms", "Digital Dreams", "Night Pulse" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 190,
-  "message" : "Successfully selected Nothing Else Matters."
+  "message" : "Successfully selected Vibrant Echoes."
 }, {
   "command" : "load",
   "user" : "bob35",
-  "timestamp" : 195,
+  "timestamp" : 200,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "like",
+  "user" : "bob35",
+  "timestamp" : 205,
+  "message" : "Like registered successfully."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
   "timestamp" : 240,
   "message" : "Successfully added to playlist."
 }, {
+  "command" : "createPlaylist",
+  "user" : "carol19",
+  "timestamp" : 250,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 270,
   "message" : "Search returned 3 results",
-  "results" : [ "Don't", "Delicate", "Digital Dreams" ]
-}, {
-  "command" : "search",
-  "user" : "david27",
-  "timestamp" : 270,
-  "message" : "Search returned 1 results",
-  "results" : [ "melodymaster" ]
+  "results" : [ "Freedom", "Happy", "Freedom" ]
 }, {
   "command" : "select",
-  "user" : "bob35",
+  "user" : "carol19",
   "timestamp" : 290,
-  "message" : "Please conduct a search before making a selection."
-}, {
-  "command" : "load",
-  "user" : "bob35",
-  "timestamp" : 320,
-  "message" : "Please select a source before attempting to load."
-}, {
-  "command" : "select",
-  "user" : "david27",
-  "timestamp" : 320,
-  "message" : "Successfully selected melodymaster's page."
-}, {
-  "command" : "addRemoveInPlaylist",
-  "user" : "bob35",
-  "timestamp" : 340,
-  "message" : "Successfully removed from playlist."
-}, {
-  "command" : "search",
-  "user" : "bob35",
-  "timestamp" : 340,
-  "message" : "Search returned 2 results",
-  "results" : [ "Radio Ga Ga", "Retro Rhythms" ]
-}, {
-  "command" : "select",
-  "user" : "bob35",
-  "timestamp" : 340,
-  "message" : "Successfully selected Retro Rhythms."
-}, {
-  "command" : "load",
-  "user" : "bob35",
-  "timestamp" : 340,
-  "message" : "Playback loaded successfully."
-}, {
-  "command" : "select",
-  "user" : "carol19",
-  "timestamp" : 340,
-  "message" : "Successfully selected Digital Dreams."
-}, {
-  "command" : "addRemoveInPlaylist",
-  "user" : "bob35",
-  "timestamp" : 340,
-  "message" : "Successfully added to playlist."
-}, {
-  "command" : "search",
-  "user" : "bob35",
-  "timestamp" : 370,
-  "message" : "Search returned 1 results",
-  "results" : [ "Elevate" ]
-}, {
-  "command" : "removeAlbum",
-  "user" : "Ed Sheeran",
-  "timestamp" : 375,
-  "message" : "The username Ed Sheeran doesn't exist."
-}, {
-  "command" : "select",
-  "user" : "bob35",
-  "timestamp" : 390,
-  "message" : "Successfully selected Elevate."
-}, {
-  "command" : "addEvent",
-  "user" : "melodymaster",
-  "timestamp" : 395,
-  "message" : "Event for melodymaster does not have a valid date."
-}, {
-  "command" : "load",
-  "user" : "bob35",
-  "timestamp" : 400,
-  "message" : "Playback loaded successfully."
-}, {
-  "command" : "addRemoveInPlaylist",
-  "user" : "bob35",
-  "timestamp" : 430,
-  "message" : "Successfully added to playlist."
-}, {
-  "command" : "printCurrentPage",
-  "user" : "david27",
-  "timestamp" : 430,
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[Event1 - 01-01-2022:\n\tPrimul Event adaugat!]"
-}, {
-  "command" : "removeAlbum",
-  "user" : "melodymaster",
-  "timestamp" : 430,
-  "message" : "melodymaster doesn't have an album with the given name."
-}, {
-  "command" : "search",
-  "user" : "bob35",
-  "timestamp" : 431,
-  "message" : "Search returned 1 results",
-  "results" : [ "Harmonic Horizons" ]
-}, {
-  "command" : "select",
-  "user" : "bob35",
-  "timestamp" : 432,
-  "message" : "Successfully selected Harmonic Horizons."
-}, {
-  "command" : "load",
-  "user" : "bob35",
-  "timestamp" : 433,
-  "message" : "Playback loaded successfully."
-}, {
-  "command" : "addMerch",
-  "user" : "melodymaster",
-  "timestamp" : 433,
-  "message" : "melodymaster has added new merchandise successfully."
+  "message" : "Successfully selected Freedom."
 }, {
   "command" : "load",
   "user" : "carol19",
-  "timestamp" : 434,
+  "timestamp" : 300,
   "message" : "Playback loaded successfully."
-}, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 434,
-  "stats" : {
-    "name" : "Vibrant Echoes",
-    "remainedTime" : 249,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "shuffle",
-  "user" : "bob35",
-  "timestamp" : 440,
-  "message" : "The loaded source is not a playlist."
-}, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 446,
-  "stats" : {
-    "name" : "Vibrant Echoes",
-    "remainedTime" : 237,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "repeat",
-  "user" : "carol19",
-  "timestamp" : 690,
-  "message" : "Repeat mode changed to repeat once."
-}, {
-  "command" : "addEvent",
-  "user" : "melodymaster",
-  "timestamp" : 785,
-  "message" : "melodymaster has added new event successfully."
-}, {
-  "command" : "repeat",
-  "user" : "carol19",
-  "timestamp" : 950,
-  "message" : "Repeat mode changed to repeat once."
-}, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 1000,
-  "stats" : {
-    "name" : "Retro Rhythms",
-    "remainedTime" : 203,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
 }, {
   "command" : "like",
   "user" : "carol19",
-  "timestamp" : 1115,
+  "timestamp" : 305,
   "message" : "Like registered successfully."
 }, {
-  "command" : "removeAlbum",
-  "user" : "melodymaster",
-  "timestamp" : 1200,
-  "message" : "melodymaster can't delete this album."
-}, {
-  "command" : "search",
-  "user" : "carol19",
-  "timestamp" : 1500,
-  "message" : "Search returned 1 results",
-  "results" : [ "My playlist" ]
-}, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 2400,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
-}, {
-  "command" : "select",
-  "user" : "carol19",
-  "timestamp" : 2435,
-  "message" : "Successfully selected My playlist."
-}, {
-  "command" : "removeEvent",
-  "user" : "melodymaster",
-  "timestamp" : 2440,
-  "message" : "melodymaster deleted the event successfully."
-}, {
-  "command" : "search",
-  "user" : "bob35",
-  "timestamp" : 2445,
-  "message" : "Search returned 1 results",
-  "results" : [ "I Don't Wanna Live Forever" ]
-}, {
-  "command" : "select",
-  "user" : "bob35",
-  "timestamp" : 2450,
-  "message" : "Successfully selected I Don't Wanna Live Forever."
-}, {
-  "command" : "printCurrentPage",
-  "user" : "carol19",
-  "timestamp" : 2455,
-  "message" : "Liked songs:\n\t[Digital Dreams]\n\nFollowed playlists:\n\t[]"
-}, {
-  "command" : "load",
-  "user" : "bob35",
-  "timestamp" : 2460,
-  "message" : "Playback loaded successfully."
-}, {
   "command" : "addRemoveInPlaylist",
-  "user" : "bob35",
-  "timestamp" : 2480,
+  "user" : "carol19",
+  "timestamp" : 340,
   "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
-  "user" : "bob35",
-  "timestamp" : 2500,
-  "message" : "Search returned 1 results",
-  "results" : [ "Hustle Hard" ]
+  "user" : "carol19",
+  "timestamp" : 370,
+  "message" : "Search returned 3 results",
+  "results" : [ "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ]
 }, {
   "command" : "select",
-  "user" : "bob35",
-  "timestamp" : 2510,
-  "message" : "Successfully selected Hustle Hard."
+  "user" : "carol19",
+  "timestamp" : 390,
+  "message" : "Successfully selected Bohemian Rhapsody."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 400,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "like",
+  "user" : "carol19",
+  "timestamp" : 405,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 470,
+  "message" : "Search returned 2 results",
+  "results" : [ "Angie", "Nothing Else Matters" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 490,
+  "message" : "Successfully selected Angie."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 500,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 540,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 770,
+  "message" : "Search returned 3 results",
+  "results" : [ "Freedom", "Happy", "Freedom" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 790,
+  "message" : "Successfully selected Freedom."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 800,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "like",
+  "user" : "carol19",
+  "timestamp" : 805,
+  "message" : "Unlike registered successfully."
+}, {
+  "command" : "showPreferredSongs",
+  "user" : "carol19",
+  "timestamp" : 1000,
+  "result" : [ "Bohemian Rhapsody" ]
+}, {
+  "command" : "createPlaylist",
+  "user" : "david27",
+  "timestamp" : 1150,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 1170,
+  "message" : "Search returned 2 results",
+  "results" : [ "Angie", "Nothing Else Matters" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 1190,
+  "message" : "Successfully selected Angie."
+}, {
+  "command" : "load",
+  "user" : "david27",
+  "timestamp" : 1200,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "like",
+  "user" : "david27",
+  "timestamp" : 1205,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 1240,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2150,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2170,
+  "message" : "Search returned 3 results",
+  "results" : [ "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2190,
+  "message" : "Successfully selected Bohemian Rhapsody."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 2295,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "showPreferredSongs",
+  "user" : "emily30",
+  "timestamp" : 2300,
+  "result" : [ ]
+}, {
+  "command" : "like",
+  "user" : "emily30",
+  "timestamp" : 2350,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2370,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "showPreferredSongs",
+  "user" : "emily30",
+  "timestamp" : 2400,
+  "result" : [ "Bohemian Rhapsody" ]
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2460,
+  "message" : "Search returned 1 results",
+  "results" : [ "My first playlist" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2490,
+  "message" : "Successfully selected My first playlist."
 }, {
   "command" : "follow",
-  "user" : "carol19",
-  "timestamp" : 2515,
+  "user" : "emily30",
+  "timestamp" : 2520,
   "message" : "Playlist followed successfully."
 }, {
-  "command" : "load",
-  "user" : "bob35",
-  "timestamp" : 2520,
-  "message" : "Playback loaded successfully."
-}, {
-  "command" : "addRemoveInPlaylist",
-  "user" : "bob35",
-  "timestamp" : 2540,
-  "message" : "Successfully added to playlist."
+  "command" : "getTop5Playlists",
+  "timestamp" : 2560,
+  "result" : [ "My first playlist", "My favourite songs", "Just for fun", "Felt cute might delete later", "Listen on repeat" ]
 }, {
   "command" : "search",
   "user" : "bob35",
-  "timestamp" : 2590,
+  "timestamp" : 2565,
   "message" : "Search returned 1 results",
-  "results" : [ "Begin Again" ]
+  "results" : [ "Just for fun" ]
 }, {
   "command" : "select",
   "user" : "bob35",
-  "timestamp" : 2650,
-  "message" : "Successfully selected Begin Again."
+  "timestamp" : 2580,
+  "message" : "Successfully selected Just for fun."
 }, {
-  "command" : "load",
+  "command" : "follow",
   "user" : "bob35",
-  "timestamp" : 2660,
-  "message" : "Playback loaded successfully."
-}, {
-  "command" : "addRemoveInPlaylist",
-  "user" : "bob35",
-  "timestamp" : 2690,
-  "message" : "Successfully added to playlist."
+  "timestamp" : 2600,
+  "message" : "Playlist followed successfully."
 }, {
   "command" : "search",
-  "user" : "bob35",
-  "timestamp" : 2700,
+  "user" : "david27",
+  "timestamp" : 2765,
   "message" : "Search returned 1 results",
-  "results" : [ "My playlist" ]
+  "results" : [ "Just for fun" ]
 }, {
   "command" : "select",
-  "user" : "bob35",
-  "timestamp" : 2710,
-  "message" : "Successfully selected My playlist."
+  "user" : "david27",
+  "timestamp" : 2810,
+  "message" : "Successfully selected Just for fun."
 }, {
-  "command" : "load",
-  "user" : "bob35",
-  "timestamp" : 2740,
-  "message" : "Playback loaded successfully."
-}, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 2800,
-  "stats" : {
-    "name" : "Retro Rhythms",
-    "remainedTime" : 160,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "shuffle",
-  "user" : "bob35",
+  "command" : "follow",
+  "user" : "david27",
   "timestamp" : 2850,
-  "message" : "Shuffle function activated successfully."
+  "message" : "Playlist followed successfully."
 }, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 2900,
-  "stats" : {
-    "name" : "Retro Rhythms",
-    "remainedTime" : 60,
-    "repeat" : "No Repeat",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "removeAlbum",
-  "user" : "melodymaster",
+  "command" : "getTop5Playlists",
   "timestamp" : 3000,
-  "message" : "melodymaster can't delete this album."
+  "result" : [ "Just for fun", "My first playlist", "My favourite songs", "Felt cute might delete later", "Listen on repeat" ]
 }, {
-  "command" : "status",
+  "command" : "showPreferredSongs",
   "user" : "bob35",
-  "timestamp" : 3250,
-  "stats" : {
-    "name" : "Hustle Hard",
-    "remainedTime" : 167,
-    "repeat" : "No Repeat",
-    "shuffle" : true,
-    "paused" : false
-  }
+  "timestamp" : 3100,
+  "result" : [ "Vibrant Echoes" ]
 }, {
-  "command" : "changePage",
+  "command" : "showPreferredSongs",
   "user" : "carol19",
-  "timestamp" : 3251,
-  "message" : "carol19 accessed LikedContent successfully."
+  "timestamp" : 3200,
+  "result" : [ "Bohemian Rhapsody" ]
 }, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 3600,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
-}, {
-  "command" : "shuffle",
-  "user" : "bob35",
-  "timestamp" : 3610,
-  "message" : "Please load a source before using the shuffle function."
-}, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 3660,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
-}, {
-  "command" : "printCurrentPage",
-  "user" : "david27",
-  "timestamp" : 3900,
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]"
-}, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 4000,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
-}, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 4350,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
-}, {
-  "command" : "search",
-  "user" : "bob35",
-  "timestamp" : 4351,
-  "message" : "Search returned 1 results",
-  "results" : [ "My playlist" ]
-}, {
-  "command" : "select",
-  "user" : "bob35",
-  "timestamp" : 4352,
-  "message" : "Successfully selected My playlist."
-}, {
-  "command" : "load",
-  "user" : "bob35",
-  "timestamp" : 4353,
-  "message" : "Playback loaded successfully."
-}, {
-  "command" : "shuffle",
-  "user" : "bob35",
-  "timestamp" : 4360,
-  "message" : "Shuffle function activated successfully."
-}, {
-  "command" : "printCurrentPage",
-  "user" : "david27",
-  "timestamp" : 4400,
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]"
-}, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 4410,
-  "stats" : {
-    "name" : "Retro Rhythms",
-    "remainedTime" : 163,
-    "repeat" : "No Repeat",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 4750,
-  "stats" : {
-    "name" : "Hustle Hard",
-    "remainedTime" : 55,
-    "repeat" : "No Repeat",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "printCurrentPage",
-  "user" : "carol19",
-  "timestamp" : 5000,
-  "message" : "Liked songs:\n\t[Digital Dreams - melodymaster]\n\nFollowed playlists:\n\t[My playlist - bob35]"
-}, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 5100,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
-}, {
-  "command" : "showPlaylists",
-  "user" : "bob35",
-  "timestamp" : 6000,
-  "result" : [ {
-    "name" : "My playlist",
-    "songs" : [ "Retro Rhythms", "Elevate", "I Don't Wanna Live Forever", "Hustle Hard", "Begin Again" ],
-    "visibility" : "public",
-    "followers" : 1
-  } ]
+  "command" : "getTop5Songs",
+  "timestamp" : 3300,
+  "result" : [ "Bohemian Rhapsody", "Angie", "Vibrant Echoes", "Shape of You", "Don't" ]
 } ]

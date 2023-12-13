@@ -210,5 +210,4 @@ public class ArtistPage extends User implements Page, Playable {
     public void removeEvent(final Event event) {
         events.remove(event);
     }
-
 }

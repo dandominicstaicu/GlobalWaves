@@ -20,5 +20,4 @@ public class GetTop5Artists extends Command {
         System.out.println(this.toString());
     }
 
-
 }

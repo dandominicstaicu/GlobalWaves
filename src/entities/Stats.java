@@ -1,6 +1,7 @@
 package entities;
 
 import common.Constants;
+import entities.playable.Album;
 import entities.playable.Playlist;
 import entities.playable.audio_files.Song;
 import entities.user.side.NormalUser;
@@ -15,6 +16,14 @@ public class Stats {
                 .sorted(Comparator.comparingInt(Song::getLikes).reversed()) // descending
                 .limit(Constants.MAX_LIST_RETURN)
                 .toList(); // convert to list
+    }
+
+    public static List<Album> top5Albums(final Library lib) {
+        return lib.getAlbums().stream()
+                .sorted(Comparator.comparingInt((Album a) -> a.getSongs().stream().mapToInt(Song::getLikes).sum()).reversed()
+                        .thenComparing(Album::getName))
+                .limit(Constants.MAX_LIST_RETURN)
+                .toList();
     }
 
     public static List<Playlist> top5Playlists(final Library lib) {
