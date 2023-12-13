@@ -39,7 +39,7 @@ public final class Output {
     public static final String SHUFFLE = "shuffle";
     public static final String SHUFFLE_ACTIVE = "Shuffle function activated successfully.";
     public static final String SHUFFLE_DEACTIVATE = "Shuffle function deactivated successfully.";
-    public static final String SOURCE_NOT_PLAYLIST = "The loaded source is not a playlist.";
+    public static final String SOURCE_NOT_PLAYLIST = "The loaded source is not a playlist or an album.";
     public static final String LOAD_SHUFFLE_ERR = "Please load a source before using the shuffle"
             + " function.";
     public static final String BACKWARD = "backward";

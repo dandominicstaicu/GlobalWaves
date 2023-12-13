@@ -69,8 +69,5 @@ public class Shuffle extends Command {
                 out.put(Output.MESSAGE, Output.SHUFFLE_DEACTIVATE);
             }
         }
-
     }
-
-
 }

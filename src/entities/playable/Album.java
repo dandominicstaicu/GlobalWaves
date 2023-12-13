@@ -37,6 +37,8 @@ public class Album implements Playable {
 
     @Override
     public void loadToQueue(UserPlayer userPlayer) {
+        userPlayer.setIsPlayingPlaylist(true);
+
         // clear the queue before adding
         userPlayer.getAudioQueue().clear();
 
