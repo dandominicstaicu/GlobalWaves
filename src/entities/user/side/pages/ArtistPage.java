@@ -6,6 +6,7 @@ import common.UserTypes;
 import entities.Library;
 import entities.playable.Album;
 import entities.playable.Playable;
+import entities.playable.Playlist;
 import entities.playable.audio_files.Song;
 import entities.user.side.*;
 import lombok.AllArgsConstructor;
@@ -156,6 +157,32 @@ public class ArtistPage extends User implements Page, Playable {
                 }
 
             }
+
+
+            List<Playable> lastSearchResults = user.getPlayer().getSearchBar().getLastSearchResults();
+            if (lastSearchResults != null) {
+                for (Playable playable : lastSearchResults) {
+//                    System.out.println();
+//                    if (playable instanceof Song)
+//                        System.out.println("instanceof song artist name: " + this.getUsername());
+//
+//                    if (playable instanceof Album) {
+//                        System.out.println("instanceof album artist name: " + this.getUsername());
+//                    }
+//
+//                    if (playable instanceof Playlist) {
+//                        System.out.println("instanceof Playlist artist name: " + this.getUsername());
+//                    }
+//
+//                    if (playable instanceof ArtistPage) {
+//                        System.out.println("instanceof ArtistPage artist name: " + this.getUsername());
+//
+//                    }
+
+                    if (playable.ownedByUser(this.getUsername()))
+                        return false;
+                }
+            }
         }
 
         library.getArtists().remove(this);
@@ -166,7 +193,6 @@ public class ArtistPage extends User implements Page, Playable {
 
         for (Album album : artistsAlbums) {
             removeSongs.addAll(album.getSongs());
-
             for (Song song : library.getSongs()) {
                 for (NormalUser user : library.getUsers()) {
                     if (user.getFavoriteSongs().contains(song)) {
@@ -205,6 +231,11 @@ public class ArtistPage extends User implements Page, Playable {
         }
 
         return null;
+    }
+
+    @Override
+    public boolean ownedByUser(final String artistName) {
+        return this.getName().equals(artistName);
     }
 
     public void removeEvent(final Event event) {

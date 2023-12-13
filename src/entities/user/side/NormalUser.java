@@ -2,6 +2,7 @@ package entities.user.side;
 
 import common.UserTypes;
 import entities.Library;
+import entities.playable.Playable;
 import entities.playable.Playlist;
 import entities.playable.audio_files.Song;
 import entities.user.side.pages.HomePage;
@@ -117,22 +118,36 @@ public class NormalUser extends User {
     public boolean handleDeletion(Library library) {
         for (NormalUser user : library.getUsers()) {
             if (user.getPlayer().getLoadedContentReference() != null) {
-
                 if (user.getPlayer().getLoadedContentReference().isLoadedInPlayer(this.getUsername())) {
                     if (user.getPlayer().getIsPlaying()) {
                         return false;
                     }
                 }
             }
-        }
 
+//            if (user != this) {
+//                System.out.println("pula?");
+//            System.out.println(user.getUsername());
+//                Playable lastSelected = user.getPlayer().getSearchBar().getSelectedResult();
+//                if (lastSelected != null) {
+//                    System.out.println(lastSelected.getName());
+//
+//                    if (lastSelected instanceof Playlist) {
+//                        System.out.println("muie fraiere");
+//                    }
+//
+//                    if (lastSelected.ownedByUser(this.getUsername())){
+//                        return false;
+//                    }
+//                }
+////            }
+        }
 
         List<Playlist> libPlaytlists = library.getPlaylists();
         List<Playlist> rmvPlaylists = new ArrayList<>();
         for (Playlist playlist : libPlaytlists) {
             if (playlist.getOwner().equals(this.getUsername())) {
                 rmvPlaylists.add(playlist);
-//                playlist.setFollowers(playlist.getFollowers() - 1);
             }
         }
 

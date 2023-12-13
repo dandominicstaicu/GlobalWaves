@@ -126,4 +126,9 @@ public class Song extends AudioFile implements Playable {
 
         return false;
     }
+
+    @Override
+    public boolean ownedByUser(final String artistName) {
+        return this.getArtist().equals(artistName);
+    }
 }

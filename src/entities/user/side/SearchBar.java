@@ -33,7 +33,6 @@ public final class SearchBar {
     private List<Playable> lastSearchResults;
     private Playable selectedResult = null;
 
-
     /**
      * Searches the library for playable items (songs, playlists, podcasts)
      * based on the given type and filters.

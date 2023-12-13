@@ -50,10 +50,18 @@ public interface Playable {
         out.put(Output.MESSAGE, "Successfully selected " + this.getName() + ".");
         searchBar.setSelectedResult(this);
         searchBar.setLastSearchResults(null);
+
+        System.out.println(user + " last search result: " + searchBar.getSelectedResult());
     }
 
     default boolean containsAlbum(Album album) {
         return false;
     }
+
+    default boolean ownedByUser(final String artistName) {
+        return false;
+    }
+
+
 
 }

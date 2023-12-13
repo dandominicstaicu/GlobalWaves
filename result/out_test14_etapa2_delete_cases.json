@@ -208,7 +208,7 @@
   "command" : "deleteUser",
   "user" : "sonicpainter",
   "timestamp" : 900,
-  "message" : "sonicpainter was successfully deleted."
+  "message" : "sonicpainter can't be deleted."
 }, {
   "command" : "deleteUser",
   "user" : "audiosage",
@@ -233,7 +233,7 @@
   "command" : "deleteUser",
   "user" : "sonicpainter",
   "timestamp" : 975,
-  "message" : "The username sonicpainter doesn't exist."
+  "message" : "sonicpainter can't be deleted."
 }, {
   "command" : "removePodcast",
   "user" : "musicmaven",
@@ -268,7 +268,7 @@
   "command" : "deleteUser",
   "user" : "sonicpainter",
   "timestamp" : 7225,
-  "message" : "The username sonicpainter doesn't exist."
+  "message" : "sonicpainter can't be deleted."
 }, {
   "command" : "repeat",
   "user" : "carol19",
@@ -283,7 +283,7 @@
   "command" : "deleteUser",
   "user" : "sonicpainter",
   "timestamp" : 7860,
-  "message" : "The username sonicpainter doesn't exist."
+  "message" : "sonicpainter can't be deleted."
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -293,10 +293,10 @@
   "command" : "deleteUser",
   "user" : "sonicpainter",
   "timestamp" : 7890,
-  "message" : "The username sonicpainter doesn't exist."
+  "message" : "sonicpainter can't be deleted."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 7900,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Aurora Harmony]\n\nFollowed playlists:\n\t[]"
 } ]

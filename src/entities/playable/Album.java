@@ -70,4 +70,9 @@ public class Album implements Playable {
     public boolean containsAlbum(Album album) {
         return album.equals(this);
     }
+
+    @Override
+    public boolean ownedByUser(final String artistName) {
+        return this.getOwner().equals(artistName);
+    }
 }
