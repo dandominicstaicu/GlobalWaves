@@ -7,11 +7,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 
-import commands.Command;
+import app.commands.Command;
 
-import entities.Library;
-import entities.user.side.NormalUser;
-import entities.user.side.UserPlayer;
+import app.entities.Library;
+import app.entities.userside.NormalUser;
+import app.entities.userside.UserPlayer;
 import fileio.input.LibraryInput;
 
 import java.io.File;
@@ -107,17 +107,13 @@ public final class Main {
 
             for (NormalUser normalUser : library.getUsers()) {
                 UserPlayer userPlayer = normalUser.getPlayer();
-//                if (!normalUser.getOnline()) {
-//                    int
-//                    userPlayer.setPauseStartTimeStamp();
-//
-//                }
                 userPlayer.updateTime(command.getTimestamp());
             }
 
             NormalUser normalUser = library.getUserWithUsername(command.getUsername());
-            if (normalUser != null)
+            if (normalUser != null) {
                 offline = !normalUser.getOnline();
+            }
 
             command.execute(outputs, library, offline);
         }
