@@ -74,7 +74,6 @@ public class Search extends Command {
 
         lib.getUserWithUsername(getUsername()).getPlayer().stop();
 
-
         out.put(Output.MESSAGE, "Search returned " + searchResult.size() + " results");
 
         ArrayNode resultsNode = out.putArray(Output.RESULTS);

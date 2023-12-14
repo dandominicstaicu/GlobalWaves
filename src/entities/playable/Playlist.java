@@ -110,6 +110,7 @@ public class Playlist implements Playable {
 
         return false;
     }
+
     @Override
     public boolean ownedByUser(final String userName) {
         return this.getOwner().equals(userName);
@@ -119,5 +120,4 @@ public class Playlist implements Playable {
     public boolean isLoadedInPlayer(String username) {
         return getOwner().equals(username);
     }
-
 }

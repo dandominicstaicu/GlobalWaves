@@ -5,7 +5,7 @@ import entities.playable.Album;
 import entities.playable.Playlist;
 import entities.playable.audio_files.Song;
 import entities.user.side.NormalUser;
-import entities.user.side.pages.ArtistPage;
+import entities.user.side.artist.Artist;
 
 import java.util.Comparator;
 import java.util.HashMap;
@@ -29,7 +29,7 @@ public class Stats {
                 .toList();
     }
 
-    public static List<ArtistPage> top5Artists(final Library lib) {
+    public static List<Artist> top5Artists(final Library lib) {
         Map<String, Integer> artistLikes = new HashMap<>();
 
         // Calculate total likes for each artist
@@ -41,7 +41,7 @@ public class Stats {
 
         // Sort artists by total likes and get the top 5
         return lib.getArtists().stream()
-                .sorted(Comparator.comparing((ArtistPage artist) -> artistLikes.getOrDefault(artist.getName(), 0)).reversed())
+                .sorted(Comparator.comparing((Artist artist) -> artistLikes.getOrDefault(artist.getName(), 0)).reversed())
                 .limit(Constants.MAX_LIST_RETURN)
                 .toList();
     }

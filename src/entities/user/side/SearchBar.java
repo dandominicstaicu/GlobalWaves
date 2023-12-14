@@ -1,15 +1,14 @@
 package entities.user.side;
 
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import common.UserTypes;
 import entities.Library;
 import entities.playable.Album;
 import entities.playable.Playable;
 import entities.playable.Playlist;
 import entities.playable.Podcast;
 import entities.playable.audio_files.Song;
-import entities.user.side.pages.ArtistPage;
-import entities.user.side.pages.HostPage;
+import entities.user.side.artist.Artist;
+import entities.user.side.host.Host;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -111,13 +110,13 @@ public final class SearchBar {
                 .collect(Collectors.toList());
     }
 
-    private List<ArtistPage> searchArtists(final Library library, final Map<String, Object> filters) {
+    private List<Artist> searchArtists(final Library library, final Map<String, Object> filters) {
         return library.getArtists().stream()
                 .filter(artist -> matchesFiltersArtist(artist, filters))
                 .collect(Collectors.toList());
     }
 
-    private List<HostPage> searchHosts(final Library library, final Map<String, Object> filters) {
+    private List<Host> searchHosts(final Library library, final Map<String, Object> filters) {
         return library.getHosts().stream()
                 .filter(host -> matchesFiltersHost(host, filters))
                 .collect(Collectors.toList());
@@ -265,7 +264,7 @@ public final class SearchBar {
         return false;
     }
 
-    private boolean matchesFiltersArtist(final ArtistPage artist, final Map<String, Object> filters) {
+    private boolean matchesFiltersArtist(final Artist artist, final Map<String, Object> filters) {
         for (Map.Entry<String, Object> filter : filters.entrySet()) {
             if (filter.getKey().equalsIgnoreCase("name")) {
                 if (!artist.getUsername().startsWith((String) filter.getValue())) {
@@ -278,7 +277,7 @@ public final class SearchBar {
     }
 
 
-    private boolean matchesFiltersHost(final HostPage host, final Map<String, Object> filters) {
+    private boolean matchesFiltersHost(final Host host, final Map<String, Object> filters) {
         for (Map.Entry<String, Object> filter : filters.entrySet()) {
             if (filter.getKey().equalsIgnoreCase("name")) {
                 if (!host.getUsername().startsWith((String) filter.getValue())) {

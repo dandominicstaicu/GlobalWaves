@@ -7,8 +7,8 @@ import entities.playable.Playlist;
 import entities.playable.Podcast;
 import entities.playable.audio_files.Song;
 import entities.user.side.*;
-import entities.user.side.pages.ArtistPage;
-import entities.user.side.pages.HostPage;
+import entities.user.side.artist.Artist;
+import entities.user.side.host.Host;
 import fileio.input.PodcastInput;
 import fileio.input.EpisodeInput;
 import fileio.input.LibraryInput;
@@ -35,8 +35,8 @@ public final class Library {
 
     // user arrays
     private List<NormalUser> users;
-    private List<ArtistPage> artists;
-    private List<HostPage> hosts;
+    private List<Artist> artists;
+    private List<Host> hosts;
 
     private Library() {
         this.songs = new ArrayList<>();
@@ -163,14 +163,14 @@ public final class Library {
                 .orElse(null);
     }
 
-    public ArtistPage getArtistWithName(final String username) {
+    public Artist getArtistWithName(final String username) {
         return artists.stream()
                 .filter(artistPage -> artistPage.getUsername().equals(username))
                 .findFirst()
                 .orElse(null);
     }
 
-    public HostPage getHostWithName(final String username) {
+    public Host getHostWithName(final String username) {
         return hosts.stream()
                 .filter(hostPage -> hostPage.getUsername().equals(username))
                 .findFirst()
@@ -307,13 +307,13 @@ public final class Library {
             }
         }
 
-        for (ArtistPage artist : artists) {
+        for (Artist artist : artists) {
             if (artist.getUsername().equals(username)) {
                 return artist;
             }
         }
 
-        for (HostPage host : hosts) {
+        for (Host host : hosts) {
             if (host.getUsername().equals(username)) {
                 return host;
             }

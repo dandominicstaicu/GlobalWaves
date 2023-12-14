@@ -6,8 +6,7 @@ import commands.Command;
 import common.Output;
 import entities.Library;
 import entities.Stats;
-import entities.playable.Album;
-import entities.user.side.pages.ArtistPage;
+import entities.user.side.artist.Artist;
 import lombok.*;
 
 import java.util.List;
@@ -27,10 +26,10 @@ public class GetTop5Artists extends Command {
         ObjectNode out = outputs.addObject();
         printCommandInfo(out, Output.TOP_5_ARTISTS);
 
-        List<ArtistPage> sortedArtists = Stats.top5Artists(library);
+        List<Artist> sortedArtists = Stats.top5Artists(library);
 
         ArrayNode resultArray = out.putArray(Output.RESULT);
-        for (ArtistPage artist : sortedArtists) {
+        for (Artist artist : sortedArtists) {
             resultArray.add(artist.getName());
         }
     }
