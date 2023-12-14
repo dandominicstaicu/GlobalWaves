@@ -52,11 +52,7 @@ public class Select extends Command {
 
         NormalUser normalUser = lib.getUserWithUsername(getUsername());
 
-        if (normalUser == null) {
-            System.out.println("User not found. is null in select");
-            return;
-        }
-
+        assert normalUser != null;
         UserPlayer userPlayer = normalUser.getPlayer();
 
         List<Playable> lastSearchResults = userPlayer.getSearchBar().getLastSearchResults();
@@ -74,7 +70,6 @@ public class Select extends Command {
             out.put(Output.MESSAGE, Output.SELECTED_ID_HIGH);
         } else {
             Playable selectedResult = lastSearchResults.get(itemNumber - 1); // Adjust for 0 index
-//            out.put(Output.MESSAGE, "Successfully selected " + selectedResult.getName() + ".");
             userPlayer.getSearchBar().setSelectedResultAndClear(selectedResult, normalUser, out);
         }
     }

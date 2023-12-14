@@ -63,16 +63,12 @@ public class Search extends Command {
             out.put(Output.MESSAGE, getUsername() + Output.IS_OFFLINE);
             ArrayNode resultsNode = out.putArray(Output.RESULTS);
 
-            System.out.println("in is offline in search");
             return;
         }
 
         NormalUser normalUser = lib.getUserWithUsername(getUsername());
-        if (normalUser == null) {
-            System.out.println("null in search");
-            return;
-        }
 
+        assert normalUser != null;
         UserPlayer userPlayer = normalUser.getPlayer();
 
         SearchBar bar = userPlayer.getSearchBar();

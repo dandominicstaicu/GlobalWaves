@@ -30,16 +30,13 @@ public class PrintCurrentPage extends Command {
         out.put(Output.TIMESTAMP, getTimestamp());
 
         if (offline) {
-//            out.put(Output.COMMAND, Output.PRINT_CURRENT_PAGE);
-//            out.put(Output.USER, getUsername());
-//            out.put(Output.TIMESTAMP, getTimestamp());
             out.put(Output.MESSAGE, getUsername() + Output.IS_OFFLINE);
             return;
         }
 
-//        System.out.println(this.toString());
 
         NormalUser user = library.getUserWithUsername(getUsername());
+        assert user != null;
         Page currentPage = user.getCurrentPage();
 
         out.put(Output.MESSAGE, currentPage.printPage(library, user));

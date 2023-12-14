@@ -50,22 +50,9 @@ public class Status extends Command {
 
         NormalUser normalUser = lib.getUserWithUsername(getUsername());
 
-        if (normalUser == null) {
-            System.out.println("User not found. is null in status");
-            return;
-        }
-
+        assert normalUser != null;
         UserPlayer userPlayer = normalUser.getPlayer();
         ObjectNode stats = out.putObject("stats");
-
-//        if (!normalUser.getOnline()) {
-//            stats.put(Output.NAME, "");
-//            stats.put(Output.REMAINED_TIME, Constants.START_OF_SONG);
-//            stats.put(Output.PAUSED, false);
-//            stats.put(Output.REPEAT, Output.NO_REPEAT);
-//            stats.put(Output.SHUFFLE, false);
-//            return;
-//        }
 
         if (userPlayer.getAudioQueue() != null && userPlayer.playingIndexIsValid()) {
             int playingIndex = userPlayer.getPlayingIndex();

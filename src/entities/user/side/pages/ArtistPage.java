@@ -33,8 +33,6 @@ public class ArtistPage extends User implements Page, Playable {
 
     public void addEvent(final Event event) {
         events.add(event);
-//        System.out.println("events");
-//        System.out.println(this.events);
     }
 
     public void addMerch(final Merch merch) {
@@ -132,9 +130,6 @@ public class ArtistPage extends User implements Page, Playable {
     @Override
     public void addUser(Library library) {
         library.getArtists().add(this);
-
-//        System.out.println("artists after each add:");
-//        System.out.println(library.getArtists());
     }
 
     @Override
@@ -142,18 +137,12 @@ public class ArtistPage extends User implements Page, Playable {
         for (NormalUser user : library.getUsers()) {
             // if this page is used by a user at deletion time, it has to fail
             if (user.getCurrentPage().equals(this)) {
-                System.out.println("delete failed because user:  " + this.getUsername() + " is on artist page");
                 return false;
             }
 
             if (user.getPlayer().getLoadedContentReference() != null) {
-//                System.out.println("loaded content is not null");
-//                System.out.println(user.getPlayer().getLoadedContentReference().getName());
-
                 if (user.getPlayer().getLoadedContentReference().isLoadedInPlayer(this.getUsername())) {
-//                    System.out.println("the album is loaded in a player");
                     if (user.getPlayer().getIsPlaying()) {
-                        System.out.println("delete failed because is loaded and playing " + this.getUsername());
                         return false;
                     }
                 }
@@ -163,7 +152,6 @@ public class ArtistPage extends User implements Page, Playable {
             if (lastSearchResults != null) {
                 for (Playable playable : lastSearchResults) {
                     if (playable.ownedByUser(this.getUsername())) {
-                        System.out.println("delete failed because is in last search results " + this.getUsername());
                         return false;
                     }
                 }
@@ -188,9 +176,6 @@ public class ArtistPage extends User implements Page, Playable {
         }
 
         library.getSongs().removeAll(removeSongs);
-
-//        System.out.println("in ArtistPage in delete print artistsAlbums");
-//        System.out.println(artistsAlbums);
 
         library.getAlbums().removeAll(artistsAlbums);
 

@@ -156,7 +156,6 @@ public final class Library {
      */
     public NormalUser getUserWithUsername(final String username) {
         for (User user : users) {
-//            System.out.println("pula");
             if (user.getUserType() == UserTypes.NORMAL_USER
                     && user.getUsername().equals(username)) {
                 return (NormalUser) user;

@@ -28,8 +28,6 @@ public class RemoveEvent extends Command {
 
     @Override
     public void execute(ArrayNode outputs, Library library, boolean offline) {
-//        System.out.println(this.toString());
-
         ObjectNode out = outputs.addObject();
 
         out.put(Output.COMMAND, Output.REMOVE_EVENT);

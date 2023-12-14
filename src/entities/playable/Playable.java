@@ -51,7 +51,6 @@ public interface Playable {
         searchBar.setSelectedResult(this);
         searchBar.setLastSearchResults(null);
 
-//        System.out.println(user + " last search result: " + searchBar.getSelectedResult());
     }
 
     default boolean containsAlbum(Album album) {

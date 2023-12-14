@@ -34,7 +34,6 @@ public class AddMerch extends Command {
     //TODO code here alike to addEvent. REFACTOR
     @Override
     public void execute(final ArrayNode outputs, final Library library, final boolean offline) {
-//        System.out.println(this.toString());
         ObjectNode out = outputs.addObject();
 
         out.put(Output.COMMAND, Output.ADD_MERCH);

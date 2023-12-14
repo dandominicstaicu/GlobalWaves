@@ -34,10 +34,8 @@ public class AddUser extends Command {
 
     @Override
     public void execute(ArrayNode outputs, Library library, boolean offline) {
-//        System.out.println(this.toString());
         ObjectNode out = outputs.addObject();
 
-//        System.out.println("in add user");
 
         out.put(Output.COMMAND, Output.ADD_USER);
         out.put(Output.USER, getUsername());
@@ -47,7 +45,6 @@ public class AddUser extends Command {
         if (user != null) {
             out.put(Output.MESSAGE, Output.THE_USERNAME + getUsername() + Output.USER_ALREADY_TAKEN);
         } else {
-//            User newUser = new User(getUsername(), getAge(), getCity(), UserTypes.fromString(getType()));
             User newUser = UserFactory.createUser(getUsername(), getAge(), getCity(), getType());
 
             newUser.addUser(library);

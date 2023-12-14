@@ -54,11 +54,7 @@ public class Forward extends Command {
 
         NormalUser normalUser = lib.getUserWithUsername(getUsername());
 
-        if (normalUser == null) {
-            System.out.println("User not found. is null in forward");
-            return;
-        }
-
+        assert normalUser != null;
         UserPlayer userPlayer = normalUser.getPlayer();
 
         if (!userPlayer.playingIndexIsValid()) {

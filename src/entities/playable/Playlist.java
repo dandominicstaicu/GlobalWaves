@@ -112,10 +112,6 @@ public class Playlist implements Playable {
     }
     @Override
     public boolean ownedByUser(final String userName) {
-        System.out.println("playlist owner: " + getOwner() + " username to del: " + userName);
-        if (this.getOwner().equals(userName)) {
-            System.out.println("pula pula pula");
-        }
         return this.getOwner().equals(userName);
     }
 

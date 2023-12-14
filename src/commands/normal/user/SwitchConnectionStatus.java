@@ -39,9 +39,7 @@ public class SwitchConnectionStatus extends Command {
                 return;
             }
 
-//            UserPlayer player = user.getPlayer();
         } catch (NullPointerException e) {
-//            System.out.println("null pointer exception at switch connection status");
             out.put(Output.MESSAGE,  "The username " + getUsername() + " doesn't exist.");
             return;
         }

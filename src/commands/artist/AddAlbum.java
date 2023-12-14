@@ -49,8 +49,6 @@ public class AddAlbum extends Command {
 
     @Override
     public void execute(ArrayNode outputs, Library library, boolean offline) {
-//        System.out.println(this.toString());
-
         ObjectNode out = outputs.addObject();
 
         out.put(Output.COMMAND, Output.ADD_ALBUM);

@@ -20,7 +20,6 @@ public class DeleteUser extends Command {
 
     @Override
     public void execute(final ArrayNode outputs, final Library library, final boolean offline) {
-//        System.out.println(this.toString());
         ObjectNode out = outputs.addObject();
 
         out.put(Output.COMMAND, Output.DELETE_USER);

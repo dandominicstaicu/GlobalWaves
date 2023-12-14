@@ -54,11 +54,7 @@ public class FollowPlaylist extends Command {
 
         NormalUser normalUser = lib.getUserWithUsername(getUsername());
 
-        if (normalUser == null) {
-            System.out.println("User not found. is null in follow");
-            return;
-        }
-
+        assert normalUser != null;
         UserPlayer userPlayer = normalUser.getPlayer();
 
         Playable selected = userPlayer.getSearchBar().getSelectedResult();
@@ -70,7 +66,6 @@ public class FollowPlaylist extends Command {
         } else if (((Playlist) selected).getOwner().equals(getUsername())) {
             out.put(Output.MESSAGE, Output.OWN_PLAYLIST_ERR);
         } else {
-//            NormalUser normalUser = lib.getUserWithUsername(getUsername());
             if (normalUser.followUnfollowPlaylist((Playlist) selected)) {
                 out.put(Output.MESSAGE, Output.FOLLOW_SUCCESS);
             } else {

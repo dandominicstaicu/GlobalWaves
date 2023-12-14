@@ -137,23 +137,6 @@ public class NormalUser extends User {
                     }
                 }
             }
-
-//            if (user != this) {
-//                System.out.println("pula?");
-//            System.out.println(user.getUsername());
-//                Playable lastSelected = user.getPlayer().getSearchBar().getSelectedResult();
-//                if (lastSelected != null) {
-//                    System.out.println(lastSelected.getName());
-//
-//                    if (lastSelected instanceof Playlist) {
-//                        System.out.println("muie fraiere");
-//                    }
-//
-//                    if (lastSelected.ownedByUser(this.getUsername())){
-//                        return false;
-//                    }
-//                }
-////            }
         }
 
         List<Playlist> libPlaytlists = library.getPlaylists();

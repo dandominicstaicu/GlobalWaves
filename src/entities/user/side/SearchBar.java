@@ -76,9 +76,6 @@ public final class SearchBar {
                 ? results.subList(0, MAX_LIST_RETURN) : results;
         this.setLastSearchResults(searchResults);
 
-//        System.out.println("buba in search");
-//        System.out.println(searchResults);
-
         return searchResults;
     }
 
@@ -91,8 +88,6 @@ public final class SearchBar {
      * @param newSelectedResult The new Playable item to be set as the selected result.
      */
     public void setSelectedResultAndClear(final Playable newSelectedResult, NormalUser user, ObjectNode out) {
-//        this.selectedResult = newSelectedResult;
-//        this.lastSearchResults = null;
         newSelectedResult.handleSelect(this, user, out);
 
     }

@@ -63,11 +63,8 @@ public class AddRemoveInPlaylist extends Command {
         out.put(Output.TIMESTAMP, getTimestamp());
 
         NormalUser normalUser = lib.getUserWithUsername(getUsername());
-        if (normalUser == null) {
-            System.out.println("User not found. is null in add remove in playlist");
-            return;
-        }
 
+        assert normalUser != null;
         UserPlayer userPlayer = normalUser.getPlayer();
 
         List<Playlist> playlistsSeenByUser = normalUser.getPlaylistsOwnedByUser(lib.getPlaylists());

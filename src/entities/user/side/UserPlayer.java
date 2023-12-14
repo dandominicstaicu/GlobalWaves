@@ -76,7 +76,6 @@ public class UserPlayer {
         }
 
         if (isOffline) {
-            System.out.println("pause time stamp " + pauseStartTimeStamp);
             if (playingIndexIsValid()) {
                 loadedTimestamp = initialStartTimestamp + (currentTimestamp - pauseStartTimeStamp);
             }
@@ -89,7 +88,7 @@ public class UserPlayer {
             return;
         }
 
-        if (!isPlaying) { // || isOffline
+        if (!isPlaying) {
             if (playingIndexIsValid()) {
                 loadedTimestamp = initialStartTimestamp + (currentTimestamp - pauseStartTimeStamp);
             }

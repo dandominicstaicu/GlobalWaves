@@ -51,11 +51,7 @@ public class Load extends Command {
 
         NormalUser normalUser = lib.getUserWithUsername(getUsername());
 
-        if (normalUser == null) {
-            System.out.println("User not found. is null in load");
-            return;
-        }
-
+        assert normalUser != null;
         UserPlayer userPlayer = normalUser.getPlayer();
 
         Playable selectedResult = userPlayer.getSearchBar().getSelectedResult();
@@ -63,7 +59,6 @@ public class Load extends Command {
         if (selectedResult == null) {
             out.put(Output.MESSAGE, Output.NO_SELECT);
         } else {
-            // Assuming you have a method in Player to handle loading
             int timestamp = getTimestamp();
             boolean loadSuccess = userPlayer.loadSource(selectedResult, timestamp, userPlayer);
 

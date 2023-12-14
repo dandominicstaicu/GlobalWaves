@@ -23,7 +23,6 @@ public class GetTop5Albums extends Command {
 
     @Override
     public void execute(ArrayNode outputs, Library library, boolean offline) {
-//        System.out.println(this.toString());
         ObjectNode out = outputs.addObject();
         out.put(Output.COMMAND, Output.TOP_5_ALBUMS);
         out.put(Output.TIMESTAMP, getTimestamp());

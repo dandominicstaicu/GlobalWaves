@@ -52,11 +52,7 @@ public class Repeat extends Command {
 
         NormalUser normalUser = lib.getUserWithUsername(getUsername());
 
-        if (normalUser == null) {
-            System.out.println("User not found. is null in repeat");
-            return;
-        }
-
+        assert normalUser != null;
         UserPlayer userPlayer = normalUser.getPlayer();
 
         if (!userPlayer.playingIndexIsValid()) {

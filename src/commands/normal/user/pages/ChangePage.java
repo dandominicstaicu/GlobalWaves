@@ -37,7 +37,6 @@ public class ChangePage extends Command {
         out.put(Output.USER, getUsername());
         out.put(Output.TIMESTAMP, getTimestamp());
 
-//        System.out.println(this.toString());
         NormalUser user = lib.getUserWithUsername(getUsername());
 
         switch (nextPage) {
