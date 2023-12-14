@@ -8,6 +8,7 @@ import entities.Library;
 import entities.user.side.NormalUser;
 import entities.user.side.pages.HomePage;
 import entities.user.side.pages.LikedContentPage;
+import entities.user.side.pages.Page;
 import lombok.*;
 
 @Setter
@@ -25,6 +26,12 @@ public class ChangePage extends Command {
                 + '}';
     }
 
+    private void setPageAndCreateMessage(final NormalUser user, final Page page,
+                                         final String message, final ObjectNode out) {
+        user.setCurrentPage(page);
+        out.put(Output.MESSAGE, getUsername() + " accessed " + message + " successfully.");
+    }
+
     @Override
     public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
         if (offline) {
@@ -38,22 +45,18 @@ public class ChangePage extends Command {
         out.put(Output.TIMESTAMP, getTimestamp());
 
         NormalUser user = lib.getUserWithUsername(getUsername());
+        assert user != null;
 
         switch (nextPage) {
             case "Home":
-                HomePage homePage = new HomePage();
-                user.setCurrentPage(homePage);
-                out.put(Output.MESSAGE, getUsername() + " accessed Home successfully.");
+                setPageAndCreateMessage(user, new HomePage(), "Home", out);
                 break;
             case "LikedContent":
-                LikedContentPage likedContentPage = new LikedContentPage();
-                user.setCurrentPage(likedContentPage);
-                out.put(Output.MESSAGE, getUsername() + " accessed LikedContent successfully.");
+                setPageAndCreateMessage(user, new LikedContentPage(), "LikedContent", out);
                 break;
             default:
                 out.put(Output.MESSAGE, getUsername() + " is trying to access a non-existent page.");
                 break;
         }
-
     }
 }

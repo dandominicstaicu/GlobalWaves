@@ -19,6 +19,7 @@ import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Stream;
 
 @Getter
 @Setter
@@ -155,36 +156,31 @@ public final class Library {
      * @return The User object with the specified username, or null if not found.
      */
     public NormalUser getUserWithUsername(final String username) {
-        for (User user : users) {
+        for (NormalUser user : users) {
             if (user.getUserType() == UserTypes.NORMAL_USER
                     && user.getUsername().equals(username)) {
-                return (NormalUser) user;
+                return user;
             }
         }
 
         return null;
     }
 
+    /**
+     * Retrieves a user by their username from the combined list of all users, artists, and hosts.
+     * This method searches through all users, artists, and hosts in the system and returns the
+     * first user found with the specified username. If no user is found with the given username,
+     * the method returns null. This method uses Java Streams to efficiently search across
+     * multiple collections.
+     *
+     * @param username The username of the user to be retrieved.
+     * @return A {@link User} object if a user with the specified username is found, otherwise null.
+     */
     public User getFromAllUsers(final String username) {
-        for (User user : users) {
-            if (user.getUsername().equals(username)) {
-                return user;
-            }
-        }
-
-        for (ArtistPage artist : artists) {
-            if (artist.getUsername().equals(username)) {
-                return artist;
-            }
-        }
-
-        for (HostPage host : hosts) {
-            if (host.getUsername().equals(username)) {
-                return host;
-            }
-        }
-
-        return null;
+        return Stream.concat(users.stream(), Stream.concat(artists.stream(), hosts.stream()))
+                .filter(user -> user.getUsername().equals(username))
+                .findFirst()
+                .orElse(null);
     }
 
     /**

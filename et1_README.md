@@ -1,5 +1,7 @@
-# Global Waves - Part 2
+# Global Waves
 **Credits: Dan-Dominic Staicu 321CAb 2023**
+
+https://www.jsondiff.com/
 
 [Behind the scene:](https://youtu.be/5X0f4tF9Sl8?si=7F939ljX8TOdXuPE) https://youtu.be/5X0f4tF9Sl8?si=7F939ljX8TOdXuPE
 
@@ -8,9 +10,9 @@ This project implements a simulation of a Music Player alike to Spotify with mul
 Using OOP concepts, I created classes in order to describe the existing objects:
 
 1. Abstract class 'Command' that is inherited by all the other commands. I have used the **command pattern** in order to encapsulate in an object all the data required for performing a given action (command).
-   All the other commands inherit this class and override the execute method. This way, I can easily add new commands in the future. Here I am using the concept of **dynamic polymorphism**.
-   The commands are organized in packages according to their functionality.
-   Using the **Generics** concept, in my main function I am reading the input using Jackson in a List<Commands> (regardless of their subclass); this way I can easily iterate through the list and execute the commands according to their specific individual behaviour.
+All the other commands inherit this class and override the execute method. This way, I can easily add new commands in the future. Here I am using the concept of **dynamic polymorphism**.
+The commands are organized in packages according to their functionality. 
+Using the **Generics** concept, in my main function I am reading the input using Jackson in a List<Commands> (regardless of their subclass); this way I can easily iterate through the list and execute the commands according to their specific individual behaviour.
 
 2. Library class that contains all the songs, podcasts and playlists. It is implemented as a singleton class, so that I can access it from anywhere in the code. It contains a list of all the songs, podcasts and playlists.
 
@@ -19,10 +21,10 @@ Using OOP concepts, I created classes in order to describe the existing objects:
 4. Abstract Class AudioFile that is inherited by the Song and PodcastEpisode classes. It contains the common methods for these two classes. It's used for **dynamic polymorphism** because UserPlayer has a List<AudioFile> that have mutual functions.
 
 5. The UserPlayer class is a good example of **Composition** because it contains a lot of fields that answer to the question "has a ...?". Every Player has a SearchBar and a List of AudioFiles.
-   I want to mention the Enum of RepeatStates used in this class that helps me keep track of the repeat states of the player.
+I want to mention the Enum of RepeatStates used in this class that helps me keep track of the repeat states of the player.
 
 6. In class SearchBar you can find an example of aggregation because it has a List of Playable objects that are not destroyed when the SearchBar is destroyed. This class handles the searching of a Player.
-   It keeps track of the last search results and the last selected result from the search.
+It keeps track of the last search results and the last selected result from the search.
 7. The User class is a clone of the UserInput class that also contains new fields such as the UserPlayer, a list of favouriteSongs and a list of followedPlaylists. (also an example of **composition**).
 
 8. The classes in the common package are final and contain only static variables. They are constants used in the project.
@@ -47,13 +49,6 @@ Using OOP concepts, I created classes in order to describe the existing objects:
 17. Lambda Functions
 18. Overriding
 19. Wrapper Classes for Primitive Types
-
-## Design Patterns
-1. Singleton
-2. Command
-3. Factory
-4. Strategy
-5. Builder (lombok)
 
 ## ChatGPT contribution
 - Suggested the use of some basic concepts of functional programming in order to shorten the code and make it easier to be understood, such as map(), filter(), stream() and lambda expressions. It really made a huge difference in improving code's quality.

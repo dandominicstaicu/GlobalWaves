@@ -1,5 +1,6 @@
 package commands.admin;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
@@ -15,6 +16,7 @@ import java.util.ArrayList;
 @Getter
 @AllArgsConstructor
 @Builder
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class ShowPodcasts extends Command {
     @Override
     public String toString() {
