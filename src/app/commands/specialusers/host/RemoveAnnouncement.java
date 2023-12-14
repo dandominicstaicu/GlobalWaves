@@ -1,45 +1,52 @@
 package app.commands.specialusers.host;
 
 import app.entities.Library;
-import app.entities.userside.User;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import app.commands.Command;
 import app.common.Output;
 import app.entities.userside.host.Announcement;
 import app.entities.userside.host.Host;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Setter
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class RemoveAnnouncement extends Command {
+public class RemoveAnnouncement extends CheckExistenceHost {
     private String name;
 
+    /**
+     * Returns a string representation of the RemoveAnnouncement command.
+     *
+     * @return A string describing the RemoveAnnouncement command.
+     */
     @Override
     public String toString() {
-        return super.toString() + "RemoveAnnouncement{" +
-                "name='" + name + '\'' +
-                '}';
+        return super.toString() + "RemoveAnnouncement{"
+                + "name='" + name + '\''
+                + '}';
     }
 
+    /**
+     * Executes the RemoveAnnouncement command to remove an announcement from the host's profile.
+     *
+     * @param outputs The ArrayNode to which command outputs are added.
+     * @param library The Library where announcement and host data is stored.
+     * @param offline A boolean flag indicating if the command is executed offline.
+     */
     @Override
-    public void execute(ArrayNode outputs, Library library, boolean offline) {
+    public void execute(final ArrayNode outputs, final Library library, final boolean offline) {
         ObjectNode out = outputs.addObject();
 
         printCommandInfo(out, Output.REMOVE_ANNOUNCE);
 
-        User user = library.searchAllUsersForUsername(getUsername());
-        if (user == null) {
-            out.put(Output.MESSAGE, Output.THE_USERNAME + getUsername() + Output.DOESNT_EXIST);
-            return;
-        }
-
         Host host = library.getHostWithName(getUsername());
-        if (host == null) {
-            out.put(Output.MESSAGE, getUsername() + Output.NOT_HOST);
+        if (validateUserAndHost(library, out, getUsername())) {
             return;
         }
 

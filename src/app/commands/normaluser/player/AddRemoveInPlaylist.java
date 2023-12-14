@@ -50,7 +50,7 @@ public class AddRemoveInPlaylist extends Command {
      * @param lib     The library on which the command operates.
      */
     @Override
-    public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
+    public void execute(final ArrayNode outputs, final Library lib, final boolean offline) {
         ObjectNode out = outputs.addObject();
 
         printCommandInfo(out, Output.ADD_REMOVE_IN_PLAYLIST);
@@ -64,7 +64,8 @@ public class AddRemoveInPlaylist extends Command {
         assert normalUser != null;
         UserPlayer userPlayer = normalUser.getPlayer();
 
-        List<Playlist> playlistsSeenByUser = normalUser.getPlaylistsOwnedByUser(lib.getPlaylists());
+        List<Playlist> playlistsSeenByUser = normalUser
+                .getPlaylistsOwnedByUser(lib.getPlaylists());
 
 
         if (getPlaylistId() > playlistsSeenByUser.size() || getPlaylistId() <= 0) {

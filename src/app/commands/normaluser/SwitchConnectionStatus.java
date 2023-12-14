@@ -8,18 +8,33 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import app.commands.Command;
 import app.common.Output;
 import app.common.UserTypes;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
 
 @Setter
 @Getter
 @AllArgsConstructor
 @Builder
 public class SwitchConnectionStatus extends Command {
+    /**
+     * Returns a string representation of the command.
+     *
+     * @return A string describing the command.
+     */
     @Override
     public String toString() {
         return super.toString() + "SwitchConnectionStatus{}";
     }
 
+    /**
+     * Executes the command to switch the user's online connection status.
+     *
+     * @param outputs The ArrayNode to which command outputs are added.
+     * @param library The Library where user data is stored.
+     * @param offline A boolean indicating whether the command is executed in offline mode.
+     */
     @Override
     public void execute(final ArrayNode outputs, final Library library, final boolean offline) {
         ObjectNode out = outputs.addObject();
@@ -37,7 +52,7 @@ public class SwitchConnectionStatus extends Command {
             }
 
         } catch (NullPointerException e) {
-            out.put(Output.MESSAGE,  "The username " + getUsername() + " doesn't exist.");
+            out.put(Output.MESSAGE, "The username " + getUsername() + " doesn't exist.");
             return;
         }
 

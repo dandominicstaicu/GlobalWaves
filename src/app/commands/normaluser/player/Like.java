@@ -38,7 +38,7 @@ public class Like extends Command {
      * @param lib     The library on which the command operates.
      */
     @Override
-    public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
+    public void execute(final ArrayNode outputs, final Library lib, final boolean offline) {
         ObjectNode out = outputs.addObject();
 
         printCommandInfo(out, Output.LIKE);

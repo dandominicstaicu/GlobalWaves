@@ -69,8 +69,15 @@ public class Podcast implements Playable {
         return false;
     }
 
+    /**
+     * Checks if the song is loaded in a player associated with the given username.
+     *
+     * @param username The username to check for.
+     * @return True if the song is loaded in the player with the specified username,
+     * false otherwise.
+     */
     @Override
-    public boolean isLoadedInPlayer(String username) {
+    public boolean isLoadedInPlayer(final String username) {
         return getOwner().equals(username);
     }
 }

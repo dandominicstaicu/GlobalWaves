@@ -53,7 +53,7 @@ public class Search extends Command {
      * @param lib     The library on which the command operates.
      */
     @Override
-    public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
+    public void execute(final ArrayNode outputs, final Library lib, final boolean offline) {
         ObjectNode out = outputs.addObject();
 
         printCommandInfo(out, Output.SEARCH);
@@ -81,8 +81,14 @@ public class Search extends Command {
         }
     }
 
+    /**
+     * Handles the case when a user is offline. This method is called to provide an appropriate response
+     * when the user executing the command is offline.
+     *
+     * @param out The ObjectNode where the offline message should be added.
+     */
     @Override
-    public void userIsOffline(final ObjectNode out) {
+    protected void userIsOffline(final ObjectNode out) {
         out.put(Output.MESSAGE, getUsername() + Output.IS_OFFLINE);
         out.putArray(Output.RESULTS);
     }

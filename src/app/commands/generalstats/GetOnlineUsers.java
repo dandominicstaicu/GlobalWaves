@@ -7,7 +7,10 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import app.commands.Command;
 import app.common.Output;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.List;
 
@@ -16,11 +19,24 @@ import java.util.List;
 @AllArgsConstructor
 @Builder
 public class GetOnlineUsers extends Command {
+    /**
+     * Returns a string representation of the command.
+     *
+     * @return A string describing the command.
+     */
     @Override
     public String toString() {
         return super.toString() + "GetOnlineUsers{}";
     }
 
+    /**
+     * Executes the command to retrieve a list of online users and adds the results to the
+     * specified output.
+     *
+     * @param outputs The array node where the command output should be added.
+     * @param library The library from which to retrieve user statistics.
+     * @param offline A boolean indicating whether the command is executed in offline mode.
+     */
     @Override
     public void execute(final ArrayNode outputs, final Library library, final boolean offline) {
         ObjectNode out = outputs.addObject();

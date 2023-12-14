@@ -41,24 +41,46 @@ public interface Playable {
      */
     boolean isPlaylist();
 
+    /**
+     * Checks if the playable entity is loaded in a player with the given username.
+     *
+     * @param username The username of the player.
+     * @return True if the entity is loaded in the player, false otherwise.
+     */
     default boolean isLoadedInPlayer(String username) {
         return false;
     }
 
+    /**
+     * Handles the selection of the playable entity in a search bar.
+     *
+     * @param searchBar The search bar in which the entity is selected.
+     * @param user      The user performing the selection.
+     * @param out       The ObjectNode for output messages.
+     */
     default void handleSelect(final SearchBar searchBar, final NormalUser user, ObjectNode out) {
-//        List<Playable> lastSearchResults = user.getPlayer().getSearchBar().getLastSearchResults();
-//        Playable selectedResult = lastSearchResults.get(itemNumber - 1);
-
         out.put(Output.MESSAGE, "Successfully selected " + this.getName() + ".");
         searchBar.setSelectedResult(this);
         searchBar.setLastSearchResults(null);
 
     }
 
+    /**
+     * Checks if the playable entity contains a specific album.
+     *
+     * @param album The album to check for.
+     * @return True if the entity contains the album, false otherwise.
+     */
     default boolean containsAlbum(Album album) {
         return false;
     }
 
+    /**
+     * Checks if the playable entity is owned by a user with the given artist name.
+     *
+     * @param artistName The name of the artist.
+     * @return True if the entity is owned by the user with the artist name, false otherwise.
+     */
     default boolean ownedByUser(final String artistName) {
         return false;
     }

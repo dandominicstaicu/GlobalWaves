@@ -26,8 +26,8 @@ public abstract class User {
     public abstract void addUser(Library library);
 
     /**
-     * Handles the deletion of the user's account from the library. The implementation of this method
-     * depends on the specific user type and the actions required to delete their account.
+     * Handles the deletion of the user's account from the library. The implementation of this
+     * method depends on the specific user type and the actions required to delete their account.
      *
      * @param library The library from which the user's account is deleted.
      * @return true if the user's account was successfully deleted, false otherwise.

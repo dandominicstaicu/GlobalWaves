@@ -20,7 +20,6 @@ public class NormalUser extends User {
     private boolean online;
     private Page currentPage;
 
-
     public NormalUser(final String username, final int age, final String city) {
         super(username, age, city, UserTypes.NORMAL_USER);
         this.player = new UserPlayer();
@@ -95,42 +94,58 @@ public class NormalUser extends User {
         return userSeenPlaylists;
     }
 
+    /**
+     * Switches the online status of the user.
+     *
+     * @param currentTimestamp The current timestamp for updating pause start time.
+     */
     public void switchConnectionStatus(final int currentTimestamp) {
-//        this.online = !this.online;
-//        Boolean offlineStatus = this.getPlayer().getIsOffline();
-//        this.getPlayer().setIsOffline(!offlineStatus);
-        UserPlayer player = this.getPlayer();
+        UserPlayer userPlayer = this.getPlayer();
         if (this.online) {
-            player.setPauseStartTimeStamp(currentTimestamp);
-            player.setIsOffline(true);
+            userPlayer.setPauseStartTimeStamp(currentTimestamp);
+            userPlayer.setIsOffline(true);
         } else {
-            player.setPauseStartTimeStamp(0);
-            player.setIsOffline(false);
+            userPlayer.setPauseStartTimeStamp(0);
+            userPlayer.setIsOffline(false);
 
         }
 
         this.online = !this.online;
     }
 
+    /**
+     * Gets the online status of the user.
+     *
+     * @return true if the user is online, false if the user is offline.
+     */
     public boolean getOnline() {
         return this.online;
     }
 
-    public boolean switchOnline() {
-        this.online = !this.online;
-        return this.online;
-    }
-
+    /**
+     * Adds the user to the specified library. The implementation of this method depends on the
+     * specific user type (e.g., NormalUser, Artist, Host) and their interactions with the library.
+     *
+     * @param library The library to which the user is added.
+     */
     @Override
-    public void addUser(Library library) {
+    public void addUser(final Library library) {
         library.getUsers().add(this);
     }
 
+    /**
+     * Handles the deletion of the user's account from the library. Checks for user interactions
+     * with the user's content before deletion.
+     *
+     * @param library The library from which the user's account is deleted.
+     * @return true if the user's account was successfully deleted, false otherwise.
+     */
     @Override
-    public boolean handleDeletion(Library library) {
+    public boolean handleDeletion(final Library library) {
         for (NormalUser user : library.getUsers()) {
             if (user.getPlayer().getLoadedContentReference() != null) {
-                if (user.getPlayer().getLoadedContentReference().isLoadedInPlayer(this.getUsername())) {
+                if (user.getPlayer().getLoadedContentReference()
+                        .isLoadedInPlayer(this.getUsername())) {
                     if (user.getPlayer().getIsPlaying()) {
                         return false;
                     }

@@ -64,7 +64,6 @@ public class Playlist implements Playable {
         // maybe clear the queue before adding
         userPlayer.getAudioQueue().clear();
 
-
         // add all songs to the queue of the userPlayer
         userPlayer.getAudioQueue().addAll(songs);
 
@@ -92,6 +91,11 @@ public class Playlist implements Playable {
         return isPublic;
     }
 
+    /**
+     * Calculates the total number of likes for all songs in the playlist.
+     *
+     * @return The total number of likes for all songs in the playlist.
+     */
     public int getTotalLikes() {
         int totalLikes = 0;
         for (Song song : songs) {
@@ -100,8 +104,14 @@ public class Playlist implements Playable {
         return totalLikes;
     }
 
+    /**
+     * Checks if the playlist contains any songs from a specific album.
+     *
+     * @param album The album to check for.
+     * @return True if the playlist contains at least one song from the album, false otherwise.
+     */
     @Override
-    public boolean containsAlbum(Album album) {
+    public boolean containsAlbum(final Album album) {
         for (Song albumSong : album.getSongs()) {
             if (this.songs.contains(albumSong)) {
                 return true;
@@ -111,13 +121,26 @@ public class Playlist implements Playable {
         return false;
     }
 
+    /**
+     * Checks if the playlist is owned by a user with the given username.
+     *
+     * @param userName The username to check.
+     * @return True if the playlist is owned by the user with the specified username,
+     * false otherwise.
+     */
     @Override
     public boolean ownedByUser(final String userName) {
         return this.getOwner().equals(userName);
     }
 
+    /**
+     * Checks if the playlist is loaded in a player with the given username.
+     *
+     * @param username The username of the player.
+     * @return True if the playlist is loaded in the player, false otherwise.
+     */
     @Override
-    public boolean isLoadedInPlayer(String username) {
+    public boolean isLoadedInPlayer(final String username) {
         return getOwner().equals(username);
     }
 }

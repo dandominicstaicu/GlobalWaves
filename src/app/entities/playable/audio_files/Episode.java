@@ -15,6 +15,11 @@ import lombok.Setter;
 public class Episode extends AudioFile {
     private String description;
 
+    /**
+     * Returns a string representation of the episode.
+     *
+     * @return A string representation of the episode.
+     */
     @Override
     public String toString() {
         return "Episode{"

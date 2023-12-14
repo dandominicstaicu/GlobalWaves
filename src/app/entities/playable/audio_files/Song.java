@@ -51,17 +51,22 @@ public class Song extends AudioFile implements Playable {
         this.likes = 0;
     }
 
+    /**
+     * Creates a String representation of the song.
+     *
+     * @return a string representation of the song.
+     */
     @Override
     public String toString() {
-        return "Song{" +
-                "album='" + album + '\'' +
-                ", tags=" + tags +
-                ", lyrics='" + lyrics + '\'' +
-                ", genre='" + genre + '\'' +
-                ", releaseYear=" + releaseYear +
-                ", artist='" + artist + '\'' +
-                ", likes=" + likes +
-                '}';
+        return "Song{"
+                + "album='" + album + '\''
+                + ", tags=" + tags
+                + ", lyrics='" + lyrics + '\''
+                + ", genre='" + genre + '\''
+                + ", releaseYear=" + releaseYear
+                + ", artist='" + artist + '\''
+                + ", likes=" + likes
+                + '}';
     }
 
     /**
@@ -111,14 +116,28 @@ public class Song extends AudioFile implements Playable {
         return true;
     }
 
+
+    /**
+     * Checks if the song is loaded in a player associated with the given username.
+     *
+     * @param username The username to check for.
+     * @return True if the song is loaded in the player with the specified username,
+     * false otherwise.
+     */
     @Override
-    public boolean isLoadedInPlayer(String username) {
+    public boolean isLoadedInPlayer(final String username) {
         return getArtist().equals(username);
     }
 
+    /**
+     * Checks if the song is part of a specific album.
+     *
+     * @param searchedAlbum The album to check for.
+     * @return True if the song is included in the given album, false otherwise.
+     */
     @Override
-    public boolean containsAlbum(Album album) {
-        for (Song albumSong : album.getSongs()) {
+    public boolean containsAlbum(final Album searchedAlbum) {
+        for (Song albumSong : searchedAlbum.getSongs()) {
             if (albumSong.equals(this)) {
                 return true;
             }
@@ -127,6 +146,13 @@ public class Song extends AudioFile implements Playable {
         return false;
     }
 
+    /**
+     * Checks if the song is owned by a user with the specified artist name.
+     *
+     * @param artistName The artist name to check.
+     * @return True if the song is owned by the user with the specified artist name,
+     * false otherwise.
+     */
     @Override
     public boolean ownedByUser(final String artistName) {
         return this.getArtist().equals(artistName);

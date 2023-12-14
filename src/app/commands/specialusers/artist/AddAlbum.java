@@ -9,7 +9,11 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import app.commands.Command;
 import app.common.Output;
 import app.common.UserTypes;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -26,16 +30,26 @@ public class AddAlbum extends Command {
     private String description;
     private ArrayList<Song> songs;
 
+    /**
+     * Returns a string representation of the command.
+     *
+     * @return A string describing the command.
+     */
     @Override
     public String toString() {
-        return super.toString() + "AddAlbum{" +
-                "name='" + name + '\'' +
-                ", releaseYear=" + releaseYear +
-                ", description='" + description + '\'' +
-                ", songs=" + songs +
-                '}';
+        return super.toString() + "AddAlbum{"
+                + "name='" + name + '\''
+                + ", releaseYear=" + releaseYear
+                + ", description='" + description + '\''
+                + ", songs=" + songs
+                + '}';
     }
 
+    /**
+     * Checks if the list of songs has duplicate names.
+     *
+     * @return True if there are duplicate song names, false otherwise.
+     */
     private boolean hasDuplicateSongNames() {
         Set<String> songNames = new HashSet<>();
         for (Song song : songs) {
@@ -47,8 +61,15 @@ public class AddAlbum extends Command {
         return false;
     }
 
+    /**
+     * Executes the command to add a new album to the artist's collection.
+     *
+     * @param outputs The ArrayNode to which command outputs are added.
+     * @param library The Library where user data is stored.
+     * @param offline A boolean indicating whether the command is executed in offline mode.
+     */
     @Override
-    public void execute(ArrayNode outputs, Library library, boolean offline) {
+    public void execute(final ArrayNode outputs, final Library library, final boolean offline) {
         ObjectNode out = outputs.addObject();
 
         printCommandInfo(out, Output.ADD_ALBUM);
@@ -64,7 +85,8 @@ public class AddAlbum extends Command {
             return;
         }
 
-        if (library.getAlbums().stream().anyMatch( album ->album.getName().equals(getName()) && album.getOwner().equals(getUsername()))) {
+        if (library.getAlbums().stream().anyMatch(album -> album.getName().equals(getName())
+                && album.getOwner().equals(getUsername()))) {
             out.put(Output.MESSAGE, getUsername() + Output.SAME_NAME_ALBUM);
             return;
         }
@@ -74,7 +96,8 @@ public class AddAlbum extends Command {
             return;
         }
 
-        Album newAlbum = new Album(getName(), getReleaseYear(), getDescription(), getSongs(), getUsername());
+        Album newAlbum = new Album(getName(), getReleaseYear(), getDescription(), getSongs(),
+                getUsername());
         library.addAlbum(newAlbum);
 
         library.addSongsFromAlbum(newAlbum);

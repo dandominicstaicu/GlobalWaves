@@ -5,7 +5,6 @@ import app.entities.playable.Playable;
 import app.entities.userside.NormalUser;
 import app.entities.userside.SearchBar;
 import app.entities.userside.User;
-import app.entities.userside.UserPlayer;
 import app.entities.userside.pages.HostPage;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import app.common.Output;
@@ -18,8 +17,8 @@ import java.util.ArrayList;
 @Setter
 @Getter
 public class Host extends User implements Playable {
-    ArrayList<Announcement> announcements;
-    HostPage hostPage;
+    private ArrayList<Announcement> announcements;
+    private HostPage hostPage;
 
     /**
      * Constructs a Host object with the specified username, age, and city.
@@ -70,37 +69,34 @@ public class Host extends User implements Playable {
      * @param library The library to which the host is added.
      */
     @Override
-    public void addUser(Library library) {
+    public void addUser(final Library library) {
         library.getHosts().add(this);
     }
 
     /**
-     * Handles the deletion of the host's account from the library. Checks for user interactions with
-     * the host's page and content before deletion.
+     * Handles the deletion of the host's account from the library. Checks for user interactions
+     * with the host's page and content before deletion.
      *
      * @param library The library from which the host's account is deleted.
      * @return true if the host's account was successfully deleted, false otherwise.
      */
     @Override
-    public boolean handleDeletion(Library library) {
-        for (NormalUser user : library.getUsers()) {
-            // if this page is used by a user at deletion time, it has to fail
-            if (user.getCurrentPage().equals(this.getHostPage())) {
-                return false;
-            }
+    public boolean handleDeletion(final Library library) {
+        boolean isUsedByAnyUser = library.getUsers().stream()
+                .anyMatch(user ->
+                        user.getCurrentPage().equals(this.getHostPage())
+                                || (user.getPlayer().getLoadedContentReference() != null
+                                && user.getPlayer().getLoadedContentReference()
+                                .isLoadedInPlayer(this.getUsername())
+                                && user.getPlayer().getIsPlaying())
+                );
 
-            if (user.getPlayer().getLoadedContentReference() != null) {
-                if (user.getPlayer().getLoadedContentReference().isLoadedInPlayer(this.getUsername())) {
-                    if (user.getPlayer().getIsPlaying()) {
-                        return false;
-                    }
-                }
-            }
-
+        if (!isUsedByAnyUser) {
+            library.getHosts().remove(this);
+            return true;
         }
 
-        library.getHosts().remove(this);
-        return true;
+        return false;
     }
 
     /**
@@ -146,15 +142,17 @@ public class Host extends User implements Playable {
     }
 
     /**
-     * Handles the selection of the host's page by a normal user. Clears the selected result and last search
-     * results in the search bar, and sets the current page of the user to the host's page.
+     * Handles the selection of the host's page by a normal user. Clears the selected result
+     * and last search results in the search bar, and sets the current page of the user to
+     * the host's page.
      *
      * @param searchBar The search bar instance.
      * @param user      The normal user performing the selection.
      * @param out       The ObjectNode for output (used for handling the selection).
      */
     @Override
-    public void handleSelect(final SearchBar searchBar, final NormalUser user, final ObjectNode out) {
+    public void handleSelect(final SearchBar searchBar, final NormalUser user,
+                             final ObjectNode out) {
         searchBar.setSelectedResult(null);
         searchBar.setLastSearchResults(null);
 
