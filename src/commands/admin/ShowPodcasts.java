@@ -27,9 +27,7 @@ public class ShowPodcasts extends Command {
     public void execute(ArrayNode outputs, Library library, boolean offline) {
         ObjectNode out = outputs.addObject();
 
-        out.put(Output.COMMAND, Output.SHOW_PODCASTS);
-        out.put(Output.USER, getUsername());
-        out.put(Output.TIMESTAMP, getTimestamp());
+        printCommandInfo(out, Output.SHOW_PODCASTS);
 
         ArrayList<Podcast> hostsPodcasts = library.getHostsPodcasts(getUsername());
 

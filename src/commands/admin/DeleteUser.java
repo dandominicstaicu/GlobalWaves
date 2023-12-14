@@ -22,9 +22,7 @@ public class DeleteUser extends Command {
     public void execute(final ArrayNode outputs, final Library library, final boolean offline) {
         ObjectNode out = outputs.addObject();
 
-        out.put(Output.COMMAND, Output.DELETE_USER);
-        out.put(Output.USER, getUsername());
-        out.put(Output.TIMESTAMP, getTimestamp());
+        printCommandInfo(out, Output.DELETE_USER);
 
         User user = library.getFromAllUsers(getUsername());
 

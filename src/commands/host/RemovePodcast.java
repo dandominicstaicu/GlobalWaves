@@ -29,9 +29,7 @@ public class RemovePodcast extends Command {
     public void execute(ArrayNode outputs, Library library, boolean offline) {
         ObjectNode out = outputs.addObject();
 
-        out.put(Output.COMMAND, Output.REMOVE_PODCAST);
-        out.put(Output.USER, getUsername());
-        out.put(Output.TIMESTAMP, getTimestamp());
+        printCommandInfo(out, Output.REMOVE_PODCAST);
 
         User user = library.getFromAllUsers(getUsername());
 

@@ -110,8 +110,8 @@ public abstract class Command {
      * Executes the command and updates the outputs and library as needed.
      * Part of the Command design pattern
      *
-     * @param outputs  The ArrayNode to which command outputs are added.
-     * @param library  The library on which the command operates.
+     * @param outputs The ArrayNode to which command outputs are added.
+     * @param library The library on which the command operates.
      */
     public abstract void execute(ArrayNode outputs, Library library, boolean offline);
 
@@ -121,7 +121,11 @@ public abstract class Command {
 
     public void printCommandInfo(final ObjectNode out, final String command) {
         out.put(Output.COMMAND, command);
-        out.put(Output.USER, getUsername());
+
+        if (getUsername() != null) {
+            out.put(Output.USER, getUsername());
+        }
+
         out.put(Output.TIMESTAMP, getTimestamp());
     }
 }

@@ -41,8 +41,7 @@ public class GetTop5Playlists extends Command {
     @Override
     public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
         ObjectNode out = outputs.addObject();
-        out.put(Output.COMMAND, Output.TOP_5_PLAYLISTS);
-        out.put(Output.TIMESTAMP, getTimestamp());
+        printCommandInfo(out, Output.TOP_5_PLAYLISTS);
 
         List<Playlist> sortedPlaylists = Stats.top5Playlists(lib);
 

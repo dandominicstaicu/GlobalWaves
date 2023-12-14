@@ -51,9 +51,7 @@ public class AddAlbum extends Command {
     public void execute(ArrayNode outputs, Library library, boolean offline) {
         ObjectNode out = outputs.addObject();
 
-        out.put(Output.COMMAND, Output.ADD_ALBUM);
-        out.put(Output.USER, getUsername());
-        out.put(Output.TIMESTAMP, getTimestamp());
+        printCommandInfo(out, Output.ADD_ALBUM);
 
         User user = library.searchAllUsersForUsername(getUsername());
         if (user == null) {

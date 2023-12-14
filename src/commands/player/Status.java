@@ -44,9 +44,8 @@ public class Status extends Command {
     @Override
     public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
         ObjectNode out = outputs.addObject();
-        out.put(Output.COMMAND, Output.STATUS);
-        out.put(Output.USER, getUsername());
-        out.put(Output.TIMESTAMP, getTimestamp());
+
+        printCommandInfo(out, Output.STATUS);
 
         NormalUser normalUser = lib.getUserWithUsername(getUsername());
 

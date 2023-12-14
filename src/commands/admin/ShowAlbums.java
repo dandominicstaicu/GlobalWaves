@@ -25,9 +25,7 @@ public class ShowAlbums extends Command {
     public void execute(ArrayNode outputs, Library library, boolean offline) {
         ObjectNode out = outputs.addObject();
 
-        out.put(Output.COMMAND, Output.SHOW_ALBUMS);
-        out.put(Output.USER, getUsername());
-        out.put(Output.TIMESTAMP, getTimestamp());
+        printCommandInfo(out, Output.SHOW_ALBUMS);
 
         ArrayList<Album> artistsAlbums = library.getArtistsAlbums(getUsername());
 

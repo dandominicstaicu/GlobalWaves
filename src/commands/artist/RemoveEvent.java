@@ -30,9 +30,7 @@ public class RemoveEvent extends Command {
     public void execute(ArrayNode outputs, Library library, boolean offline) {
         ObjectNode out = outputs.addObject();
 
-        out.put(Output.COMMAND, Output.REMOVE_EVENT);
-        out.put(Output.USER, getUsername());
-        out.put(Output.TIMESTAMP, getTimestamp());
+        printCommandInfo(out, Output.REMOVE_EVENT);
 
         User user = library.searchAllUsersForUsername(getUsername());
         if (user == null) {

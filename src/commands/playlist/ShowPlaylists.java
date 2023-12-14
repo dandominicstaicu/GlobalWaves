@@ -39,9 +39,7 @@ public class ShowPlaylists extends Command {
     @Override
     public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
         ObjectNode out = outputs.addObject();
-        out.put(Output.COMMAND, Output.SHOW_PLAYLISTS);
-        out.put(Output.USER, getUsername());
-        out.put(Output.TIMESTAMP, getTimestamp());
+        printCommandInfo(out, Output.SHOW_PLAYLISTS);
 
         // chatGPT helped me write this part (the output of JSON)
         ArrayNode resultArray = out.putArray(Output.RESULT);

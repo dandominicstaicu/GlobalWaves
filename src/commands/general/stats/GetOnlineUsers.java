@@ -24,8 +24,7 @@ public class GetOnlineUsers extends Command {
     @Override
     public void execute(final ArrayNode outputs, final Library library, final boolean offline) {
         ObjectNode out = outputs.addObject();
-        out.put(Output.COMMAND, Output.ONLINE_USERS);
-        out.put(Output.TIMESTAMP, getTimestamp());
+        printCommandInfo(out, Output.ONLINE_USERS);
 
         List<NormalUser> onlineUsers = Stats.getOnlineUsers(library);
 

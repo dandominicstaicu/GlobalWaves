@@ -30,9 +30,7 @@ public class RemoveAnnouncement extends Command {
     public void execute(ArrayNode outputs, Library library, boolean offline) {
         ObjectNode out = outputs.addObject();
 
-        out.put(Output.COMMAND, Output.REMOVE_ANNOUNCE);
-        out.put(Output.USER, getUsername());
-        out.put(Output.TIMESTAMP, getTimestamp());
+        printCommandInfo(out, Output.REMOVE_ANNOUNCE);
 
         User user = library.searchAllUsersForUsername(getUsername());
         if (user == null) {

@@ -31,14 +31,12 @@ public class AddMerch extends Command {
     }
 
 
-    //TODO code here alike to addEvent. REFACTOR
+    //TODO code here alike to addEvent. REFACTOR (maybe merge add event with add merch)
     @Override
     public void execute(final ArrayNode outputs, final Library library, final boolean offline) {
         ObjectNode out = outputs.addObject();
 
-        out.put(Output.COMMAND, Output.ADD_MERCH);
-        out.put(Output.USER, getUsername());
-        out.put(Output.TIMESTAMP, getTimestamp());
+        printCommandInfo(out, Output.ADD_MERCH);
 
         User user = library.searchAllUsersForUsername(getUsername());
         if (user == null) {

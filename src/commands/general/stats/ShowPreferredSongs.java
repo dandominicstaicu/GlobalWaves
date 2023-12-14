@@ -41,9 +41,7 @@ public class ShowPreferredSongs extends Command {
     public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
         ObjectNode out = outputs.addObject();
 
-        out.put(Output.COMMAND, Output.PREFERRED_SONGS);
-        out.put(Output.USER, getUsername());
-        out.put(Output.TIMESTAMP, getTimestamp());
+        printCommandInfo(out, Output.PREFERRED_SONGS);
 
         NormalUser normalUser = lib.getUserWithUsername(getUsername());
         List<Song> favoriteSongs = Objects.requireNonNull(normalUser).getFavoriteSongs();

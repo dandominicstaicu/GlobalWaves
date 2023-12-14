@@ -24,8 +24,7 @@ public class GetTop5Albums extends Command {
     @Override
     public void execute(ArrayNode outputs, Library library, boolean offline) {
         ObjectNode out = outputs.addObject();
-        out.put(Output.COMMAND, Output.TOP_5_ALBUMS);
-        out.put(Output.TIMESTAMP, getTimestamp());
+        printCommandInfo(out, Output.TOP_5_ALBUMS);
 
         List<Album> sortedAlbums = Stats.top5Albums(library);
 

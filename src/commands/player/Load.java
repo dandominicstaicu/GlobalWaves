@@ -45,9 +45,13 @@ public class Load extends Command {
     @Override
     public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
         ObjectNode out = outputs.addObject();
-        out.put(Output.COMMAND, Output.LOAD);
-        out.put(Output.USER, getUsername());
-        out.put(Output.TIMESTAMP, getTimestamp());
+
+        printCommandInfo(out, Output.LOAD);
+
+        if (offline) {
+            userIsOffline(out);
+            return;
+        }
 
         NormalUser normalUser = lib.getUserWithUsername(getUsername());
 

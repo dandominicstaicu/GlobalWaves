@@ -36,10 +36,7 @@ public class AddUser extends Command {
     public void execute(ArrayNode outputs, Library library, boolean offline) {
         ObjectNode out = outputs.addObject();
 
-
-        out.put(Output.COMMAND, Output.ADD_USER);
-        out.put(Output.USER, getUsername());
-        out.put(Output.TIMESTAMP, getTimestamp());
+        printCommandInfo(out, Output.ADD_USER);
 
         User user = library.getFromAllUsers(getUsername());
         if (user != null) {

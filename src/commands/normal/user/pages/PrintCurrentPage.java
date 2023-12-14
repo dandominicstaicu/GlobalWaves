@@ -25,9 +25,7 @@ public class PrintCurrentPage extends Command {
     public void execute(final ArrayNode outputs, final Library library, final boolean offline) {
         ObjectNode out = outputs.addObject();
 
-        out.put(Output.COMMAND, Output.PRINT_CURRENT_PAGE);
-        out.put(Output.USER, getUsername());
-        out.put(Output.TIMESTAMP, getTimestamp());
+        printCommandInfo(out, Output.PRINT_CURRENT_PAGE);
 
         if (offline) {
             out.put(Output.MESSAGE, getUsername() + Output.IS_OFFLINE);

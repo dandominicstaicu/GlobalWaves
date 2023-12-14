@@ -23,8 +23,8 @@ public class GetAllUsers extends Command {
     @Override
     public void execute(final ArrayNode outputs, final Library library, final boolean offline) {
         ObjectNode out = outputs.addObject();
-        out.put(Output.COMMAND, Output.GET_ALL_USERS);
-        out.put(Output.TIMESTAMP, getTimestamp());
+
+        printCommandInfo(out, Output.GET_ALL_USERS);
 
         List<User> allUsers = library.getAllUsers();
 
