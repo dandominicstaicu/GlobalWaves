@@ -51,15 +51,6 @@ public class RemoveAlbum extends Command {
             return;
         }
 
-        // handle case cant delete
-
-        /*
-        Un artist poate șterge unul din albumurile sale. În cazul în care există un album cu acel nume,
-        acesta va putea fi șters dacă nu există
-        niciun utilizator normal care să aibă albumul sau o melodie din acesta loaded
-        (nu se ia în considerare dacă utilizatorul doar se află pe pagina artistului)
-        sau un playlist care să conțină o melodie din album.
-         */
         Album album = library.getAlbumOfUserWithName(getUsername(), getName());
 
         if (library.decideDeleteAlbum(album)) {

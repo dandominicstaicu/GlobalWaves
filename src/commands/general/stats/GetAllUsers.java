@@ -32,6 +32,5 @@ public class GetAllUsers extends Command {
         for (User user : allUsers) {
             resultArray.add(user.getUsername());
         }
-
     }
 }

@@ -156,14 +156,25 @@ public final class Library {
      * @return The User object with the specified username, or null if not found.
      */
     public NormalUser getUserWithUsername(final String username) {
-        for (NormalUser user : users) {
-            if (user.getUserType() == UserTypes.NORMAL_USER
-                    && user.getUsername().equals(username)) {
-                return user;
-            }
-        }
+        return users.stream()
+                .filter(user -> user.getUserType() == UserTypes.NORMAL_USER
+                        && user.getUsername().equals(username))
+                .findFirst()
+                .orElse(null);
+    }
 
-        return null;
+    public ArtistPage getArtistWithName(final String username) {
+        return artists.stream()
+                .filter(artistPage -> artistPage.getUsername().equals(username))
+                .findFirst()
+                .orElse(null);
+    }
+
+    public HostPage getHostWithName(final String username) {
+        return hosts.stream()
+                .filter(hostPage -> hostPage.getUsername().equals(username))
+                .findFirst()
+                .orElse(null);
     }
 
     /**

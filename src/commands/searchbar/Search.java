@@ -55,14 +55,14 @@ public class Search extends Command {
      */
     @Override
     public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
-        if (offline) {
-            ObjectNode out = outputs.addObject();
-            out.put(Output.COMMAND, Output.SEARCH);
-            out.put(Output.USER, getUsername());
-            out.put(Output.TIMESTAMP, getTimestamp());
-            out.put(Output.MESSAGE, getUsername() + Output.IS_OFFLINE);
-            ArrayNode resultsNode = out.putArray(Output.RESULTS);
+        ObjectNode out = outputs.addObject();
+        out.put(Output.COMMAND, Output.SEARCH);
+        out.put(Output.USER, getUsername());
+        out.put(Output.TIMESTAMP, getTimestamp());
 
+        if (offline) {
+            out.put(Output.MESSAGE, getUsername() + Output.IS_OFFLINE);
+            out.putArray(Output.RESULTS);
             return;
         }
 
@@ -76,10 +76,7 @@ public class Search extends Command {
 
         lib.getUserWithUsername(getUsername()).getPlayer().stop();
 
-        ObjectNode out = outputs.addObject();
-        out.put(Output.COMMAND, Output.SEARCH);
-        out.put(Output.USER, getUsername());
-        out.put(Output.TIMESTAMP, getTimestamp());
+
         out.put(Output.MESSAGE, "Search returned " + searchResult.size() + " results");
 
         ArrayNode resultsNode = out.putArray(Output.RESULTS);

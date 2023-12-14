@@ -40,12 +40,11 @@ public class RemoveAnnouncement extends Command {
             return;
         }
 
-        if (user.getUserType() != UserTypes.HOST) {
+        HostPage host = library.getHostWithName(getUsername());
+        if (host == null) {
             out.put(Output.MESSAGE, getUsername() + Output.NOT_HOST);
             return;
         }
-
-        HostPage host = (HostPage) user;
 
         if (!host.hasAnnouncementWithName(getName())) {
             out.put(Output.MESSAGE, getUsername() + Output.ANNOUNCE_NAME_ERR);

@@ -22,7 +22,7 @@ public class SwitchConnectionStatus extends Command {
     }
 
     @Override
-    public void execute(ArrayNode outputs, Library library, boolean offline) {
+    public void execute(final ArrayNode outputs, final Library library, final boolean offline) {
         ObjectNode out = outputs.addObject();
 
         out.put(Output.COMMAND, Output.SWITCH_CONNECTION_STATUS);
@@ -44,10 +44,9 @@ public class SwitchConnectionStatus extends Command {
             return;
         }
 
-        NormalUser normalUser = (NormalUser) user;
+        NormalUser normalUser = library.getUserWithUsername(getUsername());
 
         normalUser.switchConnectionStatus(this.getTimestamp());
         out.put(Output.MESSAGE, getUsername() + Output.CONNECTION_STATUS_CHANGED);
     }
-
 }

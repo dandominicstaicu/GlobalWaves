@@ -40,12 +40,11 @@ public class RemoveEvent extends Command {
             return;
         }
 
-        if (user.getUserType() != UserTypes.ARTIST) {
+        ArtistPage artist = library.getArtistWithName(getUsername());
+        if (artist == null) {
             out.put(Output.MESSAGE, getUsername() + Output.NOT_ARTIST);
             return;
         }
-
-        ArtistPage artist = (ArtistPage) user;
 
         if(!artist.hasEventWithName(getName())) {
             out.put(Output.MESSAGE, getUsername() + Output.EVENT_NAME_ERR);
@@ -56,8 +55,5 @@ public class RemoveEvent extends Command {
         artist.removeEvent(event);
 
         out.put(Output.MESSAGE, getUsername() + Output.REMOVE_EVENT_SUCCESS);
-
     }
-
-
 }

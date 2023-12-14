@@ -46,12 +46,12 @@ public class AddMerch extends Command {
             return;
         }
 
-        if (user.getUserType() != UserTypes.ARTIST) {
+        ArtistPage artist = library.getArtistWithName(getUsername());
+
+        if (artist == null) {
             out.put(Output.MESSAGE, getUsername() + Output.NOT_ARTIST);
             return;
         }
-
-        ArtistPage artist = (ArtistPage) user;
 
         if (artist.getMerchList().stream().anyMatch(merch -> merch.getName().equals(getName()))) {
             out.put(Output.MESSAGE, getUsername() + Output.MERCH_ALREADY_EXISTS);

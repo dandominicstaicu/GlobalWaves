@@ -29,7 +29,7 @@ public class AddAnnouncement extends Command {
     }
 
     @Override
-    public void execute(ArrayNode outputs, Library library, boolean offline) {
+    public void execute(final ArrayNode outputs, final Library library, final boolean offline) {
         ObjectNode out = outputs.addObject();
 
         out.put(Output.COMMAND, Output.ADD_ANNOUNCE);
@@ -42,12 +42,11 @@ public class AddAnnouncement extends Command {
             return;
         }
 
-        if (user.getUserType() != UserTypes.HOST) {
+        HostPage host = library.getHostWithName(getUsername());
+        if (host == null) {
             out.put(Output.MESSAGE, getUsername() + Output.NOT_HOST);
             return;
         }
-
-        HostPage host = (HostPage) user;
 
         if (host.getAnnouncements().stream().anyMatch(announcement -> announcement.getName().equals(getName()))) {
             out.put(Output.MESSAGE, Output.THE_USERNAME + getUsername() + Output.SAME_NAME_ANNOUNCE);
