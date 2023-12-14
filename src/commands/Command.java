@@ -115,12 +115,14 @@ public abstract class Command {
      */
     public abstract void execute(ArrayNode outputs, Library library, boolean offline);
 
-    public void userIsOffline(final ArrayNode outputs) {
-        ObjectNode out = outputs.addObject();
-        out.put(Output.COMMAND, Output.SEARCH);
-        out.put(Output.USER, getUsername());
-        out.put(Output.TIMESTAMP, Constants.START_OF_SONG);
+    public void userIsOffline(final ObjectNode out) {
         out.put(Output.MESSAGE, getUsername() + Output.IS_OFFLINE);
+    }
+
+    public void printCommandInfo(final ObjectNode out, final String command) {
+        out.put(Output.COMMAND, command);
+        out.put(Output.USER, getUsername());
+        out.put(Output.TIMESTAMP, getTimestamp());
     }
 }
 

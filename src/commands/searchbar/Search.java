@@ -56,13 +56,11 @@ public class Search extends Command {
     @Override
     public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
         ObjectNode out = outputs.addObject();
-        out.put(Output.COMMAND, Output.SEARCH);
-        out.put(Output.USER, getUsername());
-        out.put(Output.TIMESTAMP, getTimestamp());
+
+        printCommandInfo(out, Output.SEARCH);
 
         if (offline) {
-            out.put(Output.MESSAGE, getUsername() + Output.IS_OFFLINE);
-            out.putArray(Output.RESULTS);
+            userIsOffline(out);
             return;
         }
 
@@ -83,5 +81,11 @@ public class Search extends Command {
         for (Playable result : searchResult) {
             resultsNode.add(result.getName());
         }
+    }
+
+    @Override
+    public void userIsOffline(final ObjectNode out) {
+        out.put(Output.MESSAGE, getUsername() + Output.IS_OFFLINE);
+        out.putArray(Output.RESULTS);
     }
 }

@@ -34,15 +34,14 @@ public class ChangePage extends Command {
 
     @Override
     public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
+        ObjectNode out = outputs.addObject();
+
+        printCommandInfo(out, Output.CHANGE_PAGE);
+
         if (offline) {
-            userIsOffline(outputs);
+            userIsOffline(out);
             return;
         }
-
-        ObjectNode out = outputs.addObject();
-        out.put(Output.COMMAND, Output.CHANGE_PAGE);
-        out.put(Output.USER, getUsername());
-        out.put(Output.TIMESTAMP, getTimestamp());
 
         NormalUser user = lib.getUserWithUsername(getUsername());
         assert user != null;

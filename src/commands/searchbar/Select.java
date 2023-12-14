@@ -45,8 +45,11 @@ public class Select extends Command {
      */
     @Override
     public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
+        ObjectNode out = outputs.addObject();
+        printCommandInfo(out, Output.SELECT);
+
         if (offline) {
-            userIsOffline(outputs);
+            userIsOffline(out);
             return;
         }
 
@@ -56,11 +59,6 @@ public class Select extends Command {
         UserPlayer userPlayer = normalUser.getPlayer();
 
         List<Playable> lastSearchResults = userPlayer.getSearchBar().getLastSearchResults();
-
-        ObjectNode out = outputs.addObject();
-        out.put(Output.COMMAND, Output.SELECT);
-        out.put(Output.USER, getUsername());
-        out.put(Output.TIMESTAMP, getTimestamp());
 
         if (lastSearchResults == null) {
             out.put(Output.MESSAGE, Output.NO_SEARCH);

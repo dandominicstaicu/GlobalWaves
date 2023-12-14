@@ -39,16 +39,14 @@ public class Repeat extends Command {
      */
     @Override
     public void execute(final ArrayNode outputs, final Library lib, boolean offline) {
-        if (offline) {
-            userIsOffline(outputs);
-            return;
-        }
-
         ObjectNode out = outputs.addObject();
 
-        out.put(Output.COMMAND, Output.REPEAT);
-        out.put(Output.USER, getUsername());
-        out.put(Output.TIMESTAMP, getTimestamp());
+        printCommandInfo(out, Output.REPEAT);
+
+        if (offline) {
+            userIsOffline(out);
+            return;
+        }
 
         NormalUser normalUser = lib.getUserWithUsername(getUsername());
 

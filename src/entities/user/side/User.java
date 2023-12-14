@@ -18,7 +18,6 @@ public abstract class User {
     private String city;
     private UserTypes userType;
 
-//    public abstract boolean isNormalUser();
     public abstract void addUser(Library library);
     public abstract boolean handleDeletion(Library library);
 }
