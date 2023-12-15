@@ -1,9 +1,9 @@
 package app.commands.normaluser.player;
 
 import app.entities.Library;
-import app.entities.playable.Playable;
-import app.entities.userside.NormalUser;
-import app.entities.userside.UserPlayer;
+import app.entities.playable.Searchable;
+import app.entities.userside.normaluser.NormalUser;
+import app.entities.userside.normaluser.UserPlayer;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import app.commands.Command;
@@ -57,7 +57,7 @@ public class Load extends Command {
         assert normalUser != null;
         UserPlayer userPlayer = normalUser.getPlayer();
 
-        Playable selectedResult = userPlayer.getSearchBar().getSelectedResult();
+        Searchable selectedResult = userPlayer.getSearchBar().getSelectedResult();
 
         if (selectedResult == null) {
             out.put(Output.MESSAGE, Output.NO_SELECT);

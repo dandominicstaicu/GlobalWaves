@@ -1,8 +1,8 @@
 package app.entities.playable.audio_files;
 
 import app.entities.playable.Album;
-import app.entities.playable.Playable;
-import app.entities.userside.UserPlayer;
+import app.entities.playable.Searchable;
+import app.entities.userside.normaluser.UserPlayer;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -15,7 +15,7 @@ import java.util.ArrayList;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Song extends AudioFile implements Playable {
+public class Song extends AudioFile implements Searchable {
     private String album;
     private ArrayList<String> tags;
     private String lyrics;

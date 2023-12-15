@@ -2,7 +2,7 @@ package app.commands.normaluser.playlist;
 
 import app.entities.Library;
 import app.entities.playable.Playlist;
-import app.entities.userside.NormalUser;
+import app.entities.userside.normaluser.NormalUser;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import app.commands.Command;

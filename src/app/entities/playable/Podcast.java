@@ -1,6 +1,6 @@
 package app.entities.playable;
 
-import app.entities.userside.UserPlayer;
+import app.entities.userside.normaluser.UserPlayer;
 import app.entities.playable.audio_files.Episode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -14,7 +14,7 @@ import java.util.ArrayList;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Podcast implements Playable {
+public class Podcast implements Searchable {
     private String name;
     private String owner;
     private ArrayList<Episode> episodes;

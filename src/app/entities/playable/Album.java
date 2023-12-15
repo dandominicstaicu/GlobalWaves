@@ -1,7 +1,7 @@
 package app.entities.playable;
 
 import app.entities.playable.audio_files.Song;
-import app.entities.userside.UserPlayer;
+import app.entities.userside.normaluser.UserPlayer;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 @Getter
 @Setter
-public class Album implements Playable {
+public class Album implements Searchable {
     private String name;
     private int releaseYear;
     private String description;

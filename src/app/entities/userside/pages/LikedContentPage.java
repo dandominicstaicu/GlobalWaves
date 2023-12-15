@@ -3,7 +3,7 @@ package app.entities.userside.pages;
 import app.entities.Library;
 import app.entities.playable.Playlist;
 import app.entities.playable.audio_files.Song;
-import app.entities.userside.NormalUser;
+import app.entities.userside.normaluser.NormalUser;
 
 import java.util.ArrayList;
 import java.util.stream.Collectors;

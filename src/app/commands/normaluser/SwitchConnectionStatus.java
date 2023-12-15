@@ -1,7 +1,7 @@
 package app.commands.normaluser;
 
 import app.entities.Library;
-import app.entities.userside.NormalUser;
+import app.entities.userside.normaluser.NormalUser;
 import app.entities.userside.User;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;

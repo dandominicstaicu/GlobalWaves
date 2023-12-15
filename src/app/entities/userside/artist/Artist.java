@@ -2,9 +2,9 @@ package app.entities.userside.artist;
 
 import app.entities.Library;
 import app.entities.playable.Album;
-import app.entities.playable.Playable;
-import app.entities.userside.NormalUser;
-import app.entities.userside.SearchBar;
+import app.entities.playable.Searchable;
+import app.entities.userside.normaluser.NormalUser;
+import app.entities.userside.normaluser.SearchBar;
 import app.entities.userside.User;
 import app.entities.userside.pages.ArtistPage;
 import com.fasterxml.jackson.databind.node.ObjectNode;
@@ -21,7 +21,7 @@ import java.util.List;
 @Getter
 @Setter
 @AllArgsConstructor
-public class Artist extends User implements Playable {
+public class Artist extends User implements Searchable {
     private ArrayList<Event> events;
     private ArrayList<Merch> merchList;
     private ArtistPage artistPage;
@@ -137,7 +137,7 @@ public class Artist extends User implements Playable {
                 }
             }
 
-            List<Playable> lastSearchResults = user.getPlayer().getSearchBar()
+            List<Searchable> lastSearchResults = user.getPlayer().getSearchBar()
                     .getLastSearchResults();
             if (lastSearchResults != null && lastSearchResults.stream()
                     .anyMatch(playable -> playable.ownedByUser(this.getUsername()))) {

@@ -1,7 +1,7 @@
 package app.entities;
 
 import app.entities.playable.Album;
-import app.entities.userside.NormalUser;
+import app.entities.userside.normaluser.NormalUser;
 import app.common.Constants;
 import app.entities.playable.Playlist;
 import app.entities.playable.audio_files.Song;

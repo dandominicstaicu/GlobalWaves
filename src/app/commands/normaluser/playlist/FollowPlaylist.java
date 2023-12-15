@@ -1,10 +1,10 @@
 package app.commands.normaluser.playlist;
 
 import app.entities.Library;
-import app.entities.playable.Playable;
+import app.entities.playable.Searchable;
 import app.entities.playable.Playlist;
-import app.entities.userside.NormalUser;
-import app.entities.userside.UserPlayer;
+import app.entities.userside.normaluser.NormalUser;
+import app.entities.userside.normaluser.UserPlayer;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import app.commands.Command;
@@ -56,7 +56,7 @@ public class FollowPlaylist extends Command {
         assert normalUser != null;
         UserPlayer userPlayer = normalUser.getPlayer();
 
-        Playable selected = userPlayer.getSearchBar().getSelectedResult();
+        Searchable selected = userPlayer.getSearchBar().getSelectedResult();
 
         if (selected == null) {
             out.put(Output.MESSAGE, Output.LOAD_FOLLOW_ERR);

@@ -1,7 +1,7 @@
 package app.entities.userside.pages;
 
 import app.entities.Library;
-import app.entities.userside.NormalUser;
+import app.entities.userside.normaluser.NormalUser;
 
 public interface Page {
     /**

@@ -3,9 +3,9 @@ package app.entities;
 import app.entities.playable.Album;
 import app.entities.playable.Playlist;
 import app.entities.playable.Podcast;
-import app.entities.userside.NormalUser;
+import app.entities.userside.normaluser.NormalUser;
 import app.entities.userside.User;
-import app.entities.userside.UserPlayer;
+import app.entities.userside.normaluser.UserPlayer;
 import app.common.UserTypes;
 import app.entities.playable.audio_files.Episode;
 import app.entities.playable.audio_files.Song;
@@ -314,18 +314,18 @@ public final class Library {
     }
 
     /**
-     * Retrieves a list of all songs in the library.
+     * Adds songs from an album to the library.
      *
-     * @return A list of all songs in the library.
+     * @param album the album to be added
      */
     public void addSongsFromAlbum(final Album album) {
         songs.addAll(album.getSongs());
     }
 
     /**
-     * Retrieves a list of all songs in the library.
+     * Retrieves the existence of a user in the library
      *
-     * @return A list of all songs in the library.
+     * @return the user if found, null otherwise
      */
     public User searchAllUsersForUsername(final String username) {
         for (NormalUser user : users) {
@@ -418,7 +418,7 @@ public final class Library {
     }
 
     /**
-     * Retrieves a list of all playlists with the given owner name from the library.
+     * Retrieves the existence of an album in the library
      *
      * @param username The name of the owner to search for.
      * @param albumName The name of the album to search for.

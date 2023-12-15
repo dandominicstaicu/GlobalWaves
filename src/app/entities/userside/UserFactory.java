@@ -2,6 +2,7 @@ package app.entities.userside;
 
 import app.entities.userside.artist.Artist;
 import app.entities.userside.host.Host;
+import app.entities.userside.normaluser.NormalUser;
 
 
 /**

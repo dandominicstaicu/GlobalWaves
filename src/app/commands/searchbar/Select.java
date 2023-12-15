@@ -1,13 +1,13 @@
 package app.commands.searchbar;
 
-import app.entities.userside.NormalUser;
-import app.entities.userside.UserPlayer;
+import app.entities.userside.normaluser.NormalUser;
+import app.entities.userside.normaluser.UserPlayer;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import app.commands.Command;
 import app.common.Output;
 import app.entities.Library;
-import app.entities.playable.Playable;
+import app.entities.playable.Searchable;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -58,7 +58,7 @@ public class Select extends Command {
         assert normalUser != null;
         UserPlayer userPlayer = normalUser.getPlayer();
 
-        List<Playable> lastSearchResults = userPlayer.getSearchBar().getLastSearchResults();
+        List<Searchable> lastSearchResults = userPlayer.getSearchBar().getLastSearchResults();
 
         if (lastSearchResults == null) {
             out.put(Output.MESSAGE, Output.NO_SEARCH);
@@ -67,7 +67,7 @@ public class Select extends Command {
             userPlayer.getSearchBar().setSelectedResult(null);
             out.put(Output.MESSAGE, Output.SELECTED_ID_HIGH);
         } else {
-            Playable selectedResult = lastSearchResults.get(itemNumber - 1); // Adjust for 0 index
+            Searchable selectedResult = lastSearchResults.get(itemNumber - 1); // Adjust for 0 index
             userPlayer.getSearchBar().setSelectedResultAndClear(selectedResult, normalUser, out);
         }
     }

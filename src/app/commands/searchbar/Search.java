@@ -1,10 +1,10 @@
 package app.commands.searchbar;
 
 import app.entities.Library;
-import app.entities.playable.Playable;
-import app.entities.userside.NormalUser;
-import app.entities.userside.SearchBar;
-import app.entities.userside.UserPlayer;
+import app.entities.playable.Searchable;
+import app.entities.userside.normaluser.NormalUser;
+import app.entities.userside.normaluser.SearchBar;
+import app.entities.userside.normaluser.UserPlayer;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
@@ -69,21 +69,21 @@ public class Search extends Command {
         UserPlayer userPlayer = normalUser.getPlayer();
 
         SearchBar bar = userPlayer.getSearchBar();
-        List<Playable> searchResult = bar.search(lib, this.type, this.filters, getUsername());
+        List<Searchable> searchResult = bar.search(lib, this.type, this.filters, getUsername());
 
         lib.getUserWithUsername(getUsername()).getPlayer().stop();
 
         out.put(Output.MESSAGE, "Search returned " + searchResult.size() + " results");
 
         ArrayNode resultsNode = out.putArray(Output.RESULTS);
-        for (Playable result : searchResult) {
+        for (Searchable result : searchResult) {
             resultsNode.add(result.getName());
         }
     }
 
     /**
-     * Handles the case when a user is offline. This method is called to provide an appropriate response
-     * when the user executing the command is offline.
+     * Handles the case when a user is offline. This method is called to provide an
+     * appropriate response when the user executing the command is offline.
      *
      * @param out The ObjectNode where the offline message should be added.
      */

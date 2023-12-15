@@ -2,7 +2,7 @@ package app.entities.userside.pages;
 
 import app.entities.Library;
 import app.entities.playable.Podcast;
-import app.entities.userside.NormalUser;
+import app.entities.userside.normaluser.NormalUser;
 import app.entities.userside.host.Host;
 
 import java.util.stream.Collectors;

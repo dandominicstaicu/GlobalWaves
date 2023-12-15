@@ -1,4 +1,2 @@
 Starting audit...
-[ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/app/commands/searchbar/Search.java:85: Line is longer than 100 characters (found 104). [LineLength]
 Audit done.
-Checkstyle ends with 1 errors.

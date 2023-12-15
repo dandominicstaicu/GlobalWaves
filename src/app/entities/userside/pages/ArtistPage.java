@@ -2,7 +2,7 @@ package app.entities.userside.pages;
 
 import app.entities.Library;
 import app.entities.playable.Album;
-import app.entities.userside.NormalUser;
+import app.entities.userside.normaluser.NormalUser;
 import app.entities.userside.artist.Artist;
 
 import java.util.stream.Collectors;

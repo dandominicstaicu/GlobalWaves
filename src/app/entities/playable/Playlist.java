@@ -1,6 +1,6 @@
 package app.entities.playable;
 
-import app.entities.userside.UserPlayer;
+import app.entities.userside.normaluser.UserPlayer;
 import app.entities.playable.audio_files.Song;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -14,7 +14,7 @@ import java.util.List;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Playlist implements Playable {
+public class Playlist implements Searchable {
     private String name;
     private String owner;
     private Boolean isPublic;

@@ -1,9 +1,9 @@
 package app.entities.userside.host;
 
 import app.entities.Library;
-import app.entities.playable.Playable;
-import app.entities.userside.NormalUser;
-import app.entities.userside.SearchBar;
+import app.entities.playable.Searchable;
+import app.entities.userside.normaluser.NormalUser;
+import app.entities.userside.normaluser.SearchBar;
 import app.entities.userside.User;
 import app.entities.userside.pages.HostPage;
 import com.fasterxml.jackson.databind.node.ObjectNode;
@@ -16,7 +16,7 @@ import java.util.ArrayList;
 
 @Setter
 @Getter
-public class Host extends User implements Playable {
+public class Host extends User implements Searchable {
     private ArrayList<Announcement> announcements;
     private HostPage hostPage;
 

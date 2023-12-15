@@ -1,7 +1,7 @@
 package app.commands.normaluser.pages;
 
 import app.entities.Library;
-import app.entities.userside.NormalUser;
+import app.entities.userside.normaluser.NormalUser;
 import app.entities.userside.pages.LikedContentPage;
 import app.entities.userside.pages.Page;
 import com.fasterxml.jackson.databind.node.ArrayNode;
