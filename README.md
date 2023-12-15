@@ -3,7 +3,10 @@
 
 [Behind the scene:](https://youtu.be/5X0f4tF9Sl8?si=7F939ljX8TOdXuPE) https://youtu.be/5X0f4tF9Sl8?si=7F939ljX8TOdXuPE
 
+
 ## Overview - 2nd step
+Continued the project ont the same repo and skeleton as the first.
+
 ### Implemented on my own skeleton from the 1st step
 
 In the 2nd step of the project, there were the following new features added:
