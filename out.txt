@@ -1,150 +1,433 @@
 [ {
+  "command" : "addUser",
+  "user" : "The Beatles",
+  "timestamp" : 1,
+  "message" : "The username The Beatles has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Michael Jackson",
+  "timestamp" : 1,
+  "message" : "The username Michael Jackson has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Nothing But Thieves",
+  "timestamp" : 1,
+  "message" : "The username Nothing But Thieves has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Bob Dylan",
+  "timestamp" : 1,
+  "message" : "The username Bob Dylan has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Madonna",
+  "timestamp" : 1,
+  "message" : "The username Madonna has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Queen",
+  "timestamp" : 1,
+  "message" : "The username Queen has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "The Rolling Stones",
+  "timestamp" : 1,
+  "message" : "The username The Rolling Stones has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "David Bowie",
+  "timestamp" : 1,
+  "message" : "The username David Bowie has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Prince",
+  "timestamp" : 1,
+  "message" : "The username Prince has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Whitney Houston",
+  "timestamp" : 1,
+  "message" : "The username Whitney Houston has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Elton John",
+  "timestamp" : 1,
+  "message" : "The username Elton John has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Led Zeppelin",
+  "timestamp" : 1,
+  "message" : "The username Led Zeppelin has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Stevie Wonder",
+  "timestamp" : 1,
+  "message" : "The username Stevie Wonder has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "BeyoncÃ©",
+  "timestamp" : 1,
+  "message" : "The username BeyoncÃ© has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Pink Floyd",
+  "timestamp" : 1,
+  "message" : "The username Pink Floyd has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "U2",
+  "timestamp" : 1,
+  "message" : "The username U2 has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "The Beach Boys",
+  "timestamp" : 1,
+  "message" : "The username The Beach Boys has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Frank Sinatra",
+  "timestamp" : 1,
+  "message" : "The username Frank Sinatra has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Johnny Cash",
+  "timestamp" : 1,
+  "message" : "The username Johnny Cash has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Adele",
+  "timestamp" : 1,
+  "message" : "The username Adele has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Bruce Springsteen",
+  "timestamp" : 1,
+  "message" : "The username Bruce Springsteen has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Jimi Hendrix",
+  "timestamp" : 1,
+  "message" : "The username Jimi Hendrix has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Nirvana",
+  "timestamp" : 1,
+  "message" : "The username Nirvana has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Dire Straits",
+  "timestamp" : 1,
+  "message" : "The username Dire Straits has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Imagine Dragons",
+  "timestamp" : 1,
+  "message" : "The username Imagine Dragons has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Eminem",
+  "timestamp" : 1,
+  "message" : "The username Eminem has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "ABBA",
+  "timestamp" : 1,
+  "message" : "The username ABBA has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Ray Charles",
+  "timestamp" : 1,
+  "message" : "The username Ray Charles has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "The Eagles",
+  "timestamp" : 1,
+  "message" : "The username The Eagles has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Bob Marley",
+  "timestamp" : 1,
+  "message" : "The username Bob Marley has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Taylor Swift",
+  "timestamp" : 1,
+  "message" : "The username Taylor Swift has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Aretha Franklin",
+  "timestamp" : 1,
+  "message" : "The username Aretha Franklin has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "The Who",
+  "timestamp" : 1,
+  "message" : "The username The Who has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Rihanna",
+  "timestamp" : 1,
+  "message" : "The username Rihanna has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Marvin Gaye",
+  "timestamp" : 1,
+  "message" : "The username Marvin Gaye has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Fleetwood Mac",
+  "timestamp" : 1,
+  "message" : "The username Fleetwood Mac has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "James Brown",
+  "timestamp" : 1,
+  "message" : "The username James Brown has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Radiohead",
+  "timestamp" : 1,
+  "message" : "The username Radiohead has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "The Doors",
+  "timestamp" : 1,
+  "message" : "The username The Doors has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Jay-Z",
+  "timestamp" : 1,
+  "message" : "The username Jay-Z has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Eric Clapton",
+  "timestamp" : 1,
+  "message" : "The username Eric Clapton has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Joni Mitchell",
+  "timestamp" : 1,
+  "message" : "The username Joni Mitchell has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Chuck Berry",
+  "timestamp" : 1,
+  "message" : "The username Chuck Berry has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "The Police",
+  "timestamp" : 1,
+  "message" : "The username The Police has been added successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "Pink Floyd",
+  "timestamp" : 1,
+  "message" : "Pink Floyd has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "Pink Floyd",
+  "timestamp" : 1,
+  "message" : "Pink Floyd has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "Pink Floyd",
+  "timestamp" : 1,
+  "message" : "Pink Floyd has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "Pink Floyd",
+  "timestamp" : 1,
+  "message" : "Pink Floyd has added new album successfully."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10,
-  "message" : "Search returned 3 results",
-  "results" : [ "Stairway to Heaven", "Start Me Up", "Stargazing" ]
-}, {
-  "command" : "select",
-  "user" : "alice22",
-  "timestamp" : 15,
-  "message" : "Successfully selected Stairway to Heaven."
-}, {
-  "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 20,
-  "message" : "Search returned 3 results",
-  "results" : [ "Shape of You", "Happier", "Castle on the Hill" ]
-}, {
-  "command" : "select",
-  "user" : "alice22",
-  "timestamp" : 25,
-  "message" : "The selected ID is too high."
-}, {
-  "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 30,
   "message" : "Search returned 1 results",
-  "results" : [ "Big Pimpin'" ]
-}, {
-  "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 40,
-  "message" : "Search returned 2 results",
-  "results" : [ "Begin Again", "Butterfly Effect" ]
-}, {
-  "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 50,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "Don't", "Maps", "The Man", "Freedom" ]
-}, {
-  "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 60,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Big Pimpin'", "The Unforgiven" ]
-}, {
-  "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 70,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "Whatever You Need", "The Man", "Delicate", "Sicko Mode" ]
-}, {
-  "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 80,
-  "message" : "Search returned 5 results",
-  "results" : [ "Money Trees", "DNA.", "Kings Dead", "Legendary", "Swimming Pools (Drank)" ]
-}, {
-  "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 90,
-  "message" : "Search returned 4 results",
-  "results" : [ "Stairway to Heaven", "Black Dog", "Whole Lotta Love", "Good Times Bad Times" ]
-}, {
-  "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 100,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Joe Rogan Experience", "The Daily", "The Michelle Obama Podcast", "The Daily Show With Trevor Noah", "The Happiness Lab" ]
-}, {
-  "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 110,
-  "message" : "Search returned 2 results",
-  "results" : [ "How I Built This", "TED Radio Hour" ]
-}, {
-  "command" : "switchConnectionStatus",
-  "user" : "alice22",
-  "timestamp" : 130,
-  "message" : "alice22 has changed status successfully."
-}, {
-  "command" : "switchConnectionStatus",
-  "user" : "bob35",
-  "timestamp" : 140,
-  "message" : "bob35 has changed status successfully."
-}, {
-  "command" : "switchConnectionStatus",
-  "user" : "mari21",
-  "timestamp" : 150,
-  "message" : "The username mari21 doesn't exist."
-}, {
-  "command" : "getOnlineUsers",
-  "timestamp" : 170,
-  "result" : [ "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29" ]
-}, {
-  "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 180,
-  "message" : "alice22 is offline.",
-  "results" : [ ]
-}, {
-  "command" : "switchConnectionStatus",
-  "user" : "alice22",
-  "timestamp" : 210,
-  "message" : "alice22 has changed status successfully."
-}, {
-  "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 240,
-  "message" : "Search returned 1 results",
-  "results" : [ "Big Pimpin'" ]
+  "results" : [ "Wish You Were Here" ]
 }, {
   "command" : "select",
   "user" : "alice22",
-  "timestamp" : 250,
-  "message" : "Successfully selected Big Pimpin'."
+  "timestamp" : 10,
+  "message" : "Successfully selected Wish You Were Here."
 }, {
   "command" : "load",
   "user" : "alice22",
-  "timestamp" : 280,
+  "timestamp" : 10,
   "message" : "Playback loaded successfully."
 }, {
-  "command" : "status",
+  "command" : "search",
   "user" : "alice22",
-  "timestamp" : 420,
-  "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 144,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
+  "timestamp" : 1255,
+  "message" : "Search returned 1 results",
+  "results" : [ "The Wall" ]
 }, {
-  "command" : "switchConnectionStatus",
+  "command" : "select",
   "user" : "alice22",
-  "timestamp" : 430,
-  "message" : "alice22 has changed status successfully."
+  "timestamp" : 1255,
+  "message" : "Successfully selected The Wall."
 }, {
-  "command" : "status",
+  "command" : "load",
   "user" : "alice22",
-  "timestamp" : 700,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "timestamp" : 1255,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 4030,
+  "message" : "Search returned 1 results",
+  "results" : [ "The Dark Side of the Moon" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 4030,
+  "message" : "Successfully selected The Dark Side of the Moon."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 4030,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 5683,
+  "message" : "Search returned 1 results",
+  "results" : [ "The Division Bell" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 5683,
+  "message" : "Successfully selected The Division Bell."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 5683,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 10792,
+  "message" : "Search returned 1 results",
+  "results" : [ "Take It Back" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 10792,
+  "message" : "Successfully selected Take It Back."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 10792,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 11102,
+  "message" : "Search returned 1 results",
+  "results" : [ "Wish You Were Here" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 11102,
+  "message" : "Successfully selected Wish You Were Here."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 11102,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 11246,
+  "message" : "Search returned 1 results",
+  "results" : [ "Young Lust" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 11246,
+  "message" : "Successfully selected Young Lust."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 11246,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 11340,
+  "message" : "Search returned 1 results",
+  "results" : [ "Any Colour You Like" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 11340,
+  "message" : "Successfully selected Any Colour You Like."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 11340,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 11585,
+  "message" : "Search returned 1 results",
+  "results" : [ "Goodbye Cruel World" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 11585,
+  "message" : "Successfully selected Goodbye Cruel World."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 11585,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 11648,
+  "message" : "Search returned 1 results",
+  "results" : [ "Coming Back to Life" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 11648,
+  "message" : "Successfully selected Coming Back to Life."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 11648,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 11837,
+  "message" : "Search returned 1 results",
+  "results" : [ "Marooned" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 11837,
+  "message" : "Successfully selected Marooned."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 11837,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 12393,
+  "message" : "Search returned 1 results",
+  "results" : [ "Another Brick in the Wall Part 1" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 12393,
+  "message" : "Successfully selected Another Brick in the Wall Part 1."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 12393,
+  "message" : "Playback loaded successfully."
 } ]

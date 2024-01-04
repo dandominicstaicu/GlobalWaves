@@ -1,12 +1,11 @@
 package app.commands;
 
-import app.commands.generalstats.GetAllUsers;
-import app.commands.generalstats.GetOnlineUsers;
-import app.commands.generalstats.GetTop5Albums;
-import app.commands.generalstats.GetTop5Artists;
-import app.commands.generalstats.GetTop5Playlists;
-import app.commands.generalstats.GetTop5Songs;
-import app.commands.generalstats.ShowPreferredSongs;
+import app.commands.admin.*;
+import app.commands.generalstats.*;
+import app.commands.normaluser.BuyMerch;
+import app.commands.normaluser.GetNotifications;
+import app.commands.normaluser.SeeMerch;
+import app.commands.normaluser.pages.*;
 import app.commands.normaluser.player.AddRemoveInPlaylist;
 import app.commands.normaluser.player.Backward;
 import app.commands.normaluser.player.Forward;
@@ -18,19 +17,16 @@ import app.commands.normaluser.player.Prev;
 import app.commands.normaluser.player.Repeat;
 import app.commands.normaluser.player.Shuffle;
 import app.commands.normaluser.player.Status;
+import app.commands.premium.BuyPremium;
+import app.commands.premium.CancelPremium;
+import app.commands.specialusers.Subscribe;
 import app.commands.specialusers.artist.AddAlbum;
 import app.commands.specialusers.artist.AddEvent;
 import app.commands.specialusers.artist.AddMerch;
 import app.commands.specialusers.artist.RemoveAlbum;
 import app.commands.specialusers.artist.RemoveEvent;
 import app.entities.Library;
-import app.commands.admin.AddUser;
-import app.commands.admin.DeleteUser;
-import app.commands.admin.ShowAlbums;
-import app.commands.admin.ShowPodcasts;
 import app.commands.normaluser.SwitchConnectionStatus;
-import app.commands.normaluser.pages.ChangePage;
-import app.commands.normaluser.pages.PrintCurrentPage;
 import app.commands.normaluser.playlist.CreatePlaylist;
 import app.commands.normaluser.playlist.FollowPlaylist;
 import app.commands.normaluser.playlist.ShowPlaylists;
@@ -93,6 +89,19 @@ import lombok.Setter;
         @JsonSubTypes.Type(value = GetTop5Artists.class, name = "getTop5Artists"),
         @JsonSubTypes.Type(value = GetAllUsers.class, name = "getAllUsers"),
         @JsonSubTypes.Type(value = GetOnlineUsers.class, name = "getOnlineUsers"),
+        @JsonSubTypes.Type(value = BuyPremium.class, name = "buyPremium"),
+        @JsonSubTypes.Type(value = CancelPremium.class, name = "cancelPremium"),
+        @JsonSubTypes.Type(value = Wrapped.class, name = "wrapped"),
+        @JsonSubTypes.Type(value = UpdateRecommendations.class, name = "updateRecommendations"),
+        @JsonSubTypes.Type(value = AdBreak.class, name = "adBreak"),
+        @JsonSubTypes.Type(value = Subscribe.class, name = "subscribe"),
+        @JsonSubTypes.Type(value = BuyMerch.class, name = "buyMerch"),
+        @JsonSubTypes.Type(value = SeeMerch.class, name = "seeMerch"),
+        @JsonSubTypes.Type(value = LoadRecommendations.class, name = "loadRecommendations"),
+        @JsonSubTypes.Type(value = GetNotifications.class, name = "getNotifications"),
+        @JsonSubTypes.Type(value = PreviousPage.class, name = "previousPage"),
+        @JsonSubTypes.Type(value = NextPage.class, name = "nextPage"),
+
 
 })
 
