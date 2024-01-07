@@ -1,12 +1,17 @@
 package app.entities.playable.audio_files;
 
+import app.entities.Library;
 import app.entities.playable.Album;
 import app.entities.playable.Searchable;
+import app.entities.userside.artist.Artist;
+import app.entities.userside.normaluser.NormalUser;
 import app.entities.userside.normaluser.UserPlayer;
+import app.entities.userside.normaluser.WrappedStats;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
 
 /**
@@ -116,6 +121,28 @@ public class Song extends AudioFile implements Searchable {
         return true;
     }
 
+    //The Dark Side of the Moon
+
+    @Override
+    public void editStats(final Library lib, final NormalUser user) {
+//        System.out.println("Editing stats for song " + this.getName());
+        System.out.println("; Album: " + this.getAlbum());
+        WrappedStats stats = user.getWrappedStats();
+
+        // stats for the user
+        stats.addSongListenCount(this.getName());
+        stats.addArtistListenCount(this.getArtist());
+        stats.addGenreListenCount(this.getGenre());
+        stats.addAlbumListenCount(this.getAlbum());
+
+        // stats for the artist
+        Artist artist = lib.getArtistWithName(this.getArtist());
+        WrappedStats artistStats = artist.getWrappedStats();
+
+        artistStats.addAlbumListenCount(this.getAlbum());
+        artistStats.addSongListenCount(this.getName());
+        artistStats.addListenerCount(user.getUsername());
+    }
 
     /**
      * Checks if the song is loaded in a player associated with the given username.

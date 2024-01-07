@@ -1,5 +1,9 @@
 package app.entities.playable.audio_files;
 
+import app.entities.Library;
+import app.entities.userside.host.Host;
+import app.entities.userside.normaluser.NormalUser;
+import app.entities.userside.normaluser.WrappedStats;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -14,6 +18,7 @@ import lombok.Setter;
 @AllArgsConstructor
 public class Episode extends AudioFile {
     private String description;
+    private String owner;
 
     /**
      * Returns a string representation of the episode.
@@ -25,8 +30,7 @@ public class Episode extends AudioFile {
         return "Episode{"
                 + "name=" + super.getName()
                 + " description='" + description + '\''
-                +
-                '}';
+                + '}';
     }
 
     /**
@@ -36,10 +40,11 @@ public class Episode extends AudioFile {
      * @param duration    The duration of the episode in seconds.
      * @param description The description of the episode.
      */
-    public Episode(final String name, final Integer duration, final String description) {
+    public Episode(final String name, final Integer duration, final String description, final String owner) {
         super.setName(name);
         super.setDuration(duration);
         this.description = description;
+        this.owner = owner;
     }
 
     /**
@@ -50,5 +55,21 @@ public class Episode extends AudioFile {
     @Override
     public boolean isSong() {
         return false;
+    }
+
+    @Override
+    public void editStats(final Library lib, final NormalUser user) {
+//        System.out.println("Editing stats for episode" + super.getName());
+        WrappedStats stats = user.getWrappedStats();
+
+        // stats for the user
+        stats.addEpisodeListenCount(this.getName());
+
+        // stats for the host
+        Host host = lib.getHostWithName(this.getOwner());
+        WrappedStats hostStats = host.getWrappedStats();
+
+        hostStats.addEpisodeListenCount(this.getName());
+        hostStats.addListenerCount(user.getUsername());
     }
 }

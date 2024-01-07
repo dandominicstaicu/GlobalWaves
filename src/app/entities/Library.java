@@ -129,7 +129,7 @@ public final class Library {
             ArrayList<Episode> episodes = new ArrayList<>();
             for (EpisodeInput episodeInput : podcastInput.getEpisodes()) {
                 Episode episode = new Episode(episodeInput.getName(), episodeInput.getDuration(),
-                        episodeInput.getDescription());
+                        episodeInput.getDescription(), podcastInput.getOwner());
                 episodes.add(episode);
             }
 

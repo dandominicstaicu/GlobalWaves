@@ -1,6 +1,7 @@
 package app.commands.normaluser.player;
 
 import app.entities.Library;
+import app.entities.userside.normaluser.NormalUser;
 import app.entities.userside.normaluser.UserPlayer;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
@@ -47,12 +48,13 @@ public class Prev extends Command {
             return;
         }
 
-        UserPlayer userPlayer = lib.getUserWithUsername(getUsername()).getPlayer();
+        NormalUser user = lib.getUserWithUsername(getUsername());
+        UserPlayer userPlayer = user.getPlayer();
 
         if (!userPlayer.playingIndexIsValid()) {
             out.put(Output.MESSAGE, Output.LOAD_PREV_ERR);
         } else {
-            AudioFile previous = userPlayer.prev(getTimestamp());
+            AudioFile previous = userPlayer.prev(getTimestamp(), lib, user);
             out.put(Output.MESSAGE, Output.PREV_SUCCESS + previous.getName() + ".");
         }
     }

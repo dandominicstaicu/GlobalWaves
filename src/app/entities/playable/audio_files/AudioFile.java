@@ -1,5 +1,7 @@
 package app.entities.playable.audio_files;
 
+import app.entities.Library;
+import app.entities.userside.normaluser.NormalUser;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -23,4 +25,6 @@ public abstract class AudioFile {
      * @return True if the audio file is a song, false otherwise.
      */
     public abstract boolean isSong();
+
+    public abstract void editStats(Library lib, NormalUser user);
 }

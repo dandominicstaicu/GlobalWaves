@@ -63,7 +63,8 @@ public class Load extends Command {
             out.put(Output.MESSAGE, Output.NO_SELECT);
         } else {
             int timestamp = getTimestamp();
-            boolean loadSuccess = userPlayer.loadSource(selectedResult, timestamp, userPlayer);
+            boolean loadSuccess = userPlayer.loadSource(selectedResult, timestamp, userPlayer,
+                                    lib, normalUser);
 
             if (loadSuccess) {
                 out.put(Output.MESSAGE, Output.LOAD_SUCCESS);

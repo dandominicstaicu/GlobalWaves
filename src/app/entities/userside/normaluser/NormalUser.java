@@ -1,16 +1,21 @@
 package app.entities.userside.normaluser;
 
+import app.common.Output;
 import app.common.UserTypes;
 import app.entities.Library;
 import app.entities.playable.Playlist;
+import app.entities.playable.audio_files.Episode;
 import app.entities.playable.audio_files.Song;
 import app.entities.userside.User;
 import app.entities.userside.pages.HomePage;
 import app.entities.userside.pages.Page;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import lombok.Getter;
 import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.Objects;
 
 @Getter
 @Setter
@@ -21,6 +26,8 @@ public class NormalUser extends User {
     private boolean online;
     private Page currentPage;
 
+    private WrappedStats wrappedStats;
+
     public NormalUser(final String username, final int age, final String city) {
         super(username, age, city, UserTypes.NORMAL_USER);
         this.player = new UserPlayer();
@@ -28,6 +35,7 @@ public class NormalUser extends User {
         this.followedPlaylists = new ArrayList<>();
         this.online = true;
         this.currentPage = new HomePage();
+        this.wrappedStats = new WrappedStats(this);
     }
 
     /**
@@ -186,5 +194,41 @@ public class NormalUser extends User {
 
 
         return true;
+    }
+
+    @Override
+    public void printWrappedStats(final ObjectNode out) {
+        ObjectNode result = out.putObject(Output.RESULT);
+
+        List<Map.Entry<String, Integer>> topArtists = wrappedStats.top5Artists();
+        ObjectNode artistsNode = result.putObject("topArtists");
+        for (Map.Entry<String, Integer> entry : topArtists) {
+            artistsNode.put(entry.getKey(), entry.getValue());
+        }
+
+        List<Map.Entry<String, Integer>> topGenres = wrappedStats.top5Genres();
+        ObjectNode genresNode = result.putObject("topGenres");
+        for (Map.Entry<String, Integer> entry : topGenres) {
+            genresNode.put(entry.getKey(), entry.getValue());
+        }
+
+        List<Map.Entry<String, Integer>> topSongs = wrappedStats.top5Songs();
+        ObjectNode songsNode = result.putObject("topSongs");
+        for (Map.Entry<String, Integer> entry : topSongs) {
+            songsNode.put(entry.getKey(), entry.getValue());
+        }
+
+        List<Map.Entry<String, Integer>> topAlbums = wrappedStats.top5Albums();
+        ObjectNode albumsNode = result.putObject("topAlbums");
+        for (Map.Entry<String, Integer> entry : topAlbums) {
+            albumsNode.put(entry.getKey(), entry.getValue());
+        }
+
+        List<Map.Entry<String, Integer>> topEpisodes = wrappedStats.top5Episodes();
+        ObjectNode episodesNode = result.putObject("topEpisodes");
+        for (Map.Entry<String, Integer> entry : topEpisodes) {
+            episodesNode.put(entry.getKey(), entry.getValue());
+        }
+
     }
 }

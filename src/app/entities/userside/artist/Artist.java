@@ -6,7 +6,9 @@ import app.entities.playable.Searchable;
 import app.entities.userside.normaluser.NormalUser;
 import app.entities.userside.normaluser.SearchBar;
 import app.entities.userside.User;
+import app.entities.userside.normaluser.WrappedStats;
 import app.entities.userside.pages.ArtistPage;
+import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import app.common.Output;
 import app.common.UserTypes;
@@ -16,6 +18,7 @@ import lombok.Getter;
 import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 
 @Getter
@@ -25,6 +28,8 @@ public class Artist extends User implements Searchable {
     private ArrayList<Event> events;
     private ArrayList<Merch> merchList;
     private ArtistPage artistPage;
+
+    private WrappedStats wrappedStats;
 
     /**
      * Constructs a new Artist with the specified username, age, and city.
@@ -39,6 +44,8 @@ public class Artist extends User implements Searchable {
         this.events = new ArrayList<>();
         this.merchList = new ArrayList<>();
         this.artistPage = new ArtistPage(this);
+
+        this.wrappedStats = new WrappedStats(this);
     }
 
     /**
@@ -161,6 +168,32 @@ public class Artist extends User implements Searchable {
         library.getAlbums().removeAll(artistsAlbums);
 
         return true;
+    }
+
+    @Override
+    public void printWrappedStats(ObjectNode out) {
+        ObjectNode result = out.putObject(Output.RESULT);
+
+        List<Map.Entry<String, Integer>> topAlbums = wrappedStats.top5Albums();
+        ObjectNode albumsNode = result.putObject("topAlbums");
+        for (Map.Entry<String, Integer> entry : topAlbums) {
+            albumsNode.put(entry.getKey(), entry.getValue());
+        }
+
+        List<Map.Entry<String, Integer>> topSongs = wrappedStats.top5Songs();
+        ObjectNode songsNode = result.putObject("topSongs");
+        for (Map.Entry<String, Integer> entry : topSongs) {
+            songsNode.put(entry.getKey(), entry.getValue());
+        }
+
+        List<Map.Entry<String, Integer>> topFans = wrappedStats.top5Fans();
+        ArrayNode fansNode = result.putArray("topFans");
+        for (Map.Entry<String, Integer> entry : topFans) {
+            fansNode.add(entry.getKey());
+        }
+
+        int listenersCount = wrappedStats.getListenersCountSize();
+        result.put("listeners", listenersCount);
     }
 
     /**

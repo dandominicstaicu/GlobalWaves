@@ -2,9 +2,11 @@ package app.entities.userside.host;
 
 import app.entities.Library;
 import app.entities.playable.Searchable;
+import app.entities.playable.audio_files.Episode;
 import app.entities.userside.normaluser.NormalUser;
 import app.entities.userside.normaluser.SearchBar;
 import app.entities.userside.User;
+import app.entities.userside.normaluser.WrappedStats;
 import app.entities.userside.pages.HostPage;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import app.common.Output;
@@ -13,12 +15,16 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 @Setter
 @Getter
 public class Host extends User implements Searchable {
     private ArrayList<Announcement> announcements;
     private HostPage hostPage;
+
+    private WrappedStats wrappedStats;
 
     /**
      * Constructs a Host object with the specified username, age, and city.
@@ -31,6 +37,8 @@ public class Host extends User implements Searchable {
         super(username, age, city, UserTypes.HOST);
         this.announcements = new ArrayList<>();
         this.hostPage = new HostPage(this);
+
+        this.wrappedStats = new WrappedStats(this);
     }
 
     /**
@@ -97,6 +105,20 @@ public class Host extends User implements Searchable {
         }
 
         return false;
+    }
+
+    @Override
+    public void printWrappedStats(final ObjectNode out) {
+        ObjectNode result = out.putObject(Output.RESULT);
+
+        List<Map.Entry<String, Integer>> topEpisodes = wrappedStats.top5Episodes();
+        ObjectNode episodesNode = result.putObject("topEpisodes");
+        for (Map.Entry<String, Integer> entry : topEpisodes) {
+            episodesNode.put(entry.getKey(), entry.getValue());
+        }
+
+        int listenersCount = wrappedStats.getListenersCountSize();
+        result.put("listeners", listenersCount);
     }
 
     /**

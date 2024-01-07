@@ -107,7 +107,8 @@ public final class Main {
 
             for (NormalUser normalUser : library.getUsers()) {
                 UserPlayer userPlayer = normalUser.getPlayer();
-                userPlayer.updateTime(command.getTimestamp());
+//                System.out.println("user name: " + normalUser.getUsername());
+                userPlayer.updateTime(library, normalUser, command.getTimestamp());
             }
 
             NormalUser normalUser = library.getUserWithUsername(command.getUsername());

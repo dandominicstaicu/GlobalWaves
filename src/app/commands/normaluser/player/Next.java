@@ -1,6 +1,7 @@
 package app.commands.normaluser.player;
 
 import app.entities.Library;
+import app.entities.userside.normaluser.NormalUser;
 import app.entities.userside.normaluser.UserPlayer;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
@@ -49,10 +50,11 @@ public class Next extends Command {
             return;
         }
 
-        UserPlayer userPlayer = lib.getUserWithUsername(getUsername()).getPlayer();
+        NormalUser user = lib.getUserWithUsername(getUsername());
+        UserPlayer userPlayer = user.getPlayer();
 
         if (userPlayer.playingIndexIsValid()) {
-            userPlayer.next(true, getTimestamp());
+            userPlayer.next(true, getTimestamp(), lib, user);
         }
 
         if (!userPlayer.playingIndexIsValid()) {

@@ -52,7 +52,7 @@ public class Album implements Searchable {
     }
 
     /**
-     * Loads all songs in the album to a user's audio queue for playback.
+     * Loads all songs on the album to a user's audio queue for playback.
      *
      * @param userPlayer The UserPlayer to which the songs will be loaded.
      */

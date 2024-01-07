@@ -101,8 +101,6 @@ import lombok.Setter;
         @JsonSubTypes.Type(value = GetNotifications.class, name = "getNotifications"),
         @JsonSubTypes.Type(value = PreviousPage.class, name = "previousPage"),
         @JsonSubTypes.Type(value = NextPage.class, name = "nextPage"),
-
-
 })
 
 @NoArgsConstructor

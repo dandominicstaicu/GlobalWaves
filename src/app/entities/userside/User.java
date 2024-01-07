@@ -2,6 +2,7 @@ package app.entities.userside;
 
 import app.entities.Library;
 import app.common.UserTypes;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -33,4 +34,6 @@ public abstract class User {
      * @return true if the user's account was successfully deleted, false otherwise.
      */
     public abstract boolean handleDeletion(Library library);
+
+    public abstract void printWrappedStats(final ObjectNode out);
 }
