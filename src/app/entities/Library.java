@@ -1,5 +1,6 @@
 package app.entities;
 
+import app.commands.specialusers.artist.Monetization;
 import app.entities.playable.Album;
 import app.entities.playable.Playlist;
 import app.entities.playable.Podcast;
@@ -20,7 +21,9 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @Getter
@@ -49,6 +52,35 @@ public final class Library {
         this.hosts = new ArrayList<>();
         this.albums = new ArrayList<>();
     }
+
+    /**
+     * Gets artists with interacted set to true and sorts them by total revenue.
+     *
+     * @return A list of artists sorted by total revenue in decreasing order.
+     */
+    public List<Artist> getMonetizedArtists() {
+        return artists.stream()
+                .filter(artist -> artist.getMonetization().getInteracted())
+                .sorted((artist1, artist2) -> {
+                    double totalRevenue1 = artist1.getMonetization().getSongRevenue()
+                            + artist1.getMonetization().getMerchRevenue();
+                    double totalRevenue2 = artist2.getMonetization().getSongRevenue()
+                            + artist2.getMonetization().getMerchRevenue();
+                    return Double.compare(totalRevenue2, totalRevenue1);
+                })
+                .collect(Collectors.toList());
+    }
+
+//    public HashMap<String, Monetization> getArtistsMonetization() {
+//        HashMap<String, Monetization> interactedArtists = new HashMap<>();
+//        for (Artist artist : artists) {
+//            if (artist.getMonetization().getInteracted()) {
+//                interactedArtists.put(artist.getUsername(), artist.getMonetization());
+//            }
+//        }
+//
+//        return interactedArtists;
+//    }
 
     /**
      * Adds a song to the collection.

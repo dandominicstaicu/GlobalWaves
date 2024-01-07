@@ -1,5 +1,6 @@
 package app.entities.userside.artist;
 
+import app.commands.specialusers.artist.Monetization;
 import app.entities.Library;
 import app.entities.playable.Album;
 import app.entities.playable.Searchable;
@@ -31,6 +32,8 @@ public class Artist extends User implements Searchable {
 
     private WrappedStats wrappedStats;
 
+    private Monetization monetization;
+
     /**
      * Constructs a new Artist with the specified username, age, and city.
      * Initializes empty lists for events and merchandise, as well as an associated ArtistPage.
@@ -46,7 +49,10 @@ public class Artist extends User implements Searchable {
         this.artistPage = new ArtistPage(this);
 
         this.wrappedStats = new WrappedStats(this);
+        this.monetization = new Monetization(this);
     }
+
+
 
     /**
      * Adds an event to the artist's list of events.

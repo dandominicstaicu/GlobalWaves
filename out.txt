@@ -477,4 +477,14 @@
     },
     "topEpisodes" : { }
   }
+}, {
+  "command" : "endProgram",
+  "result" : {
+    "Pink Floyd" : {
+      "songRevenue" : 0.0,
+      "merchRevenue" : 0.0,
+      "ranking" : 1,
+      "mostProfitableSong" : "N/A"
+    }
+  }
 } ]

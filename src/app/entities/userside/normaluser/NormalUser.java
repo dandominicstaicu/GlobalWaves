@@ -28,6 +28,11 @@ public class NormalUser extends User {
 
     private WrappedStats wrappedStats;
 
+    private ArrayList<Song> regularHistory;
+    private ArrayList<Song> premiumHistory;
+
+    private Boolean isPremium;
+
     public NormalUser(final String username, final int age, final String city) {
         super(username, age, city, UserTypes.NORMAL_USER);
         this.player = new UserPlayer();
@@ -36,6 +41,7 @@ public class NormalUser extends User {
         this.online = true;
         this.currentPage = new HomePage();
         this.wrappedStats = new WrappedStats(this);
+        this.isPremium = false;
     }
 
     /**
@@ -229,6 +235,6 @@ public class NormalUser extends User {
         for (Map.Entry<String, Integer> entry : topEpisodes) {
             episodesNode.put(entry.getKey(), entry.getValue());
         }
-
     }
+
 }

@@ -1,5 +1,6 @@
 package app.entities.playable.audio_files;
 
+import app.commands.specialusers.artist.Monetization;
 import app.entities.Library;
 import app.entities.playable.Album;
 import app.entities.playable.Searchable;
@@ -121,8 +122,6 @@ public class Song extends AudioFile implements Searchable {
         return true;
     }
 
-    //The Dark Side of the Moon
-
     @Override
     public void editStats(final Library lib, final NormalUser user) {
 //        System.out.println("Editing stats for song " + this.getName());
@@ -142,6 +141,10 @@ public class Song extends AudioFile implements Searchable {
         artistStats.addAlbumListenCount(this.getAlbum());
         artistStats.addSongListenCount(this.getName());
         artistStats.addListenerCount(user.getUsername());
+
+        // monetization
+        Monetization monetization = artist.getMonetization();
+        monetization.interact();
     }
 
     /**

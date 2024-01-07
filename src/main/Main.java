@@ -1,5 +1,6 @@
 package main;
 
+import app.commands.specialusers.EndProgram;
 import checker.Checker;
 import checker.CheckerConstants;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -118,6 +119,11 @@ public final class Main {
 
             command.execute(outputs, library, offline);
         }
+
+        //call endprogram
+        // make endprogram static class
+        EndProgram endProgram = new EndProgram();
+        endProgram.execute(outputs, library, false);
 
         ObjectWriter objectWriter = objectMapper.writerWithDefaultPrettyPrinter();
         objectWriter.writeValue(new File(filePathOutput), outputs);

@@ -161,4 +161,9 @@ public final class Output {
     public static final String NON_EXISTENT_PAGE = " is trying to access a non-existent page.";
     public static final String WRAPPED = "wrapped";
     public static final String WRAPPED_ERR = "No data to show for user ";
+    public static final String END_PROGRAM = "endProgram";
+    public static final String SONG_REVENUE = "songRevenue";
+    public static final String MERCH_REVENUE = "merchRevenue";
+    public static final String RANKING = "ranking";
+    public static final String MOST_PROFITABLE = "mostProfitableSong";
 }
