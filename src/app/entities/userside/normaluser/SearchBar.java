@@ -15,6 +15,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
@@ -123,9 +124,23 @@ public final class SearchBar {
                 .collect(Collectors.toList());
     }
 
+//    private List<Album> searchAlbum(final Library library, final Map<String, Object> filters) {
+//        return library.getAlbums().stream()
+//                .filter(album -> matchesFiltersAlbum(album, filters))
+//                .collect(Collectors.toList());
+//    }
+
     private List<Album> searchAlbum(final Library library, final Map<String, Object> filters) {
         return library.getAlbums().stream()
                 .filter(album -> matchesFiltersAlbum(album, filters))
+                .sorted(Comparator.comparing(
+                                (Album album) -> library.getArtists().stream()
+                                        .filter(artist -> artist.getName().equals(album.getOwner()))
+                                        .findFirst()
+                                        .map(Artist::getId)
+                                        .orElse(Integer.MAX_VALUE),
+                                Comparator.nullsLast(Comparator.naturalOrder()))
+                        .thenComparing(Album::getAdditionOrder))
                 .collect(Collectors.toList());
     }
 
@@ -135,7 +150,11 @@ public final class SearchBar {
         for (Map.Entry<String, Object> filter : filters.entrySet()) {
             switch (filter.getKey().toLowerCase()) {
                 case "name":
-                    if (!song.getName().startsWith((String) filter.getValue())) {
+//                    if (!song.getName().startsWith((String) filter.getValue())) {
+//                        return false;
+//                    }
+                    String filterValue = ((String) filter.getValue()).toLowerCase();
+                    if (!song.getName().toLowerCase().startsWith(filterValue)) {
                         return false;
                     }
                     break;

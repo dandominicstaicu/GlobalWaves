@@ -146,7 +146,7 @@ public class WrappedStats {
     public List<Map.Entry<String, Integer>> top5Albums() {
         return albumsListenCount.entrySet().stream()
                 .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
-                .limit(15)
+                .limit(5)
                 .collect(Collectors.toList());
     }
 

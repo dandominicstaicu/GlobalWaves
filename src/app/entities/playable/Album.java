@@ -16,14 +16,16 @@ public class Album implements Searchable {
     private ArrayList<Song> songs;
     private String owner;
 
+    private Integer additionOrder;
+
     /**
      * Constructs a new Album with the given attributes.
      *
-     * @param name         The name of the album.
-     * @param releaseYear  The release year of the album.
-     * @param description  The description of the album.
-     * @param newSongs     The list of songs in the album.
-     * @param owner        The username of the user who owns the album.
+     * @param name        The name of the album.
+     * @param releaseYear The release year of the album.
+     * @param description The description of the album.
+     * @param newSongs    The list of songs in the album.
+     * @param owner       The username of the user who owns the album.
      */
     public Album(final String name, final int releaseYear, final String description,
                  final ArrayList<Song> newSongs, final String owner) {

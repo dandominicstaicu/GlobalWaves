@@ -17,6 +17,7 @@ import app.entities.playable.audio_files.Song;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -30,6 +31,8 @@ public class Artist extends User implements Searchable {
     private ArrayList<Merch> merchList;
     private ArtistPage artistPage;
 
+    private Integer id;
+
     private WrappedStats wrappedStats;
 
     private Monetization monetization;
@@ -39,8 +42,8 @@ public class Artist extends User implements Searchable {
      * Initializes empty lists for events and merchandise, as well as an associated ArtistPage.
      *
      * @param username The username of the artist.
-     * @param age The age of the artist.
-     * @param city The city where the artist is based.
+     * @param age      The age of the artist.
+     * @param city     The city where the artist is based.
      */
     public Artist(final String username, final int age, final String city) {
         super(username, age, city, UserTypes.ARTIST);
@@ -51,8 +54,6 @@ public class Artist extends User implements Searchable {
         this.wrappedStats = new WrappedStats(this);
         this.monetization = new Monetization(this);
     }
-
-
 
     /**
      * Adds an event to the artist's list of events.
@@ -124,6 +125,7 @@ public class Artist extends User implements Searchable {
     @Override
     public void addUser(final Library library) {
         library.getArtists().add(this);
+        this.id = library.getArtists().size() - 1;
     }
 
     /**
@@ -207,8 +209,8 @@ public class Artist extends User implements Searchable {
      * for the user.
      *
      * @param searchBar The SearchBar used for the operation.
-     * @param user The user who is selecting the artist.
-     * @param out The output node where the result message is set.
+     * @param user      The user who is selecting the artist.
+     * @param out       The output node where the result message is set.
      */
     @Override
     public void handleSelect(final SearchBar searchBar, final NormalUser user,

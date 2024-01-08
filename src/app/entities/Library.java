@@ -21,6 +21,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -61,14 +62,24 @@ public final class Library {
     public List<Artist> getMonetizedArtists() {
         return artists.stream()
                 .filter(artist -> artist.getMonetization().getInteracted())
-                .sorted((artist1, artist2) -> {
-                    double totalRevenue1 = artist1.getMonetization().getSongRevenue()
-                            + artist1.getMonetization().getMerchRevenue();
-                    double totalRevenue2 = artist2.getMonetization().getSongRevenue()
-                            + artist2.getMonetization().getMerchRevenue();
-                    return Double.compare(totalRevenue2, totalRevenue1);
-                })
+                .sorted(Comparator.comparing((Artist artist) -> {
+                            return artist.getMonetization().getSongRevenue()
+                                    + artist.getMonetization().getMerchRevenue();
+                        }).reversed() // Sort in descending order by total revenue
+                        .thenComparing(Artist::getUsername)) // Then sort alphabetically by artist's name
                 .collect(Collectors.toList());
+
+//    public List<Artist> getMonetizedArtists() {
+//        return artists.stream()
+//                .filter(artist -> artist.getMonetization().getInteracted())
+//                .sorted((artist1, artist2) -> {
+//                    double totalRevenue1 = artist1.getMonetization().getSongRevenue()
+//                            + artist1.getMonetization().getMerchRevenue();
+//                    double totalRevenue2 = artist2.getMonetization().getSongRevenue()
+//                            + artist2.getMonetization().getMerchRevenue();
+//                    return Double.compare(totalRevenue2, totalRevenue1);
+//                })
+//                .collect(Collectors.toList());
     }
 
 //    public HashMap<String, Monetization> getArtistsMonetization() {
@@ -387,6 +398,7 @@ public final class Library {
      * @param album The album to be added
      */
     public void addAlbum(final Album album) {
+        album.setAdditionOrder(albums.size());
         albums.add(album);
     }
 
