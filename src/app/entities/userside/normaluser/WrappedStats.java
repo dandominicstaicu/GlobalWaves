@@ -22,12 +22,16 @@ public class WrappedStats {
     private HashMap<String, Integer> episodesListenCount;
     private HashMap<String, Integer> listenersCount;
 
+    private Boolean registeredStats;
+
     public WrappedStats(NormalUser normalUser) {
         this.artistsListenCount = new HashMap<>();
         this.genresListenCount = new HashMap<>();
         this.songsListenCount = new HashMap<>();
         this.albumsListenCount = new HashMap<>();
         this.episodesListenCount = new HashMap<>();
+
+        this.registeredStats = false;
     }
 
     public WrappedStats(Artist artist) {
@@ -39,6 +43,10 @@ public class WrappedStats {
     public WrappedStats(Host host) {
         this.episodesListenCount = new HashMap<>();
         this.listenersCount = new HashMap<>();
+    }
+
+    public void registerStats() {
+        this.registeredStats = true;
     }
 
     /**
@@ -169,7 +177,8 @@ public class WrappedStats {
      */
     public List<Map.Entry<String, Integer>> top5Fans() {
         return listenersCount.entrySet().stream()
-                .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
+                .sorted(Map.Entry.<String, Integer>comparingByValue().reversed()
+                        .thenComparing(Map.Entry::getKey))
                 .limit(5)
                 .collect(Collectors.toList());
     }

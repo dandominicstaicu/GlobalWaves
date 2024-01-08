@@ -26,7 +26,7 @@ public class Wrapped extends Command {
 
         User user = library.getFromAllUsers(getUsername());
         if (user == null) {
-            out.put(Output.MESSAGE, Output.WRAPPED_ERR + getUsername());
+            out.put(Output.MESSAGE, Output.WRAPPED_ERR + getUsername() + ".");
             return;
         }
 

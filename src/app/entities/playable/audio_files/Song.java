@@ -128,6 +128,8 @@ public class Song extends AudioFile implements Searchable {
         System.out.println("; Album: " + this.getAlbum());
         WrappedStats stats = user.getWrappedStats();
 
+        stats.registerStats();
+
         // stats for the user
         stats.addSongListenCount(this.getName());
         stats.addArtistListenCount(this.getArtist());
@@ -137,6 +139,8 @@ public class Song extends AudioFile implements Searchable {
         // stats for the artist
         Artist artist = lib.getArtistWithName(this.getArtist());
         WrappedStats artistStats = artist.getWrappedStats();
+
+        artistStats.registerStats();
 
         artistStats.addAlbumListenCount(this.getAlbum());
         artistStats.addSongListenCount(this.getName());

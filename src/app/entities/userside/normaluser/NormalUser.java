@@ -204,6 +204,11 @@ public class NormalUser extends User {
 
     @Override
     public void printWrappedStats(final ObjectNode out) {
+        if (!wrappedStats.getRegisteredStats()) {
+            out.put(Output.MESSAGE, Output.WRAPPED_ERR + getUsername() + ".");
+            return;
+        }
+
         ObjectNode result = out.putObject(Output.RESULT);
 
         List<Map.Entry<String, Integer>> topArtists = wrappedStats.top5Artists();
