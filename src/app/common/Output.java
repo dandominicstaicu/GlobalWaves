@@ -160,10 +160,18 @@ public final class Output {
     public static final String TOP_5_ARTISTS = "getTop5Artists";
     public static final String NON_EXISTENT_PAGE = " is trying to access a non-existent page.";
     public static final String WRAPPED = "wrapped";
-    public static final String WRAPPED_ERR = "No data to show for user ";
+    public static final String WRAPPED_ERR_USER = "No data to show for user ";
+    public static final String WRAPPED_ERR_ARTIST = "No data to show for artist ";
+    public static final String WRAPPED_ERR_HOST = "No data to show for host ";
     public static final String END_PROGRAM = "endProgram";
     public static final String SONG_REVENUE = "songRevenue";
     public static final String MERCH_REVENUE = "merchRevenue";
     public static final String RANKING = "ranking";
     public static final String MOST_PROFITABLE = "mostProfitableSong";
+    public static final String BUY_PREMIUM = "buyPremium";
+    public static final String ALREADY_PREMIUM = " is already a premium user.";
+    public static final String BUY_PREMIUM_SUCCESS = " bought the subscription successfully.";
+    public static final String CANCEL_PREMIUM = "cancelPremium";
+    public static final String NOT_PREMIUM = " is not a premium user.";
+    public static final String CANCEL_PREMIUM_SUCCESS = " cancelled the subscription successfully.";
 }

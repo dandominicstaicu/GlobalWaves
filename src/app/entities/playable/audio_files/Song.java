@@ -149,6 +149,13 @@ public class Song extends AudioFile implements Searchable {
         // monetization
         Monetization monetization = artist.getMonetization();
         monetization.interact();
+
+        // add the song in the history of the user
+        if (user.getIsPremium()) {
+            user.addPremiumHistory(this);
+        } else {
+            user.addRegularHistory(this);
+        }
     }
 
     /**

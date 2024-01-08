@@ -55,6 +55,21 @@ public final class Library {
     }
 
     /**
+     * Returns the singleton instance of the Library class.
+     * If the instance does not exist, it creates a new one.
+     * If it already exists, it returns the existing instance.
+     *
+     * @return The singleton instance of the Library class.
+     */
+    public static synchronized Library getInstance() {
+        if (libraryInstance == null) {
+            libraryInstance = new Library();
+        }
+
+        return libraryInstance;
+    }
+
+    /**
      * Gets artists with interacted set to true and sorts them by total revenue.
      *
      * @return A list of artists sorted by total revenue in decreasing order.

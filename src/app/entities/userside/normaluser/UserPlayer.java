@@ -101,9 +101,7 @@ public class UserPlayer {
             final int playedTime = audioQueue.get(playingIndex).getPlayedTime();
             int currentAudioDuration = audioQueue.get(playingIndex).getDuration() - playedTime;
 
-
-
-            if (loadedTimestamp + currentAudioDuration <= currentTimestamp) { // might be <= in the 3rd stage lol
+            if (loadedTimestamp + currentAudioDuration <= currentTimestamp) { // was < until the 3rd stage
                 loadedTimestamp = loadedTimestamp + currentAudioDuration;
                 initialStartTimestamp = loadedTimestamp;
 

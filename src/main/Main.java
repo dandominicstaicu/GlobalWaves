@@ -1,6 +1,6 @@
 package main;
 
-import app.commands.specialusers.EndProgram;
+import app.commands.admin.EndProgram;
 import checker.Checker;
 import checker.CheckerConstants;
 import com.fasterxml.jackson.core.type.TypeReference;

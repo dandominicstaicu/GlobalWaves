@@ -1,8 +1,5 @@
 package app.entities.userside.normaluser;
 
-import app.entities.playable.Album;
-import app.entities.playable.audio_files.Episode;
-import app.entities.playable.audio_files.Song;
 import app.entities.userside.artist.Artist;
 import app.entities.userside.host.Host;
 import lombok.Getter;
@@ -38,11 +35,15 @@ public class WrappedStats {
         this.songsListenCount = new HashMap<>();
         this.albumsListenCount = new HashMap<>();
         this.listenersCount = new HashMap<>();
+
+        this.registeredStats = false;
     }
 
     public WrappedStats(Host host) {
         this.episodesListenCount = new HashMap<>();
         this.listenersCount = new HashMap<>();
+
+        this.registeredStats = false;
     }
 
     public void registerStats() {

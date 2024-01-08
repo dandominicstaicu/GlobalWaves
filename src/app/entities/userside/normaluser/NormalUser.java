@@ -1,21 +1,21 @@
 package app.entities.userside.normaluser;
 
+import app.commands.specialusers.artist.Monetization;
+import app.common.Constants;
 import app.common.Output;
 import app.common.UserTypes;
 import app.entities.Library;
 import app.entities.playable.Playlist;
-import app.entities.playable.audio_files.Episode;
 import app.entities.playable.audio_files.Song;
 import app.entities.userside.User;
+import app.entities.userside.artist.Artist;
 import app.entities.userside.pages.HomePage;
 import app.entities.userside.pages.Page;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import lombok.Getter;
 import lombok.Setter;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
+
+import java.util.*;
 
 @Getter
 @Setter
@@ -28,8 +28,8 @@ public class NormalUser extends User {
 
     private WrappedStats wrappedStats;
 
-    private ArrayList<Song> regularHistory;
-    private ArrayList<Song> premiumHistory;
+    private HashMap<String, ArrayList<Song>> regularHistory;
+    private HashMap<String, ArrayList<Song>> premiumHistory;
 
     private Boolean isPremium;
 
@@ -42,6 +42,9 @@ public class NormalUser extends User {
         this.currentPage = new HomePage();
         this.wrappedStats = new WrappedStats(this);
         this.isPremium = false;
+
+        this.premiumHistory = new HashMap<>();
+        this.regularHistory = new HashMap<>();
     }
 
     /**
@@ -205,7 +208,7 @@ public class NormalUser extends User {
     @Override
     public void printWrappedStats(final ObjectNode out) {
         if (!wrappedStats.getRegisteredStats()) {
-            out.put(Output.MESSAGE, Output.WRAPPED_ERR + getUsername() + ".");
+            out.put(Output.MESSAGE, Output.WRAPPED_ERR_USER + getUsername() + ".");
             return;
         }
 
@@ -242,4 +245,72 @@ public class NormalUser extends User {
         }
     }
 
+    private void addValue(HashMap<String, ArrayList<Song>> map, String key, Song value) {
+        map.computeIfAbsent(key, k -> new ArrayList<>()).add(value);
+    }
+
+    public void addPremiumHistory(Song song) {
+//        premiumHistory.add(song);
+//        int currentCount = premiumHistory.getOrDefault(song, 0);
+//        premiumHistory.put(song, currentCount + 1);
+        addValue(premiumHistory, song.getArtist(), song);
+
+    }
+
+    public void addRegularHistory(Song song) {
+//        regularHistory.add(song);
+//        int currentCount = regularHistory.getOrDefault(song, 0);
+//        regularHistory.put(song, currentCount + 1);
+        addValue(regularHistory, song.getArtist(), song);
+    }
+
+    private Double getTotalNumberOfSongs() {
+        Double totalSongs = 0.0;
+
+        for (ArrayList<Song> songs : premiumHistory.values()) {
+            totalSongs += songs.size();
+        }
+
+        return totalSongs;
+    }
+
+    public void payPremiumArtist(Library lib) {
+        // sanity check
+        if (premiumHistory.isEmpty()) {
+            return;
+        }
+
+//        Double song_total = premiumHistory.values().stream().mapToDouble(Integer::intValue).sum();
+        Double song_total = getTotalNumberOfSongs();
+
+        for (Map.Entry<String, ArrayList<Song>> entry : premiumHistory.entrySet()) {
+//            Song song = entry.getKey();
+//            String artistName = song.getArtist();
+//            Integer count = entry.getValue();
+
+            String artistName = entry.getKey();
+            ArrayList<Song> songs = entry.getValue();
+            Integer count = songs.size();
+
+//            Library lib = Library.getInstance();
+            Artist artist = lib.getArtistWithName(artistName);
+
+            if (artist == null) {
+                System.out.println("this should not happen");
+                return;
+            }
+
+            Monetization monetization = artist.getMonetization();
+            Double revenuePerSong = Constants.PREMIUM_CREDIT / song_total;
+            Double revenue = Constants.PREMIUM_CREDIT / song_total * count;
+
+            for (Song song : songs) {
+                monetization.addRevenuePerSong(song.getName(), revenuePerSong);
+            }
+
+            monetization.addSongRevenue(revenue);
+        }
+
+        premiumHistory.clear();
+    }
 }

@@ -180,6 +180,11 @@ public class Artist extends User implements Searchable {
 
     @Override
     public void printWrappedStats(ObjectNode out) {
+        if (!wrappedStats.getRegisteredStats()) {
+            out.put(Output.MESSAGE, Output.WRAPPED_ERR_ARTIST + getUsername() + ".");
+            return;
+        }
+
         ObjectNode result = out.putObject(Output.RESULT);
 
         List<Map.Entry<String, Integer>> topAlbums = wrappedStats.top5Albums();

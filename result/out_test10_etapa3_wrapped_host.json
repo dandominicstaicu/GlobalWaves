@@ -199,33 +199,17 @@
   "command" : "wrapped",
   "user" : "Guy Raz",
   "timestamp" : 4000,
-  "result" : {
-    "topEpisodes" : {
-      "The Power of Design" : 2,
-      "The Science of Us" : 1
-    },
-    "listeners" : 1
-  }
+  "message" : "No data to show for host Guy Raz."
 }, {
   "command" : "wrapped",
   "user" : "Jad Abumrad and Robert Krulwich",
   "timestamp" : 4000,
-  "result" : {
-    "topEpisodes" : {
-      "Ghosts" : 1
-    },
-    "listeners" : 1
-  }
+  "message" : "No data to show for host Jad Abumrad and Robert Krulwich."
 }, {
   "command" : "wrapped",
   "user" : "Joe Rogan",
   "timestamp" : 4000,
-  "result" : {
-    "topEpisodes" : {
-      "Elon Musk Returns" : 1
-    },
-    "listeners" : 1
-  }
+  "message" : "No data to show for host Joe Rogan."
 }, {
   "command" : "endProgram",
   "result" : { }

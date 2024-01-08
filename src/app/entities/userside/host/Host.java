@@ -109,6 +109,11 @@ public class Host extends User implements Searchable {
 
     @Override
     public void printWrappedStats(final ObjectNode out) {
+        if (!wrappedStats.getRegisteredStats()) {
+            out.put(Output.MESSAGE, Output.WRAPPED_ERR_HOST + getUsername() + ".");
+            return;
+        }
+
         ObjectNode result = out.putObject(Output.RESULT);
 
         List<Map.Entry<String, Integer>> topEpisodes = wrappedStats.top5Episodes();
