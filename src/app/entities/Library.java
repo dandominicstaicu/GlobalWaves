@@ -611,4 +611,14 @@ public final class Library {
         return false;
     }
 
+    public Song getAdContent() {
+        for (Song song : songs) {
+            if (song.getName().equals("Ad Break")) {
+                return song;
+            }
+        }
+
+        return null;
+    }
+
 }

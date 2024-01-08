@@ -39,28 +39,12 @@ public class Monetization {
     }
 
     public void addRevenuePerSong(String song, Double revenue) {
-//        this.songRevenue += revenue;
         Double currentRevenue = revenuePerSong.getOrDefault(song, 0.0);
         currentRevenue += revenue;
         this.revenuePerSong.put(song, currentRevenue);
     }
 
-//    private String getKeyWithHighestValue() {
-//        String keyWithHighestValue = null;
-//        double highestValue = Double.MIN_VALUE;
-//
-//        for (Map.Entry<String, Double> entry : revenuePerSong.entrySet()) {
-//            if (entry.getValue() > highestValue) {
-//                highestValue = entry.getValue();
-//                keyWithHighestValue = entry.getKey();
-//            }
-//
-//
-//        }
-//
-//        return keyWithHighestValue;
-//    }
-
+    // chat GPT wrote this when I asked for a function that gets the highest value in a hashmap
     private String getKeyWithHighestValue() {
         String keyWithHighestValue = null;
         double highestValue = Double.MIN_VALUE;

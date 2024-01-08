@@ -5,6 +5,7 @@ import app.common.RepeatStates;
 import app.entities.Library;
 import app.entities.playable.Searchable;
 import app.entities.playable.audio_files.AudioFile;
+import app.entities.playable.audio_files.Song;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
@@ -173,6 +174,11 @@ public class UserPlayer {
         }
     }
 
+    // Helper method to identify if the current AudioFile is an ad break
+    private boolean isAdBreak(AudioFile audioFile) {
+        return audioFile.getName().equals("Ad Break");
+    }
+
     /**
      * Processes the next track in the playlist or shuffled list.
      *
@@ -180,6 +186,10 @@ public class UserPlayer {
      * @param currentTimestamp The current timestamp for updating playback.
      */
     public void next(final boolean isCommand, final int currentTimestamp, final Library lib, final NormalUser user) {
+        if (isAdBreak(audioQueue.get(playingIndex))) {
+            return;
+        }
+
         if (isRepeating == RepeatStates.REPEAT_CURRENT_SONG
                 || isRepeating == RepeatStates.REPEAT_INFINITE) {
             audioQueue.get(playingIndex).setPlayedTime(Constants.START_OF_SONG);
@@ -557,4 +567,27 @@ public class UserPlayer {
             }
         }
     }
+
+    public void insertAdBreak(final Library lib) {
+        Song ad = lib.getAdContent();
+        if (ad == null) {
+            System.out.println("ad not found");
+            return;
+        }
+
+        if (playingIndexIsValid()) {
+            if (playingIndex + 1 < audioQueue.size()) {
+                audioQueue.add(playingIndex + 1, ad);
+            } else {
+                // If the current song is the last one in the queue, add the ad to the end
+                audioQueue.add(ad);
+            }
+        } else {
+            // empty queue
+            System.out.println("no music playing. how did it get here?");
+        }
+
+
+    }
+
 }

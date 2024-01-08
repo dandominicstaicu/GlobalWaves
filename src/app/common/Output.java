@@ -174,4 +174,9 @@ public final class Output {
     public static final String CANCEL_PREMIUM = "cancelPremium";
     public static final String NOT_PREMIUM = " is not a premium user.";
     public static final String CANCEL_PREMIUM_SUCCESS = " cancelled the subscription successfully.";
+    public static final String AD_BREAK = "adBreak";
+    public static final String NOT_PLAYING = " is not playing any music.";
+    public static final String AD_SUCCESS = "Ad inserted successfully.";
+
+
 }

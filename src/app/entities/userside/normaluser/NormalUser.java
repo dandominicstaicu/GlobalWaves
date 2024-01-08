@@ -250,17 +250,10 @@ public class NormalUser extends User {
     }
 
     public void addPremiumHistory(Song song) {
-//        premiumHistory.add(song);
-//        int currentCount = premiumHistory.getOrDefault(song, 0);
-//        premiumHistory.put(song, currentCount + 1);
         addValue(premiumHistory, song.getArtist(), song);
-
     }
 
     public void addRegularHistory(Song song) {
-//        regularHistory.add(song);
-//        int currentCount = regularHistory.getOrDefault(song, 0);
-//        regularHistory.put(song, currentCount + 1);
         addValue(regularHistory, song.getArtist(), song);
     }
 
@@ -280,19 +273,13 @@ public class NormalUser extends User {
             return;
         }
 
-//        Double song_total = premiumHistory.values().stream().mapToDouble(Integer::intValue).sum();
         Double song_total = getTotalNumberOfSongs();
 
         for (Map.Entry<String, ArrayList<Song>> entry : premiumHistory.entrySet()) {
-//            Song song = entry.getKey();
-//            String artistName = song.getArtist();
-//            Integer count = entry.getValue();
-
             String artistName = entry.getKey();
             ArrayList<Song> songs = entry.getValue();
             Integer count = songs.size();
 
-//            Library lib = Library.getInstance();
             Artist artist = lib.getArtistWithName(artistName);
 
             if (artist == null) {
@@ -313,4 +300,9 @@ public class NormalUser extends User {
 
         premiumHistory.clear();
     }
+
+    public void insertAd(Library lib, Double price) {
+
+    }
+
 }
