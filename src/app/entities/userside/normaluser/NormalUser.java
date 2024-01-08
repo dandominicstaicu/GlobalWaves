@@ -257,10 +257,10 @@ public class NormalUser extends User {
         addValue(regularHistory, song.getArtist(), song);
     }
 
-    private Double getTotalNumberOfSongs() {
+    private Double getTotalNumberOfSongs(HashMap<String, ArrayList<Song>> history) {
         Double totalSongs = 0.0;
 
-        for (ArrayList<Song> songs : premiumHistory.values()) {
+        for (ArrayList<Song> songs : history.values()) {
             totalSongs += songs.size();
         }
 
@@ -273,7 +273,7 @@ public class NormalUser extends User {
             return;
         }
 
-        Double song_total = getTotalNumberOfSongs();
+        Double song_total = getTotalNumberOfSongs(premiumHistory);
 
         for (Map.Entry<String, ArrayList<Song>> entry : premiumHistory.entrySet()) {
             String artistName = entry.getKey();
@@ -301,8 +301,39 @@ public class NormalUser extends User {
         premiumHistory.clear();
     }
 
-    public void insertAd(Library lib, Double price) {
+    public void insertAd(final Library lib, final Double price) {
+        player.insertAdBreak(lib);
+        System.out.println("load an ad to queue");
+        monetizeAd(lib, price);
+    }
 
+    public void monetizeAd(final Library lib, final Double price) {
+        Double song_last = getTotalNumberOfSongs(regularHistory);
+
+        for (Map.Entry<String, ArrayList<Song>> entry : regularHistory.entrySet()) {
+            String artistName = entry.getKey();
+            ArrayList<Song> songs = entry.getValue();
+            Integer count = songs.size();
+
+            Artist artist = lib.getArtistWithName(artistName);
+
+            if (artist == null) {
+                System.out.println("this should not happen");
+                return;
+            }
+
+            Monetization monetization = artist.getMonetization();
+            Double revenuePerSong = price / song_last;
+            Double revenue = price / song_last * count;
+
+            for (Song song : songs) {
+                monetization.addRevenuePerSong(song.getName(), revenuePerSong);
+            }
+
+            monetization.addSongRevenue(revenue);
+        }
+
+        regularHistory.clear();
     }
 
 }

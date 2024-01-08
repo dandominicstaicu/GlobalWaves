@@ -14,7 +14,7 @@ import lombok.*;
 @AllArgsConstructor
 @Builder
 public class AdBreak extends Command {
-    private Integer price;
+    private Double price;
 
     @Override
     public String toString() {
@@ -25,7 +25,7 @@ public class AdBreak extends Command {
 
     @Override
     public void execute(final ArrayNode outputs, final Library library, final boolean offline) {
-        System.out.println(this.toString());
+//        System.out.println(this.toString());
 
         ObjectNode out = outputs.addObject();
 
@@ -42,8 +42,7 @@ public class AdBreak extends Command {
             return;
         }
 
-
-
+        user.insertAd(library, price);
         out.put(Output.MESSAGE, Output.AD_SUCCESS);
 
     }
