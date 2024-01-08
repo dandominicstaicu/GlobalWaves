@@ -116,7 +116,8 @@ public class WrappedStats {
      */
     public List<Map.Entry<String, Integer>> top5Artists() {
         return artistsListenCount.entrySet().stream()
-                .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
+                .sorted(Map.Entry.<String, Integer>comparingByValue().reversed()
+                        .thenComparing(Map.Entry::getKey))
                 .limit(5)
                 .collect(Collectors.toList());
     }

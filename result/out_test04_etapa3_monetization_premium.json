@@ -1485,9 +1485,7 @@
       "Out of Sight" : 11,
       "The 50th Anniversary Collection" : 9,
       "The Dark Side of the Moon" : 6,
-      "The Wall" : 5,
-      "Wish You Were Here" : 4,
-      "20 All-Time Greatest Hits!" : 1
+      "The Wall" : 5
     },
     "topEpisodes" : { }
   }
@@ -1675,8 +1673,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 7197,
-  "message" : "Search returned 1 results",
-  "results" : [ "Shine on You Crazy Diamond" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Shine on You Crazy Diamond", "Shine On You Crazy Diamond (Part Two)" ]
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -2269,12 +2267,12 @@
   "timestamp" : 9712,
   "result" : {
     "topArtists" : {
-      "Pink Floyd" : 32,
+      "Pink Floyd" : 33,
       "Aretha Franklin" : 12,
       "James Brown" : 6
     },
     "topGenres" : {
-      "progressive rock" : 32,
+      "progressive rock" : 33,
       "soul" : 12,
       "funk" : 6
     },
@@ -2286,13 +2284,11 @@
       "Welcome to the Machine" : 2
     },
     "topAlbums" : {
-      "The Wall" : 19,
+      "The Wall" : 20,
       "Soul Queen" : 12,
       "Wish You Were Here" : 8,
       "The 50th Anniversary Collection" : 4,
-      "The Division Bell" : 3,
-      "The Dark Side of the Moon" : 2,
-      "Out of Sight" : 2
+      "The Division Bell" : 3
     },
     "topEpisodes" : { }
   }
@@ -2323,8 +2319,7 @@
       "Soul Queen" : 8,
       "The Dark Side of the Moon" : 5,
       "Out of Sight" : 5,
-      "Wish You Were Here" : 4,
-      "20 All-Time Greatest Hits!" : 1
+      "Wish You Were Here" : 4
     },
     "topEpisodes" : { }
   }
@@ -2478,8 +2473,8 @@
   "timestamp" : 14712,
   "result" : {
     "topAlbums" : {
+      "The Wall" : 25,
       "The Dark Side of the Moon" : 24,
-      "The Wall" : 24,
       "The Division Bell" : 19,
       "Wish You Were Here" : 19
     },
@@ -2748,7 +2743,7 @@
       "My Song" : 3,
       "Night Life" : 3
     },
-    "topFans" : [ "grace25", "jack29", "henry26", "carol19" ],
+    "topFans" : [ "grace25", "henry26", "jack29", "carol19" ],
     "listeners" : 4
   }
 }, {
@@ -2798,10 +2793,30 @@
       "The Division Bell" : 16,
       "20 All-Time Greatest Hits!" : 15,
       "The Dark Side of the Moon" : 11,
-      "The 50th Anniversary Collection" : 7,
-      "Wish You Were Here" : 3,
-      "Out of Sight" : 3
+      "The 50th Anniversary Collection" : 7
     },
     "topEpisodes" : { }
+  }
+}, {
+  "command" : "endProgram",
+  "result" : {
+    "Aretha Franklin" : {
+      "songRevenue" : 0.0,
+      "merchRevenue" : 0.0,
+      "ranking" : 1,
+      "mostProfitableSong" : "N/A"
+    },
+    "James Brown" : {
+      "songRevenue" : 0.0,
+      "merchRevenue" : 0.0,
+      "ranking" : 2,
+      "mostProfitableSong" : "N/A"
+    },
+    "Pink Floyd" : {
+      "songRevenue" : 0.0,
+      "merchRevenue" : 0.0,
+      "ranking" : 3,
+      "mostProfitableSong" : "N/A"
+    }
   }
 } ]

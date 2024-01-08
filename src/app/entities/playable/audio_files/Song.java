@@ -125,7 +125,7 @@ public class Song extends AudioFile implements Searchable {
     @Override
     public void editStats(final Library lib, final NormalUser user) {
 //        System.out.println("Editing stats for song " + this.getName());
-        System.out.println("; Album: " + this.getAlbum());
+//        System.out.println("; Album: " + this.getAlbum());
         WrappedStats stats = user.getWrappedStats();
 
         stats.registerStats();

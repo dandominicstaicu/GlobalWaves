@@ -92,4 +92,14 @@
   "user" : "alice22",
   "timestamp" : 190,
   "message" : "Liked songs:\n\t[Amsterdam]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "endProgram",
+  "result" : {
+    "Nothing But Thieves" : {
+      "songRevenue" : 0.0,
+      "merchRevenue" : 0.0,
+      "ranking" : 1,
+      "mostProfitableSong" : "N/A"
+    }
+  }
 } ]

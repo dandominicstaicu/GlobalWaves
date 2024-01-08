@@ -101,4 +101,14 @@
   "user" : "carmenzz",
   "timestamp" : 185,
   "message" : "Liked songs:\n\t[Rocket Man - Elton John, Your Song - Elton John]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "endProgram",
+  "result" : {
+    "Elton John" : {
+      "songRevenue" : 0.0,
+      "merchRevenue" : 0.0,
+      "ranking" : 1,
+      "mostProfitableSong" : "N/A"
+    }
+  }
 } ]

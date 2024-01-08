@@ -1748,8 +1748,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 1098,
-  "message" : "Search returned 2 results",
-  "results" : [ "The Battle of Evermore", "The Battle of Evermore" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "The Battle of Evermore", "The Battle of Evermore", "The Battle Of Evermore - Mandolin / Guitar Mix From Headley Grange" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -1968,8 +1968,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1348,
-  "message" : "Search returned 2 results",
-  "results" : [ "Stairway to Heaven", "Stairway to Heaven" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Stairway to Heaven", "Stairway to Heaven", "Stairway To Heaven - Sunset Sound Mix" ]
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -2054,8 +2054,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 1443,
-  "message" : "Search returned 2 results",
-  "results" : [ "When the Levee Breaks", "When the Levee Breaks" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "When the Levee Breaks", "When the Levee Breaks", "When The Levee Breaks - Alternate UK Mix In Progress" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -2417,8 +2417,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 2010,
-  "message" : "Search returned 2 results",
-  "results" : [ "When the Levee Breaks", "When the Levee Breaks" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "When the Levee Breaks", "When the Levee Breaks", "When The Levee Breaks - Alternate UK Mix In Progress" ]
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -2486,8 +2486,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 2053,
-  "message" : "Search returned 2 results",
-  "results" : [ "The Battle of Evermore", "The Battle of Evermore" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "The Battle of Evermore", "The Battle of Evermore", "The Battle Of Evermore - Mandolin / Guitar Mix From Headley Grange" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -2507,8 +2507,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 2084,
-  "message" : "Search returned 2 results",
-  "results" : [ "Rock and Roll", "Rock and Roll" ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Rock and Roll", "Rock and Roll", "Rock And Roll - Alternate Mix", "Rock And Roll Music - 1958 Single Version" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -2523,8 +2523,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 2130,
-  "message" : "Search returned 2 results",
-  "results" : [ "When the Levee Breaks", "When the Levee Breaks" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "When the Levee Breaks", "When the Levee Breaks", "When The Levee Breaks - Alternate UK Mix In Progress" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -2645,8 +2645,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 2233,
-  "message" : "Search returned 2 results",
-  "results" : [ "The Battle of Evermore", "The Battle of Evermore" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "The Battle of Evermore", "The Battle of Evermore", "The Battle Of Evermore - Mandolin / Guitar Mix From Headley Grange" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -2831,8 +2831,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 2558,
-  "message" : "Search returned 2 results",
-  "results" : [ "When the Levee Breaks", "When the Levee Breaks" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "When the Levee Breaks", "When the Levee Breaks", "When The Levee Breaks - Alternate UK Mix In Progress" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -2943,8 +2943,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 2777,
-  "message" : "Search returned 2 results",
-  "results" : [ "When the Levee Breaks", "When the Levee Breaks" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "When the Levee Breaks", "When the Levee Breaks", "When The Levee Breaks - Alternate UK Mix In Progress" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -3146,8 +3146,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 2991,
-  "message" : "Search returned 2 results",
-  "results" : [ "Stairway to Heaven", "Stairway to Heaven" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Stairway to Heaven", "Stairway to Heaven", "Stairway To Heaven - Sunset Sound Mix" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -3231,8 +3231,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 3042,
-  "message" : "Search returned 2 results",
-  "results" : [ "The Battle of Evermore", "The Battle of Evermore" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "The Battle of Evermore", "The Battle of Evermore", "The Battle Of Evermore - Mandolin / Guitar Mix From Headley Grange" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -3311,8 +3311,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 3200,
-  "message" : "Search returned 2 results",
-  "results" : [ "Stairway to Heaven", "Stairway to Heaven" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Stairway to Heaven", "Stairway to Heaven", "Stairway To Heaven - Sunset Sound Mix" ]
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -3937,7 +3937,7 @@
       "What's Going On" : 6,
       "Right On" : 5
     },
-    "topFans" : [ "david27", "jack29", "frank21", "alice22", "carol19" ],
+    "topFans" : [ "david27", "frank21", "jack29", "alice22", "carol19" ],
     "listeners" : 10
   }
 }, {
@@ -4018,8 +4018,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 4174,
-  "message" : "Search returned 2 results",
-  "results" : [ "Rock and Roll", "Rock and Roll" ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Rock and Roll", "Rock and Roll", "Rock And Roll - Alternate Mix", "Rock And Roll Music - 1958 Single Version" ]
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -4050,8 +4050,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4192,
-  "message" : "Search returned 2 results",
-  "results" : [ "When the Levee Breaks", "When the Levee Breaks" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "When the Levee Breaks", "When the Levee Breaks", "When The Levee Breaks - Alternate UK Mix In Progress" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -4188,8 +4188,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 4394,
-  "message" : "Search returned 2 results",
-  "results" : [ "Stairway to Heaven", "Stairway to Heaven" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Stairway to Heaven", "Stairway to Heaven", "Stairway To Heaven - Sunset Sound Mix" ]
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -4204,8 +4204,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 4404,
-  "message" : "Search returned 2 results",
-  "results" : [ "Rock and Roll", "Rock and Roll" ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Rock and Roll", "Rock and Roll", "Rock And Roll - Alternate Mix", "Rock And Roll Music - 1958 Single Version" ]
 }, {
   "command" : "select",
   "user" : "david27",
@@ -4305,8 +4305,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 4514,
-  "message" : "Search returned 2 results",
-  "results" : [ "When the Levee Breaks", "When the Levee Breaks" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "When the Levee Breaks", "When the Levee Breaks", "When The Levee Breaks - Alternate UK Mix In Progress" ]
 }, {
   "command" : "select",
   "user" : "david27",
@@ -4321,8 +4321,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 4553,
-  "message" : "Search returned 2 results",
-  "results" : [ "When the Levee Breaks", "When the Levee Breaks" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "When the Levee Breaks", "When the Levee Breaks", "When The Levee Breaks - Alternate UK Mix In Progress" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -4358,8 +4358,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 4628,
-  "message" : "Search returned 2 results",
-  "results" : [ "Stairway to Heaven", "Stairway to Heaven" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Stairway to Heaven", "Stairway to Heaven", "Stairway To Heaven - Sunset Sound Mix" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -4427,8 +4427,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4719,
-  "message" : "Search returned 2 results",
-  "results" : [ "Stairway to Heaven", "Stairway to Heaven" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Stairway to Heaven", "Stairway to Heaven", "Stairway To Heaven - Sunset Sound Mix" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -4459,8 +4459,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 4767,
-  "message" : "Search returned 2 results",
-  "results" : [ "Going to California", "Going to California" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Going to California", "Going to California", "Going To California - Mandolin / Guitar Mix" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -4649,8 +4649,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 5164,
-  "message" : "Search returned 2 results",
-  "results" : [ "Going to California", "Going to California" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Going to California", "Going to California", "Going To California - Mandolin / Guitar Mix" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -4686,8 +4686,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 5205,
-  "message" : "Search returned 2 results",
-  "results" : [ "The Battle of Evermore", "The Battle of Evermore" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "The Battle of Evermore", "The Battle of Evermore", "The Battle Of Evermore - Mandolin / Guitar Mix From Headley Grange" ]
 }, {
   "command" : "select",
   "user" : "david27",
@@ -4733,8 +4733,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 5271,
-  "message" : "Search returned 2 results",
-  "results" : [ "Stairway to Heaven", "Stairway to Heaven" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Stairway to Heaven", "Stairway to Heaven", "Stairway To Heaven - Sunset Sound Mix" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -4834,8 +4834,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 5493,
-  "message" : "Search returned 2 results",
-  "results" : [ "Rock and Roll", "Rock and Roll" ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Rock and Roll", "Rock and Roll", "Rock And Roll - Alternate Mix", "Rock And Roll Music - 1958 Single Version" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -4935,8 +4935,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 5602,
-  "message" : "Search returned 2 results",
-  "results" : [ "Rock and Roll", "Rock and Roll" ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Rock and Roll", "Rock and Roll", "Rock And Roll - Alternate Mix", "Rock And Roll Music - 1958 Single Version" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -4951,8 +4951,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 5603,
-  "message" : "Search returned 2 results",
-  "results" : [ "Going to California", "Going to California" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Going to California", "Going to California", "Going To California - Mandolin / Guitar Mix" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -4967,8 +4967,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 5628,
-  "message" : "Search returned 2 results",
-  "results" : [ "Going to California", "Going to California" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Going to California", "Going to California", "Going To California - Mandolin / Guitar Mix" ]
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -5142,8 +5142,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 5854,
-  "message" : "Search returned 2 results",
-  "results" : [ "Stairway to Heaven", "Stairway to Heaven" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Stairway to Heaven", "Stairway to Heaven", "Stairway To Heaven - Sunset Sound Mix" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -6483,8 +6483,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 7558,
-  "message" : "Search returned 2 results",
-  "results" : [ "Roll over Beethoven", "Roll over Beethoven" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Roll over Beethoven", "Roll over Beethoven", "Roll Over Beethoven - Single Version" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -6929,8 +6929,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 7966,
-  "message" : "Search returned 2 results",
-  "results" : [ "Roll over Beethoven", "Roll over Beethoven" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Roll over Beethoven", "Roll over Beethoven", "Roll Over Beethoven - Single Version" ]
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -7051,8 +7051,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 8060,
-  "message" : "Search returned 1 results",
-  "results" : [ "No Particular Place to Go" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "No Particular Place to Go", "No Particular Place To Go - Single Version" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -7206,8 +7206,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 8211,
-  "message" : "Search returned 2 results",
-  "results" : [ "Around and Around", "Around and Around" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Around and Around", "Around and Around", "Around And Around - Single Version" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -7307,8 +7307,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 8322,
-  "message" : "Search returned 2 results",
-  "results" : [ "Roll over Beethoven", "Roll over Beethoven" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Roll over Beethoven", "Roll over Beethoven", "Roll Over Beethoven - Single Version" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -7392,8 +7392,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 8367,
-  "message" : "Search returned 2 results",
-  "results" : [ "Around and Around", "Around and Around" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Around and Around", "Around and Around", "Around And Around - Single Version" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -7455,8 +7455,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 8457,
-  "message" : "Search returned 2 results",
-  "results" : [ "Around and Around", "Around and Around" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Around and Around", "Around and Around", "Around And Around - Single Version" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -7598,8 +7598,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 8558,
-  "message" : "Search returned 1 results",
-  "results" : [ "No Particular Place to Go" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "No Particular Place to Go", "No Particular Place To Go - Single Version" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -7667,8 +7667,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 8609,
-  "message" : "Search returned 2 results",
-  "results" : [ "Roll over Beethoven", "Roll over Beethoven" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Roll over Beethoven", "Roll over Beethoven", "Roll Over Beethoven - Single Version" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -7762,8 +7762,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 8694,
-  "message" : "Search returned 2 results",
-  "results" : [ "Around and Around", "Around and Around" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Around and Around", "Around and Around", "Around And Around - Single Version" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -9165,8 +9165,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 10077,
-  "message" : "Search returned 2 results",
-  "results" : [ "Around and Around", "Around and Around" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Around and Around", "Around and Around", "Around And Around - Single Version" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -11236,7 +11236,7 @@
       "Hey Pedro" : 7,
       "Maybellene" : 7
     },
-    "topFans" : [ "jack29", "david27", "frank21", "bob35", "henry26" ],
+    "topFans" : [ "david27", "frank21", "jack29", "bob35", "henry26" ],
     "listeners" : 10
   }
 }, {
@@ -14926,7 +14926,7 @@
       "Money, Money, Money" : 6,
       "Dancing Queen" : 5
     },
-    "topFans" : [ "carol19", "alice22", "henry26", "frank21", "david27" ],
+    "topFans" : [ "carol19", "alice22", "frank21", "henry26", "david27" ],
     "listeners" : 10
   }
 }, {
@@ -17189,8 +17189,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 20147,
-  "message" : "Search returned 4 results",
-  "results" : [ "The Chain", "The Chain - 2004 Remastered Edition", "The Chain - Demo", "The Chain" ]
+  "message" : "Search returned 5 results",
+  "results" : [ "The Chain", "The Chain - 2004 Remastered Edition", "the chain - Live", "The Chain - Demo", "The Chain" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -18880,7 +18880,7 @@
       "Johnny Cash" : 15,
       "Led Zeppelin" : 12,
       "Madonna" : 12,
-      "Marvin Gaye" : 11
+      "Chuck Berry" : 11
     },
     "topGenres" : {
       "pop" : 46,
@@ -18901,17 +18901,7 @@
       "Led Zeppelin IV" : 8,
       "Chuck Berry Is On Top" : 7,
       "The Eminem Show" : 5,
-      "Thriller 25 Super Deluxe Edition" : 5,
-      "The Legend of Johnny Cash" : 5,
-      "Super Trouper" : 5,
-      "1989" : 5,
-      "United" : 4,
-      "Electric Ladyland" : 4,
-      "Confessions on a Dance Floor" : 4,
-      "Ray of Light" : 4,
-      "American IV: The Man Comes Around" : 4,
-      "Nothing But Thieves (Deluxe)" : 3,
-      "Unearthed" : 3
+      "Thriller 25 Super Deluxe Edition" : 5
     },
     "topEpisodes" : { }
   }
@@ -18999,8 +18989,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 22320,
-  "message" : "Search returned 4 results",
-  "results" : [ "The Chain", "The Chain - 2004 Remastered Edition", "The Chain - Demo", "The Chain" ]
+  "message" : "Search returned 5 results",
+  "results" : [ "The Chain", "The Chain - 2004 Remastered Edition", "the chain - Live", "The Chain - Demo", "The Chain" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -19130,9 +19120,9 @@
   "result" : {
     "topArtists" : {
       "Johnny Cash" : 22,
-      "Led Zeppelin" : 18,
-      "Jimi Hendrix" : 18,
       "Chuck Berry" : 18,
+      "Jimi Hendrix" : 18,
+      "Led Zeppelin" : 18,
       "Taylor Swift" : 13
     },
     "topGenres" : {
@@ -19154,17 +19144,7 @@
       "Chuck Berry Is On Top" : 10,
       "Electric Ladyland" : 9,
       "ABBA Gold" : 8,
-      "Led Zeppelin" : 6,
-      "reputation" : 6,
-      "Experience Hendrix: The Best of Jimi Hendrix" : 6,
-      "Thriller 25 Super Deluxe Edition" : 5,
-      "Led Zeppelin II" : 5,
-      "St. Louis to Liverpool" : 5,
-      "All That You Can't Leave Behind" : 4,
-      "Fearless" : 4,
-      "The Joshua Tree" : 4,
-      "Led Zeppelin IV (Deluxe Edition)" : 4,
-      "Midnight Love" : 4
+      "Led Zeppelin" : 6
     },
     "topEpisodes" : { }
   }
@@ -19343,17 +19323,7 @@
       "How to Dismantle an Atomic Bomb" : 9,
       "Voulez-Vous" : 8,
       "Broken Machine (Deluxe)" : 8,
-      "ABBA Gold" : 6,
-      "Greatest Hits" : 6,
-      "Nothing But Thieves (Deluxe)" : 5,
-      "The Eminem Show" : 5,
-      "United" : 5,
-      "Fearless" : 5,
-      "Achtung Baby" : 5,
-      "What's Going On" : 5,
-      "Celebration (Double Disc Version)" : 5,
-      "Ray of Light" : 4,
-      "St. Louis to Liverpool" : 4
+      "ABBA Gold" : 6
     },
     "topEpisodes" : { }
   }
@@ -19425,8 +19395,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 23193,
-  "message" : "Search returned 2 results",
-  "results" : [ "I Don't Want to Know", "I Don't Want to Know" ]
+  "message" : "Search returned 4 results",
+  "results" : [ "I Don't Want to Know", "I Don't Want To Know - 2004 Remastered Edition", "I Don't Want To Know - Early Take", "I Don't Want to Know" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -19775,7 +19745,7 @@
       "In a Little While" : 5,
       "The Fly" : 5
     },
-    "topFans" : [ "alice22", "emily30", "david27", "grace25", "jack29" ],
+    "topFans" : [ "alice22", "emily30", "david27", "grace25", "bob35" ],
     "listeners" : 10
   }
 }, {
@@ -20587,8 +20557,8 @@
       "Jimi Hendrix" : 18,
       "Led Zeppelin" : 17,
       "U2" : 15,
-      "Fleetwood Mac" : 14,
-      "ABBA" : 14
+      "ABBA" : 14,
+      "Fleetwood Mac" : 14
     },
     "topGenres" : {
       "pop" : 33,
@@ -20609,17 +20579,7 @@
       "The Joshua Tree" : 12,
       "Led Zeppelin II" : 9,
       "Rumours (Super Deluxe)" : 8,
-      "Celebration (Double Disc Version)" : 7,
-      "Broken Machine (Deluxe)" : 6,
-      "American III: Solitary Man" : 6,
-      "Voulez-Vous" : 5,
-      "Led Zeppelin IV" : 5,
-      "United" : 4,
-      "ABBA Gold" : 4,
-      "Dangerous" : 4,
-      "Super Trouper" : 4,
-      "Midnight Love" : 4,
-      "1989" : 4
+      "Celebration (Double Disc Version)" : 7
     },
     "topEpisodes" : { }
   }
@@ -20673,7 +20633,7 @@
       "Hey Joe" : 7,
       "Love Or Confusion" : 6
     },
-    "topFans" : [ "frank21", "emily30", "bob35", "grace25", "jack29" ],
+    "topFans" : [ "frank21", "bob35", "emily30", "grace25", "irene33" ],
     "listeners" : 10
   }
 }, {
@@ -20728,8 +20688,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 25925,
-  "message" : "Search returned 2 results",
-  "results" : [ "I Don't Want to Know", "I Don't Want to Know" ]
+  "message" : "Search returned 4 results",
+  "results" : [ "I Don't Want to Know", "I Don't Want To Know - 2004 Remastered Edition", "I Don't Want To Know - Early Take", "I Don't Want to Know" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -20851,17 +20811,7 @@
       "Fearless" : 10,
       "Broken Machine (Deluxe)" : 9,
       "Fleetwood Mac" : 8,
-      "Celebration (Double Disc Version)" : 8,
-      "Are You Experienced" : 6,
-      "Chuck Berry Is On Top" : 6,
-      "Confessions on a Dance Floor" : 6,
-      "Nothing But Thieves (Deluxe)" : 5,
-      "Unearthed" : 5,
-      "The Marshall Mathers LP" : 5,
-      "Led Zeppelin IV" : 5,
-      "Dangerous" : 5,
-      "Ray of Light" : 5,
-      "Led Zeppelin" : 4
+      "Celebration (Double Disc Version)" : 8
     },
     "topEpisodes" : { }
   }
@@ -21445,8 +21395,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 28439,
-  "message" : "Search returned 2 results",
-  "results" : [ "I Don't Want to Know", "I Don't Want to Know" ]
+  "message" : "Search returned 4 results",
+  "results" : [ "I Don't Want to Know", "I Don't Want To Know - 2004 Remastered Edition", "I Don't Want To Know - Early Take", "I Don't Want to Know" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -21465,9 +21415,9 @@
     "topArtists" : {
       "Jimi Hendrix" : 27,
       "Chuck Berry" : 20,
-      "Led Zeppelin" : 15,
       "ABBA" : 15,
-      "Taylor Swift" : 14
+      "Led Zeppelin" : 15,
+      "Johnny Cash" : 14
     },
     "topGenres" : {
       "pop" : 32,
@@ -21488,17 +21438,7 @@
       "The Great Twenty-Eight" : 14,
       "reputation" : 9,
       "Led Zeppelin IV (Deluxe Edition)" : 8,
-      "What's Going On" : 8,
-      "Arrival" : 7,
-      "Nothing But Thieves (Deluxe)" : 6,
-      "American IV: The Man Comes Around" : 6,
-      "Led Zeppelin IV" : 5,
-      "ABBA Gold" : 5,
-      "Dangerous" : 5,
-      "Thriller 25 Super Deluxe Edition" : 4,
-      "Rumours (Super Deluxe)" : 4,
-      "Electric Ladyland" : 4,
-      "Ray of Light" : 4
+      "What's Going On" : 8
     },
     "topEpisodes" : { }
   }
@@ -21840,7 +21780,7 @@
       "Role Model" : 4,
       "Space Bound" : 4
     },
-    "topFans" : [ "jack29", "irene33", "david27", "henry26", "grace25" ],
+    "topFans" : [ "david27", "irene33", "jack29", "henry26", "grace25" ],
     "listeners" : 10
   }
 }, {
@@ -22619,9 +22559,9 @@
     "topArtists" : {
       "Michael Jackson" : 28,
       "Madonna" : 22,
-      "Johnny Cash" : 20,
       "Eminem" : 20,
-      "Taylor Swift" : 16
+      "Johnny Cash" : 20,
+      "ABBA" : 16
     },
     "topGenres" : {
       "pop" : 69,
@@ -22642,17 +22582,7 @@
       "American III: Solitary Man" : 15,
       "Like a Prayer" : 12,
       "The Slim Shady LP" : 12,
-      "St. Louis to Liverpool" : 9,
-      "1989" : 8,
-      "Nothing But Thieves (Deluxe)" : 7,
-      "Off the Wall" : 7,
-      "Broken Machine (Deluxe)" : 6,
-      "Super Trouper" : 6,
-      "Ray of Light" : 6,
-      "Rumours (Super Deluxe)" : 5,
-      "The Eminem Show" : 4,
-      "The Great Twenty-Eight" : 4,
-      "reputation" : 4
+      "St. Louis to Liverpool" : 9
     },
     "topEpisodes" : { }
   }
@@ -22735,17 +22665,7 @@
       "The Marshall Mathers LP" : 14,
       "Dangerous" : 14,
       "United" : 7,
-      "Berry Is On Top" : 7,
-      "The Great Twenty-Eight" : 6,
-      "Are You Experienced?" : 6,
-      "All That You Can't Leave Behind" : 6,
-      "ABBA Gold" : 6,
-      "Chuck Berry Is On Top" : 6,
-      "Confessions on a Dance Floor" : 6,
-      "reputation" : 5,
-      "Led Zeppelin IV" : 5,
-      "Are You Experienced" : 5,
-      "Moral Panic" : 5
+      "Berry Is On Top" : 7
     },
     "topEpisodes" : { }
   }
@@ -22934,8 +22854,8 @@
       "Fleetwood Mac" : 48,
       "Madonna" : 32,
       "Nothing But Thieves" : 19,
-      "Jimi Hendrix" : 15,
-      "Eminem" : 15
+      "Eminem" : 15,
+      "Jimi Hendrix" : 15
     },
     "topGenres" : {
       "pop" : 48,
@@ -22956,17 +22876,7 @@
       "Celebration (Double Disc Version)" : 26,
       "Broken Machine (Deluxe)" : 11,
       "Electric Ladyland" : 10,
-      "Rumours" : 7,
-      "Achtung Baby" : 7,
-      "Moral Panic" : 7,
-      "Led Zeppelin IV" : 6,
-      "Chuck Berry Is On Top" : 6,
-      "Thriller 25 Super Deluxe Edition" : 5,
-      "Greatest Hits" : 5,
-      "The Eminem Show" : 4,
-      "Recovery" : 4,
-      "Are You Experienced" : 4,
-      "The Slim Shady LP" : 4
+      "Rumours" : 7
     },
     "topEpisodes" : { }
   }
@@ -23461,7 +23371,7 @@
       "Graveyard Whistling" : 6,
       "I'm Not Made by Design" : 6
     },
-    "topFans" : [ "grace25", "irene33", "henry26", "alice22", "jack29" ],
+    "topFans" : [ "grace25", "irene33", "henry26", "alice22", "emily30" ],
     "listeners" : 10
   }
 }, {
@@ -23594,7 +23504,7 @@
       "Eminem" : 21,
       "Chuck Berry" : 20,
       "Fleetwood Mac" : 18,
-      "Marvin Gaye" : 13
+      "Jimi Hendrix" : 13
     },
     "topGenres" : {
       "country" : 93,
@@ -23615,18 +23525,90 @@
       "Chuck Berry Is On Top" : 18,
       "Greatest Hits" : 14,
       "The Eminem Show" : 12,
-      "Are You Experienced" : 9,
-      "Led Zeppelin" : 6,
-      "American IV: The Man Comes Around" : 6,
-      "Thriller 25 Super Deluxe Edition" : 5,
-      "Celebration (Double Disc Version)" : 5,
-      "Nothing But Thieves (Deluxe)" : 4,
-      "Voulez-Vous" : 4,
-      "United" : 4,
-      "The Marshall Mathers LP" : 4,
-      "All That You Can't Leave Behind" : 4,
-      "Dangerous" : 4
+      "Are You Experienced" : 9
     },
     "topEpisodes" : { }
+  }
+}, {
+  "command" : "endProgram",
+  "result" : {
+    "ABBA" : {
+      "songRevenue" : 0.0,
+      "merchRevenue" : 0.0,
+      "ranking" : 1,
+      "mostProfitableSong" : "N/A"
+    },
+    "Chuck Berry" : {
+      "songRevenue" : 0.0,
+      "merchRevenue" : 0.0,
+      "ranking" : 2,
+      "mostProfitableSong" : "N/A"
+    },
+    "Eminem" : {
+      "songRevenue" : 0.0,
+      "merchRevenue" : 0.0,
+      "ranking" : 3,
+      "mostProfitableSong" : "N/A"
+    },
+    "Fleetwood Mac" : {
+      "songRevenue" : 0.0,
+      "merchRevenue" : 0.0,
+      "ranking" : 4,
+      "mostProfitableSong" : "N/A"
+    },
+    "Jimi Hendrix" : {
+      "songRevenue" : 0.0,
+      "merchRevenue" : 0.0,
+      "ranking" : 5,
+      "mostProfitableSong" : "N/A"
+    },
+    "Johnny Cash" : {
+      "songRevenue" : 0.0,
+      "merchRevenue" : 0.0,
+      "ranking" : 6,
+      "mostProfitableSong" : "N/A"
+    },
+    "Led Zeppelin" : {
+      "songRevenue" : 0.0,
+      "merchRevenue" : 0.0,
+      "ranking" : 7,
+      "mostProfitableSong" : "N/A"
+    },
+    "Madonna" : {
+      "songRevenue" : 0.0,
+      "merchRevenue" : 0.0,
+      "ranking" : 8,
+      "mostProfitableSong" : "N/A"
+    },
+    "Marvin Gaye" : {
+      "songRevenue" : 0.0,
+      "merchRevenue" : 0.0,
+      "ranking" : 9,
+      "mostProfitableSong" : "N/A"
+    },
+    "Michael Jackson" : {
+      "songRevenue" : 0.0,
+      "merchRevenue" : 0.0,
+      "ranking" : 10,
+      "mostProfitableSong" : "N/A"
+    },
+    "Nothing But Thieves" : {
+      "songRevenue" : 0.0,
+      "merchRevenue" : 0.0,
+      "ranking" : 11,
+      "mostProfitableSong" : "N/A"
+    },
+    "Taylor Swift" : {
+      "songRevenue" : 0.0,
+      "merchRevenue" : 0.0,
+      "ranking" : 12,
+      "mostProfitableSong" : "N/A"
+    },
+    "U2" : {
+      "songRevenue" : 0.0,
+      "merchRevenue" : 0.0,
+      "ranking" : 13,
+      "mostProfitableSong" : "N/A"
+    }
   }
 } ]

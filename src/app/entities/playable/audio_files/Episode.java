@@ -66,10 +66,13 @@ public class Episode extends AudioFile {
         stats.addEpisodeListenCount(this.getName());
 
         // stats for the host
+        System.out.println("pula HOST NAME: " + this.getOwner());
         Host host = lib.getHostWithName(this.getOwner());
-        WrappedStats hostStats = host.getWrappedStats();
+        if (host != null) {
+            WrappedStats hostStats = host.getWrappedStats();
 
-        hostStats.addEpisodeListenCount(this.getName());
-        hostStats.addListenerCount(user.getUsername());
+            hostStats.addEpisodeListenCount(this.getName());
+            hostStats.addListenerCount(user.getUsername());
+        }
     }
 }
