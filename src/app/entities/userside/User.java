@@ -2,6 +2,7 @@ package app.entities.userside;
 
 import app.entities.Library;
 import app.common.UserTypes;
+import app.entities.userside.normaluser.NormalUser;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -36,4 +37,17 @@ public abstract class User {
     public abstract boolean handleDeletion(Library library);
 
     public abstract void printWrappedStats(final ObjectNode out);
+
+    public void subscribe(NormalUser user) {
+        System.out.println("normal user can't do that");
+    }
+
+    public boolean isSubscribed(String username) {
+        System.out.println("normal user can't do that");
+        return false;
+    }
+
+    public void unsubscribe(NormalUser user) {
+        System.out.println("normal user can't do that");
+    }
 }

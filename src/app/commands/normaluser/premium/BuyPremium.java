@@ -18,9 +18,6 @@ public class BuyPremium extends Command {
         return "BuyPremium{}" + super.toString();
     }
 
-// lin 10527
-    // Rumours (Super Deluxe)
-    // test06_etapa3_monetization_all.json
     @Override
     public void execute(final ArrayNode outputs, final Library library, final boolean offline) {
 //        System.out.println(this.toString());

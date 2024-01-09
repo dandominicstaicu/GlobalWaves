@@ -177,6 +177,20 @@ public final class Output {
     public static final String AD_BREAK = "adBreak";
     public static final String NOT_PLAYING = " is not playing any music.";
     public static final String AD_SUCCESS = "Ad inserted successfully.";
+    public static final String SUBSCRIBE = "subscribe";
+    public static final String SUBSCRIBE_ERR = "To subscribe you need to be on the page of an "
+            + "artist or host.";
+    public static final String SUBSCRIBED = " subscribed to ";
+    public static final String UNSUBSCRIBED = " unsubscribed from ";
+    public static final String NOTIFICATIONS = "notifications";
+    public static final String GET_NOTIFICATIONS = "getNotifications";
+    public static final String DESCRIPTION = "description";
+    public static final String NEW_CONCERT = "New Event";
+    public static final String NEW_MERCH = "New Merchandise";
+    public static final String FROM = " from ";
+    public static final String NEW_ALBUM = "New Album";
+    public static final String NEW_PODCAST = "New Podcast";
+    public static final String NEW_ANNOUNCEMENT = "New Announcement";
 
 
 }

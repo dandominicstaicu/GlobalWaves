@@ -1,5 +1,6 @@
 package app.entities.userside.pages;
 
+import app.common.PageTypes;
 import app.entities.Library;
 import app.entities.playable.Playlist;
 import app.entities.playable.audio_files.Song;
@@ -78,5 +79,10 @@ public class LikedContentPage implements Page {
         }
 
         return pageContent.toString();
+    }
+
+    @Override
+    public PageTypes getPageType() {
+        return PageTypes.LIKED_CONTENT_PAGE;
     }
 }

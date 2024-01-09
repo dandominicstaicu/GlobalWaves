@@ -1,6 +1,8 @@
 package app.entities;
 
+import app.commands.normaluser.Notification;
 import app.commands.specialusers.artist.Monetization;
+import app.common.Output;
 import app.entities.playable.Album;
 import app.entities.playable.Playlist;
 import app.entities.playable.Podcast;
@@ -83,30 +85,7 @@ public final class Library {
                         }).reversed() // Sort in descending order by total revenue
                         .thenComparing(Artist::getUsername)) // Then sort alphabetically by artist's name
                 .collect(Collectors.toList());
-
-//    public List<Artist> getMonetizedArtists() {
-//        return artists.stream()
-//                .filter(artist -> artist.getMonetization().getInteracted())
-//                .sorted((artist1, artist2) -> {
-//                    double totalRevenue1 = artist1.getMonetization().getSongRevenue()
-//                            + artist1.getMonetization().getMerchRevenue();
-//                    double totalRevenue2 = artist2.getMonetization().getSongRevenue()
-//                            + artist2.getMonetization().getMerchRevenue();
-//                    return Double.compare(totalRevenue2, totalRevenue1);
-//                })
-//                .collect(Collectors.toList());
     }
-
-//    public HashMap<String, Monetization> getArtistsMonetization() {
-//        HashMap<String, Monetization> interactedArtists = new HashMap<>();
-//        for (Artist artist : artists) {
-//            if (artist.getMonetization().getInteracted()) {
-//                interactedArtists.put(artist.getUsername(), artist.getMonetization());
-//            }
-//        }
-//
-//        return interactedArtists;
-//    }
 
     /**
      * Adds a song to the collection.
@@ -127,12 +106,28 @@ public final class Library {
     }
 
     /**
+     * Adds a podcast to the collection at the init of the library.
+     *
+     * @param podcast The podcast to be added.
+     */
+    private void initPodcasts(final Podcast podcast) {
+        podcasts.add(podcast);
+    }
+
+    /**
      * Adds a podcast to the collection.
      *
      * @param podcast The podcast to be added.
      */
     public void addPodcast(final Podcast podcast) {
         podcasts.add(podcast);
+
+//        System.out.println("podcast owner blyat= " + podcast.getOwner());
+        Host host = getHostWithName(podcast.getOwner());
+        String description = Output.NEW_PODCAST + Output.FROM + host.getName() + ".";
+        Notification notification = new Notification(Output.NEW_PODCAST, description);
+
+        host.sendNotification(notification);
     }
 
     /**
@@ -196,7 +191,7 @@ public final class Library {
                     podcastInput.getOwner(),
                     episodes);
 
-            libraryInstance.addPodcast(podcast);
+            libraryInstance.initPodcasts(podcast);
         }
 
         // Convert each UserInput to User and add to library
@@ -408,13 +403,20 @@ public final class Library {
     }
 
     /**
-     *  Adds a new album to the library
+     * Adds a new album to the library
      *
      * @param album The album to be added
      */
     public void addAlbum(final Album album) {
         album.setAdditionOrder(albums.size());
         albums.add(album);
+
+        Artist artist = getArtistWithName(album.getOwner());
+
+        String description = Output.NEW_ALBUM + Output.FROM + artist.getName() + ".";
+        Notification notification = new Notification(Output.NEW_ALBUM, description);
+
+        artist.sendNotification(notification);
     }
 
     /**
@@ -479,7 +481,7 @@ public final class Library {
     /**
      * Retrieves the existence of an album in the library
      *
-     * @param username The name of the owner to search for.
+     * @param username  The name of the owner to search for.
      * @param albumName The name of the album to search for.
      * @return A list of all matching playlists in the library.
      */
@@ -501,10 +503,10 @@ public final class Library {
      * owned by the specified user with the given podcast name. It returns true if
      * such a podcast is found, otherwise false.
      *
-     * @param username The username of the user who might own the podcast.
+     * @param username    The username of the user who might own the podcast.
      * @param podcastName The name of the podcast to search for.
      * @return true if a podcast with the given name and owned by the specified user exists,
-     *      false otherwise.
+     * false otherwise.
      */
     public boolean hasPodcastWithGivenName(final String username, final String podcastName) {
         for (Podcast podcast : podcasts) {
@@ -522,7 +524,7 @@ public final class Library {
      * Retrieves a list of all albums with the given owner name from the library.
      *
      * @param artistsName The name of the owner to search for.
-     * @param albumName The name of the album to search for.
+     * @param albumName   The name of the album to search for.
      * @return A list of all matching playlists in the library.
      */
     public Album getAlbumOfUserWithName(final String artistsName, final String albumName) {
@@ -540,7 +542,7 @@ public final class Library {
     /**
      * Retrieves a list of all podcasts with the given owner name from the library.
      *
-     * @param hostName The name of the owner to search for.
+     * @param hostName    The name of the owner to search for.
      * @param podcastName The name of the podcast to search for.
      * @return A list of all matching podcasts in the library.
      */
@@ -559,10 +561,10 @@ public final class Library {
     /**
      * Determines whether an album can be deleted based on its usage by users and its inclusion in
      * playlists.
-     *
+     * <p>
      * This method checks two conditions to decide whether an album should be deleted:
      * 1. If any user's player is currently loaded with content that contains the album,
-     *    indicating that the album is in use.
+     * indicating that the album is in use.
      * 2. If any of the songs from the album are included in any playlists.
      * If either condition is met, the album should not be deleted.
      *

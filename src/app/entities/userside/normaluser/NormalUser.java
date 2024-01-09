@@ -1,5 +1,6 @@
 package app.entities.userside.normaluser;
 
+import app.commands.normaluser.Notification;
 import app.commands.specialusers.artist.Monetization;
 import app.common.Constants;
 import app.common.Output;
@@ -33,6 +34,8 @@ public class NormalUser extends User {
 
     private Boolean isPremium;
 
+    private ArrayList<Notification> notifications;
+
     public NormalUser(final String username, final int age, final String city) {
         super(username, age, city, UserTypes.NORMAL_USER);
         this.player = new UserPlayer();
@@ -45,6 +48,8 @@ public class NormalUser extends User {
 
         this.premiumHistory = new HashMap<>();
         this.regularHistory = new HashMap<>();
+
+        this.notifications = new ArrayList<>();
     }
 
     /**
@@ -245,19 +250,19 @@ public class NormalUser extends User {
         }
     }
 
-    private void addValue(HashMap<String, ArrayList<Song>> map, String key, Song value) {
+    private void addValue(final HashMap<String, ArrayList<Song>> map, final String key, final Song value) {
         map.computeIfAbsent(key, k -> new ArrayList<>()).add(value);
     }
 
-    public void addPremiumHistory(Song song) {
+    public void addPremiumHistory(final Song song) {
         addValue(premiumHistory, song.getArtist(), song);
     }
 
-    public void addRegularHistory(Song song) {
+    public void addRegularHistory(final Song song) {
         addValue(regularHistory, song.getArtist(), song);
     }
 
-    private Double getTotalNumberOfSongs(HashMap<String, ArrayList<Song>> history) {
+    private Double getTotalNumberOfSongs(final HashMap<String, ArrayList<Song>> history) {
         Double totalSongs = 0.0;
 
         for (ArrayList<Song> songs : history.values()) {
@@ -267,7 +272,7 @@ public class NormalUser extends User {
         return totalSongs;
     }
 
-    public void payPremiumArtist(Library lib) {
+    public void payPremiumArtist(final Library lib) {
         // sanity check
         if (premiumHistory.isEmpty()) {
             return;
@@ -335,5 +340,14 @@ public class NormalUser extends User {
 
         regularHistory.clear();
     }
+
+    public void addNotification(final Notification notification) {
+        notifications.add(notification);
+    }
+
+    public void clearNotifications() {
+        notifications.clear();
+    }
+
 
 }

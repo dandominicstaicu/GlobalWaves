@@ -1,5 +1,6 @@
 package app.entities.userside.host;
 
+import app.commands.normaluser.Notification;
 import app.entities.Library;
 import app.entities.playable.Searchable;
 import app.entities.playable.audio_files.Episode;
@@ -26,6 +27,8 @@ public class Host extends User implements Searchable {
 
     private WrappedStats wrappedStats;
 
+    private ArrayList<NormalUser> subscribers;
+
     /**
      * Constructs a Host object with the specified username, age, and city.
      *
@@ -39,6 +42,7 @@ public class Host extends User implements Searchable {
         this.hostPage = new HostPage(this);
 
         this.wrappedStats = new WrappedStats(this);
+        this.subscribers = new ArrayList<>();
     }
 
     /**
@@ -133,6 +137,10 @@ public class Host extends User implements Searchable {
      */
     public void addAnnounce(final Announcement announce) {
         announcements.add(announce);
+
+        String description = Output.NEW_ANNOUNCEMENT + Output.FROM + this.getName() + ".";
+        Notification notification = new Notification(Output.NEW_ANNOUNCEMENT, description);
+        sendNotification(notification);
     }
 
     /**
@@ -185,5 +193,37 @@ public class Host extends User implements Searchable {
 
         out.put(Output.MESSAGE, "Successfully selected " + getUsername() + "'s page.");
         user.setCurrentPage(this.getHostPage());
+    }
+
+    public void sendNotification(Notification notification) {
+        for (NormalUser user : this.subscribers) {
+            user.addNotification(notification);
+        }
+    }
+
+    @Override
+    public void subscribe(final NormalUser user) {
+        subscribers.add(user);
+    }
+
+    /**
+     * Checks if a NormalUser with the given username exists in the subscribers list.
+     *
+     * @param username The username to search for.
+     * @return True if a user with the given username exists, false otherwise.
+     */
+    @Override
+    public boolean isSubscribed(final String username) {
+        for (NormalUser user : subscribers) {
+            if (user.getUsername().equals(username)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    @Override
+    public void unsubscribe(final NormalUser user) {
+        subscribers.remove(user);
     }
 }

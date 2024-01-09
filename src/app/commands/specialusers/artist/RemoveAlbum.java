@@ -73,6 +73,6 @@ public class RemoveAlbum extends Command {
 
         library.removeAlbum(album);
 
-        out.put(Output.MESSAGE, Output.DELETE_ALBUM_SUCCESS);
+        out.put(Output.MESSAGE, getUsername() + Output.DELETE_ALBUM_SUCCESS);
     }
 }

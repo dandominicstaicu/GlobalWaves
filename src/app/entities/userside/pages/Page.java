@@ -1,6 +1,8 @@
 package app.entities.userside.pages;
 
+import app.common.PageTypes;
 import app.entities.Library;
+import app.entities.userside.User;
 import app.entities.userside.normaluser.NormalUser;
 
 public interface Page {
@@ -13,4 +15,10 @@ public interface Page {
      * @return A string representing the formatted content of the artist page.
      */
     String printPage(Library lib, NormalUser user);
+
+    PageTypes getPageType();
+
+    default User getOwner() {
+        return null;
+    }
 }

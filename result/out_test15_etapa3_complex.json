@@ -654,6 +654,11 @@
   "timestamp" : 10,
   "message" : "Successfully selected BeyoncÃ©'s page."
 }, {
+  "command" : "subscribe",
+  "user" : "henry26",
+  "timestamp" : 10,
+  "message" : "henry26 subscribed to BeyoncÃ© successfully."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 20,
@@ -680,6 +685,11 @@
   "user" : "carol19",
   "timestamp" : 48,
   "message" : "Successfully selected Aretha Franklin's page."
+}, {
+  "command" : "subscribe",
+  "user" : "carol19",
+  "timestamp" : 48,
+  "message" : "carol19 subscribed to Aretha Franklin successfully."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -739,6 +749,11 @@
   "user" : "david27",
   "timestamp" : 114,
   "message" : "Successfully selected BeyoncÃ©'s page."
+}, {
+  "command" : "subscribe",
+  "user" : "david27",
+  "timestamp" : 114,
+  "message" : "david27 subscribed to BeyoncÃ© successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -830,6 +845,11 @@
   "user" : "irene33",
   "timestamp" : 166,
   "message" : "Successfully selected Eric Clapton's page."
+}, {
+  "command" : "subscribe",
+  "user" : "irene33",
+  "timestamp" : 166,
+  "message" : "irene33 subscribed to Eric Clapton successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -927,6 +947,11 @@
   "timestamp" : 243,
   "message" : "Successfully selected Fleetwood Mac's page."
 }, {
+  "command" : "subscribe",
+  "user" : "alice22",
+  "timestamp" : 243,
+  "message" : "alice22 subscribed to Fleetwood Mac successfully."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 267,
@@ -1012,6 +1037,11 @@
   "timestamp" : 342,
   "message" : "Successfully selected Eminem's page."
 }, {
+  "command" : "subscribe",
+  "user" : "carol19",
+  "timestamp" : 342,
+  "message" : "carol19 subscribed to Eminem successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 365,
@@ -1054,6 +1084,11 @@
   "user" : "emily30",
   "timestamp" : 432,
   "message" : "Successfully selected Imagine Dragons's page."
+}, {
+  "command" : "subscribe",
+  "user" : "emily30",
+  "timestamp" : 432,
+  "message" : "emily30 subscribed to Imagine Dragons successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -1129,6 +1164,11 @@
   "user" : "bob35",
   "timestamp" : 487,
   "message" : "Successfully selected Bob Dylan's page."
+}, {
+  "command" : "subscribe",
+  "user" : "bob35",
+  "timestamp" : 487,
+  "message" : "bob35 subscribed to Bob Dylan successfully."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -1236,6 +1276,11 @@
   "timestamp" : 566,
   "message" : "Successfully selected Michael Jackson's page."
 }, {
+  "command" : "subscribe",
+  "user" : "henry26",
+  "timestamp" : 566,
+  "message" : "henry26 subscribed to Michael Jackson successfully."
+}, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 567,
@@ -1310,6 +1355,11 @@
   "user" : "grace25",
   "timestamp" : 627,
   "message" : "Successfully selected Bob Marley's page."
+}, {
+  "command" : "subscribe",
+  "user" : "grace25",
+  "timestamp" : 627,
+  "message" : "grace25 subscribed to Bob Marley successfully."
 }, {
   "command" : "adBreak",
   "user" : "jack29",
@@ -1416,6 +1466,11 @@
   "user" : "irene33",
   "timestamp" : 694,
   "message" : "Successfully selected The Beatles's page."
+}, {
+  "command" : "subscribe",
+  "user" : "irene33",
+  "timestamp" : 694,
+  "message" : "irene33 subscribed to The Beatles successfully."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -1529,6 +1584,11 @@
   "timestamp" : 771,
   "message" : "Successfully selected Whitney Houston's page."
 }, {
+  "command" : "subscribe",
+  "user" : "jack29",
+  "timestamp" : 771,
+  "message" : "jack29 subscribed to Whitney Houston successfully."
+}, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 804,
@@ -1572,6 +1632,11 @@
   "timestamp" : 867,
   "message" : "Successfully selected The Beach Boys's page."
 }, {
+  "command" : "subscribe",
+  "user" : "david27",
+  "timestamp" : 867,
+  "message" : "david27 subscribed to The Beach Boys successfully."
+}, {
   "command" : "adBreak",
   "user" : "alice22",
   "timestamp" : 889,
@@ -1603,6 +1668,11 @@
   "user" : "emily30",
   "timestamp" : 905,
   "message" : "Successfully selected Fleetwood Mac's page."
+}, {
+  "command" : "subscribe",
+  "user" : "emily30",
+  "timestamp" : 905,
+  "message" : "emily30 subscribed to Fleetwood Mac successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -1662,6 +1732,11 @@
   "user" : "henry26",
   "timestamp" : 929,
   "message" : "Successfully selected The Police's page."
+}, {
+  "command" : "subscribe",
+  "user" : "henry26",
+  "timestamp" : 929,
+  "message" : "henry26 subscribed to The Police successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -1749,6 +1824,11 @@
   "timestamp" : 999,
   "message" : "Successfully selected James Brown's page."
 }, {
+  "command" : "subscribe",
+  "user" : "jack29",
+  "timestamp" : 999,
+  "message" : "jack29 subscribed to James Brown successfully."
+}, {
   "command" : "adBreak",
   "user" : "jack29",
   "timestamp" : 1011,
@@ -1813,6 +1893,11 @@
   "timestamp" : 1032,
   "message" : "Successfully selected ABBA's page."
 }, {
+  "command" : "subscribe",
+  "user" : "henry26",
+  "timestamp" : 1032,
+  "message" : "henry26 subscribed to ABBA successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1075,
@@ -1839,6 +1924,11 @@
   "user" : "david27",
   "timestamp" : 1092,
   "message" : "Successfully selected Madonna's page."
+}, {
+  "command" : "subscribe",
+  "user" : "david27",
+  "timestamp" : 1092,
+  "message" : "david27 subscribed to Madonna successfully."
 }, {
   "command" : "buyPremium",
   "user" : "grace25",
@@ -1920,6 +2010,11 @@
   "timestamp" : 1161,
   "message" : "Successfully selected Madonna's page."
 }, {
+  "command" : "subscribe",
+  "user" : "alice22",
+  "timestamp" : 1161,
+  "message" : "alice22 subscribed to Madonna successfully."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 1180,
@@ -1930,6 +2025,11 @@
   "user" : "frank21",
   "timestamp" : 1180,
   "message" : "Successfully selected The Beatles's page."
+}, {
+  "command" : "subscribe",
+  "user" : "frank21",
+  "timestamp" : 1180,
+  "message" : "frank21 subscribed to The Beatles successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -1973,6 +2073,11 @@
   "user" : "irene33",
   "timestamp" : 1226,
   "message" : "Successfully selected Radiohead's page."
+}, {
+  "command" : "subscribe",
+  "user" : "irene33",
+  "timestamp" : 1226,
+  "message" : "irene33 subscribed to Radiohead successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -2049,6 +2154,11 @@
   "timestamp" : 1295,
   "message" : "Successfully selected Eminem's page."
 }, {
+  "command" : "subscribe",
+  "user" : "bob35",
+  "timestamp" : 1295,
+  "message" : "bob35 subscribed to Eminem successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1311,
@@ -2124,6 +2234,11 @@
   "timestamp" : 1363,
   "message" : "Successfully selected Taylor Swift's page."
 }, {
+  "command" : "subscribe",
+  "user" : "henry26",
+  "timestamp" : 1363,
+  "message" : "henry26 subscribed to Taylor Swift successfully."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 1420,
@@ -2134,6 +2249,11 @@
   "user" : "emily30",
   "timestamp" : 1420,
   "message" : "Successfully selected Elton John's page."
+}, {
+  "command" : "subscribe",
+  "user" : "emily30",
+  "timestamp" : 1420,
+  "message" : "emily30 subscribed to Elton John successfully."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -2194,6 +2314,11 @@
   "timestamp" : 1466,
   "message" : "Successfully selected Eminem's page."
 }, {
+  "command" : "subscribe",
+  "user" : "alice22",
+  "timestamp" : 1466,
+  "message" : "alice22 subscribed to Eminem successfully."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 1485,
@@ -2221,6 +2346,11 @@
   "timestamp" : 1505,
   "message" : "Successfully selected Rihanna's page."
 }, {
+  "command" : "subscribe",
+  "user" : "carol19",
+  "timestamp" : 1505,
+  "message" : "carol19 subscribed to Rihanna successfully."
+}, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 1522,
@@ -2232,6 +2362,11 @@
   "timestamp" : 1522,
   "message" : "Successfully selected Bob Dylan's page."
 }, {
+  "command" : "subscribe",
+  "user" : "grace25",
+  "timestamp" : 1522,
+  "message" : "grace25 subscribed to Bob Dylan successfully."
+}, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 1546,
@@ -2242,6 +2377,11 @@
   "user" : "grace25",
   "timestamp" : 1546,
   "message" : "Successfully selected BeyoncÃ©'s page."
+}, {
+  "command" : "subscribe",
+  "user" : "grace25",
+  "timestamp" : 1546,
+  "message" : "grace25 subscribed to BeyoncÃ© successfully."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -2285,6 +2425,11 @@
   "user" : "henry26",
   "timestamp" : 1610,
   "message" : "Successfully selected ABBA's page."
+}, {
+  "command" : "subscribe",
+  "user" : "henry26",
+  "timestamp" : 1610,
+  "message" : "henry26 unsubscribed from ABBA successfully."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -2333,6 +2478,11 @@
   "user" : "alice22",
   "timestamp" : 1703,
   "message" : "Successfully selected Jay-Z's page."
+}, {
+  "command" : "subscribe",
+  "user" : "alice22",
+  "timestamp" : 1703,
+  "message" : "alice22 subscribed to Jay-Z successfully."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -2480,7 +2630,7 @@
   "command" : "removeAlbum",
   "user" : "Taylor Swift",
   "timestamp" : 1885,
-  "message" : " deleted the album successfully."
+  "message" : "Taylor Swift deleted the album successfully."
 }, {
   "command" : "addMerch",
   "user" : "Bob Marley",
@@ -2512,6 +2662,11 @@
   "user" : "Aretha Franklin",
   "timestamp" : 1942,
   "message" : "Aretha Franklin has added new merchandise successfully."
+}, {
+  "command" : "getNotifications",
+  "user" : "frank21",
+  "timestamp" : 1947,
+  "notifications" : [ ]
 }, {
   "command" : "addMerch",
   "user" : "Fleetwood Mac",
@@ -2690,7 +2845,7 @@
   "command" : "removeAlbum",
   "user" : "Fleetwood Mac",
   "timestamp" : 2185,
-  "message" : " deleted the album successfully."
+  "message" : "Fleetwood Mac deleted the album successfully."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -2833,7 +2988,7 @@
   "command" : "removeAlbum",
   "user" : "Michael Jackson",
   "timestamp" : 2343,
-  "message" : " deleted the album successfully."
+  "message" : "Michael Jackson deleted the album successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -3654,6 +3809,17 @@
   "timestamp" : 3440,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "getNotifications",
+  "user" : "carol19",
+  "timestamp" : 3461,
+  "notifications" : [ {
+    "name" : "New Merchandise",
+    "description" : "New Merchandise from Aretha Franklin."
+  }, {
+    "name" : "New Event",
+    "description" : "New Event from Aretha Franklin."
+  } ]
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 3462,
@@ -3673,7 +3839,7 @@
   "command" : "removeAlbum",
   "user" : "Fleetwood Mac",
   "timestamp" : 3476,
-  "message" : " deleted the album successfully."
+  "message" : "Fleetwood Mac deleted the album successfully."
 }, {
   "command" : "adBreak",
   "user" : "bob35",
@@ -3913,6 +4079,11 @@
   "user" : "irene33",
   "timestamp" : 3741,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "getNotifications",
+  "user" : "carol19",
+  "timestamp" : 3770,
+  "notifications" : [ ]
 }, {
   "command" : "addMerch",
   "user" : "The Beatles",
@@ -4160,7 +4331,7 @@
   "command" : "removeAlbum",
   "user" : "Fleetwood Mac",
   "timestamp" : 4058,
-  "message" : " deleted the album successfully."
+  "message" : "Fleetwood Mac deleted the album successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "Rihanna",
@@ -4405,6 +4576,14 @@
   "timestamp" : 4330,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "getNotifications",
+  "user" : "irene33",
+  "timestamp" : 4372,
+  "notifications" : [ {
+    "name" : "New Merchandise",
+    "description" : "New Merchandise from The Beatles."
+  } ]
+}, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 4394,
@@ -4488,7 +4667,7 @@
   "command" : "removeAlbum",
   "user" : "Eminem",
   "timestamp" : 4443,
-  "message" : " deleted the album successfully."
+  "message" : "Eminem deleted the album successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -4537,6 +4716,11 @@
   "user" : "david27",
   "timestamp" : 4514,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "getNotifications",
+  "user" : "bob35",
+  "timestamp" : 4551,
+  "notifications" : [ ]
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -4758,7 +4942,7 @@
   "command" : "removeAlbum",
   "user" : "Eminem",
   "timestamp" : 4863,
-  "message" : " deleted the album successfully."
+  "message" : "Eminem deleted the album successfully."
 }, {
   "command" : "addMerch",
   "user" : "Eminem",
@@ -4879,7 +5063,7 @@
   "command" : "removeAlbum",
   "user" : "ABBA",
   "timestamp" : 5111,
-  "message" : " deleted the album successfully."
+  "message" : "ABBA deleted the album successfully."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -5870,7 +6054,7 @@
   "command" : "removeAlbum",
   "user" : "ABBA",
   "timestamp" : 6410,
-  "message" : " deleted the album successfully."
+  "message" : "ABBA deleted the album successfully."
 }, {
   "command" : "adBreak",
   "user" : "emily30",
@@ -6625,6 +6809,17 @@
   "timestamp" : 7327,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "getNotifications",
+  "user" : "irene33",
+  "timestamp" : 7347,
+  "notifications" : [ {
+    "name" : "New Merchandise",
+    "description" : "New Merchandise from Eric Clapton."
+  }, {
+    "name" : "New Merchandise",
+    "description" : "New Merchandise from The Beatles."
+  } ]
+}, {
   "command" : "adBreak",
   "user" : "emily30",
   "timestamp" : 7352,
@@ -6824,7 +7019,7 @@
   "command" : "removeAlbum",
   "user" : "James Brown",
   "timestamp" : 7585,
-  "message" : " deleted the album successfully."
+  "message" : "James Brown deleted the album successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -7131,7 +7326,7 @@
   "command" : "removeAlbum",
   "user" : "Madonna",
   "timestamp" : 7860,
-  "message" : " deleted the album successfully."
+  "message" : "Madonna deleted the album successfully."
 }, {
   "command" : "addAlbum",
   "user" : "The Beatles",
@@ -7428,7 +7623,7 @@
   "command" : "removeAlbum",
   "user" : "The Beach Boys",
   "timestamp" : 8089,
-  "message" : " deleted the album successfully."
+  "message" : "The Beach Boys deleted the album successfully."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -7722,10 +7917,27 @@
   "timestamp" : 8341,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "getNotifications",
+  "user" : "jack29",
+  "timestamp" : 8348,
+  "notifications" : [ {
+    "name" : "New Album",
+    "description" : "New Album from James Brown."
+  }, {
+    "name" : "New Event",
+    "description" : "New Event from James Brown."
+  }, {
+    "name" : "New Merchandise",
+    "description" : "New Merchandise from Whitney Houston."
+  }, {
+    "name" : "New Album",
+    "description" : "New Album from James Brown."
+  } ]
+}, {
   "command" : "removeAlbum",
   "user" : "ABBA",
   "timestamp" : 8354,
-  "message" : " deleted the album successfully."
+  "message" : "ABBA deleted the album successfully."
 }, {
   "command" : "buyPremium",
   "user" : "carol19",
@@ -7872,7 +8084,7 @@
   "command" : "removeAlbum",
   "user" : "Imagine Dragons",
   "timestamp" : 8478,
-  "message" : " deleted the album successfully."
+  "message" : "Imagine Dragons deleted the album successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -8248,7 +8460,7 @@
   "command" : "removeAlbum",
   "user" : "ABBA",
   "timestamp" : 8805,
-  "message" : " deleted the album successfully."
+  "message" : "ABBA deleted the album successfully."
 }, {
   "command" : "adBreak",
   "user" : "irene33",
@@ -8332,7 +8544,7 @@
   "command" : "removeAlbum",
   "user" : "Madonna",
   "timestamp" : 8887,
-  "message" : " deleted the album successfully."
+  "message" : "Madonna deleted the album successfully."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -8550,6 +8762,35 @@
   "user" : "emily30",
   "timestamp" : 9048,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "getNotifications",
+  "user" : "emily30",
+  "timestamp" : 9049,
+  "notifications" : [ {
+    "name" : "New Merchandise",
+    "description" : "New Merchandise from Fleetwood Mac."
+  }, {
+    "name" : "New Album",
+    "description" : "New Album from Fleetwood Mac."
+  }, {
+    "name" : "New Album",
+    "description" : "New Album from Fleetwood Mac."
+  }, {
+    "name" : "New Album",
+    "description" : "New Album from Imagine Dragons."
+  }, {
+    "name" : "New Album",
+    "description" : "New Album from Fleetwood Mac."
+  }, {
+    "name" : "New Merchandise",
+    "description" : "New Merchandise from Imagine Dragons."
+  }, {
+    "name" : "New Merchandise",
+    "description" : "New Merchandise from Fleetwood Mac."
+  }, {
+    "name" : "New Album",
+    "description" : "New Album from Imagine Dragons."
+  } ]
 }, {
   "command" : "search",
   "user" : "david27",
@@ -8793,7 +9034,7 @@
   "command" : "removeAlbum",
   "user" : "Fleetwood Mac",
   "timestamp" : 9408,
-  "message" : " deleted the album successfully."
+  "message" : "Fleetwood Mac deleted the album successfully."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -8842,6 +9083,29 @@
   "user" : "irene33",
   "timestamp" : 9453,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "getNotifications",
+  "user" : "david27",
+  "timestamp" : 9458,
+  "notifications" : [ {
+    "name" : "New Merchandise",
+    "description" : "New Merchandise from Madonna."
+  }, {
+    "name" : "New Album",
+    "description" : "New Album from The Beach Boys."
+  }, {
+    "name" : "New Album",
+    "description" : "New Album from Madonna."
+  }, {
+    "name" : "New Album",
+    "description" : "New Album from The Beach Boys."
+  }, {
+    "name" : "New Merchandise",
+    "description" : "New Merchandise from The Beach Boys."
+  }, {
+    "name" : "New Album",
+    "description" : "New Album from Madonna."
+  } ]
 }, {
   "command" : "adBreak",
   "user" : "jack29",
@@ -8909,7 +9173,7 @@
   "command" : "removeAlbum",
   "user" : "Bob Dylan",
   "timestamp" : 9516,
-  "message" : " deleted the album successfully."
+  "message" : "Bob Dylan deleted the album successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -8968,6 +9232,14 @@
   "user" : "bob35",
   "timestamp" : 9566,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "getNotifications",
+  "user" : "emily30",
+  "timestamp" : 9566,
+  "notifications" : [ {
+    "name" : "New Album",
+    "description" : "New Album from Fleetwood Mac."
+  } ]
 }, {
   "command" : "buyPremium",
   "user" : "emily30",
@@ -9385,7 +9657,7 @@
   "command" : "removeAlbum",
   "user" : "The Police",
   "timestamp" : 9899,
-  "message" : " deleted the album successfully."
+  "message" : "The Police deleted the album successfully."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -9475,7 +9747,7 @@
   "command" : "removeAlbum",
   "user" : "ABBA",
   "timestamp" : 9947,
-  "message" : " deleted the album successfully."
+  "message" : "ABBA deleted the album successfully."
 }, {
   "command" : "search",
   "user" : "grace25",

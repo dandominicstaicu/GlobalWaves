@@ -1,5 +1,6 @@
 package app.entities.userside.artist;
 
+import app.commands.normaluser.Notification;
 import app.commands.specialusers.artist.Monetization;
 import app.entities.Library;
 import app.entities.playable.Album;
@@ -37,6 +38,8 @@ public class Artist extends User implements Searchable {
 
     private Monetization monetization;
 
+    private ArrayList<NormalUser> subscribers;
+
     /**
      * Constructs a new Artist with the specified username, age, and city.
      * Initializes empty lists for events and merchandise, as well as an associated ArtistPage.
@@ -53,6 +56,13 @@ public class Artist extends User implements Searchable {
 
         this.wrappedStats = new WrappedStats(this);
         this.monetization = new Monetization(this);
+        this.subscribers = new ArrayList<>();
+    }
+
+    public void sendNotification(Notification notification) {
+        for (NormalUser user : this.subscribers) {
+            user.addNotification(notification);
+        }
     }
 
     /**
@@ -62,6 +72,10 @@ public class Artist extends User implements Searchable {
      */
     public void addEvent(final Event event) {
         events.add(event);
+
+        String description = Output.NEW_CONCERT + Output.FROM + this.getName() + ".";
+        Notification notification = new Notification(Output.NEW_CONCERT, description);
+        sendNotification(notification);
     }
 
     /**
@@ -71,6 +85,10 @@ public class Artist extends User implements Searchable {
      */
     public void addMerch(final Merch merch) {
         merchList.add(merch);
+
+        String description = Output.NEW_MERCH + Output.FROM + this.getName() + ".";
+        Notification notification = new Notification(Output.NEW_MERCH, description);
+        sendNotification(notification);
     }
 
     /**
@@ -270,5 +288,31 @@ public class Artist extends User implements Searchable {
 
     public void removeEvent(final Event event) {
         events.remove(event);
+    }
+
+    @Override
+    public void subscribe(final NormalUser user) {
+        subscribers.add(user);
+    }
+
+    /**
+     * Checks if a NormalUser with the given username exists in the subscribers list.
+     *
+     * @param username The username to search for.
+     * @return True if a user with the given username exists, false otherwise.
+     */
+    @Override
+    public boolean isSubscribed(final String username) {
+        for (NormalUser user : subscribers) {
+            if (user.getUsername().equals(username)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    @Override
+    public void unsubscribe(final NormalUser user) {
+        subscribers.remove(user);
     }
 }

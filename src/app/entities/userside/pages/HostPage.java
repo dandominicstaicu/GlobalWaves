@@ -1,7 +1,9 @@
 package app.entities.userside.pages;
 
+import app.common.PageTypes;
 import app.entities.Library;
 import app.entities.playable.Podcast;
+import app.entities.userside.User;
 import app.entities.userside.normaluser.NormalUser;
 import app.entities.userside.host.Host;
 
@@ -56,6 +58,11 @@ public class HostPage implements Page {
         return pageContent.toString();
     }
 
+    @Override
+    public PageTypes getPageType() {
+        return PageTypes.HOST_PAGE;
+    }
+
     /**
      * Retrieves and formats information about the host's podcasts from the library.
      *
@@ -80,5 +87,10 @@ public class HostPage implements Page {
                 .collect(Collectors.joining(", "));
 
         return episodeDescriptions.isEmpty() ? "[]" : "[" + episodeDescriptions + "]";
+    }
+
+    @Override
+    public User getOwner() {
+        return this.host;
     }
 }

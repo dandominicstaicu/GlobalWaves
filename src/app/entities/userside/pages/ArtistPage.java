@@ -1,7 +1,9 @@
 package app.entities.userside.pages;
 
+import app.common.PageTypes;
 import app.entities.Library;
 import app.entities.playable.Album;
+import app.entities.userside.User;
 import app.entities.userside.normaluser.NormalUser;
 import app.entities.userside.artist.Artist;
 
@@ -68,6 +70,11 @@ public class ArtistPage implements Page {
         return pageContent.toString();
     }
 
+    @Override
+    public PageTypes getPageType() {
+        return PageTypes.ARTIST_PAGE;
+    }
+
     private String getAlbumNames(final Library lib) {
         // Assuming you have a way to get the list of albums
         // Replace this with your actual implementation
@@ -90,6 +97,11 @@ public class ArtistPage implements Page {
                 .map(event -> event.getName() + " - " + event.getDate() + ":\n\t"
                         + event.getDescription())
                 .collect(Collectors.joining(", "));
+    }
+
+    @Override
+    public User getOwner() {
+        return this.artist;
     }
 
 }
