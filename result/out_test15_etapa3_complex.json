@@ -15665,8 +15665,8 @@
   "result" : {
     "topAlbums" : {
       "ABBA Gold" : 52,
-      "Voulez-Vous" : 26,
       "Arrival" : 26,
+      "Voulez-Vous" : 26,
       "Super Trouper" : 25
     },
     "topSongs" : {
@@ -19359,8 +19359,8 @@
     "topAlbums" : {
       "Lover" : 36,
       "Fearless" : 34,
-      "reputation" : 33,
-      "1989" : 33
+      "1989" : 33,
+      "reputation" : 33
     },
     "topSongs" : {
       "Fifteen" : 6,
@@ -19846,8 +19846,8 @@
       "pop" : 46,
       "country" : 18,
       "soul" : 11,
-      "rap" : 10,
-      "rock" : 10
+      "hard rock" : 10,
+      "rap" : 10
     },
     "topSongs" : {
       "Knowing Me, Knowing You" : 3,
@@ -19860,8 +19860,8 @@
       "ABBA Gold" : 16,
       "Led Zeppelin IV" : 8,
       "Chuck Berry Is On Top" : 7,
-      "The Eminem Show" : 5,
-      "Thriller 25 Super Deluxe Edition" : 5
+      "1989" : 5,
+      "Super Trouper" : 5
     },
     "topEpisodes" : { }
   }
@@ -20129,7 +20129,7 @@
       "Chuck Berry Is On Top" : 10,
       "Electric Ladyland" : 9,
       "ABBA Gold" : 8,
-      "Led Zeppelin" : 6
+      "Experience Hendrix: The Best of Jimi Hendrix" : 6
     },
     "topEpisodes" : { }
   }
@@ -20324,7 +20324,7 @@
       "pop" : 22,
       "soul" : 12,
       "country" : 11,
-      "rap" : 8
+      "1979" : 8
     },
     "topSongs" : {
       "I Have a Dream" : 3,
@@ -20336,8 +20336,8 @@
     "topAlbums" : {
       "All That You Can't Leave Behind" : 9,
       "How to Dismantle an Atomic Bomb" : 9,
-      "Voulez-Vous" : 8,
       "Broken Machine (Deluxe)" : 8,
+      "Voulez-Vous" : 8,
       "ABBA Gold" : 6
     },
     "topEpisodes" : { }
@@ -21640,7 +21640,7 @@
       "rock" : 30,
       "country" : 14,
       "hard rock" : 14,
-      "rap" : 9
+      "classic rock" : 9
     },
     "topSongs" : {
       "Angeleyes" : 3,
@@ -21885,8 +21885,8 @@
       "Recovery" : 11,
       "Fearless" : 10,
       "Broken Machine (Deluxe)" : 9,
-      "Fleetwood Mac" : 8,
-      "Celebration (Double Disc Version)" : 8
+      "Celebration (Double Disc Version)" : 8,
+      "Fleetwood Mac" : 8
     },
     "topEpisodes" : { }
   }
@@ -23827,10 +23827,10 @@
     },
     "topAlbums" : {
       "Lover" : 22,
-      "The Marshall Mathers LP" : 14,
       "Dangerous" : 14,
-      "United" : 7,
-      "Berry Is On Top" : 7
+      "The Marshall Mathers LP" : 14,
+      "Berry Is On Top" : 7,
+      "United" : 7
     },
     "topEpisodes" : { }
   }
@@ -24041,7 +24041,7 @@
       "Celebration (Double Disc Version)" : 26,
       "Broken Machine (Deluxe)" : 11,
       "Electric Ladyland" : 10,
-      "Rumours" : 7
+      "Achtung Baby" : 7
     },
     "topEpisodes" : { }
   }

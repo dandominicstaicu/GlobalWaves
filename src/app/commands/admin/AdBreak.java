@@ -42,7 +42,7 @@ public class AdBreak extends Command {
             return;
         }
 
-        System.out.print(getTimestamp());
+//        System.out.print(getTimestamp());
         user.insertAd(library, price);
         out.put(Output.MESSAGE, Output.AD_SUCCESS);
 

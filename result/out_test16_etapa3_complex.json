@@ -16757,8 +16757,8 @@
   "result" : {
     "topAlbums" : {
       "Songs in the Key of Life" : 42,
-      "Talking Book" : 36,
       "Innervisions" : 36,
+      "Talking Book" : 36,
       "The Definitive Collection" : 34
     },
     "topSongs" : {
@@ -19107,8 +19107,8 @@
     "topAlbums" : {
       "Good Girl Gone Bad" : 16,
       "Voulez-Vous" : 7,
-      "Nirvana" : 6,
       "Nevermind" : 6,
+      "Nirvana" : 6,
       "Summer Dreams" : 6
     },
     "topEpisodes" : { }
@@ -20236,8 +20236,8 @@
       "Arrival" : 11,
       "Summer Dreams" : 11,
       "American IV: The Man Comes Around" : 7,
-      "Greatest Hits II" : 6,
-      "Loud" : 6
+      "Good Girl Gone Bad" : 6,
+      "Greatest Hits II" : 6
     },
     "topEpisodes" : { }
   }
@@ -22926,8 +22926,8 @@
       "country" : 46,
       "soul" : 29,
       "rock" : 18,
-      "grunge" : 14,
-      "classic rock" : 14
+      "classic rock" : 14,
+      "folk" : 14
     },
     "topSongs" : {
       "Here Today" : 3,
@@ -22940,8 +22940,8 @@
       "Unearthed" : 42,
       "The Definitive Collection" : 15,
       "Blue" : 10,
-      "The Bends" : 8,
-      "Super Trouper" : 8
+      "Super Trouper" : 8,
+      "The Bends" : 8
     },
     "topEpisodes" : { }
   }
@@ -23470,8 +23470,8 @@
       "Aftermath" : 16,
       "The Freewheelin' Bob Dylan" : 11,
       "Talking Book" : 10,
-      "30" : 9,
-      "19" : 9
+      "19" : 9,
+      "30" : 9
     },
     "topEpisodes" : { }
   }
@@ -23738,10 +23738,10 @@
     },
     "topGenres" : {
       "rock" : 30,
-      "soul" : 19,
       "alternative" : 19,
-      "grunge" : 15,
-      "classic rock" : 15
+      "soul" : 19,
+      "classic rock" : 15,
+      "grunge" : 15
     },
     "topSongs" : {
       "Born in the U.S.A." : 3,
@@ -24488,8 +24488,8 @@
       "Rolled Gold" : 29,
       "Highway 61 Revisited" : 15,
       "30" : 9,
-      "Let It Bleed" : 8,
-      "Good Girl Gone Bad" : 8
+      "Good Girl Gone Bad" : 8,
+      "Let It Bleed" : 8
     },
     "topEpisodes" : { }
   }
@@ -24885,8 +24885,8 @@
     "topGenres" : {
       "soul" : 46,
       "rock" : 36,
-      "pop" : 14,
       "folk" : 14,
+      "pop" : 14,
       "grunge" : 12
     },
     "topSongs" : {
@@ -26161,9 +26161,9 @@
     "topAlbums" : {
       "The Essential Bruce Springsteen" : 23,
       "Good Girl Gone Bad: Reloaded" : 15,
+      "Abbey Road (Remastered)" : 14,
       "Pet Sounds" : 14,
-      "The Legend of Johnny Cash" : 14,
-      "Abbey Road (Remastered)" : 14
+      "The Legend of Johnny Cash" : 14
     },
     "topEpisodes" : { }
   }

@@ -1028,8 +1028,8 @@
     "topAlbums" : {
       "The Definitive Collection" : 24,
       "Songs in the Key of Life" : 18,
-      "Talking Book" : 14,
-      "Innervisions" : 14
+      "Innervisions" : 14,
+      "Talking Book" : 14
     },
     "topSongs" : {
       "He's Misstra Know It All" : 3,
@@ -2247,9 +2247,9 @@
     },
     "topAlbums" : {
       "The Very Best of Prince" : 24,
-      "Talking Book" : 8,
-      "Ladies of the Canyon" : 8,
       "Aftermath" : 8,
+      "Ladies of the Canyon" : 8,
+      "Talking Book" : 8,
       "The Definitive Collection" : 7
     },
     "topEpisodes" : { }
@@ -2797,8 +2797,8 @@
     "topAlbums" : {
       "Rolled Gold" : 30,
       "Aftermath" : 15,
-      "Some Girls" : 13,
-      "Let It Bleed" : 13
+      "Let It Bleed" : 13,
+      "Some Girls" : 13
     },
     "topSongs" : {
       "Lady Jane" : 6,

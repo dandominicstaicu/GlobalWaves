@@ -115,14 +115,25 @@ public class UserPlayer {
                 }
 
                 if (playingIndex < audioQueue.size()) {
-                    System.out.print(currentTimestamp + " intuit1 Now playing: " + audioQueue.get(playingIndex).getName());
+//                    System.out.print(currentTimestamp + " " + user.getUsername() + " intuit1 Now playing: " + audioQueue.get(playingIndex).getName());
                     audioQueue.get(playingIndex).editStats(lib, user);
                     if (audioQueue.get(playingIndex).getName().equals("Ad Break")) {
                         user.monetizeAd(lib, adPrice);
                         adPrice = 0.0;
+
+                        currentAudioDuration = audioQueue.get(playingIndex).getDuration();
+
+                        audioQueue.remove(playingIndex);
+
+                        if (playingIndex >= audioQueue.size()) {
+                            stop();
+                            return;
+                        }
+
+                    } else {
+                        currentAudioDuration = audioQueue.get(playingIndex).getDuration();
                     }
 
-                    currentAudioDuration = audioQueue.get(playingIndex).getDuration();
                     while (loadedTimestamp + currentAudioDuration <= currentTimestamp) { // was < until the 3rd stage
                         // Repeat logic
                         // Update the loaded timestamp to account for the duration of the
@@ -141,7 +152,7 @@ public class UserPlayer {
 
                         // Update the duration for the new current track
                         currentAudioDuration = audioQueue.get(playingIndex).getDuration();
-                        System.out.print(currentTimestamp + " intuit2 Now playing: " + audioQueue.get(playingIndex).getName());
+//                        System.out.print(currentTimestamp + " " + user.getUsername() + " intuit2 Now playing: " + audioQueue.get(playingIndex).getName());
                         audioQueue.get(playingIndex).editStats(lib, user);
                     }
 
@@ -236,7 +247,7 @@ public class UserPlayer {
                 }
 
                 audioQueue.get(playingIndex).setPlayedTime(0);
-                System.out.print("Now playing: " + audioQueue.get(playingIndex).getName());
+//                System.out.print("Now playing: " + audioQueue.get(playingIndex).getName());
                 audioQueue.get(playingIndex).editStats(lib, user);
             }
         }
@@ -322,7 +333,7 @@ public class UserPlayer {
         initialStartTimestamp = loadedTimestamp;
         timeLeftToPlay = audioQueue.get(playingIndex).getDuration();
 
-        System.out.print("Now playing: " + audioQueue.get(playingIndex).getName());
+//        System.out.print("Now playing: " + audioQueue.get(playingIndex).getName());
         audioQueue.get(playingIndex).editStats(lib, user);
         return audioQueue.get(playingIndex);
     }
@@ -387,7 +398,7 @@ public class UserPlayer {
         this.isShuffled = false;
 
         if (!audioQueue.isEmpty()) {
-            System.out.print(startTimestamp + " First Now playing: " + audioQueue.get(0).getName()); // 0 for the first song
+//            System.out.print(startTimestamp + " " + user.getUsername()  + " First Now playing: " + audioQueue.get(0).getName()); // 0 for the first song
             audioQueue.get(0).editStats(lib, user);
         }
 
@@ -577,7 +588,7 @@ public class UserPlayer {
     public void insertAdBreak(final Library lib, final Double price) {
         Song ad = lib.getAdContent();
         if (ad == null) {
-            System.out.println("ad not found");
+//            System.out.println("ad not found");
             return;
         }
 

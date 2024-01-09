@@ -7971,8 +7971,8 @@
     "topAlbums" : {
       "Sinatra Reprise: The Very Good Years" : 10,
       "Soul Queen" : 7,
-      "The Freewheelin' Bob Dylan" : 5,
       "Midnight Love" : 5,
+      "The Freewheelin' Bob Dylan" : 5,
       "Legend" : 4
     },
     "topEpisodes" : { }
@@ -10126,7 +10126,7 @@
       "Chant Down Babylon" : 15,
       "Court and Spark" : 12,
       "Born in the U.S.A." : 8,
-      "Soul Queen" : 4
+      "Greatest Hits" : 4
     },
     "topEpisodes" : { }
   }
@@ -10868,9 +10868,9 @@
     "topGenres" : {
       "rock" : 31,
       "soul" : 31,
-      "hard rock" : 7,
       "classic rock" : 7,
-      "pop" : 6
+      "hard rock" : 7,
+      "folk" : 6
     },
     "topSongs" : {
       "Paperback Writer - Remastered 2015" : 3,
@@ -11559,8 +11559,8 @@
     },
     "topGenres" : {
       "rock" : 17,
-      "soul" : 16,
       "folk" : 16,
+      "soul" : 16,
       "pop" : 14,
       "classic rock" : 13
     },
@@ -11684,7 +11684,7 @@
       "Celebration (Double Disc Version)" : 18,
       "Nothing But the Best (Remastered)" : 14,
       "Ladies of the Canyon" : 8,
-      "United" : 6,
+      "Abbey Road (Remastered)" : 6,
       "The Definitive Collection" : 6
     },
     "topEpisodes" : { }
@@ -12191,8 +12191,8 @@
       "soul" : 37,
       "reggae" : 18,
       "classic rock" : 17,
-      "rock" : 16,
-      "folk" : 16
+      "folk" : 16,
+      "rock" : 16
     },
     "topSongs" : {
       "400 Years" : 3,
@@ -12205,8 +12205,8 @@
       "One Love Peace Concert" : 15,
       "The Freewheelin' Bob Dylan" : 14,
       "The Very Best of Marvin Gaye" : 13,
-      "Innervisions" : 11,
-      "Bringing It All Back Home" : 11
+      "Bringing It All Back Home" : 11,
+      "Innervisions" : 11
     },
     "topEpisodes" : { }
   }
@@ -12317,9 +12317,9 @@
   "timestamp" : 25104,
   "result" : {
     "topAlbums" : {
-      "Rumours (Super Deluxe)" : 41,
-      "Rumours" : 21,
+      "Rumours (Super Deluxe)" : 42,
       "Fleetwood Mac" : 21,
+      "Rumours" : 21,
       "Greatest Hits" : 9
     },
     "topSongs" : {
@@ -12859,7 +12859,7 @@
   "timestamp" : 26991,
   "result" : {
     "topArtists" : {
-      "Fleetwood Mac" : 32,
+      "Fleetwood Mac" : 33,
       "Led Zeppelin" : 29,
       "Frank Sinatra" : 16,
       "Aretha Franklin" : 13,
@@ -12867,7 +12867,7 @@
     },
     "topGenres" : {
       "70s" : 29,
-      "justice for silver springs" : 28,
+      "justice for silver springs" : 29,
       "soul" : 25,
       "christmas" : 14,
       "rock" : 12
@@ -12880,7 +12880,7 @@
       "Babe I'm Gonna Leave You" : 2
     },
     "topAlbums" : {
-      "Rumours (Super Deluxe)" : 28,
+      "Rumours (Super Deluxe)" : 29,
       "Led Zeppelin IV (Deluxe Edition)" : 26,
       "A Jolly Christmas from Frank Sinatra" : 12,
       "Soul Queen" : 8,

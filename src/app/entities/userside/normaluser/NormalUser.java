@@ -303,7 +303,7 @@ public class NormalUser extends User {
 
     public void insertAd(final Library lib, final Double price) {
         player.insertAdBreak(lib, price);
-        System.out.println(" load an ad to queue");
+//        System.out.println(" load an ad to queue");
 //        monetizeAd(lib, price);
     }
 
