@@ -10,5 +10,5 @@ import lombok.Setter;
 public class Merch {
     private String name;
     private String description;
-    private int price;
+    private Double price;
 }

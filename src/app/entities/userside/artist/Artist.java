@@ -315,4 +315,11 @@ public class Artist extends User implements Searchable {
     public void unsubscribe(final NormalUser user) {
         subscribers.remove(user);
     }
+
+    public Merch getMerchWithName(String merchName) {
+        return merchList.stream()
+                .filter(merch -> merch.getName().equals(merchName))
+                .findFirst()
+                .orElse(null);
+    }
 }

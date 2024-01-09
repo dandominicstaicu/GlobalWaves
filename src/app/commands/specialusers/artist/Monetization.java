@@ -73,4 +73,8 @@ public class Monetization {
         this.mostProfitableSong = getKeyWithHighestValue();
     }
 
+    public void payMerch(final Double price) {
+        interacted = true;
+        merchRevenue += price;
+    }
 }

@@ -10,6 +10,7 @@ import app.entities.playable.Playlist;
 import app.entities.playable.audio_files.Song;
 import app.entities.userside.User;
 import app.entities.userside.artist.Artist;
+import app.entities.userside.artist.Merch;
 import app.entities.userside.pages.HomePage;
 import app.entities.userside.pages.Page;
 import com.fasterxml.jackson.databind.node.ObjectNode;
@@ -17,6 +18,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 @Getter
 @Setter
@@ -36,6 +38,8 @@ public class NormalUser extends User {
 
     private ArrayList<Notification> notifications;
 
+    private ArrayList<Merch> boughtMerch;
+
     public NormalUser(final String username, final int age, final String city) {
         super(username, age, city, UserTypes.NORMAL_USER);
         this.player = new UserPlayer();
@@ -50,6 +54,7 @@ public class NormalUser extends User {
         this.regularHistory = new HashMap<>();
 
         this.notifications = new ArrayList<>();
+        this.boughtMerch = new ArrayList<>();
     }
 
     /**
@@ -349,5 +354,24 @@ public class NormalUser extends User {
         notifications.clear();
     }
 
+    public void buyMerch(final Merch merch) {
+        boughtMerch.add(merch);
+    }
 
+    /**
+     * Retrieves the names of all bought merch items using Java Streams.
+     *
+     * @return An ArrayList of Strings containing the names of all bought merch.
+     */
+    public ArrayList<String> getAllMerchNames() {
+//        ArrayList<String> merchNames = new ArrayList<>();
+//        for (Merch merch : boughtMerch) {
+//            merchNames.add(merch.getName());
+//        }
+//
+//        return merchNames;
+        return boughtMerch.stream()
+                .map(Merch::getName)
+                .collect(Collectors.toCollection(ArrayList::new));
+    }
 }

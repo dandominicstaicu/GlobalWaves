@@ -191,6 +191,9 @@ public final class Output {
     public static final String NEW_ALBUM = "New Album";
     public static final String NEW_PODCAST = "New Podcast";
     public static final String NEW_ANNOUNCEMENT = "New Announcement";
-
+    public static final String MERCH_BUY_ERR = "Cannot buy merch from this page.";
+    public static final String MERCH_BUY_SUCCESS = " has added new merch successfully.";
+    public static final String BUY_MERCH = "buyMerch";
+    public static final String SEE_MERCH = "seeMerch";
 
 }

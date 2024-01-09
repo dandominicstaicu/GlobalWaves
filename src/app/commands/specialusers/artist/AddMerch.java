@@ -20,7 +20,7 @@ import lombok.Setter;
 public class AddMerch extends CheckExistenceArtist {
     private String name;
     private String description;
-    private Integer price;
+    private Double price;
 
     /**
      * Returns a string representation of the AddMerch command.
