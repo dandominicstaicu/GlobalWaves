@@ -50,6 +50,8 @@ public class UserPlayer {
 
     private Boolean isOffline;
 
+    private Double adPrice = 0.0;
+
     /**
      * Constructs a UserPlayer instance.
      */
@@ -113,8 +115,12 @@ public class UserPlayer {
                 }
 
                 if (playingIndex < audioQueue.size()) {
-                    System.out.print(currentTimestamp + " Now playing: " + audioQueue.get(playingIndex).getName());
+                    System.out.print(currentTimestamp + " intuit1 Now playing: " + audioQueue.get(playingIndex).getName());
                     audioQueue.get(playingIndex).editStats(lib, user);
+                    if (audioQueue.get(playingIndex).getName().equals("Ad Break")) {
+                        user.monetizeAd(lib, adPrice);
+                        adPrice = 0.0;
+                    }
 
                     currentAudioDuration = audioQueue.get(playingIndex).getDuration();
                     while (loadedTimestamp + currentAudioDuration <= currentTimestamp) { // was < until the 3rd stage
@@ -135,7 +141,7 @@ public class UserPlayer {
 
                         // Update the duration for the new current track
                         currentAudioDuration = audioQueue.get(playingIndex).getDuration();
-                        System.out.print(currentTimestamp + " Now playing: " + audioQueue.get(playingIndex).getName());
+                        System.out.print(currentTimestamp + " intuit2 Now playing: " + audioQueue.get(playingIndex).getName());
                         audioQueue.get(playingIndex).editStats(lib, user);
                     }
 
@@ -568,7 +574,7 @@ public class UserPlayer {
         }
     }
 
-    public void insertAdBreak(final Library lib) {
+    public void insertAdBreak(final Library lib, final Double price) {
         Song ad = lib.getAdContent();
         if (ad == null) {
             System.out.println("ad not found");
@@ -576,6 +582,8 @@ public class UserPlayer {
         }
 
         if (playingIndexIsValid()) {
+            adPrice = price;
+
             if (playingIndex + 1 < audioQueue.size()) {
                 audioQueue.add(playingIndex + 1, ad);
             } else {
