@@ -195,5 +195,12 @@ public final class Output {
     public static final String MERCH_BUY_SUCCESS = " has added new merch successfully.";
     public static final String BUY_MERCH = "buyMerch";
     public static final String SEE_MERCH = "seeMerch";
+    public static final String UPDATE_RECOMMENDATIONS = "updateRecommendations";
+    public static final String UPDATE_RECOMMEND_SUCCESS = "The recommendations for user  have been updated successfully.";
+    public static final String PREV_PAGE = "previousPage";
+    public static final String NO_PREV_PAGE = "There are no pages left to go back.";
+    public static final String PREV_PAGE_SUCCESS = " has navigated successfully to the previous page.";
+
+
 
 }

@@ -4,9 +4,11 @@ import app.commands.normaluser.Notification;
 import app.commands.specialusers.artist.Monetization;
 import app.common.Constants;
 import app.common.Output;
+import app.common.UpdateRecommend;
 import app.common.UserTypes;
 import app.entities.Library;
 import app.entities.playable.Playlist;
+import app.entities.playable.audio_files.AudioFile;
 import app.entities.playable.audio_files.Song;
 import app.entities.userside.User;
 import app.entities.userside.artist.Artist;
@@ -40,6 +42,13 @@ public class NormalUser extends User {
 
     private ArrayList<Merch> boughtMerch;
 
+    private ArrayList<Song> songRecommendations;
+//    private ArrayList<Playlist> playlistsRecommendations;
+    private Playlist playlistsRecommendations;
+
+    private ArrayList<Page> pageHistory;
+    private int historyIndex = 0;
+
     public NormalUser(final String username, final int age, final String city) {
         super(username, age, city, UserTypes.NORMAL_USER);
         this.player = new UserPlayer();
@@ -55,6 +64,11 @@ public class NormalUser extends User {
 
         this.notifications = new ArrayList<>();
         this.boughtMerch = new ArrayList<>();
+
+        this.pageHistory = new ArrayList<>();
+
+//        this.playlistsRecommendations = new ArrayList<>();
+        this.playlistsRecommendations = null;
     }
 
     /**
@@ -211,7 +225,6 @@ public class NormalUser extends User {
 
         library.removeUser(this);
 
-
         return true;
     }
 
@@ -364,14 +377,79 @@ public class NormalUser extends User {
      * @return An ArrayList of Strings containing the names of all bought merch.
      */
     public ArrayList<String> getAllMerchNames() {
-//        ArrayList<String> merchNames = new ArrayList<>();
-//        for (Merch merch : boughtMerch) {
-//            merchNames.add(merch.getName());
-//        }
-//
-//        return merchNames;
         return boughtMerch.stream()
                 .map(Merch::getName)
                 .collect(Collectors.toCollection(ArrayList::new));
     }
+
+    public void updateRecommendations(UpdateRecommend type) {
+//        AudioFile playing = player.getCurrentlyPlaying();
+//        int elapsedTime = player.getCurrentlyPlaying().getPlayedTime();\
+//        int elapsedTime =
+
+        int elapsedTime = player.getPlayedTimeOfCurrentSong();
+
+        System.out.println("elapsed time: " + elapsedTime);
+
+        switch (type) {
+            case RANDOM_SONG -> {
+                if (elapsedTime < 30) {
+                    return;
+                }
+
+                System.out.println("s0ng");
+            }
+            case RANDOM_PLAYLIST -> {
+                System.out.println("playlist");
+            }
+            case FANS_PLAYLIST -> {
+                System.out.println("fans");
+                createFansPlayList();
+            }
+        }
+    }
+
+    private void createFansPlayList() {
+        AudioFile playing = player.getCurrentlyPlaying();
+        String artistName = playing.getFileOwner();
+
+        Library lib = Library.getInstance();
+        Artist artist = lib.getArtistWithName(artistName);
+
+        String playlistName = artistName + " Fan Club recommendations";
+
+        Playlist fansPlaylist = new Playlist(playlistName);
+
+//        List<String> fansNames = artist.getWrappedStats().top5Fans();
+        WrappedStats artistsStats = artist.getWrappedStats();
+        List<Map.Entry<String, Integer>> topFans = artistsStats.top5Fans();
+        for (Map.Entry<String, Integer> entry : topFans) {
+            NormalUser fan = lib.getUserWithUsername(entry.getKey());
+            WrappedStats fansStats = fan.getWrappedStats();
+
+            List<Map.Entry<String, Integer>> topSongs = fansStats.top5Songs();
+            for (Map.Entry<String, Integer> song_entry : topSongs) {
+                Song song = lib.getSongWithName(song_entry.getKey());
+
+                fansPlaylist.addSong(song);
+            }
+        }
+
+        // TODO maybe add in the existing playlist these instead of replacing
+        this.playlistsRecommendations = fansPlaylist;
+//        playlistsRecommendations.add(fansPlaylist);
+        System.out.println("penis: " + this.playlistsRecommendations);
+
+    }
+
+    public void addInPageHistory(final Page page) {
+        pageHistory.add(page);
+        historyIndex = pageHistory.size() - 1;
+    }
+
+    public void goToPrevPage() {
+        historyIndex--;
+        currentPage = pageHistory.get(historyIndex);
+    }
+
 }

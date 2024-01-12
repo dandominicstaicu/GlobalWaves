@@ -108,6 +108,11 @@
   "timestamp" : 130,
   "message" : "Like registered successfully."
 }, {
+  "command" : "updateRecommendations",
+  "user" : "ghiu",
+  "timestamp" : 152,
+  "message" : "The recommendations for user ghiu have been updated successfully."
+}, {
   "command" : "status",
   "user" : "ghiu",
   "timestamp" : 165,
@@ -137,12 +142,27 @@
   "command" : "printCurrentPage",
   "user" : "ghiu",
   "timestamp" : 205,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]Song recommendations:\n\t[]\n\nPlaylists recommendations:\n\t[]"
+}, {
+  "command" : "previousPage",
+  "user" : "ghiu",
+  "timestamp" : 210,
+  "message" : "There are no pages left to go back."
+}, {
+  "command" : "previousPage",
+  "user" : "ghiu",
+  "timestamp" : 215,
+  "message" : "There are no pages left to go back."
+}, {
+  "command" : "previousPage",
+  "user" : "ghiu",
+  "timestamp" : 220,
+  "message" : "There are no pages left to go back."
 }, {
   "command" : "printCurrentPage",
   "user" : "ghiu",
   "timestamp" : 240,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]Song recommendations:\n\t[]\n\nPlaylists recommendations:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "ghiu",
@@ -152,7 +172,7 @@
   "command" : "printCurrentPage",
   "user" : "ghiu",
   "timestamp" : 265,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]Song recommendations:\n\t[]\n\nPlaylists recommendations:\n\t[]"
 }, {
   "command" : "endProgram",
   "result" : {

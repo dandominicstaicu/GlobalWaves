@@ -18,6 +18,9 @@ import java.util.stream.Collectors;
 public class HomePage implements Page {
     private ArrayList<Song> top5Songs;
     private ArrayList<Playlist> top5Playlists;
+    private ArrayList<Song> songRecommendations;
+//    private ArrayList<Playlist> playlistRecommendations;
+    private Playlist playlistRecommendations;
 
     /**
      * Constructs a HomePage object. Initializes the top5Songs and top5Playlists lists.
@@ -25,6 +28,13 @@ public class HomePage implements Page {
     public HomePage() {
         top5Songs = new ArrayList<>();
         top5Playlists = new ArrayList<>();
+        songRecommendations = new ArrayList<>(); // Initialize this list
+        // playlistRecommendations = new ArrayList<>(); // Depending on your requirements
+    }
+
+    private void constructPlaylistRecommendations(final NormalUser user) {
+        playlistRecommendations = user.getPlaylistsRecommendations();
+        System.out.println("blyat: " + user.getPlaylistsRecommendations());
     }
 
     /**
@@ -66,6 +76,7 @@ public class HomePage implements Page {
     public String printPage(final Library lib, final NormalUser user) {
         constructTopPlaylists(user);
         constructTopSongs(user);
+        constructPlaylistRecommendations(user);
 
         StringBuilder pageContent = new StringBuilder();
 
@@ -89,6 +100,37 @@ public class HomePage implements Page {
                     .map(Playlist::getName)
                     .collect(Collectors.joining(", "));
             pageContent.append("[").append(playlistInfo).append("]");
+        } else {
+            pageContent.append("[]");
+        }
+
+        pageContent.append("\n\n");
+
+        // Append Song Recommendations
+        pageContent.append("Song recommendations:\n\t");
+        if (!songRecommendations.isEmpty()) {
+            String songRecs = songRecommendations.stream()
+                    .map(Song::getName)
+                    .collect(Collectors.joining(", "));
+            pageContent.append("[").append(songRecs).append("]");
+        } else {
+            pageContent.append("[]");
+        }
+
+        pageContent.append("\n\n");
+
+        // Append Playlist Recommendations
+
+//        System.out.println(playlistRecommendations);
+
+        pageContent.append("Playlists recommendations:\n\t");
+//        if (!playlistRecommendations.isEmpty()) {
+        if (playlistRecommendations != null) {
+//            String playlistRecs = playlistRecommendations.stream()
+//                    .map(Playlist::getName)
+//                    .collect(Collectors.joining(", "));
+            String playlistRecs = playlistRecommendations.getName();
+            pageContent.append("[").append(playlistRecs).append("]");
         } else {
             pageContent.append("[]");
         }

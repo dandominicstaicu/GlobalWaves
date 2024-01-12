@@ -1,7 +1,12 @@
 package app.commands.normaluser.pages;
 
 import app.entities.Library;
+import app.entities.playable.audio_files.AudioFile;
+import app.entities.userside.artist.Artist;
+import app.entities.userside.host.Host;
 import app.entities.userside.normaluser.NormalUser;
+import app.entities.userside.normaluser.UserPlayer;
+import app.entities.userside.pages.ArtistPage;
 import app.entities.userside.pages.LikedContentPage;
 import app.entities.userside.pages.Page;
 import com.fasterxml.jackson.databind.node.ArrayNode;
@@ -47,6 +52,7 @@ public class ChangePage extends Command {
     private void setPageAndCreateMessage(final NormalUser user, final Page page,
                                          final String message, final ObjectNode out) {
         user.setCurrentPage(page);
+        user.addInPageHistory(page);
         out.put(Output.MESSAGE, getUsername() + " accessed " + message + " successfully.");
     }
 
@@ -71,12 +77,29 @@ public class ChangePage extends Command {
         NormalUser user = lib.getUserWithUsername(getUsername());
         assert user != null;
 
+        UserPlayer userPlayer = user.getPlayer();
+        AudioFile playingFile  = userPlayer.getCurrentlyPlaying();
+
         switch (nextPage) {
             case "Home":
                 setPageAndCreateMessage(user, new HomePage(), "Home", out);
                 break;
             case "LikedContent":
                 setPageAndCreateMessage(user, new LikedContentPage(), "LikedContent", out);
+                break;
+            case "Artist":
+                String artistName = playingFile.getFileOwner();
+                Artist artist = lib.getArtistWithName(artistName);
+                Page artistPage = artist.getArtistPage();
+                
+                setPageAndCreateMessage(user, artistPage, "Artist", out);
+                break;
+            case "Host":
+                String hostName = playingFile.getFileOwner();
+                Host host = lib.getHostWithName(hostName);
+                Page hostPage = host.getHostPage();
+
+                setPageAndCreateMessage(user, hostPage, "Host", out);
                 break;
             default:
                 out.put(Output.MESSAGE, getUsername() + Output.NON_EXISTENT_PAGE);

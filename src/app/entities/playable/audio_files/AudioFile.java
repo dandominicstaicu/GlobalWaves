@@ -1,11 +1,14 @@
 package app.entities.playable.audio_files;
 
 import app.entities.Library;
+import app.entities.userside.artist.Artist;
 import app.entities.userside.normaluser.NormalUser;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+
+import java.util.ArrayList;
 
 /**
  * Represents an abstract audio file, which can be a song or a podcast episode.
@@ -27,4 +30,6 @@ public abstract class AudioFile {
     public abstract boolean isSong();
 
     public abstract void editStats(Library lib, NormalUser user);
+
+    public abstract String getFileOwner();
 }

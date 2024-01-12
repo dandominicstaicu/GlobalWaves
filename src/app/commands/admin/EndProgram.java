@@ -21,22 +21,7 @@ public class EndProgram extends Command {
 
     @Override
     public void execute(final ArrayNode outputs, final Library library, final boolean offline) {
-        System.out.println(this.toString());
-//        ObjectNode out = outputs.addObject();
-//
-//        out.put(Output.COMMAND, Output.END_PROGRAM);
-//
-//        Map<String, Monetization> artistsMonetization = library.getArtistsMonetization();
-//        ObjectNode resultNode = out.putObject(Output.RESULT);
-//
-//        artistsMonetization.forEach((artistName, monetization) -> {
-//           ObjectNode artistNode = resultNode.putObject(artistName);
-//
-//           artistNode.put(Output.SONG_REVENUE, monetization.getSongRevenue());
-//           artistNode.put(Output.MERCH_REVENUE, monetization.getMerchRevenue());
-//           artistNode.put(Output.RANKING, monetization.)
-//
-//        });
+//        System.out.println(this.toString());
 
         ObjectNode out = outputs.addObject();
 

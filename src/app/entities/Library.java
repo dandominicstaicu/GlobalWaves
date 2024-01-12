@@ -623,4 +623,13 @@ public final class Library {
         return null;
     }
 
+    public Song getSongWithName(String name) {
+        for (Song song : songs) {
+            if (song.getName().equals(name))
+                return song;
+        }
+
+        return null;
+    }
+
 }

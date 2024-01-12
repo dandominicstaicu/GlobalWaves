@@ -66,13 +66,12 @@ public class Episode extends AudioFile {
         stats.addEpisodeListenCount(this.getName());
         stats.registerStats();
 
-
         // stats for the host
-        System.out.println("blyat HOST NAME: " + this.getOwner());
+//        System.out.println("blyat HOST NAME: " + this.getOwner());
         Host host = lib.getHostWithName(this.getOwner());
-        if (host == null) {
-            System.out.println("CYKA" + this.getOwner());
-        }
+//        if (host == null) {
+////            System.out.println("CYKA" + this.getOwner());
+//        }
         if (host != null) {
             WrappedStats hostStats = host.getWrappedStats();
 
@@ -81,5 +80,9 @@ public class Episode extends AudioFile {
 
             hostStats.registerStats();
         }
+    }
+
+    public String getFileOwner() {
+        return this.owner;
     }
 }

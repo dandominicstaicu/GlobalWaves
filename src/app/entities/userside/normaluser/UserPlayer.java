@@ -52,6 +52,8 @@ public class UserPlayer {
 
     private Double adPrice = 0.0;
 
+//    private AudioFile currentlyPlaying;
+
     /**
      * Constructs a UserPlayer instance.
      */
@@ -91,6 +93,25 @@ public class UserPlayer {
 
             return;
         }
+
+//        if (isPlaying && playingIndexIsValid()) {
+//            // Calculate the elapsed time since the song started playing
+//            int elapsedTime = currentTimestamp - initialStartTimestamp;
+//
+//            // Get the currently playing AudioFile
+//            AudioFile currentlyPlaying = audioQueue.get(playingIndex);
+//            if (currentlyPlaying != null) {
+//                // Update the played time of the currently playing song
+//                currentlyPlaying.setPlayedTime(elapsedTime);
+//
+//                // Check if the song duration is exceeded and handle it accordingly
+////                if (elapsedTime >= currentlyPlaying.getDuration()) {
+////                    // Logic to go to next song or handle end of playlist
+////                }
+//            }
+//
+//            // ... rest of your method logic ...
+//        }
 
         if (!isPlaying) {
             if (playingIndexIsValid()) {
@@ -607,6 +628,16 @@ public class UserPlayer {
         }
 
 
+    }
+
+    public AudioFile getCurrentlyPlaying() {
+        return audioQueue.get(playingIndex);
+    }
+
+    public int getPlayedTimeOfCurrentSong() {
+        AudioFile currentlyPlaying = audioQueue.get(playingIndex);
+        System.out.println("playing file: " + audioQueue.get(playingIndex).getName());
+        return currentlyPlaying.getDuration() - getRemainedTime();
     }
 
 }

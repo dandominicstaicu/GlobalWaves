@@ -6,6 +6,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -39,6 +40,10 @@ public class Playlist implements Searchable {
         this.followers = followers;
     }
 
+    public Playlist(final String name) {
+        this.name = name;
+        this.songs = new ArrayList<>();
+    }
 
     /**
      * Checks if the playlist is empty (contains no songs).
@@ -142,5 +147,9 @@ public class Playlist implements Searchable {
     @Override
     public boolean isLoadedInPlayer(final String username) {
         return getOwner().equals(username);
+    }
+
+    public void addSong(final Song song) {
+        songs.add(song);
     }
 }

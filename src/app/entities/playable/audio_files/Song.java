@@ -202,4 +202,9 @@ public class Song extends AudioFile implements Searchable {
     public boolean ownedByUser(final String artistName) {
         return this.getArtist().equals(artistName);
     }
+
+    @Override
+    public String getFileOwner() {
+        return this.artist;
+    }
 }
