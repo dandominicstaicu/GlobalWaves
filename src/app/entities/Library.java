@@ -369,16 +369,16 @@ public final class Library {
      * @param album the album to be added
      */
     public void addSongsFromAlbum(final Album album) {
-//        songs.addAll(album.getSongs());
+        songs.addAll(album.getSongs());
 
-        for (Song songFromAlbum : album.getSongs()) {
-            boolean alreadyExists = songs.stream()
-                    .anyMatch(existingSong -> existingSong.equals(songFromAlbum));
-
-            if (!alreadyExists) {
-                songs.add(songFromAlbum);
-            }
-        }
+//        for (Song songFromAlbum : album.getSongs()) {
+//            boolean alreadyExists = songs.stream()
+//                    .anyMatch(existingSong -> existingSong.equals(songFromAlbum));
+//
+//            if (!alreadyExists) {
+//                songs.add(songFromAlbum);
+//            }
+//        }
 
 //        for (Song songFromAlbum : album.getSongs()) {
 //            boolean alreadyExist = false;

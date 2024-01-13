@@ -8047,7 +8047,7 @@
   "command" : "removeAlbum",
   "user" : "ABBA",
   "timestamp" : 8354,
-  "message" : "ABBA deleted the album successfully."
+  "message" : "ABBA can't delete this album."
 }, {
   "command" : "buyPremium",
   "user" : "carol19",
@@ -8247,7 +8247,7 @@
   "command" : "addAlbum",
   "user" : "ABBA",
   "timestamp" : 8504,
-  "message" : "ABBA has added new album successfully."
+  "message" : "ABBA has another album with the same name."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -8691,8 +8691,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 8902,
-  "message" : "Search returned 2 results",
-  "results" : [ "Lay All Your Love on Me", "Lay All Your Love on Me" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Lay All Your Love on Me" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -8765,8 +8765,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 8999,
-  "message" : "Search returned 2 results",
-  "results" : [ "Express Yourself", "Express Yourself" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Express Yourself" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -13078,12 +13078,12 @@
   "user" : "jack29",
   "timestamp" : 13487,
   "message" : "Search returned 5 results",
-  "results" : [ "One of Us", "One", "One Step Closer", "One Tree Hill", "One Piece at a Time" ]
+  "results" : [ "One", "One Step Closer", "One Tree Hill", "One Piece at a Time", "One of Us" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 13487,
-  "message" : "Successfully selected One of Us."
+  "message" : "Successfully selected One."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -13572,12 +13572,12 @@
   "user" : "bob35",
   "timestamp" : 14325,
   "message" : "Search returned 5 results",
-  "results" : [ "One of Us", "One", "One Step Closer", "One Tree Hill", "One Piece at a Time" ]
+  "results" : [ "One", "One Step Closer", "One Tree Hill", "One Piece at a Time", "One of Us" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 14325,
-  "message" : "Successfully selected One of Us."
+  "message" : "Successfully selected One."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -15889,12 +15889,12 @@
   "user" : "emily30",
   "timestamp" : 17188,
   "message" : "Search returned 5 results",
-  "results" : [ "One of Us", "One", "One Step Closer", "One Tree Hill", "One Piece at a Time" ]
+  "results" : [ "One", "One Step Closer", "One Tree Hill", "One Piece at a Time", "One of Us" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 17188,
-  "message" : "Successfully selected One of Us."
+  "message" : "Successfully selected One."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -16076,10 +16076,10 @@
   "timestamp" : 17448,
   "result" : {
     "topAlbums" : {
-      "ABBA Gold" : 52,
-      "Arrival" : 26,
-      "Voulez-Vous" : 26,
-      "Super Trouper" : 25
+      "Arrival" : 40,
+      "ABBA Gold" : 34,
+      "Super Trouper" : 26,
+      "Voulez-Vous" : 26
     },
     "topSongs" : {
       "The Winner Takes It All" : 10,
@@ -16913,12 +16913,12 @@
   "user" : "emily30",
   "timestamp" : 18516,
   "message" : "Search returned 2 results",
-  "results" : [ "Angeleyes", "Angel" ]
+  "results" : [ "Angel", "Angeleyes" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 18516,
-  "message" : "Successfully selected Angeleyes."
+  "message" : "Successfully selected Angel."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -17924,12 +17924,12 @@
   "user" : "henry26",
   "timestamp" : 19545,
   "message" : "Search returned 5 results",
-  "results" : [ "One of Us", "One", "One Step Closer", "One Tree Hill", "One Piece at a Time" ]
+  "results" : [ "One", "One Step Closer", "One Tree Hill", "One Piece at a Time", "One of Us" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 19545,
-  "message" : "Successfully selected One of Us."
+  "message" : "Successfully selected One."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -18482,12 +18482,12 @@
   "user" : "alice22",
   "timestamp" : 20147,
   "message" : "Search returned 4 results",
-  "results" : [ "The Chain", "The Chain - 2004 Remastered Edition", "the chain - Live", "The Chain - Demo" ]
+  "results" : [ "The Chain - 2004 Remastered Edition", "the chain - Live", "The Chain - Demo", "The Chain" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 20147,
-  "message" : "Successfully selected The Chain."
+  "message" : "Successfully selected The Chain - 2004 Remastered Edition."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -20294,11 +20294,11 @@
       "Dancing Queen" : 2
     },
     "topAlbums" : {
-      "ABBA Gold" : 16,
+      "ABBA Gold" : 12,
       "Led Zeppelin IV" : 8,
       "Chuck Berry Is On Top" : 7,
-      "1989" : 5,
-      "Super Trouper" : 5
+      "Arrival" : 6,
+      "1989" : 5
     },
     "topEpisodes" : { }
   }
@@ -20402,12 +20402,12 @@
   "user" : "irene33",
   "timestamp" : 22320,
   "message" : "Search returned 4 results",
-  "results" : [ "The Chain", "The Chain - 2004 Remastered Edition", "the chain - Live", "The Chain - Demo" ]
+  "results" : [ "The Chain - 2004 Remastered Edition", "the chain - Live", "The Chain - Demo", "The Chain" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 22320,
-  "message" : "Successfully selected The Chain."
+  "message" : "Successfully selected The Chain - 2004 Remastered Edition."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -20548,10 +20548,10 @@
       "Taylor Swift" : 13
     },
     "topGenres" : {
-      "pop" : 29,
+      "pop" : 28,
       "country" : 26,
       "classic rock" : 21,
-      "rock" : 14,
+      "rock" : 15,
       "rock and roll" : 13
     },
     "topSongs" : {
@@ -20565,8 +20565,8 @@
       "The Legend of Johnny Cash" : 13,
       "Chuck Berry Is On Top" : 10,
       "Electric Ladyland" : 9,
-      "ABBA Gold" : 8,
-      "Experience Hendrix: The Best of Jimi Hendrix" : 6
+      "Experience Hendrix: The Best of Jimi Hendrix" : 6,
+      "Led Zeppelin" : 6
     },
     "topEpisodes" : { }
   }
@@ -20758,7 +20758,7 @@
     },
     "topGenres" : {
       "rock" : 32,
-      "pop" : 22,
+      "pop" : 21,
       "soul" : 12,
       "country" : 11,
       "1979" : 8
@@ -20775,7 +20775,7 @@
       "How to Dismantle an Atomic Bomb" : 9,
       "Broken Machine (Deluxe)" : 8,
       "Voulez-Vous" : 8,
-      "ABBA Gold" : 6
+      "Greatest Hits" : 6
     },
     "topEpisodes" : { }
   }
@@ -20848,12 +20848,12 @@
   "user" : "irene33",
   "timestamp" : 23193,
   "message" : "Search returned 3 results",
-  "results" : [ "I Don't Want to Know", "I Don't Want To Know - 2004 Remastered Edition", "I Don't Want To Know - Early Take" ]
+  "results" : [ "I Don't Want To Know - 2004 Remastered Edition", "I Don't Want To Know - Early Take", "I Don't Want to Know" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 23193,
-  "message" : "Successfully selected I Don't Want to Know."
+  "message" : "Successfully selected I Don't Want To Know - 2004 Remastered Edition."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -20901,12 +20901,12 @@
   "user" : "irene33",
   "timestamp" : 23384,
   "message" : "Search returned 5 results",
-  "results" : [ "Never Going Back", "Never Going Back Again - 2004 Remastered Edition", "Never Going Back Again", "Never Going Back Again - Acoustic Duet", "Never Going Back Again - (Instrumental" ]
+  "results" : [ "Never Going Back Again - 2004 Remastered Edition", "Never Going Back Again", "Never Going Back Again - Acoustic Duet", "Never Going Back Again - (Instrumental", "Never Going Back Again (early demo)" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 23384,
-  "message" : "Successfully selected Never Going Back."
+  "message" : "Successfully selected Never Going Back Again - 2004 Remastered Edition."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -20997,12 +20997,12 @@
   "user" : "emily30",
   "timestamp" : 23566,
   "message" : "Search returned 5 results",
-  "results" : [ "Oh Daddy", "Oh Daddy - 2004 Remastered Edition", "Oh Daddy - Live", "Oh Daddy - Early Take", "Oh Daddy (Sessions, Roughs & Outtakes)" ]
+  "results" : [ "Oh Daddy - 2004 Remastered Edition", "Oh Daddy - Live", "Oh Daddy - Early Take", "Oh Daddy (Sessions, Roughs & Outtakes)", "Oh Daddy" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 23566,
-  "message" : "Successfully selected Oh Daddy."
+  "message" : "Successfully selected Oh Daddy - 2004 Remastered Edition."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -21125,12 +21125,12 @@
   "user" : "emily30",
   "timestamp" : 23800,
   "message" : "Search returned 5 results",
-  "results" : [ "Never Going Back", "Never Going Back Again - 2004 Remastered Edition", "Never Going Back Again", "Never Going Back Again - Acoustic Duet", "Never Going Back Again - (Instrumental" ]
+  "results" : [ "Never Going Back Again - 2004 Remastered Edition", "Never Going Back Again", "Never Going Back Again - Acoustic Duet", "Never Going Back Again - (Instrumental", "Never Going Back Again (early demo)" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 23800,
-  "message" : "Successfully selected Never Going Back."
+  "message" : "Successfully selected Never Going Back Again - 2004 Remastered Edition."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -21191,8 +21191,8 @@
   "result" : {
     "topAlbums" : {
       "All That You Can't Leave Behind" : 36,
+      "Achtung Baby" : 35,
       "The Joshua Tree" : 33,
-      "Achtung Baby" : 31,
       "How to Dismantle an Atomic Bomb" : 24
     },
     "topSongs" : {
@@ -21200,9 +21200,9 @@
       "So Cruel" : 6,
       "With or Without You" : 6,
       "In a Little While" : 5,
-      "The Fly" : 5
+      "One" : 5
     },
-    "topFans" : [ "alice22", "emily30", "david27", "grace25", "bob35" ],
+    "topFans" : [ "alice22", "emily30", "david27", "bob35", "grace25" ],
     "listeners" : 10
   }
 }, {
@@ -21295,12 +21295,12 @@
   "user" : "emily30",
   "timestamp" : 24049,
   "message" : "Search returned 5 results",
-  "results" : [ "Dreams", "Dreams - 2004 Remastered Edition", "Dreams - Live", "Dreams - Take 2", "Dreams (Sessions, Roughs & Outtakes)" ]
+  "results" : [ "Dreams - 2004 Remastered Edition", "Dreams - Live", "Dreams - Take 2", "Dreams (Sessions, Roughs & Outtakes)", "Dreams" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 24049,
-  "message" : "Successfully selected Dreams."
+  "message" : "Successfully selected Dreams - 2004 Remastered Edition."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -22066,31 +22066,31 @@
   "timestamp" : 25802,
   "result" : {
     "topArtists" : {
-      "Jimi Hendrix" : 18,
+      "Jimi Hendrix" : 19,
       "Led Zeppelin" : 17,
-      "U2" : 15,
-      "ABBA" : 14,
-      "Fleetwood Mac" : 14
+      "U2" : 16,
+      "Fleetwood Mac" : 14,
+      "ABBA" : 12
     },
     "topGenres" : {
-      "pop" : 33,
-      "rock" : 30,
+      "pop" : 32,
+      "rock" : 31,
       "country" : 14,
       "hard rock" : 14,
-      "classic rock" : 9
+      "justice for silver springs" : 11
     },
     "topSongs" : {
-      "Angeleyes" : 3,
       "Stairway to Heaven" : 3,
       "Amsterdam - NBT" : 2,
+      "Angeleyes" : 2,
       "Bring It on Home" : 2,
       "Can You See Me" : 2
     },
     "topAlbums" : {
       "Are You Experienced" : 13,
       "The Joshua Tree" : 12,
+      "Rumours (Super Deluxe)" : 11,
       "Led Zeppelin II" : 9,
-      "Rumours (Super Deluxe)" : 8,
       "Celebration (Double Disc Version)" : 7
     },
     "topEpisodes" : { }
@@ -22134,7 +22134,7 @@
   "result" : {
     "topAlbums" : {
       "Are You Experienced" : 48,
-      "Experience Hendrix: The Best of Jimi Hendrix" : 44,
+      "Experience Hendrix: The Best of Jimi Hendrix" : 45,
       "Electric Ladyland" : 39,
       "Are You Experienced?" : 8
     },
@@ -22145,7 +22145,7 @@
       "Hey Joe" : 7,
       "Love Or Confusion" : 6
     },
-    "topFans" : [ "frank21", "bob35", "emily30", "grace25", "irene33" ],
+    "topFans" : [ "frank21", "emily30", "bob35", "grace25", "irene33" ],
     "listeners" : 10
   }
 }, {
@@ -22201,12 +22201,12 @@
   "user" : "frank21",
   "timestamp" : 25925,
   "message" : "Search returned 3 results",
-  "results" : [ "I Don't Want to Know", "I Don't Want To Know - 2004 Remastered Edition", "I Don't Want To Know - Early Take" ]
+  "results" : [ "I Don't Want To Know - 2004 Remastered Edition", "I Don't Want To Know - Early Take", "I Don't Want to Know" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 25925,
-  "message" : "Successfully selected I Don't Want to Know."
+  "message" : "Successfully selected I Don't Want To Know - 2004 Remastered Edition."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -22249,12 +22249,12 @@
   "user" : "frank21",
   "timestamp" : 26187,
   "message" : "Search returned 5 results",
-  "results" : [ "Go Your Own Way", "Go Your Own Way - 2004 Remastered Edition", "Go Your Own Way", "Go Your Own Way - Early Take", "Go Your Own Way (Sessions, Roughs & Outtakes) - 2004 Remastered Edition" ]
+  "results" : [ "Go Your Own Way - 2004 Remastered Edition", "Go Your Own Way", "Go Your Own Way - Early Take", "Go Your Own Way (Sessions, Roughs & Outtakes) - 2004 Remastered Edition", "Go Your Own Way" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 26187,
-  "message" : "Successfully selected Go Your Own Way."
+  "message" : "Successfully selected Go Your Own Way - 2004 Remastered Edition."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -22281,12 +22281,12 @@
   "user" : "frank21",
   "timestamp" : 26391,
   "message" : "Search returned 5 results",
-  "results" : [ "Go Your Own Way", "Go Your Own Way - 2004 Remastered Edition", "Go Your Own Way", "Go Your Own Way - Early Take", "Go Your Own Way (Sessions, Roughs & Outtakes) - 2004 Remastered Edition" ]
+  "results" : [ "Go Your Own Way - 2004 Remastered Edition", "Go Your Own Way", "Go Your Own Way - Early Take", "Go Your Own Way (Sessions, Roughs & Outtakes) - 2004 Remastered Edition", "Go Your Own Way" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 26391,
-  "message" : "Successfully selected Go Your Own Way."
+  "message" : "Successfully selected Go Your Own Way - 2004 Remastered Edition."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -22309,7 +22309,7 @@
       "country" : 22,
       "rap" : 21,
       "rock" : 20,
-      "classic rock" : 14
+      "classic rock" : 11
     },
     "topSongs" : {
       "Express Yourself" : 3,
@@ -22619,12 +22619,12 @@
   "user" : "grace25",
   "timestamp" : 27726,
   "message" : "Search returned 5 results",
-  "results" : [ "Oh Daddy", "Oh Daddy - 2004 Remastered Edition", "Oh Daddy - Live", "Oh Daddy - Early Take", "Oh Daddy (Sessions, Roughs & Outtakes)" ]
+  "results" : [ "Oh Daddy - 2004 Remastered Edition", "Oh Daddy - Live", "Oh Daddy - Early Take", "Oh Daddy (Sessions, Roughs & Outtakes)", "Oh Daddy" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 27726,
-  "message" : "Successfully selected Oh Daddy."
+  "message" : "Successfully selected Oh Daddy - 2004 Remastered Edition."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -22704,12 +22704,12 @@
   "user" : "grace25",
   "timestamp" : 27887,
   "message" : "Search returned 5 results",
-  "results" : [ "Songbird", "Songbird - 2004 Remastered Edition", "Songbird - Live", "Songbird - Demo", "Songbird - Instrumental , Take 10" ]
+  "results" : [ "Songbird - 2004 Remastered Edition", "Songbird - Live", "Songbird - Demo", "Songbird - Instrumental , Take 10", "Songbird (Sessions, Roughs & Outtakes)" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 27887,
-  "message" : "Successfully selected Songbird."
+  "message" : "Successfully selected Songbird - 2004 Remastered Edition."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -22917,7 +22917,7 @@
   "user" : "henry26",
   "timestamp" : 28401,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't Stop 'Til You Get Enough", "Don't Stop", "Don't Stop - 2004 Remastered Edition", "Don't Stop - Live", "Don't Stop (Sessions, Roughs & Outtakes) - 2004 Remastered Edition" ]
+  "results" : [ "Don't Stop 'Til You Get Enough", "Don't Stop - 2004 Remastered Edition", "Don't Stop - Live", "Don't Stop (Sessions, Roughs & Outtakes) - 2004 Remastered Edition", "Don't Stop" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -22938,12 +22938,12 @@
   "user" : "grace25",
   "timestamp" : 28439,
   "message" : "Search returned 3 results",
-  "results" : [ "I Don't Want to Know", "I Don't Want To Know - 2004 Remastered Edition", "I Don't Want To Know - Early Take" ]
+  "results" : [ "I Don't Want To Know - 2004 Remastered Edition", "I Don't Want To Know - Early Take", "I Don't Want to Know" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 28439,
-  "message" : "Successfully selected I Don't Want to Know."
+  "message" : "Successfully selected I Don't Want To Know - 2004 Remastered Edition."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -22963,7 +22963,7 @@
     },
     "topGenres" : {
       "pop" : 32,
-      "classic rock" : 30,
+      "classic rock" : 27,
       "country" : 17,
       "rock and roll" : 17,
       "soul" : 13
@@ -22979,8 +22979,8 @@
       "Experience Hendrix: The Best of Jimi Hendrix" : 21,
       "The Great Twenty-Eight" : 14,
       "reputation" : 9,
-      "Led Zeppelin IV (Deluxe Edition)" : 8,
-      "What's Going On" : 8
+      "Arrival" : 8,
+      "Led Zeppelin IV (Deluxe Edition)" : 8
     },
     "topEpisodes" : { }
   }
@@ -23026,12 +23026,12 @@
   "user" : "henry26",
   "timestamp" : 28618,
   "message" : "Search returned 5 results",
-  "results" : [ "Go Your Own Way", "Go Your Own Way - 2004 Remastered Edition", "Go Your Own Way", "Go Your Own Way - Early Take", "Go Your Own Way (Sessions, Roughs & Outtakes) - 2004 Remastered Edition" ]
+  "results" : [ "Go Your Own Way - 2004 Remastered Edition", "Go Your Own Way", "Go Your Own Way - Early Take", "Go Your Own Way (Sessions, Roughs & Outtakes) - 2004 Remastered Edition", "Go Your Own Way" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 28618,
-  "message" : "Successfully selected Go Your Own Way."
+  "message" : "Successfully selected Go Your Own Way - 2004 Remastered Edition."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -23047,12 +23047,12 @@
   "user" : "grace25",
   "timestamp" : 28640,
   "message" : "Search returned 5 results",
-  "results" : [ "Dreams", "Dreams - 2004 Remastered Edition", "Dreams - Live", "Dreams - Take 2", "Dreams (Sessions, Roughs & Outtakes)" ]
+  "results" : [ "Dreams - 2004 Remastered Edition", "Dreams - Live", "Dreams - Take 2", "Dreams (Sessions, Roughs & Outtakes)", "Dreams" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 28640,
-  "message" : "Successfully selected Dreams."
+  "message" : "Successfully selected Dreams - 2004 Remastered Edition."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -23201,12 +23201,12 @@
   "user" : "grace25",
   "timestamp" : 29047,
   "message" : "Search returned 5 results",
-  "results" : [ "Songbird", "Songbird - 2004 Remastered Edition", "Songbird - Live", "Songbird - Demo", "Songbird - Instrumental , Take 10" ]
+  "results" : [ "Songbird - 2004 Remastered Edition", "Songbird - Live", "Songbird - Demo", "Songbird - Instrumental , Take 10", "Songbird (Sessions, Roughs & Outtakes)" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 29047,
-  "message" : "Successfully selected Songbird."
+  "message" : "Successfully selected Songbird - 2004 Remastered Edition."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -23233,12 +23233,12 @@
   "user" : "grace25",
   "timestamp" : 29150,
   "message" : "Search returned 5 results",
-  "results" : [ "Never Going Back", "Never Going Back Again - 2004 Remastered Edition", "Never Going Back Again", "Never Going Back Again - Acoustic Duet", "Never Going Back Again - (Instrumental" ]
+  "results" : [ "Never Going Back Again - 2004 Remastered Edition", "Never Going Back Again", "Never Going Back Again - Acoustic Duet", "Never Going Back Again - (Instrumental", "Never Going Back Again (early demo)" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 29150,
-  "message" : "Successfully selected Never Going Back."
+  "message" : "Successfully selected Never Going Back Again - 2004 Remastered Edition."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -23371,12 +23371,12 @@
   "user" : "grace25",
   "timestamp" : 29652,
   "message" : "Search returned 5 results",
-  "results" : [ "Songbird", "Songbird - 2004 Remastered Edition", "Songbird - Live", "Songbird - Demo", "Songbird - Instrumental , Take 10" ]
+  "results" : [ "Songbird - 2004 Remastered Edition", "Songbird - Live", "Songbird - Demo", "Songbird - Instrumental , Take 10", "Songbird (Sessions, Roughs & Outtakes)" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 29652,
-  "message" : "Successfully selected Songbird."
+  "message" : "Successfully selected Songbird - 2004 Remastered Edition."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -23509,12 +23509,12 @@
   "user" : "henry26",
   "timestamp" : 30033,
   "message" : "Search returned 5 results",
-  "results" : [ "Gold Dust Woman", "Gold Dust Woman - 2004 Remastered Edition", "Gold Dust Woman", "Gold Dust Woman - Early Take", "Gold Dust Woman #1 (Sessions, Roughs & Outtakes)" ]
+  "results" : [ "Gold Dust Woman - 2004 Remastered Edition", "Gold Dust Woman", "Gold Dust Woman - Early Take", "Gold Dust Woman #1 (Sessions, Roughs & Outtakes)", "Gold Dust Woman (Early Demo) - 2004 Remastered Edition" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 30033,
-  "message" : "Successfully selected Gold Dust Woman."
+  "message" : "Successfully selected Gold Dust Woman - 2004 Remastered Edition."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -23557,12 +23557,12 @@
   "user" : "henry26",
   "timestamp" : 30178,
   "message" : "Search returned 5 results",
-  "results" : [ "Songbird", "Songbird - 2004 Remastered Edition", "Songbird - Live", "Songbird - Demo", "Songbird - Instrumental , Take 10" ]
+  "results" : [ "Songbird - 2004 Remastered Edition", "Songbird - Live", "Songbird - Demo", "Songbird - Instrumental , Take 10", "Songbird (Sessions, Roughs & Outtakes)" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 30178,
-  "message" : "Successfully selected Songbird."
+  "message" : "Successfully selected Songbird - 2004 Remastered Edition."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -23605,12 +23605,12 @@
   "user" : "david27",
   "timestamp" : 30288,
   "message" : "Search returned 5 results",
-  "results" : [ "Dreams", "Dreams - 2004 Remastered Edition", "Dreams - Live", "Dreams - Take 2", "Dreams (Sessions, Roughs & Outtakes)" ]
+  "results" : [ "Dreams - 2004 Remastered Edition", "Dreams - Live", "Dreams - Take 2", "Dreams (Sessions, Roughs & Outtakes)", "Dreams" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 30288,
-  "message" : "Successfully selected Dreams."
+  "message" : "Successfully selected Dreams - 2004 Remastered Edition."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -23775,12 +23775,12 @@
   "user" : "david27",
   "timestamp" : 31211,
   "message" : "Search returned 3 results",
-  "results" : [ "You Make Loving Fun", "You Make Loving Fun - 2004 Remastered Edition", "You Make Loving Fun (Sessions, Roughs & Outtakes) - 2004 Remastered Edition" ]
+  "results" : [ "You Make Loving Fun - 2004 Remastered Edition", "You Make Loving Fun (Sessions, Roughs & Outtakes) - 2004 Remastered Edition", "You Make Loving Fun" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 31211,
-  "message" : "Successfully selected You Make Loving Fun."
+  "message" : "Successfully selected You Make Loving Fun - 2004 Remastered Edition."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -24178,13 +24178,13 @@
       "Madonna" : 22,
       "Eminem" : 20,
       "Johnny Cash" : 20,
-      "ABBA" : 16
+      "Nothing But Thieves" : 16
     },
     "topGenres" : {
-      "pop" : 69,
+      "pop" : 68,
       "country" : 21,
       "rap" : 20,
-      "rock" : 15,
+      "rock" : 16,
       "soul" : 10
     },
     "topSongs" : {
@@ -24476,20 +24476,20 @@
     },
     "topGenres" : {
       "pop" : 48,
-      "justice for silver springs" : 33,
+      "justice for silver springs" : 40,
       "rock" : 21,
-      "classic rock" : 18,
-      "rap" : 15
+      "rap" : 15,
+      "alternative rock" : 11
     },
     "topSongs" : {
+      "Songbird - 2004 Remastered Edition" : 4,
       "Misty Mountain Hop" : 3,
-      "Songbird" : 3,
       "4 Minutes - feat. Justin Timberlake and Timbaland" : 2,
-      "Even Better Than the Real Thing" : 2,
-      "Everybody" : 2
+      "Dreams - 2004 Remastered Edition" : 2,
+      "Even Better Than the Real Thing" : 2
     },
     "topAlbums" : {
-      "Rumours (Super Deluxe)" : 33,
+      "Rumours (Super Deluxe)" : 40,
       "Celebration (Double Disc Version)" : 26,
       "Broken Machine (Deluxe)" : 11,
       "Electric Ladyland" : 10,
@@ -24779,12 +24779,12 @@
   "user" : "jack29",
   "timestamp" : 36813,
   "message" : "Search returned 5 results",
-  "results" : [ "Gold Dust Woman", "Gold Dust Woman - 2004 Remastered Edition", "Gold Dust Woman", "Gold Dust Woman - Early Take", "Gold Dust Woman #1 (Sessions, Roughs & Outtakes)" ]
+  "results" : [ "Gold Dust Woman - 2004 Remastered Edition", "Gold Dust Woman", "Gold Dust Woman - Early Take", "Gold Dust Woman #1 (Sessions, Roughs & Outtakes)", "Gold Dust Woman (Early Demo) - 2004 Remastered Edition" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 36813,
-  "message" : "Successfully selected Gold Dust Woman."
+  "message" : "Successfully selected Gold Dust Woman - 2004 Remastered Edition."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -24796,17 +24796,16 @@
   "timestamp" : 36958,
   "result" : {
     "topAlbums" : {
-      "Rumours (Super Deluxe)" : 65,
+      "Rumours (Super Deluxe)" : 88,
       "Greatest Hits" : 36,
-      "Fleetwood Mac" : 25,
-      "Rumours" : 23
+      "Fleetwood Mac" : 25
     },
     "topSongs" : {
       "I'm So Afraid" : 7,
       "Shake Your Moneymaker" : 7,
-      "Say You Love Me" : 6,
-      "Go Your Own Way" : 4,
-      "Monday Morning - Live" : 4
+      "Songbird - 2004 Remastered Edition" : 7,
+      "Go Your Own Way - 2004 Remastered Edition" : 6,
+      "Never Going Back Again - 2004 Remastered Edition" : 6
     },
     "topFans" : [ "grace25", "jack29", "irene33", "emily30", "henry26" ],
     "listeners" : 10
@@ -25065,8 +25064,8 @@
     },
     "topGenres" : {
       "country" : 93,
-      "rock" : 34,
-      "pop" : 30,
+      "rock" : 35,
+      "pop" : 29,
       "rap" : 21,
       "rock and roll" : 18
     },
@@ -25093,7 +25092,7 @@
       "songRevenue" : 3983555.16,
       "merchRevenue" : 0.0,
       "ranking" : 1,
-      "mostProfitableSong" : "Songbird"
+      "mostProfitableSong" : "Songbird - 2004 Remastered Edition"
     },
     "Eminem" : {
       "songRevenue" : 3476448.6,
@@ -25114,7 +25113,7 @@
       "mostProfitableSong" : "Joy"
     },
     "U2" : {
-      "songRevenue" : 2705869.72,
+      "songRevenue" : 2712926.18,
       "merchRevenue" : 0.0,
       "ranking" : 5,
       "mostProfitableSong" : "Running to Stand Still"
@@ -25150,7 +25149,7 @@
       "mostProfitableSong" : "Misty Mountain Hop"
     },
     "ABBA" : {
-      "songRevenue" : 1563970.75,
+      "songRevenue" : 1556914.29,
       "merchRevenue" : 1500.0,
       "ranking" : 11,
       "mostProfitableSong" : "Why Did It Have to Be Me"

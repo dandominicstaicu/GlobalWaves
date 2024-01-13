@@ -8840,12 +8840,12 @@
   "user" : "emily30",
   "timestamp" : 7388,
   "message" : "Search returned 2 results",
-  "results" : [ "Superstition", "Superstition - Single Version" ]
+  "results" : [ "Superstition - Single Version", "Superstition" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 7388,
-  "message" : "Successfully selected Superstition."
+  "message" : "Successfully selected Superstition - Single Version."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -9030,12 +9030,12 @@
   "user" : "frank21",
   "timestamp" : 7534,
   "message" : "Search returned 2 results",
-  "results" : [ "Superstition", "Superstition - Single Version" ]
+  "results" : [ "Superstition - Single Version", "Superstition" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 7534,
-  "message" : "Successfully selected Superstition."
+  "message" : "Successfully selected Superstition - Single Version."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -9110,12 +9110,12 @@
   "user" : "emily30",
   "timestamp" : 7656,
   "message" : "Search returned 2 results",
-  "results" : [ "Higher Ground", "Higher Ground - Single Version" ]
+  "results" : [ "Higher Ground - Single Version", "Higher Ground" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 7656,
-  "message" : "Successfully selected Higher Ground."
+  "message" : "Successfully selected Higher Ground - Single Version."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -9126,12 +9126,12 @@
   "user" : "frank21",
   "timestamp" : 7668,
   "message" : "Search returned 2 results",
-  "results" : [ "You Are the Sunshine of My Life", "You Are The Sunshine Of My Life - Single Version With Horns" ]
+  "results" : [ "You Are The Sunshine Of My Life - Single Version With Horns", "You Are the Sunshine of My Life" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 7668,
-  "message" : "Successfully selected You Are the Sunshine of My Life."
+  "message" : "Successfully selected You Are The Sunshine Of My Life - Single Version With Horns."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -9147,12 +9147,12 @@
   "user" : "bob35",
   "timestamp" : 7672,
   "message" : "Search returned 2 results",
-  "results" : [ "Higher Ground", "Higher Ground - Single Version" ]
+  "results" : [ "Higher Ground - Single Version", "Higher Ground" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 7672,
-  "message" : "Successfully selected Higher Ground."
+  "message" : "Successfully selected Higher Ground - Single Version."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -10345,12 +10345,12 @@
   "user" : "grace25",
   "timestamp" : 8768,
   "message" : "Search returned 2 results",
-  "results" : [ "You Are the Sunshine of My Life", "You Are The Sunshine Of My Life - Single Version With Horns" ]
+  "results" : [ "You Are The Sunshine Of My Life - Single Version With Horns", "You Are the Sunshine of My Life" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 8768,
-  "message" : "Successfully selected You Are the Sunshine of My Life."
+  "message" : "Successfully selected You Are The Sunshine Of My Life - Single Version With Horns."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -10413,12 +10413,12 @@
   "user" : "emily30",
   "timestamp" : 8839,
   "message" : "Search returned 2 results",
-  "results" : [ "Higher Ground", "Higher Ground - Single Version" ]
+  "results" : [ "Higher Ground - Single Version", "Higher Ground" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 8839,
-  "message" : "Successfully selected Higher Ground."
+  "message" : "Successfully selected Higher Ground - Single Version."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -11431,7 +11431,7 @@
   "user" : "emily30",
   "timestamp" : 9752,
   "message" : "Search returned 5 results",
-  "results" : [ "You Know You're Right", "You're My Thrill", "You've Changed", "Your Summer Dreams", "You Still Believe in Me" ]
+  "results" : [ "You Know You're Right", "You're My Thrill", "You've Changed", "You Still Believe in Me", "You Are The Sunshine Of My Life - Single Version With Horns" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -12026,8 +12026,8 @@
   "timestamp" : 10363,
   "result" : {
     "topAlbums" : {
-      "Pet Sounds" : 57,
-      "Summer Dreams" : 55
+      "Pet Sounds" : 64,
+      "Summer Dreams" : 48
     },
     "topSongs" : {
       "Summertime Blues" : 8,
@@ -12315,7 +12315,7 @@
   "user" : "emily30",
   "timestamp" : 10701,
   "message" : "Search returned 5 results",
-  "results" : [ "You Know You're Right", "You're My Thrill", "You've Changed", "Your Summer Dreams", "You Still Believe in Me" ]
+  "results" : [ "You Know You're Right", "You're My Thrill", "You've Changed", "You Still Believe in Me", "You Are The Sunshine Of My Life - Single Version With Horns" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -15159,12 +15159,12 @@
   "user" : "david27",
   "timestamp" : 14576,
   "message" : "Search returned 3 results",
-  "results" : [ "Night", "Night Life", "Night Time Is The Right Time" ]
+  "results" : [ "Night Life", "Night Time Is The Right Time", "Night" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 14576,
-  "message" : "Successfully selected Night."
+  "message" : "Successfully selected Night Life."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -16280,12 +16280,12 @@
   "user" : "irene33",
   "timestamp" : 16155,
   "message" : "Search returned 2 results",
-  "results" : [ "Higher Ground", "Higher Ground - Single Version" ]
+  "results" : [ "Higher Ground - Single Version", "Higher Ground" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 16155,
-  "message" : "Successfully selected Higher Ground."
+  "message" : "Successfully selected Higher Ground - Single Version."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -16360,12 +16360,12 @@
   "user" : "henry26",
   "timestamp" : 16231,
   "message" : "Search returned 3 results",
-  "results" : [ "Night", "Night Life", "Night Time Is The Right Time" ]
+  "results" : [ "Night Life", "Night Time Is The Right Time", "Night" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 16231,
-  "message" : "Successfully selected Night."
+  "message" : "Successfully selected Night Life."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -16376,12 +16376,12 @@
   "user" : "irene33",
   "timestamp" : 16250,
   "message" : "Search returned 2 results",
-  "results" : [ "Higher Ground", "Higher Ground - Single Version" ]
+  "results" : [ "Higher Ground - Single Version", "Higher Ground" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 16250,
-  "message" : "Successfully selected Higher Ground."
+  "message" : "Successfully selected Higher Ground - Single Version."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -16455,7 +16455,7 @@
   "command" : "adBreak",
   "user" : "henry26",
   "timestamp" : 16334,
-  "message" : "Ad inserted successfully."
+  "message" : "henry26 is not playing any music."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -17163,15 +17163,15 @@
   "timestamp" : 17212,
   "result" : {
     "topAlbums" : {
+      "The Definitive Collection" : 46,
       "Songs in the Key of Life" : 42,
-      "Innervisions" : 36,
-      "Talking Book" : 36,
-      "The Definitive Collection" : 34
+      "Talking Book" : 32,
+      "Innervisions" : 28
     },
     "topSongs" : {
       "All Day Sucker" : 6,
       "He's Misstra Know It All" : 6,
-      "Higher Ground" : 6,
+      "Higher Ground - Single Version" : 6,
       "I Believe (When I Fall in Love It Will Be Forever)" : 6,
       "All in Love Is Fair" : 5
     },
@@ -17263,12 +17263,12 @@
   "user" : "bob35",
   "timestamp" : 17313,
   "message" : "Search returned 3 results",
-  "results" : [ "Night", "Night Life", "Night Time Is The Right Time" ]
+  "results" : [ "Night Life", "Night Time Is The Right Time", "Night" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 17313,
-  "message" : "Successfully selected Night."
+  "message" : "Successfully selected Night Life."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -20229,12 +20229,12 @@
   "user" : "alice22",
   "timestamp" : 21353,
   "message" : "Search returned 3 results",
-  "results" : [ "Night", "Night Life", "Night Time Is The Right Time" ]
+  "results" : [ "Night Life", "Night Time Is The Right Time", "Night" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 21353,
-  "message" : "Successfully selected Night."
+  "message" : "Successfully selected Night Life."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -20656,10 +20656,10 @@
     },
     "topAlbums" : {
       "Arrival" : 11,
-      "Summer Dreams" : 11,
+      "Summer Dreams" : 8,
       "American IV: The Man Comes Around" : 7,
-      "Good Girl Gone Bad" : 6,
-      "Greatest Hits II" : 6
+      "Pet Sounds" : 7,
+      "Good Girl Gone Bad" : 6
     },
     "topEpisodes" : { }
   }
@@ -20749,10 +20749,10 @@
     },
     "topAlbums" : {
       "Court and Spark" : 9,
-      "Talking Book" : 8,
       "1 (Remastered)" : 7,
       "19" : 7,
-      "Born to Run" : 7
+      "Pet Sounds" : 7,
+      "30" : 6
     },
     "topEpisodes" : { }
   }
@@ -21299,9 +21299,9 @@
   "timestamp" : 22844,
   "result" : {
     "topAlbums" : {
-      "The Essential Bruce Springsteen" : 61,
-      "Born to Run" : 37,
+      "The Essential Bruce Springsteen" : 72,
       "Born in the U.S.A." : 24,
+      "Born to Run" : 22,
       "Greatest Hits" : 7
     },
     "topSongs" : {
@@ -23573,12 +23573,12 @@
   "user" : "grace25",
   "timestamp" : 26811,
   "message" : "Search returned 3 results",
-  "results" : [ "Higher Ground", "Higher Ground - Single Version", "Higher" ]
+  "results" : [ "Higher Ground - Single Version", "Higher", "Higher Ground" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 26811,
-  "message" : "Successfully selected Higher Ground."
+  "message" : "Successfully selected Higher Ground - Single Version."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -23895,10 +23895,10 @@
       "Joni Mitchell" : 15
     },
     "topGenres" : {
-      "soul" : 32,
+      "soul" : 33,
       "classic rock" : 28,
       "folk" : 23,
-      "rock" : 23,
+      "rock" : 22,
       "country" : 18
     },
     "topSongs" : {
@@ -24173,15 +24173,15 @@
   "result" : {
     "topArtists" : {
       "Radiohead" : 28,
-      "Bruce Springsteen" : 21,
+      "Bruce Springsteen" : 20,
       "Nirvana" : 15,
       "The Beach Boys" : 12,
       "The Rolling Stones" : 12
     },
     "topGenres" : {
-      "rock" : 30,
+      "rock" : 29,
+      "soul" : 20,
       "alternative" : 19,
-      "soul" : 19,
       "classic rock" : 15,
       "grunge" : 15
     },
@@ -24196,8 +24196,8 @@
       "OK Computer" : 14,
       "Nevermind" : 9,
       "Pablo Honey" : 9,
-      "19" : 8,
-      "ABBA Gold" : 7
+      "The Essential Bruce Springsteen" : 9,
+      "19" : 8
     },
     "topEpisodes" : { }
   }
@@ -24914,10 +24914,10 @@
     },
     "topGenres" : {
       "classic rock" : 44,
-      "soul" : 24,
+      "soul" : 25,
       "folk" : 21,
       "pop" : 19,
-      "rock" : 15
+      "rock" : 14
     },
     "topSongs" : {
       "Desolation Row" : 3,
@@ -25338,16 +25338,16 @@
     },
     "topSongs" : {
       "All in Love Is Fair" : 3,
-      "Higher Ground" : 3,
       "Subterranean Homesick Blues" : 3,
       "Wayfaring Stranger" : 3,
-      "Bob Dylan's 115th Dream" : 2
+      "Bob Dylan's 115th Dream" : 2,
+      "Born to Run" : 2
     },
     "topAlbums" : {
       "Songs in the Key of Life" : 23,
       "1 (Remastered)" : 21,
-      "Innervisions" : 13,
       "Bringing It All Back Home" : 11,
+      "Innervisions" : 11,
       "In Rainbows" : 8
     },
     "topEpisodes" : { }
@@ -26591,16 +26591,16 @@
   "result" : {
     "topArtists" : {
       "Rihanna" : 33,
-      "Bruce Springsteen" : 29,
+      "Bruce Springsteen" : 28,
       "Johnny Cash" : 27,
       "Elton John" : 24,
       "The Beatles" : 21
     },
     "topGenres" : {
-      "rock" : 50,
+      "rock" : 49,
       "pop" : 35,
       "country" : 27,
-      "soul" : 21,
+      "soul" : 22,
       "classic rock" : 20
     },
     "topSongs" : {
@@ -26611,10 +26611,10 @@
       "Desperado" : 2
     },
     "topAlbums" : {
-      "The Essential Bruce Springsteen" : 23,
+      "The Essential Bruce Springsteen" : 24,
       "Good Girl Gone Bad: Reloaded" : 15,
+      "Pet Sounds" : 15,
       "Abbey Road (Remastered)" : 14,
-      "Pet Sounds" : 14,
       "The Legend of Johnny Cash" : 14
     },
     "topEpisodes" : { }
@@ -26656,7 +26656,7 @@
       "songRevenue" : 2897889.15,
       "merchRevenue" : 0.0,
       "ranking" : 6,
-      "mostProfitableSong" : "I Believe (When I Fall in Love It Will Be Forever)"
+      "mostProfitableSong" : "You Are The Sunshine Of My Life - Single Version With Horns"
     },
     "The Beatles" : {
       "songRevenue" : 2537955.54,
@@ -26689,7 +26689,7 @@
       "mostProfitableSong" : "I Am Waiting"
     },
     "Bruce Springsteen" : {
-      "songRevenue" : 1885183.11,
+      "songRevenue" : 1786427.25,
       "merchRevenue" : 0.0,
       "ranking" : 12,
       "mostProfitableSong" : "Born to Run"
@@ -26711,6 +26711,12 @@
       "merchRevenue" : 0.0,
       "ranking" : 15,
       "mostProfitableSong" : "A Kind of Magic"
+    },
+    "Aretha Franklin" : {
+      "songRevenue" : 98755.86,
+      "merchRevenue" : 0.0,
+      "ranking" : 16,
+      "mostProfitableSong" : "Night Life"
     }
   }
 } ]
