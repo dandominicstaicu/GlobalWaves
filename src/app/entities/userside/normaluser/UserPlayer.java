@@ -392,6 +392,7 @@ public class UserPlayer {
                               final Library lib,
                               final NormalUser user) {
         if (playable == null) {
+            System.out.println("u dumb shit");
             return false;
         }
 

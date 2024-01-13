@@ -77,8 +77,11 @@ public class ChangePage extends Command {
         NormalUser user = lib.getUserWithUsername(getUsername());
         assert user != null;
 
+        System.out.println("time: " + getTimestamp());
+
+
         UserPlayer userPlayer = user.getPlayer();
-        AudioFile playingFile  = userPlayer.getCurrentlyPlaying();
+
 
         switch (nextPage) {
             case "Home":
@@ -88,18 +91,26 @@ public class ChangePage extends Command {
                 setPageAndCreateMessage(user, new LikedContentPage(), "LikedContent", out);
                 break;
             case "Artist":
-                String artistName = playingFile.getFileOwner();
+                AudioFile playingSong  = userPlayer.getCurrentlyPlaying();
+
+                String artistName = playingSong.getFileOwner();
                 Artist artist = lib.getArtistWithName(artistName);
                 Page artistPage = artist.getArtistPage();
                 
                 setPageAndCreateMessage(user, artistPage, "Artist", out);
                 break;
             case "Host":
-                String hostName = playingFile.getFileOwner();
+                AudioFile playingEpisode  = userPlayer.getCurrentlyPlaying();
+
+
+                String hostName = playingEpisode.getFileOwner();
                 Host host = lib.getHostWithName(hostName);
 
-                if (host == null)
+                if (host == null) {
+                    System.out.println("name of host not found: " + hostName);
+                    System.out.println("nah nah nah");
                     return;
+                }
 
                 Page hostPage = host.getHostPage();
 

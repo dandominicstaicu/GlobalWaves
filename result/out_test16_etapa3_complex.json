@@ -2241,6 +2241,11 @@
   "timestamp" : 1317,
   "result" : [ ]
 }, {
+  "command" : "loadRecommendations",
+  "user" : "bob35",
+  "timestamp" : 1321,
+  "message" : "No recommendations available."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 1326,
@@ -3187,6 +3192,11 @@
   "timestamp" : 1943,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "loadRecommendations",
+  "user" : "henry26",
+  "timestamp" : 1957,
+  "message" : "No recommendations available."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1962,
@@ -3855,6 +3865,11 @@
   "user" : "david27",
   "timestamp" : 2569,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "loadRecommendations",
+  "user" : "carol19",
+  "timestamp" : 2570,
+  "message" : "No recommendations available."
 }, {
   "command" : "removeAlbum",
   "user" : "Stevie Wonder",
@@ -6895,6 +6910,11 @@
   "timestamp" : 5838,
   "message" : "Queen has added new album successfully."
 }, {
+  "command" : "loadRecommendations",
+  "user" : "frank21",
+  "timestamp" : 5853,
+  "message" : "No recommendations available."
+}, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 5868,
@@ -8566,6 +8586,11 @@
   "user" : "jack29",
   "timestamp" : 7207,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "loadRecommendations",
+  "user" : "emily30",
+  "timestamp" : 7207,
+  "message" : "No recommendations available."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -10718,6 +10743,11 @@
   "timestamp" : 9075,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "loadRecommendations",
+  "user" : "frank21",
+  "timestamp" : 9091,
+  "message" : "No recommendations available."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 9094,
@@ -11392,6 +11422,11 @@
   "timestamp" : 9736,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "loadRecommendations",
+  "user" : "jack29",
+  "timestamp" : 9745,
+  "message" : "No recommendations available."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 9752,
@@ -11858,6 +11893,11 @@
   "user" : "henry26",
   "timestamp" : 10208,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "loadRecommendations",
+  "user" : "jack29",
+  "timestamp" : 10217,
+  "message" : "No recommendations available."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -17007,6 +17047,11 @@
   "timestamp" : 17095,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "loadRecommendations",
+  "user" : "jack29",
+  "timestamp" : 17100,
+  "message" : "No recommendations available."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 17111,
@@ -17458,6 +17503,11 @@
   "user" : "jack29",
   "timestamp" : 17650,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "loadRecommendations",
+  "user" : "bob35",
+  "timestamp" : 17665,
+  "message" : "No recommendations available."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -19613,6 +19663,11 @@
   "timestamp" : 20712,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "loadRecommendations",
+  "user" : "henry26",
+  "timestamp" : 20718,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 20747,
@@ -20609,6 +20664,11 @@
     "topEpisodes" : { }
   }
 }, {
+  "command" : "loadRecommendations",
+  "user" : "alice22",
+  "timestamp" : 21858,
+  "message" : "No recommendations available."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 21889,
@@ -21128,6 +21188,11 @@
   "timestamp" : 22659,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "loadRecommendations",
+  "user" : "bob35",
+  "timestamp" : 22712,
+  "message" : "No recommendations available."
+}, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 22713,
@@ -21158,6 +21223,11 @@
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 22716,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "loadRecommendations",
+  "user" : "grace25",
+  "timestamp" : 22734,
   "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
@@ -23822,13 +23892,13 @@
       "Adele" : 18,
       "Johnny Cash" : 18,
       "Bob Dylan" : 16,
-      "ABBA" : 14
+      "Joni Mitchell" : 15
     },
     "topGenres" : {
       "soul" : 32,
       "classic rock" : 28,
+      "folk" : 23,
       "rock" : 23,
-      "folk" : 22,
       "country" : 18
     },
     "topSongs" : {
@@ -23836,7 +23906,7 @@
       "A Case of You" : 3,
       "Arrival" : 3,
       "Goodbye Yellow Brick Road" : 3,
-      "All Day Sucker" : 2
+      "Woodstock" : 3
     },
     "topAlbums" : {
       "Aftermath" : 16,
@@ -24934,6 +25004,11 @@
   "user" : "alice22",
   "timestamp" : 29203,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "loadRecommendations",
+  "user" : "irene33",
+  "timestamp" : 29292,
+  "message" : "No recommendations available."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -26584,7 +26659,7 @@
       "mostProfitableSong" : "I Believe (When I Fall in Love It Will Be Forever)"
     },
     "The Beatles" : {
-      "songRevenue" : 2551380.79,
+      "songRevenue" : 2537955.54,
       "merchRevenue" : 0.0,
       "ranking" : 7,
       "mostProfitableSong" : "You Never Give Me Your Money - Remastered 2009"
@@ -26596,7 +26671,7 @@
       "mostProfitableSong" : "Consideration"
     },
     "Elton John" : {
-      "songRevenue" : 2084183.27,
+      "songRevenue" : 2084109.27,
       "merchRevenue" : 0.0,
       "ranking" : 9,
       "mostProfitableSong" : "Hercules"
@@ -26608,7 +26683,7 @@
       "mostProfitableSong" : "Dancing Queen"
     },
     "The Rolling Stones" : {
-      "songRevenue" : 1932146.23,
+      "songRevenue" : 1929243.48,
       "merchRevenue" : 0.0,
       "ranking" : 11,
       "mostProfitableSong" : "I Am Waiting"
@@ -26620,13 +26695,13 @@
       "mostProfitableSong" : "Born to Run"
     },
     "Johnny Cash" : {
-      "songRevenue" : 1670126.14,
+      "songRevenue" : 1666920.22,
       "merchRevenue" : 0.0,
       "ranking" : 13,
       "mostProfitableSong" : "Personal Jesus"
     },
     "Radiohead" : {
-      "songRevenue" : 774645.18,
+      "songRevenue" : 793513.11,
       "merchRevenue" : 0.0,
       "ranking" : 14,
       "mostProfitableSong" : "Weird Fishes/Arpeggi"

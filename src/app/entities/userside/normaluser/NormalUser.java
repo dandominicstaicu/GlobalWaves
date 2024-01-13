@@ -8,6 +8,7 @@ import app.common.UpdateRecommend;
 import app.common.UserTypes;
 import app.entities.Library;
 import app.entities.playable.Playlist;
+import app.entities.playable.Searchable;
 import app.entities.playable.audio_files.AudioFile;
 import app.entities.playable.audio_files.Song;
 import app.entities.userside.User;
@@ -44,8 +45,9 @@ public class NormalUser extends User {
     private ArrayList<Merch> boughtMerch;
 
     private ArrayList<Song> songRecommendations;
-    //    private ArrayList<Playlist> playlistsRecommendations;
     private Playlist playlistsRecommendations;
+    //    private ArrayList<Playlist> playlistsRecommendations;
+    private Searchable lastRecommendation;
 
     private ArrayList<Page> pageHistory;
     private int historyIndex = 0;
@@ -387,7 +389,7 @@ public class NormalUser extends User {
     public void updateRecommendations(final UpdateRecommend type) {
         int elapsedTime = player.getPlayedTimeOfCurrentSong();
 
-        System.out.println("elapsed time: " + elapsedTime);
+//        System.out.println("elapsed time: " + elapsedTime);
 
         switch (type) {
             case RANDOM_SONG -> {
@@ -432,6 +434,7 @@ public class NormalUser extends User {
         }
 
         this.playlistsRecommendations = randomPlaylist;
+        lastRecommendation = randomPlaylist;
     }
 
     private List<Song> topNSongs(final String genre, final int topSize) {
@@ -516,6 +519,7 @@ public class NormalUser extends User {
             Song randomSong = sameGenreSong.get(randomIndex);
 
             songRecommendations.add(randomSong);
+            lastRecommendation = randomSong;
         }
 
     }
@@ -550,16 +554,31 @@ public class NormalUser extends User {
         this.playlistsRecommendations = fansPlaylist;
 //        playlistsRecommendations.add(fansPlaylist);
         System.out.println("cyka: " + this.playlistsRecommendations);
+        lastRecommendation = fansPlaylist;
 
     }
 
+    private void removeAllFromIndex(ArrayList<?> list, int fromIndex) {
+        if (fromIndex < list.size()) {
+            list.subList(fromIndex, list.size()).clear();
+        }
+        // If fromIndex is out of bounds (greater than or equal to the list size), the method does nothing.
+    }
+
     public void addInPageHistory(final Page page) {
+        removeAllFromIndex(pageHistory, historyIndex + 1);
+
         pageHistory.add(page);
         historyIndex = pageHistory.size() - 1;
     }
 
     public void goToPrevPage() {
         historyIndex--;
+        currentPage = pageHistory.get(historyIndex);
+    }
+
+    public void goToNextPage() {
+        historyIndex++;
         currentPage = pageHistory.get(historyIndex);
     }
 

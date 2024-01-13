@@ -38,7 +38,7 @@ public class HomePage implements Page {
 
     private void constructPlaylistRecommendations(final NormalUser user) {
         playlistRecommendations = user.getPlaylistsRecommendations();
-        System.out.println("blyat: " + user.getPlaylistsRecommendations());
+//        System.out.println("blyat: " + user.getPlaylistsRecommendations());
     }
 
     /**

@@ -91,6 +91,10 @@ public class AddPodcast extends Command {
             return;
         }
 
+        for (Episode episode : episodes) {
+            episode.setOwner(getUsername());
+        }
+
         Podcast newPodcast = new Podcast(getName(), getUsername(), getEpisodes());
         library.addPodcast(newPodcast);
 
