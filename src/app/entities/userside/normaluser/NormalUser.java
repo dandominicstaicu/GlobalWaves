@@ -397,26 +397,56 @@ public class NormalUser extends User {
                     return false;
                 }
 
-                System.out.println("s0ng");
+//                System.out.println("s0ng");
                 addRandomSong();
 
                 return true;
             }
             case RANDOM_PLAYLIST -> {
-                System.out.println("playlist");
+//                System.out.println("playlist");
                 createRandomPlaylist();
 
                 return !playlistsRecommendations.isEmpty();
             }
             case FANS_PLAYLIST -> {
-                System.out.println("fans");
+//                System.out.println("fans");
                 createFansPlayList();
 
                 return !playlistsRecommendations.getSongs().isEmpty();
+//                return false;
             }
         }
 
         return false;
+    }
+
+    private void createFansPlayList() {
+        AudioFile playing = player.getCurrentlyPlaying();
+        String artistName = playing.getFileOwner();
+        Library lib = Library.getInstance();
+        Artist artist = lib.getArtistWithName(artistName);
+        String playlistName = artistName + " Fan Club recommendations";
+        Playlist fansPlaylist = new Playlist(playlistName);
+
+        WrappedStats artistsStats = artist.getWrappedStats();
+        List<Map.Entry<String, Integer>> topFans = artistsStats.top5Fans();
+        for (Map.Entry<String, Integer> entry : topFans) {
+            NormalUser fan = lib.getUserWithUsername(entry.getKey());
+            WrappedStats fansStats = fan.getWrappedStats();
+
+            List<Map.Entry<String, Integer>> topSongs = fansStats.top5Songs();
+            for (Map.Entry<String, Integer> song_entry : topSongs) {
+                Song song = lib.getSongWithName(song_entry.getKey());
+
+                if (song.getLikes() > 0) {
+                    fansPlaylist.addSong(song);
+                }
+            }
+        }
+
+        // TODO maybe add in the existing playlist these instead of replacing
+        this.playlistsRecommendations = fansPlaylist;
+        lastRecommendation = fansPlaylist;
     }
 
     private void createRandomPlaylist() {
@@ -530,34 +560,6 @@ public class NormalUser extends User {
             lastRecommendation = randomSong;
         }
 
-    }
-
-    private void createFansPlayList() {
-        AudioFile playing = player.getCurrentlyPlaying();
-        String artistName = playing.getFileOwner();
-        Library lib = Library.getInstance();
-        Artist artist = lib.getArtistWithName(artistName);
-        String playlistName = artistName + " Fan Club recommendations";
-        Playlist fansPlaylist = new Playlist(playlistName);
-
-        WrappedStats artistsStats = artist.getWrappedStats();
-        List<Map.Entry<String, Integer>> topFans = artistsStats.top5Fans();
-        for (Map.Entry<String, Integer> entry : topFans) {
-            NormalUser fan = lib.getUserWithUsername(entry.getKey());
-            WrappedStats fansStats = fan.getWrappedStats();
-
-            List<Map.Entry<String, Integer>> topSongs = fansStats.top5Songs();
-            for (Map.Entry<String, Integer> song_entry : topSongs) {
-                Song song = lib.getSongWithName(song_entry.getKey());
-
-                fansPlaylist.addSong(song);
-            }
-        }
-
-        // TODO maybe add in the existing playlist these instead of replacing
-        this.playlistsRecommendations = fansPlaylist;
-        System.out.println("fans playlist size: " + playlistsRecommendations.getSongs().size());
-        lastRecommendation = fansPlaylist;
     }
 
     private void removeAllFromIndex(ArrayList<?> list, int fromIndex) {

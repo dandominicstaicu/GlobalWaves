@@ -77,8 +77,6 @@ public class ChangePage extends Command {
         NormalUser user = lib.getUserWithUsername(getUsername());
         assert user != null;
 
-        System.out.println("time: " + getTimestamp());
-
         UserPlayer userPlayer = user.getPlayer();
 
         switch (nextPage) {

@@ -641,7 +641,6 @@ public class UserPlayer {
         }
 
         AudioFile currentlyPlaying = audioQueue.get(playingIndex);
-        System.out.println("playing file: " + audioQueue.get(playingIndex).getName());
         return currentlyPlaying.getDuration() - getRemainedTime();
     }
 
