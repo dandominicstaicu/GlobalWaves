@@ -14,6 +14,7 @@ import lombok.Setter;
 
 import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
+import java.util.Objects;
 
 /**
  * Represents a song, extending the AudioFile class and implementing the Playable interface.
@@ -55,6 +56,29 @@ public class Song extends AudioFile implements Searchable {
         this.artist = artist;
 
         this.likes = 0;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Song)) return false;
+        if (!super.equals(o)) return false;
+        Song song = (Song) o;
+        return
+                Objects.equals(tags, song.tags) &&
+                Objects.equals(lyrics, song.lyrics) &&
+                Objects.equals(genre, song.genre) &&
+                Objects.equals(releaseYear, song.releaseYear) &&
+                Objects.equals(getName(), song.getName()) &&
+                Objects.equals(artist, song.artist) &&
+                Objects.equals(getDuration(), song.getDuration());
+//                Objects.equals(likes, song.likes);
+        //Objects.equals(tags, song.tags) &&
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(super.hashCode(), album, tags, lyrics, genre, releaseYear, artist, likes);
     }
 
     /**

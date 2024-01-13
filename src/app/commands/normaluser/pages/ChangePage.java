@@ -79,9 +79,7 @@ public class ChangePage extends Command {
 
         System.out.println("time: " + getTimestamp());
 
-
         UserPlayer userPlayer = user.getPlayer();
-
 
         switch (nextPage) {
             case "Home":

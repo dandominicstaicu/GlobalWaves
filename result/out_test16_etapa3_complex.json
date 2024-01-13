@@ -7656,8 +7656,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 6458,
-  "message" : "Search returned 2 results",
-  "results" : [ "Heroes & Villains", "Heroes & Villains" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Heroes & Villains" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -7688,8 +7688,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 6483,
-  "message" : "Search returned 2 results",
-  "results" : [ "Girl Don't Tell Me", "Girl Don't Tell Me" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Girl Don't Tell Me" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -7810,8 +7810,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 6591,
-  "message" : "Search returned 3 results",
-  "results" : [ "Pet Sounds", "Pet Sounds", "Pet Sounds" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Pet Sounds", "Pet Sounds" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -7847,8 +7847,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 6638,
-  "message" : "Search returned 2 results",
-  "results" : [ "Girl Don't Tell Me", "Girl Don't Tell Me" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Girl Don't Tell Me" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -7863,8 +7863,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 6647,
-  "message" : "Search returned 2 results",
-  "results" : [ "Then I Kissed Her", "Then I Kissed Her" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Then I Kissed Her" ]
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -7895,8 +7895,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 6661,
-  "message" : "Search returned 2 results",
-  "results" : [ "Let Him Run Wild", "Let Him Run Wild" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Let Him Run Wild" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -7911,8 +7911,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 6667,
-  "message" : "Search returned 2 results",
-  "results" : [ "Your Summer Dreams", "Your Summer Dreams" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Your Summer Dreams" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -7943,8 +7943,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 6701,
-  "message" : "Search returned 2 results",
-  "results" : [ "Summertime Blues", "Summertime Blues" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Summertime Blues" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -7959,8 +7959,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 6706,
-  "message" : "Search returned 2 results",
-  "results" : [ "Your Summer Dreams", "Your Summer Dreams" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Your Summer Dreams" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -8012,8 +8012,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 6750,
-  "message" : "Search returned 2 results",
-  "results" : [ "Then I Kissed Her", "Then I Kissed Her" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Then I Kissed Her" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -8277,8 +8277,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 6931,
-  "message" : "Search returned 3 results",
-  "results" : [ "Pet Sounds", "Pet Sounds", "Pet Sounds" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Pet Sounds", "Pet Sounds" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -8325,8 +8325,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 6987,
-  "message" : "Search returned 2 results",
-  "results" : [ "Shut Down", "Shut Down" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Shut Down" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -8346,8 +8346,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 7001,
-  "message" : "Search returned 2 results",
-  "results" : [ "Shut Down", "Shut Down" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Shut Down" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -8431,8 +8431,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 7074,
-  "message" : "Search returned 2 results",
-  "results" : [ "Girl Don't Tell Me", "Girl Don't Tell Me" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Girl Don't Tell Me" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -8463,8 +8463,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 7105,
-  "message" : "Search returned 2 results",
-  "results" : [ "Then I Kissed Her", "Then I Kissed Her" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Then I Kissed Her" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -8479,8 +8479,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 7129,
-  "message" : "Search returned 2 results",
-  "results" : [ "Heroes & Villains", "Heroes & Villains" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Heroes & Villains" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -8500,8 +8500,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 7160,
-  "message" : "Search returned 2 results",
-  "results" : [ "Heroes & Villains", "Heroes & Villains" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Heroes & Villains" ]
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -8532,8 +8532,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 7173,
-  "message" : "Search returned 2 results",
-  "results" : [ "Do You Remember", "Do You Remember" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Do You Remember" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -8558,8 +8558,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 7203,
-  "message" : "Search returned 2 results",
-  "results" : [ "Your Summer Dreams", "Your Summer Dreams" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Your Summer Dreams" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -8595,8 +8595,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 7211,
-  "message" : "Search returned 2 results",
-  "results" : [ "Then I Kissed Her", "Then I Kissed Her" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Then I Kissed Her" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -8616,8 +8616,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 7237,
-  "message" : "Search returned 3 results",
-  "results" : [ "I Believe (When I Fall in Love It Will Be Forever)", "I Believe (When I Fall in Love It Will Be Forever)", "I Believe (When I Fall in Love It Will Be Forever)" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "I Believe (When I Fall in Love It Will Be Forever)" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -8648,8 +8648,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 7269,
-  "message" : "Search returned 2 results",
-  "results" : [ "Heroes & Villains", "Heroes & Villains" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Heroes & Villains" ]
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -8664,8 +8664,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 7279,
-  "message" : "Search returned 2 results",
-  "results" : [ "Do You Remember", "Do You Remember" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Do You Remember" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -8712,8 +8712,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 7313,
-  "message" : "Search returned 2 results",
-  "results" : [ "Summertime Blues", "Summertime Blues" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Summertime Blues" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -8823,8 +8823,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 7387,
-  "message" : "Search returned 2 results",
-  "results" : [ "Summertime Blues", "Summertime Blues" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Summertime Blues" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -8839,8 +8839,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 7388,
-  "message" : "Search returned 4 results",
-  "results" : [ "Superstition", "Superstition - Single Version", "Superstition", "Superstition" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Superstition", "Superstition - Single Version" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -8871,8 +8871,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 7417,
-  "message" : "Search returned 2 results",
-  "results" : [ "Let Him Run Wild", "Let Him Run Wild" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Let Him Run Wild" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -8923,8 +8923,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 7451,
-  "message" : "Search returned 2 results",
-  "results" : [ "All in Love Is Fair", "All in Love Is Fair" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "All in Love Is Fair" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -9029,8 +9029,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 7534,
-  "message" : "Search returned 4 results",
-  "results" : [ "Superstition", "Superstition - Single Version", "Superstition", "Superstition" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Superstition", "Superstition - Single Version" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -9109,8 +9109,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 7656,
-  "message" : "Search returned 3 results",
-  "results" : [ "Higher Ground", "Higher Ground - Single Version", "Higher Ground" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Higher Ground", "Higher Ground - Single Version" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -9125,8 +9125,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 7668,
-  "message" : "Search returned 4 results",
-  "results" : [ "You Are the Sunshine of My Life", "You Are The Sunshine Of My Life - Single Version With Horns", "You Are the Sunshine of My Life", "You Are the Sunshine of My Life" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "You Are the Sunshine of My Life", "You Are The Sunshine Of My Life - Single Version With Horns" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -9146,8 +9146,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 7672,
-  "message" : "Search returned 3 results",
-  "results" : [ "Higher Ground", "Higher Ground - Single Version", "Higher Ground" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Higher Ground", "Higher Ground - Single Version" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -9172,8 +9172,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 7713,
-  "message" : "Search returned 2 results",
-  "results" : [ "Girl Don't Tell Me", "Girl Don't Tell Me" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Girl Don't Tell Me" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -9204,8 +9204,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 7751,
-  "message" : "Search returned 3 results",
-  "results" : [ "Lookin' for Another Pure Love", "Lookin' for Another Pure Love", "Lookin' for Another Pure Love" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Lookin' for Another Pure Love" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -9246,8 +9246,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 7777,
-  "message" : "Search returned 2 results",
-  "results" : [ "Don't You Worry 'Bout a Thing", "Don't You Worry 'Bout a Thing" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Don't You Worry 'Bout a Thing" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -9283,8 +9283,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 7781,
-  "message" : "Search returned 2 results",
-  "results" : [ "Do You Remember", "Do You Remember" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Do You Remember" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -9304,8 +9304,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 7820,
-  "message" : "Search returned 3 results",
-  "results" : [ "Tuesday Heartbreak", "Tuesday Heartbreak", "Tuesday Heartbreak" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Tuesday Heartbreak" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -9320,8 +9320,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 7825,
-  "message" : "Search returned 2 results",
-  "results" : [ "Then I Kissed Her", "Then I Kissed Her" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Then I Kissed Her" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -9352,8 +9352,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 7893,
-  "message" : "Search returned 2 results",
-  "results" : [ "Golden Lady", "Golden Lady" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Golden Lady" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -9463,8 +9463,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 8004,
-  "message" : "Search returned 3 results",
-  "results" : [ "I Believe (When I Fall in Love It Will Be Forever)", "I Believe (When I Fall in Love It Will Be Forever)", "I Believe (When I Fall in Love It Will Be Forever)" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "I Believe (When I Fall in Love It Will Be Forever)" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -9489,8 +9489,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 8041,
-  "message" : "Search returned 2 results",
-  "results" : [ "Visions", "Visions" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Visions" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -9521,8 +9521,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 8057,
-  "message" : "Search returned 2 results",
-  "results" : [ "Summertime Blues", "Summertime Blues" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Summertime Blues" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -9572,8 +9572,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 8136,
-  "message" : "Search returned 3 results",
-  "results" : [ "Pet Sounds", "Pet Sounds", "Pet Sounds" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Pet Sounds", "Pet Sounds" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -9588,8 +9588,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 8148,
-  "message" : "Search returned 3 results",
-  "results" : [ "Tuesday Heartbreak", "Tuesday Heartbreak", "Tuesday Heartbreak" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Tuesday Heartbreak" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -9604,8 +9604,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 8164,
-  "message" : "Search returned 3 results",
-  "results" : [ "You've Got It Bad Girl", "You've Got It Bad Girl", "You've Got It Bad Girl" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "You've Got It Bad Girl" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -9641,8 +9641,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 8186,
-  "message" : "Search returned 3 results",
-  "results" : [ "Tuesday Heartbreak", "Tuesday Heartbreak", "Tuesday Heartbreak" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Tuesday Heartbreak" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -9657,8 +9657,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 8202,
-  "message" : "Search returned 3 results",
-  "results" : [ "Living for the City", "Living for the City", "Living for the City" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Living for the City", "Living for the City" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -9673,8 +9673,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 8206,
-  "message" : "Search returned 2 results",
-  "results" : [ "Let Him Run Wild", "Let Him Run Wild" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Let Him Run Wild" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -9694,8 +9694,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 8216,
-  "message" : "Search returned 2 results",
-  "results" : [ "Let Him Run Wild", "Let Him Run Wild" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Let Him Run Wild" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -9747,8 +9747,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 8250,
-  "message" : "Search returned 3 results",
-  "results" : [ "Pet Sounds", "Pet Sounds", "Pet Sounds" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Pet Sounds", "Pet Sounds" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -9768,8 +9768,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 8258,
-  "message" : "Search returned 2 results",
-  "results" : [ "Do You Remember", "Do You Remember" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Do You Remember" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -9816,8 +9816,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 8292,
-  "message" : "Search returned 3 results",
-  "results" : [ "Pet Sounds", "Pet Sounds", "Pet Sounds" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Pet Sounds", "Pet Sounds" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -9931,8 +9931,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 8362,
-  "message" : "Search returned 3 results",
-  "results" : [ "Pet Sounds", "Pet Sounds", "Pet Sounds" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Pet Sounds", "Pet Sounds" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -9957,8 +9957,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 8397,
-  "message" : "Search returned 2 results",
-  "results" : [ "Your Summer Dreams", "Your Summer Dreams" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Your Summer Dreams" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -9973,8 +9973,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 8407,
-  "message" : "Search returned 3 results",
-  "results" : [ "You and I", "You and I", "You and I" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "You and I" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -9989,8 +9989,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 8431,
-  "message" : "Search returned 2 results",
-  "results" : [ "Heroes & Villains", "Heroes & Villains" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Heroes & Villains" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -10037,8 +10037,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 8485,
-  "message" : "Search returned 3 results",
-  "results" : [ "I Believe (When I Fall in Love It Will Be Forever)", "I Believe (When I Fall in Love It Will Be Forever)", "I Believe (When I Fall in Love It Will Be Forever)" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "I Believe (When I Fall in Love It Will Be Forever)" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -10074,8 +10074,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 8540,
-  "message" : "Search returned 2 results",
-  "results" : [ "Summertime Blues", "Summertime Blues" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Summertime Blues" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -10180,8 +10180,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 8629,
-  "message" : "Search returned 3 results",
-  "results" : [ "You and I", "You and I", "You and I" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "You and I" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -10244,8 +10244,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 8648,
-  "message" : "Search returned 3 results",
-  "results" : [ "Maybe Your Baby", "Maybe Your Baby", "Maybe Your Baby" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Maybe Your Baby" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -10265,8 +10265,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 8696,
-  "message" : "Search returned 2 results",
-  "results" : [ "Girl Don't Tell Me", "Girl Don't Tell Me" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Girl Don't Tell Me" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -10344,8 +10344,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 8768,
-  "message" : "Search returned 4 results",
-  "results" : [ "You Are the Sunshine of My Life", "You Are The Sunshine Of My Life - Single Version With Horns", "You Are the Sunshine of My Life", "You Are the Sunshine of My Life" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "You Are the Sunshine of My Life", "You Are The Sunshine Of My Life - Single Version With Horns" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -10391,8 +10391,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 8837,
-  "message" : "Search returned 3 results",
-  "results" : [ "Pet Sounds", "Pet Sounds", "Pet Sounds" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Pet Sounds", "Pet Sounds" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -10412,8 +10412,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 8839,
-  "message" : "Search returned 3 results",
-  "results" : [ "Higher Ground", "Higher Ground - Single Version", "Higher Ground" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Higher Ground", "Higher Ground - Single Version" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -10449,8 +10449,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 8860,
-  "message" : "Search returned 3 results",
-  "results" : [ "Blame It on the Sun", "Blame It on the Sun", "Blame It on the Sun" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Blame It on the Sun" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -10486,8 +10486,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 8907,
-  "message" : "Search returned 2 results",
-  "results" : [ "He's Misstra Know It All", "He's Misstra Know It All" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "He's Misstra Know It All" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -10550,8 +10550,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 8944,
-  "message" : "Search returned 2 results",
-  "results" : [ "Let Him Run Wild", "Let Him Run Wild" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Let Him Run Wild" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -10651,8 +10651,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 9009,
-  "message" : "Search returned 3 results",
-  "results" : [ "I Believe (When I Fall in Love It Will Be Forever)", "I Believe (When I Fall in Love It Will Be Forever)", "I Believe (When I Fall in Love It Will Be Forever)" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "I Believe (When I Fall in Love It Will Be Forever)" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -10714,8 +10714,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 9074,
-  "message" : "Search returned 2 results",
-  "results" : [ "He's Misstra Know It All", "He's Misstra Know It All" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "He's Misstra Know It All" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -10767,8 +10767,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 9153,
-  "message" : "Search returned 3 results",
-  "results" : [ "Living for the City", "Living for the City", "Living for the City" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Living for the City", "Living for the City" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -10783,8 +10783,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 9154,
-  "message" : "Search returned 2 results",
-  "results" : [ "Girl Don't Tell Me", "Girl Don't Tell Me" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Girl Don't Tell Me" ]
 }, {
   "command" : "select",
   "user" : "david27",
@@ -10799,8 +10799,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 9170,
-  "message" : "Search returned 3 results",
-  "results" : [ "Big Brother", "Big Brother", "Big Brother" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Big Brother" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -10862,8 +10862,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 9241,
-  "message" : "Search returned 2 results",
-  "results" : [ "Visions", "Visions" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Visions" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -10899,8 +10899,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 9277,
-  "message" : "Search returned 2 results",
-  "results" : [ "Visions", "Visions" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Visions" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -11000,8 +11000,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 9382,
-  "message" : "Search returned 2 results",
-  "results" : [ "Summertime Blues", "Summertime Blues" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Summertime Blues" ]
 }, {
   "command" : "select",
   "user" : "david27",
@@ -11021,8 +11021,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 9394,
-  "message" : "Search returned 3 results",
-  "results" : [ "Maybe Your Baby", "Maybe Your Baby", "Maybe Your Baby" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Maybe Your Baby" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -11095,8 +11095,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 9448,
-  "message" : "Search returned 3 results",
-  "results" : [ "You've Got It Bad Girl", "You've Got It Bad Girl", "You've Got It Bad Girl" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "You've Got It Bad Girl" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -11147,8 +11147,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 9495,
-  "message" : "Search returned 2 results",
-  "results" : [ "Let Him Run Wild", "Let Him Run Wild" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Let Him Run Wild" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -11200,8 +11200,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 9533,
-  "message" : "Search returned 2 results",
-  "results" : [ "Your Summer Dreams", "Your Summer Dreams" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Your Summer Dreams" ]
 }, {
   "command" : "select",
   "user" : "david27",
@@ -11224,8 +11224,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 9564,
-  "message" : "Search returned 2 results",
-  "results" : [ "Do You Remember", "Do You Remember" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Do You Remember" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -11240,8 +11240,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 9578,
-  "message" : "Search returned 2 results",
-  "results" : [ "He's Misstra Know It All", "He's Misstra Know It All" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "He's Misstra Know It All" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -11293,8 +11293,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 9602,
-  "message" : "Search returned 2 results",
-  "results" : [ "Your Summer Dreams", "Your Summer Dreams" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Your Summer Dreams" ]
 }, {
   "command" : "select",
   "user" : "david27",
@@ -11562,8 +11562,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 9908,
-  "message" : "Search returned 2 results",
-  "results" : [ "Summertime Blues", "Summertime Blues" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Summertime Blues" ]
 }, {
   "command" : "select",
   "user" : "david27",
@@ -11626,8 +11626,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 9957,
-  "message" : "Search returned 2 results",
-  "results" : [ "Don't You Worry 'Bout a Thing", "Don't You Worry 'Bout a Thing" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Don't You Worry 'Bout a Thing" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -11647,8 +11647,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 9982,
-  "message" : "Search returned 3 results",
-  "results" : [ "Maybe Your Baby", "Maybe Your Baby", "Maybe Your Baby" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Maybe Your Baby" ]
 }, {
   "command" : "select",
   "user" : "david27",
@@ -11817,8 +11817,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 10143,
-  "message" : "Search returned 2 results",
-  "results" : [ "He's Misstra Know It All", "He's Misstra Know It All" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "He's Misstra Know It All" ]
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -11833,8 +11833,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 10184,
-  "message" : "Search returned 2 results",
-  "results" : [ "Too High", "Too High" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Too High" ]
 }, {
   "command" : "select",
   "user" : "david27",
@@ -11971,8 +11971,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 10320,
-  "message" : "Search returned 3 results",
-  "results" : [ "You've Got It Bad Girl", "You've Got It Bad Girl", "You've Got It Bad Girl" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "You've Got It Bad Girl" ]
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -12245,8 +12245,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 10615,
-  "message" : "Search returned 3 results",
-  "results" : [ "Tuesday Heartbreak", "Tuesday Heartbreak", "Tuesday Heartbreak" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Tuesday Heartbreak" ]
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -12298,8 +12298,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10635,
-  "message" : "Search returned 2 results",
-  "results" : [ "He's Misstra Know It All", "He's Misstra Know It All" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "He's Misstra Know It All" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -12346,8 +12346,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 10709,
-  "message" : "Search returned 2 results",
-  "results" : [ "Visions", "Visions" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Visions" ]
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -12399,8 +12399,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10802,
-  "message" : "Search returned 3 results",
-  "results" : [ "Big Brother", "Big Brother", "Big Brother" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Big Brother" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -12489,8 +12489,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10909,
-  "message" : "Search returned 3 results",
-  "results" : [ "I Believe (When I Fall in Love It Will Be Forever)", "I Believe (When I Fall in Love It Will Be Forever)", "I Believe (When I Fall in Love It Will Be Forever)" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "I Believe (When I Fall in Love It Will Be Forever)" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -12606,8 +12606,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 11053,
-  "message" : "Search returned 2 results",
-  "results" : [ "All in Love Is Fair", "All in Love Is Fair" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "All in Love Is Fair" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -12675,8 +12675,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11105,
-  "message" : "Search returned 2 results",
-  "results" : [ "Jesus Children of America", "Jesus Children of America" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Jesus Children of America" ]
 }, {
   "command" : "select",
   "user" : "david27",
@@ -12691,8 +12691,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11139,
-  "message" : "Search returned 3 results",
-  "results" : [ "Living for the City", "Living for the City", "Living for the City" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Living for the City", "Living for the City" ]
 }, {
   "command" : "select",
   "user" : "david27",
@@ -12707,8 +12707,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 11157,
-  "message" : "Search returned 2 results",
-  "results" : [ "She's the One", "She's the One" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "She's the One" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -12845,8 +12845,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11359,
-  "message" : "Search returned 3 results",
-  "results" : [ "Lookin' for Another Pure Love", "Lookin' for Another Pure Love", "Lookin' for Another Pure Love" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Lookin' for Another Pure Love" ]
 }, {
   "command" : "select",
   "user" : "david27",
@@ -13015,8 +13015,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 11571,
-  "message" : "Search returned 2 results",
-  "results" : [ "Meeting Across the River", "Meeting Across the River" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Meeting Across the River" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -13222,8 +13222,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 11884,
-  "message" : "Search returned 2 results",
-  "results" : [ "Meeting Across the River", "Meeting Across the River" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Meeting Across the River" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -13334,8 +13334,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 12090,
-  "message" : "Search returned 2 results",
-  "results" : [ "Backstreets", "Backstreets" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Backstreets" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -13387,8 +13387,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12229,
-  "message" : "Search returned 2 results",
-  "results" : [ "Meeting Across the River", "Meeting Across the River" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Meeting Across the River" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -13977,8 +13977,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 13253,
-  "message" : "Search returned 2 results",
-  "results" : [ "Don't You Worry 'Bout a Thing", "Don't You Worry 'Bout a Thing" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Don't You Worry 'Bout a Thing" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -13993,8 +13993,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 13264,
-  "message" : "Search returned 2 results",
-  "results" : [ "Backstreets", "Backstreets" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Backstreets" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -14099,8 +14099,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 13392,
-  "message" : "Search returned 4 results",
-  "results" : [ "Born to Run", "Born to Run", "Born to Run", "Born to Run" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Born to Run", "Born to Run", "Born to Run" ]
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -14195,8 +14195,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 13527,
-  "message" : "Search returned 4 results",
-  "results" : [ "Born to Run", "Born to Run", "Born to Run", "Born to Run" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Born to Run", "Born to Run", "Born to Run" ]
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -14429,8 +14429,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 13750,
-  "message" : "Search returned 2 results",
-  "results" : [ "She's the One", "She's the One" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "She's the One" ]
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -14615,8 +14615,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 13993,
-  "message" : "Search returned 4 results",
-  "results" : [ "Born to Run", "Born to Run", "Born to Run", "Born to Run" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Born to Run", "Born to Run", "Born to Run" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -14993,8 +14993,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 14369,
-  "message" : "Search returned 3 results",
-  "results" : [ "I Feel Fine - Remastered 2015", "I Feel Fine - Remastered 2015", "I Feel Fine - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "I Feel Fine - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -15158,8 +15158,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 14576,
-  "message" : "Search returned 4 results",
-  "results" : [ "Night", "Night Life", "Night Time Is The Right Time", "Night" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Night", "Night Life", "Night Time Is The Right Time" ]
 }, {
   "command" : "select",
   "user" : "david27",
@@ -15190,8 +15190,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 14627,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Long And Winding Road - Remastered 2015", "The Long And Winding Road - Remastered 2015", "The Long And Winding Road - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "The Long And Winding Road - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -15376,8 +15376,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 14890,
-  "message" : "Search returned 2 results",
-  "results" : [ "Meeting Across the River", "Meeting Across the River" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Meeting Across the River" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -15392,8 +15392,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 14925,
-  "message" : "Search returned 2 results",
-  "results" : [ "Meeting Across the River", "Meeting Across the River" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Meeting Across the River" ]
 }, {
   "command" : "select",
   "user" : "david27",
@@ -15769,8 +15769,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 15440,
-  "message" : "Search returned 3 results",
-  "results" : [ "Tenth Avenue Freeze-Out", "Tenth Avenue Freeze-Out", "Tenth Avenue Freeze-Out" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Tenth Avenue Freeze-Out", "Tenth Avenue Freeze-Out" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -16125,8 +16125,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 15926,
-  "message" : "Search returned 3 results",
-  "results" : [ "Tenth Avenue Freeze-Out", "Tenth Avenue Freeze-Out", "Tenth Avenue Freeze-Out" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Tenth Avenue Freeze-Out", "Tenth Avenue Freeze-Out" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -16162,8 +16162,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 16032,
-  "message" : "Search returned 2 results",
-  "results" : [ "Meeting Across the River", "Meeting Across the River" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Meeting Across the River" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -16279,8 +16279,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 16155,
-  "message" : "Search returned 3 results",
-  "results" : [ "Higher Ground", "Higher Ground - Single Version", "Higher Ground" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Higher Ground", "Higher Ground - Single Version" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -16359,8 +16359,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 16231,
-  "message" : "Search returned 4 results",
-  "results" : [ "Night", "Night Life", "Night Time Is The Right Time", "Night" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Night", "Night Life", "Night Time Is The Right Time" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -16375,8 +16375,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 16250,
-  "message" : "Search returned 3 results",
-  "results" : [ "Higher Ground", "Higher Ground - Single Version", "Higher Ground" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Higher Ground", "Higher Ground - Single Version" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -16529,8 +16529,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 16438,
-  "message" : "Search returned 2 results",
-  "results" : [ "Jungleland", "Jungleland" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Jungleland" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -16667,8 +16667,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 16612,
-  "message" : "Search returned 2 results",
-  "results" : [ "All in Love Is Fair", "All in Love Is Fair" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "All in Love Is Fair" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -16768,8 +16768,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 16739,
-  "message" : "Search returned 2 results",
-  "results" : [ "Backstreets", "Backstreets" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Backstreets" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -16949,8 +16949,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 16985,
-  "message" : "Search returned 2 results",
-  "results" : [ "All in Love Is Fair", "All in Love Is Fair" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "All in Love Is Fair" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -17013,8 +17013,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 17080,
-  "message" : "Search returned 3 results",
-  "results" : [ "Yellow Submarine - Remastered 2015", "Yellow Submarine - Remastered 2015", "Yellow Submarine - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Yellow Submarine - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -17262,8 +17262,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 17313,
-  "message" : "Search returned 4 results",
-  "results" : [ "Night", "Night Life", "Night Time Is The Right Time", "Night" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Night", "Night Life", "Night Time Is The Right Time" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -17315,8 +17315,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 17367,
-  "message" : "Search returned 3 results",
-  "results" : [ "A Hard Day's Night - Remastered 2015", "A Hard Day's Night - Remastered 2015", "A Hard Day's Night - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "A Hard Day's Night - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -17363,8 +17363,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 17443,
-  "message" : "Search returned 3 results",
-  "results" : [ "I Feel Fine - Remastered 2015", "I Feel Fine - Remastered 2015", "I Feel Fine - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "I Feel Fine - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -17443,8 +17443,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 17578,
-  "message" : "Search returned 3 results",
-  "results" : [ "Ticket To Ride - Remastered 2015", "Ticket To Ride - Remastered 2015", "Ticket To Ride - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Ticket To Ride - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "david27",
@@ -17459,8 +17459,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 17580,
-  "message" : "Search returned 3 results",
-  "results" : [ "Love Me Do - Mono / Remastered 2015", "Love Me Do - Mono / Remastered 2015", "Love Me Do - Mono / Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Love Me Do - Mono / Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -17544,8 +17544,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 17673,
-  "message" : "Search returned 3 results",
-  "results" : [ "Love Me Do - Mono / Remastered 2015", "Love Me Do - Mono / Remastered 2015", "Love Me Do - Mono / Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Love Me Do - Mono / Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "david27",
@@ -17608,8 +17608,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 17771,
-  "message" : "Search returned 3 results",
-  "results" : [ "Yellow Submarine - Remastered 2015", "Yellow Submarine - Remastered 2015", "Yellow Submarine - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Yellow Submarine - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -17645,8 +17645,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 17810,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Ballad Of John And Yoko - Remastered 2015", "The Ballad Of John And Yoko - Remastered 2015", "The Ballad Of John And Yoko - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "The Ballad Of John And Yoko - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -17677,8 +17677,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 17899,
-  "message" : "Search returned 3 results",
-  "results" : [ "Get Back - Remastered 2015", "Get Back - Remastered 2015", "Get Back - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Get Back - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -17693,8 +17693,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 17905,
-  "message" : "Search returned 4 results",
-  "results" : [ "Born to Run", "Born to Run", "Born to Run", "Born to Run" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Born to Run", "Born to Run", "Born to Run" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -17709,8 +17709,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 17906,
-  "message" : "Search returned 3 results",
-  "results" : [ "All You Need Is Love - Remastered 2015", "All You Need Is Love - Remastered 2015", "All You Need Is Love - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "All You Need Is Love - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "david27",
@@ -17767,8 +17767,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 17994,
-  "message" : "Search returned 3 results",
-  "results" : [ "I Feel Fine - Remastered 2015", "I Feel Fine - Remastered 2015", "I Feel Fine - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "I Feel Fine - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -17815,8 +17815,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 18063,
-  "message" : "Search returned 3 results",
-  "results" : [ "Get Back - Remastered 2015", "Get Back - Remastered 2015", "Get Back - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Get Back - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -17852,8 +17852,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 18102,
-  "message" : "Search returned 3 results",
-  "results" : [ "She Loves You - Mono / Remastered 2015", "She Loves You - Mono / Remastered 2015", "She Loves You - Mono / Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "She Loves You - Mono / Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -17937,8 +17937,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 18177,
-  "message" : "Search returned 4 results",
-  "results" : [ "Thunder Road", "Thunder Road", "Thunder Road", "Thunder Road" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Thunder Road", "Thunder Road", "Thunder Road" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -18043,8 +18043,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 18370,
-  "message" : "Search returned 4 results",
-  "results" : [ "Born to Run", "Born to Run", "Born to Run", "Born to Run" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Born to Run", "Born to Run", "Born to Run" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -18139,8 +18139,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 18641,
-  "message" : "Search returned 2 results",
-  "results" : [ "She's the One", "She's the One" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "She's the One" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -18654,8 +18654,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 19380,
-  "message" : "Search returned 4 results",
-  "results" : [ "Born to Run", "Born to Run", "Born to Run", "Born to Run" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Born to Run", "Born to Run", "Born to Run" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -18782,8 +18782,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 19619,
-  "message" : "Search returned 2 results",
-  "results" : [ "Jungleland", "Jungleland" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Jungleland" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -18978,8 +18978,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 19875,
-  "message" : "Search returned 2 results",
-  "results" : [ "Tired", "Tired" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Tired" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -19031,8 +19031,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 19949,
-  "message" : "Search returned 2 results",
-  "results" : [ "Make You Feel My Love", "Make You Feel My Love" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Make You Feel My Love" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -19084,8 +19084,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 20055,
-  "message" : "Search returned 2 results",
-  "results" : [ "Cold Shoulder", "Cold Shoulder" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Cold Shoulder" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -19164,8 +19164,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 20222,
-  "message" : "Search returned 4 results",
-  "results" : [ "Born to Run", "Born to Run", "Born to Run", "Born to Run" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Born to Run", "Born to Run", "Born to Run" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -19217,8 +19217,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 20273,
-  "message" : "Search returned 2 results",
-  "results" : [ "Tired", "Tired" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Tired" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -19307,8 +19307,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 20347,
-  "message" : "Search returned 2 results",
-  "results" : [ "Best for Last", "Best for Last" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Best for Last" ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -19745,8 +19745,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 20854,
-  "message" : "Search returned 3 results",
-  "results" : [ "Love Me Do - Mono / Remastered 2015", "Love Me Do - Mono / Remastered 2015", "Love Me Do - Mono / Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Love Me Do - Mono / Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -19782,8 +19782,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 20903,
-  "message" : "Search returned 2 results",
-  "results" : [ "Jungleland", "Jungleland" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Jungleland" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -19920,8 +19920,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 21069,
-  "message" : "Search returned 2 results",
-  "results" : [ "Make You Feel My Love", "Make You Feel My Love" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Make You Feel My Love" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -20021,8 +20021,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 21190,
-  "message" : "Search returned 3 results",
-  "results" : [ "Eight Days A Week - Remastered 2015", "Eight Days A Week - Remastered 2015", "Eight Days A Week - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Eight Days A Week - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -20101,8 +20101,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 21236,
-  "message" : "Search returned 2 results",
-  "results" : [ "Melt My Heart to Stone", "Melt My Heart to Stone" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Melt My Heart to Stone" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -20159,8 +20159,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 21312,
-  "message" : "Search returned 2 results",
-  "results" : [ "First Love", "First Love" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "First Love" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -20196,8 +20196,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 21338,
-  "message" : "Search returned 2 results",
-  "results" : [ "Melt My Heart to Stone", "Melt My Heart to Stone" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Melt My Heart to Stone" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -20228,8 +20228,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 21353,
-  "message" : "Search returned 4 results",
-  "results" : [ "Night", "Night Life", "Night Time Is The Right Time", "Night" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Night", "Night Life", "Night Time Is The Right Time" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -20244,8 +20244,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 21378,
-  "message" : "Search returned 3 results",
-  "results" : [ "Penny Lane - Remastered 2015", "Penny Lane - Remastered 2015", "Penny Lane - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Penny Lane - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -20286,8 +20286,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 21432,
-  "message" : "Search returned 2 results",
-  "results" : [ "First Love", "First Love" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "First Love" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -20339,8 +20339,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 21466,
-  "message" : "Search returned 4 results",
-  "results" : [ "Born to Run", "Born to Run", "Born to Run", "Born to Run" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Born to Run", "Born to Run", "Born to Run" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -20355,8 +20355,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 21478,
-  "message" : "Search returned 3 results",
-  "results" : [ "Eleanor Rigby - Remastered 2015", "Eleanor Rigby - Remastered 2015", "Eleanor Rigby - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Eleanor Rigby - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -20419,8 +20419,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 21557,
-  "message" : "Search returned 2 results",
-  "results" : [ "Best for Last", "Best for Last" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Best for Last" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -20451,8 +20451,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 21577,
-  "message" : "Search returned 2 results",
-  "results" : [ "Tired", "Tired" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Tired" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -20467,8 +20467,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 21603,
-  "message" : "Search returned 3 results",
-  "results" : [ "She Loves You - Mono / Remastered 2015", "She Loves You - Mono / Remastered 2015", "She Loves You - Mono / Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "She Loves You - Mono / Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -20488,8 +20488,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 21646,
-  "message" : "Search returned 2 results",
-  "results" : [ "Melt My Heart to Stone", "Melt My Heart to Stone" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Melt My Heart to Stone" ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -20552,8 +20552,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 21701,
-  "message" : "Search returned 2 results",
-  "results" : [ "Tired", "Tired" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Tired" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -20568,8 +20568,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 21735,
-  "message" : "Search returned 2 results",
-  "results" : [ "Cold Shoulder", "Cold Shoulder" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Cold Shoulder" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -20616,8 +20616,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 21831,
-  "message" : "Search returned 2 results",
-  "results" : [ "Right as Rain", "Right as Rain" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Right as Rain" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -20709,8 +20709,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 21991,
-  "message" : "Search returned 3 results",
-  "results" : [ "Can't Buy Me Love - Remastered 2015", "Can't Buy Me Love - Remastered 2015", "Can't Buy Me Love - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Can't Buy Me Love - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -20781,8 +20781,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 22066,
-  "message" : "Search returned 3 results",
-  "results" : [ "Get Back - Remastered 2015", "Get Back - Remastered 2015", "Get Back - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Get Back - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -20829,8 +20829,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 22116,
-  "message" : "Search returned 3 results",
-  "results" : [ "Can't Buy Me Love - Remastered 2015", "Can't Buy Me Love - Remastered 2015", "Can't Buy Me Love - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Can't Buy Me Love - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -20861,8 +20861,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 22235,
-  "message" : "Search returned 2 results",
-  "results" : [ "Jungleland", "Jungleland" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Jungleland" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -20893,8 +20893,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 22257,
-  "message" : "Search returned 3 results",
-  "results" : [ "I Feel Fine - Remastered 2015", "I Feel Fine - Remastered 2015", "I Feel Fine - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "I Feel Fine - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -20941,8 +20941,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 22326,
-  "message" : "Search returned 3 results",
-  "results" : [ "I Feel Fine - Remastered 2015", "I Feel Fine - Remastered 2015", "I Feel Fine - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "I Feel Fine - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -21010,8 +21010,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 22463,
-  "message" : "Search returned 3 results",
-  "results" : [ "A Hard Day's Night - Remastered 2015", "A Hard Day's Night - Remastered 2015", "A Hard Day's Night - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "A Hard Day's Night - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -21063,8 +21063,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 22536,
-  "message" : "Search returned 2 results",
-  "results" : [ "Backstreets", "Backstreets" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Backstreets" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -21281,8 +21281,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 22834,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Long And Winding Road - Remastered 2015", "The Long And Winding Road - Remastered 2015", "The Long And Winding Road - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "The Long And Winding Road - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -21366,8 +21366,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 22942,
-  "message" : "Search returned 3 results",
-  "results" : [ "Let It Be - Remastered 2015", "Let It Be - Remastered 2015", "Let It Be - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Let It Be - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -21526,8 +21526,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 23372,
-  "message" : "Search returned 3 results",
-  "results" : [ "Day Tripper - Remastered 2015", "Day Tripper - Remastered 2015", "Day Tripper - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Day Tripper - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -21590,8 +21590,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 23541,
-  "message" : "Search returned 3 results",
-  "results" : [ "Day Tripper - Remastered 2015", "Day Tripper - Remastered 2015", "Day Tripper - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Day Tripper - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -22915,8 +22915,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 25963,
-  "message" : "Search returned 2 results",
-  "results" : [ "Chasing Pavements", "Chasing Pavements" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Chasing Pavements" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -23000,8 +23000,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 26051,
-  "message" : "Search returned 2 results",
-  "results" : [ "Make You Feel My Love", "Make You Feel My Love" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Make You Feel My Love" ]
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -23138,8 +23138,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 26180,
-  "message" : "Search returned 2 results",
-  "results" : [ "Hometown Glory", "Hometown Glory" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Hometown Glory" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -23186,8 +23186,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 26202,
-  "message" : "Search returned 2 results",
-  "results" : [ "Melt My Heart to Stone", "Melt My Heart to Stone" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Melt My Heart to Stone" ]
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -23255,8 +23255,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 26304,
-  "message" : "Search returned 2 results",
-  "results" : [ "Tired", "Tired" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Tired" ]
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -23287,8 +23287,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 26314,
-  "message" : "Search returned 2 results",
-  "results" : [ "Chasing Pavements", "Chasing Pavements" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Chasing Pavements" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -23324,8 +23324,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 26419,
-  "message" : "Search returned 2 results",
-  "results" : [ "Chasing Pavements", "Chasing Pavements" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Chasing Pavements" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -23407,8 +23407,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 26524,
-  "message" : "Search returned 2 results",
-  "results" : [ "Chasing Pavements", "Chasing Pavements" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Chasing Pavements" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -23476,8 +23476,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 26734,
-  "message" : "Search returned 2 results",
-  "results" : [ "Tired", "Tired" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Tired" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -23556,8 +23556,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 26783,
-  "message" : "Search returned 2 results",
-  "results" : [ "First Love", "First Love" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "First Love" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -23572,8 +23572,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 26811,
-  "message" : "Search returned 4 results",
-  "results" : [ "Higher Ground", "Higher Ground - Single Version", "Higher", "Higher Ground" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Higher Ground", "Higher Ground - Single Version", "Higher" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -23657,8 +23657,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 26893,
-  "message" : "Search returned 2 results",
-  "results" : [ "Cold Shoulder", "Cold Shoulder" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Cold Shoulder" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -23721,8 +23721,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 27018,
-  "message" : "Search returned 2 results",
-  "results" : [ "Right as Rain", "Right as Rain" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Right as Rain" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -23737,8 +23737,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 27019,
-  "message" : "Search returned 2 results",
-  "results" : [ "My Same", "My Same" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "My Same" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -23753,8 +23753,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 27060,
-  "message" : "Search returned 3 results",
-  "results" : [ "Yesterday - Remastered 2015", "Yesterday - Remastered 2015", "Yesterday - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Yesterday - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -23785,8 +23785,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 27116,
-  "message" : "Search returned 2 results",
-  "results" : [ "First Love", "First Love" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "First Love" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -23817,8 +23817,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 27180,
-  "message" : "Search returned 3 results",
-  "results" : [ "Can't Buy Me Love - Remastered 2015", "Can't Buy Me Love - Remastered 2015", "Can't Buy Me Love - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Can't Buy Me Love - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -23854,8 +23854,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 27189,
-  "message" : "Search returned 2 results",
-  "results" : [ "First Love", "First Love" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "First Love" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -23921,8 +23921,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 27245,
-  "message" : "Search returned 3 results",
-  "results" : [ "Yellow Submarine - Remastered 2015", "Yellow Submarine - Remastered 2015", "Yellow Submarine - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Yellow Submarine - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -23990,8 +23990,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 27306,
-  "message" : "Search returned 2 results",
-  "results" : [ "Daydreamer", "Daydreamer" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Daydreamer" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -24011,8 +24011,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 27324,
-  "message" : "Search returned 2 results",
-  "results" : [ "Daydreamer", "Daydreamer" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Daydreamer" ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -24064,8 +24064,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 27420,
-  "message" : "Search returned 2 results",
-  "results" : [ "Right as Rain", "Right as Rain" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Right as Rain" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -24080,8 +24080,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 27431,
-  "message" : "Search returned 3 results",
-  "results" : [ "I Feel Fine - Remastered 2015", "I Feel Fine - Remastered 2015", "I Feel Fine - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "I Feel Fine - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -24154,8 +24154,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 27518,
-  "message" : "Search returned 2 results",
-  "results" : [ "Cold Shoulder", "Cold Shoulder" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Cold Shoulder" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -24210,8 +24210,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 27614,
-  "message" : "Search returned 2 results",
-  "results" : [ "Make You Feel My Love", "Make You Feel My Love" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Make You Feel My Love" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -24353,8 +24353,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 27750,
-  "message" : "Search returned 2 results",
-  "results" : [ "Cold Shoulder", "Cold Shoulder" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Cold Shoulder" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -24438,8 +24438,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 27876,
-  "message" : "Search returned 2 results",
-  "results" : [ "Melt My Heart to Stone", "Melt My Heart to Stone" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Melt My Heart to Stone" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -24585,8 +24585,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 28161,
-  "message" : "Search returned 2 results",
-  "results" : [ "Tired", "Tired" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Tired" ]
 }, {
   "command" : "select",
   "user" : "david27",
@@ -24601,8 +24601,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 28195,
-  "message" : "Search returned 2 results",
-  "results" : [ "Melt My Heart to Stone", "Melt My Heart to Stone" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Melt My Heart to Stone" ]
 }, {
   "command" : "select",
   "user" : "david27",
@@ -24665,8 +24665,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 28297,
-  "message" : "Search returned 2 results",
-  "results" : [ "Melt My Heart to Stone", "Melt My Heart to Stone" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Melt My Heart to Stone" ]
 }, {
   "command" : "select",
   "user" : "david27",
@@ -24686,8 +24686,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 28399,
-  "message" : "Search returned 2 results",
-  "results" : [ "Melt My Heart to Stone", "Melt My Heart to Stone" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Melt My Heart to Stone" ]
 }, {
   "command" : "select",
   "user" : "david27",
@@ -24787,8 +24787,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 28576,
-  "message" : "Search returned 2 results",
-  "results" : [ "Tired", "Tired" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Tired" ]
 }, {
   "command" : "select",
   "user" : "david27",
@@ -25167,8 +25167,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 30161,
-  "message" : "Search returned 2 results",
-  "results" : [ "Make You Feel My Love", "Make You Feel My Love" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Make You Feel My Love" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -25209,8 +25209,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 30502,
-  "message" : "Search returned 2 results",
-  "results" : [ "Hometown Glory", "Hometown Glory" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Hometown Glory" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -25225,8 +25225,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 30636,
-  "message" : "Search returned 2 results",
-  "results" : [ "Melt My Heart to Stone", "Melt My Heart to Stone" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Melt My Heart to Stone" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -25257,8 +25257,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 30768,
-  "message" : "Search returned 2 results",
-  "results" : [ "Melt My Heart to Stone", "Melt My Heart to Stone" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Melt My Heart to Stone" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -25289,8 +25289,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 30885,
-  "message" : "Search returned 2 results",
-  "results" : [ "Cold Shoulder", "Cold Shoulder" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Cold Shoulder" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -25305,8 +25305,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 30981,
-  "message" : "Search returned 2 results",
-  "results" : [ "Chasing Pavements", "Chasing Pavements" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Chasing Pavements" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -25734,8 +25734,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 35105,
-  "message" : "Search returned 3 results",
-  "results" : [ "Day Tripper - Remastered 2015", "Day Tripper - Remastered 2015", "Day Tripper - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Day Tripper - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -25798,8 +25798,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 35712,
-  "message" : "Search returned 3 results",
-  "results" : [ "Yellow Submarine - Remastered 2015", "Yellow Submarine - Remastered 2015", "Yellow Submarine - Remastered 2015" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Yellow Submarine - Remastered 2015" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -26355,8 +26355,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 43125,
-  "message" : "Search returned 2 results",
-  "results" : [ "Hometown Glory", "Hometown Glory" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Hometown Glory" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -26424,8 +26424,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 43344,
-  "message" : "Search returned 2 results",
-  "results" : [ "Make You Feel My Love", "Make You Feel My Love" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Make You Feel My Love" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -26461,8 +26461,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 43581,
-  "message" : "Search returned 2 results",
-  "results" : [ "Chasing Pavements", "Chasing Pavements" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Chasing Pavements" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -26498,8 +26498,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 43808,
-  "message" : "Search returned 2 results",
-  "results" : [ "Make You Feel My Love", "Make You Feel My Love" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Make You Feel My Love" ]
 }, {
   "command" : "select",
   "user" : "alice22",

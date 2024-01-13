@@ -1,7 +1,6 @@
 package app.entities;
 
 import app.commands.normaluser.Notification;
-import app.commands.specialusers.artist.Monetization;
 import app.common.Output;
 import app.entities.playable.Album;
 import app.entities.playable.Playlist;
@@ -24,7 +23,6 @@ import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.HashMap;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -122,7 +120,6 @@ public final class Library {
     public void addPodcast(final Podcast podcast) {
         podcasts.add(podcast);
 
-//        System.out.println("podcast owner blyat= " + podcast.getOwner());
         Host host = getHostWithName(podcast.getOwner());
         String description = Output.NEW_PODCAST + Output.FROM + host.getName() + ".";
         Notification notification = new Notification(Output.NEW_PODCAST, description);
@@ -372,8 +369,33 @@ public final class Library {
      * @param album the album to be added
      */
     public void addSongsFromAlbum(final Album album) {
-        songs.addAll(album.getSongs());
+//        songs.addAll(album.getSongs());
+
+        for (Song songFromAlbum : album.getSongs()) {
+            boolean alreadyExists = songs.stream()
+                    .anyMatch(existingSong -> existingSong.equals(songFromAlbum));
+
+            if (!alreadyExists) {
+                songs.add(songFromAlbum);
+            }
+        }
+
+//        for (Song songFromAlbum : album.getSongs()) {
+//            boolean alreadyExist = false;
+//
+//            for (Song libSong : songs) {
+//                if (songFromAlbum.equals(libSong)) {
+//                    alreadyExist = true;
+//                    break;
+//                }
+//            }
+//
+//            if (!alreadyExist) {
+//                songs.add(songFromAlbum);
+//            }
+//        }
     }
+
 
     /**
      * Retrieves the existence of a user in the library
@@ -425,6 +447,10 @@ public final class Library {
      * @param album The album to be removed
      */
     public void removeAlbum(final Album album) {
+        List<Song> albumSongs = album.getSongs();
+
+        songs.removeIf(song -> albumSongs.contains(song));
+
         albums.remove(album);
     }
 
@@ -571,7 +597,7 @@ public final class Library {
      * @param album The album to be evaluated for deletion.
      * @return true if the album is currently in use and should not be deleted, false otherwise.
      */
-    public boolean decideDeleteAlbum(final Album album) {
+    public boolean decideNotDeleteAlbum(final Album album) {
         for (NormalUser user : users) {
             UserPlayer player = user.getPlayer();
             if (player.getLoadedContentReference() != null) {
@@ -579,6 +605,30 @@ public final class Library {
                     return true;
                 }
             }
+
+            if (user.getPlaylistsRecommendations() != null) {
+                List<Song> recommendedPlaylist = user.getPlaylistsRecommendations().getSongs();
+                for (Song albumSong : album.getSongs()) {
+                    if (recommendedPlaylist.contains(albumSong)) {
+                        return true;
+                    }
+                }
+            }
+
+            if (user.getSongRecommendations() != null) {
+                List<Song> songRecommendations = user.getSongRecommendations();
+                for (Song albumSong : album.getSongs()) {
+                    if (songRecommendations.contains(albumSong))
+                        return true;
+                }
+            }
+
+//            for (Song playlistSong : recommendedPlaylist) {
+//                for (Song albumSong : album.getSongs()) {
+//                    if (playlistSong)
+//                }
+//            }
+
         }
 
         for (Playlist playlist : playlists) {
@@ -631,12 +681,6 @@ public final class Library {
 
         return null;
     }
-
-//    public ArrayList<Song> getSongsWithGenre(final String genre) {
-//        return songs.stream()
-//                .filter(song -> genre.equals(song.getGenre()))
-//                .collect(Collectors.toCollection(ArrayList::new));
-//    }
 
     public ArrayList<Song> getSongsWithGenreSorted(final String genre) {
         return songs.stream()

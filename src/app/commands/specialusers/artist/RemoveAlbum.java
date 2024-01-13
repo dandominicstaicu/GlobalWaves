@@ -66,7 +66,7 @@ public class RemoveAlbum extends Command {
 
         Album album = library.getAlbumOfUserWithName(getUsername(), getName());
 
-        if (library.decideDeleteAlbum(album)) {
+        if (library.decideNotDeleteAlbum(album)) {
             out.put(Output.MESSAGE, getUsername() + Output.DELETE_ALBUM_FAIL);
             return;
         }
