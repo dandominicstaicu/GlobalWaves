@@ -85,4 +85,9 @@ public class Episode extends AudioFile {
     public String getFileOwner() {
         return this.owner;
     }
+
+    @Override
+    public String getSongGenre() {
+        return null;
+    }
 }

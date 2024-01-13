@@ -9,5 +9,6 @@ public final class Constants {
     public static final int LOWER_BOUND = 0;
     public static final int OUTBOUND = -1;
     public static final Double PREMIUM_CREDIT = 1000000.0;
+    public static final int TOP3 = 3;
 
 }

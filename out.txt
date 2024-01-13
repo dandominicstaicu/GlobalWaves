@@ -1,123 +1,129 @@
 [ {
   "command" : "addUser",
-  "user" : "Elton John",
-  "timestamp" : 15,
-  "message" : "The username Elton John has been added successfully."
+  "user" : "Whitney Houston",
+  "timestamp" : 10,
+  "message" : "The username Whitney Houston has been added successfully."
 }, {
   "command" : "addAlbum",
-  "user" : "Elton John",
+  "user" : "Whitney Houston",
+  "timestamp" : 15,
+  "message" : "Whitney Houston has added new album successfully."
+}, {
+  "command" : "addUser",
+  "user" : "Prince",
   "timestamp" : 20,
-  "message" : "Elton John has added new album successfully."
+  "message" : "The username Prince has been added successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "Prince",
+  "timestamp" : 25,
+  "message" : "Prince has added new album successfully."
 }, {
   "command" : "addUser",
-  "user" : "david101",
+  "user" : "morningstar",
   "timestamp" : 35,
-  "message" : "The username david101 has been added successfully."
+  "message" : "The username morningstar has been added successfully."
 }, {
   "command" : "addUser",
-  "user" : "carmenzz",
+  "user" : "joe27",
   "timestamp" : 45,
-  "message" : "The username carmenzz has been added successfully."
+  "message" : "The username joe27 has been added successfully."
 }, {
   "command" : "search",
-  "user" : "david101",
+  "user" : "morningstar",
   "timestamp" : 55,
   "message" : "Search returned 1 results",
-  "results" : [ "Goodbye Yellow Brick Road" ]
+  "results" : [ "Nobody Loves Me Like You Do" ]
 }, {
   "command" : "select",
-  "user" : "david101",
+  "user" : "morningstar",
   "timestamp" : 60,
-  "message" : "Successfully selected Goodbye Yellow Brick Road."
+  "message" : "Successfully selected Nobody Loves Me Like You Do."
 }, {
   "command" : "load",
-  "user" : "david101",
+  "user" : "morningstar",
   "timestamp" : 65,
   "message" : "Playback loaded successfully."
 }, {
-  "command" : "like",
-  "user" : "david101",
+  "command" : "status",
+  "user" : "morningstar",
+  "timestamp" : 70,
+  "stats" : {
+    "name" : "Nobody Loves Me Like You Do",
+    "remainedTime" : 221,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "createPlaylist",
+  "user" : "morningstar",
   "timestamp" : 75,
-  "message" : "Like registered successfully."
+  "message" : "Playlist created successfully."
 }, {
-  "command" : "search",
-  "user" : "carmenzz",
+  "command" : "addRemoveInPlaylist",
+  "user" : "morningstar",
+  "timestamp" : 85,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "showPlaylists",
+  "user" : "morningstar",
   "timestamp" : 90,
-  "message" : "Search returned 1 results",
-  "results" : [ "Rocket Man" ]
+  "result" : [ {
+    "name" : "playlist1",
+    "songs" : [ "Nobody Loves Me Like You Do" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
 }, {
-  "command" : "select",
-  "user" : "carmenzz",
+  "command" : "updateRecommendations",
+  "user" : "morningstar",
   "timestamp" : 95,
-  "message" : "Successfully selected Rocket Man."
-}, {
-  "command" : "load",
-  "user" : "carmenzz",
-  "timestamp" : 100,
-  "message" : "Playback loaded successfully."
-}, {
-  "command" : "like",
-  "user" : "carmenzz",
-  "timestamp" : 110,
-  "message" : "Like registered successfully."
+  "message" : "The recommendations for user morningstar have been updated successfully."
 }, {
   "command" : "search",
-  "user" : "carmenzz",
-  "timestamp" : 115,
+  "user" : "morningstar",
+  "timestamp" : 105,
   "message" : "Search returned 1 results",
-  "results" : [ "Your Song" ]
+  "results" : [ "Purple Rain" ]
 }, {
   "command" : "select",
-  "user" : "carmenzz",
-  "timestamp" : 120,
-  "message" : "Successfully selected Your Song."
+  "user" : "morningstar",
+  "timestamp" : 110,
+  "message" : "Successfully selected Purple Rain."
 }, {
   "command" : "load",
-  "user" : "carmenzz",
-  "timestamp" : 130,
+  "user" : "morningstar",
+  "timestamp" : 115,
   "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
-  "user" : "carmenzz",
-  "timestamp" : 135,
+  "user" : "morningstar",
+  "timestamp" : 120,
   "message" : "Like registered successfully."
 }, {
   "command" : "updateRecommendations",
-  "user" : "carmenzz",
-  "timestamp" : 145,
-  "message" : "The recommendations for user carmenzz have been updated successfully."
+  "user" : "morningstar",
+  "timestamp" : 125,
+  "message" : "The recommendations for user morningstar have been updated successfully."
 }, {
   "command" : "printCurrentPage",
-  "user" : "carmenzz",
-  "timestamp" : 155,
-  "message" : "Liked songs:\n\t[Rocket Man, Your Song]\n\nFollowed playlists:\n\t[]\n\nSong recommendations:\n\t[]\n\nPlaylists recommendations:\n\t[Elton John Fan Club recommendations]"
-}, {
-  "command" : "changePage",
-  "user" : "carmenzz",
-  "timestamp" : 165,
-  "message" : "carmenzz accessed LikedContent successfully."
-}, {
-  "command" : "changePage",
-  "user" : "carmenzz",
-  "timestamp" : 175,
-  "message" : "carmenzz accessed Artist successfully."
-}, {
-  "command" : "previousPage",
-  "user" : "carmenzz",
-  "timestamp" : 180,
-  "message" : "The user carmenzz has navigated successfully to the previous page."
-}, {
-  "command" : "printCurrentPage",
-  "user" : "carmenzz",
-  "timestamp" : 185,
-  "message" : "Liked songs:\n\t[Rocket Man - Elton John, Your Song - Elton John]\n\nFollowed playlists:\n\t[]"
+  "user" : "morningstar",
+  "timestamp" : 135,
+  "message" : "Liked songs:\n\t[Purple Rain]\n\nFollowed playlists:\n\t[]\n\nSong recommendations:\n\t[All at Once]\n\nPlaylists recommendations:\n\t[morningstar's recommendations]"
 }, {
   "command" : "endProgram",
   "result" : {
-    "Elton John" : {
+    "Prince" : {
       "songRevenue" : 0.0,
       "merchRevenue" : 0.0,
       "ranking" : 1,
+      "mostProfitableSong" : "N/A"
+    },
+    "Whitney Houston" : {
+      "songRevenue" : 0.0,
+      "merchRevenue" : 0.0,
+      "ranking" : 2,
       "mostProfitableSong" : "N/A"
     }
   }

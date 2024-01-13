@@ -623,13 +623,26 @@ public final class Library {
         return null;
     }
 
-    public Song getSongWithName(String name) {
+    public Song getSongWithName(final String name) {
         for (Song song : songs) {
             if (song.getName().equals(name))
                 return song;
         }
 
         return null;
+    }
+
+//    public ArrayList<Song> getSongsWithGenre(final String genre) {
+//        return songs.stream()
+//                .filter(song -> genre.equals(song.getGenre()))
+//                .collect(Collectors.toCollection(ArrayList::new));
+//    }
+
+    public ArrayList<Song> getSongsWithGenre(final String genre) {
+        return songs.stream()
+                .filter(song -> genre.equals(song.getGenre()))
+                .sorted(Comparator.comparingInt(Song::getLikes).reversed()) // Sort by likes in descending order
+                .collect(Collectors.toCollection(ArrayList::new));
     }
 
 }

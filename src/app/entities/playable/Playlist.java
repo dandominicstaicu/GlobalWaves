@@ -152,4 +152,10 @@ public class Playlist implements Searchable {
     public void addSong(final Song song) {
         songs.add(song);
     }
+
+    public void addMultipleSongs(final List<Song> multipleSongs) {
+        for (Song song : multipleSongs) {
+            addSong(song);
+        }
+    }
 }

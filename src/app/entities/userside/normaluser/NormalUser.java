@@ -16,6 +16,7 @@ import app.entities.userside.artist.Merch;
 import app.entities.userside.pages.HomePage;
 import app.entities.userside.pages.Page;
 import com.fasterxml.jackson.databind.node.ObjectNode;
+import com.sun.jdi.ArrayReference;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -43,7 +44,7 @@ public class NormalUser extends User {
     private ArrayList<Merch> boughtMerch;
 
     private ArrayList<Song> songRecommendations;
-//    private ArrayList<Playlist> playlistsRecommendations;
+    //    private ArrayList<Playlist> playlistsRecommendations;
     private Playlist playlistsRecommendations;
 
     private ArrayList<Page> pageHistory;
@@ -69,6 +70,7 @@ public class NormalUser extends User {
 
 //        this.playlistsRecommendations = new ArrayList<>();
         this.playlistsRecommendations = null;
+        this.songRecommendations = new ArrayList<>();
     }
 
     /**
@@ -382,11 +384,7 @@ public class NormalUser extends User {
                 .collect(Collectors.toCollection(ArrayList::new));
     }
 
-    public void updateRecommendations(UpdateRecommend type) {
-//        AudioFile playing = player.getCurrentlyPlaying();
-//        int elapsedTime = player.getCurrentlyPlaying().getPlayedTime();\
-//        int elapsedTime =
-
+    public void updateRecommendations(final UpdateRecommend type) {
         int elapsedTime = player.getPlayedTimeOfCurrentSong();
 
         System.out.println("elapsed time: " + elapsedTime);
@@ -398,15 +396,128 @@ public class NormalUser extends User {
                 }
 
                 System.out.println("s0ng");
+                addRandomSong();
             }
             case RANDOM_PLAYLIST -> {
                 System.out.println("playlist");
+                createRandomPlaylist();
             }
             case FANS_PLAYLIST -> {
                 System.out.println("fans");
                 createFansPlayList();
             }
         }
+    }
+
+    private void createRandomPlaylist() {
+        ArrayList<String> top3Genre = getTop3Genre();
+        String playlistName = getUsername() + "'s recommendations";
+        Playlist randomPlaylist = new Playlist(playlistName);
+
+        if (!top3Genre.isEmpty()) {
+            List<Song> genreSongs = topNSongs(top3Genre.get(0), 5);
+            randomPlaylist.addMultipleSongs(genreSongs);
+
+            if (top3Genre.size() > 1) {
+                genreSongs.clear();
+                genreSongs = topNSongs(top3Genre.get(1), 3);
+                randomPlaylist.addMultipleSongs(genreSongs);
+            }
+
+            if (top3Genre.size() > 2) {
+                genreSongs.clear();
+                genreSongs = topNSongs(top3Genre.get(2), 2);
+                randomPlaylist.addMultipleSongs(genreSongs);
+            }
+        }
+
+        this.playlistsRecommendations = randomPlaylist;
+    }
+
+    private List<Song> topNSongs(final String genre, final int topSize) {
+        Library lib = Library.getInstance();
+        ArrayList<Song> songsWithGenre = lib.getSongsWithGenre(genre);
+
+        return songsWithGenre.stream()
+                .limit(topSize)
+                .collect(Collectors.toList());
+    }
+
+    private ArrayList<String> getTop3Genre() {
+        HashMap<String, Integer> genreOccurrences = new HashMap<>();
+        genreLikes(genreOccurrences);
+        genreCreatedPlaylists(genreOccurrences);
+        genreFollowedPlaylists(genreOccurrences);
+
+        return genreOccurrences.entrySet().stream()
+                // Sort by value (occurrence) in descending order
+                .sorted((entry1, entry2) -> entry2.getValue().compareTo(entry1.getValue()))
+                // Limit to top 3
+                .limit(Constants.TOP3)
+                // Map to get only the genre (key)
+                .map(Map.Entry::getKey)
+                // Collect to list
+                .collect(Collectors.toCollection(ArrayList::new));
+    }
+
+    private void genreLikes(final HashMap<String, Integer> genreOccurrences) {
+        for (Song song : favoriteSongs) {
+            String genre = song.getGenre();
+            Integer currentValue = genreOccurrences.getOrDefault(genre, 0);
+            currentValue += 1;
+            genreOccurrences.put(genre, currentValue);
+        }
+    }
+
+    private void genreCreatedPlaylists(final HashMap<String, Integer> genreOccurrences) {
+        Library lib = Library.getInstance();
+        List<Playlist> playlists = lib.getPlaylists();
+
+        for (Playlist libPlaylist : playlists) {
+            String owner = libPlaylist.getOwner();
+            if (owner.equals(this.getUsername())) {
+                // TODO a function for this repeated code
+                List<Song> playlistsSongs = libPlaylist.getSongs();
+                for (Song song : playlistsSongs) {
+                    String genre = song.getGenre();
+                    Integer currentValue = genreOccurrences.getOrDefault(genre, 0);
+                    currentValue += 1;
+                    genreOccurrences.put(genre, currentValue);
+                }
+            }
+
+        }
+
+    }
+
+    private void genreFollowedPlaylists(final HashMap<String, Integer> genreOccurrences) {
+        for (Playlist followed : followedPlaylists) {
+            List<Song> playlistSongs = followed.getSongs();
+            for (Song song : playlistSongs) {
+                String genre = song.getGenre();
+                Integer currentValue = genreOccurrences.getOrDefault(genre, 0);
+                currentValue += 1;
+                genreOccurrences.put(genre, currentValue);
+            }
+        }
+    }
+
+    private void addRandomSong() {
+        AudioFile playing = player.getCurrentlyPlaying();
+        String genre = playing.getSongGenre();
+
+        Library lib = Library.getInstance();
+        ArrayList<Song> sameGenreSong = lib.getSongsWithGenre(genre);
+        int seed = player.getPlayedTimeOfCurrentSong();
+
+        if (!sameGenreSong.isEmpty()) {
+            Random random = new Random(seed);
+            int randomIndex = random.nextInt(sameGenreSong.size());
+            Song randomSong = sameGenreSong.get(randomIndex);
+
+            songRecommendations.add(randomSong);
+        }
+
     }
 
     private void createFansPlayList() {
@@ -438,7 +549,7 @@ public class NormalUser extends User {
         // TODO maybe add in the existing playlist these instead of replacing
         this.playlistsRecommendations = fansPlaylist;
 //        playlistsRecommendations.add(fansPlaylist);
-        System.out.println("penis: " + this.playlistsRecommendations);
+        System.out.println("cyka: " + this.playlistsRecommendations);
 
     }
 

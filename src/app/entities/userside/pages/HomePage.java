@@ -32,6 +32,10 @@ public class HomePage implements Page {
         // playlistRecommendations = new ArrayList<>(); // Depending on your requirements
     }
 
+    private void constructSongRecommendations(final NormalUser user) {
+        songRecommendations = user.getSongRecommendations();
+    }
+
     private void constructPlaylistRecommendations(final NormalUser user) {
         playlistRecommendations = user.getPlaylistsRecommendations();
         System.out.println("blyat: " + user.getPlaylistsRecommendations());
@@ -76,6 +80,7 @@ public class HomePage implements Page {
     public String printPage(final Library lib, final NormalUser user) {
         constructTopPlaylists(user);
         constructTopSongs(user);
+        constructSongRecommendations(user);
         constructPlaylistRecommendations(user);
 
         StringBuilder pageContent = new StringBuilder();

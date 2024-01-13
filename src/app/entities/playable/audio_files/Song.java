@@ -207,4 +207,9 @@ public class Song extends AudioFile implements Searchable {
     public String getFileOwner() {
         return this.artist;
     }
+
+    @Override
+    public String getSongGenre() {
+        return this.genre;
+    }
 }

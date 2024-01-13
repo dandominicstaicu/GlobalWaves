@@ -32,4 +32,5 @@ public abstract class AudioFile {
     public abstract void editStats(Library lib, NormalUser user);
 
     public abstract String getFileOwner();
+    public abstract String getSongGenre();
 }

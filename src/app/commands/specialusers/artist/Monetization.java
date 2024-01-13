@@ -44,7 +44,7 @@ public class Monetization {
         this.revenuePerSong.put(song, currentRevenue);
     }
 
-    // chat GPT wrote this when I asked for a function that gets the highest value in a hashmap
+    // chatGPT wrote this when I asked for a function that gets the highest value in a hashmap
     private String getKeyWithHighestValue() {
         String keyWithHighestValue = null;
         double highestValue = Double.MIN_VALUE;

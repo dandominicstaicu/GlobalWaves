@@ -97,6 +97,10 @@ public class ChangePage extends Command {
             case "Host":
                 String hostName = playingFile.getFileOwner();
                 Host host = lib.getHostWithName(hostName);
+
+                if (host == null)
+                    return;
+
                 Page hostPage = host.getHostPage();
 
                 setPageAndCreateMessage(user, hostPage, "Host", out);
