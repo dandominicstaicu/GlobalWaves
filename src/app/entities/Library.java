@@ -638,10 +638,16 @@ public final class Library {
 //                .collect(Collectors.toCollection(ArrayList::new));
 //    }
 
-    public ArrayList<Song> getSongsWithGenre(final String genre) {
+    public ArrayList<Song> getSongsWithGenreSorted(final String genre) {
         return songs.stream()
                 .filter(song -> genre.equals(song.getGenre()))
                 .sorted(Comparator.comparingInt(Song::getLikes).reversed()) // Sort by likes in descending order
+                .collect(Collectors.toCollection(ArrayList::new));
+    }
+
+    public ArrayList<Song> getSongsWithGenre(final String genre) {
+        return songs.stream()
+                .filter(song -> genre.equals(song.getGenre()))
                 .collect(Collectors.toCollection(ArrayList::new));
     }
 

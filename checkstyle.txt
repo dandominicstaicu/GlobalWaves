@@ -109,6 +109,7 @@ Starting audit...
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/app/entities/Library.java:628:13: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/app/entities/Library.java:641:5: Missing a Javadoc comment. [MissingJavadocMethod]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/app/entities/Library.java:644: Line is longer than 100 characters (found 112). [LineLength]
+[ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/app/entities/Library.java:648:5: Missing a Javadoc comment. [MissingJavadocMethod]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/app/entities/playable/Playlist.java:152:5: Class 'Playlist' looks like designed for extension (can be subclassed), but the method 'addSong' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Playlist' final or making the method 'addSong' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/app/entities/playable/Playlist.java:152:5: Missing a Javadoc comment. [MissingJavadocMethod]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/app/entities/playable/Playlist.java:156:5: Class 'Playlist' looks like designed for extension (can be subclassed), but the method 'addMultipleSongs' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Playlist' final or making the method 'addMultipleSongs' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
@@ -186,4 +187,4 @@ Starting audit...
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/app/commands/specialusers/artist/Monetization.java:76:5: Class 'Monetization' looks like designed for extension (can be subclassed), but the method 'payMerch' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Monetization' final or making the method 'payMerch' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] /home/dominic/Documents/Facultate_sem_3/OOP/oop-project-2023/etapa1/./src/app/commands/specialusers/artist/Monetization.java:76:5: Missing a Javadoc comment. [MissingJavadocMethod]
 Audit done.
-Checkstyle ends with 186 errors.
+Checkstyle ends with 187 errors.

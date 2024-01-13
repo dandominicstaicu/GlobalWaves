@@ -436,7 +436,7 @@ public class NormalUser extends User {
 
     private List<Song> topNSongs(final String genre, final int topSize) {
         Library lib = Library.getInstance();
-        ArrayList<Song> songsWithGenre = lib.getSongsWithGenre(genre);
+        ArrayList<Song> songsWithGenre = lib.getSongsWithGenreSorted(genre);
 
         return songsWithGenre.stream()
                 .limit(topSize)
