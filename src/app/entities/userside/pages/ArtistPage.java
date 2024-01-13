@@ -70,21 +70,23 @@ public class ArtistPage implements Page {
         return pageContent.toString();
     }
 
+    /**
+     * Gets the page type associated with this object, which is an Artist Page.
+     *
+     * @return The PageTypes enum value representing an Artist Page.
+     */
     @Override
     public PageTypes getPageType() {
         return PageTypes.ARTIST_PAGE;
     }
 
     private String getAlbumNames(final Library lib) {
-        // Assuming you have a way to get the list of albums
-        // Replace this with your actual implementation
         return lib.getArtistsAlbums(artist.getName()).stream()
                 .map(Album::getName)
                 .collect(Collectors.joining(", "));
     }
 
     private String getMerchInfo() {
-        // Assuming Merch has getName(), getPrice(), and getDescription() methods
         return artist.getMerchList().stream()
                 .map(merch -> merch.getName() + " - " + merch.getPrice() + ":\n\t"
                         + merch.getDescription())
@@ -92,13 +94,17 @@ public class ArtistPage implements Page {
     }
 
     private String getEventInfo() {
-        // Assuming Event has getName(), getDate(), and getDescription() methods
         return artist.getEvents().stream()
                 .map(event -> event.getName() + " - " + event.getDate() + ":\n\t"
                         + event.getDescription())
                 .collect(Collectors.joining(", "));
     }
 
+    /**
+     * Gets the owner of this Artist Page, which is the artist themselves.
+     *
+     * @return The User object representing the artist who owns this page.
+     */
     @Override
     public User getOwner() {
         return this.artist;

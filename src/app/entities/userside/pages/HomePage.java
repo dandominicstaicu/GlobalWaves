@@ -12,6 +12,7 @@ import lombok.Setter;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 @Getter
 @Setter
@@ -19,7 +20,6 @@ public class HomePage implements Page {
     private ArrayList<Song> top5Songs;
     private ArrayList<Playlist> top5Playlists;
     private ArrayList<Song> songRecommendations;
-//    private ArrayList<Playlist> playlistRecommendations;
     private Playlist playlistRecommendations;
 
     /**
@@ -28,8 +28,7 @@ public class HomePage implements Page {
     public HomePage() {
         top5Songs = new ArrayList<>();
         top5Playlists = new ArrayList<>();
-        songRecommendations = new ArrayList<>(); // Initialize this list
-        // playlistRecommendations = new ArrayList<>(); // Depending on your requirements
+        songRecommendations = new ArrayList<>();
     }
 
     private void constructSongRecommendations(final NormalUser user) {
@@ -38,7 +37,6 @@ public class HomePage implements Page {
 
     private void constructPlaylistRecommendations(final NormalUser user) {
         playlistRecommendations = user.getPlaylistsRecommendations();
-//        System.out.println("blyat: " + user.getPlaylistsRecommendations());
     }
 
     /**
@@ -87,29 +85,13 @@ public class HomePage implements Page {
 
         // Formatting the top 5 liked songs
         pageContent.append("Liked songs:\n\t");
-        if (!top5Songs.isEmpty()) {
-            String songNames = top5Songs.stream()
-                    .map(Song::getName)
-                    .collect(Collectors.joining(", "));
-            pageContent.append("[").append(songNames).append("]");
-        } else {
-            pageContent.append("[]");
-        }
-
-        pageContent.append("\n\n");
+        buildPageContent(pageContent, top5Songs.isEmpty(), top5Songs.stream()
+                .map(Song::getName));
 
         // Formatting the top 5 followed playlists
         pageContent.append("Followed playlists:\n\t");
-        if (!top5Playlists.isEmpty()) {
-            String playlistInfo = top5Playlists.stream()
-                    .map(Playlist::getName)
-                    .collect(Collectors.joining(", "));
-            pageContent.append("[").append(playlistInfo).append("]");
-        } else {
-            pageContent.append("[]");
-        }
-
-        pageContent.append("\n\n");
+        buildPageContent(pageContent, top5Playlists.isEmpty(), top5Playlists.stream()
+                .map(Playlist::getName));
 
         // Append Song Recommendations
         pageContent.append("Song recommendations:\n\t");
@@ -125,15 +107,8 @@ public class HomePage implements Page {
         pageContent.append("\n\n");
 
         // Append Playlist Recommendations
-
-//        System.out.println(playlistRecommendations);
-
         pageContent.append("Playlists recommendations:\n\t");
-//        if (!playlistRecommendations.isEmpty()) {
         if (playlistRecommendations != null) {
-//            String playlistRecs = playlistRecommendations.stream()
-//                    .map(Playlist::getName)
-//                    .collect(Collectors.joining(", "));
             String playlistRecs = playlistRecommendations.getName();
             pageContent.append("[").append(playlistRecs).append("]");
         } else {
@@ -143,6 +118,24 @@ public class HomePage implements Page {
         return pageContent.toString();
     }
 
+    private void buildPageContent(final StringBuilder pageContent, final boolean empty,
+                                  final Stream<String> stringStream) {
+        if (!empty) {
+            String songNames = stringStream
+                    .collect(Collectors.joining(", "));
+            pageContent.append("[").append(songNames).append("]");
+        } else {
+            pageContent.append("[]");
+        }
+
+        pageContent.append("\n\n");
+    }
+
+    /**
+     * Gets the type of page associated with this object.
+     *
+     * @return The PageTypes enum value representing the type of page.
+     */
     @Override
     public PageTypes getPageType() {
         return PageTypes.HOME_PAGE;

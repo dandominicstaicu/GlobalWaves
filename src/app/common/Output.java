@@ -198,7 +198,8 @@ public final class Output {
     public static final String UPDATE_RECOMMENDATIONS = "updateRecommendations";
     public static final String PREV_PAGE = "previousPage";
     public static final String NO_PREV_PAGE = "There are no pages left to go back.";
-    public static final String PREV_PAGE_SUCCESS = " has navigated successfully to the previous page.";
+    public static final String PREV_PAGE_SUCCESS = " has navigated successfully to the previous "
+            + "page.";
     public static final String LOAD_RECOMMENDATIONS = "loadRecommendations";
     public static final String NO_RECOMMENDATIONS = "No recommendations available.";
     public static final String RECOMMEND_SUCCESS = "Playback loaded successfully.";
@@ -206,6 +207,4 @@ public final class Output {
     public static final String NO_NEXT_PAGE = "There are no pages left to go forward.";
     public static final String NEXT_PAGE_SUCCESS = " has navigated successfully to the next page.";
     public static final String NO_NEW_RECOMMENDATION = "No new recommendations were found";
-
-
 }

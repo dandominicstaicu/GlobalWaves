@@ -11,8 +11,6 @@ import app.entities.userside.normaluser.WrappedStats;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
-import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
 import java.util.Objects;
 
@@ -60,20 +58,26 @@ public class Song extends AudioFile implements Searchable {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Song)) return false;
-        if (!super.equals(o)) return false;
+        if (this == o) {
+            return true;
+        }
+
+        if (!(o instanceof Song)) {
+            return false;
+        }
+
+        if (!super.equals(o)) {
+            return false;
+        }
+
         Song song = (Song) o;
-        return
-                Objects.equals(tags, song.tags) &&
-                Objects.equals(lyrics, song.lyrics) &&
-                Objects.equals(genre, song.genre) &&
-                Objects.equals(releaseYear, song.releaseYear) &&
-                Objects.equals(getName(), song.getName()) &&
-                Objects.equals(artist, song.artist) &&
-                Objects.equals(getDuration(), song.getDuration());
-//                Objects.equals(likes, song.likes);
-        //Objects.equals(tags, song.tags) &&
+        return Objects.equals(tags, song.tags)
+                && Objects.equals(lyrics, song.lyrics)
+                && Objects.equals(genre, song.genre)
+                && Objects.equals(releaseYear, song.releaseYear)
+                && Objects.equals(getName(), song.getName())
+                && Objects.equals(artist, song.artist)
+                && Objects.equals(getDuration(), song.getDuration());
     }
 
     @Override
@@ -146,10 +150,15 @@ public class Song extends AudioFile implements Searchable {
         return true;
     }
 
+    /**
+     * Edits statistics related to this AudioFile object after playback.
+     * This method updates listen counts for the user, the artist, and monetization information.
+     *
+     * @param lib  The Library object containing song data.
+     * @param user The NormalUser initiating the playback.
+     */
     @Override
     public void editStats(final Library lib, final NormalUser user) {
-//        System.out.println("Editing stats for song " + this.getName());
-//        System.out.println("; Album: " + this.getAlbum());
         if (this.getName().equals("Ad Break")) {
             return;
         }
@@ -227,11 +236,21 @@ public class Song extends AudioFile implements Searchable {
         return this.getArtist().equals(artistName);
     }
 
+    /**
+     * Retrieves the owner of the audio file, which is represented by the artist.
+     *
+     * @return The artist who owns the audio file as a String.
+     */
     @Override
     public String getFileOwner() {
         return this.artist;
     }
 
+    /**
+     * Retrieves the genre of the song associated with this audio file.
+     *
+     * @return The genre of the song as a String.
+     */
     @Override
     public String getSongGenre() {
         return this.genre;

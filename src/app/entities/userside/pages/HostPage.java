@@ -58,6 +58,11 @@ public class HostPage implements Page {
         return pageContent.toString();
     }
 
+    /**
+     * Gets the type of page associated with this object.
+     *
+     * @return The PageTypes enum value representing the type of page.
+     */
     @Override
     public PageTypes getPageType() {
         return PageTypes.HOST_PAGE;
@@ -89,6 +94,12 @@ public class HostPage implements Page {
         return episodeDescriptions.isEmpty() ? "[]" : "[" + episodeDescriptions + "]";
     }
 
+    /**
+     * Gets the owner of this page, which may be null in some cases.
+     *
+     * @return The User object representing the owner of the page, or null if no owner is
+     * specified.
+     */
     @Override
     public User getOwner() {
         return this.host;

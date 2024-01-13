@@ -88,7 +88,6 @@ public class ChangePage extends Command {
                 break;
             case "Artist":
                 AudioFile playingSong  = userPlayer.getCurrentlyPlaying();
-
                 String artistName = playingSong.getFileOwner();
                 Artist artist = lib.getArtistWithName(artistName);
                 Page artistPage = artist.getArtistPage();
@@ -97,17 +96,8 @@ public class ChangePage extends Command {
                 break;
             case "Host":
                 AudioFile playingEpisode  = userPlayer.getCurrentlyPlaying();
-
-
                 String hostName = playingEpisode.getFileOwner();
                 Host host = lib.getHostWithName(hostName);
-
-                if (host == null) {
-                    System.out.println("name of host not found: " + hostName);
-                    System.out.println("nah nah nah");
-                    return;
-                }
-
                 Page hostPage = host.getHostPage();
 
                 setPageAndCreateMessage(user, hostPage, "Host", out);

@@ -17,11 +17,13 @@ import app.entities.userside.artist.Merch;
 import app.entities.userside.pages.HomePage;
 import app.entities.userside.pages.Page;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import com.sun.jdi.ArrayReference;
 import lombok.Getter;
 import lombok.Setter;
-
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Random;
 import java.util.stream.Collectors;
 
 @Getter
@@ -39,14 +41,11 @@ public class NormalUser extends User {
     private HashMap<String, ArrayList<Song>> premiumHistory;
 
     private Boolean isPremium;
-
     private ArrayList<Notification> notifications;
-
     private ArrayList<Merch> boughtMerch;
 
     private ArrayList<Song> songRecommendations;
     private Playlist playlistsRecommendations;
-    //    private ArrayList<Playlist> playlistsRecommendations;
     private Searchable lastRecommendation;
 
     private ArrayList<Page> pageHistory;
@@ -232,6 +231,13 @@ public class NormalUser extends User {
         return true;
     }
 
+    /**
+     * Prints wrapped statistics related to a user, including top artists, top genres,
+     * top songs, top albums, and top episodes. If the wrapped statistics are not registered
+     * for the user, an error message is included in the output.
+     *
+     * @param out The ObjectNode where the wrapped statistics will be printed.
+     */
     @Override
     public void printWrappedStats(final ObjectNode out) {
         if (!wrappedStats.getRegisteredStats()) {
@@ -253,18 +259,21 @@ public class NormalUser extends User {
             genresNode.put(entry.getKey(), entry.getValue());
         }
 
-        List<Map.Entry<String, Integer>> topSongs = wrappedStats.top5Songs();
-        ObjectNode songsNode = result.putObject("topSongs");
-        for (Map.Entry<String, Integer> entry : topSongs) {
-            songsNode.put(entry.getKey(), entry.getValue());
-        }
+        Artist.buildSongs(result, wrappedStats);
 
-        List<Map.Entry<String, Integer>> topAlbums = wrappedStats.top5Albums();
-        ObjectNode albumsNode = result.putObject("topAlbums");
-        for (Map.Entry<String, Integer> entry : topAlbums) {
-            albumsNode.put(entry.getKey(), entry.getValue());
-        }
+        Artist.buildAlbums(result, wrappedStats);
 
+        buildEpisodes(result, wrappedStats);
+    }
+
+    /**
+     * Builds and adds the top 5 episodes to the JSON result object.
+     *
+     * @param result       The JSON ObjectNode where the top episodes will be added.
+     * @param wrappedStats The WrappedStats object containing the data to retrieve the top
+     *                     episode from.
+     */
+    public static void buildEpisodes(final ObjectNode result, final WrappedStats wrappedStats) {
         List<Map.Entry<String, Integer>> topEpisodes = wrappedStats.top5Episodes();
         ObjectNode episodesNode = result.putObject("topEpisodes");
         for (Map.Entry<String, Integer> entry : topEpisodes) {
@@ -272,14 +281,25 @@ public class NormalUser extends User {
         }
     }
 
-    private void addValue(final HashMap<String, ArrayList<Song>> map, final String key, final Song value) {
+    private void addValue(final HashMap<String, ArrayList<Song>> map, final String key,
+                          final Song value) {
         map.computeIfAbsent(key, k -> new ArrayList<>()).add(value);
     }
 
+    /**
+     * Adds a song to the premium history, associating it with the artist.
+     *
+     * @param song The Song object to be added to the premium history.
+     */
     public void addPremiumHistory(final Song song) {
         addValue(premiumHistory, song.getArtist(), song);
     }
 
+    /**
+     * Adds a song to the regular history, associating it with the artist.
+     *
+     * @param song The Song object to be added to the regular history.
+     */
     public void addRegularHistory(final Song song) {
         addValue(regularHistory, song.getArtist(), song);
     }
@@ -294,64 +314,63 @@ public class NormalUser extends User {
         return totalSongs;
     }
 
+    /**
+     * Inserts an ad break into the player with a specified price and associates it with the
+     * library.
+     *
+     * @param lib   The Library object associated with the ad break.
+     * @param price The price of the ad break.
+     */
+    public void insertAd(final Library lib, final Double price) {
+        player.insertAdBreak(lib, price);
+    }
+
+    /**
+     * Pays premium artists based on their song history and clears the premium history.
+     * If the premium history is empty, no payments are made.
+     *
+     * @param lib The Library object containing song data.
+     */
     public void payPremiumArtist(final Library lib) {
-        // sanity check
         if (premiumHistory.isEmpty()) {
             return;
         }
-
-        Double song_total = getTotalNumberOfSongs(premiumHistory);
-
-        for (Map.Entry<String, ArrayList<Song>> entry : premiumHistory.entrySet()) {
-            String artistName = entry.getKey();
-            ArrayList<Song> songs = entry.getValue();
-            Integer count = songs.size();
-
-            Artist artist = lib.getArtistWithName(artistName);
-
-            if (artist == null) {
-                System.out.println("this should not happen");
-                return;
-            }
-
-            Monetization monetization = artist.getMonetization();
-            Double revenuePerSong = Constants.PREMIUM_CREDIT / song_total;
-            Double revenue = Constants.PREMIUM_CREDIT / song_total * count;
-
-            for (Song song : songs) {
-                monetization.addRevenuePerSong(song.getName(), revenuePerSong);
-            }
-
-            monetization.addSongRevenue(revenue);
-        }
-
+        Double songTotal = getTotalNumberOfSongs(premiumHistory);
+        Double revenuePerSong = Constants.PREMIUM_CREDIT / songTotal;
+        processArtistPayments(lib, premiumHistory, revenuePerSong);
         premiumHistory.clear();
     }
 
-    public void insertAd(final Library lib, final Double price) {
-        player.insertAdBreak(lib, price);
-//        System.out.println(" load an ad to queue");
-//        monetizeAd(lib, price);
+    /**
+     * Monetizes ad revenue for regular artists based on their song history and clears the regular
+     * history.
+     *
+     * @param lib   The Library object containing song data.
+     * @param price The total price of the ad.
+     */
+    public void monetizeAd(final Library lib, final Double price) {
+        Double songLast = getTotalNumberOfSongs(regularHistory);
+        Double revenuePerSong = price / songLast;
+        processArtistPayments(lib, regularHistory, revenuePerSong);
+        regularHistory.clear();
     }
 
-    public void monetizeAd(final Library lib, final Double price) {
-        Double song_last = getTotalNumberOfSongs(regularHistory);
-
-        for (Map.Entry<String, ArrayList<Song>> entry : regularHistory.entrySet()) {
+    private void processArtistPayments(final Library lib,
+                                       final Map<String, ArrayList<Song>> history,
+                                       final Double revenuePerSong) {
+        for (Map.Entry<String, ArrayList<Song>> entry : history.entrySet()) {
             String artistName = entry.getKey();
             ArrayList<Song> songs = entry.getValue();
             Integer count = songs.size();
 
             Artist artist = lib.getArtistWithName(artistName);
-
             if (artist == null) {
                 System.out.println("this should not happen");
                 return;
             }
 
             Monetization monetization = artist.getMonetization();
-            Double revenuePerSong = price / song_last;
-            Double revenue = price / song_last * count;
+            Double revenue = revenuePerSong * count;
 
             for (Song song : songs) {
                 monetization.addRevenuePerSong(song.getName(), revenuePerSong);
@@ -359,18 +378,29 @@ public class NormalUser extends User {
 
             monetization.addSongRevenue(revenue);
         }
-
-        regularHistory.clear();
     }
 
+    /**
+     * Adds a notification to the user's notification list.
+     *
+     * @param notification The Notification object to be added.
+     */
     public void addNotification(final Notification notification) {
         notifications.add(notification);
     }
 
+    /**
+     * Clears all notifications from the user's notification list.
+     */
     public void clearNotifications() {
         notifications.clear();
     }
 
+    /**
+     * Records the purchase of merchandise by the user.
+     *
+     * @param merch The Merch object representing the merchandise being purchased.
+     */
     public void buyMerch(final Merch merch) {
         boughtMerch.add(merch);
     }
@@ -386,34 +416,37 @@ public class NormalUser extends User {
                 .collect(Collectors.toCollection(ArrayList::new));
     }
 
+    /**
+     * Updates user recommendations based on the provided update type.
+     *
+     * @param type The type of update to be applied.
+     * @return true if the recommendations were successfully updated, false otherwise.
+     */
     public boolean updateRecommendations(final UpdateRecommend type) {
         int elapsedTime = player.getPlayedTimeOfCurrentSong();
 
-//        System.out.println("elapsed time: " + elapsedTime);
-
         switch (type) {
             case RANDOM_SONG -> {
-                if (elapsedTime < 30) {
+                if (elapsedTime < Constants.TIME_LOWER_BOUND) {
                     return false;
                 }
 
-//                System.out.println("s0ng");
                 addRandomSong();
 
                 return true;
             }
             case RANDOM_PLAYLIST -> {
-//                System.out.println("playlist");
                 createRandomPlaylist();
 
                 return !playlistsRecommendations.isEmpty();
             }
             case FANS_PLAYLIST -> {
-//                System.out.println("fans");
                 createFansPlayList();
 
                 return !playlistsRecommendations.getSongs().isEmpty();
-//                return false;
+            }
+            default -> {
+                System.out.println("unknown case");
             }
         }
 
@@ -435,16 +468,16 @@ public class NormalUser extends User {
             WrappedStats fansStats = fan.getWrappedStats();
 
             List<Map.Entry<String, Integer>> topSongs = fansStats.top5Songs();
-            for (Map.Entry<String, Integer> song_entry : topSongs) {
-                Song song = lib.getSongWithName(song_entry.getKey());
+            for (Map.Entry<String, Integer> songEntry : topSongs) {
+                Song song = lib.getSongWithName(songEntry.getKey());
 
+                assert song != null;
                 if (song.getLikes() > 0) {
                     fansPlaylist.addSong(song);
                 }
             }
         }
 
-        // TODO maybe add in the existing playlist these instead of replacing
         this.playlistsRecommendations = fansPlaylist;
         lastRecommendation = fansPlaylist;
     }
@@ -455,18 +488,18 @@ public class NormalUser extends User {
         Playlist randomPlaylist = new Playlist(playlistName);
 
         if (!top3Genre.isEmpty()) {
-            List<Song> genreSongs = topNSongs(top3Genre.get(0), 5);
+            List<Song> genreSongs = topNSongs(top3Genre.get(0), Constants.MAX_LIST_RETURN);
             randomPlaylist.addMultipleSongs(genreSongs);
 
             if (top3Genre.size() > 1) {
                 genreSongs.clear();
-                genreSongs = topNSongs(top3Genre.get(1), 3);
+                genreSongs = topNSongs(top3Genre.get(1), Constants.SECOND_LIST_RETURN);
                 randomPlaylist.addMultipleSongs(genreSongs);
             }
 
             if (top3Genre.size() > 2) {
                 genreSongs.clear();
-                genreSongs = topNSongs(top3Genre.get(2), 2);
+                genreSongs = topNSongs(top3Genre.get(2), Constants.THIRD_LIST_RETURN);
                 randomPlaylist.addMultipleSongs(genreSongs);
             }
         }
@@ -517,29 +550,25 @@ public class NormalUser extends User {
         for (Playlist libPlaylist : playlists) {
             String owner = libPlaylist.getOwner();
             if (owner.equals(this.getUsername())) {
-                // TODO a function for this repeated code
-                List<Song> playlistsSongs = libPlaylist.getSongs();
-                for (Song song : playlistsSongs) {
-                    String genre = song.getGenre();
-                    Integer currentValue = genreOccurrences.getOrDefault(genre, 0);
-                    currentValue += 1;
-                    genreOccurrences.put(genre, currentValue);
-                }
+                addToOccurrences(genreOccurrences, libPlaylist);
             }
-
         }
+    }
 
+    private void addToOccurrences(final HashMap<String, Integer> genreOccurrences,
+                                  final Playlist libPlaylist) {
+        List<Song> playlistsSongs = libPlaylist.getSongs();
+        for (Song song : playlistsSongs) {
+            String genre = song.getGenre();
+            Integer currentValue = genreOccurrences.getOrDefault(genre, 0);
+            currentValue += 1;
+            genreOccurrences.put(genre, currentValue);
+        }
     }
 
     private void genreFollowedPlaylists(final HashMap<String, Integer> genreOccurrences) {
         for (Playlist followed : followedPlaylists) {
-            List<Song> playlistSongs = followed.getSongs();
-            for (Song song : playlistSongs) {
-                String genre = song.getGenre();
-                Integer currentValue = genreOccurrences.getOrDefault(genre, 0);
-                currentValue += 1;
-                genreOccurrences.put(genre, currentValue);
-            }
+            addToOccurrences(genreOccurrences, followed);
         }
     }
 
@@ -562,13 +591,18 @@ public class NormalUser extends User {
 
     }
 
-    private void removeAllFromIndex(ArrayList<?> list, int fromIndex) {
+    // chatGPT suggested me this function when asked how to do it
+    private void removeAllFromIndex(final ArrayList<?> list, final int fromIndex) {
         if (fromIndex < list.size()) {
             list.subList(fromIndex, list.size()).clear();
         }
-        // If fromIndex is out of bounds (greater than or equal to the list size), the method does nothing.
     }
 
+    /**
+     * Adds a page to the user's page history, removing all pages after the current index.
+     *
+     * @param page The Page object to be added to the history.
+     */
     public void addInPageHistory(final Page page) {
         removeAllFromIndex(pageHistory, historyIndex + 1);
 
@@ -576,11 +610,19 @@ public class NormalUser extends User {
         historyIndex = pageHistory.size() - 1;
     }
 
+    /**
+     * Navigates to the previous page in the user's page history.
+     * The current page index is decremented accordingly.
+     */
     public void goToPrevPage() {
         historyIndex--;
         currentPage = pageHistory.get(historyIndex);
     }
 
+    /**
+     * Navigates to the next page in the user's page history.
+     * The current page index is incremented accordingly.
+     */
     public void goToNextPage() {
         historyIndex++;
         currentPage = pageHistory.get(historyIndex);

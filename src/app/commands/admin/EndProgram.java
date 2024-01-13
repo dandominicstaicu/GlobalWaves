@@ -21,7 +21,6 @@ public class EndProgram extends Command {
 
     @Override
     public void execute(final ArrayNode outputs, final Library library, final boolean offline) {
-//        System.out.println(this.toString());
 
         ObjectNode out = outputs.addObject();
 
@@ -32,7 +31,6 @@ public class EndProgram extends Command {
         List<NormalUser> normalUsers = library.getUsers();
         for (NormalUser normalUser : normalUsers) {
             if (normalUser.getIsPremium()) {
-//                System.out.println("premium user name: " + normalUser.getUsername());
                 normalUser.payPremiumArtist(library);
                 normalUser.setIsPremium(false);
             }

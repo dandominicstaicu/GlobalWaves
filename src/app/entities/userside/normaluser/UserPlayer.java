@@ -52,7 +52,6 @@ public class UserPlayer {
 
     private Double adPrice = 0.0;
 
-//    private AudioFile currentlyPlaying;
 
     /**
      * Constructs a UserPlayer instance.
@@ -74,7 +73,8 @@ public class UserPlayer {
      *
      * @param currentTimestamp The current timestamp to update the player's state.
      */
-    public void updateTime(final Library lib, final NormalUser user, final Integer currentTimestamp) {
+    public void updateTime(final Library lib, final NormalUser user,
+                           final Integer currentTimestamp) {
         if (!playingIndexIsValid()) {
             lastCommandTimestamp = currentTimestamp;
             stop();
@@ -94,25 +94,6 @@ public class UserPlayer {
             return;
         }
 
-//        if (isPlaying && playingIndexIsValid()) {
-//            // Calculate the elapsed time since the song started playing
-//            int elapsedTime = currentTimestamp - initialStartTimestamp;
-//
-//            // Get the currently playing AudioFile
-//            AudioFile currentlyPlaying = audioQueue.get(playingIndex);
-//            if (currentlyPlaying != null) {
-//                // Update the played time of the currently playing song
-//                currentlyPlaying.setPlayedTime(elapsedTime);
-//
-//                // Check if the song duration is exceeded and handle it accordingly
-////                if (elapsedTime >= currentlyPlaying.getDuration()) {
-////                    // Logic to go to next song or handle end of playlist
-////                }
-//            }
-//
-//            // ... rest of your method logic ...
-//        }
-
         if (!isPlaying) {
             if (playingIndexIsValid()) {
                 loadedTimestamp = initialStartTimestamp + (currentTimestamp - pauseStartTimeStamp);
@@ -125,7 +106,7 @@ public class UserPlayer {
             final int playedTime = audioQueue.get(playingIndex).getPlayedTime();
             int currentAudioDuration = audioQueue.get(playingIndex).getDuration() - playedTime;
 
-            if (loadedTimestamp + currentAudioDuration <= currentTimestamp) { // was < until the 3rd stage
+            if (loadedTimestamp + currentAudioDuration <= currentTimestamp) {
                 loadedTimestamp = loadedTimestamp + currentAudioDuration;
                 initialStartTimestamp = loadedTimestamp;
 
@@ -136,7 +117,6 @@ public class UserPlayer {
                 }
 
                 if (playingIndex < audioQueue.size()) {
-//                    System.out.print(currentTimestamp + " " + user.getUsername() + " intuit1 Now playing: " + audioQueue.get(playingIndex).getName());
                     audioQueue.get(playingIndex).editStats(lib, user);
                     if (audioQueue.get(playingIndex).getName().equals("Ad Break")) {
                         user.monetizeAd(lib, adPrice);
@@ -155,7 +135,7 @@ public class UserPlayer {
                         currentAudioDuration = audioQueue.get(playingIndex).getDuration();
                     }
 
-                    while (loadedTimestamp + currentAudioDuration <= currentTimestamp) { // was < until the 3rd stage
+                    while (loadedTimestamp + currentAudioDuration <= currentTimestamp) {
                         // Repeat logic
                         // Update the loaded timestamp to account for the duration of the
                         // current track
@@ -173,7 +153,6 @@ public class UserPlayer {
 
                         // Update the duration for the new current track
                         currentAudioDuration = audioQueue.get(playingIndex).getDuration();
-//                        System.out.print(currentTimestamp + " " + user.getUsername() + " intuit2 Now playing: " + audioQueue.get(playingIndex).getName());
                         audioQueue.get(playingIndex).editStats(lib, user);
                     }
 
@@ -197,7 +176,8 @@ public class UserPlayer {
      *
      * @param currentTimestamp The current timestamp to manage repeating logic.
      */
-    private void handleRepeatCase(final int currentTimestamp, final Library lib, final NormalUser user) {
+    private void handleRepeatCase(final int currentTimestamp, final Library lib,
+                                  final NormalUser user) {
         if (isRepeating == RepeatStates.REPEAT_ALL) {
             if (playingIndex + 1 < audioQueue.size()) {
                 next(false, currentTimestamp, lib, user);
@@ -213,7 +193,7 @@ public class UserPlayer {
     }
 
     // Helper method to identify if the current AudioFile is an ad break
-    private boolean isAdBreak(AudioFile audioFile) {
+    private boolean isAdBreak(final AudioFile audioFile) {
         return audioFile.getName().equals("Ad Break");
     }
 
@@ -223,7 +203,8 @@ public class UserPlayer {
      * @param isCommand        Indicates if this method is triggered by a command.
      * @param currentTimestamp The current timestamp for updating playback.
      */
-    public void next(final boolean isCommand, final int currentTimestamp, final Library lib, final NormalUser user) {
+    public void next(final boolean isCommand, final int currentTimestamp, final Library lib,
+                     final NormalUser user) {
         if (isAdBreak(audioQueue.get(playingIndex))) {
             return;
         }
@@ -255,7 +236,7 @@ public class UserPlayer {
             }
 
             audioQueue.get(playingIndex).setPlayedTime(0);
-        } else if (isCommand) { //  && playingIndex >= audioQueue.size() which is always true
+        } else if (isCommand) {
             if (isPlayingPlaylist && isRepeating == RepeatStates.REPEAT_ALL) {
                 playingIndex = 0;
                 realIndex = 0;
@@ -268,7 +249,6 @@ public class UserPlayer {
                 }
 
                 audioQueue.get(playingIndex).setPlayedTime(0);
-//                System.out.print("Now playing: " + audioQueue.get(playingIndex).getName());
                 audioQueue.get(playingIndex).editStats(lib, user);
             }
         }
@@ -420,7 +400,6 @@ public class UserPlayer {
         this.isShuffled = false;
 
         if (!audioQueue.isEmpty()) {
-//            System.out.print(startTimestamp + " " + user.getUsername()  + " First Now playing: " + audioQueue.get(0).getName()); // 0 for the first song
             audioQueue.get(0).editStats(lib, user);
         }
 
@@ -448,7 +427,7 @@ public class UserPlayer {
         if (!isPlaying) {
             this.isPlaying = true;
 
-            // Additional logic to resume the current track or podcast
+            // Logic to resume the current track or podcast
             pauseStartTimeStamp = 0;
         }
     }
@@ -607,10 +586,15 @@ public class UserPlayer {
         }
     }
 
+    /**
+     * Inserts an advertisement break into the audio queue, playing an ad with the specified price.
+     *
+     * @param lib   The Library object containing ad content.
+     * @param price The price associated with the ad.
+     */
     public void insertAdBreak(final Library lib, final Double price) {
         Song ad = lib.getAdContent();
         if (ad == null) {
-//            System.out.println("ad not found");
             return;
         }
 
@@ -627,14 +611,23 @@ public class UserPlayer {
             // empty queue
             System.out.println("no music playing. how did it get here?");
         }
-
-
     }
 
+    /**
+     * Retrieves the currently playing audio file in the audio queue.
+     *
+     * @return The AudioFile object representing the currently playing audio.
+     */
     public AudioFile getCurrentlyPlaying() {
         return audioQueue.get(playingIndex);
     }
 
+    /**
+     * Gets the played time (in seconds) of the current song being played.
+     *
+     * @return The time (in seconds) elapsed since the beginning of the current song.
+     *         Returns 0 if no song is currently playing.
+     */
     public int getPlayedTimeOfCurrentSong() {
         if (!isPlaying) {
             return 0;

@@ -81,6 +81,11 @@ public class LikedContentPage implements Page {
         return pageContent.toString();
     }
 
+    /**
+     * Gets the type of page associated with this object.
+     *
+     * @return The PageTypes enum value representing the type of page.
+     */
     @Override
     public PageTypes getPageType() {
         return PageTypes.LIKED_CONTENT_PAGE;

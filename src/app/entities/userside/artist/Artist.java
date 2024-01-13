@@ -31,13 +31,9 @@ public class Artist extends User implements Searchable {
     private ArrayList<Event> events;
     private ArrayList<Merch> merchList;
     private ArtistPage artistPage;
-
     private Integer id;
-
     private WrappedStats wrappedStats;
-
     private Monetization monetization;
-
     private ArrayList<NormalUser> subscribers;
 
     /**
@@ -59,7 +55,17 @@ public class Artist extends User implements Searchable {
         this.subscribers = new ArrayList<>();
     }
 
-    public void sendNotification(Notification notification) {
+    /**
+     * Sends a notification to all subscribers of this entity.
+     *
+     * This method iterates over the list of subscribers (normal users) and adds the given
+     * notification to their notification list. It's typically used to inform subscribers about
+     * new updates or events related to the entity they are subscribed to.
+     *
+     * @param notification The notification object containing the information to be sent to
+     *                     subscribers.
+     */
+    public void sendNotification(final Notification notification) {
         for (NormalUser user : this.subscribers) {
             user.addNotification(notification);
         }
@@ -196,8 +202,15 @@ public class Artist extends User implements Searchable {
         return true;
     }
 
+    /**
+     * This method is responsible for printing wrapped statistics related to an artist's music.
+     * If the wrapped statistics are not registered, it will output an error message indicating
+     * that the artist is not found.
+     *
+     * @param out The JSON ObjectNode where the wrapped statistics will be added.
+     */
     @Override
-    public void printWrappedStats(ObjectNode out) {
+    public void printWrappedStats(final ObjectNode out) {
         if (!wrappedStats.getRegisteredStats()) {
             out.put(Output.MESSAGE, Output.WRAPPED_ERR_ARTIST + getUsername() + ".");
             return;
@@ -205,17 +218,9 @@ public class Artist extends User implements Searchable {
 
         ObjectNode result = out.putObject(Output.RESULT);
 
-        List<Map.Entry<String, Integer>> topAlbums = wrappedStats.top5Albums();
-        ObjectNode albumsNode = result.putObject("topAlbums");
-        for (Map.Entry<String, Integer> entry : topAlbums) {
-            albumsNode.put(entry.getKey(), entry.getValue());
-        }
+        buildAlbums(result, wrappedStats);
 
-        List<Map.Entry<String, Integer>> topSongs = wrappedStats.top5Songs();
-        ObjectNode songsNode = result.putObject("topSongs");
-        for (Map.Entry<String, Integer> entry : topSongs) {
-            songsNode.put(entry.getKey(), entry.getValue());
-        }
+        buildSongs(result, wrappedStats);
 
         List<Map.Entry<String, Integer>> topFans = wrappedStats.top5Fans();
         ArrayNode fansNode = result.putArray("topFans");
@@ -225,6 +230,36 @@ public class Artist extends User implements Searchable {
 
         int listenersCount = wrappedStats.getListenersCountSize();
         result.put("listeners", listenersCount);
+    }
+
+    /**
+     * Builds and adds the top 5 songs to the JSON result object.
+     *
+     * @param result       The JSON ObjectNode where the top songs will be added.
+     * @param wrappedStats The WrappedStats object containing the data to retrieve the top songs
+     *                     from.
+     */
+    public static void buildSongs(final ObjectNode result, final WrappedStats wrappedStats) {
+        List<Map.Entry<String, Integer>> topSongs = wrappedStats.top5Songs();
+        ObjectNode songsNode = result.putObject("topSongs");
+        for (Map.Entry<String, Integer> entry : topSongs) {
+            songsNode.put(entry.getKey(), entry.getValue());
+        }
+    }
+
+    /**
+     * Builds and adds the top 5 albums to the JSON result object.
+     *
+     * @param result       The JSON ObjectNode where the top albums will be added.
+     * @param wrappedStats The WrappedStats object containing the data to retrieve the top
+     *                     albums from.
+     */
+    public static void buildAlbums(final ObjectNode result, final WrappedStats wrappedStats) {
+        List<Map.Entry<String, Integer>> topAlbums = wrappedStats.top5Albums();
+        ObjectNode albumsNode = result.putObject("topAlbums");
+        for (Map.Entry<String, Integer> entry : topAlbums) {
+            albumsNode.put(entry.getKey(), entry.getValue());
+        }
     }
 
     /**
@@ -286,10 +321,20 @@ public class Artist extends User implements Searchable {
      * @param event The event to be removed.
      */
 
+    /**
+     * Removes an event from the list of events associated with this object.
+     *
+     * @param event The Event object representing the event to be removed.
+     */
     public void removeEvent(final Event event) {
         events.remove(event);
     }
 
+    /**
+     * Adds a NormalUser object to the list of subscribers for this object.
+     *
+     * @param user The NormalUser object representing the subscriber to be added.
+     */
     @Override
     public void subscribe(final NormalUser user) {
         subscribers.add(user);
@@ -311,12 +356,23 @@ public class Artist extends User implements Searchable {
         return false;
     }
 
+    /**
+     * Removes a subscriber from the list of subscribers for this object.
+     *
+     * @param user The NormalUser object representing the subscriber to be removed.
+     */
     @Override
     public void unsubscribe(final NormalUser user) {
         subscribers.remove(user);
     }
 
-    public Merch getMerchWithName(String merchName) {
+    /**
+     * Retrieves a merchandise item with a specific name from the list of merchandise items.
+     *
+     * @param merchName The name of the merchandise item to search for.
+     * @return A Merch object matching the provided name, or null if no matching item is found.
+     */
+    public Merch getMerchWithName(final String merchName) {
         return merchList.stream()
                 .filter(merch -> merch.getName().equals(merchName))
                 .findFirst()

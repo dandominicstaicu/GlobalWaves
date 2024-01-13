@@ -81,7 +81,7 @@ public final class Library {
                             return artist.getMonetization().getSongRevenue()
                                     + artist.getMonetization().getMerchRevenue();
                         }).reversed() // Sort in descending order by total revenue
-                        .thenComparing(Artist::getUsername)) // Then sort alphabetically by artist's name
+                        .thenComparing(Artist::getUsername)) // Sort alphabetically by artist's name
                 .collect(Collectors.toList());
     }
 
@@ -370,30 +370,6 @@ public final class Library {
      */
     public void addSongsFromAlbum(final Album album) {
         songs.addAll(album.getSongs());
-
-//        for (Song songFromAlbum : album.getSongs()) {
-//            boolean alreadyExists = songs.stream()
-//                    .anyMatch(existingSong -> existingSong.equals(songFromAlbum));
-//
-//            if (!alreadyExists) {
-//                songs.add(songFromAlbum);
-//            }
-//        }
-
-//        for (Song songFromAlbum : album.getSongs()) {
-//            boolean alreadyExist = false;
-//
-//            for (Song libSong : songs) {
-//                if (songFromAlbum.equals(libSong)) {
-//                    alreadyExist = true;
-//                    break;
-//                }
-//            }
-//
-//            if (!alreadyExist) {
-//                songs.add(songFromAlbum);
-//            }
-//        }
     }
 
 
@@ -449,7 +425,7 @@ public final class Library {
     public void removeAlbum(final Album album) {
         List<Song> albumSongs = album.getSongs();
 
-        songs.removeIf(song -> albumSongs.contains(song));
+        songs.removeIf(albumSongs::contains);
 
         albums.remove(album);
     }
@@ -618,17 +594,11 @@ public final class Library {
             if (user.getSongRecommendations() != null) {
                 List<Song> songRecommendations = user.getSongRecommendations();
                 for (Song albumSong : album.getSongs()) {
-                    if (songRecommendations.contains(albumSong))
+                    if (songRecommendations.contains(albumSong)) {
                         return true;
+                    }
                 }
             }
-
-//            for (Song playlistSong : recommendedPlaylist) {
-//                for (Song albumSong : album.getSongs()) {
-//                    if (playlistSong)
-//                }
-//            }
-
         }
 
         for (Playlist playlist : playlists) {
@@ -663,6 +633,11 @@ public final class Library {
         return false;
     }
 
+    /**
+     * Retrieves the ad content song from the library.
+     *
+     * @return The Song object representing the ad content, or null if not found.
+     */
     public Song getAdContent() {
         for (Song song : songs) {
             if (song.getName().equals("Ad Break")) {
@@ -673,26 +648,45 @@ public final class Library {
         return null;
     }
 
+    /**
+     * Retrieves a song with the specified name from the library.
+     *
+     * @param name The name of the song to be retrieved.
+     * @return The Song object with the specified name, or null if not found.
+     */
     public Song getSongWithName(final String name) {
         for (Song song : songs) {
-            if (song.getName().equals(name))
+            if (song.getName().equals(name)) {
                 return song;
+            }
         }
 
         return null;
     }
 
+    /**
+     * Retrieves and returns a sorted list of songs with the specified genre.
+     * The list is sorted by the number of likes in descending order.
+     *
+     * @param genre The genre to filter songs by.
+     * @return A sorted ArrayList of Song objects with the specified genre.
+     */
     public ArrayList<Song> getSongsWithGenreSorted(final String genre) {
         return songs.stream()
                 .filter(song -> genre.equals(song.getGenre()))
-                .sorted(Comparator.comparingInt(Song::getLikes).reversed()) // Sort by likes in descending order
+                .sorted(Comparator.comparingInt(Song::getLikes).reversed()) // In descending order
                 .collect(Collectors.toCollection(ArrayList::new));
     }
 
+    /**
+     * Retrieves and returns a list of songs with the specified genre.
+     *
+     * @param genre The genre to filter songs by.
+     * @return An ArrayList of Song objects with the specified genre.
+     */
     public ArrayList<Song> getSongsWithGenre(final String genre) {
         return songs.stream()
                 .filter(song -> genre.equals(song.getGenre()))
                 .collect(Collectors.toCollection(ArrayList::new));
     }
-
 }

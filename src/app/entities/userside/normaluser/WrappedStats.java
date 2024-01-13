@@ -1,5 +1,6 @@
 package app.entities.userside.normaluser;
 
+import app.common.Constants;
 import app.entities.userside.artist.Artist;
 import app.entities.userside.host.Host;
 import lombok.Getter;
@@ -21,7 +22,7 @@ public class WrappedStats {
 
     private Boolean registeredStats;
 
-    public WrappedStats(NormalUser normalUser) {
+    public WrappedStats(final NormalUser normalUser) {
         this.artistsListenCount = new HashMap<>();
         this.genresListenCount = new HashMap<>();
         this.songsListenCount = new HashMap<>();
@@ -31,7 +32,7 @@ public class WrappedStats {
         this.registeredStats = false;
     }
 
-    public WrappedStats(Artist artist) {
+    public WrappedStats(final Artist artist) {
         this.songsListenCount = new HashMap<>();
         this.albumsListenCount = new HashMap<>();
         this.listenersCount = new HashMap<>();
@@ -39,13 +40,18 @@ public class WrappedStats {
         this.registeredStats = false;
     }
 
-    public WrappedStats(Host host) {
+    public WrappedStats(final Host host) {
         this.episodesListenCount = new HashMap<>();
         this.listenersCount = new HashMap<>();
 
         this.registeredStats = false;
     }
 
+    /**
+     * Registers statistics for the user.
+     * This method sets the 'registeredStats' flag to true, indicating that statistics are now
+     * available for the user.
+     */
     public void registerStats() {
         this.registeredStats = true;
     }
@@ -55,7 +61,7 @@ public class WrappedStats {
      *
      * @param artist The artist to increment the listen count for.
      */
-    public void addArtistListenCount(String artist) {
+    public void addArtistListenCount(final String artist) {
         int currentCount = artistsListenCount.getOrDefault(artist, 0);
         artistsListenCount.put(artist, currentCount + 1);
     }
@@ -65,7 +71,7 @@ public class WrappedStats {
      *
      * @param genre The genre to increment the listen count for.
      */
-    public void addGenreListenCount(String genre) {
+    public void addGenreListenCount(final String genre) {
         int currentCount = genresListenCount.getOrDefault(genre, 0);
         genresListenCount.put(genre, currentCount + 1);
     }
@@ -75,7 +81,7 @@ public class WrappedStats {
      *
      * @param song The song to increment the listen count for.
      */
-    public void addSongListenCount(String song) {
+    public void addSongListenCount(final String song) {
         int currentCount = songsListenCount.getOrDefault(song, 0);
         songsListenCount.put(song, currentCount + 1);
     }
@@ -85,7 +91,7 @@ public class WrappedStats {
      *
      * @param album The album to increment the listen count for.
      */
-    public void addAlbumListenCount(String album) {
+    public void addAlbumListenCount(final String album) {
         int currentCount = albumsListenCount.getOrDefault(album, 0);
         albumsListenCount.put(album, currentCount + 1);
     }
@@ -95,7 +101,7 @@ public class WrappedStats {
      *
      * @param episode The episode to increment the listen count for.
      */
-    public void addEpisodeListenCount(String episode) {
+    public void addEpisodeListenCount(final String episode) {
         int currentCount = episodesListenCount.getOrDefault(episode, 0);
         episodesListenCount.put(episode, currentCount + 1);
     }
@@ -105,7 +111,7 @@ public class WrappedStats {
      *
      * @param listener The listener (NormalUser) to increment the listen count for.
      */
-    public void addListenerCount(String listener) {
+    public void addListenerCount(final String listener) {
         int currentCount = listenersCount.getOrDefault(listener, 0);
         listenersCount.put(listener, currentCount + 1);
     }
@@ -119,7 +125,7 @@ public class WrappedStats {
         return artistsListenCount.entrySet().stream()
                 .sorted(Map.Entry.<String, Integer>comparingByValue().reversed()
                         .thenComparing(Map.Entry::getKey))
-                .limit(5)
+                .limit(Constants.MAX_LIST_RETURN)
                 .collect(Collectors.toList());
     }
 
@@ -132,7 +138,7 @@ public class WrappedStats {
         return genresListenCount.entrySet().stream()
                 .sorted(Map.Entry.<String, Integer>comparingByValue().reversed()
                         .thenComparing(Map.Entry::getKey))
-                .limit(5)
+                .limit(Constants.MAX_LIST_RETURN)
                 .collect(Collectors.toList());
     }
 
@@ -145,7 +151,7 @@ public class WrappedStats {
         return songsListenCount.entrySet().stream()
                 .sorted(Map.Entry.<String, Integer>comparingByValue().reversed()
                         .thenComparing(Map.Entry::getKey))
-                .limit(5)
+                .limit(Constants.MAX_LIST_RETURN)
                 .collect(Collectors.toList());
     }
 
@@ -158,7 +164,7 @@ public class WrappedStats {
         return albumsListenCount.entrySet().stream()
                 .sorted(Map.Entry.<String, Integer>comparingByValue().reversed()
                         .thenComparing(Map.Entry::getKey))
-                .limit(5)
+                .limit(Constants.MAX_LIST_RETURN)
                 .collect(Collectors.toList());
     }
 
@@ -170,7 +176,7 @@ public class WrappedStats {
     public List<Map.Entry<String, Integer>> top5Episodes() {
         return episodesListenCount.entrySet().stream()
                 .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
-                .limit(5)
+                .limit(Constants.MAX_LIST_RETURN)
                 .collect(Collectors.toList());
     }
 
@@ -183,7 +189,7 @@ public class WrappedStats {
         return listenersCount.entrySet().stream()
                 .sorted(Map.Entry.<String, Integer>comparingByValue().reversed()
                         .thenComparing(Map.Entry::getKey))
-                .limit(5)
+                .limit(Constants.MAX_LIST_RETURN)
                 .collect(Collectors.toList());
     }
 

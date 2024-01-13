@@ -3,7 +3,6 @@ package app.entities.userside.host;
 import app.commands.normaluser.Notification;
 import app.entities.Library;
 import app.entities.playable.Searchable;
-import app.entities.playable.audio_files.Episode;
 import app.entities.userside.normaluser.NormalUser;
 import app.entities.userside.normaluser.SearchBar;
 import app.entities.userside.User;
@@ -14,19 +13,14 @@ import app.common.Output;
 import app.common.UserTypes;
 import lombok.Getter;
 import lombok.Setter;
-
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
 
 @Setter
 @Getter
 public class Host extends User implements Searchable {
     private ArrayList<Announcement> announcements;
     private HostPage hostPage;
-
     private WrappedStats wrappedStats;
-
     private ArrayList<NormalUser> subscribers;
 
     /**
@@ -111,6 +105,14 @@ public class Host extends User implements Searchable {
         return false;
     }
 
+    /**
+     * Prints wrapped statistics related to a host user, including top episodes and the number
+     * of listeners.
+     * If the wrapped statistics are not registered for the host, an error message is included
+     * in the output.
+     *
+     * @param out The ObjectNode where the wrapped statistics will be printed.
+     */
     @Override
     public void printWrappedStats(final ObjectNode out) {
         if (!wrappedStats.getRegisteredStats()) {
@@ -120,11 +122,7 @@ public class Host extends User implements Searchable {
 
         ObjectNode result = out.putObject(Output.RESULT);
 
-        List<Map.Entry<String, Integer>> topEpisodes = wrappedStats.top5Episodes();
-        ObjectNode episodesNode = result.putObject("topEpisodes");
-        for (Map.Entry<String, Integer> entry : topEpisodes) {
-            episodesNode.put(entry.getKey(), entry.getValue());
-        }
+        NormalUser.buildEpisodes(result, wrappedStats);
 
         int listenersCount = wrappedStats.getListenersCountSize();
         result.put("listeners", listenersCount);
@@ -195,12 +193,22 @@ public class Host extends User implements Searchable {
         user.setCurrentPage(this.getHostPage());
     }
 
-    public void sendNotification(Notification notification) {
+    /**
+     * Sends a notification to all subscribers of this object.
+     *
+     * @param notification The Notification object to be sent to subscribers.
+     */
+    public void sendNotification(final Notification notification) {
         for (NormalUser user : this.subscribers) {
             user.addNotification(notification);
         }
     }
 
+    /**
+     * Subscribes a NormalUser to this object, adding them to the list of subscribers.
+     *
+     * @param user The NormalUser to be subscribed.
+     */
     @Override
     public void subscribe(final NormalUser user) {
         subscribers.add(user);
@@ -222,6 +230,11 @@ public class Host extends User implements Searchable {
         return false;
     }
 
+    /**
+     * Unsubscribes a NormalUser from this object, removing them from the list of subscribers.
+     *
+     * @param user The NormalUser to be unsubscribed.
+     */
     @Override
     public void unsubscribe(final NormalUser user) {
         subscribers.remove(user);

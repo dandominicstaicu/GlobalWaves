@@ -40,6 +40,12 @@ public class Playlist implements Searchable {
         this.followers = followers;
     }
 
+    /**
+     * Initializes a new Playlist object with the given name and an empty list of songs.
+     * Don't care about the other fields
+     *
+     * @param name The name of the playlist.
+     */
     public Playlist(final String name) {
         this.name = name;
         this.songs = new ArrayList<>();
@@ -149,10 +155,20 @@ public class Playlist implements Searchable {
         return getOwner().equals(username);
     }
 
+    /**
+     * Adds a single song to the library.
+     *
+     * @param song The Song object to be added to the library.
+     */
     public void addSong(final Song song) {
         songs.add(song);
     }
 
+    /**
+     * Adds multiple songs to the library.
+     *
+     * @param multipleSongs A list of Song objects to be added to the library.
+     */
     public void addMultipleSongs(final List<Song> multipleSongs) {
         for (Song song : multipleSongs) {
             addSong(song);

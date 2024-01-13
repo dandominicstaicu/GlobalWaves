@@ -25,7 +25,6 @@ public class AdBreak extends Command {
 
     @Override
     public void execute(final ArrayNode outputs, final Library library, final boolean offline) {
-//        System.out.println(this.toString());
 
         ObjectNode out = outputs.addObject();
 
@@ -42,7 +41,6 @@ public class AdBreak extends Command {
             return;
         }
 
-//        System.out.print(getTimestamp());
         user.insertAd(library, price);
         out.put(Output.MESSAGE, Output.AD_SUCCESS);
 

@@ -10,5 +10,8 @@ public final class Constants {
     public static final int OUTBOUND = -1;
     public static final Double PREMIUM_CREDIT = 1000000.0;
     public static final int TOP3 = 3;
+    public static final int TIME_LOWER_BOUND = 30;
+    public static final int SECOND_LIST_RETURN = 3;
+    public static final int THIRD_LIST_RETURN = 2;
 
 }

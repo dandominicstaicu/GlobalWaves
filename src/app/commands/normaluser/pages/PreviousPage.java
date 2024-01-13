@@ -16,7 +16,6 @@ public class PreviousPage extends Command {
 
     @Override
     public void execute(final ArrayNode outputs, final Library library, final boolean offline) {
-//        System.out.println(this.toString());
         ObjectNode out = outputs.addObject();
 
         printCommandInfo(out, Output.PREV_PAGE);

@@ -16,8 +16,18 @@ public interface Page {
      */
     String printPage(Library lib, NormalUser user);
 
+    /**
+     * Gets the type of page associated with this object.
+     *
+     * @return The PageTypes enum value representing the type of page.
+     */
     PageTypes getPageType();
 
+    /**
+     * Gets the owner of this page, which may be null in some cases.
+     *
+     * @return The User object representing the owner of the page, or null if no owner is specified.
+     */
     default User getOwner() {
         return null;
     }
