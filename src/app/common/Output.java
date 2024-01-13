@@ -205,7 +205,7 @@ public final class Output {
     public static final String NEXT_PAGE = "nextPage";
     public static final String NO_NEXT_PAGE = "There are no pages left to go forward.";
     public static final String NEXT_PAGE_SUCCESS = " has navigated successfully to the next page.";
-
+    public static final String NO_NEW_RECOMMENDATION = "No new recommendations were found";
 
 
 }

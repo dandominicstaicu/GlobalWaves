@@ -26,16 +26,24 @@ public class UpdateRecommendations extends Command {
 
     @Override
     public void execute(final ArrayNode outputs, final Library library, final boolean offline) {
-        System.out.println(this.toString());
+//        System.out.println(this.toString());
         ObjectNode out = outputs.addObject();
 
         printCommandInfo(out, Output.UPDATE_RECOMMENDATIONS);
 
-        out.put(Output.MESSAGE, "The recommendations for user " + getUsername() + " have been updated successfully.");
-
         NormalUser user = library.getUserWithUsername(getUsername());
+        if (user == null) {
+            out.put(Output.MESSAGE, "The username " + getUsername() + " doesn't exist.");
+            return;
+        }
 
-        user.updateRecommendations(transformType(getRecommendationType()));
+        boolean result = user.updateRecommendations(transformType(getRecommendationType()));
+
+        if (result) {
+            out.put(Output.MESSAGE, "The recommendations for user " + getUsername() + " have been updated successfully.");
+        } else {
+            out.put(Output.MESSAGE, Output.NO_NEW_RECOMMENDATION);
+        }
     }
 
     private UpdateRecommend transformType(String type) {

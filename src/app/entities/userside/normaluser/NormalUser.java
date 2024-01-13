@@ -386,7 +386,7 @@ public class NormalUser extends User {
                 .collect(Collectors.toCollection(ArrayList::new));
     }
 
-    public void updateRecommendations(final UpdateRecommend type) {
+    public boolean updateRecommendations(final UpdateRecommend type) {
         int elapsedTime = player.getPlayedTimeOfCurrentSong();
 
 //        System.out.println("elapsed time: " + elapsedTime);
@@ -394,21 +394,29 @@ public class NormalUser extends User {
         switch (type) {
             case RANDOM_SONG -> {
                 if (elapsedTime < 30) {
-                    return;
+                    return false;
                 }
 
                 System.out.println("s0ng");
                 addRandomSong();
+
+                return true;
             }
             case RANDOM_PLAYLIST -> {
                 System.out.println("playlist");
                 createRandomPlaylist();
+
+                return !playlistsRecommendations.isEmpty();
             }
             case FANS_PLAYLIST -> {
                 System.out.println("fans");
                 createFansPlayList();
+
+                return !playlistsRecommendations.getSongs().isEmpty();
             }
         }
+
+        return false;
     }
 
     private void createRandomPlaylist() {
@@ -527,15 +535,11 @@ public class NormalUser extends User {
     private void createFansPlayList() {
         AudioFile playing = player.getCurrentlyPlaying();
         String artistName = playing.getFileOwner();
-
         Library lib = Library.getInstance();
         Artist artist = lib.getArtistWithName(artistName);
-
         String playlistName = artistName + " Fan Club recommendations";
-
         Playlist fansPlaylist = new Playlist(playlistName);
 
-//        List<String> fansNames = artist.getWrappedStats().top5Fans();
         WrappedStats artistsStats = artist.getWrappedStats();
         List<Map.Entry<String, Integer>> topFans = artistsStats.top5Fans();
         for (Map.Entry<String, Integer> entry : topFans) {
@@ -552,10 +556,8 @@ public class NormalUser extends User {
 
         // TODO maybe add in the existing playlist these instead of replacing
         this.playlistsRecommendations = fansPlaylist;
-//        playlistsRecommendations.add(fansPlaylist);
-        System.out.println("cyka: " + this.playlistsRecommendations);
+        System.out.println("fans playlist size: " + playlistsRecommendations.getSongs().size());
         lastRecommendation = fansPlaylist;
-
     }
 
     private void removeAllFromIndex(ArrayList<?> list, int fromIndex) {

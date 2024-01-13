@@ -5869,7 +5869,7 @@
   "command" : "updateRecommendations",
   "user" : "carol19",
   "timestamp" : 4803,
-  "message" : "The recommendations for user carol19 have been updated successfully."
+  "message" : "No new recommendations were found"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -23319,7 +23319,7 @@
   "command" : "updateRecommendations",
   "user" : "carol19",
   "timestamp" : 26373,
-  "message" : "The recommendations for user carol19 have been updated successfully."
+  "message" : "No new recommendations were found"
 }, {
   "command" : "search",
   "user" : "henry26",

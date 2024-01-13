@@ -10616,7 +10616,7 @@
   "command" : "updateRecommendations",
   "user" : "frank21",
   "timestamp" : 10594,
-  "message" : "The recommendations for user frank21 have been updated successfully."
+  "message" : "No new recommendations were found"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -17588,7 +17588,7 @@
   "command" : "updateRecommendations",
   "user" : "irene33",
   "timestamp" : 19187,
-  "message" : "The recommendations for user irene33 have been updated successfully."
+  "message" : "No new recommendations were found"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -22719,7 +22719,7 @@
   "command" : "updateRecommendations",
   "user" : "grace25",
   "timestamp" : 27888,
-  "message" : "The recommendations for user grace25 have been updated successfully."
+  "message" : "No new recommendations were found"
 }, {
   "command" : "search",
   "user" : "frank21",
