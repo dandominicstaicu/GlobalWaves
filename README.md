@@ -4,9 +4,70 @@
 [Behind the scene:](https://youtu.be/5X0f4tF9Sl8?si=7F939ljX8TOdXuPE) https://youtu.be/5X0f4tF9Sl8?si=7F939ljX8TOdXuPE
 
 ## Overview - 3rd step
-Continued the project the same Github repo and my own skeleton from the first 2 stages;
+Continued the project the same GitHub repo and my own skeleton from the first 2 stages;
 
-### New Features
+### Design patterns
+
+   1. Extended with new commands that were implemented over the **command pattern** from the 1st stage of this project. It was easy to add new classes for each command.
+It was necessary to have different classes for each command because their behaviour is generally different. For the output of the general data about the command, I have created a method that prints it;
+In my opinion right now, only a few classes could have been spared. For example, Prev/Next or BuyPremium/CancelPremium could have been merged into one class;
+Otherwise, I chose the **command pattern** in order to avoid the cyclomatic complexity created by a switch or many branches of if...else;
+The **command pattern** is implemented by having a *Command* abstract class that is extended by the commands; It has the abstract method execute, implemented differently by each command;
+In the main function, it keeps an Array of Command(s) after reading the input. Using a for loop, it iterates through all the commands and calls the execute() method of each in order to perform their actions;
+
+   2. The **Singleton pattern** was implemented on the Library class because I want to have exactly one instance of the library (where I keep all the songs, albums, users, entities in general etc);
+With this pattern it is easy to access the instance without passing it as an argument to the method. The execute() method of the commands still have the Library param because I implemented that before thinking about singleton and was easier t keep things like that.
+It is implemented by having a private constructor in the Library. this is called only from inside by the method that initializes the library (at the beginning when imputing the data from the given library.json);
+It gets the only created instance of library by using the getInstance static method;
+bonus: chatGPT suggested me that I make this method "synchronized", even though it is not necessary in my project. This keyword is used for thread safety. It ensures only one thread can execute the method at a time.
+
+   3. When creating a new user, I used the **factory pattern** because it creates a new User object (that can be a normal, host or artist) according to the input;
+All types of users extend the abstract class User; the final class UserFactory has a method that returns an User object according to the given type;
+It is only one method that returns an object of a subclass of User; the subclasses are not abstract, they have implementations for all their methods;
+
+   4. The **strategy pattern** is used in multiple classes/interfaces; It is used whenever I have multiple objects of different type that have mutual features, but with different behaviour;
+For example, the Searchable interface is implemented by a lot of classes: Album, Artist, Host, Playlist, Podcast and Song;
+All of these can be found in the searchbar (for some cases, their Page, but the SearchBar should be able to find them);
+They have mutual methods that behave differently. For example, the Song, Album and Playlist have to be able to be loaded in the queue of a music player;
+The Song is loaded directly in the queue as the only element in the player. On the other side, for the Album or Playlist, this method clears the queue and adds all the songs from these collections in the queue;
+
+   5. I tried implementing the **Observer pattern** over the existing code for notification. The User abstract class acts as the Observer (by having the method sendNotification), and the Artist and Hosts are the subjects(by having the methods subscribe and unsubscribe)
+When the Subjects add new merch/events etc the observers (subscribers) are sent a notification that is kept in the NormalUser;
+
+   Bonus:
+   1. **Builder pattern** implemented by the Project Lombok library to reduce boilerplate code such as builders;
+the annotation @Builder is used to automatically generate a static inner class in the classes that has methods corresponding to each field of the outer class;
+The **builder pattern** is used to construct complex objects step by step; this pattern encapsulates the construction of an object so that the Jackson library can deserialize a JSON input into a class;
+In my project, it is used for the commands;
+
+
+## Implemented over my skeleton from the 2nd stage:
+
+1. Wrapped and User Statistics
+2. Monetization
+3. Notifications
+4. Recommendations
+5. Extended Page Navigation
+
+### Wrapped and Statistics
+Created new class for every NormalUser that keeps track of all the listened tracks.
+When wrapped is called, the statistics are calculated over the whole history (that also tracks the deleted audio files/collections)
+
+### Monetization
+When the user is free, I keep a history of the songs listened as free. When an ad break is happening, the revenue for each artist and song is calculated according to the given formulas
+The free history is deleted and keeps track only on the following songs, until the next ad break and has to calculate again the revenues;
+
+Same story for a premium user, we keep a premium history in parallel for the tracks listened as premium.
+it calculates the revenue per listened song at the end, end meaning either the user cancels premium, either the program ends; the revenue is calculated for each song and artist according to the given formula.
+
+### Notifications
+Notifications are explained above, where I explained how I tried implementing Observer pattern;
+
+### Recommendations
+The recommendations are calculated when the command is inputted; according to the type of the recommendation, it searches over the library for songs, as described in the request of the project;
+The recommendations are kept in the user in lists; It also keeps track of what was recommended last time, so it can call load it in the player when load recommendations is called;
+loadRecommendations uses the load method that is used at the call of load command;
+
 
 
 ## Overview - 2nd step
@@ -27,7 +88,7 @@ In the 2nd step of the project, there were the following new features added:
 
 ### New types of commands
 They were easy to extend because I was using the **command pattern** in the 1st step. I just had to create new classes that inherit the Command class and override the execute method.
-All the classes of the commands implement the **builder pattern** by using the lombok addnotation `@Builder` that automatically generates the builder class for the command.
+All the classes of the commands implement the **builder pattern** by using the lombok annotation `@Builder` that automatically generates the builder class for the command.
 It is required by the Jackson library in order to deserialize the input into a list of commands given in format JSON.
 All the commands can be found in the app.commands package. They are organized in subpackages according to their functionality.
 I have created a new method in the abstract class Command that handles the generic output of JSON that is common for all the commands.

@@ -69,7 +69,6 @@ public class NormalUser extends User {
 
         this.pageHistory = new ArrayList<>();
 
-//        this.playlistsRecommendations = new ArrayList<>();
         this.playlistsRecommendations = null;
         this.songRecommendations = new ArrayList<>();
     }
