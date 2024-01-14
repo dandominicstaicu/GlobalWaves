@@ -18,10 +18,18 @@ public class BuyPremium extends Command {
         return "BuyPremium{}" + super.toString();
     }
 
+    /**
+     * Executes the BuyPremium command, allowing a user to purchase a premium subscription.
+     * This method checks if the user exists, if they are not already premium, and then sets
+     * their premium status to true.
+     * It adds an appropriate message to the output.
+     *
+     * @param outputs  The ArrayNode where the output will be added.
+     * @param library  The Library object containing user data.
+     * @param offline  A boolean indicating whether the user is offline.
+     */
     @Override
     public void execute(final ArrayNode outputs, final Library library, final boolean offline) {
-//        System.out.println(this.toString());
-
         ObjectNode out = outputs.addObject();
 
         printCommandInfo(out, Output.BUY_PREMIUM);

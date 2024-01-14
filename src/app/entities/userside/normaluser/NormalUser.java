@@ -1,7 +1,7 @@
 package app.entities.userside.normaluser;
 
 import app.commands.normaluser.Notification;
-import app.commands.specialusers.artist.Monetization;
+import app.entities.userside.artist.Monetization;
 import app.common.Constants;
 import app.common.Output;
 import app.common.UpdateRecommend;

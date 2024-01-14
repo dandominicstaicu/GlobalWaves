@@ -1,7 +1,6 @@
 package app.entities.userside.artist;
 
 import app.commands.normaluser.Notification;
-import app.commands.specialusers.artist.Monetization;
 import app.entities.Library;
 import app.entities.playable.Album;
 import app.entities.playable.Searchable;

@@ -11,14 +11,30 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 public class Subscribe extends Command {
+    /**
+     * Returns a string representation of this Subscribe object.
+     *
+     * @return A string representation of this Subscribe object.
+     */
     @Override
     public String toString() {
         return super.toString() + "Subscribe{}";
     }
 
+    /**
+     * Executes the Subscribe command, allowing a user to subscribe or unsubscribe from an artist
+     * or host's page.
+     * This method checks if the user and the current page exist and if it's an artist or
+     * host page.
+     * It then subscribes or unsubscribes the user accordingly and adds an appropriate message
+     * to the output.
+     *
+     * @param outputs  The ArrayNode where the output will be added.
+     * @param library  The Library object containing user, artist, and host data.
+     * @param offline  A boolean indicating whether the user is offline.
+     */
     @Override
     public void execute(final ArrayNode outputs, final Library library, final boolean offline) {
-//        System.out.println(this.toString());
         ObjectNode out = outputs.addObject();
 
         printCommandInfo(out, Output.SUBSCRIBE);
@@ -47,12 +63,14 @@ public class Subscribe extends Command {
         }
     }
 
-    private void handleOutput(final ObjectNode out, final String subscribeStat, final PageTypes specialUserType,
-                              final User specialUser) {
+    private void handleOutput(final ObjectNode out, final String subscribeStat,
+                              final PageTypes specialUserType, final User specialUser) {
         if (specialUserType.equals(PageTypes.ARTIST_PAGE)) {
-            out.put(Output.MESSAGE, getUsername() + subscribeStat + specialUser.getUsername() + " successfully.");
+            out.put(Output.MESSAGE, getUsername() + subscribeStat + specialUser.getUsername()
+                    + " successfully.");
         } else {
-            out.put(Output.MESSAGE, getUsername() + subscribeStat + specialUser.getUsername() + " successfully.");
+            out.put(Output.MESSAGE, getUsername() + subscribeStat + specialUser.getUsername()
+                    + " successfully.");
         }
     }
 }

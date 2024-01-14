@@ -13,5 +13,6 @@ public final class Constants {
     public static final int TIME_LOWER_BOUND = 30;
     public static final int SECOND_LIST_RETURN = 3;
     public static final int THIRD_LIST_RETURN = 2;
+    public static final Double DISPLAY_CONST = 100.0;
 
 }

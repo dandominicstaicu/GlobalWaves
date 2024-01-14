@@ -1,6 +1,6 @@
 package app.entities.playable.audio_files;
 
-import app.commands.specialusers.artist.Monetization;
+import app.entities.userside.artist.Monetization;
 import app.entities.Library;
 import app.entities.playable.Album;
 import app.entities.playable.Searchable;
@@ -56,8 +56,14 @@ public class Song extends AudioFile implements Searchable {
         this.likes = 0;
     }
 
+    /**
+     * Compares this Song object with another object for equality.
+     *
+     * @param o The object to compare with this Song.
+     * @return true if the objects are equal, false otherwise.
+     */
     @Override
-    public boolean equals(Object o) {
+    public boolean equals(final Object o) {
         if (this == o) {
             return true;
         }
@@ -80,9 +86,15 @@ public class Song extends AudioFile implements Searchable {
                 && Objects.equals(getDuration(), song.getDuration());
     }
 
+    /**
+     * Generates a hash code for this Song object based on its attributes.
+     *
+     * @return The hash code for this Song object.
+     */
     @Override
     public int hashCode() {
-        return Objects.hash(super.hashCode(), album, tags, lyrics, genre, releaseYear, artist, likes);
+        return Objects.hash(super.hashCode(), album, tags, lyrics, genre,
+                releaseYear, artist, likes);
     }
 
     /**
@@ -174,8 +186,8 @@ public class Song extends AudioFile implements Searchable {
         stats.addAlbumListenCount(this.getAlbum());
 
         // stats for the artist
-        Artist artist = lib.getArtistWithName(this.getArtist());
-        WrappedStats artistStats = artist.getWrappedStats();
+        Artist artistInstance = lib.getArtistWithName(this.getArtist());
+        WrappedStats artistStats = artistInstance.getWrappedStats();
 
         artistStats.registerStats();
 
@@ -184,7 +196,7 @@ public class Song extends AudioFile implements Searchable {
         artistStats.addListenerCount(user.getUsername());
 
         // monetization
-        Monetization monetization = artist.getMonetization();
+        Monetization monetization = artistInstance.getMonetization();
         monetization.interact();
 
         // add the song in the history of the user

@@ -6,7 +6,6 @@ import app.entities.userside.artist.Artist;
 import app.entities.userside.host.Host;
 import app.entities.userside.normaluser.NormalUser;
 import app.entities.userside.normaluser.UserPlayer;
-import app.entities.userside.pages.ArtistPage;
 import app.entities.userside.pages.LikedContentPage;
 import app.entities.userside.pages.Page;
 import com.fasterxml.jackson.databind.node.ArrayNode;
@@ -91,7 +90,7 @@ public class ChangePage extends Command {
                 String artistName = playingSong.getFileOwner();
                 Artist artist = lib.getArtistWithName(artistName);
                 Page artistPage = artist.getArtistPage();
-                
+
                 setPageAndCreateMessage(user, artistPage, "Artist", out);
                 break;
             case "Host":
